@@ -7,7 +7,7 @@
       "field_name": "query_text",
       "field_type": "string",
       "description": "全文搜索内容，对保险合同所有文本进行模糊匹配",
-      "target_index_field": "entity_name",
+      "target_index_field": "name",
       "match_method": "fuzzy",
       "weight": 1.0,
       "required": true
@@ -16,7 +16,7 @@
       "field_name": "entity_name",
       "field_type": "string",
       "description": "保险合同实体名称匹配，如保险人、投保人、被保险人、受益人、保险标的、险种名称、产品名称、贷款，缴费等",
-      "target_index_field": "entity_name",
+      "target_index_field": "name",
       "match_method": "fuzzy",
       "weight": 0.8,
       "required": false
@@ -71,7 +71,7 @@
     {
       "field_name": "contract_name",
       "field_type": "string",
-      "description": "保险产品名称，尽可能使用产品完整的名称",
+      "description": "保险产品名称，尽可能使用产品完整的名称,例如各种类型保险名称",
       "target_index_field": "contract_name",
       "match_method": "fuzzy",
       "weight": 1.0,
