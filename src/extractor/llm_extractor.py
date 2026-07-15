@@ -1,7 +1,7 @@
 import json
 import re
 from loguru import logger
-from typing import Dict, Optional
+from typing import Dict, Optional, List
 
 import openai
 
@@ -46,6 +46,47 @@ class LLMExtractor:
             except Exception as e:
                 logger.warning(f"LLM提取异常 (尝试 {attempt + 1}/{self.max_retries}): {e}")
         raise ExtractionError("LLM调用失败，已达到最大重试次数")
+    
+    def filter(self, question: str, doc_ids: List[Dict]) -> Dict[str, Optional[str]]:
+        prompt = """
+问题内容：
+
+{question}
+
+文档信息：
+{docs}
+
+请仔细理解上述文本已经候选文档信息，选择所以需要阅读的文档，直接输出文档id即可
+
+输出格式：
+
+["...",...]
+
+请直接输出json数据，不需要添加其他内容，不需要使用```包裹
+"""
+        prompt = prompt.format(question=question, docs=json.dumps(doc_ids,ensure_ascii=False, indent=2))
+        for attempt in range(self.max_retries):
+            try:
+                response = self.client.chat.completions.create(
+                    model=self.model,
+                    messages=[{"role": "user", "content": prompt}],
+                    temperature=self.temperature,
+                    response_format={"type": "json_object"},
+                    timeout=self.timeout,
+                    extra_body = {
+                        "enable_thinking": False,
+                        "thinking":{"type": "disabled"}
+                    }
+                )
+                raw_text = response.choices[0].message.content.strip()
+                result = json.loads(raw_text)
+                # logger.info(f"LLM提取成功: {result}")
+                return result
+            except openai.APIError as e:
+                logger.warning(f"LLM调用失败 (尝试 {attempt + 1}/{self.max_retries}): {e}")
+            except Exception as e:
+                logger.warning(f"LLM提取异常 (尝试 {attempt + 1}/{self.max_retries}): {e}")
+        raise ExtractionError("LLM调用失败，已达到最大重试次数")
 
     def _build_prompt(self, question: str, schema: CategorySchema) -> str:
         fields_desc = []
@@ -72,7 +113,7 @@ class LLMExtractor:
             "- 严格设置doc_ids,如果题目明确指出信息所在文档，只填写对于文档id，没有明确指出或者全部文档都需要查询时，列出所有文档id。\n"
             "- 需要多次查询，例如不同文档查询条件不一样时，输出多组查询\n"
             "- 问题中存在数值，需要重点关注，存在数值需要在合适位置查询，不可丢失\n"
-            "- 仅可能填充字段，例如问题存在关键实体，应该在实体名称，关系首位实体上都进行查询\n"
+            "- 仅可能填充字段，例如问题或选项存在关键实体，应该在实体名称，关系首位实体上都进行查询\n"
             "- 不要编造信息。\n\n"
             f"问题类别：{schema.category_name}\n"
             f"提取字段说明：\n{fields_description}\n\n"

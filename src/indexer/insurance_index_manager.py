@@ -415,7 +415,11 @@ class InsuranceIndexManager:
             if doc_filter is not None:
                 q = wquery.And([doc_filter, q])
             results = searcher.search(q, limit=limit)
-            return [(hit["doc_id"], hit.score) for hit in results]
+            return [({
+                "doc_id":hit["doc_id"],
+                "insurer":hit['insurer'],
+                "contract_name":hit['contract_name']
+            }, hit.score) for hit in results]
 
     def search_entities_for_scoring(
         self,

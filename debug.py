@@ -9,9 +9,6 @@ QUESTION_PROMPT = """
 {question}
 
 {options}
-
-文档名称与文档 id：
-{doc_ids}
 """
 
 ANSWER_PROMPT = {
@@ -144,8 +141,7 @@ def main(data, client:OpenAI, retriever:Retriever, qid):
             if 'tf'==record['answer_format']:
                 question = QUESTION_PROMPT.format(
                     question=question_str,
-                    options=options,
-                    doc_ids=doc_ids)
+                    options=options)
                 results = retriever.retrieve(question, top_k=5, category_name="保险合同检索")
                 for result in results:
                         chunks.extend(result['results'])
@@ -153,18 +149,18 @@ def main(data, client:OpenAI, retriever:Retriever, qid):
                 for k,v in options.items():
                     question = QUESTION_PROMPT.format(
                         question=question_str,
-                        options=f"{k}. {v}",
-                        doc_ids=doc_ids)
+                        options=f"{k}. {v}")
                     results = retriever.retrieve(question, top_k=5, category_name="保险合同检索")
                     for result in results:
                         chunks.extend(result['results'])
 
+            chunks.sort(key=lambda x:x.score, reverse=True)
             # 汇总并截断
             docs = {}
             used_chunks = []
             for chunk in chunks:
-                if '阅读指引' in chunk.chunk.section_title.replace(' ',''):
-                    continue
+                # if '阅读指引' in chunk.chunk.section_title.replace(' ',''):
+                #     continue
                 if chunk.chunk.chunk_id not in used_chunks:
                     used_chunks.append(chunk.chunk.chunk_id)
                 else:
@@ -178,7 +174,7 @@ def main(data, client:OpenAI, retriever:Retriever, qid):
                 v_ = [_.chunk for _ in v if _.score>0.2]
                 if len(v_)==0:
                     v_ = [v[-1].chunk]
-                docs[k] = [v[-1].chunk]
+                docs[k] = v_
 
             # 构建可读性强文档
             used_titles = []

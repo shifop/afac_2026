@@ -46,15 +46,9 @@ class WhooshSearcher:
         self.chunk_dict = chunk_dict
         self.context_window = context_window or {"prev": 1, "next": 1}
 
-    def search(
-        self,
-        structured_q: StructuredQuery,
-        top_k: int = 10,
-        doc_ids: Optional[List[str]] = None,
-    ) -> List[RetrievedChunk]:
-        # 查询meta数据，限制后续查询范围
-        structured_q_copy = deepcopy(structured_q)
+    def filter(self, structured_q: StructuredQuery):
         doc_ids = []
+        structured_q_copy = deepcopy(structured_q)
         for filter_ in structured_q_copy.filters:
             structured_q_copy.fields = filter_
             meta_query = self._build_channel_query(structured_q_copy, META_FIELDS)
@@ -66,6 +60,15 @@ class WhooshSearcher:
                 doc_ids.extend([_[0] for _ in hits[:2]])
         if len(doc_ids)==0:
             doc_ids = None
+
+        return doc_ids
+
+    def search(
+        self,
+        structured_q: StructuredQuery,
+        top_k: int = 10,
+        doc_ids: Optional[List[str]] = None,
+    ) -> List[RetrievedChunk]:
         # 构建文档过滤器
         doc_filter = self._build_doc_filter(doc_ids)
 
