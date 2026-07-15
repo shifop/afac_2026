@@ -1,0 +1,10 @@
+{
+  "status": "uploaded",
+  "doc_id": "600036_2025",
+  "version_ts": 1782050640,
+  "output_path": "./data/output/financial_reports/600036_2025/600036_2025_v1782050640.json",
+  "file_path": "/HDD/mwx/qa_agent/data/inputs/financial_reports/annual_cmb_2025_report.md",
+  "doc_type": "ANNUAL",
+  "extracted_at": 1782050640,
+  "uploaded_at": 1782318239
+}

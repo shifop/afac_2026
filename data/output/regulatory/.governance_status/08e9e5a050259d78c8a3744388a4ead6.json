@@ -1,0 +1,10 @@
+{
+  "status": "uploaded",
+  "doc_id": "08e9e5a050259d78c8a3744388a4ead6",
+  "version_ts": 1782468279,
+  "output_path": "./data/output/regulatory_text/08e9e5a050259d78c8a3744388a4ead6/08e9e5a050259d78c8a3744388a4ead6_v1782468279.json",
+  "file_path": "/HDD/mwx/agent/qa_agent/data/inputs/regulatory_text/strict_v3_017_中华人民共和国反洗钱法.txt",
+  "doc_type": "REG",
+  "extracted_at": 1782468294,
+  "uploaded_at": 1782468294
+}

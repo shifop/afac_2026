@@ -1,0 +1,10 @@
+{
+  "status": "uploaded",
+  "doc_id": "3db63352510d210056b88dd4157a6f51",
+  "version_ts": 1782270246,
+  "output_path": "./data/test/financial_contracts/3db63352510d210056b88dd4157a6f51/3db63352510d210056b88dd4157a6f51_v1782270246.json",
+  "file_path": "/HDD/mwx/qa_agent/data/inputs/financial_contracts/text01.md",
+  "doc_type": "PROSPECTUS",
+  "extracted_at": 1782270246,
+  "uploaded_at": 1782312294
+}

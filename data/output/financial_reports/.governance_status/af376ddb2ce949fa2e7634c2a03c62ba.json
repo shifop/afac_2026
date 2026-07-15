@@ -1,0 +1,10 @@
+{
+  "status": "uploaded",
+  "doc_id": "000333.SZ_2025",
+  "version_ts": 1782284546,
+  "output_path": "./data/output/financial_reports/000333.SZ_2025/000333.SZ_2025_v1782284546.json",
+  "file_path": "/HDD/mwx/qa_agent/data/inputs/financial_reports/annual_midea_2025_report.md",
+  "doc_type": "ANNUAL",
+  "extracted_at": 1782284546,
+  "uploaded_at": 1782317017
+}

@@ -1,0 +1,8 @@
+llm:
+  api_base: "http://localhost:1234/v1"
+  api_key: "not-needed"
+  extraction_model: "qwen2.5-7b-instruct"
+  classification_model: "qwen2.5-7b-instruct"
+  timeout: 30
+  max_retries: 2
+  temperature: 0.0

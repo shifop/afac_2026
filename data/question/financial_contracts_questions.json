@@ -1,0 +1,352 @@
+[
+  {
+    "qid": "fc_a_001",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "基于提供的两份债券募集说明书摘要，关于发行主体、发行规模及中介机构安排，下列哪些描述是准确的？",
+    "options": {
+      "A": "第一份文档的发行人名称为广东省广晟控股集团有限公司",
+      "B": "第二份文档的发行金额上限低于第一份文档",
+      "C": "两份文档的主体信用评级均为 AAA",
+      "D": "第二份文档明确指定国信证券股份有限公司为受托管理人"
+    },
+    "answer_format": "multi",
+    "type": "多选题",
+    "doc_ids": [
+      "text01",
+      "text02"
+    ]
+  },
+  {
+    "qid": "fc_a_002",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "对比两份文档中的债券发行要素与评级信息，以下哪些结论成立？",
+    "options": {
+      "A": "两份文档的发行人主体信用评级均达到 AAA 级别",
+      "B": "第二份文档的本期发行金额上限高于第一份文档",
+      "C": "两份文档均明确标注了债项信用评级为负值",
+      "D": "第二份文档的发行人属于证券公司类别"
+    },
+    "answer_format": "multi",
+    "type": "多选题",
+    "doc_ids": [
+      "text01",
+      "text14"
+    ]
+  },
+  {
+    "qid": "fc_a_003",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "两份文档均包含关于发行人将及时、公平地履行信息披露义务的明确承诺条款。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer_format": "tf",
+    "type": "判断题",
+    "doc_ids": [
+      "text01",
+      "text03"
+    ]
+  },
+  {
+    "qid": "fc_a_004",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "结合两份文档内容，关于发行限额与财务指标披露情况，下列说法正确的是？",
+    "options": {
+      "A": "第一份文档显示的本期债券发行金额上限为 10 亿元",
+      "B": "第二份文档中提及的注册金额上限为 180 亿元",
+      "C": "两份文档均详细列出了发行人最近三年的净利润数据",
+      "D": "第二份文档中提供了具体的资产负债率历史数据，数值在 63% 至 66% 之间"
+    },
+    "answer_format": "multi",
+    "type": "多选题",
+    "doc_ids": [
+      "text01",
+      "text13"
+    ]
+  },
+  {
+    "qid": "fc_a_005",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "针对两份文档所涉及的发行主体及交易结构特征，以下哪些判断符合文档内容？",
+    "options": {
+      "A": "第一份文档的发行人是广东省广晟控股集团有限公司",
+      "B": "第二份文档的内容涉及发行股份购买资产并募集配套资金的交易结构",
+      "C": "两份文档均明确给出了发行人的合并口径资产负债率具体数值",
+      "D": "第二份文档中标的公司控股股东的资产负债率为 43.24%"
+    },
+    "answer_format": "multi",
+    "type": "多选题",
+    "doc_ids": [
+      "text01",
+      "text10"
+    ]
+  },
+  {
+    "qid": "fc_a_006",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "文档 fc_text_001 和 fc_text_004 均提及了涉及债券持有人权利的保护性条款，如回售选择权或相关赎回安排。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer_format": "tf",
+    "type": "判断题",
+    "doc_ids": [
+      "text01",
+      "text04"
+    ]
+  },
+  {
+    "qid": "fc_a_007",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "关于文档 fc_text_002 和 fc_text_014 的内容，下列哪些说法是正确的？",
+    "options": {
+      "A": "两家发行人的主体信用评级均为 AAA 级",
+      "B": "两份文件均对本期债券的发行规模设定了上限",
+      "C": "两家发行人均为证券公司",
+      "D": "两份文件均提到了具体的违约情形描述或相关条款"
+    },
+    "answer_format": "multi",
+    "type": "多选题",
+    "doc_ids": [
+      "text02",
+      "text14"
+    ]
+  },
+  {
+    "qid": "fc_a_008",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "结合文档 fc_text_002 和 fc_text_003 的信息，以下哪项描述准确反映了其中关于违约赔偿或发行规模的细节？",
+    "options": {
+      "A": "文档 fc_text_002 显示本期债券发行金额为 10 亿元",
+      "B": "文档 fc_text_003 中提到的违约赔偿计算公式包含 150% 的惩罚系数",
+      "C": "文档 fc_text_002 的主体信用评级为 AAA 级",
+      "D": "文档 fc_text_003 明确记载发行人是厦门金圆投资集团有限公司且无任何其他信息冲突"
+    },
+    "answer_format": "mcq",
+    "type": "单选题",
+    "doc_ids": [
+      "text02",
+      "text03"
+    ]
+  },
+  {
+    "qid": "fc_a_009",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "对比文档 fc_text_002 和 fc_text_010 的内容，下列哪些陈述符合文档披露的事实？",
+    "options": {
+      "A": "文档 fc_text_002 的发行人主体评级为 AA+",
+      "B": "文档 fc_text_010 披露的标的公司控股股东力诺投资在 2024 年 12 月 31 日的资产负债率为 43.24%",
+      "C": "文档 fc_text_002 的发行金额上限为 10 亿元",
+      "D": "两份文档均提及了关于违约或补偿的相关条款"
+    },
+    "answer_format": "multi",
+    "type": "多选题",
+    "doc_ids": [
+      "text02",
+      "text10"
+    ]
+  },
+  {
+    "qid": "fc_a_010",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "基于给定文档，判断陈述是否正确：文档 fc_text_006 中明确列出了转股价格向下修正条款，而文档 fc_text_002 中未出现该特定术语。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer_format": "tf",
+    "type": "判断题",
+    "doc_ids": [
+      "text02",
+      "text06"
+    ]
+  },
+  {
+    "qid": "fc_a_011",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "关于文档中涉及的发行主体信息及文件基本要素，下列描述正确的有？",
+    "options": {
+      "A": "fc_text_002 的发行人名称中包含“深圳市融资租赁”字样",
+      "B": "fc_text_007 中明确标注了证券上市地点为深圳证券交易所",
+      "C": "fc_text_002 的债券发行金额上限设定为 10 亿元",
+      "D": "fc_text_007 的文件类型被定义为面向专业投资者的债券募集说明书"
+    },
+    "answer_format": "multi",
+    "type": "事实核对与属性比对",
+    "doc_ids": [
+      "text02",
+      "text07"
+    ]
+  },
+  {
+    "qid": "fc_a_012",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "结合两份文档内容，关于发行人责任承诺及财务指标的描述，下列选项正确的有？",
+    "options": {
+      "A": "fc_text_003 中明确约定了回售或赎回部分债券的兑付日为 2031 年 4 月 23 日",
+      "B": "fc_text_013 中披露的利润总额呈逐年下降趋势",
+      "C": "fc_text_013 中发行人资产负债率从 66.38% 降至 63.51%，总体呈下降趋势",
+      "D": "fc_text_003 中违约利息计算公式包含 150% 的系数"
+    },
+    "answer_format": "multi",
+    "type": "数据趋势与条款细节比对",
+    "doc_ids": [
+      "text03",
+      "text13"
+    ]
+  },
+  {
+    "qid": "fc_a_013",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "根据提供的文档片段，判断以下陈述是否正确：两份文档均提及了董事及高级管理人员需对文件内容的真实性承担责任，且其中一份文档披露了标的公司控股股东力诺投资的资产负债率为 43.24%。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer_format": "tf",
+    "type": "一致性校验",
+    "doc_ids": [
+      "text03",
+      "text10"
+    ]
+  },
+  {
+    "qid": "fc_a_014",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "对比两份文档中的违约责任与特殊条款，以下说法正确的有？",
+    "options": {
+      "A": "fc_text_003 约定的违约利息计算基数包含本金和利息",
+      "B": "fc_text_008 规定若触发资产减值补偿条款，甲方应在报告出具之日起 10 日内通知",
+      "C": "fc_text_003 中债券品种一的兑付日设定在 2031 年",
+      "D": "fc_text_008 中资产减值补偿通知期限被设定为 5 日"
+    },
+    "answer_format": "multi",
+    "type": "违约责任与条款细节比对",
+    "doc_ids": [
+      "text03",
+      "text08"
+    ]
+  },
+  {
+    "qid": "fc_a_015",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "基于文档信息，关于两家发行人的债券发行要素，下列哪一项描述是准确的？",
+    "options": {
+      "A": "fc_text_003 的发行人主体评级为 AAA 级",
+      "B": "fc_text_014 的注册金额为不超过 180 亿元",
+      "C": "fc_text_003 的违约罚息利率倍数为 200%",
+      "D": "fc_text_014 的主承销商为国信证券股份有限公司"
+    },
+    "answer_format": "mcq",
+    "type": "发行要素识别",
+    "doc_ids": [
+      "text03",
+      "text14"
+    ]
+  },
+  {
+    "qid": "fc_a_016",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "关于所涉可转换公司债券的发行条款与财务影响，以下哪些描述符合文档记载？",
+    "options": {
+      "A": "其中一份文档明确记载了初始转股价为每股 19.59 元",
+      "B": "两份文档均提及本次发行的可转债包含有条件赎回条款",
+      "C": "其中一份文档指出全部转股后公司资产负债率将下降至 26.99%",
+      "D": "所有文档显示的保荐机构均为中国国际金融股份有限公司"
+    },
+    "answer_format": "multi",
+    "type": "clause_verification",
+    "doc_ids": [
+      "text04",
+      "text09"
+    ]
+  },
+  {
+    "qid": "fc_a_017",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "结合相关募集说明书内容，关于可转换债券的基本条款与发行信息，下列说法正确的是？",
+    "options": {
+      "A": "两份文档均涉及转股价格向下修正的相关条款",
+      "B": "第一份文档的股票代码与第二份文档的股票代码不一致",
+      "C": "两份文档均明确标注发行日期为 2025 年 9 月",
+      "D": "两份文档均提到了可转债设置有条件赎回条款"
+    },
+    "answer_format": "multi",
+    "type": "clause_verification",
+    "doc_ids": [
+      "text04",
+      "text05"
+    ]
+  },
+  {
+    "qid": "fc_a_018",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "根据文档披露的时间信息，第二份文件中的可转债发行公告日期晚于第一份文件中的发行日期。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer_format": "tf",
+    "type": "time_comparison",
+    "doc_ids": [
+      "text04",
+      "text06"
+    ]
+  },
+  {
+    "qid": "fc_a_019",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "对比两份文档中的证券信息与财务数据披露情况，下列判断成立的是？",
+    "options": {
+      "A": "第一份文档中标注的股票代码与第二份文档中标注的代码不同",
+      "B": "第二份文档中列示了具体的资产负债率数值，如 5.70% 和 35.83%",
+      "C": "第一份文档详细披露了转股后的具体资产负债率预测值",
+      "D": "第二份文档的证券简称是安克创新"
+    },
+    "answer_format": "multi",
+    "type": "data_consistency_check",
+    "doc_ids": [
+      "text04",
+      "text07"
+    ]
+  },
+  {
+    "qid": "fc_a_020",
+    "domain": "financial_contracts",
+    "split": "A",
+    "question": "依据文档内容，关于可转换债券的初始转股价格及发行人信息，正确的陈述有？",
+    "options": {
+      "A": "第二份文档披露的初始转股价格为 18.26 元/股",
+      "B": "第一份文档显示的发行人股票简称是安克创新",
+      "C": "第二份文档显示的发行人股票代码为 300866",
+      "D": "第二份文档声明初始转股价格不低于募集说明书公告之日的市场价格"
+    },
+    "answer_format": "multi",
+    "type": "clause_verification",
+    "doc_ids": [
+      "text04",
+      "text11"
+    ]
+  }
+]

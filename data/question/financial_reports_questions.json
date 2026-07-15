@@ -1,0 +1,352 @@
+[
+  {
+    "qid": "fin_a_001",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "根据比亚迪连续两年的年度报告，下列关于公司经营业绩变化的描述中，哪些是准确的？",
+    "options": {
+      "A": "2025 年营业收入较 2024 年实现增长",
+      "B": "2025 年归属于上市公司股东的净利润出现下滑",
+      "C": "2025 年经营活动产生的现金流量净额优于 2024 年",
+      "D": "2025 年研发投入占营业收入的比例较 2024 年有所下降"
+    },
+    "answer_format": "multi",
+    "type": "财务指标对比分析",
+    "doc_ids": [
+      "annual_byd_2024_report",
+      "annual_byd_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_002",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "结合宁德时代 2024 年及 2025 年年度报告，关于其财务表现与股东回报政策的陈述，哪些符合事实？",
+    "options": {
+      "A": "2025 年营业收入相比 2024 年实现了正增长",
+      "B": "2025 年拟派发现金分红金额高于 2024 年方案",
+      "C": "2025 年经营活动产生的现金流量净额较上年减少",
+      "D": "2025 年实施了按净利润 50% 比例的现金分红政策"
+    },
+    "answer_format": "multi",
+    "type": "财务指标对比分析",
+    "doc_ids": [
+      "annual_catl_2024_report",
+      "annual_catl_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_003",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "依据中国建筑 2024 年与 2025 年年度报告披露的信息，判断以下说法是否正确：2025 年公司归属于上市公司股东的净利润同比出现下降，且现金分红占合并报表归属于上市公司股东净利润的比例有所提升。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer_format": "tf",
+    "type": "财务数据一致性校验",
+    "doc_ids": [
+      "annual_cscec_2024_report",
+      "annual_cscec_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_004",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "对照美的集团 2024 年与 2025 年年度报告，关于公司业绩增长与资金运作情况的描述，哪些是正确的？",
+    "options": {
+      "A": "2025 年营业总收入的增长率高于 2024 年的增长率",
+      "B": "2025 年经营活动产生的现金流量净额低于 2024 年同期水平",
+      "C": "2025 年研发投入占营业收入的比例较 2024 年有明显提升",
+      "D": "2025 年度公司现金分红与股份回购之总金额超过了当年归母净利润"
+    },
+    "answer_format": "multi",
+    "type": "财务指标对比分析",
+    "doc_ids": [
+      "annual_midea_2024_report",
+      "annual_midea_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_005",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "基于比亚迪与美的集团 2024 年年度报告的数据对比，关于两家企业关键财务指标的结论，哪些是成立的？",
+    "options": {
+      "A": "比亚迪 2024 年的营业收入规模大于美的集团",
+      "B": "比亚迪 2024 年的研发投入强度高于美的集团",
+      "C": "美的集团 2024 年的经营活动现金流净额高于比亚迪",
+      "D": "两家公司 2024 年归属于上市公司股东的净利润均实现了双位数同比增长"
+    },
+    "answer_format": "multi",
+    "type": "跨公司财务指标对比",
+    "doc_ids": [
+      "annual_byd_2024_report",
+      "annual_midea_2024_report"
+    ]
+  },
+  {
+    "qid": "fin_a_006",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "根据提供的年度报告数据，比亚迪 2024 年经营活动产生的现金流量净额低于其营业收入的一半，而美的集团 2025 年经营活动产生的现金流量净额则超过了其营业收入的十分之一。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer_format": "tf",
+    "type": "判断题",
+    "doc_ids": [
+      "annual_byd_2024_report",
+      "annual_midea_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_007",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "关于比亚迪 2024 年和宁德时代 2025 年的财务表现，以下哪些描述是准确的？",
+    "options": {
+      "A": "比亚迪 2024 年研发投入占营业收入比例为 6.97%",
+      "B": "宁德时代 2025 年度现金分红方案为每 10 股派发现金分红 69.57 元（含税）",
+      "C": "比亚迪 2024 年经营活动产生的现金流量净额较上年同期有所增长",
+      "D": "宁德时代 2025 年经营活动产生的现金流量净额同比增长超过 30%"
+    },
+    "answer_format": "multi",
+    "type": "多选题",
+    "doc_ids": [
+      "annual_byd_2024_report",
+      "annual_catl_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_008",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "结合两份年报信息，关于利润分配及研发投入的描述，下列哪一项是正确的？",
+    "options": {
+      "A": "比亚迪 2024 年研发费用占营业收入的比例为 6.63%",
+      "B": "宁德时代 2024 年度利润分配预案中，现金分红金额占当年归母净利润的比例为 20%",
+      "C": "比亚迪 2024 年归属于上市公司股东的净利润为 300.4 亿元",
+      "D": "宁德时代 2024 年每股派发现金分红 45.53 元"
+    },
+    "answer_format": "mcq",
+    "type": "单选题",
+    "doc_ids": [
+      "annual_byd_2024_report",
+      "annual_catl_2024_report"
+    ]
+  },
+  {
+    "qid": "fin_a_009",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "对比比亚迪 2024 年与中国移动 2025 年的相关财务指标，以下说法正确的有哪些？",
+    "options": {
+      "A": "中国移动 2025 年营业收入超过 1 万亿元人民币",
+      "B": "比亚迪 2024 年研发投入占营业收入比例高于中国移动 2025 年的相应比例",
+      "C": "两家公司的经营活动产生的现金流量净额均为正数",
+      "D": "中国移动 2025 年归属于母公司股东的净利润实现双位数增长"
+    },
+    "answer_format": "multi",
+    "type": "多选题",
+    "doc_ids": [
+      "annual_byd_2024_report",
+      "annual_chinamobile_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_010",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "在提供的文档中，比亚迪 2025 年的研发投入占营业收入比例相较于 2024 年有所上升，且美的集团自 2019 年起连续实施了股份回购方案。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer_format": "tf",
+    "type": "判断题",
+    "doc_ids": [
+      "annual_byd_2025_report",
+      "annual_midea_2024_report"
+    ]
+  },
+  {
+    "qid": "fin_a_011",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "关于比亚迪与美的集团 2025 年年度报告披露的经营成果及分红安排，下列陈述正确的有？",
+    "options": {
+      "A": "美的集团归母净利润增速快于比亚迪",
+      "B": "比亚迪研发投入占比低于美的集团",
+      "C": "美的集团每股现金分红总额高于比亚迪",
+      "D": "双方 2025 年经营活动现金流净额均为正值"
+    },
+    "answer_format": "multi",
+    "type": "多选题",
+    "doc_ids": [
+      "annual_byd_2025_report",
+      "annual_midea_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_012",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "对比比亚迪与中国移动 2025 年财务数据，以下结论成立的是？",
+    "options": {
+      "A": "中国移动营收规模大于比亚迪",
+      "B": "比亚迪净利润降幅超过一成半",
+      "C": "中国移动研发费用占比高于比亚迪",
+      "D": "两家公司经营活动现金流净额同比均呈下降趋势"
+    },
+    "answer_format": "multi",
+    "type": "多选题",
+    "doc_ids": [
+      "annual_byd_2025_report",
+      "annual_chinamobile_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_013",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "判断：宁德时代 2024 年度拟派发的每股现金分红金额高于比亚迪 2025 年度建议派发的末期股息金额。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer_format": "tf",
+    "type": "判断题",
+    "doc_ids": [
+      "annual_byd_2025_report",
+      "annual_catl_2024_report"
+    ]
+  },
+  {
+    "qid": "fin_a_014",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "基于比亚迪与宁德时代 2025 年年报信息，关于业绩增长与分红政策的描述，正确的选项是？",
+    "options": {
+      "A": "宁德时代营业收入增速高于比亚迪",
+      "B": "宁德时代 2025 年现金分红占净利润比例约为 50%",
+      "C": "比亚迪研发费用占营收比例不足 5%",
+      "D": "两家公司 2025 年经营活动现金流净额均实现正增长"
+    },
+    "answer_format": "multi",
+    "type": "多选题",
+    "doc_ids": [
+      "annual_byd_2025_report",
+      "annual_catl_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_015",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "依据宁德时代 2024 年与中国移动 2025 年年报，关于利润分配与营收情况的单一正确描述是？",
+    "options": {
+      "A": "宁德时代 2024 年利润分配预案中现金分红占归母净利润比例为 20%",
+      "B": "中国移动 2025 年营业收入同比减少了 0.9%",
+      "C": "宁德时代 2024 年每股分红金额为 69.57 元",
+      "D": "中国移动 2025 年研发费用占营业收入比重超过 5%"
+    },
+    "answer_format": "mcq",
+    "type": "单选题",
+    "doc_ids": [
+      "annual_catl_2024_report",
+      "annual_chinamobile_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_016",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "关于宁德时代 2024 年年度报告与美的集团 2025 年年度报告中披露的利润分配方案，以下说法正确的有？",
+    "options": {
+      "A": "宁德时代 2024 年拟每 10 股派发现金红利 45.53 元（含税）",
+      "B": "美的集团 2025 年拟每 10 股派发现金红利 38 元（含税）",
+      "C": "两家公司在对应年份均实施了资本公积金转增股本",
+      "D": "美的集团 2025 年现金分红与股份回购总金额超过当年归母净利润"
+    },
+    "answer_format": "multi",
+    "type": "财务分配政策比较",
+    "doc_ids": [
+      "annual_catl_2024_report",
+      "annual_midea_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_017",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "对比宁德时代与中国建筑 2024 年年度报告中的财务及分配情况，下列描述准确的有？",
+    "options": {
+      "A": "宁德时代 2024 年筹资活动产生的现金流量净额较上年减少约 292 亿元",
+      "B": "中国建筑 2024 年新签合同额达到 2.19 万亿元",
+      "C": "中国建筑 2024 年现金分红占归母净利润比例约为 24.29%",
+      "D": "宁德时代 2024 年利润分配预案中包含了送红股方案"
+    },
+    "answer_format": "multi",
+    "type": "财务现金流与分红比例核对",
+    "doc_ids": [
+      "annual_catl_2024_report",
+      "annual_cscec_2024_report"
+    ]
+  },
+  {
+    "qid": "fin_a_018",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "判断题：根据 2025 年年度报告，宁德时代与美的集团的营业收入均实现双位数增长，且宁德时代的净利润增速高于美的集团。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer_format": "tf",
+    "type": "业绩增长趋势判断",
+    "doc_ids": [
+      "annual_catl_2025_report",
+      "annual_midea_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_019",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "关于宁德时代 2025 年及美的集团 2024 年的股东回报措施，以下说法正确的有？",
+    "options": {
+      "A": "宁德时代 2025 年以净利润的 50% 实施现金分红",
+      "B": "美的集团自 2019 年起连续四年推出股份回购方案",
+      "C": "宁德时代 2025 年每 10 股派发现金分红 38 元",
+      "D": "美的集团 2024 年营业总收入超过 4500 亿元"
+    },
+    "answer_format": "multi",
+    "type": "股东回报措施对比",
+    "doc_ids": [
+      "annual_catl_2025_report",
+      "annual_midea_2024_report"
+    ]
+  },
+  {
+    "qid": "fin_a_020",
+    "domain": "financial_reports",
+    "split": "A",
+    "question": "基于宁德时代与中国移动 2025 年年度报告数据，关于企业规模与研发投入的描述，正确的选项是？",
+    "options": {
+      "A": "中国移动 2025 年营业收入超过宁德时代同期营收的两倍",
+      "B": "宁德时代 2025 年经营活动产生的现金流量净额为 1332 亿元",
+      "C": "中国移动 2025 年研发费用占营业收入比重为 3.9%",
+      "D": "宁德时代 2025 年境外收入占比超过 50%"
+    },
+    "answer_format": "multi",
+    "type": "企业规模与研发投入分析",
+    "doc_ids": [
+      "annual_catl_2025_report",
+      "annual_chinamobile_2025_report"
+    ]
+  }
+]

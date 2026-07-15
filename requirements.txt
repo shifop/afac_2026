@@ -1,0 +1,9 @@
+-i https://pypi.tuna.tsinghua.edu.cn/simple
+fastapi>=0.100.0
+uvicorn[standard]
+pydantic>=2.0
+whoosh>=2.7.4
+jieba>=0.42.1
+openai>=1.0.0
+pyyaml>=6.0
+loguru

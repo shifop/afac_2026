@@ -1,0 +1,87 @@
+{
+  "category_id": "insurance",
+  "category_name": "保险合同检索",
+  "description": "兜底类别，用于保险合同内容的全方位检索，覆盖合同条款文本、实体名称、定义描述以及合同主体间的关系三元组。",
+  "fields": [
+    {
+      "field_name": "query_text",
+      "field_type": "string",
+      "description": "全文搜索内容，对保险合同所有文本进行模糊匹配",
+      "target_index_field": "entity_name",
+      "match_method": "fuzzy",
+      "weight": 1.0,
+      "required": true
+    },
+    {
+      "field_name": "entity_name",
+      "field_type": "string",
+      "description": "保险合同实体名称匹配，如保险人、投保人、被保险人、受益人、保险标的、险种名称、产品名称、贷款，缴费等",
+      "target_index_field": "entity_name",
+      "match_method": "fuzzy",
+      "weight": 0.8,
+      "required": false
+    },
+    {
+      "field_name": "subject",
+      "field_type": "string",
+      "description": "关系主语匹配，指向合同权利与义务的承担主体，如保险人、投保人、被保险人、受益人",
+      "target_index_field": "subject",
+      "match_method": "fuzzy",
+      "weight": 0.4,
+      "required": false
+    },
+    {
+      "field_name": "predicate",
+      "field_type": "string",
+      "description": "关系谓语匹配，描述主体与客体之间的行为或权利义务关系，如承担、缴纳、享有、免除、赔付、通知等",
+      "target_index_field": "predicate",
+      "match_method": "fuzzy",
+      "weight": 0.4,
+      "required": false
+    },
+    {
+      "field_name": "object",
+      "field_type": "string",
+      "description": "关系宾语匹配，代表合同中具体的权利义务客体或要素，如保险责任、保险费、保险金、免赔额、等待期、现金价值等",
+      "target_index_field": "object",
+      "match_method": "fuzzy",
+      "weight": 0.4,
+      "required": false
+    },
+    {
+      "field_name": "section_title",
+      "field_type": "string",
+      "description": "合同章节标题匹配，用于定位特定条款区域，如保险责任、责任免除、投保人如实告知义务、理赔申请、合同解除、借款等标准章节标题",
+      "target_index_field": "section_title",
+      "match_method": "fuzzy",
+      "weight": 0.6,
+      "required": false
+    }
+  ],
+  "filters": [
+    {
+      "field_name": "insurer",
+      "field_type": "string",
+      "description": "保险产品的发行公司或机构,尽可能使用公司或机构的完整名称",
+      "target_index_field": "insurer",
+      "match_method": "fuzzy",
+      "weight": 1.0,
+      "required": true
+    },
+    {
+      "field_name": "contract_name",
+      "field_type": "string",
+      "description": "保险产品名称，尽可能使用产品完整的名称",
+      "target_index_field": "contract_name",
+      "match_method": "fuzzy",
+      "weight": 1.0,
+      "required": true
+    }
+  ],
+  "default_channel_weights": {
+    "entity_channel": 0.25,
+    "relation_channel": 0.25,
+    "title_channel": 0.3,
+    "content_channel": 0.2
+  }
+}

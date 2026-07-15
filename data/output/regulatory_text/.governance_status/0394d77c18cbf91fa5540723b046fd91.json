@@ -1,0 +1,10 @@
+{
+  "status": "uploaded",
+  "doc_id": "0394d77c18cbf91fa5540723b046fd91",
+  "version_ts": 1782468284,
+  "output_path": "./data/output/regulatory_text/0394d77c18cbf91fa5540723b046fd91/0394d77c18cbf91fa5540723b046fd91_v1782468284.json",
+  "file_path": "/HDD/mwx/agent/qa_agent/data/inputs/regulatory_text/strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）.txt",
+  "doc_type": "REG",
+  "extracted_at": 1782468287,
+  "uploaded_at": 1782468287
+}

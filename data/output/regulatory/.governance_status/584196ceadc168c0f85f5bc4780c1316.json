@@ -1,0 +1,10 @@
+{
+  "status": "uploaded",
+  "doc_id": "584196ceadc168c0f85f5bc4780c1316",
+  "version_ts": 1782468253,
+  "output_path": "./data/output/regulatory_text/584196ceadc168c0f85f5bc4780c1316/584196ceadc168c0f85f5bc4780c1316_v1782468253.json",
+  "file_path": "/HDD/mwx/agent/qa_agent/data/inputs/regulatory_text/strict_v3_015_中国人民银行令〔2025〕第3号（中国人民银行业务领域数据安全管理办法）.txt",
+  "doc_type": "REG",
+  "extracted_at": 1782468268,
+  "uploaded_at": 1782468268
+}

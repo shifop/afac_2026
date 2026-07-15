@@ -1,0 +1,83 @@
+{
+  "doc_id": "9fa811fcecd4f1a52ec5b261af118e85",
+  "doc_type": "REG",
+  "version_ts": 1782025582,
+  "structured_data": {
+    "regulation_id": null,
+    "title": "关于修改、废止部分证券期货规范性文件的决定",
+    "document_number": null,
+    "issuing_authority": "中国证监会",
+    "issue_date": null,
+    "effective_date": null,
+    "status": "现行有效",
+    "hierarchy": "规范性文件",
+    "subject_tags": [
+      "证券期货",
+      "规范性文件清理",
+      "公司法"
+    ]
+  },
+  "chunks": [
+    {
+      "chunk_id": "9fa811fcecd4f1a52ec5b261af118e85_chunk_0_v1782025582",
+      "section_title": "关于修改、废止部分证券期货规范性文件的决定",
+      "section_path": "关于修改、废止部分证券期货规范性文件的决定",
+      "content": "为做好新修订的《公司法》的贯彻落实工作，中国证监会对有关证券期货规范性文件进行了清理。经过清理，中国证监会决定：\n一、对 65 部规范性文件的部分条款予以修改。（附件 1）\n二、对2 部规范性文件予以废止。（附件 2）\n本决定自公布之日起施行。\n附件：1.中国证监会决定修改的规范性文件\n2.中国证监会决定废止的规范性文件",
+      "entities": [
+        {
+          "name": "中国证监会",
+          "desc": "发布本决定、对证券期货规范性文件进行清理的监管机构"
+        },
+        {
+          "name": "《公司法》",
+          "desc": "新修订的法律，其贯彻落实工作是本决定进行的背景原因"
+        },
+        {
+          "name": "65部规范性文件",
+          "desc": "被决定修改部分条款的证券期货规范性文件集合"
+        },
+        {
+          "name": "2部规范性文件",
+          "desc": "被决定予以废止的证券期货规范性文件集合"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "中国证监会",
+          "predicate": "监管关系",
+          "object": "65部规范性文件",
+          "desc": "中国证监会决定对65部规范性文件的部分条款予以修改"
+        },
+        {
+          "subject": "中国证监会",
+          "predicate": "监管关系",
+          "object": "2部规范性文件",
+          "desc": "中国证监会决定对2部规范性文件予以废止"
+        },
+        {
+          "subject": "中国证监会",
+          "predicate": "引用法规",
+          "object": "《公司法》",
+          "desc": "中国证监会进行规范性文件清理是为了做好新修订的《公司法》的贯彻落实工作"
+        }
+      ],
+      "chunk_index": 0,
+      "doc_id": "9fa811fcecd4f1a52ec5b261af118e85",
+      "version_ts": 1782025582,
+      "prev_chunk_id": null,
+      "next_chunk_id": null,
+      "doc_tree": {
+        "title": "关于修改、废止部分证券期货规范性文件的决定",
+        "children": [
+          {
+            "title": "关于修改、废止部分证券期货规范性文件的决定",
+            "chunk_id_start": "9fa811fcecd4f1a52ec5b261af118e85_chunk_0_v1782025582",
+            "chunk_id_end": "9fa811fcecd4f1a52ec5b261af118e85_chunk_0_v1782025582"
+          }
+        ],
+        "chunk_id_start": "9fa811fcecd4f1a52ec5b261af118e85_chunk_0_v1782025582",
+        "chunk_id_end": "9fa811fcecd4f1a52ec5b261af118e85_chunk_0_v1782025582"
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "category_id": "default",
+  "category_name": "其他",
+  "description": "兜底类别，未匹配到任何明确意图时使用。同时检索内容全文、实体（主语/定语）和关系（谓语/宾语）。",
+  "fields": [
+    {
+      "field_name": "query_text",
+      "field_type": "string",
+      "description": "全文搜索内容",
+      "target_index_field": "content",
+      "match_method": "fuzzy",
+      "weight": 1.0,
+      "required": true
+    },
+    {
+      "field_name": "name",
+      "field_type": "string",
+      "description": "实体名称匹配（主语/定语）,例如财务业务指标名称或数值，限定范围的业务、地区、产品分类等等",
+      "target_index_field": "name",
+      "match_method": "fuzzy",
+      "weight": 0.6,
+      "required": false
+    },
+    {
+      "field_name": "desc",
+      "field_type": "string",
+      "description": "实体描述匹配",
+      "target_index_field": "desc",
+      "match_method": "fuzzy",
+      "weight": 0.4,
+      "required": false
+    },
+    {
+      "field_name": "subject",
+      "field_type": "string",
+      "description": "关系主语匹配,例如财务业务指标名称或数值，限定范围的业务、地区、产品分类等等",
+      "target_index_field": "subject",
+      "match_method": "fuzzy",
+      "weight": 0.3,
+      "required": false
+    },
+    {
+      "field_name": "predicate",
+      "field_type": "string",
+      "description": "关系谓语匹配",
+      "target_index_field": "predicate",
+      "match_method": "fuzzy",
+      "weight": 0.3,
+      "required": false
+    },
+    {
+      "field_name": "object",
+      "field_type": "string",
+      "description": "关系宾语匹配（定语/宾语）,例如财务业务指标名称或数值，限定范围的业务、地区、产品分类等等",
+      "target_index_field": "object",
+      "match_method": "fuzzy",
+      "weight": 0.3,
+      "required": false
+    }
+  ],
+  "default_channel_weights": {
+    "entity_channel": 0.2,
+    "relation_channel": 0.2,
+    "title_channel": 0.0,
+    "content_channel": 0.6
+  }
+}

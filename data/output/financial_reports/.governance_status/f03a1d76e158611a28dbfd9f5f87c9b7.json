@@ -1,0 +1,10 @@
+{
+  "status": "uploaded",
+  "doc_id": "002594_2024",
+  "version_ts": 1782048564,
+  "output_path": "./data/output/financial_reports/002594_2024/002594_2024_v1782048564.json",
+  "file_path": "/HDD/mwx/qa_agent/data/inputs/financial_reports/annual_byd_2024_report.md",
+  "doc_type": "ANNUAL",
+  "extracted_at": 1782048564,
+  "uploaded_at": 1782317040
+}

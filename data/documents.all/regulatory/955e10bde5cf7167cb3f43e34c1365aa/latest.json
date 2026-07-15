@@ -1,0 +1,2396 @@
+{
+  "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+  "doc_type": "REG",
+  "version_ts": 1782026056,
+  "structured_data": {
+    "regulation_id": null,
+    "title": "区域性股权市场跨链认证安全规范",
+    "document_number": "JR/T 0316—2024",
+    "issuing_authority": "全国金融标准化技术委员会",
+    "issue_date": "2024-11-20",
+    "effective_date": "2024-11-20",
+    "status": "现行有效",
+    "hierarchy": "规范性文件",
+    "subject_tags": [
+      "区域性股权市场",
+      "区块链",
+      "跨链认证",
+      "信息安全",
+      "密码算法"
+    ]
+  },
+  "chunks": [
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_0_v1782026056",
+      "section_title": "中 华 人 民 共 和 国 金 融 行 业 标 准",
+      "section_path": "Specifications for regional equity markets cross-chain authentication security / 目 次",
+      "content": "JR/T 0316—2024\n2024-11-20 发布\n2024-11-20 实施\n前言.... III\n引言.... IV\n1 范围.... 1\n2 规范性引用文件.... 1\n3 术语和定义.... 1\n4 缩略语.... 2\n5 密码算法要求.... 2\n6 业务数据要求.... 2\n6.1 生成主体明确.... 2\n6.2 数据生成时间明确.... 3\n6.3 业务数据提取手段可靠.... 3\n6.4 业务数据传输安全.... 3\n6.5 业务数据的存储可靠.... 3\n6.6 数据完整性保护手段可靠.... 3\n7 地方业务链安全要求.... 3\n7.1 数据操作安全.... 3\n7.2 身份信息安全.... 3\n7.3 访问控制.... 4\n7.4 链间访问控制.... 4\n7.5 共识协议.... 4\n7.6 智能合约.... 4\n7.7 稳定性.... 5\n8 地方业务系统安全要求.... 5\n8.1 入侵防范.... 5\n8.2 恶意代码防范.... 5\n8.3 程序可信执行.... 5\n8.4 访问控制.... 5\n8.5 安全策略和管理制度.... 5\n9 跨链机制要求.... 5\n10 跨链传输信道安全要求....6\n10.1 通过证券期货行业专线网络访问....6\n10.2 通过 VPC 专线网络访问....6\n10.3 通过 VPN 网络访问....6\n10.4 对 RPC 接口增加 API 鉴权....6\n10.5 IP 白名单....6\n11 跨链数据安全要求....6\n11.1 基本要求....6\n11.2 数据访问时的要求....6\n11.3 数据传输时的要求....6\n11.4 智能合约调用时的要求....6\n参考文献....7",
+      "entities": [
+        {
+          "name": "JR/T 0316—2024",
+          "desc": "中华人民共和国金融行业标准，全称为《区域性股权市场跨链认证安全技术规范》，规定了区域性股权市场跨链认证的安全技术要求。"
+        },
+        {
+          "name": "区域性股权市场",
+          "desc": "服务所在省级行政区域内中小微企业的私募股权市场，是多层次资本市场体系重要组成部分，地方金融组织"
+        },
+        {
+          "name": "密码算法要求",
+          "desc": "对跨链对接过程中使用的密码学算法提出的具体技术标准和要求"
+        },
+        {
+          "name": "业务数据要求",
+          "desc": "标准第6章规定的关于业务数据生成、提取、传输、存储及完整性保护的合规义务。"
+        },
+        {
+          "name": "地方业务链安全要求",
+          "desc": "标准第7章规定的关于地方业务链在数据操作、身份信息、访问控制、共识协议等方面的安全合规义务。"
+        },
+        {
+          "name": "地方业务系统安全要求",
+          "desc": "标准第8章规定的关于地方业务系统在入侵防范、恶意代码防范、程序可信执行等方面的安全合规义务。"
+        },
+        {
+          "name": "跨链机制要求",
+          "desc": "对实现跨链功能的技术机制和流程提出的规范性要求"
+        },
+        {
+          "name": "跨链传输信道安全要求",
+          "desc": "标准第10章规定的关于跨链传输信道（如专线网络、VPC、VPN等）安全的合规义务。"
+        },
+        {
+          "name": "跨链数据安全要求",
+          "desc": "标准第11章规定的关于跨链数据在访问、传输及智能合约调用时安全的合规义务。"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 0,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": null,
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_1_v1782026056",
+      "doc_tree": {
+        "title": "区域性股权市场跨链认证安全规范",
+        "children": [
+          {
+            "title": "Specifications for regional equity markets cross-chain authentication security",
+            "children": [
+              {
+                "title": "目 次",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_0_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_0_v1782026056"
+              },
+              {
+                "title": "前 言",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_1_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_1_v1782026056"
+              },
+              {
+                "title": "引 言",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_2_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_2_v1782026056"
+              }
+            ],
+            "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_0_v1782026056",
+            "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_2_v1782026056"
+          },
+          {
+            "title": "区域性股权市场跨链认证安全规范",
+            "children": [
+              {
+                "title": "1 范围",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_3_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_3_v1782026056"
+              },
+              {
+                "title": "2 规范性引用文件",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_4_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_4_v1782026056"
+              },
+              {
+                "title": "3 术语和定义",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_5_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_5_v1782026056"
+              },
+              {
+                "title": "3.5",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_6_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_6_v1782026056"
+              },
+              {
+                "title": "3.7",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_7_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_7_v1782026056"
+              },
+              {
+                "title": "4 缩略语",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_8_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_8_v1782026056"
+              },
+              {
+                "title": "5 密码算法要求",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_9_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_9_v1782026056"
+              },
+              {
+                "title": "6 业务数据要求",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_10_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_10_v1782026056"
+              },
+              {
+                "title": "6.2 数据生成时间明确",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_11_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_11_v1782026056"
+              },
+              {
+                "title": "6.3 业务数据提取手段可靠",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_12_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_12_v1782026056"
+              },
+              {
+                "title": "6.4 业务数据传输安全",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_13_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_13_v1782026056"
+              },
+              {
+                "title": "6.5 业务数据的存储可靠",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_14_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_14_v1782026056"
+              },
+              {
+                "title": "6.6 数据完整性保护手段可靠",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_15_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_15_v1782026056"
+              },
+              {
+                "title": "7 地方业务链安全要求",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_16_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_16_v1782026056"
+              },
+              {
+                "title": "7.2 身份信息安全",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_17_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_17_v1782026056"
+              },
+              {
+                "title": "7.3 访问控制",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_18_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_18_v1782026056"
+              },
+              {
+                "title": "7.3.3 访问控制策略和权限",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_19_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_19_v1782026056"
+              },
+              {
+                "title": "7.4.2 链间访问控制覆盖范围",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_20_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_20_v1782026056"
+              },
+              {
+                "title": "7.4.3 访问控制策略和权限",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_21_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_21_v1782026056"
+              },
+              {
+                "title": "7.5 共识协议",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_22_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_22_v1782026056"
+              },
+              {
+                "title": "7.6 智能合约",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_23_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_23_v1782026056"
+              },
+              {
+                "title": "7.6.3 智能合约更新",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_24_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_24_v1782026056"
+              },
+              {
+                "title": "7.7 稳定性",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_25_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_25_v1782026056"
+              },
+              {
+                "title": "8 地方业务系统安全要求",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_26_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_26_v1782026056"
+              },
+              {
+                "title": "8.2 恶意代码防范",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_27_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_27_v1782026056"
+              },
+              {
+                "title": "8.4 访问控制",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_28_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_28_v1782026056"
+              },
+              {
+                "title": "8.5 安全策略和管理制度",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_29_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_29_v1782026056"
+              },
+              {
+                "title": "9 跨链机制要求",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_30_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_30_v1782026056"
+              },
+              {
+                "title": "10 跨链传输信道安全要求",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_31_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_31_v1782026056"
+              },
+              {
+                "title": "10.3 通过 VPN 网络访问",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_32_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_32_v1782026056"
+              },
+              {
+                "title": "10.4 对 RPC 接口增加 API 鉴权",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_33_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_33_v1782026056"
+              },
+              {
+                "title": "10.5 IP 白名单",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_34_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_34_v1782026056"
+              },
+              {
+                "title": "11.2 数据访问时的要求",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_35_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_35_v1782026056"
+              },
+              {
+                "title": "11.4 智能合约调用时的要求",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_36_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_36_v1782026056"
+              },
+              {
+                "title": "参 考 文 献",
+                "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_37_v1782026056",
+                "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_37_v1782026056"
+              }
+            ],
+            "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_3_v1782026056",
+            "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_37_v1782026056"
+          }
+        ],
+        "chunk_id_start": "955e10bde5cf7167cb3f43e34c1365aa_chunk_0_v1782026056",
+        "chunk_id_end": "955e10bde5cf7167cb3f43e34c1365aa_chunk_37_v1782026056"
+      }
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_1_v1782026056",
+      "section_title": "前 言",
+      "section_path": "Specifications for regional equity markets cross-chain authentication security / 前 言",
+      "content": "本文件按照GB/T 1.1—2020《标准化工作导则 第1部分：标准化文件的结构和起草规则》的规定起草。\n请注意本文件的某些内容可能涉及专利。本文件的发布机构不承担识别专利的责任。\n本文件由全国金融标准化技术委员会证券分技术委员会（SAC/TC 180/SC4）提出。\n本文件由全国金融标准化技术委员会（SAC/TC 180）归口。\n本文件起草单位：中国证券监督管理委员会科技监管司、中证信息技术服务有限责任公司、中证机构间报价系统股份有限公司、深圳证券通信有限公司、上海边界智能科技有限公司、北京共识数信科技有限公司、同济大学、南京大学。\n本文件主要起草人：张业龙、彭枫、王亚军、王凤冬、王毛路、李宇、陈小泉、马小峰、陈莹。",
+      "entities": [
+        {
+          "name": "全国金融标准化技术委员会证券分技术委员会（SAC/TC 180/SC4）",
+          "desc": "提出本文件的机构"
+        },
+        {
+          "name": "全国金融标准化技术委员会（SAC/TC 180）",
+          "desc": "归口管理本文件的机构"
+        },
+        {
+          "name": "中国证券监督管理委员会科技监管司",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "中证信息技术服务有限责任公司",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "中证机构间报价系统股份有限公司",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "深圳证券通信有限公司",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "上海边界智能科技有限公司",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "北京共识数信科技有限公司",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "同济大学",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "南京大学",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "张业龙",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "彭枫",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "王亚军",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "王凤冬",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "王毛路",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "李宇",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "陈小泉",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "马小峰",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "陈莹",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "GB/T 1.1—2020《标准化工作导则 第1部分：标准化文件的结构和起草规则》",
+          "desc": "本文件起草所依据的标准规范"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "全国金融标准化技术委员会证券分技术委员会（SAC/TC 180/SC4）",
+          "predicate": "引用法规",
+          "object": "GB/T 1.1—2020《标准化工作导则 第1部分：标准化文件的结构和起草规则》",
+          "desc": "本文件按照该标准的规定进行起草"
+        }
+      ],
+      "chunk_index": 1,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_0_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_2_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_2_v1782026056",
+      "section_title": "引 言",
+      "section_path": "Specifications for regional equity markets cross-chain authentication security / 引 言",
+      "content": "区域性股权市场是服务所在省级行政区域内中小微企业的私募股权市场，是多层次资本市场体系重要组成部分，是地方扶持中小微企业政策措施的综合运用平台，也是一类地方金融组织。同时要看到，区域性股权市场也存在功能发挥不畅、地方监管制度体系不完善、业务系统多样异构、数据规范性差、业务规则不完备等问题。区块链具有数据透明、不易篡改、可追溯等技术优势，在促进数据共享、优化业务流程、降低运营成本、提升协同效率、建设可信体系等方面具有积极作用。基于监管链和地方业务链的双层架构，可以更好支持区域性股权市场企业赋能服务、业务创新并逐步实现穿透式监管。为建成物理分散、逻辑统一的区域性股权市场新型金融基础设施，有必要建立监管链与各地方业务链的跨链对接的安全技术标准。",
+      "entities": [
+        {
+          "name": "区域性股权市场",
+          "desc": "服务所在省级行政区域内中小微企业的私募股权市场，是多层次资本市场体系重要组成部分，地方金融组织"
+        },
+        {
+          "name": "区块链",
+          "desc": "具有数据透明、不易篡改、可追溯等技术优势的技术手段"
+        },
+        {
+          "name": "监管链和地方业务链的双层架构",
+          "desc": "基于监管链和地方业务链构建的架构，用于支持企业赋能服务和穿透式监管"
+        },
+        {
+          "name": "区域性股权市场新型金融基础设施",
+          "desc": "物理分散、逻辑统一的区域性股权市场基础设施目标"
+        },
+        {
+          "name": "跨链对接的安全技术标准",
+          "desc": "建立监管链与各地方业务链跨链对接所需的技术标准"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 2,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_1_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_3_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_3_v1782026056",
+      "section_title": "区域性股权市场跨链认证安全规范",
+      "section_path": "区域性股权市场跨链认证安全规范 / 1 范围",
+      "content": "本文件规定了区域性股权市场地方业务链与监管链跨链对接的安全认证技术与系统实现要求，包括密码算法要求、业务数据要求、地方业务链安全要求、地方业务系统安全要求、跨链机制要求及跨链安全要求。\n本文件适用于在区域性股权市场中进行地方业务链及与地方业务链对接的地方业务系统建设或服务运营的机构。",
+      "entities": [
+        {
+          "name": "区域性股权市场地方业务链",
+          "desc": "区域性股权市场中用于处理地方性业务的区块链系统，是本文件安全认证规范的主要适用对象之一"
+        },
+        {
+          "name": "监管链",
+          "desc": "用于实施监管的区块链系统，与地方业务链进行跨链对接以获取一致的数据结果"
+        },
+        {
+          "name": "跨链对接",
+          "desc": "地方业务链与监管链之间进行数据交互和安全认证的技术机制"
+        },
+        {
+          "name": "密码算法要求",
+          "desc": "对跨链对接过程中使用的密码学算法提出的具体技术标准和要求"
+        },
+        {
+          "name": "业务数据要求",
+          "desc": "标准第6章规定的关于业务数据生成、提取、传输、存储及完整性保护的合规义务。"
+        },
+        {
+          "name": "地方业务链安全要求",
+          "desc": "标准第7章规定的关于地方业务链在数据操作、身份信息、访问控制、共识协议等方面的安全合规义务。"
+        },
+        {
+          "name": "地方业务系统安全要求",
+          "desc": "标准第8章规定的关于地方业务系统在入侵防范、恶意代码防范、程序可信执行等方面的安全合规义务。"
+        },
+        {
+          "name": "跨链机制要求",
+          "desc": "对实现跨链功能的技术机制和流程提出的规范性要求"
+        },
+        {
+          "name": "跨链安全要求",
+          "desc": "对跨链过程中的整体安全性提出的综合性规范要求"
+        },
+        {
+          "name": "建设或服务运营的机构",
+          "desc": "在区域性股权市场中从事地方业务链及地方业务系统建设或服务运营的市场主体"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "本文件",
+          "predicate": "规定",
+          "object": "区域性股权市场地方业务链与监管链跨链对接的安全认证技术与系统实现要求",
+          "desc": "本文件的核心内容是规定上述跨链对接的安全技术和系统实现的具体要求"
+        },
+        {
+          "subject": "本文件",
+          "predicate": "包含",
+          "object": "密码算法要求",
+          "desc": "本文件规定的具体内容之一包括密码算法方面的要求"
+        },
+        {
+          "subject": "本文件",
+          "predicate": "包含",
+          "object": "业务数据要求",
+          "desc": "本文件规定的具体内容之一包括业务数据方面的要求"
+        },
+        {
+          "subject": "本文件",
+          "predicate": "包含",
+          "object": "地方业务链安全要求",
+          "desc": "本文件规定的具体内容之一包括地方业务链自身的安全要求"
+        },
+        {
+          "subject": "本文件",
+          "predicate": "包含",
+          "object": "地方业务系统安全要求",
+          "desc": "本文件规定的具体内容之一包括地方业务系统的安全要求"
+        },
+        {
+          "subject": "本文件",
+          "predicate": "包含",
+          "object": "跨链机制要求",
+          "desc": "本文件规定的具体内容之一包括跨链机制的要求"
+        },
+        {
+          "subject": "本文件",
+          "predicate": "包含",
+          "object": "跨链安全要求",
+          "desc": "本文件规定的具体内容之一包括跨链安全的总体要求"
+        },
+        {
+          "subject": "本文件",
+          "predicate": "适用于",
+          "object": "建设或服务运营的机构",
+          "desc": "本文件的适用范围是那些在区域性股权市场中进行相关系统建设或服务运营的机构"
+        }
+      ],
+      "chunk_index": 3,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_2_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_4_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_4_v1782026056",
+      "section_title": "2 规范性引用文件",
+      "section_path": "区域性股权市场跨链认证安全规范 / 2 规范性引用文件",
+      "content": "下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款。其中，注日期的引用文件，仅该日期对应的版本适用于本文件；不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。\nGB/T 11457 信息技术 软件工程术语\nGB/T 20518 信息安全技术 公钥基础设施 数字证书格式\nGB/T 25069 信息安全技术 术语\nGB/T 32905 信息安全技术 SM3密码杂凑算法\nGB/T 32918 信息安全技术 SM2椭圆曲线公钥密码算法\nJR/T 0184 金融分布式账本技术安全规范",
+      "entities": [
+        {
+          "name": "GB/T 11457",
+          "desc": "信息技术 软件工程术语"
+        },
+        {
+          "name": "GB/T 20518",
+          "desc": "信息安全技术 公钥基础设施 数字证书格式"
+        },
+        {
+          "name": "GB/T 25069",
+          "desc": "信息安全技术 术语"
+        },
+        {
+          "name": "GB/T 32905",
+          "desc": "信息安全技术 SM3密码杂凑算法"
+        },
+        {
+          "name": "GB/T 32918",
+          "desc": "信息安全技术 SM2椭圆曲线公钥密码算法"
+        },
+        {
+          "name": "JR/T 0184",
+          "desc": "规定国产密码算法标识的行业标准"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "区域性股权市场跨链认证安全规范",
+          "predicate": "引用法规",
+          "object": "GB/T 11457",
+          "desc": "《区域性股权市场跨链认证安全规范》通过规范性引用将GB/T 11457作为其必不可少的条款"
+        },
+        {
+          "subject": "区域性股权市场跨链认证安全规范",
+          "predicate": "引用法规",
+          "object": "GB/T 20518",
+          "desc": "《区域性股权市场跨链认证安全规范》通过规范性引用将GB/T 20518作为其必不可少的条款"
+        },
+        {
+          "subject": "区域性股权市场跨链认证安全规范",
+          "predicate": "引用法规",
+          "object": "GB/T 25069",
+          "desc": "《区域性股权市场跨链认证安全规范》通过规范性引用将GB/T 25069作为其必不可少的条款"
+        },
+        {
+          "subject": "区域性股权市场跨链认证安全规范",
+          "predicate": "引用法规",
+          "object": "GB/T 32905",
+          "desc": "《区域性股权市场跨链认证安全规范》通过规范性引用将GB/T 32905作为其必不可少的条款"
+        },
+        {
+          "subject": "区域性股权市场跨链认证安全规范",
+          "predicate": "引用法规",
+          "object": "GB/T 32918",
+          "desc": "《区域性股权市场跨链认证安全规范》通过规范性引用将GB/T 32918作为其必不可少的条款"
+        },
+        {
+          "subject": "区域性股权市场跨链认证安全规范",
+          "predicate": "引用法规",
+          "object": "JR/T 0184",
+          "desc": "《区域性股权市场跨链认证安全规范》通过规范性引用将JR/T 0184作为其必不可少的条款"
+        }
+      ],
+      "chunk_index": 4,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_3_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_5_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_5_v1782026056",
+      "section_title": "3 术语和定义",
+      "section_path": "区域性股权市场跨链认证安全规范 / 3 术语和定义",
+      "content": "GB/T 11457、GB/T 25069 界定的以及下列术语和定义适用于本文件。\n3.1\n跨链 cross chain\n实现在区块链之间的双向信息交互、信息验证与服务调用的技术。\n3.2\n监管链 global regulation blockchain\n以全局服务和监管为目的构建的区块链系统。\n3.3\n地方业务链 regional business blockchain\n各地方以服务区域性股权市场业务和生态为目的构建的区块链系统。\n3.4\n地方业务系统 regional business system\n与地方业务链对接，实现数据传输到地方业务链的业务系统。\n注：地方业务系统包括区域性股权市场的业务系统等。",
+      "entities": [
+        {
+          "name": "跨链",
+          "desc": "实现在区块链之间的双向信息交互、信息验证与服务调用的技术"
+        },
+        {
+          "name": "监管链",
+          "desc": "用于实施监管的区块链系统，与地方业务链进行跨链对接以获取一致的数据结果"
+        },
+        {
+          "name": "地方业务链",
+          "desc": "区域性股权市场中负责处理用户身份信息的区块链系统，需具备身份标识唯一性、可鉴别性及安全校验机制"
+        },
+        {
+          "name": "地方业务系统",
+          "desc": "区域性股权市场中的业务数据处理主体，负责执行身份认证、意愿性认证及数据留痕保护等技术操作"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 5,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_4_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_6_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_6_v1782026056",
+      "section_title": "3.5",
+      "section_path": "区域性股权市场跨链认证安全规范 / 3.5",
+      "content": "业务数据 business data\n地方业务系统存储和处理的数据。\n业务参与方直接操作生成的数据，并作为该数据所有者的个人或机构。",
+      "entities": [
+        {
+          "name": "业务数据",
+          "desc": "需要被保护其完整性的数据对象，涉及生成主体、时间及操作规范性"
+        },
+        {
+          "name": "地方业务系统",
+          "desc": "区域性股权市场中的业务数据处理主体，负责执行身份认证、意愿性认证及数据留痕保护等技术操作"
+        },
+        {
+          "name": "业务参与方",
+          "desc": "直接操作生成业务数据的个人或机构，也是该数据的所有者。"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "地方业务系统",
+          "predicate": "义务对象",
+          "object": "业务数据",
+          "desc": "地方业务系统负责存储和处理业务数据。"
+        },
+        {
+          "subject": "业务参与方",
+          "predicate": "施加义务于",
+          "object": "业务数据",
+          "desc": "业务参与方直接操作生成业务数据，并作为数据所有者。"
+        }
+      ],
+      "chunk_index": 6,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_5_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_7_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_7_v1782026056",
+      "section_title": "3.7",
+      "section_path": "区域性股权市场跨链认证安全规范 / 3.7",
+      "content": "智能合约 smart contract\n以信息化方式传播、验证或执行合同的计算机协议。\n注：在分布式账本上体现为可自动执行的计算机程序。",
+      "entities": [
+        {
+          "name": "智能合约",
+          "desc": "以信息化方式传播、验证或执行合同的计算机协议，在分布式账本上体现为可自动执行的计算机程序"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 7,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_6_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_8_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_8_v1782026056",
+      "section_title": "4 缩略语",
+      "section_path": "区域性股权市场跨链认证安全规范 / 4 缩略语",
+      "content": "下列缩略语适用于本文件。\nAPI：应用程序编程接口（Application Programming Interface）\nASN.1：抽象语法标记（Abstract Syntax Notation One）\nECC：椭圆曲线加密（Elliptic Curve Cryptography）\nHMAC：密钥相关的哈希运算消息认证码（Hash-based Message Authentication Code）\nHTTPS：超文本传输安全协议（Hypertext Transfer Protocol Secure）\nIP：网际互连协议（Internet Protocol）\nRPC：远程过程调用（Remote Procedure Call）\nVPC：虚拟私有云网络（Virtual Private Cloud）\nVPN：虚拟专用网络（Virtual Private Network）",
+      "entities": [
+        {
+          "name": "API",
+          "desc": "应用程序编程接口（Application Programming Interface）"
+        },
+        {
+          "name": "ASN.1",
+          "desc": "抽象语法标记（Abstract Syntax Notation One）"
+        },
+        {
+          "name": "ECC",
+          "desc": "椭圆曲线加密（Elliptic Curve Cryptography）"
+        },
+        {
+          "name": "HMAC",
+          "desc": "密钥相关的哈希运算消息认证码（Hash-based Message Authentication Code）"
+        },
+        {
+          "name": "HTTPS",
+          "desc": "超文本传输安全协议（Hypertext Transfer Protocol Secure）"
+        },
+        {
+          "name": "IP",
+          "desc": "网际互连协议（Internet Protocol）"
+        },
+        {
+          "name": "RPC",
+          "desc": "远程过程调用（Remote Procedure Call）"
+        },
+        {
+          "name": "VPC",
+          "desc": "虚拟私有云网络（Virtual Private Cloud）"
+        },
+        {
+          "name": "VPN",
+          "desc": "虚拟专用网络（Virtual Private Network）"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 8,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_7_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_9_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_9_v1782026056",
+      "section_title": "5 密码算法要求",
+      "section_path": "区域性股权市场跨链认证安全规范 / 5 密码算法要求",
+      "content": "国产密码算法的数字证书公钥算法采用ECC算法，公钥参数采用SM2椭圆曲线公钥密码算法。证书使用ASN.1编码，证书文件以二进制或Base64格式存放。证书中应包含证书版本、序列号、颁发者、使用者主体信息、使用者公钥、有效期、证书扩展项、算法标识等信息。\n国产密码算法的数字证书的公钥算法ECC算法标识、公钥参数SM2椭圆曲线公钥密码算法标识、证书签名算法标识、摘要算法标识应符合GB/T 32905、GB/T 32918、GB/T 20518等相关国家标准以及JR/T 0184等相关行业标准。",
+      "entities": [
+        {
+          "name": "国产密码算法的数字证书",
+          "desc": "区域性股权市场跨链认证中使用的数字证书，其公钥算法采用ECC和SM2椭圆曲线公钥密码算法"
+        },
+        {
+          "name": "ECC算法",
+          "desc": "国产密码算法数字证书采用的公钥算法"
+        },
+        {
+          "name": "SM2椭圆曲线公钥密码算法",
+          "desc": "国产密码算法数字证书采用的公钥参数算法"
+        },
+        {
+          "name": "ASN.1编码",
+          "desc": "国产密码算法数字证书使用的编码格式"
+        },
+        {
+          "name": "GB/T 32905",
+          "desc": "信息安全技术 SM3密码杂凑算法"
+        },
+        {
+          "name": "GB/T 32918",
+          "desc": "信息安全技术 SM2椭圆曲线公钥密码算法"
+        },
+        {
+          "name": "GB/T 20518",
+          "desc": "信息安全技术 公钥基础设施 数字证书格式"
+        },
+        {
+          "name": "JR/T 0184",
+          "desc": "规定国产密码算法标识的行业标准"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "国产密码算法的数字证书",
+          "predicate": "量化属性",
+          "object": "ECC算法",
+          "desc": "国产密码算法的数字证书的公钥算法采用ECC算法"
+        },
+        {
+          "subject": "国产密码算法的数字证书",
+          "predicate": "量化属性",
+          "object": "SM2椭圆曲线公钥密码算法",
+          "desc": "国产密码算法的数字证书的公钥参数采用SM2椭圆曲线公钥密码算法"
+        },
+        {
+          "subject": "国产密码算法的数字证书",
+          "predicate": "量化属性",
+          "object": "ASN.1编码",
+          "desc": "国产密码算法的数字证书使用ASN.1编码"
+        },
+        {
+          "subject": "国产密码算法的数字证书",
+          "predicate": "引用法规",
+          "object": "GB/T 32905",
+          "desc": "国产密码算法数字证书的公钥算法ECC算法标识、公钥参数SM2椭圆曲线公钥密码算法标识、证书签名算法标识、摘要算法标识应符合GB/T 32905国家标准"
+        },
+        {
+          "subject": "国产密码算法的数字证书",
+          "predicate": "引用法规",
+          "object": "GB/T 32918",
+          "desc": "国产密码算法数字证书的公钥算法ECC算法标识、公钥参数SM2椭圆曲线公钥密码算法标识、证书签名算法标识、摘要算法标识应符合GB/T 32918国家标准"
+        },
+        {
+          "subject": "国产密码算法的数字证书",
+          "predicate": "引用法规",
+          "object": "GB/T 20518",
+          "desc": "国产密码算法数字证书的公钥算法ECC算法标识、公钥参数SM2椭圆曲线公钥密码算法标识、证书签名算法标识、摘要算法标识应符合GB/T 20518国家标准"
+        },
+        {
+          "subject": "国产密码算法的数字证书",
+          "predicate": "引用法规",
+          "object": "JR/T 0184",
+          "desc": "国产密码算法数字证书的公钥算法ECC算法标识、公钥参数SM2椭圆曲线公钥密码算法标识、证书签名算法标识、摘要算法标识应符合JR/T 0184行业标准"
+        }
+      ],
+      "chunk_index": 9,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_8_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_10_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_10_v1782026056",
+      "section_title": "6 业务数据要求",
+      "section_path": "区域性股权市场跨链认证安全规范 / 6 业务数据要求",
+      "content": "地方业务系统应在业务数据主体生成数据前，通过证件信息、数字证书等方式对业务数据主体的实名身份进行认证。\n地方业务系统应采用技术手段认证业务数据主体的真实意愿性。\n地方业务系统应对上述认证结果留痕，并采用技术手段对留痕信息防泄漏、防篡改。",
+      "entities": [
+        {
+          "name": "地方业务系统",
+          "desc": "区域性股权市场中的业务数据处理主体，负责执行身份认证、意愿性认证及数据留痕保护等技术操作"
+        },
+        {
+          "name": "业务数据主体",
+          "desc": "生成业务数据的个人或机构，是身份认证和真实意愿性认证的对象"
+        },
+        {
+          "name": "实名身份认证",
+          "desc": "通过证件信息、数字证书等方式对业务数据主体进行身份核实的行为"
+        },
+        {
+          "name": "真实意愿性认证",
+          "desc": "采用技术手段确认业务数据主体在生成数据时具有真实意思表示的行为"
+        },
+        {
+          "name": "认证结果留痕",
+          "desc": "对身份认证和意愿性认证的记录进行保存的过程"
+        },
+        {
+          "name": "防泄漏、防篡改保护",
+          "desc": "采用技术手段确保留痕信息安全、完整不被非法获取或修改的措施"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "实名身份认证",
+          "predicate": "施加义务于",
+          "object": "地方业务系统",
+          "desc": "地方业务系统有义务在业务数据生成前对业务数据主体进行实名身份认证"
+        },
+        {
+          "subject": "实名身份认证",
+          "predicate": "义务对象",
+          "object": "业务数据主体",
+          "desc": "实名身份认证这一合规义务所针对的具体对象是业务数据主体"
+        },
+        {
+          "subject": "真实意愿性认证",
+          "predicate": "施加义务于",
+          "object": "地方业务系统",
+          "desc": "地方业务系统有义务采用技术手段认证业务数据主体的真实意愿性"
+        },
+        {
+          "subject": "真实意愿性认证",
+          "predicate": "义务对象",
+          "object": "业务数据主体",
+          "desc": "真实意愿性认证这一合规义务所针对的具体对象是业务数据主体"
+        },
+        {
+          "subject": "认证结果留痕",
+          "predicate": "施加义务于",
+          "object": "地方业务系统",
+          "desc": "地方业务系统有义务对上述认证结果进行留痕处理"
+        },
+        {
+          "subject": "防泄漏、防篡改保护",
+          "predicate": "施加义务于",
+          "object": "地方业务系统",
+          "desc": "地方业务系统有义务对留痕信息采取防泄漏、防篡改的技术手段"
+        },
+        {
+          "subject": "防泄漏、防篡改保护",
+          "predicate": "义务对象",
+          "object": "认证结果留痕",
+          "desc": "防泄漏、防篡改保护措施所作用的对象是认证结果的留痕信息"
+        }
+      ],
+      "chunk_index": 10,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_9_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_11_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_11_v1782026056",
+      "section_title": "6.2 数据生成时间明确",
+      "section_path": "区域性股权市场跨链认证安全规范 / 6.2 数据生成时间明确",
+      "content": "业务数据生成的时间应明确。\n应对获取业务数据时间的操作进行日志留痕。留痕的日志信息应采取防篡改、防灭失等技术保护手段。",
+      "entities": [
+        {
+          "name": "业务数据生成时间",
+          "desc": "指业务数据产生时所对应的具体时间，规范要求该时间必须明确"
+        },
+        {
+          "name": "获取业务数据时间的操作",
+          "desc": "指系统或人员记录、捕获业务数据生成时间的具体动作或流程"
+        },
+        {
+          "name": "日志留痕",
+          "desc": "对获取业务数据时间的操作进行记录并保存痕迹的行为"
+        },
+        {
+          "name": "防篡改、防灭失等技术保护手段",
+          "desc": "用于确保留痕日志信息不被非法修改或删除的技术措施"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "业务数据生成时间",
+          "predicate": "量化属性",
+          "object": "明确",
+          "desc": "规范明确要求业务数据生成的时间必须是明确的，不可模糊或缺失"
+        },
+        {
+          "subject": "获取业务数据时间的操作",
+          "predicate": "要求行为",
+          "object": "日志留痕",
+          "desc": "规范规定对于获取业务数据时间的这一操作，必须执行日志留痕以保留记录"
+        },
+        {
+          "subject": "日志留痕",
+          "predicate": "要求行为",
+          "object": "防篡改、防灭失等技术保护手段",
+          "desc": "规范规定留存的日志信息必须采取防篡改和防灭失的技术手段进行保护"
+        }
+      ],
+      "chunk_index": 11,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_10_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_12_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_12_v1782026056",
+      "section_title": "6.3 业务数据提取手段可靠",
+      "section_path": "区域性股权市场跨链认证安全规范 / 6.3 业务数据提取手段可靠",
+      "content": "业务数据提取手段应可靠，通过采集的数据包内容应第一时间进行固化，采取数字签名、时间戳、数字摘要、区块链等技术手段进行完整性保护，修改后可被发现。",
+      "entities": [
+        {
+          "name": "业务数据提取手段",
+          "desc": "指通过采集数据包内容对业务数据进行提取的操作过程，要求具备可靠性"
+        },
+        {
+          "name": "合规义务",
+          "desc": "条款6.3规定的关于业务数据提取手段必须可靠的要求"
+        },
+        {
+          "name": "数字签名",
+          "desc": "用于保护业务数据完整性的技术手段之一"
+        },
+        {
+          "name": "时间戳",
+          "desc": "用于保护业务数据完整性的技术手段之一"
+        },
+        {
+          "name": "数字摘要",
+          "desc": "用于保护业务数据完整性的技术手段之一"
+        },
+        {
+          "name": "区块链",
+          "desc": "具有数据透明、不易篡改、可追溯等技术优势的技术手段"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "合规义务",
+          "predicate": "要求行为",
+          "object": "业务数据提取手段",
+          "desc": "合规义务要求业务数据提取手段应可靠"
+        },
+        {
+          "subject": "合规义务",
+          "predicate": "要求行为",
+          "object": "数字签名",
+          "desc": "合规义务要求采取数字签名等技术手段进行完整性保护"
+        },
+        {
+          "subject": "合规义务",
+          "predicate": "要求行为",
+          "object": "时间戳",
+          "desc": "合规义务要求采取时间戳等技术手段进行完整性保护"
+        },
+        {
+          "subject": "合规义务",
+          "predicate": "要求行为",
+          "object": "数字摘要",
+          "desc": "合规义务要求采取数字摘要等技术手段进行完整性保护"
+        },
+        {
+          "subject": "合规义务",
+          "predicate": "要求行为",
+          "object": "区块链",
+          "desc": "合规义务要求采取区块链等技术手段进行完整性保护"
+        }
+      ],
+      "chunk_index": 12,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_11_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_13_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_13_v1782026056",
+      "section_title": "6.4 业务数据传输安全",
+      "section_path": "区域性股权市场跨链认证安全规范 / 6.4 业务数据传输安全",
+      "content": "应采取加密算法确保业务数据的机密性，加密算法应采用国产密码算法，密钥协商、密钥保护手段应安全，应使用通过密码产品认证的产品。\n应采取数字摘要、数字签名、HMAC等密码技术确保业务数据传输的完整性，密码算法应采用国产密码算法。",
+      "entities": [
+        {
+          "name": "业务数据传输",
+          "desc": "区域性股权市场中涉及的业务数据在传输过程中的安全保护对象"
+        },
+        {
+          "name": "加密算法",
+          "desc": "用于确保业务数据机密性的技术手段，要求采用国产密码算法"
+        },
+        {
+          "name": "数字摘要、数字签名、HMAC",
+          "desc": "用于确保业务数据传输完整性的密码技术，要求采用国产密码算法"
+        },
+        {
+          "name": "密钥协商、密钥保护手段",
+          "desc": "保障密钥安全的措施，要求具备安全性"
+        },
+        {
+          "name": "通过密码产品认证的产品",
+          "desc": "符合国家标准并通过认证的密码产品，要求在使用加密算法时选用此类产品"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 13,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_12_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_14_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_14_v1782026056",
+      "section_title": "6.5 业务数据的存储可靠",
+      "section_path": "区域性股权市场跨链认证安全规范 / 6.5 业务数据的存储可靠",
+      "content": "应确保业务数据存储的可靠性。应提供安全、可靠的存储环境，并具备备份、容灾技术手段和运维能力以及运维制度。\n业务数据的保存时限不低于60个月。对于有特殊要求或规定的，从其规定。\n业务数据应支持结构化和非结构化数据类型。\n应采取电子签名、区块链、数字摘要等技术手段确保业务数据完整性。对相关数据进行修改后，应能发现。\n应具备健全的信息安全保护制度、内部人员安全管理制度，确保不泄露。",
+      "entities": [
+        {
+          "name": "区域性股权市场",
+          "desc": "服务所在省级行政区域内中小微企业的私募股权市场，是多层次资本市场体系重要组成部分，地方金融组织"
+        },
+        {
+          "name": "业务数据存储的可靠性",
+          "desc": "要求提供安全可靠的存储环境，具备备份、容灾技术手段和运维能力以及运维制度"
+        },
+        {
+          "name": "业务数据保存时限",
+          "desc": "规定业务数据的最低保存时间要求"
+        },
+        {
+          "name": "60个月",
+          "desc": "业务数据保存的具体最低时限数值"
+        },
+        {
+          "name": "业务数据类型支持",
+          "desc": "要求业务数据应同时支持结构化和非结构化两种数据类型"
+        },
+        {
+          "name": "业务数据完整性保障",
+          "desc": "要求采取电子签名、区块链、数字摘要等技术手段确保数据不被篡改且可发现修改"
+        },
+        {
+          "name": "信息安全保护制度",
+          "desc": "要求具备健全的信息安全保护制度和内部人员安全管理制度以防止数据泄露"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "区域性股权市场",
+          "predicate": "施加义务于",
+          "object": "业务数据存储的可靠性",
+          "desc": "区域性股权市场需确保业务数据存储的可靠性，包括提供安全环境和运维能力"
+        },
+        {
+          "subject": "业务数据保存时限",
+          "predicate": "量化属性",
+          "object": "60个月",
+          "desc": "业务数据保存时限的具体数值要求为不低于60个月"
+        },
+        {
+          "subject": "区域性股权市场",
+          "predicate": "施加义务于",
+          "object": "业务数据类型支持",
+          "desc": "区域性股权市场需确保其业务数据支持结构化和非结构化类型"
+        },
+        {
+          "subject": "区域性股权市场",
+          "predicate": "施加义务于",
+          "object": "业务数据完整性保障",
+          "desc": "区域性股权市场需采取电子签名、区块链等技术手段确保业务数据完整性"
+        },
+        {
+          "subject": "区域性股权市场",
+          "predicate": "施加义务于",
+          "object": "信息安全保护制度",
+          "desc": "区域性股权市场应具备健全的信息安全保护制度以确保不泄露"
+        }
+      ],
+      "chunk_index": 14,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_13_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_15_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_15_v1782026056",
+      "section_title": "6.6 数据完整性保护手段可靠",
+      "section_path": "区域性股权市场跨链认证安全规范 / 6.6 数据完整性保护手段可靠",
+      "content": "业务数据完整性保护手段应可靠，可通过技术手段验证业务数据的生成主体身份、生成时间、操作的规范性、数据的完整性。",
+      "entities": [
+        {
+          "name": "业务数据完整性保护手段",
+          "desc": "用于验证业务数据的生成主体身份、生成时间、操作的规范性及数据完整性的技术手段，要求具备可靠性"
+        },
+        {
+          "name": "业务数据",
+          "desc": "需要被保护其完整性的数据对象，涉及生成主体、时间及操作规范性"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "业务数据完整性保护手段",
+          "predicate": "施加义务于",
+          "object": "业务数据",
+          "desc": "业务数据完整性保护手段应对业务数据实施保护，确保其完整性"
+        }
+      ],
+      "chunk_index": 15,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_14_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_16_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_16_v1782026056",
+      "section_title": "7 地方业务链安全要求",
+      "section_path": "区域性股权市场跨链认证安全规范 / 7 地方业务链安全要求",
+      "content": "地方业务链应具备查询区块平均生成时间、总区块数以及指定区块中事务明细的功能。通过使用这些功能，应能获得一致、可靠的链上数据。",
+      "entities": [
+        {
+          "name": "地方业务链",
+          "desc": "区域性股权市场中负责处理用户身份信息的区块链系统，需具备身份标识唯一性、可鉴别性及安全校验机制"
+        },
+        {
+          "name": "查询区块平均生成时间、总区块数以及指定区块中事务明细的功能",
+          "desc": "地方业务链必须具备的技术功能，用于获取链上数据的一致性验证信息"
+        },
+        {
+          "name": "一致、可靠的链上数据",
+          "desc": "通过上述功能应能获得的最终数据状态或结果"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "查询区块平均生成时间、总区块数以及指定区块中事务明细的功能",
+          "predicate": "施加义务于",
+          "object": "地方业务链",
+          "desc": "规定地方业务链必须拥有查询特定区块数据和事务明细的能力"
+        },
+        {
+          "subject": "查询区块平均生成时间、总区块数以及指定区块中事务明细的功能",
+          "predicate": "要求行为",
+          "object": "一致、可靠的链上数据",
+          "desc": "通过执行查询功能，旨在实现获得一致且可靠链上数据的目标"
+        }
+      ],
+      "chunk_index": 16,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_15_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_17_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_17_v1782026056",
+      "section_title": "7.2 身份信息安全",
+      "section_path": "区域性股权市场跨链认证安全规范 / 7.2 身份信息安全",
+      "content": "地方业务链应能确保用户身份标识唯一性和可鉴别性。\n地方业务链的校验鉴别信息应具有加密算法和数字签名的安全机制，确保区块链中不存在重复身份标识、身份鉴别信息不被冒用。\n地方业务链应具有身份认证失败处理机制。",
+      "entities": [
+        {
+          "name": "地方业务链",
+          "desc": "区域性股权市场中负责处理用户身份信息的区块链系统，需具备身份标识唯一性、可鉴别性及安全校验机制"
+        },
+        {
+          "name": "用户身份标识唯一性和可鉴别性",
+          "desc": "地方业务链必须确保的核心属性，防止重复身份标识和身份冒用"
+        },
+        {
+          "name": "加密算法和数字签名的安全机制",
+          "desc": "用于校验鉴别信息的技术手段，保障身份数据的安全性和防篡改性"
+        },
+        {
+          "name": "身份认证失败处理机制",
+          "desc": "地方业务链应具备的应对身份验证失败情况的程序或功能"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "地方业务链",
+          "predicate": "施加义务于",
+          "object": "用户身份标识唯一性和可鉴别性",
+          "desc": "规定地方业务链必须承担确保用户身份标识具有唯一性和可鉴别性的合规义务"
+        },
+        {
+          "subject": "地方业务链",
+          "predicate": "施加义务于",
+          "object": "加密算法和数字签名的安全机制",
+          "desc": "规定地方业务链在提供校验鉴别信息时必须采用加密算法和数字签名等安全机制"
+        },
+        {
+          "subject": "地方业务链",
+          "predicate": "施加义务于",
+          "object": "身份认证失败处理机制",
+          "desc": "规定地方业务链必须具备处理身份认证失败情况的能力或机制"
+        }
+      ],
+      "chunk_index": 17,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_16_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_18_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_18_v1782026056",
+      "section_title": "7.3 访问控制",
+      "section_path": "区域性股权市场跨链认证安全规范 / 7.3 访问控制",
+      "content": "地方业务链应具有访问控制功能，依据安全策略控制用户对数据的访问。\n地方业务链访问控制的覆盖范围应包括：区块链访问相关的主体、区块链访问相关的客体以及区块链访问相关资源之间的操作。",
+      "entities": [
+        {
+          "name": "地方业务链",
+          "desc": "区域性股权市场中负责处理用户身份信息的区块链系统，需具备身份标识唯一性、可鉴别性及安全校验机制"
+        },
+        {
+          "name": "访问控制功能",
+          "desc": "地方业务链应具备的安全机制，用于依据安全策略控制用户对数据的访问"
+        },
+        {
+          "name": "安全策略",
+          "desc": "地方业务链依据其控制外部系统数据访问的规则"
+        },
+        {
+          "name": "用户",
+          "desc": "需要访问区块链数据的主体，其访问行为受访问控制功能限制"
+        },
+        {
+          "name": "数据",
+          "desc": "区块链上存储的信息资源，是访问控制的对象"
+        },
+        {
+          "name": "区块链访问相关的主体",
+          "desc": "发起或参与区块链访问行为的实体角色，属于访问控制覆盖范围之一"
+        },
+        {
+          "name": "区块链访问相关的客体",
+          "desc": "被访问的目标对象，属于访问控制覆盖范围之一"
+        },
+        {
+          "name": "区块链访问相关资源之间的操作",
+          "desc": "涉及区块链资源的具体交互行为，属于访问控制覆盖范围之一"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "地方业务链",
+          "predicate": "要求行为",
+          "object": "访问控制功能",
+          "desc": "规定地方业务链必须具有访问控制功能以实施安全管理"
+        },
+        {
+          "subject": "访问控制功能",
+          "predicate": "要求行为",
+          "object": "控制用户对数据的访问",
+          "desc": "说明访问控制功能的具体作用是依据安全策略限制用户的访问权限"
+        },
+        {
+          "subject": "访问控制功能",
+          "predicate": "义务对象",
+          "object": "区块链访问相关的主体",
+          "desc": "明确访问控制的覆盖范围包括对区块链访问主体的管控"
+        },
+        {
+          "subject": "访问控制功能",
+          "predicate": "义务对象",
+          "object": "区块链访问相关的客体",
+          "desc": "明确访问控制的覆盖范围包括对区块链访问客体的管控"
+        },
+        {
+          "subject": "访问控制功能",
+          "predicate": "要求行为",
+          "object": "区块链访问相关资源之间的操作",
+          "desc": "明确访问控制的覆盖范围包括对资源间操作的管控"
+        }
+      ],
+      "chunk_index": 18,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_17_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_19_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_19_v1782026056",
+      "section_title": "7.3.3 访问控制策略和权限",
+      "section_path": "区域性股权市场跨链认证安全规范 / 7.3.3 访问控制策略和权限",
+      "content": "地方业务链应用应由授权主体配置访问控制策略，并按照权限最小化、相互制约原则，为账户分配访问权限。\n地方业务链应具有访问控制功能，依据安全策略控制其他区块链系统对本区块链数据的访问。",
+      "entities": [
+        {
+          "name": "地方业务链应用",
+          "desc": "由授权主体配置访问控制策略的业务链应用系统"
+        },
+        {
+          "name": "授权主体",
+          "desc": "负责为地方业务链应用配置访问控制策略的责任方"
+        },
+        {
+          "name": "账户",
+          "desc": "被分配访问权限的对象"
+        },
+        {
+          "name": "地方业务链",
+          "desc": "区域性股权市场中负责处理用户身份信息的区块链系统，需具备身份标识唯一性、可鉴别性及安全校验机制"
+        },
+        {
+          "name": "其他区块链系统",
+          "desc": "指代试图访问或与被监管区块链进行交互的外部区块链实体，作为访问主体存在。"
+        },
+        {
+          "name": "访问控制策略",
+          "desc": "由授权主体配置，用于管理其他区块链访问的规则"
+        },
+        {
+          "name": "访问权限",
+          "desc": "依据权限最小化、相互制约原则为账户分配的具体操作权利"
+        },
+        {
+          "name": "安全策略",
+          "desc": "地方业务链依据其控制外部系统数据访问的规则"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "授权主体",
+          "predicate": "施加义务于",
+          "object": "地方业务链应用",
+          "desc": "授权主体需对地方业务链应用配置访问控制策略"
+        },
+        {
+          "subject": "访问控制策略",
+          "predicate": "要求行为",
+          "object": "权限最小化、相互制约原则",
+          "desc": "访问控制策略的配置需遵循权限最小化和相互制约的原则"
+        },
+        {
+          "subject": "授权主体",
+          "predicate": "施加义务于",
+          "object": "账户",
+          "desc": "授权主体需为账户分配访问权限"
+        },
+        {
+          "subject": "地方业务链",
+          "predicate": "施加义务于",
+          "object": "其他区块链系统",
+          "desc": "地方业务链需对其他区块链系统的访问进行控制"
+        },
+        {
+          "subject": "安全策略",
+          "predicate": "要求行为",
+          "object": "控制其他区块链系统对本区块链数据的访问",
+          "desc": "安全策略的具体执行内容是控制其他区块链系统对本地数据的访问"
+        }
+      ],
+      "chunk_index": 19,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_18_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_20_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_20_v1782026056",
+      "section_title": "7.4.2 链间访问控制覆盖范围",
+      "section_path": "区域性股权市场跨链认证安全规范 / 7.4.2 链间访问控制覆盖范围",
+      "content": "地方业务链的链间访问控制的覆盖范围应包括：其他区块链系统对本区块链访问相关的主体、区块链访问相关的客体以及区块链访问相关资源之间的操作。",
+      "entities": [
+        {
+          "name": "地方业务链",
+          "desc": "区域性股权市场中负责处理用户身份信息的区块链系统，需具备身份标识唯一性、可鉴别性及安全校验机制"
+        },
+        {
+          "name": "其他区块链系统",
+          "desc": "指代试图访问或与被监管区块链进行交互的外部区块链实体，作为访问主体存在。"
+        },
+        {
+          "name": "链间访问控制覆盖范围",
+          "desc": "指地方业务链在跨链场景下，其访问控制机制所涵盖的具体内容边界，包括主体、客体及操作。"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 20,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_19_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_21_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_21_v1782026056",
+      "section_title": "7.4.3 访问控制策略和权限",
+      "section_path": "区域性股权市场跨链认证安全规范 / 7.4.3 访问控制策略和权限",
+      "content": "地方业务链应用应由授权主体配置其他区块链的访问控制策略，并按照权限最小化、相互制约原则，为账户分配访问权限。",
+      "entities": [
+        {
+          "name": "地方业务链应用",
+          "desc": "由授权主体配置访问控制策略的业务链应用系统"
+        },
+        {
+          "name": "授权主体",
+          "desc": "负责为地方业务链应用配置访问控制策略的责任方"
+        },
+        {
+          "name": "账户",
+          "desc": "被分配访问权限的对象"
+        },
+        {
+          "name": "访问控制策略",
+          "desc": "由授权主体配置，用于管理其他区块链访问的规则"
+        },
+        {
+          "name": "访问权限",
+          "desc": "依据权限最小化、相互制约原则为账户分配的具体操作权利"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "授权主体",
+          "predicate": "要求行为",
+          "object": "配置访问控制策略",
+          "desc": "授权主体应当为地方业务链应用配置其他区块链的访问控制策略"
+        },
+        {
+          "subject": "授权主体",
+          "predicate": "要求行为",
+          "object": "分配访问权限",
+          "desc": "授权主体应按照权限最小化、相互制约原则为账户分配访问权限"
+        },
+        {
+          "subject": "访问控制策略",
+          "predicate": "义务对象",
+          "object": "地方业务链应用",
+          "desc": "访问控制策略是应用于地方业务链配置的规则"
+        },
+        {
+          "subject": "访问权限",
+          "predicate": "义务对象",
+          "object": "账户",
+          "desc": "访问权限是分配给账户使用的权利"
+        }
+      ],
+      "chunk_index": 21,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_20_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_22_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_22_v1782026056",
+      "section_title": "7.5 共识协议",
+      "section_path": "区域性股权市场跨链认证安全规范 / 7.5 共识协议",
+      "content": "地方业务链需要采用合适的共识算法确保链上数据的一致性，支持多节点参与共识和验证，具备容错性。\n地方业务链的节点不可全部部署到某一机构的服务器或单一云平台服务器上。\n地方业务链应确保节点数据的一致性、可靠性和可拓展性。",
+      "entities": [
+        {
+          "name": "地方业务链",
+          "desc": "区域性股权市场中负责处理用户身份信息的区块链系统，需具备身份标识唯一性、可鉴别性及安全校验机制"
+        },
+        {
+          "name": "共识算法",
+          "desc": "用于确保链上数据一致性的技术手段"
+        },
+        {
+          "name": "多节点参与共识和验证",
+          "desc": "地方业务链需支持的功能特性"
+        },
+        {
+          "name": "容错性",
+          "desc": "地方业务链需具备的系统属性"
+        },
+        {
+          "name": "单一机构的服务器或单一云平台服务器",
+          "desc": "禁止全部部署节点的物理位置限制"
+        },
+        {
+          "name": "节点数据的一致性、可靠性和可拓展性",
+          "desc": "地方业务链应确保的核心数据属性"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "地方业务链",
+          "predicate": "要求行为",
+          "object": "采用合适的共识算法",
+          "desc": "地方业务链需要采用合适的共识算法以确保链上数据的一致性"
+        },
+        {
+          "subject": "地方业务链",
+          "predicate": "要求行为",
+          "object": "支持多节点参与共识和验证",
+          "desc": "地方业务链需要支持多节点参与共识和验证"
+        },
+        {
+          "subject": "地方业务链",
+          "predicate": "要求行为",
+          "object": "具备容错性",
+          "desc": "地方业务链需要具备容错性"
+        },
+        {
+          "subject": "地方业务链",
+          "predicate": "禁止行为",
+          "object": "节点不可全部部署到某一机构的服务器或单一云平台服务器上",
+          "desc": "地方业务链的节点不得全部部署在单一机构服务器或单一云平台上"
+        },
+        {
+          "subject": "地方业务链",
+          "predicate": "要求行为",
+          "object": "确保节点数据的一致性、可靠性和可拓展性",
+          "desc": "地方业务链应确保其节点数据具有一致性、可靠性和可拓展性"
+        }
+      ],
+      "chunk_index": 22,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_21_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_23_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_23_v1782026056",
+      "section_title": "7.6 智能合约",
+      "section_path": "区域性股权市场跨链认证安全规范 / 7.6 智能合约",
+      "content": "地方业务链的智能合约的执行结果应明确，可通过逻辑推理得出与实际结果一致的执行结果。\n地方业务链的智能合约应支持索引、区间、历史查询等功能。",
+      "entities": [
+        {
+          "name": "地方业务链的智能合约",
+          "desc": "区域性股权市场中用于处理地方业务链逻辑的自动化程序，需满足执行结果明确及支持多种查询功能的要求"
+        },
+        {
+          "name": "执行结果明确",
+          "desc": "对智能合约执行结果的质量要求，指结果应清晰且可通过逻辑推理得出与实际结果一致"
+        },
+        {
+          "name": "索引、区间、历史查询等功能",
+          "desc": "智能合约需具备的数据检索能力，包括索引查找、区间筛选和历史数据回溯"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "地方业务链的智能合约",
+          "predicate": "合规义务",
+          "object": "执行结果明确",
+          "desc": "规定地方业务链的智能合约必须保证执行结果的明确性，确保逻辑推理结果与实际执行结果一致"
+        },
+        {
+          "subject": "地方业务链的智能合约",
+          "predicate": "合规义务",
+          "object": "索引、区间、历史查询等功能",
+          "desc": "规定地方业务链的智能合约应当支持索引、区间以及历史数据查询等技术功能"
+        }
+      ],
+      "chunk_index": 23,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_22_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_24_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_24_v1782026056",
+      "section_title": "7.6.3 智能合约更新",
+      "section_path": "区域性股权市场跨链认证安全规范 / 7.6.3 智能合约更新",
+      "content": "地方业务链的智能合约应具有动态更新的功能；更新过程前后，地方业务链应运行稳定。\n地方业务链的智能合约应具有冻结或终止功能。",
+      "entities": [
+        {
+          "name": "地方业务链",
+          "desc": "区域性股权市场中负责处理用户身份信息的区块链系统，需具备身份标识唯一性、可鉴别性及安全校验机制"
+        },
+        {
+          "name": "智能合约",
+          "desc": "以信息化方式传播、验证或执行合同的计算机协议，在分布式账本上体现为可自动执行的计算机程序"
+        },
+        {
+          "name": "动态更新功能",
+          "desc": "智能合约应具备的能力，允许在不中断服务的情况下对合约逻辑进行修改或升级"
+        },
+        {
+          "name": "冻结或终止功能",
+          "desc": "智能合约应具备的安全控制能力，用于在异常情况下暂停或结束合约执行"
+        },
+        {
+          "name": "运行稳定",
+          "desc": "智能合约在执行更新过程前后必须保持的技术状态要求"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "地方业务链的智能合约应具有动态更新的功能",
+          "predicate": "义务对象",
+          "object": "智能合约",
+          "desc": "规定智能合约必须具备动态更新这一合规属性"
+        },
+        {
+          "subject": "地方业务链的智能合约应具有动态更新的功能",
+          "predicate": "要求行为",
+          "object": "动态更新功能",
+          "desc": "明确智能合约需要实现的具体行为能力"
+        },
+        {
+          "subject": "地方业务链的智能合约应具有冻结或终止功能",
+          "predicate": "义务对象",
+          "object": "智能合约",
+          "desc": "规定智能合约必须具备冻结或终止这一合规属性"
+        },
+        {
+          "subject": "地方业务链的智能合约应具有冻结或终止功能",
+          "predicate": "要求行为",
+          "object": "冻结或终止功能",
+          "desc": "明确智能合约需要实现的具体安全控制行为"
+        },
+        {
+          "subject": "更新过程前后，地方业务链应运行稳定",
+          "predicate": "义务对象",
+          "object": "地方业务链",
+          "desc": "规定地方业务链在特定场景下需满足的运行稳定性要求"
+        },
+        {
+          "subject": "更新过程前后，地方业务链应运行稳定",
+          "predicate": "触发条件",
+          "object": "智能合约更新",
+          "desc": "指明运行稳定这一义务是在智能合约更新过程前后触发的"
+        },
+        {
+          "subject": "更新过程前后，地方业务链应运行稳定",
+          "predicate": "要求行为",
+          "object": "运行稳定",
+          "desc": "明确地方业务链在更新期间需保持的技术状态"
+        }
+      ],
+      "chunk_index": 24,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_23_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_25_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_25_v1782026056",
+      "section_title": "7.7 稳定性",
+      "section_path": "区域性股权市场跨链认证安全规范 / 7.7 稳定性",
+      "content": "地方业务链应运行稳定，在始终有未确认交易的场景下，地方业务链仍能平稳运行。\n注：交易是区块链上的一次原子性账本数据状态变更及其过程和结果记录。",
+      "entities": [
+        {
+          "name": "地方业务链",
+          "desc": "区域性股权市场中负责处理用户身份信息的区块链系统，需具备身份标识唯一性、可鉴别性及安全校验机制"
+        },
+        {
+          "name": "未确认交易",
+          "desc": "区块链上尚未被打包进区块的交易状态，作为测试稳定性的特定场景条件"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "地方业务链",
+          "predicate": "施加义务于",
+          "object": "合规义务",
+          "desc": "文本规定地方业务链在特定场景下应保持平稳运行的义务"
+        },
+        {
+          "subject": "合规义务",
+          "predicate": "触发条件",
+          "object": "未确认交易",
+          "desc": "该稳定性义务是在始终存在未确认交易的极端场景下触发的"
+        }
+      ],
+      "chunk_index": 25,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_24_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_26_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_26_v1782026056",
+      "section_title": "8 地方业务系统安全要求",
+      "section_path": "区域性股权市场跨链认证安全规范 / 8 地方业务系统安全要求",
+      "content": "地方业务系统应能在关键网络节点处检测、防止或限制内外部发起的网络攻击行为；当检测到攻击行为时，地方业务系统应记录攻击信息，包括源网络地址、攻击类型、攻击范围、攻击时间。",
+      "entities": [
+        {
+          "name": "地方业务系统",
+          "desc": "区域性股权市场中的业务数据处理主体，负责执行身份认证、意愿性认证及数据留痕保护等技术操作"
+        },
+        {
+          "name": "内外部发起的网络攻击行为",
+          "desc": "针对地方业务系统的内部或外部网络攻击活动"
+        },
+        {
+          "name": "攻击信息记录",
+          "desc": "检测到攻击后必须执行的记录行为，包含源地址、类型、范围和时间等要素"
+        },
+        {
+          "name": "源网络地址",
+          "desc": "攻击信息来源的网络地址，属于攻击信息的组成部分"
+        },
+        {
+          "name": "攻击类型",
+          "desc": "网络攻击的具体种类，属于攻击信息的组成部分"
+        },
+        {
+          "name": "攻击范围",
+          "desc": "网络攻击影响的范围，属于攻击信息的组成部分"
+        },
+        {
+          "name": "攻击时间",
+          "desc": "网络攻击发生的时间点，属于攻击信息的组成部分"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "地方业务系统安全要求",
+          "predicate": "施加义务于",
+          "object": "地方业务系统",
+          "desc": "该章节规定地方业务系统需承担网络安全防护及日志记录的合规义务"
+        },
+        {
+          "subject": "地方业务系统安全要求",
+          "predicate": "要求行为",
+          "object": "内外部发起的网络攻击行为",
+          "desc": "要求地方业务系统在关键网络节点处对内外部的网络攻击进行检测、防止或限制"
+        },
+        {
+          "subject": "地方业务系统安全要求",
+          "predicate": "要求行为",
+          "object": "攻击信息记录",
+          "desc": "当检测到攻击时，要求地方业务系统记录相关的攻击信息"
+        },
+        {
+          "subject": "攻击信息记录",
+          "predicate": "量化属性",
+          "object": "源网络地址",
+          "desc": "攻击信息记录中必须包含源网络地址这一具体字段"
+        },
+        {
+          "subject": "攻击信息记录",
+          "predicate": "量化属性",
+          "object": "攻击类型",
+          "desc": "攻击信息记录中必须包含攻击类型这一具体字段"
+        },
+        {
+          "subject": "攻击信息记录",
+          "predicate": "量化属性",
+          "object": "攻击范围",
+          "desc": "攻击信息记录中必须包含攻击范围这一具体字段"
+        },
+        {
+          "subject": "攻击信息记录",
+          "predicate": "量化属性",
+          "object": "攻击时间",
+          "desc": "攻击信息记录中必须包含攻击时间这一具体字段"
+        }
+      ],
+      "chunk_index": 26,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_25_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_27_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_27_v1782026056",
+      "section_title": "8.2 恶意代码防范",
+      "section_path": "区域性股权市场跨链认证安全规范 / 8.2 恶意代码防范",
+      "content": "地方业务系统应能检测并清除恶意代码，同时应维护对恶意代码的防护机制、升级和更新。\n地方业务系统应具备可信验证机制，对系统程序、应用程序和重要配置文件或参数进行可信执行验证。地方业务系统应在检测到其完整性受到破坏时采取恢复措施。",
+      "entities": [
+        {
+          "name": "地方业务系统",
+          "desc": "区域性股权市场中的业务数据处理主体，负责执行身份认证、意愿性认证及数据留痕保护等技术操作"
+        },
+        {
+          "name": "恶意代码检测与清除",
+          "desc": "地方业务系统必须执行的安全操作，包括检测并清除恶意代码"
+        },
+        {
+          "name": "恶意代码防护机制维护",
+          "desc": "对恶意代码的防护机制进行维护、升级和更新的要求"
+        },
+        {
+          "name": "可信验证机制",
+          "desc": "地方业务系统应具备的安全机制，用于验证程序、应用及配置文件的完整性"
+        },
+        {
+          "name": "可信执行验证",
+          "desc": "对系统程序、应用程序和重要配置文件或参数进行的完整性验证行为"
+        },
+        {
+          "name": "完整性破坏恢复措施",
+          "desc": "当检测到系统完整性受到破坏时，地方业务系统应采取的应对措施"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "恶意代码检测与清除",
+          "predicate": "施加义务于",
+          "object": "地方业务系统",
+          "desc": "规定地方业务系统应能检测并清除恶意代码"
+        },
+        {
+          "subject": "恶意代码防护机制维护",
+          "predicate": "施加义务于",
+          "object": "地方业务系统",
+          "desc": "规定地方业务系统应维护对恶意代码的防护机制、升级和更新"
+        },
+        {
+          "subject": "可信验证机制",
+          "predicate": "施加义务于",
+          "object": "地方业务系统",
+          "desc": "规定地方业务系统应具备可信验证机制"
+        },
+        {
+          "subject": "可信执行验证",
+          "predicate": "要求行为",
+          "object": "可信验证机制",
+          "desc": "可信验证机制的具体行为是对系统程序、应用程序和重要配置文件或参数进行可信执行验证"
+        },
+        {
+          "subject": "完整性破坏恢复措施",
+          "predicate": "触发条件",
+          "object": "完整性受到破坏",
+          "desc": "完整性破坏恢复措施的触发条件是检测到其完整性受到破坏"
+        },
+        {
+          "subject": "完整性破坏恢复措施",
+          "predicate": "施加义务于",
+          "object": "地方业务系统",
+          "desc": "规定地方业务系统应在检测到其完整性受到破坏时采取恢复措施"
+        }
+      ],
+      "chunk_index": 27,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_26_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_28_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_28_v1782026056",
+      "section_title": "8.4 访问控制",
+      "section_path": "区域性股权市场跨链认证安全规范 / 8.4 访问控制",
+      "content": "地方业务系统应做好用户访问控制管理，应对登录的用户分配相应的账户和权限。\n地方业务系统的权限管理应遵从最小权限原则。\n地方业务系统的访问控制粒度应达到主体为用户级，客体为文件、数据库表级、记录或字段级。",
+      "entities": [
+        {
+          "name": "地方业务系统",
+          "desc": "区域性股权市场中的业务数据处理主体，负责执行身份认证、意愿性认证及数据留痕保护等技术操作"
+        },
+        {
+          "name": "用户访问控制管理",
+          "desc": "地方业务系统必须执行的一项合规义务，涉及对登录用户的账户和权限分配"
+        },
+        {
+          "name": "最小权限原则",
+          "desc": "地方业务系统进行权限管理时必须遵从的核心安全原则"
+        },
+        {
+          "name": "主体为用户级",
+          "desc": "访问控制粒度的量化属性之一，指受控主体细化到具体用户级别"
+        },
+        {
+          "name": "客体为文件、数据库表级、记录或字段级",
+          "desc": "访问控制粒度的量化属性之二，指受控客体细化到文件、数据表、记录或具体字段级别"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "用户访问控制管理",
+          "predicate": "施加义务于",
+          "object": "地方业务系统",
+          "desc": "规定地方业务系统应当做好用户访问控制管理"
+        },
+        {
+          "subject": "用户访问控制管理",
+          "predicate": "要求行为",
+          "object": "应对登录的用户分配相应的账户和权限",
+          "desc": "明确用户访问控制管理的具体实施行为是为用户分配账户和权限"
+        },
+        {
+          "subject": "最小权限原则",
+          "predicate": "施加义务于",
+          "object": "地方业务系统",
+          "desc": "规定地方业务系统的权限管理应遵从最小权限原则"
+        },
+        {
+          "subject": "访问控制粒度",
+          "predicate": "量化属性",
+          "object": "主体为用户级",
+          "desc": "定义访问控制粒度在主体维度的具体要求为用户级"
+        },
+        {
+          "subject": "访问控制粒度",
+          "predicate": "量化属性",
+          "object": "客体为文件、数据库表级、记录或字段级",
+          "desc": "定义访问控制粒度在客体维度的具体要求为文件、数据库表级、记录或字段级"
+        }
+      ],
+      "chunk_index": 28,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_27_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_29_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_29_v1782026056",
+      "section_title": "8.5 安全策略和管理制度",
+      "section_path": "区域性股权市场跨链认证安全规范 / 8.5 安全策略和管理制度",
+      "content": "应制定信息安全工作的总体方针和安全策略，说明机构安全工作的总体目标、范围、原则和安全框架。\n应对安全管理活动中的各类管理内容建立安全管理制度。\n应对管理人员或操作人员执行的日常管理操作建立操作规程。\n应形成由安全策略、管理制度、操作规程、记录表单等构成的全面的信息安全管理制度体系。",
+      "entities": [
+        {
+          "name": "信息安全工作的总体方针和安全策略",
+          "desc": "机构安全工作的顶层指导文件，说明总体目标、范围、原则和安全框架"
+        },
+        {
+          "name": "安全管理制度",
+          "desc": "针对安全管理活动中各类管理内容建立的具体制度"
+        },
+        {
+          "name": "操作规程",
+          "desc": "针对管理人员或操作人员执行的日常管理操作建立的规范"
+        },
+        {
+          "name": "记录表单",
+          "desc": "信息安全管理制度体系中的组成部分，用于记录相关信息"
+        },
+        {
+          "name": "全面的信息安全管理制度体系",
+          "desc": "由安全策略、管理制度、操作规程、记录表单等构成的整体体系"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "全面的信息安全管理制度体系",
+          "predicate": "要求行为",
+          "object": "制定信息安全工作的总体方针和安全策略",
+          "desc": "全面的信息安全管理制度体系应包含制定总体方针和安全策略的要求"
+        },
+        {
+          "subject": "全面的信息安全管理制度体系",
+          "predicate": "要求行为",
+          "object": "建立安全管理制度",
+          "desc": "全面的信息安全管理制度体系应包含建立安全管理制度的要求"
+        },
+        {
+          "subject": "全面的信息安全管理制度体系",
+          "predicate": "要求行为",
+          "object": "建立操作规程",
+          "desc": "全面的信息安全管理制度体系应包含建立操作规程的要求"
+        },
+        {
+          "subject": "全面的信息安全管理制度体系",
+          "predicate": "义务对象",
+          "object": "安全策略",
+          "desc": "全面的信息安全管理制度体系包含安全策略这一构成要素"
+        },
+        {
+          "subject": "全面的信息安全管理制度体系",
+          "predicate": "义务对象",
+          "object": "管理制度",
+          "desc": "全面的信息安全管理制度体系包含管理制度这一构成要素"
+        },
+        {
+          "subject": "全面的信息安全管理制度体系",
+          "predicate": "义务对象",
+          "object": "操作规程",
+          "desc": "全面的信息安全管理制度体系包含操作规程这一构成要素"
+        },
+        {
+          "subject": "全面的信息安全管理制度体系",
+          "predicate": "义务对象",
+          "object": "记录表单",
+          "desc": "全面的信息安全管理制度体系包含记录表单这一构成要素"
+        }
+      ],
+      "chunk_index": 29,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_28_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_30_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_30_v1782026056",
+      "section_title": "9 跨链机制要求",
+      "section_path": "区域性股权市场跨链认证安全规范 / 9 跨链机制要求",
+      "content": "地方业务链和监管链跨链对接应采用公证人机制技术、哈希锁定技术、侧链技术、中继技术或其他安全的跨链技术。应提供跨链消息的输入、输出口径和真实性证明，跨链消息的有效路由；应构建跨链消息的统一格式，定义消息来源和去处以及消息的内容，跨链消息验证，以保障跨链之后的结果安全可信。",
+      "entities": [
+        {
+          "name": "地方业务链",
+          "desc": "区域性股权市场中负责处理用户身份信息的区块链系统，需具备身份标识唯一性、可鉴别性及安全校验机制"
+        },
+        {
+          "name": "监管链",
+          "desc": "用于实施监管的区块链系统，与地方业务链进行跨链对接以获取一致的数据结果"
+        },
+        {
+          "name": "公证人机制技术",
+          "desc": "一种用于跨链对接的安全技术手段"
+        },
+        {
+          "name": "哈希锁定技术",
+          "desc": "一种用于跨链对接的安全技术手段"
+        },
+        {
+          "name": "侧链技术",
+          "desc": "一种用于跨链对接的安全技术手段"
+        },
+        {
+          "name": "中继技术",
+          "desc": "一种用于跨链对接的安全技术手段"
+        },
+        {
+          "name": "跨链消息输入输出口径和真实性证明",
+          "desc": "跨链对接中需提供的关于消息来源验证的技术要求"
+        },
+        {
+          "name": "跨链消息有效路由",
+          "desc": "确保跨链消息能够正确传输的路由机制"
+        },
+        {
+          "name": "跨链消息统一格式",
+          "desc": "定义消息来源、去处及内容的标准化消息结构"
+        },
+        {
+          "name": "跨链消息验证",
+          "desc": "对跨链消息进行校验以确保其合法性和完整性的过程"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "地方业务链和监管链跨链对接",
+          "predicate": "要求行为",
+          "object": "采用公证人机制技术、哈希锁定技术、侧链技术、中继技术或其他安全的跨链技术",
+          "desc": "规定地方业务链与监管链在跨链对接时必须采用的具体安全技术手段"
+        },
+        {
+          "subject": "跨链对接",
+          "predicate": "要求行为",
+          "object": "提供跨链消息的输入、输出口径和真实性证明，跨链消息的有效路由",
+          "desc": "要求跨链系统具备消息验证和路由功能以保障传输安全"
+        },
+        {
+          "subject": "跨链对接",
+          "predicate": "要求行为",
+          "object": "构建跨链消息的统一格式，定义消息来源和去处以及消息的内容，跨链消息验证",
+          "desc": "要求建立标准化的消息格式和验证机制以保障结果安全可信"
+        }
+      ],
+      "chunk_index": 30,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_29_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_31_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_31_v1782026056",
+      "section_title": "10 跨链传输信道安全要求",
+      "section_path": "区域性股权市场跨链认证安全规范 / 10 跨链传输信道安全要求",
+      "content": "地方业务链与监管链通过证券期货行业专线网络进行通信。\n在监管链和地方业务链之间建立专线，地方业务链与监管链通过专线进行通信。",
+      "entities": [
+        {
+          "name": "地方业务链",
+          "desc": "区域性股权市场中负责处理用户身份信息的区块链系统，需具备身份标识唯一性、可鉴别性及安全校验机制"
+        },
+        {
+          "name": "监管链",
+          "desc": "用于实施监管的区块链系统，与地方业务链进行跨链对接以获取一致的数据结果"
+        },
+        {
+          "name": "证券期货行业专线网络",
+          "desc": "连接地方业务链与监管链的专用通信网络基础设施"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 31,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_30_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_32_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_32_v1782026056",
+      "section_title": "10.3 通过 VPN 网络访问",
+      "section_path": "区域性股权市场跨链认证安全规范 / 10.3 通过 VPN 网络访问",
+      "content": "在监管链和地方业务链之间建立VPN连接，监管链通过地方业务链局域网地址调用地方业务链RPC接口，此方式下通过互联网传输加密后的数据。",
+      "entities": [
+        {
+          "name": "监管链",
+          "desc": "用于实施监管的区块链系统，与地方业务链进行跨链对接以获取一致的数据结果"
+        },
+        {
+          "name": "地方业务链",
+          "desc": "区域性股权市场中负责处理用户身份信息的区块链系统，需具备身份标识唯一性、可鉴别性及安全校验机制"
+        },
+        {
+          "name": "VPN连接",
+          "desc": "在监管链和地方业务链之间建立的加密网络连接方式"
+        },
+        {
+          "name": "互联网",
+          "desc": "传输加密数据的公共网络通道"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 32,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_31_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_33_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_33_v1782026056",
+      "section_title": "10.4 对 RPC 接口增加 API 鉴权",
+      "section_path": "区域性股权市场跨链认证安全规范 / 10.4 对 RPC 接口增加 API 鉴权",
+      "content": "在地方业务链节点之上增加网关等鉴权服务，用于地方业务链RPC接口鉴权。监管链通过HTTPS方式访问鉴权服务，鉴权服务验证用户身份通过后，可转发到地方业务链RPC接口，鉴权服务只对调用者身份进行识别，不对接口返回数据进行任何修改。",
+      "entities": [
+        {
+          "name": "地方业务链节点",
+          "desc": "区域性股权市场中的业务处理节点，位于监管链之下"
+        },
+        {
+          "name": "鉴权服务",
+          "desc": "部署在地方业务链节点之上的网关等安全服务，用于对RPC接口进行身份验证和访问控制"
+        },
+        {
+          "name": "监管链",
+          "desc": "用于实施监管的区块链系统，与地方业务链进行跨链对接以获取一致的数据结果"
+        },
+        {
+          "name": "地方业务链RPC接口",
+          "desc": "地方业务链提供的远程过程调用接口，需经过鉴权服务验证后方可访问"
+        },
+        {
+          "name": "API鉴权",
+          "desc": "针对RPC接口增加的身份识别和安全验证机制"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "鉴权服务",
+          "predicate": "施加义务于",
+          "object": "API鉴权",
+          "desc": "鉴权服务是实现API鉴权这一合规要求的具体技术手段或载体"
+        },
+        {
+          "subject": "监管链",
+          "predicate": "要求行为",
+          "object": "通过HTTPS方式访问鉴权服务",
+          "desc": "监管链被要求使用HTTPS协议来连接并访问鉴权服务以获取授权"
+        },
+        {
+          "subject": "鉴权服务",
+          "predicate": "要求行为",
+          "object": "验证用户身份",
+          "desc": "鉴权服务的核心职责是识别和验证调用者的身份"
+        },
+        {
+          "subject": "鉴权服务",
+          "predicate": "禁止行为",
+          "object": "对接口返回数据进行任何修改",
+          "desc": "鉴权服务在转发请求时，严禁篡改或修改从地方业务链RPC接口返回的数据内容"
+        },
+        {
+          "subject": "鉴权服务",
+          "predicate": "要求行为",
+          "object": "转发到地方业务链RPC接口",
+          "desc": "在用户身份验证通过后，鉴权服务需将请求转发至对应的地方业务链RPC接口"
+        }
+      ],
+      "chunk_index": 33,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_32_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_34_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_34_v1782026056",
+      "section_title": "10.5 IP 白名单",
+      "section_path": "区域性股权市场跨链认证安全规范 / 10.5 IP 白名单",
+      "content": "地方业务链应具备IP白名单机制，限制访问节点RPC接口IP。\n地方业务链和监管链跨链对接时，应保证数据传输的安全性与可靠性，所访问的数据，在地方链及监管链上的数据结果应确保一致。",
+      "entities": [
+        {
+          "name": "地方业务链",
+          "desc": "区域性股权市场中负责处理用户身份信息的区块链系统，需具备身份标识唯一性、可鉴别性及安全校验机制"
+        },
+        {
+          "name": "监管链",
+          "desc": "用于实施监管的区块链系统，与地方业务链进行跨链对接以获取一致的数据结果"
+        },
+        {
+          "name": "IP白名单机制",
+          "desc": "一种安全控制手段，用于限制访问节点RPC接口的IP地址"
+        },
+        {
+          "name": "节点RPC接口",
+          "desc": "区块链节点提供的远程过程调用接口，其访问受到IP白名单的限制"
+        },
+        {
+          "name": "跨链对接",
+          "desc": "地方业务链与监管链之间进行数据交互和安全认证的技术机制"
+        },
+        {
+          "name": "数据传输的安全性与可靠性",
+          "desc": "跨链对接过程中必须保证的数据传输质量属性"
+        },
+        {
+          "name": "数据结果一致性",
+          "desc": "地方链及监管链上存储或处理的数据结果应当保持相同的状态"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "地方业务链",
+          "predicate": "要求行为",
+          "object": "IP白名单机制",
+          "desc": "地方业务链被要求具备IP白名单机制以限制对节点RPC接口的访问"
+        },
+        {
+          "subject": "地方业务链",
+          "predicate": "要求行为",
+          "object": "跨链对接",
+          "desc": "地方业务链在与监管链对接时，需保证数据传输的安全性与可靠性"
+        },
+        {
+          "subject": "地方业务链",
+          "predicate": "要求行为",
+          "object": "数据结果一致性",
+          "desc": "在跨链对接场景下，地方业务链上的数据结果需确保与监管链一致"
+        },
+        {
+          "subject": "监管链",
+          "predicate": "要求行为",
+          "object": "数据结果一致性",
+          "desc": "监管链上的数据结果需确保与地方链一致，以满足跨链对接的要求"
+        }
+      ],
+      "chunk_index": 34,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_33_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_35_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_35_v1782026056",
+      "section_title": "11.2 数据访问时的要求",
+      "section_path": "区域性股权市场跨链认证安全规范 / 11.2 数据访问时的要求",
+      "content": "在监管链访问地方业务链数据时，应当完成数据校验，保障所传输的数据一致。\n在地方业务链向监管链传输数据时，应在传输完成后，进行数据完整性一致性的检查，保障所传输的数据一致。",
+      "entities": [
+        {
+          "name": "监管链",
+          "desc": "用于实施监管的区块链系统，与地方业务链进行跨链对接以获取一致的数据结果"
+        },
+        {
+          "name": "地方业务链",
+          "desc": "区域性股权市场中负责处理用户身份信息的区块链系统，需具备身份标识唯一性、可鉴别性及安全校验机制"
+        },
+        {
+          "name": "数据校验",
+          "desc": "在访问数据时执行的一致性检查动作，以保障数据传输的一致性"
+        },
+        {
+          "name": "数据完整性一致性检查",
+          "desc": "在数据传输完成后执行的检查动作，以保障所传输数据的一致性和完整性"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "监管链",
+          "predicate": "要求行为",
+          "object": "数据校验",
+          "desc": "监管链在访问地方业务链数据时，应当完成数据校验以保障数据一致"
+        },
+        {
+          "subject": "地方业务链",
+          "predicate": "要求行为",
+          "object": "数据完整性一致性检查",
+          "desc": "地方业务链在向监管链传输数据后，应进行数据完整性一致性检查以保障数据一致"
+        }
+      ],
+      "chunk_index": 35,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_34_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_36_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_36_v1782026056",
+      "section_title": "11.4 智能合约调用时的要求",
+      "section_path": "区域性股权市场跨链认证安全规范 / 11.4 智能合约调用时的要求",
+      "content": "需要检验智能合约调用时的数据，以及智能合约返回的数据。保障跨链调用智能合约的结果，与本地调用时的结果一致。",
+      "entities": [
+        {
+          "name": "智能合约调用",
+          "desc": "跨链场景中涉及的技术操作，包括发起调用和接收返回数据的过程"
+        },
+        {
+          "name": "数据一致性保障",
+          "desc": "确保跨链调用智能合约的结果与本地调用结果保持一致的合规要求"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "数据一致性保障",
+          "predicate": "要求行为",
+          "object": "智能合约调用",
+          "desc": "该合规义务要求对智能合约调用时的输入数据及返回数据进行检验，以确保跨链与本地执行结果一致"
+        }
+      ],
+      "chunk_index": 36,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_35_v1782026056",
+      "next_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_37_v1782026056",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_37_v1782026056",
+      "section_title": "参 考 文 献",
+      "section_path": "区域性股权市场跨链认证安全规范 / 参 考 文 献",
+      "content": "[1] 《中华人民共和国电子签名法》",
+      "entities": [
+        {
+          "name": "《中华人民共和国电子签名法》",
+          "desc": "文本中引用的法律法规名称"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 37,
+      "doc_id": "955e10bde5cf7167cb3f43e34c1365aa",
+      "version_ts": 1782026056,
+      "prev_chunk_id": "955e10bde5cf7167cb3f43e34c1365aa_chunk_36_v1782026056",
+      "next_chunk_id": null,
+      "doc_tree": null
+    }
+  ]
+}

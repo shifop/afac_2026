@@ -1,0 +1,352 @@
+[
+  {
+    "qid": "res_a_001",
+    "domain": "research",
+    "split": "A",
+    "question": "关于银保渠道发展历程及银行 IT 市场规模的描述，下列哪些选项是正确的？",
+    "options": {
+      "A": "韩国寿险银保渠道保费贡献率在 2022 年达到了 56%",
+      "B": "2005 年至 2018 年期间，银保渠道实现复合增速 9.9%",
+      "C": "2025 年金融信创市场规模预计接近 2500 亿元",
+      "D": "宇信科技 2025 年营收同比增长 8.47%"
+    },
+    "answer_format": "multi",
+    "type": "industry_comparison",
+    "doc_ids": [
+      "pack2_text01",
+      "pack2_text17"
+    ]
+  },
+  {
+    "qid": "res_a_002",
+    "domain": "research",
+    "split": "A",
+    "question": "结合两份报告内容，关于行业市场规模及增速的预测，以下说法正确的是？",
+    "options": {
+      "A": "2030 年全球光通信市场规模预计将达到 900 亿美元",
+      "B": "韩国寿险银保渠道保费贡献率在过去 20 年复合增速达到 12%",
+      "C": "2029 年中国 ICT 市场规模预计接近 8894.3 亿美元",
+      "D": "2025 年金融信创市场规模预计接近 2500 亿元"
+    },
+    "answer_format": "multi",
+    "type": "market_forecast",
+    "doc_ids": [
+      "pack2_text01",
+      "pack2_text11"
+    ]
+  },
+  {
+    "qid": "res_a_003",
+    "domain": "research",
+    "split": "A",
+    "question": "判断以下陈述是否正确：韩国寿险银保渠道近 20 年的复合增速低于远望谷在新兴赛道的 RFID 标签出货量复合增速。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer_format": "tf",
+    "type": "data_verification",
+    "doc_ids": [
+      "pack2_text01",
+      "pack2_text19"
+    ]
+  },
+  {
+    "qid": "res_a_004",
+    "domain": "research",
+    "split": "A",
+    "question": "关于芯原股份的业务模式及银保渠道发展情况，下列描述符合文档内容的是？",
+    "options": {
+      "A": "芯原股份主要提供芯片定制服务和半导体 IP 授权服务",
+      "B": "2030 年数据中心半导体加速市场规模预计将达 4930 亿美元",
+      "C": "韩国寿险银保渠道保费贡献超过 50%，支撑了韩国寿险管理体系",
+      "D": "芯原股份 2024 年 IP 授权业务市场份额全球第一"
+    },
+    "answer_format": "multi",
+    "type": "business_model",
+    "doc_ids": [
+      "pack2_text01",
+      "pack2_text09"
+    ]
+  },
+  {
+    "qid": "res_a_005",
+    "domain": "research",
+    "split": "A",
+    "question": "基于消费与保险行业报告，关于经济增长指标及渠道贡献的说法，正确的有？",
+    "options": {
+      "A": "截至 2025 年 12 月，服务零售累计同比高出商品零售增速",
+      "B": "韩国寿险银保渠道保费贡献率超过 50%",
+      "C": "2022 年居民可支配收入增速降至 5%",
+      "D": "2025 年居民收入增速与人均名义 GDP 增速剪刀差由负转正"
+    },
+    "answer_format": "multi",
+    "type": "economic_indicator",
+    "doc_ids": [
+      "pack2_text01",
+      "pack2_text03"
+    ]
+  },
+  {
+    "qid": "res_a_006",
+    "domain": "research",
+    "split": "A",
+    "question": "判断以下陈述是否正确：2008 年至 2025 年前三季度，我国上市券商客户资金杠杆从 1.56 倍提升至 4.09 倍，同期自有资产净利率由 4.3% 降至 1.8%。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer_format": "tf",
+    "type": "financial_ratio",
+    "doc_ids": [
+      "pack2_text01",
+      "pack2_text10"
+    ]
+  },
+  {
+    "qid": "res_a_007",
+    "domain": "research",
+    "split": "A",
+    "question": "关于网络安全运营及银行 IT 企业的财务表现，下列描述准确的有？",
+    "options": {
+      "A": "网络安全运营数字化底座提供了超过 1000 条内置检测规则",
+      "B": "2025 年金融信创市场规模预计接近 2500 亿元",
+      "C": "形成 3384 条解析规则实现自动解析",
+      "D": "宇信科技 2025 年前三季度净利润盈利 1139.39 万元"
+    },
+    "answer_format": "multi",
+    "type": "tech_standard",
+    "doc_ids": [
+      "pack2_text02",
+      "pack2_text17"
+    ]
+  },
+  {
+    "qid": "res_a_008",
+    "domain": "research",
+    "split": "A",
+    "question": "下列关于网络安全标准及光通信市场规模的描述，哪一项是正确的？",
+    "options": {
+      "A": "网络安全运营数字化底座提供的内置检测规则超过 1000 条",
+      "B": "2030 年全球光通信市场规模预计将达到 9000 亿美元",
+      "C": "2029 年中国 ICT 市场规模预计接近 8894.3 亿元人民币",
+      "D": "网络安全对象标准超 1200 项"
+    },
+    "answer_format": "mcq",
+    "type": "data_accuracy",
+    "doc_ids": [
+      "pack2_text02",
+      "pack2_text11"
+    ]
+  },
+  {
+    "qid": "res_a_009",
+    "domain": "research",
+    "split": "A",
+    "question": "结合银保渠道历史与网络安全运营数据，以下说法成立的有？",
+    "options": {
+      "A": "韩国寿险银保渠道保费贡献超过 50%",
+      "B": "网络安全运营数字化底座提供了超过 1000 条内置检测规则",
+      "C": "欧盟银保渠道原保费全球市场份额从 1985 年的 10% 快速提升",
+      "D": "形成 3384 条解析规则实现手动解析"
+    },
+    "answer_format": "multi",
+    "type": "cross_industry",
+    "doc_ids": [
+      "pack2_text01",
+      "pack2_text02"
+    ]
+  },
+  {
+    "qid": "res_a_010",
+    "domain": "research",
+    "split": "A",
+    "question": "判断以下陈述是否正确：根据文档信息，上周新成立基金份额为 91.1 亿份，其中主动型新发 56.3 亿份。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer_format": "tf",
+    "type": "fund_flow",
+    "doc_ids": [
+      "pack2_text02",
+      "pack2_text08"
+    ]
+  },
+  {
+    "qid": "res_a_011",
+    "domain": "research",
+    "split": "A",
+    "question": "关于券商杠杆变化及安全运营规则的统计，下列选项正确的有？",
+    "options": {
+      "A": "2008 年至 2025Q1-3 我国上市券商客户资金杠杆从 1.56 倍提升至 4.09 倍",
+      "B": "网络安全运营数字化底座提供了超过 1000 条内置检测规则",
+      "C": "同期自有资产净利率由 4.3% 降至 1.8%",
+      "D": "形成 3384 条解析规则实现手动解析"
+    },
+    "answer_format": "multi",
+    "type": "brokerage_security",
+    "doc_ids": [
+      "pack2_text02",
+      "pack2_text10"
+    ]
+  },
+  {
+    "qid": "res_a_012",
+    "domain": "research",
+    "split": "A",
+    "question": "关于芯片设计服务与安全运营数据的描述，符合文档内容的有？",
+    "options": {
+      "A": "芯原股份依托自主半导体 IP，为客户提供芯片定制服务",
+      "B": "网络安全运营数字化底座提供了超过 1000 条内置检测规则",
+      "C": "2030 年数据中心半导体加速市场规模将达 4930 亿美元",
+      "D": "形成 3384 条解析规则实现手动解析"
+    },
+    "answer_format": "multi",
+    "type": "chip_security",
+    "doc_ids": [
+      "pack2_text02",
+      "pack2_text09"
+    ]
+  },
+  {
+    "qid": "res_a_013",
+    "domain": "research",
+    "split": "A",
+    "question": "判断以下陈述是否正确：2025 年我国宠物医疗市场规模为人民币 2786 亿元，占总体的 30.2%。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer_format": "tf",
+    "type": "pet_market",
+    "doc_ids": [
+      "pack2_text03",
+      "pack2_text13"
+    ]
+  },
+  {
+    "qid": "res_a_014",
+    "domain": "research",
+    "split": "A",
+    "question": "关于服务消费趋势及芯片市场预测，以下说法正确的有？",
+    "options": {
+      "A": "截至 2025 年 12 月，服务零售增速持续领跑商品零售",
+      "B": "芯原股份主要客户包括芯片设计公司、IDM、系统厂商等",
+      "C": "2022 年居民可支配收入增速降至 5%",
+      "D": "2030 年数据中心半导体加速市场规模将达 4930 亿欧元"
+    },
+    "answer_format": "multi",
+    "type": "consumption_chip",
+    "doc_ids": [
+      "pack2_text03",
+      "pack2_text09"
+    ]
+  },
+  {
+    "qid": "res_a_015",
+    "domain": "research",
+    "split": "A",
+    "question": "基于金融机构配置线索及服务消费报告，下列哪项数据描述是准确的？",
+    "options": {
+      "A": "2025 年上市险企共计实现归母净利润 4252.91 亿元",
+      "B": "2025 年冰雪装备市场规模已达 8466 亿元",
+      "C": "2025 年存款定期化趋势放缓，M1-M2 增速差持续扩大",
+      "D": "2025 年上市银行手续费及佣金净收入增速持续下降"
+    },
+    "answer_format": "mcq",
+    "type": "bank_insurance",
+    "doc_ids": [
+      "pack2_text03",
+      "pack2_text14"
+    ]
+  },
+  {
+    "qid": "res_a_016",
+    "domain": "research",
+    "split": "A",
+    "question": "根据提供的两份报告，关于 2025 年至 2026 年初的经济与金融趋势，以下哪些描述得到了数据支持？",
+    "options": {
+      "A": "截至 2025 年 12 月，服务零售累计同比增速高于商品零售",
+      "B": "2025 年上市银行手续费及佣金净收入增速出现明显负增长",
+      "C": "2023 年至 2025 年间居民可支配收入增速从 6.33% 下降至 4.99%",
+      "D": "受资本市场震荡影响，上市险企 2025 年四季度单季利润普遍承压"
+    },
+    "answer_format": "multi",
+    "type": "多选题",
+    "doc_ids": [
+      "pack2_text03",
+      "pack2_text20"
+    ]
+  },
+  {
+    "qid": "res_a_017",
+    "domain": "research",
+    "split": "A",
+    "question": "结合产业前瞻与银行 IT 深度报告，关于 2025 年的市场容量或财务表现，以下哪项陈述是准确的？",
+    "options": {
+      "A": "2025 年金融信创市场规模预计接近 2500 亿元",
+      "B": "由于高储蓄并存，我国服务消费占比仍处相对低位",
+      "C": "天阳科技 2025 年全年实现了显著的净利润同比增长",
+      "D": "2023 年至 2025 年居民收入增速呈现持续放缓趋势"
+    },
+    "answer_format": "multi",
+    "type": "多选题",
+    "doc_ids": [
+      "pack2_text03",
+      "pack2_text17"
+    ]
+  },
+  {
+    "qid": "res_a_018",
+    "domain": "research",
+    "split": "A",
+    "question": "根据电动车行业策略与车展前瞻报告，2026 年 3 月乘用车新能源渗透率为 51.5%，且 2026 年 1 月宁德时代市占率回升至 25%，该说法是否正确？",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer_format": "tf",
+    "type": "判断题",
+    "doc_ids": [
+      "pack2_text04",
+      "pack2_text07"
+    ]
+  },
+  {
+    "qid": "res_a_019",
+    "domain": "research",
+    "split": "A",
+    "question": "基于化工周报与电动车行业策略报告，关于大宗商品价格对行业的影响及估值预测，以下哪些判断是正确的？",
+    "options": {
+      "A": "若碳酸锂价格为 15 万元，2026 年权益资源利润对应 PE 估值为 10-15 倍",
+      "B": "美伊谈判释放缓和信号导致油价下滑，进而带动化工品价格整体回落",
+      "C": "2026 年一季度国内电动车累计销量同比增长 3.6%",
+      "D": "伊朗于 4 月 17 日无条件开放了霍尔木兹海峡"
+    },
+    "answer_format": "multi",
+    "type": "多选题",
+    "doc_ids": [
+      "pack2_text04",
+      "pack2_text06"
+    ]
+  },
+  {
+    "qid": "res_a_020",
+    "domain": "research",
+    "split": "A",
+    "question": "综合电动车行业策略与集成电路深度报告，关于技术赛道预测及锂电估值，以下哪些信息是准确的？",
+    "options": {
+      "A": "芯原股份截至 2025 年统计了 2024 年 IP 授权业务市场份额",
+      "B": "2028-2029 年若碳酸锂价格为 15 万元，权益资源利润对应 PE 估值为 5-10 倍",
+      "C": "芯原股份预测 FY27 AI 芯片将带来千亿收入",
+      "D": "2026 年一季度国内电动车销量同比下降 3.6%"
+    },
+    "answer_format": "multi",
+    "type": "多选题",
+    "doc_ids": [
+      "pack2_text04",
+      "pack2_text09"
+    ]
+  }
+]

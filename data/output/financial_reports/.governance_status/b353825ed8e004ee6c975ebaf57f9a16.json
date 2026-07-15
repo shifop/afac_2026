@@ -1,0 +1,10 @@
+{
+  "status": "uploaded",
+  "doc_id": "300750_2024",
+  "version_ts": 1782048616,
+  "output_path": "./data/output/financial_reports/300750_2024/300750_2024_v1782048616.json",
+  "file_path": "/HDD/mwx/qa_agent/data/inputs/financial_reports/annual_catl_2024_report.md",
+  "doc_type": "ANNUAL",
+  "extracted_at": 1782048616,
+  "uploaded_at": 1782317141
+}

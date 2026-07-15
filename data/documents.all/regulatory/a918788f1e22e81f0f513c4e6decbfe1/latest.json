@@ -1,0 +1,80 @@
+{
+  "doc_id": "a918788f1e22e81f0f513c4e6decbfe1",
+  "doc_type": "REG",
+  "version_ts": 1782025588,
+  "structured_data": {
+    "regulation_id": null,
+    "title": "中国证监会决定废止的规范性文件",
+    "document_number": null,
+    "issuing_authority": "中国证监会",
+    "issue_date": null,
+    "effective_date": null,
+    "status": "已废止",
+    "hierarchy": "规范性文件",
+    "subject_tags": [
+      "上市公司监管",
+      "重大资产重组",
+      "现金分红"
+    ]
+  },
+  "chunks": [
+    {
+      "chunk_id": "a918788f1e22e81f0f513c4e6decbfe1_chunk_0_v1782025588",
+      "section_title": "附件2",
+      "section_path": "附件2 / 中国证监会决定废止的规范性文件",
+      "content": "一、上市公司监管指引第1 号——上市公司实施重大资产重组后存在未弥补亏损情形的监管要求（2012 年3 月23 日 证监会公告〔2012〕6 号）\n二、关于进一步落实上市公司现金分红有关事项的通知（2012年 5 月 4 日 证监发〔2012〕37 号）",
+      "entities": [
+        {
+          "name": "上市公司实施重大资产重组后存在未弥补亏损情形的监管要求",
+          "desc": "2012年3月23日证监会发布的规范性文件，针对上市公司在重大资产重组后存在未弥补亏损情况下的监管规定"
+        },
+        {
+          "name": "中国证监会",
+          "desc": "发布上述规范性文件的监管机构"
+        },
+        {
+          "name": "上市公司现金分红",
+          "desc": "2012年5月4日证监会发布的关于落实上市公司现金分红有关事项的通知所规范的业务行为"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "中国证监会",
+          "predicate": "监管关系",
+          "object": "上市公司实施重大资产重组后存在未弥补亏损情形的监管要求",
+          "desc": "中国证监会发布了《上市公司监管指引第1号》以实施对上市公司重组后未弥补亏损情形的监管"
+        },
+        {
+          "subject": "中国证监会",
+          "predicate": "监管关系",
+          "object": "上市公司现金分红",
+          "desc": "中国证监会发布通知以规范和落实上市公司的现金分红行为"
+        }
+      ],
+      "chunk_index": 0,
+      "doc_id": "a918788f1e22e81f0f513c4e6decbfe1",
+      "version_ts": 1782025588,
+      "prev_chunk_id": null,
+      "next_chunk_id": null,
+      "doc_tree": {
+        "title": "中国证监会决定废止的规范性文件",
+        "children": [
+          {
+            "title": "附件2",
+            "children": [
+              {
+                "title": "中国证监会决定废止的规范性文件",
+                "chunk_id_start": "a918788f1e22e81f0f513c4e6decbfe1_chunk_0_v1782025588",
+                "chunk_id_end": "a918788f1e22e81f0f513c4e6decbfe1_chunk_0_v1782025588"
+              }
+            ],
+            "chunk_id_start": "a918788f1e22e81f0f513c4e6decbfe1_chunk_0_v1782025588",
+            "chunk_id_end": "a918788f1e22e81f0f513c4e6decbfe1_chunk_0_v1782025588"
+          }
+        ],
+        "chunk_id_start": "a918788f1e22e81f0f513c4e6decbfe1_chunk_0_v1782025588",
+        "chunk_id_end": "a918788f1e22e81f0f513c4e6decbfe1_chunk_0_v1782025588"
+      }
+    }
+  ]
+}

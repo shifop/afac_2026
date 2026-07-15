@@ -1,0 +1,12 @@
+search:
+  default_top_k: 10
+  min_score_threshold: 0.01
+  normalization_method: "minmax"
+  context_window:
+    prev: 1
+    next: 1
+  default_channel_weights:
+    entity: 0.4
+    relation: 0.3
+    title: 0.2
+    content: 0.1

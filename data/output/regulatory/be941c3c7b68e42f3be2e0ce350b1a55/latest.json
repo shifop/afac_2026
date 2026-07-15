@@ -1,0 +1,1793 @@
+{
+  "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+  "doc_type": "REG",
+  "version_ts": 1782025976,
+  "structured_data": {
+    "regulation_id": null,
+    "title": "区域性股权市场跨链技术规范",
+    "document_number": "JR/T 0314—2024",
+    "issuing_authority": "全国金融标准化技术委员会",
+    "issue_date": "2024-11-20",
+    "effective_date": "2024-11-20",
+    "status": "现行有效",
+    "hierarchy": "部门规章",
+    "subject_tags": [
+      "区域性股权市场",
+      "区块链",
+      "跨链技术",
+      "数据标准"
+    ]
+  },
+  "chunks": [
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_0_v1782025976",
+      "section_title": "中 华 人 民 共 和 国 金 融 行 业 标 准",
+      "section_path": "Specification for regional equity markets cross-chain technology / 目 次",
+      "content": "JR/T 0314—2024\n2024-11-20 发布 2024-11-20 实施\n前言.... II\n引言.... III\n1 范围.... 1\n2 规范性引用文件.... 1\n3 术语和定义.... 1\n4 缩略语.... 2\n5 应用环境.... 2\n6 业务数据存储.... 2\n6.1 基本要求.... 3\n6.2 业务数据对象编码.... 3\n6.3 数据头.... 3\n6.4 数据体.... 3\n6.5 数据对象生命周期管理.... 4\n6.6 数据对象存储.... 4\n7 地方业务链的节点接口要求.... 5\n7.1 基本要求.... 5\n7.2 获取区块链网络信息的接口.... 5\n7.3 获取区块信息的接口.... 5\n7.4 获取共识状态信息的接口.... 6\n7.5 获取业务数据对象或业务数据对象引用的接口.... 6\n附录A（资料性）应用环境参考示例.... 7\n附录B（资料性）数据对象数据头参考示例.... 8\n附录C（资料性）数据对象生命周期管理参考示例.... 9\n附录D（资料性）数据对象 JSON 模式参考示例.... 10\nD.1 数据对象 JSON 模式基本使用流程.... 10\nD.2 代码生成工具.... 10\nD.3 代码检验工具.... 10\n附录E（资料性）数据对象快照存证参考示例.... 13\n参考文献.... 14",
+      "entities": [
+        {
+          "name": "JR/T 0314—2024",
+          "desc": "中华人民共和国金融行业标准，全称为《区域性股权市场跨链技术规范》，于2024年11月20日发布并实施"
+        },
+        {
+          "name": "区域性股权市场跨链技术",
+          "desc": "本标准规范的核心技术领域，涉及区域性股权市场的跨链技术应用"
+        },
+        {
+          "name": "业务数据存储",
+          "desc": "标准第6章规定的关于业务数据对象编码、数据头、数据体及生命周期管理的技术要求"
+        },
+        {
+          "name": "地方业务链的节点接口",
+          "desc": "标准第7章规定的用于获取区块链网络信息、区块信息、共识状态信息及业务数据对象的接口要求"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 0,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": null,
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_1_v1782025976",
+      "doc_tree": {
+        "title": "区域性股权市场跨链技术规范",
+        "children": [
+          {
+            "title": "Specification for regional equity markets cross-chain technology",
+            "children": [
+              {
+                "title": "目 次",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_0_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_0_v1782025976"
+              },
+              {
+                "title": "前 言",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_1_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_1_v1782025976"
+              },
+              {
+                "title": "引 言",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_2_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_2_v1782025976"
+              }
+            ],
+            "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_0_v1782025976",
+            "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_2_v1782025976"
+          },
+          {
+            "title": "区域性股权市场跨链技术规范",
+            "children": [
+              {
+                "title": "1 范围",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_3_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_3_v1782025976"
+              },
+              {
+                "title": "2 规范性引用文件",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_4_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_4_v1782025976"
+              },
+              {
+                "title": "3 术语和定义",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_5_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_5_v1782025976"
+              },
+              {
+                "title": "3.3",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_6_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_6_v1782025976"
+              },
+              {
+                "title": "3.4",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_7_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_7_v1782025976"
+              },
+              {
+                "title": "3.5",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_8_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_8_v1782025976"
+              },
+              {
+                "title": "3.7",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_9_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_9_v1782025976"
+              },
+              {
+                "title": "3.8",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_10_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_10_v1782025976"
+              },
+              {
+                "title": "3.10",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_11_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_11_v1782025976"
+              },
+              {
+                "title": "3.11",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_12_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_12_v1782025976"
+              },
+              {
+                "title": "5 应用环境",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_13_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_13_v1782025976"
+              },
+              {
+                "title": "6.2 业务数据对象编码",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_14_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_14_v1782025976"
+              },
+              {
+                "title": "6.4 数据体",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_15_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_15_v1782025976"
+              },
+              {
+                "title": "6.5 数据对象生命周期管理",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_16_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_16_v1782025976"
+              },
+              {
+                "title": "6.6 数据对象存储",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_17_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_17_v1782025976"
+              },
+              {
+                "title": "7 地方业务链的节点接口要求",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_18_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_18_v1782025976"
+              },
+              {
+                "title": "7.2 获取区块链网络信息的接口",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_19_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_19_v1782025976"
+              },
+              {
+                "title": "7.3 获取区块信息的接口",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_20_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_20_v1782025976"
+              },
+              {
+                "title": "7.4 获取共识状态信息的接口",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_21_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_21_v1782025976"
+              },
+              {
+                "title": "7.5 获取业务数据对象或业务数据对象引用的接口",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_22_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_22_v1782025976"
+              },
+              {
+                "title": "附 录 B",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_23_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_23_v1782025976"
+              }
+            ],
+            "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_3_v1782025976",
+            "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_23_v1782025976"
+          },
+          {
+            "title": "附 录 D",
+            "children": [
+              {
+                "title": "（资料性）",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_24_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_24_v1782025976"
+              },
+              {
+                "title": "D.2 代码生成工具",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_25_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_25_v1782025976"
+              },
+              {
+                "title": "D.3 代码检验工具",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_26_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_26_v1782025976"
+              },
+              {
+                "title": "D.3.2 本地代码验证",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_27_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_27_v1782025976"
+              },
+              {
+                "title": "附 录 E（资料性）数据对象快照存证参考示例",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_28_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_28_v1782025976"
+              },
+              {
+                "title": "参 考 文 献",
+                "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_29_v1782025976",
+                "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_29_v1782025976"
+              }
+            ],
+            "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_24_v1782025976",
+            "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_29_v1782025976"
+          }
+        ],
+        "chunk_id_start": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_0_v1782025976",
+        "chunk_id_end": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_29_v1782025976"
+      }
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_1_v1782025976",
+      "section_title": "前 言",
+      "section_path": "Specification for regional equity markets cross-chain technology / 前 言",
+      "content": "本文件按照GB/T 1.1—2020《标准化工作导则 第1部分：标准化文件的结构和起草规则》的规定起草。\n请注意本文件的某些内容可能涉及专利。本文件的发布机构不承担识别专利的责任。\n本文件由全国金融标准化技术委员会证券分技术委员会（SAC/TC 180/SC4）提出。\n本文件由全国金融标准化技术委员会（SAC/TC 180）归口。\n本文件起草单位：中国证券监督管理委员会科技监管司、中国证券监督管理委员会市场监管二司、中证信息技术服务有限责任公司、深圳证券通信有限公司、同济大学、南京大学、北京股权交易中心有限公司、上海股权托管交易中心股份有限公司、江苏股权交易中心有限责任公司、浙江省股权交易中心有限公司、深圳前海股权交易中心有限公司、上海边界智能科技有限公司、中诚区块链研究院（南京）有限公司、南京数字金融产业研究院有限公司、梧桐链数字科技研究院（苏州）有限公司、中钞信用卡产业发展有限公司杭州区块链技术研究院。\n本文件主要起草人：奚海峰、彭枫、王凤冬、李宇、陈柏峰、王继伟、杨博、马堃、蒲军、赵滨、马小峰、陈莹、陈小泉、王强、朱培、周耀亮、林智辰、葛浩、陶祖国、邵洪峰、孙北北、胡爽峰、肖东、邵俊杰、万强、叶蔚、张一锋、王加楠。",
+      "entities": [
+        {
+          "name": "全国金融标准化技术委员会证券分技术委员会（SAC/TC 180/SC4）",
+          "desc": "提出本文件的机构"
+        },
+        {
+          "name": "全国金融标准化技术委员会（SAC/TC 180）",
+          "desc": "归口管理本文件的机构"
+        },
+        {
+          "name": "中国证券监督管理委员会科技监管司",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "中国证券监督管理委员会市场监管二司",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "中证信息技术服务有限责任公司",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "深圳证券通信有限公司",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "同济大学",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "南京大学",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "北京股权交易中心有限公司",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "上海股权托管交易中心股份有限公司",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "江苏股权交易中心有限责任公司",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "浙江省股权交易中心有限公司",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "深圳前海股权交易中心有限公司",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "上海边界智能科技有限公司",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "中诚区块链研究院（南京）有限公司",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "南京数字金融产业研究院有限公司",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "梧桐链数字科技研究院（苏州）有限公司",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "中钞信用卡产业发展有限公司杭州区块链技术研究院",
+          "desc": "本文件的起草单位之一"
+        },
+        {
+          "name": "奚海峰",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "彭枫",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "王凤冬",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "李宇",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "陈柏峰",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "王继伟",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "杨博",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "马堃",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "蒲军",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "赵滨",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "马小峰",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "陈莹",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "陈小泉",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "王强",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "朱培",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "周耀亮",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "林智辰",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "葛浩",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "陶祖国",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "邵洪峰",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "孙北北",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "胡爽峰",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "肖东",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "邵俊杰",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "万强",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "叶蔚",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "张一锋",
+          "desc": "本文件的主要起草人"
+        },
+        {
+          "name": "王加楠",
+          "desc": "本文件的主要起草人"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 1,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_0_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_2_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_2_v1782025976",
+      "section_title": "引 言",
+      "section_path": "Specification for regional equity markets cross-chain technology / 引 言",
+      "content": "区域性股权市场是服务所在省级行政区域内中小微企业的私募股权市场，是多层次资本市场体系重要组成部分，是地方扶持中小微企业政策措施的综合运用平台，也是一类地方金融组织。同时要看到，区域性股权市场也存在功能发挥不畅、地方监管制度体系不完善、业务系统多样异构、数据规范性差、业务规则不完备等问题。区块链具有数据透明、不易篡改、可追溯等技术优势，在促进数据共享、优化业务流程、降低运营成本、提升协同效率、建设可信体系等方面具有积极作用。基于监管链和地方业务链的双层架构，可以更好支持区域性股权市场企业赋能服务、业务创新并逐步实现穿透式监管。为建成物理分散、逻辑统一的区域性股权市场新型金融基础设施，有必要定义监管链与各地方业务链的跨链对接技术规范。",
+      "entities": [
+        {
+          "name": "区域性股权市场",
+          "desc": "服务所在省级行政区域内中小微企业的私募股权市场，是多层次资本市场体系重要组成部分，地方金融组织"
+        },
+        {
+          "name": "区块链",
+          "desc": "具有数据透明、不易篡改、可追溯等技术优势的技术手段"
+        },
+        {
+          "name": "监管链和地方业务链的双层架构",
+          "desc": "基于监管链和地方业务链构建的架构，用于支持企业赋能服务、业务创新并实现穿透式监管"
+        },
+        {
+          "name": "物理分散、逻辑统一的区域性股权市场新型金融基础设施",
+          "desc": "旨在建成的区域性股权市场新型金融基础设施目标形态"
+        },
+        {
+          "name": "跨链对接技术规范",
+          "desc": "规定地方业务链与监管链之间技术连接、数据交互及系统实现的标准要求"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 2,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_1_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_3_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_3_v1782025976",
+      "section_title": "区域性股权市场跨链技术规范",
+      "section_path": "区域性股权市场跨链技术规范 / 1 范围",
+      "content": "本文件规定了区域性股权市场地方业务链与监管链跨链对接的技术规范与系统实现要求，包括对应用环境、业务数据存储及地方业务链的节点接口要求。\n本文件适用于在区域性股权市场中进行地方业务链建设或服务运营的机构。",
+      "entities": [
+        {
+          "name": "区域性股权市场地方业务链",
+          "desc": "区域性股权市场中用于处理地方性业务的区块链系统，是本文件规范的技术对象之一"
+        },
+        {
+          "name": "监管链",
+          "desc": "接收地方业务链数据、通过RPC接口获取链上信息及网络状态的上级或监管侧区块链系统"
+        },
+        {
+          "name": "跨链对接技术规范",
+          "desc": "规定地方业务链与监管链之间技术连接、数据交互及系统实现的标准要求"
+        },
+        {
+          "name": "应用环境",
+          "desc": "运行跨链系统所需的软硬件基础环境要求"
+        },
+        {
+          "name": "业务数据存储",
+          "desc": "标准第6章规定的关于业务数据对象编码、数据头、数据体及生命周期管理的技术要求"
+        },
+        {
+          "name": "地方业务链节点接口",
+          "desc": "地方业务链中各节点对外提供服务的标准接口要求"
+        },
+        {
+          "name": "机构",
+          "desc": "在区域性股权市场中进行地方业务链建设或服务运营的相关主体"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "跨链对接技术规范",
+          "predicate": "义务对象",
+          "object": "区域性股权市场地方业务链",
+          "desc": "技术规范针对地方业务链提出了具体的技术与系统实现要求"
+        },
+        {
+          "subject": "跨链对接技术规范",
+          "predicate": "义务对象",
+          "object": "监管链",
+          "desc": "技术规范针对监管链提出了与地方业务链对接的技术要求"
+        },
+        {
+          "subject": "跨链对接技术规范",
+          "predicate": "要求行为",
+          "object": "应用环境",
+          "desc": "技术规范规定了跨链系统所需的应用环境标准"
+        },
+        {
+          "subject": "跨链对接技术规范",
+          "predicate": "要求行为",
+          "object": "业务数据存储",
+          "desc": "技术规范规定了跨链系统中业务数据的存储要求"
+        },
+        {
+          "subject": "跨链对接技术规范",
+          "predicate": "要求行为",
+          "object": "地方业务链节点接口",
+          "desc": "技术规范规定了地方业务链节点的接口标准"
+        },
+        {
+          "subject": "机构",
+          "predicate": "准入条件",
+          "object": "跨链对接技术规范",
+          "desc": "进行地方业务链建设或服务运营的机构需遵循本技术规范"
+        }
+      ],
+      "chunk_index": 3,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_2_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_4_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_4_v1782025976",
+      "section_title": "2 规范性引用文件",
+      "section_path": "区域性股权市场跨链技术规范 / 2 规范性引用文件",
+      "content": "下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款。其中，注日期的引用文件，仅该日期对应的版本适用于本文件；不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。\nGB/T 20518 信息安全技术 公钥基础设施 数字证书格式\nGB/T 25069 信息安全技术 术语\nGB/T 32905 信息安全技术 SM3密码杂凑算法\nGB/T 32918 信息安全技术 SM2椭圆曲线公钥密码算法\nJR/T 0184 金融分布式账本技术安全规范",
+      "entities": [
+        {
+          "name": "GB/T 20518",
+          "desc": "国家标准，规定了签名者公钥或签名摘要算法需采用的密码算法标准之一"
+        },
+        {
+          "name": "GB/T 25069",
+          "desc": "信息安全技术 术语"
+        },
+        {
+          "name": "GB/T 32905",
+          "desc": "国家标准，规定了签名者公钥或签名摘要算法需采用的密码算法标准之一"
+        },
+        {
+          "name": "GB/T 32918",
+          "desc": "国家标准，规定了签名者公钥或签名摘要算法需采用的密码算法标准之一"
+        },
+        {
+          "name": "JR/T 0184",
+          "desc": "行业标准，规定了签名者公钥或签名摘要算法需采用的密码算法标准之一"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "区域性股权市场跨链技术规范",
+          "predicate": "引用法规",
+          "object": "GB/T 20518",
+          "desc": "通过规范性引用，将GB/T 20518的内容构成本文件必不可少的条款"
+        },
+        {
+          "subject": "区域性股权市场跨链技术规范",
+          "predicate": "引用法规",
+          "object": "GB/T 25069",
+          "desc": "通过规范性引用，将GB/T 25069的内容构成本文件必不可少的条款"
+        },
+        {
+          "subject": "区域性股权市场跨链技术规范",
+          "predicate": "引用法规",
+          "object": "GB/T 32905",
+          "desc": "通过规范性引用，将GB/T 32905的内容构成本文件必不可少的条款"
+        },
+        {
+          "subject": "区域性股权市场跨链技术规范",
+          "predicate": "引用法规",
+          "object": "GB/T 32918",
+          "desc": "通过规范性引用，将GB/T 32918的内容构成本文件必不可少的条款"
+        },
+        {
+          "subject": "区域性股权市场跨链技术规范",
+          "predicate": "引用法规",
+          "object": "JR/T 0184",
+          "desc": "通过规范性引用，将JR/T 0184的内容构成本文件必不可少的条款"
+        }
+      ],
+      "chunk_index": 4,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_3_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_5_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_5_v1782025976",
+      "section_title": "3 术语和定义",
+      "section_path": "区域性股权市场跨链技术规范 / 3 术语和定义",
+      "content": "GB/T 25069界定的以及下列术语和定义适用于本文件。\n3.1\n共识节点 consensus node\n负责账本数据一致性的节点。\n注：在有些区块链系统中也被称为验证节点。\n3.2\n跨链 cross chain\n实现在区块链之间的信息交互、信息验证与服务调用的技术。",
+      "entities": [
+        {
+          "name": "共识节点",
+          "desc": "负责账本数据一致性的节点，在有些区块链系统中也被称为验证节点"
+        },
+        {
+          "name": "跨链",
+          "desc": "实现在区块链之间的信息交互、信息验证与服务调用的技术"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 5,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_4_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_6_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_6_v1782025976",
+      "section_title": "3.3",
+      "section_path": "区域性股权市场跨链技术规范 / 3.3",
+      "content": "交易 transaction\n区块链上的一次原子性账本数据状态变更及其过程和结果记录，由交易标识符唯一标识。",
+      "entities": [
+        {
+          "name": "交易",
+          "desc": "区块链上的一次原子性账本数据状态变更及其过程和结果记录，由交易标识符唯一标识"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 6,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_5_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_7_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_7_v1782025976",
+      "section_title": "3.4",
+      "section_path": "区域性股权市场跨链技术规范 / 3.4",
+      "content": "共识状态 consensus state\n共识协议在每个共识节点维护的特定区块的全局状态，是跨链协议所依赖的一个关键数据结构。注：共识状态一般会包括最新的世界状态的哈希值、共识签名、共识节点公钥等元数据。",
+      "entities": [
+        {
+          "name": "共识状态",
+          "desc": "共识协议在每个共识节点维护的特定区块的全局状态，是跨链协议所依赖的一个关键数据结构"
+        },
+        {
+          "name": "世界状态的哈希值",
+          "desc": "共识状态一般包括的元数据之一"
+        },
+        {
+          "name": "共识签名",
+          "desc": "共识状态一般包括的元数据之一"
+        },
+        {
+          "name": "共识节点公钥",
+          "desc": "共识状态一般包括的元数据之一"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 7,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_6_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_8_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_8_v1782025976",
+      "section_title": "3.5",
+      "section_path": "区域性股权市场跨链技术规范 / 3.5",
+      "content": "默克尔证明 merkle proof\n利用默克尔树来快速证明一段数据是否存在于某数据集合中的方法。\n监管链 global regulation blockchain\n以全局服务和监管为目的构建的区块链系统。",
+      "entities": [
+        {
+          "name": "默克尔证明",
+          "desc": "用于证明数据存在于某数据集合中的加密方法，若无法提供需提供替代的快速证明方法"
+        },
+        {
+          "name": "监管链",
+          "desc": "接收地方业务链数据、通过RPC接口获取链上信息及网络状态的上级或监管侧区块链系统"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 8,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_7_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_9_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_9_v1782025976",
+      "section_title": "3.7",
+      "section_path": "区域性股权市场跨链技术规范 / 3.7",
+      "content": "地方业务链 regional business blockchain\n各地方以服务区域性股权市场业务和生态为目的构建的区块链系统。",
+      "entities": [
+        {
+          "name": "地方业务链",
+          "desc": "具有自定义区块链网络标识，需向监管链提供节点接口并采用容错共识协议的区域性股权市场业务链"
+        },
+        {
+          "name": "regional business blockchain",
+          "desc": "地方业务链的英文名称"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 9,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_8_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_10_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_10_v1782025976",
+      "section_title": "3.8",
+      "section_path": "区域性股权市场跨链技术规范 / 3.8",
+      "content": "数据模型 data model\n对业务数据的标准化建模，一组标准的数据类型的定义。\n数据对象 data object\n地方业务链为每个数据类型生成的一个或多个以对象方式组织的实例。",
+      "entities": [
+        {
+          "name": "数据模型",
+          "desc": "对业务数据的标准化建模，一组标准的数据类型的定义"
+        },
+        {
+          "name": "数据对象",
+          "desc": "在关键业务流程中，同步体现被影响业务数据的链上数据实体，具有唯一标识和版本号，包含数据头和数据体。"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 10,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_9_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_11_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_11_v1782025976",
+      "section_title": "3.10",
+      "section_path": "区域性股权市场跨链技术规范 / 3.10",
+      "content": "数据对象引用 data object reference\n为获取数据对象，存储在地方业务链上的标识信息。\n注：一般采用统一资源标识符的形式。",
+      "entities": [
+        {
+          "name": "数据对象引用",
+          "desc": "为获取数据对象，存储在地方业务链上的标识信息"
+        },
+        {
+          "name": "统一资源标识符",
+          "desc": "数据对象引用一般采用的形式"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 11,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_10_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_12_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_12_v1782025976",
+      "section_title": "3.11",
+      "section_path": "区域性股权市场跨链技术规范 / 3.11",
+      "content": "JSON 模式 JSON schema\n一种用于描述和验证JSON数据结构的模式。\n下列缩略语适用于本文件。\nAWS S3：亚马逊云服务提供的对象存储服务（Amazon Web Service Simple Storage Service）\nJSON：JavaScript对象标记（JavaScript Object Notation）\nRPC：远程过程调用（Remote Procedure Call）\nTLS：传输层安全协议（Transport Layer Security）",
+      "entities": [
+        {
+          "name": "JSON schema",
+          "desc": "一种用于描述和验证JSON数据结构的模式"
+        },
+        {
+          "name": "AWS S3",
+          "desc": "亚马逊云服务提供的对象存储服务（Amazon Web Service Simple Storage Service）"
+        },
+        {
+          "name": "JSON",
+          "desc": "JavaScript对象标记（JavaScript Object Notation）"
+        },
+        {
+          "name": "RPC",
+          "desc": "远程过程调用（Remote Procedure Call）"
+        },
+        {
+          "name": "TLS",
+          "desc": "传输层安全协议（Transport Layer Security）"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 12,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_11_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_13_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_13_v1782025976",
+      "section_title": "5 应用环境",
+      "section_path": "区域性股权市场跨链技术规范 / 5 应用环境",
+      "content": "附录A给出了区域性股权市场跨链技术规范的应用环境参考示例。\n业务数据在地方业务链存储，并可跨链至监管链。\n每个业务数据在地方业务链生成一个或多个实例（即：业务数据对象）；而每个数据对象可以有一个或多个版本（即：业务数据对象快照或简称快照），代表对该数据对象执行创建，或更新，或删除，或重写操作的结果。",
+      "entities": [
+        {
+          "name": "区域性股权市场跨链技术规范",
+          "desc": "文档所属的技术规范名称，规定了区域性股权市场区块链试点场景下的数据对象JSON模式使用流程"
+        },
+        {
+          "name": "地方业务链",
+          "desc": "具有自定义区块链网络标识，需向监管链提供节点接口并采用容错共识协议的区域性股权市场业务链"
+        },
+        {
+          "name": "监管链",
+          "desc": "接收地方业务链数据、通过RPC接口获取链上信息及网络状态的上级或监管侧区块链系统"
+        },
+        {
+          "name": "业务数据对象",
+          "desc": "区域性股权市场跨链技术规范中定义的数据结构，由数据头和数据体组成，以JSON格式表示，采用UTF-8编码"
+        },
+        {
+          "name": "业务数据对象快照",
+          "desc": "业务数据对象的版本，代表对数据对象执行创建、更新、删除或重写操作后的结果状态。"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 13,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_12_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_14_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_14_v1782025976",
+      "section_title": "6.2 业务数据对象编码",
+      "section_path": "区域性股权市场跨链技术规范 / 6.2 业务数据对象编码",
+      "content": "业务数据对象由数据头、数据体两部分组成，以JSON格式表示，采用UTF-8方式编码。\n数据头格式应符合表1的要求，数据头应包含数据模型名称、数据对象版本、数据对象类型、数据所有者签名、数据对象元数据等字段。签名者公钥、签名摘要算法采用的密码算法应符合GB/T 32905、GB/T 32918和GB/T 20518等相关国家标准以及JR/T 0184等相关行业标准。\n表 1 数据头格式\n<table><tr><td>字段定义</td><td>字段路径</td><td>字段类型</td><td>字段长度</td></tr><tr><td>数据模型名称</td><td>header.model.protocol</td><td>字符串</td><td>64</td></tr><tr><td>数据模型版本</td><td>header.model.version</td><td>字符串</td><td>32</td></tr><tr><td>数据对象类型</td><td>header.content.type</td><td>字符串</td><td>32</td></tr><tr><td>数据对象标识</td><td>header.content.object_id</td><td>字符串</td><td>128</td></tr><tr><td>数据对象版本</td><td>header.content.version</td><td>整数型(初始版本号为0,版本号依次递增)</td><td>—</td></tr><tr><td>对应操作</td><td>header.content.operation</td><td>字符串(“create”:创建、“update”:更新、“overwrite”:重写、“delete”:删除)</td><td>16</td></tr><tr><td>时间戳(UNIX时间)</td><td>header.content.timestamp</td><td>整数型</td><td></td></tr><tr><td>备注</td><td>header.remark</td><td>字符串</td><td>2048</td></tr><tr><td>数据所有者签名</td><td>header.seal</td><td>JSON对象集合</td><td>—</td></tr><tr><td>签名者公钥类型</td><td>header.seal.pub_key.type</td><td>字符串(“SM2”)</td><td>64</td></tr><tr><td>签名者公钥值</td><td>header.seal.pub_key.value</td><td>字符串</td><td>512</td></tr><tr><td>签名摘要算法</td><td>header.seal.digest_algo</td><td>字符串(“SM3”)</td><td>32</td></tr><tr><td>签名</td><td>header.seal.signature</td><td>字符串</td><td>1024</td></tr><tr><td>数据对象元数据</td><td>header.metadata</td><td>JSON对象</td><td>—</td></tr></table>\n附录B给出了数据对象数据头参考示例。",
+      "entities": [
+        {
+          "name": "业务数据对象",
+          "desc": "区域性股权市场跨链技术规范中定义的数据结构，由数据头和数据体组成，以JSON格式表示，采用UTF-8编码"
+        },
+        {
+          "name": "数据头",
+          "desc": "业务数据对象的组成部分之一，包含数据模型名称、版本、类型、签名及元数据等字段，格式符合表1要求"
+        },
+        {
+          "name": "数据体",
+          "desc": "区域性股权市场跨链技术规范中定义的数据结构，其格式需符合表2要求"
+        },
+        {
+          "name": "GB/T 32905",
+          "desc": "国家标准，规定了签名者公钥或签名摘要算法需采用的密码算法标准之一"
+        },
+        {
+          "name": "GB/T 32918",
+          "desc": "国家标准，规定了签名者公钥或签名摘要算法需采用的密码算法标准之一"
+        },
+        {
+          "name": "GB/T 20518",
+          "desc": "国家标准，规定了签名者公钥或签名摘要算法需采用的密码算法标准之一"
+        },
+        {
+          "name": "JR/T 0184",
+          "desc": "行业标准，规定了签名者公钥或签名摘要算法需采用的密码算法标准之一"
+        },
+        {
+          "name": "SM2",
+          "desc": "签名者公钥类型，用于数据所有者签名的非对称加密算法标识"
+        },
+        {
+          "name": "SM3",
+          "desc": "签名摘要算法，用于生成数据对象签名摘要的哈希算法标识"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 14,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_13_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_15_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_15_v1782025976",
+      "section_title": "6.4 数据体",
+      "section_path": "区域性股权市场跨链技术规范 / 6.4 数据体",
+      "content": "数据体格式应符合表2的要求。\n表 2 数据体格式\n<table><tr><td>字段定义</td><td>字段路径</td><td>字段类型</td></tr><tr><td>数据体内容</td><td>body</td><td>JSON 对象</td></tr></table>",
+      "entities": [
+        {
+          "name": "数据体",
+          "desc": "区域性股权市场跨链技术规范中定义的数据结构，其格式需符合表2要求"
+        },
+        {
+          "name": "数据体内容",
+          "desc": "数据体的具体组成部分，字段路径为body，类型为JSON对象"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 15,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_14_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_16_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_16_v1782025976",
+      "section_title": "6.5 数据对象生命周期管理",
+      "section_path": "区域性股权市场跨链技术规范 / 6.5 数据对象生命周期管理",
+      "content": "在关键业务流程执行的每个关键环节，所有被影响的业务数据需要同步体现在对应的链上数据对象中。数据对象的生命周期管理应满足：\na) 数据对象标识是数据对象全生命周期中的唯一标识，不随数据对象版本和内容的更新而变更；\nb) 创建数据对象：\n1) 地方业务链应生成其系统唯一的对象标识；\n2) 以版本号 0 在链上存储完整快照，或链上存证并在链外存储完整快照。\nc) 更新数据对象：\n1) 应在链上或链外存储数据体为全量或增量内容、数据头版本号加 1 的新快照；\n2) 若采用增量方式更新数据对象的内容且要将上一版本中的某属性值更新为空值，应设置为计算机里表示空值的 null；\n3) 增量更新需要满足：将增量内容合并至由所有历史版本组成的全量快照而得到的最新版本的全量快照，仍然可以通过 JSON 模式的合法性校验。\nd) 重写数据对象：\n1) 应在链上或链外存储数据体为全量或增量内容、数据头版本号与被重写快照一致的新快照；\n2) 若被重写的快照版本不是该对象的最新版本，则从该版本到最新版本之间所有的快照，都应重写；\n3) 若采用增量方式重写数据对象的内容且要将上一版本中的某属性值更新为空值，应设置为计算机里表示空值的 null；\n4) 增量重写应满足：将增量内容合并至上一版本的全量快照而得到的最新版本的全量快照，仍然可以通过 JSON 模式的合法性校验。\ne) 删除数据对象：\n1) 应在链上或链外存储数据体为空、数据头版本号加 1 的新快照，历史快照不应删除；\n2) 删除操作是一个数据对象生命周期的终止操作，被执行过删除的数据对象，不应再有任何新的操作。\nf) 无论创建、更新、重写还是删除操作，生成的对应快照都由“数据头”+“数据体”组成；\ng) 数据对象引用：\n1) 若不同数据对象之间有引用关系，应按照业务发生时序，引用业务发生时对应的快照；“数据对象引用”属性的取值为：被引用数据对象 id、对应的快照版本；\n2) 当被引用的数据对象发生版本更新时，无需更新引用值。\n附录C给出了数据对象生命周期管理参考示例。\n业务数据应通过JSON模式的合法性校验方能完成跨链处理，未能通过校验时将被作为异常记入跨链日志，地方业务链可通过监管链提供的跨链服务查询校验结果反馈作为更正参考。",
+      "entities": [
+        {
+          "name": "数据对象",
+          "desc": "在关键业务流程中，同步体现被影响业务数据的链上数据实体，具有唯一标识和版本号，包含数据头和数据体。"
+        },
+        {
+          "name": "地方业务链",
+          "desc": "具有自定义区块链网络标识，需向监管链提供节点接口并采用容错共识协议的区域性股权市场业务链"
+        },
+        {
+          "name": "监管链",
+          "desc": "接收地方业务链数据、通过RPC接口获取链上信息及网络状态的上级或监管侧区块链系统"
+        },
+        {
+          "name": "创建数据对象",
+          "desc": "数据对象生命周期的起始操作，要求生成唯一标识并在链上或链外存储完整快照。"
+        },
+        {
+          "name": "更新数据对象",
+          "desc": "对已有数据对象进行修改的操作，支持全量或增量方式，需保证合并后的最新版本通过JSON模式校验。"
+        },
+        {
+          "name": "重写数据对象",
+          "desc": "修改历史版本数据对象的操作，若重写非最新版本则需连带重写后续所有版本，同样需满足JSON模式校验。"
+        },
+        {
+          "name": "删除数据对象",
+          "desc": "终止数据对象生命周期的操作，通过存储空数据体的新快照实现，历史快照保留且不再允许新操作。"
+        },
+        {
+          "name": "JSON模式的合法性校验",
+          "desc": "确保业务数据符合特定格式标准的技术检查机制，是完成跨链处理的前提条件。"
+        },
+        {
+          "name": "跨链日志",
+          "desc": "记录未能通过JSON模式合法性校验的异常情况的日志文件。"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "创建数据对象",
+          "predicate": "要求行为",
+          "object": "地方业务链应生成其系统唯一的对象标识",
+          "desc": "在创建数据对象时，地方业务链必须执行生成唯一对象标识的行为。"
+        },
+        {
+          "subject": "创建数据对象",
+          "predicate": "要求行为",
+          "object": "以版本号 0 在链上存储完整快照，或链上存证并在链外存储完整快照",
+          "desc": "创建数据对象的具体存储要求，即初始版本为0，并存储完整快照。"
+        },
+        {
+          "subject": "更新数据对象",
+          "predicate": "要求行为",
+          "object": "应在链上或链外存储数据体为全量或增量内容、数据头版本号加 1 的新快照",
+          "desc": "更新数据对象时，需存储版本号递增的新快照，内容可为全量或增量。"
+        },
+        {
+          "subject": "更新数据对象",
+          "predicate": "触发条件",
+          "object": "将增量内容合并至由所有历史版本组成的全量快照而得到的最新版本的全量快照，仍然可以通过 JSON 模式的合法性校验",
+          "desc": "增量更新数据对象必须满足的条件，即合并后的最终状态需通过JSON校验。"
+        },
+        {
+          "subject": "重写数据对象",
+          "predicate": "要求行为",
+          "object": "应在链上或链外存储数据体为全量或增量内容、数据头版本号与被重写快照一致的新快照",
+          "desc": "重写数据对象时，需存储与新快照版本号一致的数据体。"
+        },
+        {
+          "subject": "重写数据对象",
+          "predicate": "要求行为",
+          "object": "从该版本到最新版本之间所有的快照，都应重写",
+          "desc": "若重写的不是最新版本，则必须级联重写从该版本到最新版本的所有快照。"
+        },
+        {
+          "subject": "重写数据对象",
+          "predicate": "触发条件",
+          "object": "将增量内容合并至上一版本的全量快照而得到的最新版本的全量快照，仍然可以通过 JSON 模式的合法性校验",
+          "desc": "增量重写数据对象必须满足的条件，即合并后的最终状态需通过JSON校验。"
+        },
+        {
+          "subject": "删除数据对象",
+          "predicate": "要求行为",
+          "object": "应在链上或链外存储数据体为空、数据头版本号加 1 的新快照，历史快照不应删除",
+          "desc": "删除数据对象并非物理删除，而是通过存储空数据体的新快照来标记终止，并保留历史快照。"
+        },
+        {
+          "subject": "删除数据对象",
+          "predicate": "禁止行为",
+          "object": "被执行过删除的数据对象，不应再有任何新的操作",
+          "desc": "一旦数据对象被删除（生命周期终止），禁止对其执行任何后续操作。"
+        },
+        {
+          "subject": "业务数据",
+          "predicate": "触发条件",
+          "object": "JSON模式的合法性校验",
+          "desc": "业务数据必须通过JSON模式合法性校验才能进行后续的跨链处理。"
+        },
+        {
+          "subject": "未能通过校验的业务数据",
+          "predicate": "违反后果",
+          "object": "作为异常记入跨链日志",
+          "desc": "如果业务数据未通过JSON校验，将被视为异常并记录在跨链日志中。"
+        },
+        {
+          "subject": "地方业务链",
+          "predicate": "施加义务于",
+          "object": "监管链提供的跨链服务",
+          "desc": "地方业务链有义务通过监管链提供的跨链服务来查询校验结果反馈。"
+        }
+      ],
+      "chunk_index": 16,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_15_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_17_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_17_v1782025976",
+      "section_title": "6.6 数据对象存储",
+      "section_path": "区域性股权市场跨链技术规范 / 6.6 数据对象存储",
+      "content": "地方业务链可根据隐私保护的需求，将快照的部分内容记录在链上，同时将其全部内容通过链外存储服务在链外予以保存。链上记录应包含链外对应快照的哈希值。链外存储工具为兼容AWSS3协议的对象存储工具。\n地方业务链应对行业监管机构监管链开放查询接口，该接口应满足以下要求：\n查询接口应通过 TLS和鉴权加以保护；\n以数据对象标识和版本号为参数，在地方业务链上或链外可以获取到指定版本号的快照；\n查询返回的快照以统一的 JSON格式编码（在快照上链之前，应使用数据对象 JSON 模式进行合法性校验）。\n附录D给出了数据对象JSON模式参考示例。\n如果地方业务链暂时无法将所有业务数据实时记录在链上，作为临时过渡方案，可将快照在链上存证，附录E给出了数据对象快照存证参考示例。",
+      "entities": [
+        {
+          "name": "地方业务链",
+          "desc": "具有自定义区块链网络标识，需向监管链提供节点接口并采用容错共识协议的区域性股权市场业务链"
+        },
+        {
+          "name": "行业监管机构监管链",
+          "desc": "用于接受行业监管机构进行监管的区块链系统"
+        },
+        {
+          "name": "快照",
+          "desc": "被影响的业务数据状态，存储于链外（如OSS）并在链上存证"
+        },
+        {
+          "name": "链外存储服务",
+          "desc": "用于保存快照全部内容的非链上存储设施"
+        },
+        {
+          "name": "AWSS3协议的对象存储工具",
+          "desc": "兼容AWS S3协议的链外存储工具"
+        },
+        {
+          "name": "查询接口",
+          "desc": "地方业务链向行业监管机构监管链开放的用于获取快照数据的接口"
+        },
+        {
+          "name": "TLS和鉴权",
+          "desc": "保护查询接口的安全机制"
+        },
+        {
+          "name": "数据对象标识和版本号",
+          "desc": "查询接口的输入参数，用于指定获取特定版本的快照"
+        },
+        {
+          "name": "JSON格式",
+          "desc": "查询返回快照的统一编码格式"
+        },
+        {
+          "name": "数据对象 JSON 模式",
+          "desc": "用于定义和校验业务数据结构的标准格式"
+        },
+        {
+          "name": "数据对象快照存证",
+          "desc": "当无法实时记录所有业务数据时的临时过渡方案"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 17,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_16_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_18_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_18_v1782025976",
+      "section_title": "7 地方业务链的节点接口要求",
+      "section_path": "区域性股权市场跨链技术规范 / 7 地方业务链的节点接口要求",
+      "content": "地方业务链应按照监管链的要求提供节点接口，每个地方业务链有自定义的区块链网络标识。\n地方业务链应采用拜占庭容错等支持容错的共识协议。\n地方业务链应向监管链暴露至少两个不同全节点的RPC接口。监管链将通过这些RPC接口获取地方业务链的链上数据。\n地方业务链的节点RPC接口应支持监管链实现获取网络信息、区块信息、共识状态、业务数据等能力。",
+      "entities": [
+        {
+          "name": "地方业务链",
+          "desc": "具有自定义区块链网络标识，需向监管链提供节点接口并采用容错共识协议的区域性股权市场业务链"
+        },
+        {
+          "name": "监管链",
+          "desc": "接收地方业务链数据、通过RPC接口获取链上信息及网络状态的上级或监管侧区块链系统"
+        },
+        {
+          "name": "节点接口",
+          "desc": "地方业务链按照监管链要求提供的用于暴露数据和能力的接口"
+        },
+        {
+          "name": "区块链网络标识",
+          "desc": "获取网络配置选项和当前网络状态功能的请求内容参数"
+        },
+        {
+          "name": "拜占庭容错等支持容错的共识协议",
+          "desc": "地方业务链必须采用的具备容错能力的共识算法机制"
+        },
+        {
+          "name": "全节点的RPC接口",
+          "desc": "地方业务链向监管链暴露的至少两个不同全节点的远程过程调用接口"
+        },
+        {
+          "name": "链上数据",
+          "desc": "监管链通过RPC接口从地方业务链获取的业务及状态数据"
+        },
+        {
+          "name": "网络信息",
+          "desc": "节点RPC接口支持监管链获取的基础网络状态信息之一"
+        },
+        {
+          "name": "区块信息",
+          "desc": "节点RPC接口支持监管链获取的区块结构及内容信息之一"
+        },
+        {
+          "name": "共识状态",
+          "desc": "共识协议在每个共识节点维护的特定区块的全局状态，是跨链协议所依赖的一个关键数据结构"
+        },
+        {
+          "name": "业务数据",
+          "desc": "节点RPC接口支持监管链获取的具体业务交易或记录数据之一"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "地方业务链",
+          "predicate": "施加义务于",
+          "object": "节点接口",
+          "desc": "地方业务链被要求按照监管链的要求提供节点接口"
+        },
+        {
+          "subject": "地方业务链",
+          "predicate": "量化属性",
+          "object": "区块链网络标识",
+          "desc": "地方业务链具有自定义的区块链网络标识这一属性"
+        },
+        {
+          "subject": "地方业务链",
+          "predicate": "要求行为",
+          "object": "拜占庭容错等支持容错的共识协议",
+          "desc": "地方业务链应采用拜占庭容错等支持容错的共识协议"
+        },
+        {
+          "subject": "地方业务链",
+          "predicate": "施加义务于",
+          "object": "全节点的RPC接口",
+          "desc": "地方业务链应向监管链暴露至少两个不同全节点的RPC接口"
+        },
+        {
+          "subject": "全节点的RPC接口",
+          "predicate": "义务对象",
+          "object": "监管链",
+          "desc": "全节点的RPC接口是面向监管链暴露的，供其获取数据使用"
+        },
+        {
+          "subject": "全节点的RPC接口",
+          "predicate": "义务对象",
+          "object": "链上数据",
+          "desc": "全节点的RPC接口用于让监管链获取地方业务链的链上数据"
+        },
+        {
+          "subject": "节点RPC接口",
+          "predicate": "要求行为",
+          "object": "网络信息",
+          "desc": "节点RPC接口应支持监管链实现获取网络信息的能力"
+        },
+        {
+          "subject": "节点RPC接口",
+          "predicate": "要求行为",
+          "object": "区块信息",
+          "desc": "节点RPC接口应支持监管链实现获取区块信息的能力"
+        },
+        {
+          "subject": "节点RPC接口",
+          "predicate": "要求行为",
+          "object": "共识状态",
+          "desc": "节点RPC接口应支持监管链实现获取共识状态的能力"
+        },
+        {
+          "subject": "节点RPC接口",
+          "predicate": "要求行为",
+          "object": "业务数据",
+          "desc": "节点RPC接口应支持监管链实现获取业务数据的能力"
+        }
+      ],
+      "chunk_index": 18,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_17_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_19_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_19_v1782025976",
+      "section_title": "7.2 获取区块链网络信息的接口",
+      "section_path": "区域性股权市场跨链技术规范 / 7.2 获取区块链网络信息的接口",
+      "content": "获取区块链网络信息的接口用于获取可用网络或子网的列表、网络的当前状态（最新的终局性区块）以及监管链要求提供的其他有用信息。接口应符合表3的要求。\n表 3 获取地方业务链网络信息的接口要求\n<table><tr><td>接口功能</td><td>请求内容</td><td>响应内容</td></tr><tr><td>获取可用网络列表</td><td>无</td><td>可用网络列表,内容包括:区块链网络标识、区块链网络信息及其子网列表</td></tr><tr><td>获取网络配置选项</td><td>区块链网络标识</td><td>节点版本、允许的操作类型及其结果状态</td></tr><tr><td>获取当前网络状态</td><td>区块链网络标识</td><td>当前区块高度、区块哈希、区块时间戳、连接的节点等</td></tr></table>",
+      "entities": [
+        {
+          "name": "获取区块链网络信息的接口",
+          "desc": "用于获取可用网络或子网列表、网络当前状态（最新终局性区块）及监管链要求其他有用信息的系统组件"
+        },
+        {
+          "name": "表3",
+          "desc": "规定获取地方业务链网络信息接口具体要求的表格，包含接口功能、请求内容和响应内容"
+        },
+        {
+          "name": "获取可用网络列表",
+          "desc": "接口的一项功能，用于获取区块链网络标识、网络信息及子网列表"
+        },
+        {
+          "name": "获取网络配置选项",
+          "desc": "接口的一项功能，用于获取节点版本、允许的操作类型及其结果状态"
+        },
+        {
+          "name": "获取当前网络状态",
+          "desc": "接口的一项功能，用于获取当前区块高度、区块哈希、区块时间戳、连接的节点等信息"
+        },
+        {
+          "name": "无",
+          "desc": "获取可用网络列表功能的请求内容参数"
+        },
+        {
+          "name": "可用网络列表,内容包括:区块链网络标识、区块链网络信息及其子网列表",
+          "desc": "获取可用网络列表功能的响应内容"
+        },
+        {
+          "name": "区块链网络标识",
+          "desc": "获取网络配置选项和当前网络状态功能的请求内容参数"
+        },
+        {
+          "name": "节点版本、允许的操作类型及其结果状态",
+          "desc": "获取网络配置选项功能的响应内容"
+        },
+        {
+          "name": "当前区块高度、区块哈希、区块时间戳、连接的节点等",
+          "desc": "获取当前网络状态功能的响应内容"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 19,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_18_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_20_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_20_v1782025976",
+      "section_title": "7.3 获取区块信息的接口",
+      "section_path": "区域性股权市场跨链技术规范 / 7.3 获取区块信息的接口",
+      "content": "获取区块信息的接口用于访问保存在区块里的所有数据。该接口应符合表4的要求，返回一个区块里所有改变链上世界状态的操作。\n注：世界状态是区块链上所有数据在某一时刻所表征的当前状态集合。\n表 4 获取地方业务链区块信息的接口要求\n<table><tr><td>接口功能</td><td>请求内容</td><td>响应内容</td></tr><tr><td>获取区块信息</td><td>区块链网络标识、区块高度</td><td>区块高度及其哈希、前一个区块的高度及其哈希、区块时间戳、包含的交易标识符、区块头等每个区块的大小应不超过16MB</td></tr><tr><td>获取交易信息</td><td>区块链网络标识、区块高度、交易标识符</td><td>交易包含的一系列操作,其操作类型及结果</td></tr></table>",
+      "entities": [
+        {
+          "name": "获取区块信息的接口",
+          "desc": "用于访问保存在区块里的所有数据，返回改变链上世界状态的操作的接口"
+        },
+        {
+          "name": "世界状态",
+          "desc": "区块链上所有数据在某一时刻所表征的当前状态集合"
+        },
+        {
+          "name": "获取地方业务链区块信息的接口要求",
+          "desc": "表4中定义的关于获取区块信息和交易信息的具体规范"
+        },
+        {
+          "name": "获取区块信息",
+          "desc": "接口功能之一，通过区块链网络标识和区块高度请求，返回区块高度及其哈希、前一个区块的高度及其哈希、区块时间戳、包含的交易标识符、区块头等，且每个区块大小不超过16MB"
+        },
+        {
+          "name": "获取交易信息",
+          "desc": "接口功能之二，通过区块链网络标识、区块高度和交易标识符请求，返回交易包含的一系列操作及其操作类型及结果"
+        },
+        {
+          "name": "区块链网络标识",
+          "desc": "获取网络配置选项和当前网络状态功能的请求内容参数"
+        },
+        {
+          "name": "区块高度",
+          "desc": "该接口的请求内容之一，指定需要获取共识状态的区块编号"
+        },
+        {
+          "name": "交易标识符",
+          "desc": "请求获取交易信息时所需的参数之一"
+        },
+        {
+          "name": "16MB",
+          "desc": "每个区块大小的上限约束"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 20,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_19_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_21_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_21_v1782025976",
+      "section_title": "7.4 获取共识状态信息的接口",
+      "section_path": "区域性股权市场跨链技术规范 / 7.4 获取共识状态信息的接口",
+      "content": "该接口应符合表5的要求，以获取某个区块高度的共识状态。\n表 5 获取地方业务链共识状态信息的接口要求\n<table><tr><td>接口功能</td><td>请求内容</td><td>响应内容</td></tr><tr><td>获取某个区块高度的共识状态</td><td>区块链网络标识、区块高度</td><td>状态根、交易根以及其他信任信息,如:共识节点的公钥集、共识过程中的投票信息;其中共识过程中的投票信息包括:参与投票的共识节点列表、本区块的共识节点签名列表、签名数据(一般为区块哈希)等</td></tr></table>",
+      "entities": [
+        {
+          "name": "获取共识状态信息的接口",
+          "desc": "用于获取某个区块高度的共识状态的接口，需符合表5的要求"
+        },
+        {
+          "name": "表5",
+          "desc": "规定了获取地方业务链共识状态信息的接口要求，包括接口功能、请求内容和响应内容"
+        },
+        {
+          "name": "区块链网络标识",
+          "desc": "获取网络配置选项和当前网络状态功能的请求内容参数"
+        },
+        {
+          "name": "区块高度",
+          "desc": "该接口的请求内容之一，指定需要获取共识状态的区块编号"
+        },
+        {
+          "name": "状态根",
+          "desc": "该接口的响应内容之一，表示区块的状态根信息"
+        },
+        {
+          "name": "交易根",
+          "desc": "该接口的响应内容之一，表示区块的交易根信息"
+        },
+        {
+          "name": "信任信息",
+          "desc": "该接口的响应内容之一，包含共识节点的公钥集及共识过程中的投票信息等"
+        },
+        {
+          "name": "共识节点的公钥集",
+          "desc": "信任信息的一部分，列出参与共识的节点公钥"
+        },
+        {
+          "name": "共识过程中的投票信息",
+          "desc": "信任信息的一部分，包括参与投票的共识节点列表、本区块的共识节点签名列表及签名数据等"
+        },
+        {
+          "name": "参与投票的共识节点列表",
+          "desc": "投票信息的具体内容，列出参与投票的节点"
+        },
+        {
+          "name": "本区块的共识节点签名列表",
+          "desc": "投票信息的具体内容，列出对本区块进行签名的节点"
+        },
+        {
+          "name": "签名数据",
+          "desc": "投票信息的具体内容，一般为区块哈希"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 21,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_20_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_22_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_22_v1782025976",
+      "section_title": "7.5 获取业务数据对象或业务数据对象引用的接口",
+      "section_path": "区域性股权市场跨链技术规范 / 7.5 获取业务数据对象或业务数据对象引用的接口",
+      "content": "该接口应符合表6的要求，以获取业务数据对象或业务数据对象引用。如该接口返回的是业务数据对象引用，监管链应能通过该业务数据对象引用访问并获取到业务数据对象。如地方业务链因底层技术原因无法提供默克尔证明，应提供可快速证明数据是否存在于某数据集合中的方法，且该方法应满足监管链的验证要求。\n表 6 获取地方业务链业务数据对象或业务数据对象引用的接口要求\n<table><tr><td>接口功能</td><td>请求内容</td><td>响应内容</td></tr><tr><td>获取某一个区块包含的数据对象标识</td><td>区块链网络标识、区块高度</td><td>指定区块所包含的数据对象标识</td></tr><tr><td>获取数据对象或数据对象引用</td><td>区块链网络标识、区块高度、数据对象标识</td><td>数据对象在链上的实际编码内容及其默克尔证明,或数据对象引用(一般为数据对象的统一资源标识)</td></tr></table>\n附 录 A\n（资料性）\n应用环境参考示例\n图 A.1是区域性股权市场跨链技术规范应用环境的参考示例。在该参考示例中，区域性股权市场跨链技术规范用于地方业务链与监管链之间数据对象的跨链处理。\n![](images/bab27e7c2c2f86a6c466aca97d4f23f96b1995c074b1d6e42f5e8b9b689f923d.jpg)\n图A.1 应用环境参考",
+      "entities": [
+        {
+          "name": "获取业务数据对象或业务数据对象引用的接口",
+          "desc": "用于获取地方业务链中的业务数据对象或其引用的技术接口，需符合表6要求"
+        },
+        {
+          "name": "监管链",
+          "desc": "接收地方业务链数据、通过RPC接口获取链上信息及网络状态的上级或监管侧区块链系统"
+        },
+        {
+          "name": "地方业务链",
+          "desc": "具有自定义区块链网络标识，需向监管链提供节点接口并采用容错共识协议的区域性股权市场业务链"
+        },
+        {
+          "name": "默克尔证明",
+          "desc": "用于证明数据存在于某数据集合中的加密方法，若无法提供需提供替代的快速证明方法"
+        },
+        {
+          "name": "区域性股权市场跨链技术规范",
+          "desc": "文档所属的技术规范名称，规定了区域性股权市场区块链试点场景下的数据对象JSON模式使用流程"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 22,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_21_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_23_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_23_v1782025976",
+      "section_title": "附 录 B",
+      "section_path": "区域性股权市场跨链技术规范 / 附 录 B",
+      "content": "（资料性）\n图 B.1 是区域性股权市场跨链技术规范业务数据对象数据头的参考示例。在该参考示例中，数据对象数据头主要字段含义如下：\nheader.content.object\\_id\n解释：地方业务链业务数据对象唯一标识。\nheader.content.operation\n解释：标识当前对业务数据对象所做的操作行为。\nheader.content.timestamp\n解释：标识当前业务数据对象操作发生时刻的 Unix时间戳。\nheader.content.type\n解释：标识当前业务数据对象类型。\nheader.content.version\n解释：标识业务数据对象版本号。\n——header.model.protocol\n解释：标识数据模型协议名称，固定为“区域性股权市场跨链业务数据模型”。\nheader.model.version\n解释：标识当前所使用的数据模型版本号。\n—header.source\n解释：标识当前业务数据对象来源。\n—header.body\n解释：标识当前业务数据对象内容。\n![](images/e2644d63f7b6a702a44e56ef652a7bd5edec9ced84d9264a309940c4fefb41b7.jpg)\n图 B.1 数据对象数据头参考\n附 录 C\n（资料性）\n数据对象生命周期管理参考示例\n图 C.1是区域性股权市场跨链技术规范数据对象生命周期管理的示例参考。\n![](images/37f9d1a1b0b093664de0cb542f610910645af41586237ee3909d34bcd65f6009.jpg)\n在该参考示例中，对数据对象操作的说明如下：\n创建：业务数据第一次生成，则需要创建数据对象；\n—更新：业务执行过程导致数据对象内容变更，则需要更新业务数据对象；\n重写：因业务操作原因导致业务数据对象内容错误，则需要重写业务数据对象；\n删除：因业务变化导致业务数据过期或无用，则需要删除业务数据对象。\n图C.1 数据对象生命周期管理参考",
+      "entities": [
+        {
+          "name": "区域性股权市场跨链技术规范",
+          "desc": "文档所属的技术规范名称，规定了区域性股权市场区块链试点场景下的数据对象JSON模式使用流程"
+        },
+        {
+          "name": "数据对象数据头",
+          "desc": "区域性股权市场跨链业务数据对象的头部结构，包含标识、操作、时间戳、类型、版本、协议、来源及内容等字段。"
+        },
+        {
+          "name": "header.content.object_id",
+          "desc": "数据对象数据头中的字段，用于表示地方业务链业务数据对象的唯一标识。"
+        },
+        {
+          "name": "header.content.operation",
+          "desc": "数据对象数据头中的字段，用于标识当前对业务数据对象所做的操作行为。"
+        },
+        {
+          "name": "header.content.timestamp",
+          "desc": "数据对象数据头中的字段，用于标识当前业务数据对象操作发生时刻的Unix时间戳。"
+        },
+        {
+          "name": "header.content.type",
+          "desc": "数据对象数据头中的字段，用于标识当前业务数据对象类型。"
+        },
+        {
+          "name": "header.content.version",
+          "desc": "数据对象数据头中的字段，用于标识业务数据对象版本号。"
+        },
+        {
+          "name": "header.model.protocol",
+          "desc": "数据对象数据头中的字段，用于标识数据模型协议名称，固定为“区域性股权市场跨链业务数据模型”。"
+        },
+        {
+          "name": "header.model.version",
+          "desc": "数据对象数据头中的字段，用于标识当前所使用的数据模型版本号。"
+        },
+        {
+          "name": "header.source",
+          "desc": "数据对象数据头中的字段，用于标识当前业务数据对象来源。"
+        },
+        {
+          "name": "header.body",
+          "desc": "数据对象数据头中的字段，用于标识当前业务数据对象内容。"
+        },
+        {
+          "name": "区域性股权市场跨链业务数据模型",
+          "desc": "数据模型协议的固定名称，由header.model.protocol字段标识。"
+        },
+        {
+          "name": "数据对象生命周期管理",
+          "desc": "针对数据对象从生成到失效全过程的管理参考示例，涵盖创建、更新、重写和删除四种状态。"
+        },
+        {
+          "name": "创建",
+          "desc": "数据对象生命周期中的一种操作，指业务数据第一次生成时建立数据对象的行为。"
+        },
+        {
+          "name": "更新",
+          "desc": "数据对象生命周期中的一种操作，指因业务执行导致数据对象内容变更时的行为。"
+        },
+        {
+          "name": "重写",
+          "desc": "数据对象生命周期中的一种操作，指因业务操作原因导致数据对象内容错误时的修正行为。"
+        },
+        {
+          "name": "删除",
+          "desc": "数据对象生命周期中的一种操作，指因业务变化导致数据过期或无用时的清除行为。"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "数据对象数据头",
+          "predicate": "包含字段",
+          "object": "header.content.object_id",
+          "desc": "数据对象数据头包含header.content.object_id字段，用于定义地方业务链业务数据对象唯一标识。"
+        },
+        {
+          "subject": "数据对象数据头",
+          "predicate": "包含字段",
+          "object": "header.content.operation",
+          "desc": "数据对象数据头包含header.content.operation字段，用于标识对业务数据对象的操作行为。"
+        },
+        {
+          "subject": "数据对象数据头",
+          "predicate": "包含字段",
+          "object": "header.content.timestamp",
+          "desc": "数据对象数据头包含header.content.timestamp字段，用于标识操作发生的Unix时间戳。"
+        },
+        {
+          "subject": "数据对象数据头",
+          "predicate": "包含字段",
+          "object": "header.content.type",
+          "desc": "数据对象数据头包含header.content.type字段，用于标识业务数据对象类型。"
+        },
+        {
+          "subject": "数据对象数据头",
+          "predicate": "包含字段",
+          "object": "header.content.version",
+          "desc": "数据对象数据头包含header.content.version字段，用于标识业务数据对象版本号。"
+        },
+        {
+          "subject": "数据对象数据头",
+          "predicate": "包含字段",
+          "object": "header.model.protocol",
+          "desc": "数据对象数据头包含header.model.protocol字段，用于标识数据模型协议名称。"
+        },
+        {
+          "subject": "数据对象数据头",
+          "predicate": "包含字段",
+          "object": "header.model.version",
+          "desc": "数据对象数据头包含header.model.version字段，用于标识数据模型版本号。"
+        },
+        {
+          "subject": "数据对象数据头",
+          "predicate": "包含字段",
+          "object": "header.source",
+          "desc": "数据对象数据头包含header.source字段，用于标识业务数据对象来源。"
+        },
+        {
+          "subject": "数据对象数据头",
+          "predicate": "包含字段",
+          "object": "header.body",
+          "desc": "数据对象数据头包含header.body字段，用于标识业务数据对象内容。"
+        },
+        {
+          "subject": "header.model.protocol",
+          "predicate": "取值为",
+          "object": "区域性股权市场跨链业务数据模型",
+          "desc": "header.model.protocol字段的值固定为“区域性股权市场跨链业务数据模型”。"
+        },
+        {
+          "subject": "数据对象生命周期管理",
+          "predicate": "包含操作",
+          "object": "创建",
+          "desc": "数据对象生命周期管理包含创建操作，适用于业务数据第一次生成的场景。"
+        },
+        {
+          "subject": "数据对象生命周期管理",
+          "predicate": "包含操作",
+          "object": "更新",
+          "desc": "数据对象生命周期管理包含更新操作，适用于业务执行导致数据内容变更的场景。"
+        },
+        {
+          "subject": "数据对象生命周期管理",
+          "predicate": "包含操作",
+          "object": "重写",
+          "desc": "数据对象生命周期管理包含重写操作，适用于业务操作导致数据内容错误的场景。"
+        },
+        {
+          "subject": "数据对象生命周期管理",
+          "predicate": "包含操作",
+          "object": "删除",
+          "desc": "数据对象生命周期管理包含删除操作，适用于业务数据过期或无用的场景。"
+        }
+      ],
+      "chunk_index": 23,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_22_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_24_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_24_v1782025976",
+      "section_title": "附 录 D",
+      "section_path": "附 录 D / （资料性）",
+      "content": "区域性股权市场跨链技术规范对数据对象JSON模式的参考示例仅用于演示JSON模式的基本使用流程，不对 JSON 模式工具的选择构成建议和要求，可根据技术特点和需求进行评估。更多工具请参考：https://json-schema.org/tools。\n在区域性股权市场区块链试点场景中，数据对象 JSON 模式的基本使用流程为：\na) 使用 JSON 模式生成代码；\nb) 基于 JSON 模式生成的代码构造业务数据对象；\nc) 将业务数据对象序列化为 JSON结构体（快照）；\nd) 使用 JSON 模式校验序列化后的 JSON结构体。",
+      "entities": [
+        {
+          "name": "区域性股权市场跨链技术规范",
+          "desc": "文档所属的技术规范名称，规定了区域性股权市场区块链试点场景下的数据对象JSON模式使用流程"
+        },
+        {
+          "name": "区域性股权市场区块链试点场景",
+          "desc": "该技术规范适用的具体业务场景"
+        },
+        {
+          "name": "数据对象 JSON 模式",
+          "desc": "用于定义和校验业务数据结构的标准格式"
+        },
+        {
+          "name": "JSON结构体（快照）",
+          "desc": "业务数据对象序列化后的最终形态，用于存储或传输"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 24,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_23_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_25_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_25_v1782025976",
+      "section_title": "D.2 代码生成工具",
+      "section_path": "附 录 D / D.2 代码生成工具",
+      "content": "使用工具生成业务数据对象代码的示例如下：\n工具网址：https://app.quicktype.io/#l=schema。\n通过以上网址在浏览器中打开在线代码生成工具，在网页左侧“Name”输入根对象名称“InterChainObject”，“Source type”选择“JSON Schema”，然后在文本域中输入完整的数据对象Schema 内容；\n在网页右侧悬浮框中，选择对应的开发语言等属性，即能够自动生成对应语言的代码。注意生成Java 代码时：\n可能出现非必填日期/时间格式字段没有正确添加 JsonFormat 注解的情况，此系工具本身对Java语言代码生成支持存在缺陷导致，日期/时间格式字段需要手动在代码中添加；\n—右侧选项框“Date time provider type”选择“Legacy”，则生成的代码中，日期会使用“java.utils.Date”类。",
+      "entities": [
+        {
+          "name": "InterChainObject",
+          "desc": "业务数据对象的根对象名称，用于在代码生成工具中定义数据结构"
+        },
+        {
+          "name": "JSON Schema",
+          "desc": "一种基于 JSON 格式定义数据结构和验证规则的标准，文中指代其规范定义"
+        },
+        {
+          "name": "Java",
+          "desc": "目标开发语言，用于生成对应的业务数据对象代码"
+        },
+        {
+          "name": "JsonFormat 注解",
+          "desc": "Java代码中用于处理日期/时间格式字段的注解，文中指出该工具可能未自动添加此注解"
+        },
+        {
+          "name": "Legacy",
+          "desc": "代码生成工具中“Date time provider type”选项的一个值，选择后生成的代码使用java.utils.Date类处理日期"
+        },
+        {
+          "name": "java.utils.Date",
+          "desc": "Java标准库中的日期类，当选择Legacy模式时，生成的代码将使用此类表示日期"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 25,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_24_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_26_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_26_v1782025976",
+      "section_title": "D.3 代码检验工具",
+      "section_path": "附 录 D / D.3 代码检验工具",
+      "content": "使用工具校验JSON结构及各属性值合法性的示例如下：\n工具网址：https://www.jsonschemavalidator.net。\n使用示例如图D.1：\n![](images/d22e70651bdf118f05ddd4a71d85242a2bc109a9612d8dae04012b87b64f4d7e.jpg)\n图D.1 在线格式校验参考",
+      "entities": [
+        {
+          "name": "JSON结构及各属性值合法性校验工具",
+          "desc": "用于校验JSON结构及各属性值合法性的工具，文中提供了具体的使用网址和参考示例"
+        },
+        {
+          "name": "https://www.jsonschemavalidator.net",
+          "desc": "提供在线JSON格式校验服务的工具网址"
+        },
+        {
+          "name": "图D.1",
+          "desc": "展示在线格式校验参考的示意图"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 26,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_25_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_27_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_27_v1782025976",
+      "section_title": "D.3.2 本地代码验证",
+      "section_path": "附 录 D / D.3.2 本地代码验证",
+      "content": "使用代码校验 JSON 结构及各属性值合法性的示例如下：\nGitHub: https://github.com/everit-org/json-schema。\n使用方法：\nMaven 依赖可见上述 GitHub 链接。\n代码示例如图 D.2：\n![](images/5b002b0384d1994090623c57e9761d05a11a85df82d008dea56a12e07d39b951.jpg)\n图 D.2 本地格式校验参考\n```groovy\npublic class ToolTest {\n    @Test\n    void testTool() {\n        try (\n            InputStream schemaInputStream = new FileInputStream( name: \"demo.json\");\n            InputStream jsonInputStream = new FileInputStream( name: \"product.json\")\n        ) {\n            JSONObject rawSchema = new JSONObject(new JSONTokenizer(schemaInputStream));\n            JSONObject RawJson = new JSONObject(new JSONTokenizer(jsonInputStream));\n            Schema schema = SchemaLoader.load(rawSchema);\n            schema.validate(rawJson); // throws a ValidationException if this object is invalid\n        } catch (ValidationException e) {\n            System.out.println(e.getErrorMessage());\n            for(String s : e.getAllMessages())\n                System.out.println(s);\n        }\n        return;\n    } catch (Exception e) {\n        e.printStackTrace();\n        return;\n    }\n    System.out.println(\"valid\");\n}\n}\n```\n图 D.2 本地格式校验参考（续）\n当 JSON 格式或其属性值不符合 JSON模式中定义的规范时，会得到如图 D.3 的报错信息，通过报错信息可以轻松定位到错误原因并进行修复：\n```txt\n10 schema violations found\n#/header/model/version: 2.0 is not a valid enum value\n#/header/content: required key [version] not found\n#/header/content/operation: add is not a valid enum value\n#/body: required key [account] not found\n#/body: required key [product] not found\n#/body: required key [transaction] not found\n#/body: required key [settlement] not found\n#/body: required key [registration] not found\n#/body/subject/basic_information_subject/general_information_subject: required key [subject_type] not found\n#/body/subject/basic_information_subject/subject_qualification_information/0/investor_suitability_information/0/subject_investor_qua\n```\n图 D.3 校验报错信息参考",
+      "entities": [
+        {
+          "name": "everit-org/json-schema",
+          "desc": "用于代码校验 JSON 结构及各属性值合法性的 GitHub 开源项目"
+        },
+        {
+          "name": "JSON Schema",
+          "desc": "一种基于 JSON 格式定义数据结构和验证规则的标准，文中指代其规范定义"
+        },
+        {
+          "name": "demo.json",
+          "desc": "作为输入流的 JSON Schema 文件名称"
+        },
+        {
+          "name": "product.json",
+          "desc": "作为输入流的待校验的 JSON 数据文件名称"
+        },
+        {
+          "name": "ValidationException",
+          "desc": "当 JSON 对象无效时由 schema.validate() 方法抛出的异常类"
+        },
+        {
+          "name": "schema violations found",
+          "desc": "校验失败后输出的报错信息摘要，表示发现了10处模式违规"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 27,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_26_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_28_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_28_v1782025976",
+      "section_title": "附 录 E（资料性）数据对象快照存证参考示例",
+      "section_path": "附 录 D / 附 录 E（资料性）数据对象快照存证参考示例",
+      "content": "以下是区域性股权市场跨链技术规范对数据对象快照存证的参考示例。在该参考示例中，地方业务链暂时无法将所有业务数据实时记录在链上，按以下步骤采用链上存证的临时过渡方案：\na) 在关键业务流程执行完毕时，按照业务逻辑触达的先后顺序生成所有被影响的快照，并将它们存储于链外（如：OSS）；\nb) 每个链外存储成功的快照都要在链上存证；\nc) 存证记录应该至少包含图E.1 所示的属性（以 JSON格式为例）。\n![](images/aa5a117f98bbcdbf249635c431c71ca2043b83925566caff9e1df53bafe0b5bc.jpg)\n图 E.1 存证记录包含属性参考\n每个存证记录可包含多个数据项，每个数据项对应一个快照的链上存证。",
+      "entities": [
+        {
+          "name": "区域性股权市场跨链技术规范",
+          "desc": "文档所属的技术规范名称，规定了区域性股权市场区块链试点场景下的数据对象JSON模式使用流程"
+        },
+        {
+          "name": "地方业务链",
+          "desc": "具有自定义区块链网络标识，需向监管链提供节点接口并采用容错共识协议的区域性股权市场业务链"
+        },
+        {
+          "name": "链上存证的临时过渡方案",
+          "desc": "针对地方业务链无法实时上链情况采用的解决方案"
+        },
+        {
+          "name": "关键业务流程",
+          "desc": "执行完毕时触发快照生成的业务环节"
+        },
+        {
+          "name": "快照",
+          "desc": "被影响的业务数据状态，存储于链外（如OSS）并在链上存证"
+        },
+        {
+          "name": "存证记录",
+          "desc": "包含图E.1所示属性的JSON格式数据，用于链上存证"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 28,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_27_v1782025976",
+      "next_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_29_v1782025976",
+      "doc_tree": null
+    },
+    {
+      "chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_29_v1782025976",
+      "section_title": "参 考 文 献",
+      "section_path": "附 录 D / 参 考 文 献",
+      "content": "[1] GB/T 5271.18 信息技术 词汇\n[2] GB/T 11457 信息技术 软件工程术语",
+      "entities": [
+        {
+          "name": "GB/T 5271.18",
+          "desc": "信息技术词汇国家标准"
+        },
+        {
+          "name": "GB/T 11457",
+          "desc": "信息技术软件工程术语国家标准"
+        }
+      ],
+      "relations": [],
+      "chunk_index": 29,
+      "doc_id": "be941c3c7b68e42f3be2e0ce350b1a55",
+      "version_ts": 1782025976,
+      "prev_chunk_id": "be941c3c7b68e42f3be2e0ce350b1a55_chunk_28_v1782025976",
+      "next_chunk_id": null,
+      "doc_tree": null
+    }
+  ]
+}
