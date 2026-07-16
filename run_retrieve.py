@@ -124,7 +124,7 @@ def main(data, client:OpenAI):
         index_manager_type="instuance"
     )
     save = []
-    skip = 9
+    skip = 0
     for collection, name2ids in data:
         ids2name = {v:k for k,v in name2ids.items()}
 
@@ -140,10 +140,7 @@ def main(data, client:OpenAI):
                 "answer":[]
             })
             # 先检索资料
-            doc_ids_obj = {f"第{i+1}篇文档：{doc_name}":name2ids[doc_name] for i, doc_name in enumerate(record['doc_ids'])}
-            doc_ids = json.dumps(doc_ids_obj, ensure_ascii=False, indent=2)
-
-            chunks = []
+            total_chunks = []
             if 'tf'==record['answer_format']:
                 question = QUESTION_PROMPT.format(
                     question=question_str,
@@ -152,19 +149,18 @@ def main(data, client:OpenAI):
                 for result in results:
                         chunks.extend(result['results'])
             else:
-                for k,v in options.items():
-                    question = QUESTION_PROMPT.format(
-                        question=question_str,
-                        options=f"{k}. {v}")
-                    results = retriever.retrieve(question, top_k=5, category_name="保险合同检索")
-                    for result in results:
-                        chunks.extend(result['results'])
+                question = QUESTION_PROMPT.format(
+                    question=question_str,
+                    options="\n".join([f"{k}. {v}" for k,v in options.items()]))
+                results = retriever.retrieve(question, top_k=20, category_name="保险合同检索")
+                for result in results:
+                    total_chunks.extend(result['results'])
 
-            chunks.sort(key=lambda x:x.score, reverse=True)
+            total_chunks.sort(key=lambda x:x.score, reverse=True)
             # 汇总并截断
             docs = {}
             used_chunks = []
-            for chunk in chunks:
+            for chunk in total_chunks:
                 if chunk.chunk.chunk_id not in used_chunks:
                     used_chunks.append(chunk.chunk.chunk_id)
                 else:

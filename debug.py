@@ -137,28 +137,27 @@ def main(data, client:OpenAI, retriever:Retriever, qid):
             doc_ids = {f"第{i+1}篇文档：{doc_name}":name2ids[doc_name] for i, doc_name in enumerate(record['doc_ids'])}
             doc_ids = json.dumps(doc_ids, ensure_ascii=False, indent=2)
 
-            chunks = []
+            total_chunks = []
             if 'tf'==record['answer_format']:
                 question = QUESTION_PROMPT.format(
                     question=question_str,
                     options=options)
                 results = retriever.retrieve(question, top_k=5, category_name="保险合同检索")
                 for result in results:
-                        chunks.extend(result['results'])
+                    total_chunks.extend(result['results'])
             else:
-                for k,v in options.items():
-                    question = QUESTION_PROMPT.format(
-                        question=question_str,
-                        options=f"{k}. {v}")
-                    results = retriever.retrieve(question, top_k=5, category_name="保险合同检索")
-                    for result in results:
-                        chunks.extend(result['results'])
+                question = QUESTION_PROMPT.format(
+                    question=question_str,
+                    options="\n".join([f"{k}. {v}" for k,v in options.items()]))
+                results = retriever.retrieve(question, top_k=10, category_name="保险合同检索")
+                for result in results:
+                    total_chunks.extend(result['results'])
 
-            chunks.sort(key=lambda x:x.score, reverse=True)
+            total_chunks.sort(key=lambda x:x.score, reverse=True)
             # 汇总并截断
             docs = {}
             used_chunks = []
-            for chunk in chunks:
+            for chunk in total_chunks:
                 # if '阅读指引' in chunk.chunk.section_title.replace(' ',''):
                 #     continue
                 if chunk.chunk.chunk_id not in used_chunks:

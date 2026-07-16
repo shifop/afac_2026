@@ -85,10 +85,27 @@ class Retriever:
         try:
             schema_copy = deepcopy(schema)
             schema_copy.fields = schema_copy.filters
-            filter_list = self.llm_extractor.extract(question, schema_copy)
+            filter_list = self.llm_extractor.extract_filter(question, schema_copy)
         except ExtractionError:
             schema = self.config_manager.get_default_schema()
             filter_list = [{"contract_name": question}, doc_ids]
+            warning = "LLM提取失败，已降级为全文检索"
+
+        # 先确认检索范围
+        candidate_docs = {}
+
+        for filter_,_ in filter_list:
+            structured_q = QueryBuilder.build(schema, filter_, [filter_])
+            structured_q.free_text = question
+            result = self.searcher.filter(structured_q)
+            for doc in result:
+                candidate_docs[doc['doc_id']] = doc
+
+        # 使用大模型确认检索的id
+        try:
+            doc_ids_ = self.llm_extractor.filter(question, candidate_docs)
+        except ExtractionError:
+            doc_ids_ = [k for k in candidate_docs]
             warning = "LLM提取失败，已降级为全文检索"
 
         # 构建查询参数
@@ -97,22 +114,6 @@ class Retriever:
         except ExtractionError:
             schema = self.config_manager.get_default_schema()
             extracted_list = [{"query_text": question}, doc_ids]
-            warning = "LLM提取失败，已降级为全文检索"
-
-        # 先确认检索范围
-        candidate_docs = {}
-        for [extracted_dict, doc_ids_] in extracted_list:
-            structured_q = QueryBuilder.build(schema, extracted_dict, [_[0] for _ in filter_list])
-            structured_q.free_text = question
-            result = self.searcher.filter(structured_q)
-            for doc in result:
-                candidate_docs[doc['doc_id']] = doc
-        
-        # 使用大模型确认检索的id
-        try:
-            doc_ids_ = self.llm_extractor.filter(question, candidate_docs)
-        except ExtractionError:
-            doc_ids_ = [k for k in candidate_docs]
             warning = "LLM提取失败，已降级为全文检索"
 
         result = []
