@@ -24,7 +24,7 @@ CHUNK_CHANNEL_FIELD_MAP = {
 # 实体/关系独立索引字段映射
 META_FIELDS = ["desc"]
 ENTITY_FIELDS = ["name", "desc"]
-RELATION_FIELDS = ["subject", "predicate", "object"]
+RELATION_FIELDS = ["desc","query_text"]
 
 # 通道 → 索引类型映射
 CHANNEL_INDEX_MAP = {
@@ -137,7 +137,8 @@ class WhooshSearcher:
             w = getattr(ch_weights, f"{ch}_channel", 0.0)
             normalized_w = w / total_weight
             for cid, s in norm_scores[ch].items():
-                total_scores[cid] += normalized_w * s
+                # total_scores[cid] += normalized_w * s
+                total_scores[cid] = max([total_scores[cid], s])
 
         # 5. 排序、截断、后处理
         sorted_ids = sorted(

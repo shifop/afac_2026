@@ -68,6 +68,12 @@ categories:
     schema_file: "schemas/insurance.json"
     classification:
       method: "default"
+  - id: "report"
+    name: "上市公司年报"
+    description: "用于上市公司年报的全方位检索"
+    schema_file: "schemas/report.json"
+    classification:
+      method: "default"
 
   - id: "default"
     name: "其他"

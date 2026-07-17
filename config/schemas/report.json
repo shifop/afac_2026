@@ -1,0 +1,78 @@
+{
+  "category_id": "annual_report",
+  "category_name": "上市公司年报检索",
+  "description": "兜底类别，用于上市公司年度报告内容的全面检索，覆盖全文文本、公司实体、人员、财务指标、关系三元组以及报告功能章节。",
+  "fields": [
+    {
+      "field_name": "query_text",
+      "field_type": "string",
+      "description": "全文搜索内容，对年报所有文本（包括管理层讨论、财务报表附注等）进行模糊匹配",
+      "target_index_field": "content",
+      "match_method": "fuzzy",
+      "weight": 1.0,
+      "required": true
+    },
+    {
+      "field_name": "time",
+      "field_type": "string",
+      "description": "财务业务指标、事件关联时间，例如2024年、第三季度等时间表述",
+      "target_index_field": "desc",
+      "match_method": "fuzzy",
+      "weight": 0.5,
+      "required": false
+    },
+    {
+      "field_name": "metric_name",
+      "field_type": "string",
+      "description": "财务业务指标名称，例如营业收入，净利润，分红政策等等",
+      "target_index_field": "desc",
+      "match_method": "fuzzy",
+      "weight": 0.5,
+      "required": false
+    },
+    {
+      "field_name": "metric_value",
+      "field_type": "string",
+      "description": "具体数值",
+      "target_index_field": "desc",
+      "match_method": "fuzzy",
+      "weight": 0.5,
+      "required": false
+    },
+    {
+      "field_name": "metric_value_operator",
+      "field_type": "string",
+      "description": "比较关系，例如同比增加，同比减少，相对上年等等表述",
+      "target_index_field": "desc",
+      "match_method": "fuzzy",
+      "weight": 0.5,
+      "required": false
+    },
+    {
+      "field_name": "section_title",
+      "field_type": "string",
+      "description": "**报告功能主题匹配**。请不要直接猜测原始年报的章节编号，而是将问题归纳到一个或多个标准的功能语义类别中。如果问题明确提及了某个章节名称，可直接使用。可选功能主题列表（可组合，用中文描述）：\n- “公司简介和主要财务指标” (涉及公司基本信息、关键财务数据摘要)\n- “管理层讨论与分析” (涉及经营情况分析、行业格局、核心竞争力、未来展望)\n- “公司治理” (涉及董事、监事、高管信息、治理结构、薪酬)\n- “重要事项” (涉及重大诉讼、关联交易、对外担保、分红)\n- “财务报告” (涉及审计报告、财务报表及附注)\n- “风险因素” (涉及可能面临的风险及应对措施)\n- “股东情况” (涉及大股东、实际控制人、股权结构)\n- “释义与定义” (涉及专业词汇解释)",
+      "target_index_field": "section_title",
+      "match_method": "fuzzy",
+      "weight": 0.6,
+      "required": false
+    }
+  ],
+  "filters": [
+    {
+      "field_name": "desc",
+      "field_type": "string",
+      "description": "股票代码、上市公司名称全称或简称，财年/报告年份，用于限定检索范围",
+      "target_index_field": "desc",
+      "match_method": "fuzzy",
+      "weight": 1.0,
+      "required": true
+    }
+  ],
+  "default_channel_weights": {
+    "entity_channel": 0.2,
+    "relation_channel": 0.2,
+    "title_channel": 0.4,
+    "content_channel": 0.2
+  }
+}

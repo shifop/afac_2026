@@ -69,6 +69,7 @@ RELATION_SCHEMA = fields.Schema(
     subject=fields.TEXT(stored=True, analyzer=custom_analyzer),
     predicate=fields.TEXT(stored=True, analyzer=custom_analyzer),
     object=fields.TEXT(stored=True, analyzer=custom_analyzer),
+    desc=fields.TEXT(stored=True, analyzer=custom_analyzer),
     chunk_id=fields.ID(stored=True),
     doc_id=fields.ID(stored=True),
 )
@@ -234,7 +235,7 @@ class IndexManager:
                         writer.add_document(
                             entity_id=entity_id,
                             name=entity.name,
-                            desc=entity.desc or "",
+                            desc=f"{entity.name} {entity.desc}" or "",
                             entity_type=entity.entity_type or "",
                             chunk_id=chunk.chunk_id,
                             doc_id=doc.doc_id,
@@ -260,25 +261,26 @@ class IndexManager:
                             subject=relation.subject or "",
                             predicate=relation.predicate,
                             object=relation.object,
+                            desc=f"{relation.subject } {relation.object} {relation.predicate}",
                             chunk_id=chunk.chunk_id,
                             doc_id=doc.doc_id,
                         )
-                        writer.add_document(
-                            relation_id=relation_id,
-                            subject=relation.object,
-                            predicate=relation.predicate,
-                            object=relation.subject or "",
-                            chunk_id=chunk.chunk_id,
-                            doc_id=doc.doc_id,
-                        )
-                        writer.add_document(
-                            relation_id=relation_id,
-                            subject=relation.object + " " + relation.predicate,
-                            predicate=relation.predicate,
-                            object=relation.subject or "" + " "+ relation.predicate,
-                            chunk_id=chunk.chunk_id,
-                            doc_id=doc.doc_id,
-                        )
+                        # writer.add_document(
+                        #     relation_id=relation_id,
+                        #     subject=relation.object,
+                        #     predicate=relation.predicate,
+                        #     object=relation.subject or "",
+                        #     chunk_id=chunk.chunk_id,
+                        #     doc_id=doc.doc_id,
+                        # )
+                        # writer.add_document(
+                        #     relation_id=relation_id,
+                        #     subject=relation.object + " " + relation.predicate,
+                        #     predicate=relation.predicate,
+                        #     object=relation.subject or "" + " "+ relation.predicate,
+                        #     chunk_id=chunk.chunk_id,
+                        #     doc_id=doc.doc_id,
+                        # )
             writer.commit(optimize=True)
             logger.info("Relation 索引构建完成")
         except Exception as e:
