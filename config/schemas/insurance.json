@@ -60,19 +60,10 @@
   ],
   "filters": [
     {
-      "field_name": "insurer",
+      "field_name": "desc",
       "field_type": "string",
-      "description": "保险产品的发行公司或机构,尽可能使用公司或机构的完整名称",
-      "target_index_field": "insurer",
-      "match_method": "fuzzy",
-      "weight": 0.5,
-      "required": true
-    },
-    {
-      "field_name": "contract_name",
-      "field_type": "string",
-      "description": "保险产品名称，尽可能使用产品完整的名称,例如各种类型保险名称",
-      "target_index_field": "contract_name",
+      "description": "保险产品的发行公司或机构以及保险产品名称",
+      "target_index_field": "desc",
       "match_method": "fuzzy",
       "weight": 1.0,
       "required": true
