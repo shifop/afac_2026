@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 INDEX_MANAGER_MAP = {
     "default":IndexManager,
-    "instuance":InsuranceIndexManager
+    "insurance":InsuranceIndexManager
 }
 
 class Retriever:
@@ -38,7 +38,7 @@ class Retriever:
         llm_max_retries: int = 2,
         llm_temperature: float = 0.0,
         context_window: Optional[Dict[str, int]] = None,
-        index_manager_type:str="defult"
+        index_manager_type:str="default"
     ):
         self.config_manager = ConfigManager(config_dir)
         self.config_manager.load_all()
@@ -97,7 +97,7 @@ class Retriever:
         for filter_,_ in filter_list:
             structured_q = QueryBuilder.build(schema, filter_, [filter_])
             structured_q.free_text = question
-            result = self.searcher.filter(structured_q, 3)
+            result = self.searcher.filter(structured_q, 3, 2)
             for doc in result:
                 candidate_docs[doc['doc_id']] = doc
 

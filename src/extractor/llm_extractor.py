@@ -97,7 +97,7 @@ class LLMExtractor:
 请输出一个JSON数组，包含所有关联的文档序号，格式如：["序号1","序号1",...]
 只输出JSON，不要添加任何其他文字或代码块标记。
 """
-        docs_info = [[f"{v['insurer']} {v['contract_name']}", k] for k,v in doc_ids.items()]
+        docs_info = [[v['desc'], k] for k,v in doc_ids.items()]
         sn2ids = {i+1:_[1] for i,_ in enumerate(docs_info)}
         docs_info = [f"{i+1}. {_[0]}"for i,_ in enumerate(docs_info)]
         prompt = prompt.format(question=question, docs="\n".join(docs_info))

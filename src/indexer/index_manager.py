@@ -73,6 +73,11 @@ RELATION_SCHEMA = fields.Schema(
     doc_id=fields.ID(stored=True),
 )
 
+META_SCHEMA = fields.Schema(
+    desc=fields.TEXT(stored=True, analyzer=custom_analyzer),
+    doc_id=fields.ID(stored=True),
+)
+
 
 class DocumentLoader:
     def __init__(self, documents_dir: str):
@@ -84,7 +89,7 @@ class DocumentLoader:
             logger.warning(f"文档目录不存在: {self.documents_dir}")
             return documents
         for filename in Path(self.documents_dir).rglob("*.json"):
-            if filename.parent.stem=='versions' or filename.stem!='latest':
+            if filename.parent.stem=='versions' or filename.stem=='latest':
                 continue
             if not filename.suffix=='.json':
                 continue
@@ -93,6 +98,10 @@ class DocumentLoader:
                 with open(filepath, "r", encoding="utf-8") as f:
                     data = json.load(f)
                 data['doc_tree'] = [data.get('chunks',[{}])[0].get('doc_tree',[])]
+                data['meta'] = {
+                    "contract_name":data['structured_data']['contract_name'],
+                    "insurer":data['structured_data']['insurer']
+                }
                 doc = Document(**data)
                 documents.append(doc)
                 logger.info(f"加载文档: {doc.doc_id} ({len(doc.chunks)} 个块)")
@@ -108,6 +117,7 @@ class IndexManager:
         self.force_rebuild = force_rebuild
 
         # 三个独立索引的路径
+        self.meta_index_dir = os.path.join(index_dir, "metas")
         self.chunk_index_dir = os.path.join(index_dir, "chunks")
         self.entity_index_dir = os.path.join(index_dir, "entities")
         self.relation_index_dir = os.path.join(index_dir, "relations")
@@ -118,6 +128,7 @@ class IndexManager:
         self.chunk_to_doc: Dict[str, str] = {}
 
         # 索引对象（chunk 索引保留为 self.index 以保持向后兼容）
+        self.meta_index: whoosh_index.Index = None
         self.index: whoosh_index.Index = None          # chunk 索引
         self.entity_index: whoosh_index.Index = None
         self.relation_index: whoosh_index.Index = None
@@ -126,6 +137,12 @@ class IndexManager:
         loader = DocumentLoader(self.documents_dir)
         documents = loader.load_all()
         self._fill_memory_maps(documents)
+
+        # 检查并加载/构建 meta 索引
+        if whoosh_index.exists_in(self.meta_index_dir) and not self.force_rebuild:
+            self.meta_index = whoosh_index.open_dir(self.meta_index_dir)
+        else:
+            self._build_meta_index(documents)
 
         # 检查并加载/构建 chunk 索引
         if whoosh_index.exists_in(self.chunk_index_dir) and not self.force_rebuild:
@@ -145,9 +162,11 @@ class IndexManager:
         else:
             self._build_relation_index(documents)
 
-        logger.info(f"索引初始化完成，chunk: {self.index.doc_count()}, "
+        logger.info(f"索引初始化完成，meta: {self.meta_index.doc_count()}, "
+                    f"chunk: {self.index.doc_count()}, "
                     f"entity: {self.entity_index.doc_count()}, "
-                    f"relation: {self.relation_index.doc_count()}")
+                    f"relation: {self.relation_index.doc_count()}, "
+                    )
 
     def _fill_memory_maps(self, documents: List[Document]):
         for doc in documents:
@@ -157,6 +176,26 @@ class IndexManager:
                 self.chunk_to_doc[chunk.chunk_id] = doc.doc_id
 
     # ----- 分索引构建方法 -----
+    def _build_meta_index(self, documents: List[Document]):
+        os.makedirs(self.meta_index_dir, exist_ok=True)
+        self.meta_index = whoosh_index.create_in(self.meta_index_dir, META_SCHEMA)
+        writer = self.meta_index.writer()
+        try:
+            for doc in documents:
+                if doc.doc_type=='CONTRACT':
+                    writer.add_document(
+                        doc_id=doc.doc_id,
+                        desc= doc.meta['contract_name']+" "+doc.meta['insurer']
+                    )
+                else:
+                    print('')
+            writer.commit(optimize=True)
+            logger.info("Meta 索引构建完成")
+        except Exception as e:
+            writer.cancel()
+            logger.error(f"Meta 索引构建失败: {e}")
+            raise
+
     def _build_chunk_index(self, documents: List[Document]):
         os.makedirs(self.chunk_index_dir, exist_ok=True)
         self.index = whoosh_index.create_in(self.chunk_index_dir, CHUNK_SCHEMA)
@@ -361,6 +400,26 @@ class IndexManager:
         if self.relation_index is None:
             return None
         return self.relation_index.schema
+
+    def search_metas_for_scoring(
+        self,
+        query: Query,
+        limit: int = 10000,
+        doc_filter: Optional[Query] = None,
+    ) -> List[Tuple[str, float]]:
+        """使用自定义 Query 搜索关系索引，返回 (chunk_id, score) 列表"""
+        if self.meta_index_dir is None:
+            logger.error("关系索引未初始化")
+            return []
+        with self.meta_index.searcher() as searcher:
+            q = query
+            if doc_filter is not None:
+                q = wquery.And([doc_filter, q])
+            results = searcher.search(q, limit=limit)
+            return [({
+                "doc_id":hit["doc_id"],
+                "desc":hit['desc']
+            }, hit.score) for hit in results]
 
     def search_entities_for_scoring(
         self,

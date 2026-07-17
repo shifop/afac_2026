@@ -22,7 +22,7 @@ CHUNK_CHANNEL_FIELD_MAP = {
 }
 
 # 实体/关系独立索引字段映射
-META_FIELDS = ["insurer", "contract_name"]
+META_FIELDS = ["desc"]
 ENTITY_FIELDS = ["name", "desc"]
 RELATION_FIELDS = ["subject", "predicate", "object"]
 
