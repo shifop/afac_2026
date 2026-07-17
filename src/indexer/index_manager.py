@@ -84,7 +84,7 @@ class DocumentLoader:
             logger.warning(f"文档目录不存在: {self.documents_dir}")
             return documents
         for filename in Path(self.documents_dir).rglob("*.json"):
-            if filename.parent.stem=='versions' or filename.stem=='latest':
+            if filename.parent.stem=='versions' or filename.stem!='latest':
                 continue
             if not filename.suffix=='.json':
                 continue

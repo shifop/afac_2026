@@ -97,7 +97,7 @@ class Retriever:
         for filter_,_ in filter_list:
             structured_q = QueryBuilder.build(schema, filter_, [filter_])
             structured_q.free_text = question
-            result = self.searcher.filter(structured_q)
+            result = self.searcher.filter(structured_q, 3)
             for doc in result:
                 candidate_docs[doc['doc_id']] = doc
 
@@ -113,25 +113,26 @@ class Retriever:
             extracted_list = self.llm_extractor.extract(question, schema)
         except ExtractionError:
             schema = self.config_manager.get_default_schema()
-            extracted_list = [{"query_text": question}, doc_ids]
+            extracted_list = [[{"query_text": question}, doc_ids]]
             warning = "LLM提取失败，已降级为全文检索"
 
         result = []
         for [extracted_dict, _] in extracted_list:
             structured_q = QueryBuilder.build(schema, extracted_dict, [_[0] for _ in filter_list])
             structured_q.free_text = question
-            results = self.searcher.search(structured_q, top_k=top_k, doc_ids=doc_ids_)
+            for ids in doc_ids_:
+                results = self.searcher.search(structured_q, top_k=top_k, doc_ids=[ids])
 
-            extracted_fields = {qf.field_name: qf.value for qf in structured_q.fields}
-            result.append({
-                "question": question,
-                "category_id": category_config.id,
-                "category_name": category_config.name,
-                "extracted_fields": extracted_fields,
-                "results": results,
-                "total": len(results),
-                "warning": warning,
-            })
+                extracted_fields = {qf.field_name: qf.value for qf in structured_q.fields}
+                result.append({
+                    "question": question,
+                    "category_id": category_config.id,
+                    "category_name": category_config.name,
+                    "extracted_fields": extracted_fields,
+                    "results": results,
+                    "total": len(results),
+                    "warning": warning,
+                })
         return result
 
     def classify(self, question: str) -> Dict[str, Any]:

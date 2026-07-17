@@ -46,7 +46,7 @@ class WhooshSearcher:
         self.chunk_dict = chunk_dict
         self.context_window = context_window or {"prev": 1, "next": 1}
 
-    def filter(self, structured_q: StructuredQuery):
+    def filter(self, structured_q: StructuredQuery, top_k=2, t=5):
         doc_ids = []
         structured_q_copy = deepcopy(structured_q)
         for filter_ in structured_q_copy.filters:
@@ -57,9 +57,7 @@ class WhooshSearcher:
                 hits = self.index.search_metas_for_scoring(
                     meta_query
                 )
-                doc_ids.extend([_[0] for _ in hits[:2]])
-        if len(doc_ids)==0:
-            doc_ids = None
+                doc_ids.extend([_[0] for _ in hits[:top_k] if _[1]>t])
 
         return doc_ids
 

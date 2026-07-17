@@ -51,7 +51,7 @@
     {
       "field_name": "section_title",
       "field_type": "string",
-      "description": "合同章节标题匹配，用于定位特定条款区域，如保险责任、责任免除、投保人如实告知义务、理赔申请、合同解除、借款等标准章节标题",
+      "description": "**合同功能主题匹配**。请不要直接猜测原始合同的章节标题，而是将问题归纳到一个或多个标准的功能语义类别中。如果问题明确提及了某个具体章节名，可直接使用该名称。可选功能主题列表（优先从以下列表中选择，可组合使用，用中文描述）：\n- “保险责任范围” (涉及保障什么、赔什么)\n- “责任免除情形” (涉及不赔、免责、拒赔、不保什么)\n- “投保人/被保险人义务” (涉及如实告知、通知、缴费等)\n- “保险金申请与理赔流程” (涉及怎么赔、材料、时效)\n- “合同效力与解除” (涉及退保、终止、解除)\n- “保险费缴纳” (涉及缴费方式、宽限期、欠缴后果)\n- “现金价值与借款” (涉及退保金、保单贷款)\n- “等待期与保险期间” (涉及生效日、等待期、保障期限)\n- “释义与定义” (涉及专业名词解释)",
       "target_index_field": "section_title",
       "match_method": "fuzzy",
       "weight": 0.6,
@@ -65,7 +65,7 @@
       "description": "保险产品的发行公司或机构,尽可能使用公司或机构的完整名称",
       "target_index_field": "insurer",
       "match_method": "fuzzy",
-      "weight": 1.0,
+      "weight": 0.5,
       "required": true
     },
     {
@@ -79,9 +79,9 @@
     }
   ],
   "default_channel_weights": {
-    "entity_channel": 0.25,
-    "relation_channel": 0.25,
-    "title_channel": 0.3,
+    "entity_channel": 0.2,
+    "relation_channel": 0.2,
+    "title_channel": 0.4,
     "content_channel": 0.2
   }
 }
