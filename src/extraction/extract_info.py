@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 # 提示词模板
 # ──────────────────────────────────────────────
 EXTRACTION_SYSTEM_PROMPT = """\
-你是一个专业的保险条款信息抽取助手。你的任务是从给定的保险条款文本中抽取出结构化的实体和关系。
+你是一个专业的文档信息抽取助手。你的任务是从给定的文档内容中抽取出结构化的实体和关系。
 请严格按照以下 JSON 格式输出，不要添加任何额外的解释或文字，只输出一个 JSON 对象：
 {
   "entities": [
@@ -29,6 +29,12 @@ EXTRACTION_SYSTEM_PROMPT = """\
     }
   ]
 }
+"""
+
+INSURANCE_EXTRACTION_USER_PROMPT_TEMPLATE = """\
+请从以下保险条款文本中抽取出实体和关系：
+
+{content}
 
 抽取重点（请从以下角度识别实体和关系，但不要局限于此）：
 - 保险产品名称及其提供的保障（如重大疾病保险金、身故保险金）
@@ -44,10 +50,25 @@ EXTRACTION_SYSTEM_PROMPT = """\
 3. 只输出 JSON，不要包含 markdown 代码块标记（如 ```json），只输出纯 JSON 文本。
 """
 
-EXTRACTION_USER_PROMPT_TEMPLATE = """\
-请从以下保险条款文本中抽取出实体和关系：
+ANNUAL_REPORT_EXTRACTION_USER_PROMPT_TEMPLATE = """\
+请从以下上市公司年报文本中抽取出实体和关系：
 
 {content}
+
+抽取重点（请从以下角度识别实体和关系，但不要局限于此）：
+- 公司、子公司、合营/联营公司、关联方等市场主体
+- 财务指标（如营业收入、归母净利润、总资产、研发费用等）及其对应的金额数值和财年，建议将指标名称与数值分别作为实体，并用关系连接
+- 董事、监事、高级管理人员及其担任的职务、任期
+- 股东、实际控制人及持股比例（可将股东与持股比例数值分别作为实体）
+- 主营业务、主要产品/服务、所属行业分类
+- 重大事件（如并购重组、分红送转、重大诉讼、战略合作等）
+- 风险因素（如市场风险、政策风险、经营风险等）
+- 其他重要信息（如审计机构、律师事务所、员工人数、研发投入占比等）
+
+注意：
+1. entities 列表中每个元素必须包含 "name" 和 "desc" 字段。
+2. relations 列表中每个元素必须包含 "subject"、"predicate"、"object"、"desc" 字段，且 subject 和 object 必须能在 entities 中找到完全匹配的 name。
+3. 只输出 JSON，不要包含 markdown 代码块标记（如 ```json），只输出纯 JSON 文本。
 """
 
 
@@ -103,6 +124,7 @@ def _parse_llm_output(text: str) -> Tuple[List[Dict], List[Dict]]:
 
 def extract_entities_relations(
     content: str,
+    doc_type: str,
     model_name: str = "qwen3.7-plus",
     max_content_length: int = 3000
 ) -> Tuple[List[Dict], List[Dict]]:
@@ -125,8 +147,11 @@ def extract_entities_relations(
     trimmed_content = content[:max_content_length]
 
     # 构建提示词
-    user_prompt = EXTRACTION_USER_PROMPT_TEMPLATE.format(content=trimmed_content)
-
+    if doc_type=='CONTRACT':
+        user_prompt = INSURANCE_EXTRACTION_USER_PROMPT_TEMPLATE.format(content=trimmed_content)
+    elif doc_type=='ANNUAL':
+        user_prompt = ANNUAL_REPORT_EXTRACTION_USER_PROMPT_TEMPLATE.format(content=trimmed_content)
+    
     # 调用大模型
     try:
         raw_output = _call_llm(EXTRACTION_SYSTEM_PROMPT, user_prompt, model_name)
@@ -149,12 +174,12 @@ def extract_entities_relations(
 
     return entities, valid_relations
 
-def enrich_chunks(chunks):
+def enrich_chunks(chunks, doc_type):
     for chunk in chunks:
         if not chunk.get("entities") or not chunk.get("relations"):
             content = chunk.get("content", "")
             if content:
-                entities, relations = extract_entities_relations(content)
+                entities, relations = extract_entities_relations(content, doc_type)
                 chunk["entities"] = entities
                 chunk["relations"] = relations
     return chunks

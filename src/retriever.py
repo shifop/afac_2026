@@ -133,7 +133,7 @@ class Retriever:
                     "total": len(results),
                     "warning": warning,
                 })
-        return result
+        return result, extracted_list
 
     def classify(self, question: str) -> Dict[str, Any]:
         category_config, schema = self.classifier.classify(question)

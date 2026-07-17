@@ -98,10 +98,7 @@ class DocumentLoader:
                 with open(filepath, "r", encoding="utf-8") as f:
                     data = json.load(f)
                 data['doc_tree'] = [data.get('chunks',[{}])[0].get('doc_tree',[])]
-                data['meta'] = {
-                    "contract_name":data['structured_data']['contract_name'],
-                    "insurer":data['structured_data']['insurer']
-                }
+                data['meta'] = data['structured_data']
                 doc = Document(**data)
                 documents.append(doc)
                 logger.info(f"加载文档: {doc.doc_id} ({len(doc.chunks)} 个块)")
@@ -186,6 +183,11 @@ class IndexManager:
                     writer.add_document(
                         doc_id=doc.doc_id,
                         desc= doc.meta['contract_name']+" "+doc.meta['insurer']
+                    )
+                elif doc.doc_type=='ANNUAL':
+                    writer.add_document(
+                        doc_id=doc.doc_id,
+                        desc= doc.meta.get('stock_code')+" "+doc.meta['company_name']+" "+doc.meta['fiscal_year_end']
                     )
                 else:
                     print('')
