@@ -102,6 +102,13 @@ class GovernancePipeline:
                     f"累计 LLM: {self.llm.stats['call_count']} 次, {self.llm.stats['total_tokens']:,} tokens")
 
         elapsed = time.time() - start_time
+
+        # ---- 输出详细统计 ----
+        self._log_statistics(
+            sections, all_extraction_results, merged_entities, merged_relations,
+            rejected_count, elapsed,
+        )
+
         logger.info(
             f"╔══════════════════════════════════════════════════╗\n"
             f"║  处理完成: {os.path.basename(file_path)[:50]}\n"
@@ -416,6 +423,161 @@ class GovernancePipeline:
         ok = sum(1 for r in results if r)
         fail = len(results) - ok
         return ok, fail
+
+    # ---- 统计 ----
+
+    def _log_statistics(
+        self,
+        sections: List[Section],
+        extraction_results: List[ExtractionResult],
+        entities: List[ExtractedEntity],
+        relations: List[ExtractedRelation],
+        rejected_count: int,
+        elapsed: float,
+    ) -> None:
+        """输出详细的文档统计分布"""
+        # 收集基础数据
+        all_paras = [p for s in sections for p in s.paragraphs]
+        all_sents = [sent for s in sections for p in s.paragraphs for sent in p.sentences]
+
+        para_lens = [len(p.content) for p in all_paras]
+        sent_lens = [len(sent.text) for sent in all_sents]
+        sents_per_para = [len(p.sentences) for p in all_paras]
+
+        # 从 ExtractionResult 按 paragraph_id 聚合实体/关系数 (去重前)
+        para_ent_count: Dict[str, int] = {}
+        para_rel_count: Dict[str, int] = {}
+        for r in extraction_results:
+            # sentence_id → paragraph_id (去掉 _sN 或 _subN_s0 后缀)
+            import re
+            para_id = re.sub(r'_(sub\d+_)?s\d+$', '', r.sentence_id)
+            para_ent_count[para_id] = para_ent_count.get(para_id, 0) + len(r.entities)
+            para_rel_count[para_id] = para_rel_count.get(para_id, 0) + len(r.relations)
+
+        ent_per_para = list(para_ent_count.values())
+        rel_per_para = list(para_rel_count.values())
+
+        # 实体类型分布
+        ent_type_dist: Dict[str, int] = {}
+        for e in entities:
+            ent_type_dist[e.entity_type] = ent_type_dist.get(e.entity_type, 0) + 1
+
+        # 关系类型分布
+        rel_type_dist: Dict[str, int] = {}
+        for r in relations:
+            rel_type_dist[r.relation_type] = rel_type_dist.get(r.relation_type, 0) + 1
+
+        def _bucket(values: List[int], boundaries: List[int]) -> Dict[str, int]:
+            """按区间分桶统计"""
+            buckets: Dict[str, int] = {}
+            counts = [0] * (len(boundaries) + 1)
+            for v in values:
+                placed = False
+                for i, b in enumerate(boundaries):
+                    if v < b:
+                        counts[i] += 1
+                        placed = True
+                        break
+                if not placed:
+                    counts[-1] += 1
+            for i, c in enumerate(counts):
+                if i == 0:
+                    label = f"<{boundaries[0]}"
+                elif i == len(boundaries):
+                    label = f">={boundaries[-1]}"
+                else:
+                    label = f"{boundaries[i-1]}-{boundaries[i]-1}"
+                buckets[label] = c
+            return buckets
+
+        def _percent(n: int, total: int) -> str:
+            if total == 0:
+                return "0%"
+            return f"{n/total*100:.1f}%"
+
+        def _avg_median(values: List[int]) -> Tuple[float, float]:
+            if not values:
+                return 0.0, 0.0
+            avg = sum(values) / len(values)
+            s = sorted(values)
+            mid = len(s) // 2
+            median = s[mid] if len(s) % 2 == 1 else (s[mid - 1] + s[mid]) / 2
+            return round(avg, 1), round(median, 1)
+
+        # 分桶边界
+        para_len_bounds = [200, 500, 1000, 2000, 5000]
+        sent_len_bounds = [30, 60, 120, 250, 500]
+        sents_para_bounds = [1, 3, 5, 10]
+        ent_para_bounds = [0, 3, 6, 10, 20]
+        rel_para_bounds = [0, 2, 5, 10]
+
+        # 格式化输出
+        lines = [
+            f"\n{'='*60}",
+            f"  文档统计报告",
+            f"{'='*60}",
+            f"  耗时: {elapsed:.1f}s  被拒: {rejected_count}",
+            f"",
+            f"  ── 基本数量 ──",
+            f"  章节: {len(sections)}  段落: {len(all_paras)}  句子: {len(all_sents)}",
+            f"  实体: {len(entities)}  关系: {len(relations)}",
+            f"",
+            f"  ── 段落长度分布 (chars) ──",
+        ]
+        pa_avg, pa_med = _avg_median(para_lens)
+        lines.append(f"  均值: {pa_avg}  中位数: {pa_med}")
+        for label, count in _bucket(para_lens, para_len_bounds).items():
+            bar = "█" * max(1, count * 40 // max(1, len(all_paras)))
+            lines.append(f"    {label:>8}: {count:>4} ({_percent(count, len(all_paras)):>5}) {bar}")
+
+        lines.append(f"\n  ── 句子长度分布 (chars) ──")
+        sa_avg, sa_med = _avg_median(sent_lens)
+        lines.append(f"  均值: {sa_avg}  中位数: {sa_med}")
+        for label, count in _bucket(sent_lens, sent_len_bounds).items():
+            bar = "█" * max(1, count * 40 // max(1, len(all_sents)))
+            lines.append(f"    {label:>8}: {count:>4} ({_percent(count, len(all_sents)):>5}) {bar}")
+
+        lines.append(f"\n  ── 每段落句子数分布 ──")
+        sp_avg, sp_med = _avg_median(sents_per_para)
+        lines.append(f"  均值: {sp_avg}  中位数: {sp_med}")
+        for label, count in _bucket(sents_per_para, sents_para_bounds).items():
+            bar = "█" * max(1, count * 40 // max(1, len(all_paras)))
+            lines.append(f"    {label:>8}: {count:>4} ({_percent(count, len(all_paras)):>5}) {bar}")
+
+        lines.append(f"\n  ── 每段落实体数分布 (去重前) ──")
+        if ent_per_para:
+            ep_avg, ep_med = _avg_median(ent_per_para)
+            lines.append(f"  有实体的段落: {len(ent_per_para)}/{len(all_paras)}  均值: {ep_avg}  中位数: {ep_med}")
+            for label, count in _bucket(ent_per_para, ent_para_bounds).items():
+                bar = "█" * max(1, count * 40 // max(1, len(ent_per_para)))
+                lines.append(f"    {label:>8}: {count:>4} ({_percent(count, len(ent_per_para)):>5}) {bar}")
+        else:
+            lines.append("  (无实体数据)")
+
+        lines.append(f"\n  ── 每段落关系数分布 (去重前) ──")
+        if rel_per_para:
+            rp_avg, rp_med = _avg_median(rel_per_para)
+            lines.append(f"  有关系的段落: {len(rel_per_para)}/{len(all_paras)}  均值: {rp_avg}  中位数: {rp_med}")
+            for label, count in _bucket(rel_per_para, rel_para_bounds).items():
+                bar = "█" * max(1, count * 40 // max(1, len(rel_per_para)))
+                lines.append(f"    {label:>8}: {count:>4} ({_percent(count, len(rel_per_para)):>5}) {bar}")
+        else:
+            lines.append("  (无关系数据)")
+
+        lines.append(f"\n  ── 实体类型分布 ──")
+        for etype, count in sorted(ent_type_dist.items(), key=lambda x: -x[1]):
+            bar = "█" * max(1, count * 30 // max(1, len(entities)))
+            lines.append(f"    {etype:<22}: {count:>4} ({_percent(count, len(entities)):>5}) {bar}")
+
+        lines.append(f"\n  ── 关系类型分布 ──")
+        for rtype, count in sorted(rel_type_dist.items(), key=lambda x: -x[1]):
+            bar = "█" * max(1, count * 30 // max(1, len(relations)))
+            lines.append(f"    {rtype:<22}: {count:>4} ({_percent(count, len(relations)):>5}) {bar}")
+
+        lines.append(f"\n{'='*60}\n")
+        logger.info("\n".join(lines))
+
+    # ---- 内部辅助 ----
 
     def _make_sub_sentences(self, para: Paragraph, sub_idx: int, sub_text: str) -> List[Sentence]:
         sent_id = f"{para.paragraph_id}_sub{sub_idx}_s0"
