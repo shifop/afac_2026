@@ -7,7 +7,7 @@ from .models import (
     ExtractedEntity, ExtractedRelation, ExtractionResult, DocType,
     ENTITY_TYPES, RELATION_TYPES, new_id,
 )
-from .llm_client import LLMClient
+from .llm_client import LLMClient, _truncate
 
 
 # 系统提示词（通用版）
@@ -89,9 +89,27 @@ class EntityExtractor:
         ]
 
         try:
-            resp = self.llm.chat(messages, response_format={"type": "json_object"})
+            # 批次日志：句子数 + 输入截选
+            sent_count = len(sentences_data)
+            total_chars = sum(len(s.get("text", "")) for s in sentences_data)
+            first_text = sentences_data[0].get("text", "") if sentences_data else ""
+            logger.info(
+                f"[抽取] 批次 {sent_count} 句, 共 {total_chars:,} chars | "
+                f"首句: {_truncate(first_text, 120)}"
+            )
+
+            resp = self.llm.chat(messages, response_format={"type": "json_object"}, label="抽取")
             raw = resp["content"]
             data = self.llm.parse_json_response(raw, "NER/RE")
+
+            # 输出摘要
+            ent_count = len(data.get("entities", []))
+            rel_count = len(data.get("relations", []))
+            logger.info(
+                f"[抽取] 结果: {ent_count} 实体, {rel_count} 关系 | "
+                f"输出截选: {_truncate(raw, 200)}"
+            )
+
             return self._parse_response(sentences_data, data)
         except Exception as e:
             logger.error(f"实体关系抽取失败: {e}")

@@ -8,6 +8,19 @@ import logging; logger = logging.getLogger(__name__)
 import openai
 
 
+def _truncate(text: str, max_len: int = 200) -> str:
+    """截断文本用于日志展示，去除换行"""
+    flat = text.replace("\n", "\\n").replace("\r", "")
+    if len(flat) <= max_len:
+        return flat
+    return flat[:max_len] + f"...({len(flat)} chars)"
+
+
+def _input_size(messages: list[dict]) -> int:
+    """估算输入消息的总字符数"""
+    return sum(len(m.get("content", "")) for m in messages)
+
+
 class LLMClient:
     """LLM 调用客户端，支持重试、并发控制"""
 
@@ -34,9 +47,11 @@ class LLMClient:
         self,
         messages: list[dict],
         response_format: Optional[dict] = None,
+        label: str = "",
     ) -> Dict[str, Any]:
-        """同步调用 LLM，返回 (content, usage)"""
+        """同步调用 LLM，返回 {content, usage}。label 用于日志标识调用来源。"""
         extra_body = {"enable_thinking": False, "thinking": {"type": "disabled"}}
+        input_chars = _input_size(messages)
         for attempt in range(self.max_retries):
             try:
                 response = self.client.chat.completions.create(
@@ -49,14 +64,33 @@ class LLMClient:
                 )
                 content = response.choices[0].message.content.strip()
                 usage = response.usage
-                self._total_tokens += usage.total_tokens if usage else 0
+                prompt_tokens = usage.prompt_tokens if usage else 0
+                completion_tokens = usage.completion_tokens if usage else 0
+                total_tokens = usage.total_tokens if usage else 0
+                self._total_tokens += total_tokens
                 self._call_count += 1
+
+                # 统一日志格式
+                tag = f"[{label}] " if label else ""
+                logger.info(
+                    f"{tag}调用 #{self._call_count} | "
+                    f"输入 {input_chars:,} chars | "
+                    f"输出 {len(content):,} chars | "
+                    f"token: {prompt_tokens:,}→{completion_tokens:,} (共 {total_tokens:,}) | "
+                    f"累计 token: {self._total_tokens:,}"
+                )
+                # 输入输出截选（debug 级别）
+                if logger.isEnabledFor(logging.DEBUG):
+                    user_content = next((m["content"] for m in messages if m["role"] == "user"), "")
+                    logger.debug(f"{tag}输入截选: {_truncate(user_content)}")
+                    logger.debug(f"{tag}输出截选: {_truncate(content)}")
+
                 return {
                     "content": content,
                     "usage": {
-                        "prompt_tokens": usage.prompt_tokens if usage else 0,
-                        "completion_tokens": usage.completion_tokens if usage else 0,
-                        "total_tokens": usage.total_tokens if usage else 0,
+                        "prompt_tokens": prompt_tokens,
+                        "completion_tokens": completion_tokens,
+                        "total_tokens": total_tokens,
                     },
                 }
             except openai.RateLimitError:
