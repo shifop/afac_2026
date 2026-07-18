@@ -1,0 +1,87 @@
+{
+    "category_id": "research",
+    "category_name": "行业研究报告检索",
+    "description": "兜底类别，用于行业研究报告的全方位检索，覆盖合同条款文本、实体名称、定义描述以及合同主体间的关系三元组。",
+    "fields": [
+        {
+            "field_name": "query_text",
+            "field_type": "string",
+            "description": "全文搜索内容，对研究报告所有文本进行模糊匹配",
+            "target_index_field": "name",
+            "match_method": "fuzzy",
+            "weight": 1.0,
+            "required": true
+        },
+        {
+            "field_name": "organization",
+            "field_type": "string",
+            "description": "组织、机构、产品或特定主体的名称，作为事实陈述的主体或客体，如'芯原股份'、'宇信科技'、'韩国寿险银保渠道'、'网络安全运营数字化底座'、'宁德时代'等",
+            "target_index_field": "desc",
+            "match_method": "fuzzy",
+            "weight": 0.9,
+            "required": true
+        },
+        {
+            "field_name": "metric",
+            "field_type": "string",
+            "description": "可量化的财务、业务或统计指标名称，如'保费贡献率'、'复合增速'、'市场规模'、'归母净利润'、'市盈率'、'市占率'、'渗透率'等",
+            "target_index_field": "desc",
+            "match_method": "fuzzy",
+            "weight": 0.9,
+            "required": true
+        },
+        {
+            "field_name": "value",
+            "field_type": "string",
+            "description": "与指标对应的具体数值及单位，支持精确值、范围值或比较描述，如'56%'、'2500亿元'、'4.09倍'、'超过1000条'、'5-10倍'、'接近8894.3亿美元'等",
+            "target_index_field": "desc",
+            "match_method": "fuzzy",
+            "weight": 1.0,
+            "required": true
+        },
+        {
+            "field_name": "time_expression",
+            "field_type": "string",
+            "description": "指标对应的时间点、时间段或频次描述，如'2022年'、'2005年至2018年'、'2025Q1-3'、'上周'、'截至2025年12月'、'过去20年'等",
+            "target_index_field": "desc",
+            "match_method": "fuzzy",
+            "weight": 0.9,
+            "required": false
+        },
+        {
+            "field_name": "statement",
+            "field_type": "object",
+            "description": "完整的事实陈述单元，例如{主体：关联organization；指标：关联metric；数值：关联value；时间：关联time_expression；限定条件：对事实成立的附加条件描述，如'若碳酸锂价格为15万元'、'按个人养老金制度投保'等}",
+            "target_index_field": "desc",
+            "match_method": "fuzzy",
+            "weight": 1.0,
+            "required": true
+        },
+        {
+            "field_name": "section_title",
+            "field_type": "string",
+            "description": "**研究报告主题匹配**。请不要直接猜测原始报告的章节标题，而是将问题归纳到一个或多个标准的功能语义类别中。如果问题明确提及了某个具体章节名，可直接使用该名称。可选功能主题列表（优先从以下列表中选择，可组合使用，用中文描述）：\n- “市场规模与预测” (涉及市场总规模、增速、未来预测、复合增长率等)\n- “竞争格局与市场份额” (涉及企业排名、市场集中度、市占率、龙头表现等)\n- “公司财务与经营分析” (涉及营收、净利润、毛利率、资产负债、客户资金杠杆、ROE等财务指标)\n- “产品、技术及商业模式” (涉及产品特性、技术路线、IP授权、芯片定制、服务模式等)\n- “行业政策与监管环境” (涉及法规、信创政策、银保监管、补贴退坡等)\n- “宏观经济与消费趋势” (涉及GDP、居民收入、消费结构、商品与服务零售增速等)\n- “产业链与供应链分析” (涉及上下游、关键零部件、原材料价格、产能等)\n- “渠道与销售分析” (涉及银保渠道、直销、分销、线上渗透率等)\n- “区域或海外市场对比” (涉及韩国、欧盟、中国等不同市场的比较)\n- “风险与挑战评估” (涉及市场风险、技术瓶颈、合规风险等)",
+            "target_index_field": "section_title",
+            "match_method": "fuzzy",
+            "weight": 0.6,
+            "required": false
+        }
+    ],
+    "filters": [
+        {
+            "field_name": "desc",
+            "field_type": "string",
+            "description": "行业或公司名称以及研究主题",
+            "target_index_field": "desc",
+            "match_method": "fuzzy",
+            "weight": 1.0,
+            "required": true
+        }
+    ],
+    "default_channel_weights": {
+        "entity_channel": 0.2,
+        "relation_channel": 0.2,
+        "title_channel": 0.4,
+        "content_channel": 0.2
+    }
+}

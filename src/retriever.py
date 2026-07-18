@@ -72,7 +72,7 @@ class Retriever:
         logger.info("Retriever 初始化完成")
 
     def retrieve(self, question: str, top_k: int = 10,
-                 doc_ids: Optional[List[str]] = None, category_name: Optional[str] = None) -> Dict[str, Any]:
+                 doc_ids: Optional[List[str]] = None, category_name: Optional[str] = None, filter_by_llm=True) -> Dict[str, Any]:
         
         if category_name:
             category_config, schema = self.classifier.get_category_by_name(category_name)
@@ -102,11 +102,14 @@ class Retriever:
                 candidate_docs[doc['doc_id']] = doc
 
         # 使用大模型确认检索的id
-        try:
-            doc_ids_ = self.llm_extractor.filter(question, candidate_docs)
-        except ExtractionError:
+        if filter_by_llm:
+            try:
+                doc_ids_ = self.llm_extractor.filter(question, candidate_docs)
+            except ExtractionError:
+                doc_ids_ = [k for k in candidate_docs]
+                warning = "LLM提取失败，已降级为全文检索"
+        else:
             doc_ids_ = [k for k in candidate_docs]
-            warning = "LLM提取失败，已降级为全文检索"
 
         # 构建查询参数
         try:

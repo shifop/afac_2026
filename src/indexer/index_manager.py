@@ -190,8 +190,21 @@ class IndexManager:
                         doc_id=doc.doc_id,
                         desc= doc.meta.get('stock_code')+" "+doc.meta['company_name']+" "+doc.meta['fiscal_year_end']
                     )
-                else:
-                    print('')
+                elif doc.doc_type=='RESEARCH':
+                    writer.add_document(
+                        doc_id=doc.doc_id,
+                        desc= doc.meta.get('institution')+" "+doc.meta['title']
+                    )
+                elif doc.doc_type=='REG':
+                    writer.add_document(
+                        doc_id=doc.doc_id,
+                        desc= doc.meta.get('title')
+                    )
+                elif doc.doc_type=='PROSPECTUS':
+                    writer.add_document(
+                        doc_id=doc.doc_id,
+                        desc= doc.meta.get('issuer_name')+" "+doc.meta['doc_type_name']
+                    )
             writer.commit(optimize=True)
             logger.info("Meta 索引构建完成")
         except Exception as e:

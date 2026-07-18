@@ -184,19 +184,29 @@ def main(data, client:OpenAI, retriever:Retriever, qid):
                 question = QUESTION_PROMPT.format(
                     question=question_str,
                     options=options)
-                results, extracted_list = retriever.retrieve(question, top_k=5, category_name="上市公司年报")
+                results, extracted_list = retriever.retrieve(question, top_k=10, category_name="募集说明书",  filter_by_llm=not record['qid'].startswith("res"))
                 for result in results:
                     total_chunks.extend(result['results'])
             else:
                 question = QUESTION_PROMPT.format(
                     question=question_str,
                     options="\n".join([f"{k}. {v}" for k,v in options.items()]))
-                results, extracted_list = retriever.retrieve(question, top_k=10, category_name="上市公司年报")
+                results, extracted_list = retriever.retrieve(question, top_k=10, category_name="募集说明书", filter_by_llm=not record['qid'].startswith("res"))
                 for result in results:
                     total_chunks.extend(result['results'])
 
             if record['qid'].startswith("ins"):
-                md = select_chunks_with_budget(total_chunks, ids2name, 6000, 2000, 0.2)
+                # md = select_chunks_with_budget(total_chunks, ids2name, 6000, 2000, 0.2)
+                indicators = []
+                for x,_ in extracted_list:
+                    indicators.append([])
+                    indicators[-1].append(x['contract_identity'])
+                    indicators[-1].append(x['contract_party'])
+                    indicators[-1].append(x['parameter'])
+                    indicators[-1].append(x['coverage_and_exclusion'])
+                    indicators[-1].append(x['business_rules'])
+                    indicators[-1] = [_ for _ in indicators[-1] if _]
+                md = batch_rerank_and_clip(total_chunks, ids2name, indicators, 6000, 2000, 15)
             elif record['qid'].startswith("fin"):
                 indicators = []
                 for x,_ in extracted_list:
@@ -206,6 +216,39 @@ def main(data, client:OpenAI, retriever:Retriever, qid):
                     indicators[-1].append(x['metric_name'])
                     indicators[-1].append(x['metric_value'])
                     indicators[-1].append(x['metric_value_operator'])
+                    indicators[-1] = [_ for _ in indicators[-1] if _]
+                md = batch_rerank_and_clip(total_chunks, ids2name, indicators, 6000, 2000, 15)
+            elif record['qid'].startswith("res"):
+                indicators = []
+                for x,_ in extracted_list:
+                    indicators.append([])
+                    indicators[-1].append(x['organization'])
+                    indicators[-1].append(x['time_expression'])
+                    indicators[-1].append(x['metric'])
+                    indicators[-1].append(x['value'])
+                    indicators[-1].append(x['statement'])
+                    indicators[-1] = [_ for _ in indicators[-1] if _]
+                md = batch_rerank_and_clip(total_chunks, ids2name, indicators, 6000, 2000, 15)
+            elif record['qid'].startswith("reg"):
+                indicators = []
+                for x,_ in extracted_list:
+                    indicators.append([])
+                    indicators[-1].append(x['regulatory_subject'])
+                    indicators[-1].append(x['obligation_clause'])
+                    indicators[-1].append(x['timeframe'])
+                    indicators[-1].append(x['threshold'])
+                    indicators[-1].append(x['legal_basis'])
+                    indicators[-1] = [_ for _ in indicators[-1] if _]
+                md = batch_rerank_and_clip(total_chunks, ids2name, indicators, 6000, 2000, 15)
+            elif record['qid'].startswith("fc"):
+                indicators = []
+                for x,_ in extracted_list:
+                    indicators.append([])
+                    indicators[-1].append(x['document'])
+                    indicators[-1].append(x['issuer'])
+                    indicators[-1].append(x['issue_information'])
+                    indicators[-1].append(x['clause_detail'])
+                    indicators[-1].append(x['financial_metric'])
                     indicators[-1] = [_ for _ in indicators[-1] if _]
                 md = batch_rerank_and_clip(total_chunks, ids2name, indicators, 6000, 2000, 15)
 
@@ -275,8 +318,8 @@ if __name__ == "__main__":
 
     retriever = Retriever(
         config_dir="config",
-        documents_dir="./data/documents.all/financial_reports",
-        index_dir="./data/group/financial_reports",
+        documents_dir="./data/documents.all/financial_contracts",
+        index_dir="./data/group/financial_contracts",
         force_rebuild=False,
         llm_api_base=os.environ['OPENAI_BASE_URL'],
         llm_api_key=os.environ['OPENAI_API_KEY'],

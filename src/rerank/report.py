@@ -610,7 +610,7 @@ def greedy_coverage_selection(
         if gain == 0:
             return 0.0, length, 0.0
         score_factor = score / 100.0
-        effective_cost = max(math.log(1+length), 1)
+        effective_cost = max(math.log(1+min(length, 1000)), 1)
         value = (alpha * score_factor + 0.2) * (beta * gain) / effective_cost
         return value, length, gain
 
@@ -753,7 +753,8 @@ def batch_rerank_and_clip(total_chunks, ids2name,
     
     selected = []
     for doc_chunks in docs.values():
-        selected +=greedy_coverage_selection(doc_chunks, requirement_groups, budget, min_score, alpha=2.0)
+        selected +=greedy_coverage_selection(doc_chunks, requirement_groups, budget, min_score, alpha=10.0)
+    selected.sort(key=lambda x:x.chunk_index)
 
     # 6. 生成 Markdown
     lines = []
@@ -766,5 +767,7 @@ def batch_rerank_and_clip(total_chunks, ids2name,
             header += f" - {title}"
         lines.append(header)
         lines.append(getattr(c, 'content', ''))
+        lines.append("")
+        lines.append("---")
         lines.append("")
     return '\n'.join(lines)

@@ -13,40 +13,49 @@
       "required": true
     },
     {
-      "field_name": "entity_name",
-      "field_type": "string",
-      "description": "保险合同实体名称匹配，如保险人、投保人、被保险人、受益人、保险标的、险种名称、产品名称、贷款，缴费等",
-      "target_index_field": "name",
+      "field_name": "contract_identity",
+      "field_type": "object",
+      "description": "合同标识信息，例如产品全称，保单号，主附险类型",
+      "target_index_field": "desc",
       "match_method": "fuzzy",
-      "weight": 0.8,
-      "required": false
+      "weight": 1.0,
+      "required": true
     },
     {
-      "field_name": "subject",
-      "field_type": "string",
-      "description": "关系主语匹配，指向合同权利与义务的承担主体，如保险人、投保人、被保险人、受益人",
-      "target_index_field": "subject",
+      "field_name": "contract_party",
+      "field_type": "object",
+      "description": "合同参与人，例如投保人，被保险人，受益人，保险人，销售方，被保人职业",
+      "target_index_field": "desc",
       "match_method": "fuzzy",
-      "weight": 0.4,
-      "required": false
+      "weight": 1.0,
+      "required": true
     },
     {
-      "field_name": "predicate",
-      "field_type": "string",
-      "description": "关系谓语匹配，描述主体与客体之间的行为或权利义务关系，如承担、缴纳、享有、免除、赔付、通知等",
-      "target_index_field": "predicate",
+      "field_name": "parameter",
+      "field_type": "object",
+      "description": "所有数值型参数，例如：时间节点(成立日/生效日/起期/止期)，期限天数(犹豫期/等待期/宽限期)，金额(基本保额/保费/现金价值/账户价值/免赔额/已交保费/累计收益/退保费用)，比例(给付比例/贷款比例/退保费用率)",
+      "target_index_field": "desc",
       "match_method": "fuzzy",
-      "weight": 0.4,
-      "required": false
+      "weight": 0.9,
+      "required": true
     },
     {
-      "field_name": "object",
-      "field_type": "string",
-      "description": "关系宾语匹配，代表合同中具体的权利义务客体或要素，如保险责任、保险费、保险金、免赔额、等待期、现金价值等",
-      "target_index_field": "object",
+      "field_name": "coverage_and_exclusion",
+      "field_type": "object",
+      "description": "保障责任与除外责任，例如保险责任项列表：每项含责任名称、赔付条件、关联金额/比例；除外责任项列表；特定疾病名称列表",
+      "target_index_field": "desc",
       "match_method": "fuzzy",
-      "weight": 0.4,
-      "required": false
+      "weight": 1.0,
+      "required": true
+    },
+    {
+      "field_name": "business_rules",
+      "field_type": "object",
+      "description": "所有业务规则配置，例如退保规则：退还方式描述；贷款规则：基数和最高比例；免赔额抵扣规则：统筹/个人账户/商保是否可抵扣；年金变更规则：年龄/方式/期间是否可变更；自杀条款2年例外；保证续保；医院/药店约束：医院等级、指定药店、特药处方要求；施救费用上限描述；账户价值构成等",
+      "target_index_field": "desc",
+      "match_method": "fuzzy",
+      "weight": 0.9,
+      "required": true
     },
     {
       "field_name": "section_title",

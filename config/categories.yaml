@@ -1,67 +1,4 @@
 categories:
-  - id: "business_dev"
-    name: "业务板块发展"
-    description: "关注公司或业务线的发展方向、重点、规划"
-    schema_file: "schemas/business_dev.json"
-    classification:
-      method: "keyword"
-      keywords:
-        - words: ["业务", "板块", "发展", "重点", "规划", "方向"]
-          weight: 1.0
-        - words: ["ToB", "暖通", "楼宇", "智能家居"]
-          weight: 0.7
-      threshold: 0.3
-
-  - id: "finance"
-    name: "财务数据查询"
-    schema_file: "schemas/finance.json"
-    classification:
-      method: "keyword"
-      keywords:
-        - words: ["营收", "利润", "收入", "毛利率", "资产", "负债", "现金流", "EPS", "净利润"]
-          weight: 1.0
-      threshold: 0.2
-
-  - id: "risk"
-    name: "风险与挑战"
-    schema_file: "schemas/risk.json"
-    classification:
-      method: "keyword"
-      keywords:
-        - words: ["风险", "挑战", "危机", "波动", "不利", "压力", "制裁"]
-          weight: 1.0
-      threshold: 0.2
-
-  - id: "strategy"
-    name: "战略与举措"
-    schema_file: "schemas/strategy.json"
-    classification:
-      method: "keyword"
-      keywords:
-        - words: ["战略", "举措", "推进", "落地", "布局", "收购", "并购", "合资"]
-          weight: 1.0
-      threshold: 0.2
-
-  - id: "esg"
-    name: "ESG与荣誉"
-    schema_file: "schemas/esg.json"
-    classification:
-      method: "keyword"
-      keywords:
-        - words: ["ESG", "评级", "奖项", "荣誉", "绿色", "环保", "社会责任", "sustainability"]
-          weight: 1.0
-      threshold: 0.2
-
-  - id: "tech"
-    name: "研发与技术"
-    schema_file: "schemas/tech.json"
-    classification:
-      method: "keyword"
-      keywords:
-        - words: ["研发", "技术", "专利", "AIoT", "智能化", "创新", "实验室", "工程师"]
-          weight: 1.0
-      threshold: 0.2
-
   - id: "insurance"
     name: "保险合同检索"
     description: "用于保险合同内容的全方位检索"
@@ -74,7 +11,24 @@ categories:
     schema_file: "schemas/report.json"
     classification:
       method: "default"
-
+  - id: "research"
+    name: "行业研究报告"
+    description: "用于行业研究报告的全方位检索"
+    schema_file: "schemas/research.json"
+    classification:
+      method: "default"
+  - id: "reg"
+    name: "法律法规"
+    description: "用于法律法规的全方位检索"
+    schema_file: "schemas/reg.json"
+    classification:
+      method: "default"
+  - id: "financial_contracts"
+    name: "募集说明书"
+    description: "用于募集说明书的全方位检索"
+    schema_file: "schemas/financial_contracts.json"
+    classification:
+      method: "default"
   - id: "default"
     name: "其他"
     description: "兜底类别，未匹配到任何明确意图时使用"

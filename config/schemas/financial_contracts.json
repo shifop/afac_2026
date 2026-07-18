@@ -1,0 +1,87 @@
+{
+    "category_id": "research",
+    "category_name": "行业研究报告检索",
+    "description": "兜底类别，用于行业研究报告的全方位检索，覆盖合同条款文本、实体名称、定义描述以及合同主体间的关系三元组。",
+    "fields": [
+        {
+            "field_name": "query_text",
+            "field_type": "string",
+            "description": "全文搜索内容，对法律法规所有文本进行模糊匹配",
+            "target_index_field": "name",
+            "match_method": "fuzzy",
+            "weight": 1.0,
+            "required": true
+        },
+        {
+            "field_name": "document",
+            "field_type": "string",
+            "description": "文档元信息，例如文档编号、文档类型（如债券募集说明书摘要、发行股份购买资产报告书、可转换公司债券募集说明书等）及所属发行阶段",
+            "target_index_field": "name",
+            "match_method": "fuzzy",
+            "weight": 0.9,
+            "required": true
+        },
+        {
+            "field_name": "issuer",
+            "field_type": "object",
+            "description": "发行主体信息，例如发行人全称、股票代码、股票简称、主体信用评级、债项信用评级、企业性质（如证券公司、融资租赁公司、控股集团等）",
+            "target_index_field": "desc",
+            "match_method": "fuzzy",
+            "weight": 1.0,
+            "required": true
+        },
+        {
+            "field_name": "issue_information",
+            "field_type": "object",
+            "description": "本次发行核心要素，例如债券简称、发行金额上限或注册金额、发行日期、上市地点（如深交所）、债券类型（可转债/普通债）、主承销商、受托管理人、保荐机构等中介机构名称",
+            "target_index_field": "desc",
+            "match_method": "fuzzy",
+            "weight": 1.0,
+            "required": true
+        },
+        {
+            "field_name": "clause_detail",
+            "field_type": "object",
+            "description": "特殊条款细节，封装条款类型（回售选择权、有条件赎回、转股价格向下修正、违约赔偿、资产减值补偿等）及其关键参数，如：初始转股价、回售/赎回触发条件、兑付日、违约利息计算基数与倍数、通知期限等",
+            "target_index_field": "desc",
+            "match_method": "fuzzy",
+            "weight": 0.9,
+            "required": false
+        },
+        {
+            "field_name": "financial_metric",
+            "field_type": "object",
+            "description": "发行人或标的公司披露的财务指标，包含：指标名称（资产负债率、净利润、利润总额等）、具体数值或数值区间、对应报告期（如2024年12月31日），以及趋势描述（如逐年下降）",
+            "target_index_field": "desc",
+            "match_method": "fuzzy",
+            "weight": 0.9,
+            "required": false
+        },
+        {
+            "field_name": "section_title",
+            "field_type": "string",
+            "description": "**募集说明书主题匹配**。请不要直接猜测原始文件的章节标题，而是将问题归纳到一个或多个标准的功能语义类别中。如果问题明确提及了某个具体章节名，可直接使用该名称。可选功能主题列表（优先从以下列表中选择，可组合使用，用中文描述）：\n- “发行主体与信用评级” (涉及发行人名称、股票代码、企业性质、主体信用评级、债项信用评级等)\n- “发行规模与核心要素” (涉及发行金额上限、注册金额、发行价格、发行日期、上市地点、债券类型与期限等)\n- “特殊条款与持有人权利” (涉及回售选择权、有条件赎回、转股价格及其修正条款、票面利率调整等)\n- “历史财务与经营指标” (涉及资产负债率、净利润、利润总额、营业收入等历史数据及趋势)\n- “违约责任与偿付安排” (涉及违约情形定义、违约利息计算、兑付日、本金与利息的偿付方式、资产减值补偿等)\n- “募集资金用途” (涉及资金投向、项目详情、使用计划)\n- “中介机构与责任声明” (涉及主承销商、受托管理人、保荐机构、会计师事务所、律师事务所，以及董事高管的真实性承诺)\n- “信息披露与持有人保护” (涉及信息披露义务承诺、债券持有人会议规则、持有人权益保护机制)\n- “文件定义与释义” (涉及专业术语定义、文件类型说明、声明与免责条款)",
+            "target_index_field": "section_title",
+            "match_method": "fuzzy",
+            "weight": 0.6,
+            "required": false
+        }
+    ],
+    "filters": [
+        {
+            "field_name": "desc",
+            "field_type": "string",
+            "description": "涉及的法律法规文件名称",
+            "target_index_field": "desc",
+            "match_method": "fuzzy",
+            "weight": 1.0,
+            "required": true
+        }
+    ],
+    "default_channel_weights": {
+        "entity_channel": 0.2,
+        "relation_channel": 0.2,
+        "title_channel": 0.4,
+        "content_channel": 0.2
+    }
+}
