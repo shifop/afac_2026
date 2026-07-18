@@ -2,7 +2,7 @@ import re
 import math
 from typing import List, Dict, Optional, Any, Set, Tuple
 from difflib import SequenceMatcher
-from .insurance import select_chunks_with_budget
+from collections import defaultdict
 
 try:
     from bs4 import BeautifulSoup, Tag
@@ -153,7 +153,8 @@ def get_chunk_text(chunk) -> str:
         pred = getattr(rel, 'predicate', '')
         obj = getattr(rel, 'object', '')
         parts.append(f"{subj} {pred} {obj}")
-    return ' '.join(parts)
+    # return ' '.join(parts)
+    return content
 
 
 # ========================= 表格解析与裁剪 =========================
@@ -327,248 +328,55 @@ def match_comparison_in_cell(comparison: str, cell_text: str) -> bool:
     return fuzzy_match_score(comparison, cell_text, synonyms=synonyms) > 0
 
 
-# ========================= 主裁剪函数 =========================
-def clip_table(html_content: str,
-                  indicators: List[str],
-                  comparison_words: List[str]) -> str:
-    """
-    裁剪表格：
-    1. 解析并展开合并单元格。
-    2. 识别所有非数字单元格为标签，判断其行列角色。
-    3. 多层表头：分别对每层单单元格匹配，也对合并后的多层文本匹配；任一命中则保留对应列（列表头）或行（行表头）。
-    4. 合计/小计行无条件保留。
-    5. 清理空行/列。
-    6. 重建HTML表格。
-    """
-    soup = BeautifulSoup(html_content, 'html.parser')
-    if not soup.find('table'):
-        return html_content
-
-    tag_grid, text_grid, n_rows, n_cols = expand_table(soup)
-    if n_rows == 0 or n_cols == 0:
-        return html_content
-
-    # 需要保留的行和列索引
-    keep_rows: Set[int] = set()
-    keep_cols: Set[int] = set()
-
-    # 收集所有指标+比较词的列表（统一匹配）
-    match_terms = list(indicators) + list(comparison_words)
-
-    # 遍历所有单元格，进行标签识别和匹配
-    for r in range(n_rows):
-        for c in range(n_cols):
-            cell_text = text_grid[r][c]
-            if contains_number(cell_text):
-                # 数字单元格暂不处理（会通过行/列保留关联）
-                continue
-
-            # 非数字单元格 → 标签
-            # 判定角色
-            role = identify_header_role(text_grid, r, c, n_rows, n_cols)
-
-            # 多层表头处理：若角色为列表头，则需要同时考虑该列上下表头行合并匹配
-            # 但我们采用简化策略：在匹配时，除了匹配当前单元格，还匹配从当前单元格开始向上合并的所有表头文本（如果角色是列表头）
-            # 这里实现单层匹配和合并多层匹配。
-
-            # 单层匹配
-            hit = False
-            for term in match_terms:
-                if term in indicators:
-                    if match_indicator_in_cell(term, cell_text):
-                        hit = True
-                        break
-                else:
-                    if match_comparison_in_cell(term, cell_text):
-                        hit = True
-                        break
-
-            # 合并多层表头匹配（仅对列表头有意义，因为列标题通常位于上方）
-            if not hit and role == 'column_header':
-                # 向上收集同一列的所有非数字单元格文本，合并后匹配
-                combined_text = []
-                for rr in range(r, -1, -1):
-                    txt = text_grid[rr][c]
-                    if not contains_number(txt):
-                        combined_text.insert(0, txt)
-                    else:
-                        break
-                if combined_text:
-                    full_label = ' '.join(combined_text)
-                    for term in match_terms:
-                        if term in indicators:
-                            if match_indicator_in_cell(term, full_label):
-                                hit = True
-                                break
-                        else:
-                            if match_comparison_in_cell(term, full_label):
-                                hit = True
-                                break
-
-            # 如果命中，根据角色保留行或列
-            if hit:
-                if role == 'column_header':
-                    keep_cols.add(c)
-                elif role == 'row_header':
-                    keep_rows.add(r)
-                else:  # unknown 保守保留整行整列（但可能重复）
-                    keep_rows.add(r)
-                    keep_cols.add(c)
-
-    # 保留与行表头相关联的数字列？根据之前规则：行表头命中保留整行所有列，所以无需额外操作，整行保留即可。
-    # 但是注意：行保留后，所有列都会被保留，可能引入无关列。但规则是保留整行所有列，所以可以接受。
-    # 如果需要保留列，就加进keep_cols。
-
-    # 合计/小计行无条件保留
-    for r in range(n_rows):
-        row_text = ' '.join(text_grid[r][c] for c in range(n_cols))
-        if is_aggregate_row(row_text.split()):  # 使用之前定义的is_aggregate_row
-            keep_rows.add(r)
-
-    # 保证表头行（前面几行通常是表头）至少有一行保留？不必强制，但如果保留了列，第一行（通常表头）也应该保留。
-    # 这里可以加一个安全措施：如果保留了列，自动保留第一行（假设第一行是表头），除非第一行全是数字？但基本表头都在前几行，简单处理：保留前3行中非数字行。
-    for r in range(min(3, n_rows)):
-        if any(not contains_number(text_grid[r][c]) for c in range(n_cols)):
-            keep_rows.add(r)
-
-    # 如果只保留了列但没有保留任何行（不太可能），至少保留所有行
-    if keep_cols and not keep_rows:
-        keep_rows = set(range(n_rows))
-
-    # 如果只保留了行但没有列，保留所有列
-    if keep_rows and not keep_cols:
-        keep_cols = set(range(n_cols))
-
-    # 清理空行/列（合计行豁免）
-    # 先确定哪些行是合计行
-    aggregate_rows = set()
-    for r in range(n_rows):
-        row_text = ' '.join(text_grid[r][c] for c in range(n_cols))
-        if is_aggregate_row(row_text.split()):
-            aggregate_rows.add(r)
-
-    # 空行清理
-    final_rows = set(keep_rows)
-    for r in list(final_rows):
-        if r in aggregate_rows:
-            continue
-        row_all_empty = True
-        for c in range(n_cols):
-            if c in keep_cols and text_grid[r][c].strip() not in ('', '-', '—', 'N/A', '无', '/'):
-                row_all_empty = False
-                break
-        if row_all_empty:
-            final_rows.remove(r)
-
-    # 空列清理
-    final_cols = set(keep_cols)
-    for c in list(final_cols):
-        col_all_empty = True
-        for r in range(n_rows):
-            if r in final_rows and text_grid[r][c].strip() not in ('', '-', '—', 'N/A', '无', '/'):
-                col_all_empty = False
-                break
-        if col_all_empty:
-            final_cols.remove(c)
-
-    # 确保至少有一行一列
-    if not final_rows or not final_cols:
-        return html_content  # 裁剪失败，返回原表
-
-    # 重建HTML表格
-    new_table = soup.new_tag('table')
-    # 复制原table属性
-    original_table = soup.find('table')
-    for attr, val in original_table.attrs.items():
-        new_table[attr] = val
-
-    for r in sorted(final_rows):
-        new_row = soup.new_tag('tr')
-        for c in sorted(final_cols):
-            cell_tag = tag_grid[r][c]
-            # 创建新单元格，保留类型（th/td）和属性（除colspan/rowspan）
-            new_cell = soup.new_tag(cell_tag.name)
-            for attr, val in cell_tag.attrs.items():
-                if attr not in ('colspan', 'rowspan'):
-                    new_cell[attr] = val
-            # 设置文本
-            if cell_tag.string:
-                new_cell.string = cell_tag.string
-            else:
-                # 如果原单元格有子元素，复制innerHTML（简单处理：用文本即可）
-                new_cell.string = cell_tag.get_text(separator=' ', strip=True)
-            new_row.append(new_cell)
-        new_table.append(new_row)
-
-    return str(new_table)
-
-
-# ========================= 精排打分器 =========================
-class FinancialChunkRanker:
-    def __init__(self, indicators: List[str], comparison_words: List[str]):
-        self.indicators = indicators
-        self.comparison_words = comparison_words
+# ========================= 新增：分组覆盖评分器 =========================
+class CoverageRanker:
+    """基于分组需求的打分器，强调组内覆盖率和跨组覆盖数"""
+    def __init__(self, requirement_groups: List[List[str]]):
+        self.groups = requirement_groups
         self.max_scores = {
-            'indicator': 35,
+            'coverage': 50,
             'number': 30,
-            'comparison': 15,
             'structure': 10,
             'novelty': 10
         }
-        if not self.comparison_words:
-            self.max_scores['indicator'] += self.max_scores.pop('comparison')
-            self.max_scores['comparison'] = 0
+        self.all_keywords = list({w for g in requirement_groups for w in g})
 
-    def _indicator_score(self, content: str) -> float:
-        if not self.indicators:
-            return float(self.max_scores['indicator'])
+    def _group_coverage_score(self, content: str) -> float:
+        if not self.groups:
+            return float(self.max_scores['coverage'])
         total = 0.0
-        for ind in self.indicators:
-            total += fuzzy_match_score(ind, content, synonyms=FINANCIAL_SYNONYMS.get(ind, []))
-        score = (total / len(self.indicators)) * self.max_scores['indicator']
-        if total == len(self.indicators):  # 全部完全命中
-            score = min(self.max_scores['indicator'], score + 2)
-        return score
+        for group in self.groups:
+            hit = sum(1 for word in group
+                      if fuzzy_match_score(word, content,
+                                           synonyms=FINANCIAL_SYNONYMS.get(word, [])) > 0)
+            total += hit / len(group)
+        return (total / len(self.groups)) * self.max_scores['coverage']
 
     def _number_existence_score(self, content: str) -> float:
-        if not self.indicators:
+        if not self.all_keywords:
             return float(self.max_scores['number'])
         if not contains_number(content):
             return 0.0
-        effective = 0
-        for ind in self.indicators:
-            if fuzzy_match_score(ind, content, synonyms=FINANCIAL_SYNONYMS.get(ind, [])) > 0:
-                effective += 1
-        return (effective / len(self.indicators)) * self.max_scores['number']
-
-    def _comparison_score(self, content: str) -> float:
-        if not self.comparison_words:
-            return 0.0
-        hit = 0
-        for comp in self.comparison_words:
-            if fuzzy_contains(comp, content, synonyms=COMPARISON_SYNONYMS.get(comp, []),
-                              threshold=0.8, short_threshold=0.9):
-                hit += 1
-        total_comp = len(self.comparison_words)
-        return (hit / total_comp) * self.max_scores['comparison'] if total_comp else 0.0
+        effective = sum(1 for kw in self.all_keywords
+                        if fuzzy_match_score(kw, content,
+                                             synonyms=FINANCIAL_SYNONYMS.get(kw, [])) > 0)
+        return (effective / len(self.all_keywords)) * self.max_scores['number']
 
     def _structure_score(self, content: str, has_table: bool,
                          has_aggregate: bool, is_continuous_text: bool,
                          length: int) -> float:
         score = 0.0
         if has_table:
-            score += 5
+            score += 10
             if has_aggregate:
                 score += 3
         elif is_continuous_text:
             score += 2
-        if length > 800 and self._indicator_score(content) <= 5:
+        if length > 800 and self._group_coverage_score(content) <= 5:
             score -= 2
         return max(0, min(self.max_scores['structure'], score))
 
-    def score_chunk(self, chunk: Dict, novelty_score: float = 0.0) -> float:
-        if chunk.chunk_id=='8133a1f41b7b04cedfbc3933025ea8c4_chunk_108_v1782061791':
-            print('')
+    def score_chunk(self, chunk, novelty_score: float = 0.0) -> float:
         content = get_chunk_text(chunk)
         has_table = '<table' in content.lower()
         grid = None
@@ -579,20 +387,145 @@ class FinancialChunkRanker:
                 has_aggregate = any(is_aggregate_row(row) for row in grid)
         is_continuous = not has_table and len(content.split('\n')) < 5
 
-        s1 = self._indicator_score(content)
+        s1 = self._group_coverage_score(content)
         s2 = self._number_existence_score(content)
-        s3 = self._comparison_score(content)
-        s4 = self._structure_score(content, has_table, has_aggregate, is_continuous, len(content))
-        s5 = min(self.max_scores['novelty'], novelty_score)
-
-        total = s1 + s2 + s3 + s4 + s5
-        return min(100.0, total)
+        s3 = self._structure_score(content, has_table, has_aggregate, is_continuous, len(content))
+        s4 = min(self.max_scores['novelty'], novelty_score)
+        return min(100.0, s1 + s2 + s3 + s4)
 
 
-# ========================= 独有性计算（改用属性访问） =========================
-def compute_novelty_scores(chunks: List[Any],
-                           indicators: List[str],
-                           comparisons: List[str]) -> Dict[Any, float]:
+# ========================= 修改后的表格裁剪（统一关键词匹配） =========================
+# ========================= 修复后的表格裁剪 =========================
+def clip_table(html_content: str, keywords: List[str]) -> str:
+    """
+    裁剪表格：保留与关键词相关的行/列，并确保数字列与合计行不丢失。
+    如果 html_content 包含表格外的文本，本函数只处理内部表格，
+    调用者应负责拼接前后文。
+    """
+    def match_keyword_in_cell(keyword: str, cell_text: str) -> bool:
+        if fuzzy_match_score(keyword, cell_text,
+                             synonyms=FINANCIAL_SYNONYMS.get(keyword, [])) > 0:
+            return True
+        if fuzzy_match_score(keyword, cell_text,
+                             synonyms=COMPARISON_SYNONYMS.get(keyword, [])) > 0:
+            return True
+        return False
+
+    soup = BeautifulSoup(html_content, 'html.parser')
+    table = soup.find('table')
+    if not table:
+        return html_content
+
+    tag_grid, text_grid, n_rows, n_cols = expand_table(soup)
+    if n_rows == 0 or n_cols == 0:
+        return html_content
+
+    keep_rows: Set[int] = set()
+    keep_cols: Set[int] = set()
+
+    # 1. 匹配关键词所在单元格，根据角色保留行/列
+    for r in range(n_rows):
+        for c in range(n_cols):
+            cell_text = text_grid[r][c]
+            if contains_number(cell_text):
+                continue
+            role = identify_header_role(text_grid, r, c, n_rows, n_cols)
+
+            # 单层匹配
+            hit = any(match_keyword_in_cell(kw, cell_text) for kw in keywords)
+            # 合并多层表头匹配（针对列表头）
+            if not hit and role == 'column_header':
+                combined = []
+                for rr in range(r, -1, -1):
+                    txt = text_grid[rr][c]
+                    if not contains_number(txt):
+                        combined.insert(0, txt)
+                    else:
+                        break
+                if combined:
+                    full_label = ' '.join(combined)
+                    hit = any(match_keyword_in_cell(kw, full_label) for kw in keywords)
+            if hit:
+                if role == 'column_header':
+                    keep_cols.add(c)
+                    # 列表头所在的行通常也要保留，以免丢失表头行
+                    keep_rows.add(r)
+                elif role == 'row_header':
+                    keep_rows.add(r)
+                    # 行标题命中：主动保留该行中有数字的列
+                    for cc in range(n_cols):
+                        if contains_number(text_grid[r][cc]):
+                            keep_cols.add(cc)
+                else:
+                    keep_rows.add(r)
+                    keep_cols.add(c)
+
+    # 2. 合计行无条件保留
+    for r in range(n_rows):
+        row_text = ' '.join(text_grid[r][c] for c in range(n_cols))
+        if is_aggregate_row(row_text.split()):
+            keep_rows.add(r)
+
+    # 3. 表头安全保留：前3行中的非数字行
+    for r in range(min(3, n_rows)):
+        if any(not contains_number(text_grid[r][c]) for c in range(n_cols)):
+            keep_rows.add(r)
+
+    # 4. 保底：若没有保留任何列，保留所有列；若没有保留任何行，保留所有行
+    if not keep_cols:
+        keep_cols = set(range(n_cols))
+    if not keep_rows:
+        keep_rows = set(range(n_rows))
+
+    # 5. 空行清理（合计行豁免）
+    final_rows = set(keep_rows)
+    aggregate_rows = {r for r in range(n_rows)
+                      if is_aggregate_row(' '.join(text_grid[r][c] for c in range(n_cols)).split())}
+    for r in list(final_rows):
+        if r in aggregate_rows:
+            continue
+        # 只要在任一保留列上非空，就保留该行
+        if all(text_grid[r][c].strip() in ('', '-', '—', 'N/A', '无', '/')
+               for c in keep_cols):
+            final_rows.remove(r)
+
+    # 6. 空列清理：但数字列永远保留，只移除纯文本且全空的列
+    final_cols = set(keep_cols)
+    for c in list(final_cols):
+        # 如果该列在任一保留行上有数字，无条件保留
+        if any(contains_number(text_grid[r][c]) for r in final_rows):
+            continue
+        # 否则，若在所有保留行上都是占位符，则移除
+        if all(text_grid[r][c].strip() in ('', '-', '—', 'N/A', '无', '/')
+               for r in final_rows):
+            final_cols.remove(c)
+
+    if not final_rows or not final_cols:
+        return str(table)   # 裁剪过激，返回原始表格
+
+    # 7. 重建表格
+    new_table = soup.new_tag('table')
+    for attr, val in table.attrs.items():
+        new_table[attr] = val
+
+    for r in sorted(final_rows):
+        new_row = soup.new_tag('tr')
+        for c in sorted(final_cols):
+            cell_tag = tag_grid[r][c]
+            new_cell = soup.new_tag(cell_tag.name)
+            for attr, val in cell_tag.attrs.items():
+                if attr not in ('colspan', 'rowspan'):
+                    new_cell[attr] = val
+            new_cell.string = cell_tag.get_text(separator=' ', strip=True)
+            new_row.append(new_cell)
+        new_table.append(new_row)
+
+    return str(new_table)
+
+
+# ========================= 修改后的新颖性计算（统一关键词） =========================
+def compute_novelty_scores(chunks: List[Any], keywords: List[str]) -> Dict[Any, float]:
+    """基于所有关键词计算独有性得分，key 为 chunk_id"""
     id_map = {}
     for i, chunk in enumerate(chunks):
         cid = getattr(chunk, 'chunk_id', f'chunk_{i}')
@@ -602,137 +535,158 @@ def compute_novelty_scores(chunks: List[Any],
     if N <= 1:
         return {cid: 0.0 for cid in cids}
 
-    indicator_df = {ind: 0 for ind in indicators}
-    comparison_df = {comp: 0 for comp in comparisons}
-
+    df = {kw: 0 for kw in keywords}
     for chunk in chunks:
         content = get_chunk_text(chunk)
-        for ind in indicators:
-            if fuzzy_match_score(ind, content, synonyms=FINANCIAL_SYNONYMS.get(ind, [])) > 0:
-                indicator_df[ind] += 1
-        for comp in comparisons:
-            if fuzzy_contains(comp, content, synonyms=COMPARISON_SYNONYMS.get(comp, []),
-                              threshold=0.8, short_threshold=0.9):
-                comparison_df[comp] += 1
+        for kw in keywords:
+            if (fuzzy_match_score(kw, content, synonyms=FINANCIAL_SYNONYMS.get(kw, [])) > 0 or
+                fuzzy_match_score(kw, content, synonyms=COMPARISON_SYNONYMS.get(kw, [])) > 0):
+                df[kw] += 1
 
-    def idf_weight(df):
-        if df == 0:
+    def idf_weight(d):
+        if d == 0:
             return 0.0
-        return max(0.0, math.log((N + 0.5) / (df + 0.5)))
+        return max(0.0, math.log((N + 0.5) / (d + 0.5)))
 
-    indicator_idf = {ind: idf_weight(df) for ind, df in indicator_df.items()}
-    comparison_idf = {comp: idf_weight(df) for comp, df in comparison_df.items()}
+    idf_vals = {kw: idf_weight(df[kw]) for kw in keywords}
 
     raw_scores = {}
     for cid in cids:
         chunk = id_map[cid]
         content = get_chunk_text(chunk)
         raw = 0.0
-        for ind in indicators:
-            if fuzzy_contains(ind, content, synonyms=FINANCIAL_SYNONYMS.get(ind, [])):
-                raw += indicator_idf[ind]
-        for comp in comparisons:
-            if fuzzy_contains(comp, content, synonyms=COMPARISON_SYNONYMS.get(comp, []),
-                              threshold=0.8, short_threshold=0.9):
-                raw += 0.8 * comparison_idf[comp]
+        for kw in keywords:
+            if (fuzzy_match_score(kw, content, synonyms=FINANCIAL_SYNONYMS.get(kw, [])) > 0 or
+                fuzzy_match_score(kw, content, synonyms=COMPARISON_SYNONYMS.get(kw, [])) > 0):
+                raw += idf_vals[kw]
         raw_scores[cid] = raw
-
-    if not raw_scores:
-        return {cid: 0.0 for cid in cids}
 
     max_raw = max(raw_scores.values()) if raw_scores else 1.0
     alpha = math.atanh(0.95) / max_raw if max_raw != 0 else 1.0
-
     return {cid: round(math.tanh(raw * alpha) * 10.0, 2) for cid, raw in raw_scores.items()}
 
 
-# ========================= 主流程（对象 → 字典） =========================
-def rerank_and_clip(chunks: List[Any],
-                    question_indicators: List[str],
-                    question_comparisons: List[str],
-                    top_k: int = 5) -> List[Dict]:
-    novelty_dict = compute_novelty_scores(chunks, question_indicators, question_comparisons)
-    ranker = FinancialChunkRanker(question_indicators, question_comparisons)
+# ========================= 贪心覆盖选择器 =========================
+def greedy_coverage_selection(
+    chunk_data: List[Tuple[Any, float, Dict[str, float], int]],
+    requirement_groups: List[List[str]],
+    budget: int,
+    min_score: float = 0.0,
+    alpha:float = 1.0, # 得分权重
+    beta:float = 1.0 # 增益权重
+) -> List[Any]:
+    """
+    基于质量增益的贪心选择：
+    - chunk_data: [(chunk, score, keyword_scores, length), ...]
+      keyword_scores: 关键词 -> 匹配得分 (1.0 或 0.7)
+    - 维护 best_coverage: {关键词: 当前已选最高匹配分}
+    - 文档保底 + 全局质量增益贪心
+    """
+    all_keywords = set(w for g in requirement_groups for w in g)
+    best_coverage = {kw: 0.0 for kw in all_keywords}   # 当前全局最佳覆盖质量
+    selected = []
+    total_length = 0
 
-    scored = []
-    for chunk in chunks:
-        cid = getattr(chunk, 'chunk_id', '')
-        nov = novelty_dict.get(cid, 0.0)
-        score = ranker.score_chunk(chunk, novelty_score=nov)
-        scored.append((score, chunk))
+    # 过滤低分 chunk
+    candidates = [(chunk, score, kw_scores, length)
+                  for chunk, score, kw_scores, length in chunk_data
+                  if score >= min_score]
+    if not candidates:
+        return []
 
-    scored.sort(key=lambda x: x[0], reverse=True)
+    # ---------- 辅助函数 ----------
+    def compute_gain(kw_scores: Dict[str, float], current_best: Dict[str, float]) -> float:
+        """计算该 chunk 对当前覆盖质量的提升总量"""
+        gain = 0.0
+        for kw, score in kw_scores.items():
+            current = current_best.get(kw, 0.0)
+            if score > current:
+                gain += score - current
+        return gain
 
-    result = []
-    for rank, (score, chunk) in enumerate(scored[:top_k], start=1):
-        # 从对象属性构建字典
-        new_chunk = {
-            'chunk_id': getattr(chunk, 'chunk_id', ''),
-            'doc_id': getattr(chunk, 'doc_id', ''),
-            'section_title': getattr(chunk, 'section_title', ''),
-            'section_path': getattr(chunk, 'section_path', ''),
-            'chunk_index': getattr(chunk, 'chunk_index', 0),
-            'content': getattr(chunk, 'content', ''),
-            'entities': getattr(chunk, 'entities', []),
-            'relations': getattr(chunk, 'relations', []),
-        }
-        new_chunk['rank_score'] = round(score, 2)
-        new_chunk['rank'] = rank
+    def evaluate(chunk_info, current_best):
+        chunk, score, kw_scores, length = chunk_info
+        gain = compute_gain(kw_scores, current_best)
+        if gain == 0:
+            return 0.0, length, 0.0
+        score_factor = score / 100.0
+        effective_cost = max(math.log(1+length), 1)
+        value = (alpha * score_factor + 0.2) * (beta * gain) / effective_cost
+        return value, length, gain
 
-        content = new_chunk['content']
-        if '<table' in content.lower():
-            try:
-                text = content.split('<table')[0]
-                text2 = content.split('</table>')[-1]
-                clipped = text+"\n"+clip_table(content[len(text):-len(text2)], question_indicators, question_comparisons)+'\n'+text2
-                new_chunk['content'] = clipped
-                new_chunk['clipped'] = True
-            except Exception as e:
-                new_chunk['clipped'] = False
-                new_chunk['clip_error'] = str(e)
-        else:
-            new_chunk['clipped'] = False
-        result.append(new_chunk)
+    # ---------- 第一阶段：按文档保底 ----------
+    # 计算文档重要度（该文档内最高 score）
+    doc_best = {}
+    doc_candidates = {}
+    for chunk, score, kw_scores, length in candidates:
+        doc_id = getattr(chunk, 'doc_id', 'unknown')
+        doc_best[doc_id] = max(doc_best.get(doc_id, 0), score)
+        doc_candidates.setdefault(doc_id, []).append((chunk, score, kw_scores, length))
+    sorted_docs = sorted(doc_best.keys(), key=lambda d: doc_best[d], reverse=True)
 
-    return result
+    selected_docs = set()
+    for doc_id in sorted_docs:
+        if total_length >= budget:
+            break
+        if doc_id in selected_docs:
+            continue
+        # 从该文档候选中选出对当前 best_coverage 增益最大的 chunk（已排除低分）
+        best_value = -1.0
+        best_item = None
+        best_idx_global = -1
+        for i, item in enumerate(doc_candidates[doc_id]):
+            val, cost, gain = evaluate(item, best_coverage)
+            if val > best_value or (val == best_value and (best_item is None or item[3] < best_item[3])):
+                best_value = val
+                best_item = item
+                # 全局索引需要从 candidates 中找到对应位置
+                best_idx_global = candidates.index(item)
+        if best_item is None or best_value <= 0:
+            continue
+        if total_length + best_item[3] > budget:
+            continue
+        # 选中
+        chosen = candidates.pop(best_idx_global)
+        selected.append(chosen[0])
+        total_length += chosen[3]
+        # 更新 best_coverage
+        for kw, score in chosen[2].items():
+            best_coverage[kw] = max(best_coverage.get(kw, 0), score)
+        selected_docs.add(doc_id)
+
+    # ---------- 第二阶段：全局质量贪心 ----------
+    while candidates and total_length < budget:
+        best_value = -1.0
+        best_idx = -1
+        best_cost = 0
+        for i, (chunk, score, kw_scores, length) in enumerate(candidates):
+            val, cost, gain = evaluate((chunk, score, kw_scores, length), best_coverage)
+            if gain == 0:
+                continue
+            if val > best_value:
+                best_value = val
+                best_idx = i
+                best_cost = cost
+        if best_idx == -1:
+            break
+        if total_length + best_cost > budget:
+            break
+        chosen = candidates.pop(best_idx)
+        selected.append(chosen[0])
+        total_length += best_cost
+        for kw, score in chosen[2].items():
+            best_coverage[kw] = max(best_coverage.get(kw, 0), score)
+
+    return selected
 
 
-# ========================= 新增：全局打分函数 =========================
-def score_all_chunks(chunks: List[Any],
-                     indicators: List[str],
-                     comparisons: List[str]) -> Dict[Any, float]:
-    """对所有片段进行精排打分，返回 {chunk_id: score}"""
-    novelty_dict = compute_novelty_scores(chunks, indicators, comparisons)
-    ranker = FinancialChunkRanker(indicators, comparisons)
-    scores = {}
-    for chunk in chunks:
-        cid = getattr(chunk, 'chunk_id', '')
-        nov = novelty_dict.get(cid, 0.0)
-        score = ranker.score_chunk(chunk, novelty_score=nov)
-        scores[cid] = score
-    return scores
-
-
-# ========================= 修改后的 batch_rerank_and_clip =========================
+# ========================= 新的主函数 =========================
 def batch_rerank_and_clip(total_chunks, ids2name,
-                          question_indicators: List[str],
-                          question_comparisons: List[str],
+                          requirement_groups: List[List[str]],
                           B: int,
                           delta: int = 0,
                           min_score: float = 0.0) -> str:
-    """
-    优化版：精排 + 表格裁剪 + 预算选择，不硬截断 top_k。
-    
-    :param total_chunks: 元素具有 .chunk 属性的列表（chunk 对象需包含 chunk_id, doc_id, content, chunk_index, section_path 等）
-    :param ids2name: doc_id -> 文档名称映射
-    :param question_indicators: 问题中的财务指标
-    :param question_comparisons: 问题中的比较词
-    :param B: 目标字符数预算
-    :param delta: 允许的弹性字符数（总上限 = B + delta）
-    :param min_score: 片段最低得分阈值
-    :return: Markdown 字符串
-    """
-    # 1. 去重并收集原始 chunk 对象
+    # 1. 去重收集 chunk 对象
     seen_ids = set()
     chunk_list = []
     for item in total_chunks:
@@ -745,66 +699,72 @@ def batch_rerank_and_clip(total_chunks, ids2name,
     if not chunk_list:
         return ""
 
-    # 2. 精排打分（基于原始完整内容）
-    scores = score_all_chunks(chunk_list, question_indicators, question_comparisons)
+    all_keywords = list({w for g in requirement_groups for w in g})
 
-    # 3. 对每个片段执行表格裁剪，并更新内容为裁剪后的版本
-    #    同时计算裁剪后的实际成本（字符数）
+    # 2. 表格裁剪（保留表格前后文本）
     for c in chunk_list:
-        original_content = getattr(c, 'content', '')
-        if '<table' in original_content.lower():
+        original = getattr(c, 'content', '')
+        if '<table' in original.lower():
             try:
-                clipped = clip_table(original_content, question_indicators, question_comparisons)
-                # 直接修改内容（假设对象属性可写；若不可写，可改用其他方式）
-                c.content = clipped
+                # 分割出表格前后的文本
+                parts = original.split('<table', 1)
+                before = parts[0]
+                rest = parts[1]
+                table_part, _, after = rest.partition('</table>')
+                # 重新组装完整表格HTML
+                full_table = f"<table{table_part}</table>"
+                clipped_table = clip_table(full_table, all_keywords)
+                # 如果裁剪后仍包含 <table>，则替换；否则保留原样
+                if '<table' in clipped_table.lower():
+                    c.content = before + clipped_table + after
+                else:
+                    # 裁剪可能返回了非表格内容，保持原内容不变
+                    pass
             except Exception:
-                pass  # 裁剪失败则保留原内容
+                pass  # 裁剪失败则保留原始内容
 
-    # 4. 构造 select_chunks_with_budget 所需的输入格式
-    #    每个元素需有 .chunk 和 .score 属性
-    class ScoredChunk:
-        def __init__(self, chunk, score):
-            self.chunk = chunk
-            self.score = score
+    # 3. 新颖性得分
+    novelty_dict = compute_novelty_scores(chunk_list, all_keywords)
 
-    scored_items = [ScoredChunk(c, scores[c.chunk_id]) for c in chunk_list]
+    # 4. 分组覆盖评分与覆盖信息
+    ranker = CoverageRanker(requirement_groups)
+    chunk_infos = []
+    for c in chunk_list:
+        content = get_chunk_text(c)
+        cid = getattr(c, 'chunk_id', '')
+        nov = novelty_dict.get(cid, 0.0)
+        score = ranker.score_chunk(c, novelty_score=nov)
 
-    # 5. 调用预算选择，生成最终 Markdown
-    md = select_chunks_with_budget(scored_items, ids2name, B, delta, min_score)
-    return md
+        # 构建 keyword_scores 字典
+        keyword_scores = {}
+        for kw in all_keywords:
+            s = fuzzy_match_score(kw, content, synonyms=FINANCIAL_SYNONYMS.get(kw, []))
+            if s == 0:
+                s = fuzzy_match_score(kw, content, synonyms=COMPARISON_SYNONYMS.get(kw, []))
+            if s > 0:
+                keyword_scores[kw] = s
+        chunk_infos.append((c, score, keyword_scores, len(content)))
 
+    # 5. 贪心覆盖选择
+    budget = B + delta
+    docs = defaultdict(list)
+    for chunk in chunk_infos:
+        docs[chunk[0].doc_id].append(chunk)
+    
+    selected = []
+    for doc_chunks in docs.values():
+        selected +=greedy_coverage_selection(doc_chunks, requirement_groups, budget, min_score, alpha=2.0)
 
-# ========================= 测试示例 =========================
-if __name__ == "__main__":
-    sample = [
-        {
-            "chunk_id": "chunk_001",
-            "content": """
-            <table>
-                <tr><th>项目</th><th>2024年</th><th>2023年</th></tr>
-                <tr><td>营业收入</td><td>3620.58亿元</td><td>2986.34亿元</td></tr>
-                <tr><td>净利润</td><td>441.21亿元</td><td>378.53亿元</td></tr>
-                <tr><td>海外收入</td><td>1020.33亿元</td><td>845.12亿元</td></tr>
-                <tr><td>合计</td><td>—</td><td>—</td></tr>
-            </table>
-            """
-        },
-        {
-            "chunk_id": "chunk_002",
-            "content": "2024年公司海外业务收入达到1020.33亿元，占营收比重提升至28.2%，较上年增长20.7%。"
-        },
-        {
-            "chunk_id": "chunk_003",
-            "content": "公司研发投入持续增加，2024年研发费用为154.2亿元，同比增长12.3%。"
-        }
-    ]
-
-    indicators = ["海外业务营收", "营收占比", "同比增速"]
-    comparisons = ["同比", "占比"]
-
-    top_chunks = rerank_and_clip(sample, indicators, comparisons, top_k=5)
-
-    for c in top_chunks:
-        print(f"Chunk: {c['chunk_id']}, Score: {c['rank_score']}, Clipped: {c['clipped']}")
-        print(c['content'][:300])
-        print("------")
+    # 6. 生成 Markdown
+    lines = []
+    for c in selected:
+        doc_id = getattr(c, 'doc_id', 'unknown')
+        doc_name = ids2name.get(doc_id, doc_id) if ids2name else doc_id
+        title = getattr(c, 'section_title', '') or getattr(c, 'section_path', '')
+        header = f"## {doc_name}"
+        if title:
+            header += f" - {title}"
+        lines.append(header)
+        lines.append(getattr(c, 'content', ''))
+        lines.append("")
+    return '\n'.join(lines)
