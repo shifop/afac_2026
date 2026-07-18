@@ -199,16 +199,15 @@ def main(data, client:OpenAI, retriever:Retriever, qid):
                 md = select_chunks_with_budget(total_chunks, ids2name, 6000, 2000, 0.2)
             elif record['qid'].startswith("fin"):
                 indicators = []
-                comparison_words = []
                 for x,_ in extracted_list:
-                    indicators.append(x['time'])
-                    indicators.append(x['metric_name'])
-                    indicators.append(x['metric_value'])
-                    comparison_words.append(x['metric_value_operator'])
-                indicators = list(set([_ for _ in indicators if _!=None]))
-                comparison_words = list(set([_ for _ in comparison_words if _!=None]))
-                indicators = indicators+[v for v in options.values()]
-                md = batch_rerank_and_clip(total_chunks, ids2name, indicators, comparison_words, 6000, 2000, 15)
+                    indicators.append([])
+                    indicators[-1].append(x['time'])
+                    # indicators[-1].append(x['main'])
+                    indicators[-1].append(x['metric_name'])
+                    indicators[-1].append(x['metric_value'])
+                    indicators[-1].append(x['metric_value_operator'])
+                    indicators[-1] = [_ for _ in indicators[-1] if _]
+                md = batch_rerank_and_clip(total_chunks, ids2name, indicators, 6000, 2000, 15)
 
             answer_prompt = ANSWER_PROMPT[record['qid'].split('_')[0]].format(
                 qtype="多选题" if 'multi'==record['answer_format'] else "单选题",
