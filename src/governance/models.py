@@ -168,3 +168,4 @@ class DocumentMeta:
     status: str = "processing"  # processing / completed / error
     version: int = 1
     metadata: Dict[str, Any] = field(default_factory=dict)
+    structured_data: Dict[str, Any] = field(default_factory=dict)

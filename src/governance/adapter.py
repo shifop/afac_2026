@@ -440,16 +440,13 @@ class GovernanceAdapter:
         title = data.get("title", "")
         doc_type = data.get("doc_type", "")
 
+        # 基础字段
         result = {
             "title": title,
             "doc_type": doc_type,
             "file_path": data.get("file_path", ""),
             "processed_at": data.get("processed_at", ""),
         }
-
-        # 从 sections 中提取更准确的合同名 / 产品名
-        sections = data.get("sections", [])
-        substantive_title = GovernanceAdapter._find_substantive_title(sections, title)
 
         # 预填所有可能的字段
         result.setdefault("contract_name", "")
@@ -462,25 +459,41 @@ class GovernanceAdapter:
         result.setdefault("doc_type_name", "")
         result.setdefault("title", title)
 
+        # 优先使用 LLM 提取的 structured_data
+        llm_meta = data.get("structured_data", {}) or {}
+        for k, v in llm_meta.items():
+            if v:  # 只覆盖非空值
+                result[k] = v
+
+        # Fallback: 用旧启发式方法填补 LLM 未提取到的字段
+        sections = data.get("sections", [])
+        substantive_title = GovernanceAdapter._find_substantive_title(sections, title)
+
         if doc_type == "保险合同":
-            insurer, contract_name = GovernanceAdapter._parse_insurance_meta(
-                substantive_title, sections
-            )
-            result["contract_name"] = contract_name or substantive_title or title
-            result["insurer"] = insurer or ""
+            if not result.get("contract_name"):
+                _, contract_name = GovernanceAdapter._parse_insurance_meta(substantive_title, sections)
+                result["contract_name"] = contract_name or substantive_title or title
+            if not result.get("insurer"):
+                insurer, _ = GovernanceAdapter._parse_insurance_meta(substantive_title, sections)
+                result["insurer"] = insurer or ""
 
         elif doc_type == "年报":
-            result["company_name"] = substantive_title or title
+            if not result.get("company_name"):
+                result["company_name"] = substantive_title or title
 
         elif doc_type == "行业研报":
-            result["title"] = substantive_title or title
+            if not result.get("title") or result["title"] == title:
+                result["title"] = substantive_title or title
 
         elif doc_type == "金融法规":
-            result["title"] = substantive_title or title
+            if not result.get("title") or result["title"] == title:
+                result["title"] = substantive_title or title
 
         elif doc_type == "募集说明书":
-            result["issuer_name"] = substantive_title or title
-            result["doc_type_name"] = doc_type
+            if not result.get("issuer_name"):
+                result["issuer_name"] = substantive_title or title
+            if not result.get("doc_type_name"):
+                result["doc_type_name"] = doc_type
 
         return result
 

@@ -25,6 +25,7 @@ from .entity_extractor import EntityExtractor
 from .reading_guide import ReadingGuideGenerator
 from .post_processor import PostProcessor
 from .entity_dedup import EntityDedup
+from .metadata_extractor import MetadataExtractor
 
 
 class GovernancePipeline:
@@ -47,6 +48,7 @@ class GovernancePipeline:
         self.long_para_handler = LongParagraphHandler(max_chars=1000)
         self.extractor = EntityExtractor(self.llm)
         self.guide_gen = ReadingGuideGenerator(self.llm)
+        self.meta_extractor = MetadataExtractor(self.llm)
         self.post_processor = PostProcessor()
         self.entity_dedup = EntityDedup()
 
@@ -66,6 +68,11 @@ class GovernancePipeline:
         content, meta = self.preprocessor.process(file_path, raw_content)
         doc_id = meta.doc_id
         logger.info(f"[阶段 1/5] 完成 → doc_id={doc_id}, type={meta.doc_type.value}, title={meta.title[:60]}")
+
+        # Phase 1.5: 元数据抽取 (LLM)
+        logger.info(f"[阶段 1.5/5] 元数据抽取 (LLM)...")
+        meta.structured_data = self.meta_extractor.extract(content, meta.doc_type, meta.title)
+        logger.info(f"[阶段 1.5/5] 完成 → {json.dumps(meta.structured_data, ensure_ascii=False)[:120]}")
 
         # Phase 2: 拆分 + 表格
         logger.info(f"[阶段 2/5] 结构拆分 + 表格解析...")
@@ -266,6 +273,7 @@ class GovernancePipeline:
             "doc_type": meta.doc_type.value,
             "file_path": file_path,
             "processed_at": meta.upload_time,
+            "structured_data": meta.structured_data,
             "stats": {
                 "sections": len(sections),
                 "paragraphs": sum(len(s.paragraphs) for s in sections),
