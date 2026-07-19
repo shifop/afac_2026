@@ -37,17 +37,19 @@ class EntityDedup:
             merged = group[0]
             old_id = merged.entity_id  # 保存旧 ID（entity_id 即将被覆盖）
             merged.entity_id = global_id
-            all_sids = [merged.sentence_id] if merged.sentence_id else []
+            # 合并所有 sentence_ids（去重保序）
+            all_sids: list[str] = list(merged.sentence_ids) if merged.sentence_ids else (
+                [merged.sentence_id] if merged.sentence_id else []
+            )
             for other in group[1:]:
                 merged.attributes.update(other.attributes)
-                if other.sentence_id and other.sentence_id not in all_sids:
-                    all_sids.append(other.sentence_id)
+                for sid in other.sentence_ids:
+                    if sid and sid not in all_sids:
+                        all_sids.append(sid)
                 id_mapping[other.entity_id] = global_id
             id_mapping[old_id] = global_id  # 第一个实体的旧 ID → 新全局 ID
-            # 将主 sentence_id 设为第一次出现的位置，所有位置存入 attributes
+            merged.sentence_ids = all_sids
             merged.sentence_id = all_sids[0] if all_sids else ""
-            if len(all_sids) > 1:
-                merged.attributes["all_sentence_ids"] = all_sids
             merged_entities.append(merged)
 
         # 更新关系中的 entity_id

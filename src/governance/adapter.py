@@ -7,7 +7,7 @@
 
 import time
 import logging
-from typing import Dict, List, Any, Optional, Tuple
+from typing import Dict, List, Any, Tuple
 
 logger = logging.getLogger(__name__)
 
@@ -64,7 +64,7 @@ class GovernanceAdapter:
 
         # 6. 构建 structured_data 和 doc_tree
         structured_data = self._build_structured_data(governance_data)
-        doc_tree = self._build_doc_tree(sections, title)
+        doc_tree = self._build_doc_tree(sections, title, chunks)
 
         # 7. 将 doc_tree 嵌入第一个 chunk (兼容 IndexManager 的加载逻辑)
         if chunks:
@@ -156,13 +156,16 @@ class GovernanceAdapter:
             for chunk in chunks:
                 if chunk["section_path"] != sp:
                     continue
-                # 首 chunk: content 注入完整指南前缀
+                # 首 chunk: 单独存储阅读指南，不污染 content
                 if guide_text and not content_injected:
-                    chunk["content"] = guide_text + "\n\n" + chunk["content"]
+                    chunk["reading_guide"] = guide_text
                     content_injected = True
                 # 所有 chunk: section_title 注入功能标签
-                if title_tags and title_tags not in chunk["section_title"]:
-                    chunk["section_title"] = f"{chunk['section_title']} [{title_tags}]"
+                if title_tags:
+                    chunk["title_tags"] = title_tags
+                    
+                chunk.setdefault("reading_guide", "")
+                chunk.setdefault("title_tags", "")
 
         return chunks, sent_to_chunk
 
@@ -234,8 +237,8 @@ class GovernanceAdapter:
         sent_to_chunk: Dict[str, str],
     ) -> Dict[str, str]:
         """
-        扩展映射：除了精确匹配 sentence_id，还处理 sub-sentence (长段落拆分产生的 _subN_s0)。
-        策略: 将 _subN_s0 映射到与 _sX 所在的同一个 chunk。
+        扩展映射：除了精确匹配 sentence_id，还处理 sub-sentence (长段落拆分产生的 _subN_sM)。
+        策略: 将 _subN_sM 映射到与同段落 _sX 所在的同一个 chunk。
         """
         import re
 
@@ -246,8 +249,8 @@ class GovernanceAdapter:
                 for s in para.get("sentences", []):
                     sid = s["sentence_id"]
                     if sid not in sent_to_chunk:
-                        # 尝试匹配同一段落中的其他句子
-                        para_id = re.sub(r"_s\d+$", "", sid)
+                        # 去掉 _subN_sM 或 _sM 后缀，得到 paragraph_id
+                        para_id = re.sub(r"(_sub\d+)?_s\d+$", "", sid)
                         for known_sid, chunk_id in sent_to_chunk.items():
                             if known_sid.startswith(para_id):
                                 expanded[sid] = chunk_id
@@ -262,38 +265,46 @@ class GovernanceAdapter:
         sent_to_chunk: Dict[str, str],
         chunks: List[Dict],
     ) -> None:
-        """将顶层实体按 sentence_id 分配到对应 chunk"""
+        """将顶层实体按 sentence_ids 分配到对应 chunk"""
         chunk_index: Dict[str, Dict] = {c["chunk_id"]: c for c in chunks}
         unassigned: List[Dict] = []
 
         for e in entities:
-            sid = e.get("sentence_id", "")
-            chunk_id = sent_to_chunk.get(sid)
+            # 优先使用 sentence_ids 数组，回退到单个 sentence_id
+            sids = e.get("sentence_ids", [])
+            if not sids:
+                sid = e.get("sentence_id", "")
+                sids = [sid] if sid else []
 
-            if chunk_id and chunk_id in chunk_index:
-                chunk_index[chunk_id]["entities"].append(self._adapt_entity(e))
-                continue
+            assigned_chunks: set = set()  # 去重：避免同实体在同一 chunk 中出现多次
+            for sid in sids:
+                chunk_id = sent_to_chunk.get(sid)
+                if chunk_id and chunk_id in chunk_index:
+                    if chunk_id not in assigned_chunks:
+                        chunk_index[chunk_id]["entities"].append(self._adapt_entity(e))
+                        assigned_chunks.add(chunk_id)
+                    continue
 
-            # 尝试 section_path fallback
-            section_path = self._extract_section_path_from_sid(sid)
-            if section_path:
-                for c in chunks:
-                    if c["section_path"] == section_path:
-                        c["entities"].append(self._adapt_entity(e))
-                        break
-                else:
-                    unassigned.append(e)
-            else:
+                # 尝试 section_path fallback
+                section_path = self._extract_section_path_from_sid(sid)
+                if section_path:
+                    for c in chunks:
+                        if c["section_path"] == section_path:
+                            if c["chunk_id"] not in assigned_chunks:
+                                c["entities"].append(self._adapt_entity(e))
+                                assigned_chunks.add(chunk_id)
+                            break
+
+            if not assigned_chunks:
                 unassigned.append(e)
 
-        # 兜底: tbl_* sentence_ids（表格实体）或其他无法匹配的实体，
-        # 分配到第一个同 section_path 的 chunk，或第一个 chunk
+        # 兜底：无法匹配的实体分配到第一个 chunk
         if unassigned and chunks:
             for e in unassigned:
                 chunks[0]["entities"].append(self._adapt_entity(e))
             logger.debug(
                 f"适配器: {len(unassigned)} 个实体无法精确定位到 chunk，"
-                f"已分配到首 chunk (多为表格实体)"
+                f"已分配到首 chunk"
             )
 
     @staticmethod
@@ -308,10 +319,10 @@ class GovernanceAdapter:
             and e["mention"] != e["canonical_name"]
         ):
             desc_parts.append(f"原文: {e['mention']}")
-        # 属性
-        for k, v in (e.get("attributes") or {}).items():
+        # 属性值
+        for v in (e.get("attributes") or {}).values():
             if v:
-                desc_parts.append(f"{k}: {v}")
+                desc_parts.append(str(v))
         desc = "; ".join(desc_parts) if desc_parts else ""
         return {
             "name": name,
@@ -549,13 +560,21 @@ class GovernanceAdapter:
     # ── doc_tree ────────────────────────────────────────────
 
     @staticmethod
-    def _build_doc_tree(sections: List[Dict], root_title: str) -> Dict:
+    def _build_doc_tree(sections: List[Dict], root_title: str, chunks: List[Dict] = None) -> Dict:
         """
         从 sections 的 section_path 构建嵌套目录树。
-        使用 chunk 索引范围标注每个节点的起止 chunk。
+        使用实际 chunk ID 范围标注每个节点的起止 chunk。
         """
         if not sections:
             return {"title": root_title, "children": []}
+
+        # 构建 section_path → [chunk_ids] 映射
+        sp_to_chunks: Dict[str, List[str]] = {}
+        if chunks:
+            for c in chunks:
+                sp = c.get("section_path", "")
+                if sp:
+                    sp_to_chunks.setdefault(sp, []).append(c["chunk_id"])
 
         root: Dict = {"title": root_title, "children": []}
         node_registry: Dict[str, Dict] = {}
@@ -572,11 +591,13 @@ class GovernanceAdapter:
             for depth, part in enumerate(parts):
                 key = " > ".join(parts[: depth + 1])
                 if key not in node_registry:
+                    # 查找实际 chunk 范围
+                    chunk_list = sp_to_chunks.get(key, [])
                     node = {
                         "title": part,
                         "children": [],
-                        "chunk_id_start": f"_chunk_{i}",
-                        "chunk_id_end": f"_chunk_{i}",
+                        "chunk_id_start": chunk_list[0] if chunk_list else None,
+                        "chunk_id_end": chunk_list[-1] if chunk_list else None,
                     }
                     current.setdefault("children", []).append(node)
                     node_registry[key] = node

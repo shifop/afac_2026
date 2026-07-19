@@ -90,7 +90,7 @@ class Retriever:
         for filter_,_ in filter_list:
             structured_q = QueryBuilder.build(schema, filter_, [filter_])
             structured_q.free_text = question
-            result = self.searcher.filter(structured_q, 3, 2)
+            result = self.searcher.filter(structured_q, 4, 2)
             for doc in result:
                 candidate_docs[doc['doc_id']] = doc
 

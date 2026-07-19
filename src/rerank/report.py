@@ -761,7 +761,7 @@ def batch_rerank_and_clip(total_chunks, ids2name,
     for c in selected:
         doc_id = getattr(c, 'doc_id', 'unknown')
         doc_name = ids2name.get(doc_id, doc_id) if ids2name else doc_id
-        title = getattr(c, 'section_title', '') or getattr(c, 'section_path', '')
+        title = getattr(c, 'section_path', '') or getattr(c, 'section_title', '')
         header = f"## {doc_name}"
         if title:
             header += f" - {title}"

@@ -311,6 +311,7 @@ class GovernancePipeline:
                     "canonical_name": e.canonical_name,
                     "attributes": e.attributes,
                     "sentence_id": e.sentence_id,
+                    "sentence_ids": e.sentence_ids,
                     "source": e.source,
                     "confidence": e.confidence,
                 }
@@ -349,10 +350,14 @@ class GovernancePipeline:
                     prev_text = ""
                     if 0 <= prev_idx < len(section.paragraphs):
                         prev_text = section.paragraphs[prev_idx].content
-                    virtual_sents = self.table_processor.to_virtual_sentences(
-                        section.doc_id, section.section_path, para.para_index, table
-                    )
-                    table_data = {"table": table, "virtual_sentences": virtual_sents, "prev_text": prev_text}
+                    table_data = {
+                        "table": table, "prev_text": prev_text,
+                        "doc_id": section.doc_id,
+                        "para_sentence_id": (
+                            para.sentences[0].sentence_id if para.sentences
+                            else para.paragraph_id
+                        ),
+                    }
                     all_tables.append(table_data)
                     section.tables.append(table_data)
                     ctx = self.table_processor.build_context_for_llm(table, prev_text)
@@ -389,25 +394,23 @@ class GovernancePipeline:
 
         # ---- 收集表格 — 整个表格作为一个批次 (而非逐行) ----
         for tbl_data in all_tables:
-            virtual_sents = tbl_data["virtual_sentences"]
             table = tbl_data["table"]
-            prev_text = tbl_data.get("prev_text", "")
-            all_sentences.extend(virtual_sents)
+            doc_id = tbl_data.get("doc_id", "")
+            para_sid = tbl_data.get("para_sentence_id", table.table_id)
 
-            ctx = self.table_processor.build_context_for_llm(table, prev_text)
             table_batch: List[Dict[str, Any]] = []
             for row_idx, row in enumerate(table.rows):
                 row_dict = dict(zip(table.headers, row))
                 table_batch.append({
-                    "sentence_id": f"{table.table_id}_row{row_idx}",
-                    "text": f"表格上下文：{ctx[:500]}\n当前行数据：{row_dict}",
+                    "sentence_id": para_sid,
+                    "text": f"[表 行{row_idx}] {row_dict}",
                     "location": {
-                        "doc_id": virtual_sents[0].location.doc_id if virtual_sents else "",
+                        "doc_id": doc_id,
                         "section_path": table.section_path,
                         "paragraph_index": table.paragraph_index,
                         "table_id": table.table_id,
                         "row_index": row_idx,
-                        "is_cell": True,
+                        "is_table_row": True,
                     },
                 })
             if table_batch:

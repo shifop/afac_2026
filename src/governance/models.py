@@ -128,6 +128,7 @@ class ExtractedEntity:
     canonical_name: str
     attributes: Dict[str, Any] = field(default_factory=dict)
     sentence_id: str = ""
+    sentence_ids: List[str] = field(default_factory=list)
     confidence: float = 1.0
     source: str = "auto"  # auto / auto_fixed / dual_model
 
