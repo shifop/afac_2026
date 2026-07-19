@@ -1,5 +1,6 @@
 """治理 Pipeline - 文档结构化抽取全流程"""
 import asyncio
+import hashlib
 import json
 import time
 import os
@@ -7,6 +8,8 @@ from pathlib import Path
 from dataclasses import asdict
 from typing import List, Dict, Any, Optional, Tuple
 import logging; logger = logging.getLogger(__name__)
+
+_CACHE_FILE = "_cache.json"
 
 from .models import (
     DocumentMeta, Section, Paragraph, Sentence,
@@ -32,10 +35,12 @@ class GovernancePipeline:
         llm_client: LLMClient,
         batch_chars: int = 4000,
         max_concurrent: int = 8,
+        use_cache: bool = True,
     ) -> None:
         self.llm = llm_client
         self.batch_chars = batch_chars          # 合并后每批目标字符数
         self.max_concurrent = max_concurrent    # 并发 LLM 调用上限
+        self.use_cache = use_cache              # 是否启用输出缓存（跳过已处理文件）
         self.preprocessor = DocumentPreprocessor()
         self.splitter = StructuralSplitter()
         self.table_processor = TableProcessor()
@@ -123,26 +128,88 @@ class GovernancePipeline:
             rejected_count, elapsed, file_path,
         )
 
+    # ---- 缓存 ----
+
+    def _load_cache(self, output_dir: str) -> Dict[str, Any]:
+        """加载缓存文件 {file_key: {doc_id, mtime, size, processed_at}}"""
+        cache_path = os.path.join(output_dir, _CACHE_FILE)
+        if os.path.exists(cache_path):
+            try:
+                with open(cache_path, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except (json.JSONDecodeError, IOError):
+                logger.warning(f"缓存文件损坏，将重建: {cache_path}")
+        return {}
+
+    def _save_cache(self, output_dir: str, cache: Dict[str, Any]) -> None:
+        """保存缓存文件"""
+        os.makedirs(output_dir, exist_ok=True)
+        cache_path = os.path.join(output_dir, _CACHE_FILE)
+        with open(cache_path, "w", encoding="utf-8") as f:
+            json.dump(cache, f, ensure_ascii=False, indent=2)
+
+    def _get_file_key(self, file_path: str) -> str:
+        """生成文件的唯一标识键 (基于绝对路径的 hash)"""
+        abs_path = os.path.abspath(file_path)
+        return hashlib.md5(abs_path.encode()).hexdigest()[:12]
+
+    def _is_cached(self, file_path: str, cache: Dict[str, Any]) -> Optional[str]:
+        """
+        检查文件是否已处理且未变更。
+        返回已缓存的 doc_id，或 None (需要重新处理)。
+        """
+        if not self.use_cache:
+            return None
+        key = self._get_file_key(file_path)
+        if key not in cache:
+            return None
+        entry = cache[key]
+        try:
+            stat = os.stat(file_path)
+            if stat.st_mtime != entry.get("mtime", 0):
+                return None  # 文件已修改
+            if stat.st_size != entry.get("size", 0):
+                return None  # 文件大小已变
+        except OSError:
+            return None
+        # 验证输出的 JSON 确实存在
+        doc_id = entry.get("doc_id", "")
+        return doc_id if doc_id else None
+
     def process_file_or_dir(
         self, path: str, output_dir: Optional[str] = None
     ) -> List[Dict[str, Any]]:
-        """处理文件或目录，结果保存为 JSON"""
+        """处理文件或目录，结果保存为 JSON。启用缓存时跳过已处理的文件。"""
         input_path = Path(path)
         results: List[Dict[str, Any]] = []
+        out = output_dir or str(input_path if input_path.is_dir() else input_path.parent)
+        cache = self._load_cache(out)
+        skipped = 0
 
         if input_path.is_file():
-            result = self.process_file(str(input_path))
-            self._save_result(result, output_dir or str(input_path.parent))
-            results.append(result)
+            cached_id = self._is_cached(str(input_path), cache)
+            if cached_id:
+                logger.info(f"⏭️  跳过 (已缓存): {input_path.name} → {cached_id}")
+                skipped += 1
+            else:
+                result = self.process_file(str(input_path))
+                self._save_result(result, out)
+                cache[self._get_file_key(str(input_path))] = self._cache_entry(str(input_path), result)
+                results.append(result)
 
         elif input_path.is_dir():
             md_files = sorted(input_path.rglob("*.md"))
             logger.info(f"扫描到 {len(md_files)} 个 MD 文件")
-            out = output_dir or str(input_path)
             for f in md_files:
                 try:
+                    cached_id = self._is_cached(str(f), cache)
+                    if cached_id:
+                        logger.info(f"  ⏭️  跳过: {f.name} → {cached_id}")
+                        skipped += 1
+                        continue
                     result = self.process_file(str(f))
                     self._save_result(result, out)
+                    cache[self._get_file_key(str(f))] = self._cache_entry(str(f), result)
                     results.append(result)
                     logger.info(f"  ✅ {f.name} → {result['doc_id']}")
                 except Exception as e:
@@ -150,7 +217,27 @@ class GovernancePipeline:
         else:
             raise FileNotFoundError(f"路径不存在: {path}")
 
+        # 保存缓存
+        if self.use_cache:
+            self._save_cache(out, cache)
+
+        if skipped:
+            logger.info(f"共跳过 {skipped} 个已缓存文件, 处理 {len(results)} 个新文件")
         return results
+
+    def _cache_entry(self, file_path: str, result: Dict[str, Any]) -> Dict[str, Any]:
+        """构建缓存条目"""
+        try:
+            stat = os.stat(file_path)
+            return {
+                "doc_id": result["doc_id"],
+                "title": result.get("title", ""),
+                "mtime": stat.st_mtime,
+                "size": stat.st_size,
+                "processed_at": result.get("processed_at", ""),
+            }
+        except OSError:
+            return {"doc_id": result["doc_id"], "title": result.get("title", ""), "mtime": 0, "size": 0}
 
     # ---- 输出 ----
 
