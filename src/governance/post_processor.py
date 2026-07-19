@@ -25,14 +25,14 @@ class PostProcessor:
         for result in results:
             # 1. JSON Schema 验证
             self._validate_schema(result)
-            # 2. 引用完整性检查
-            self._check_reference_integrity(result)
-            # 3. 值域与逻辑校验
+            # 2. 值域与逻辑校验
             self._validate_value_domain(result)
-            # 4. 关系类型约束检查
+            # 3. 关系类型约束检查
             self._validate_relation_constraints(result)
-            # 5. 置信度过滤
+            # 4. 置信度过滤
             self._filter_confidence(result, confidence_threshold)
+            # 5. 引用完整性检查（必须在所有实体过滤之后）
+            self._check_reference_integrity(result)
             # 6. 共指消解
             self._resolve_coreferences(result)
         return results

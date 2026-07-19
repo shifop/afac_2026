@@ -15,14 +15,8 @@ from src.extractor.llm_extractor import LLMExtractor, ExtractionError
 from src.extractor.orchestrator import ExtractorOrchestrator, QueryBuilder
 from src.search.whoosh_searcher import WhooshSearcher
 from src.indexer.index_manager import IndexManager
-from src.indexer.insurance_index_manager import InsuranceIndexManager
 
 logger = logging.getLogger(__name__)
-
-INDEX_MANAGER_MAP = {
-    "default":IndexManager,
-    "insurance":InsuranceIndexManager
-}
 
 class Retriever:
     def __init__(
@@ -38,12 +32,11 @@ class Retriever:
         llm_max_retries: int = 2,
         llm_temperature: float = 0.0,
         context_window: Optional[Dict[str, int]] = None,
-        index_manager_type:str="default"
     ):
         self.config_manager = ConfigManager(config_dir)
         self.config_manager.load_all()
 
-        self.index_manager = INDEX_MANAGER_MAP.get(index_manager_type, IndexManager)(
+        self.index_manager = IndexManager(
             index_dir=index_dir,
             documents_dir=documents_dir,
             force_rebuild=force_rebuild,

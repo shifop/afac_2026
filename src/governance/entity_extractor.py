@@ -75,6 +75,9 @@ class EntityExtractor:
         if not sentences_data:
             return []
 
+        # 为每个批次生成唯一前缀，避免跨批次实体 ID 冲突
+        batch_prefix = new_id("b")
+
         # 构建系统提示词
         system_msg = _SYSTEM_PROMPT
         enhancement = _TYPE_ENHANCEMENTS.get(doc_type, "")
@@ -110,7 +113,7 @@ class EntityExtractor:
                 f"输出截选: {_truncate(raw, 200)}"
             )
 
-            return self._parse_response(sentences_data, data)
+            return self._parse_response(sentences_data, data, batch_prefix)
         except Exception as e:
             logger.error(f"实体关系抽取失败: {e}")
             # 返回空结果
@@ -127,13 +130,20 @@ class EntityExtractor:
         self,
         sentences_data: List[Dict[str, Any]],
         data: dict,
+        batch_prefix: str = "",
     ) -> List[ExtractionResult]:
-        """将 LLM 返回的 entities/relations 匹配回句子"""
+        """将 LLM 返回的 entities/relations 匹配回句子，并添加批次前缀避免跨批次 ID 冲突"""
         entities_list: List[dict] = data.get("entities", [])
         relations_list: List[dict] = data.get("relations", [])
 
+        # 构建 LLM 临时 ID → 批次唯一 ID 的映射
+        id_remap: dict[str, str] = {}
+        for ent_data in entities_list:
+            raw_id = ent_data.get("entity_id", "")
+            unique_id = f"{batch_prefix}_{raw_id}" if batch_prefix else raw_id
+            id_remap[raw_id] = unique_id
+
         # 按 sentence_id 分组证据
-        # 首先尝试从 evidence 中获取 sentence_id
         results: dict[str, ExtractionResult] = {}
 
         for s in sentences_data:
@@ -144,10 +154,11 @@ class EntityExtractor:
                 location=s["location"],
             )
 
-        # 解析实体
+        # 解析实体（使用批次唯一 ID）
         entity_map: dict[str, ExtractedEntity] = {}
         for ent_data in entities_list:
-            eid = ent_data.get("entity_id", new_id("ent"))
+            raw_id = ent_data.get("entity_id", "")
+            eid = id_remap.get(raw_id, f"{batch_prefix}_{new_id('ent')}" if batch_prefix else new_id("ent"))
             entity = ExtractedEntity(
                 entity_id=eid,
                 entity_type=ent_data.get("entity_type", ""),
@@ -157,24 +168,25 @@ class EntityExtractor:
             )
             entity_map[eid] = entity
 
-        # 解析关系，从 evidence 确定归属句子
+        # 解析关系，从 evidence 确定归属句子；head/tail entity_id 也需重映射
         rel_to_sid: dict[str, str] = {}
         for rel_data in relations_list:
             evidence = rel_data.get("evidence", {})
             sid = evidence.get("sentence_id", "")
-            # 如果 evidence 中没有 sentence_id，尝试其他方式
             if not sid:
-                # 从 head/tail entity 推断
-                head_id = rel_data.get("head_entity_id", "")
-                tail_id = rel_data.get("tail_entity_id", "")
-                # 默认放到第一个句子上
                 sid = sentences_data[0]["sentence_id"] if sentences_data else ""
+
+            # 重映射实体 ID
+            raw_head = rel_data.get("head_entity_id", "")
+            raw_tail = rel_data.get("tail_entity_id", "")
+            mapped_head = id_remap.get(raw_head, raw_head)
+            mapped_tail = id_remap.get(raw_tail, raw_tail)
 
             relation = ExtractedRelation(
                 relation_id=rel_data.get("relation_id", new_id("rel")),
                 relation_type=rel_data.get("relation_type", ""),
-                head_entity_id=rel_data.get("head_entity_id", ""),
-                tail_entity_id=rel_data.get("tail_entity_id", ""),
+                head_entity_id=mapped_head,
+                tail_entity_id=mapped_tail,
                 properties=rel_data.get("properties", {}),
                 evidence=evidence,
             )
