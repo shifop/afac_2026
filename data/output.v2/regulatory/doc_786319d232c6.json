@@ -1,0 +1,322 @@
+{
+  "doc_id": "doc_786319d232c6",
+  "title": "关于《监管规则适用指引——机构类第4号》的说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0062_att1.md",
+  "processed_at": "2026-07-21T01:06:04.221985+00:00",
+  "structured_data": {
+    "title": "关于《监管规则适用指引——机构类第4号》的说明"
+  },
+  "stats": {
+    "sections": 1,
+    "paragraphs": 1,
+    "sentences": 7,
+    "entities": 8,
+    "relations": 6,
+    "rejected": 0,
+    "llm_calls": 2799,
+    "llm_tokens": 4279090,
+    "elapsed_seconds": 8.92
+  },
+  "sections": [
+    {
+      "section_id": "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明",
+      "section_path": "关于《监管规则适用指引——机构类第4号》的说明",
+      "title": "关于《监管规则适用指引——机构类第4号》的说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "《高管办法》(证监会令第195号)/国发〔2024〕10号/《监管规则适用指引——机构类第4号》/董事长/总经理/任职条件/备案程序/事前沟通/从重处理/第五十",
+        "for": [
+          "任职规定",
+          "高管条件",
+          "备案流程",
+          "监管处罚",
+          "股东义务"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0",
+          "para_index": 0,
+          "content": "《证券基金经营机构董事、监事、高级管理人员及从业人员监督管理办法》（证监会令第 195 号，以下简称《高管办法》）对拟任证券基金经营机构董事、监事和高级管理人员的基本条件和备案程序作了规定。\n为落实《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》（国发〔2024〕10 号）和《关于加强证券公司和公募基金监管加快推进建设一流投资银行和投资机构的意见（试行）》关于“完善高管人员任职条件与备案管理制度”的要求，督促证券基金经营机构严把任职“入口关”，强化任职审查，坚决防止不符合任职条件的“关键少数”任职，《监管规则适用指引——机构类第4 号》（以下简称《指引》）对《高管办法》有关规定进行了解释和细化。进一步明确对董事长、总经理的基本条件要求，并强化经营机构审慎考察拟聘任董事长、高级管理人员是否符合任职条件的义务，明确证券基金经营机构如难以确保拟聘任董事长、高级管理人员符合任职条件的，应当事前与中国证监会相关派出机构进行沟通。如证券基金经营机构未作审慎考察、与相关派出机构沟通，任命的董事长、高级管理人员不符合任职条件的，对公司及相关责任人员从重处理。需要说明的是，《指引》相关要求比照适用于《高管办法》第五十六条规定的机构及其相关人员。《指引》发布后，证券基金经营机构和《高管办法》第五十六条规定的机构应当及时将《指引》相关要求告知公司主要股东，提醒主要股东严格按照要求提名符合条件的董事、监事和高级管理人员。\n中国证监会将坚决贯彻落实中央金融工作会议精神和《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》要求，督促证券基金经营机构加强人员聘任管理，切实把好“关键少数”任职备案关口，并加大对证券基金经营机构人员管理的监管执法力度，从严处理违法违规行为。",
+          "sentences": [
+            {
+              "sentence_id": "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s0",
+              "text": "《证券基金经营机构董事、监事、高级管理人员及从业人员监督管理办法》（证监会令第 195 号，以下简称《高管办法》）对拟任证券基金经营机构董事、监事和高级管理人员的基本条件和备案程序作了规定。",
+              "location": {
+                "doc_id": "doc_786319d232c6",
+                "section_path": "关于《监管规则适用指引——机构类第4号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s1",
+              "text": "为落实《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》（国发〔2024〕10 号）和《关于加强证券公司和公募基金监管加快推进建设一流投资银行和投资机构的意见（试行）》关于“完善高管人员任职条件与备案管理制度”的要求，督促证券基金经营机构严把任职“入口关”，强化任职审查，坚决防止不符合任职条件的“关键少数”任职，《监管规则适用指引——机构类第4 号》（以下简称《指引》）对《高管办法》有关规定进行了解释和细化。",
+              "location": {
+                "doc_id": "doc_786319d232c6",
+                "section_path": "关于《监管规则适用指引——机构类第4号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s2",
+              "text": "进一步明确对董事长、总经理的基本条件要求，并强化经营机构审慎考察拟聘任董事长、高级管理人员是否符合任职条件的义务，明确证券基金经营机构如难以确保拟聘任董事长、高级管理人员符合任职条件的，应当事前与中国证监会相关派出机构进行沟通。",
+              "location": {
+                "doc_id": "doc_786319d232c6",
+                "section_path": "关于《监管规则适用指引——机构类第4号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s3",
+              "text": "如证券基金经营机构未作审慎考察、与相关派出机构沟通，任命的董事长、高级管理人员不符合任职条件的，对公司及相关责任人员从重处理。",
+              "location": {
+                "doc_id": "doc_786319d232c6",
+                "section_path": "关于《监管规则适用指引——机构类第4号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s4",
+              "text": "需要说明的是，《指引》相关要求比照适用于《高管办法》第五十六条规定的机构及其相关人员。",
+              "location": {
+                "doc_id": "doc_786319d232c6",
+                "section_path": "关于《监管规则适用指引——机构类第4号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s5",
+              "text": "《指引》发布后，证券基金经营机构和《高管办法》第五十六条规定的机构应当及时将《指引》相关要求告知公司主要股东，提醒主要股东严格按照要求提名符合条件的董事、监事和高级管理人员。",
+              "location": {
+                "doc_id": "doc_786319d232c6",
+                "section_path": "关于《监管规则适用指引——机构类第4号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s6",
+              "text": "中国证监会将坚决贯彻落实中央金融工作会议精神和《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》要求，督促证券基金经营机构加强人员聘任管理，切实把好“关键少数”任职备案关口，并加大对证券基金经营机构人员管理的监管执法力度，从严处理违法违规行为。",
+              "location": {
+                "doc_id": "doc_786319d232c6",
+                "section_path": "关于《监管规则适用指引——机构类第4号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_bf6985654ae8",
+      "entity_type": "LegalDocument",
+      "mention": "《证券基金经营机构董事、监事、高级管理人员及从业人员监督管理办法》",
+      "canonical_name": "证券基金经营机构董事、监事、高级管理人员及从业人员监督管理办法",
+      "attributes": {
+        "regulation_number": "证监会令第 195 号"
+      },
+      "sentence_id": "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6bb2461077c8",
+      "entity_type": "LegalTerm",
+      "mention": "《高管办法》",
+      "canonical_name": "高管办法",
+      "attributes": {},
+      "sentence_id": "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7dae79c28b58",
+      "entity_type": "Industry",
+      "mention": "证券基金经营机构",
+      "canonical_name": "证券基金行业",
+      "attributes": {},
+      "sentence_id": "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_05828d379624",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》",
+      "canonical_name": "国务院关于加强监管防范风险推动资本市场高质量发展的若干意见",
+      "attributes": {
+        "document_number": "国发〔2024〕10 号"
+      },
+      "sentence_id": "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s1",
+      "sentence_ids": [
+        "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_337e615ed317",
+      "entity_type": "LegalDocument",
+      "mention": "《关于加强证券公司和公募基金监管加快推进建设一流投资银行和投资机构的意见（试行）》",
+      "canonical_name": "关于加强证券公司和公募基金监管加快推进建设一流投资银行和投资机构的意见（试行）",
+      "attributes": {},
+      "sentence_id": "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s1",
+      "sentence_ids": [
+        "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_67bf59321062",
+      "entity_type": "LegalDocument",
+      "mention": "《监管规则适用指引——机构类第 4 号》",
+      "canonical_name": "监管规则适用指引——机构类第 4 号",
+      "attributes": {},
+      "sentence_id": "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s1",
+      "sentence_ids": [
+        "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b0e0856104f8",
+      "entity_type": "LegalTerm",
+      "mention": "《指引》",
+      "canonical_name": "指引",
+      "attributes": {},
+      "sentence_id": "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s1",
+      "sentence_ids": [
+        "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a4d0015ce9da",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s6",
+      "sentence_ids": [
+        "doc_786319d232c6#关于《监管规则适用指引——机构类第4号》的说明_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_bf9aee6c5a8d_rel_db74dd0c6e32",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_6bb2461077c8",
+      "tail_entity_id": "ent_bf6985654ae8",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_786319d232c6",
+        "section_path": "关于《监管规则适用指引——机构类第4号》的说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bf9aee6c5a8d_rel_9fd417d69304",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_b0e0856104f8",
+      "tail_entity_id": "ent_05828d379624",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_786319d232c6",
+        "section_path": "关于《监管规则适用指引——机构类第4号》的说明",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bf9aee6c5a8d_rel_8d969521ee8b",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_b0e0856104f8",
+      "tail_entity_id": "ent_337e615ed317",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_786319d232c6",
+        "section_path": "关于《监管规则适用指引——机构类第4号》的说明",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bf9aee6c5a8d_rel_d0df15913008",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_b0e0856104f8",
+      "tail_entity_id": "ent_67bf59321062",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_786319d232c6",
+        "section_path": "关于《监管规则适用指引——机构类第4号》的说明",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bf9aee6c5a8d_rel_83ccc053da30",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_b0e0856104f8",
+      "tail_entity_id": "ent_6bb2461077c8",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_786319d232c6",
+        "section_path": "关于《监管规则适用指引——机构类第4号》的说明",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bf9aee6c5a8d_rel_2bfbd635ba1f",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_b0e0856104f8",
+      "tail_entity_id": "ent_bf6985654ae8",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_786319d232c6",
+        "section_path": "关于《监管规则适用指引——机构类第4号》的说明",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

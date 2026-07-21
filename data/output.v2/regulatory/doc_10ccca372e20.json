@@ -1,0 +1,916 @@
+{
+  "doc_id": "doc_10ccca372e20",
+  "title": "《关于修改、废止部分证券期货规范性文件的决定》立法说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0036_att4.md",
+  "processed_at": "2026-07-21T00:45:30.657062+00:00",
+  "structured_data": {
+    "title": "关于修改、废止部分证券期货规范性文件的决定"
+  },
+  "stats": {
+    "sections": 4,
+    "paragraphs": 4,
+    "sentences": 32,
+    "entities": 23,
+    "relations": 11,
+    "rejected": 0,
+    "llm_calls": 1971,
+    "llm_tokens": 2914655,
+    "elapsed_seconds": 20.65
+  },
+  "sections": [
+    {
+      "section_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明",
+      "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明",
+      "title": "《关于修改、废止部分证券期货规范性文件的决定》立法说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "新《公司法》/独立董事制度改革/65部修改/2部废止/规范性文件清理",
+        "for": [
+          "立法背景",
+          "修改数量",
+          "废止数量",
+          "改革依据"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明_p0",
+          "para_index": 0,
+          "content": "为贯彻落实新《公司法》及国务院独立董事制度改革等有关要求，中国证监会对有关规范性文件进行了清理。经过清理，中国证监会决定对 65 部规范性文件的部分条款予以修改，对 2 部规范性文件予以废止，形成《关于修改、废止部分证券期货规范性文件的决定》（以下简称《修改决定》），现将主要情况说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明_p0_s0",
+              "text": "为贯彻落实新《公司法》及国务院独立董事制度改革等有关要求，中国证监会对有关规范性文件进行了清理。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明_p0_s1",
+              "text": "经过清理，中国证监会决定对 65 部规范性文件的部分条款予以修改，对 2 部规范性文件予以废止，形成《关于修改、废止部分证券期货规范性文件的决定》（以下简称《修改决定》），现将主要情况说明如下：",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况",
+      "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况",
+      "title": "一、修改规范性文件情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "审计委员会设置/监事会删除/非上市公众公司监督机构选择/董事高管忠实勤勉义务/赔偿责任/事实与影子董事制度/独立董事意见规定删除/薪酬与考核委员会职权/股东会名",
+        "for": [
+          "公司治理",
+          "审计委员会",
+          "独立董事",
+          "监事职责",
+          "法规修改"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0",
+          "para_index": 0,
+          "content": "一是落实新《公司法》等有关审计委员会设置要求，调整监事会、监事相关规定。根据新《公司法》《国务院关于实施<中华人民共和国公司法>注册资本登记管理制度的规定》《国务院办公厅关于上市公司独立董事制度改革的意见》有关上市公司应当在董事会中设置审计委员会、审计委员会行使监事会职权、不设监事会的规定，删除关于上市公司监事会、监事的规定；同时，在《关于加强非上市公众公司监管工作的指导意见》等规则中明确，非上市公众公司等应当依法选择审计委员会或者监事会作为内部监督机构。\n二是根据新《公司法》修改情况相应增加、调整公司治理等相关内容。在《上市公司治理准则》中增加董事、高级管理人员对公司的忠实勤勉义务，董事、高级管理人员执行职务的赔偿责任，“事实董事”“影子董事”制度。\n三是落实独立董事制度改革要求，删除独立董事发表意见相关内容。根据《国务院办公厅关于上市公司独立董事制度改革的意见》《上市公司独立董事管理办法》，删除《公开发行证券的公司信息披露内容与格式准则第 18 号— 被收购公司董事会报告书》等规则中强制要求独立董事发表意见的规定；在《关于上市公司实施员工持股计划试点的指导意见》等规则中明确由薪酬与考核委员会就员工持股计划是否有利于上市公司持续发展等事项发表意见，不再要求独立董事发表意见；适应性调整独立董事的定义等。\n四是根据新《公司法》等规定，调整其他文字表述。根据新《公司法》将“股东大会”修改为“股东会”，并调整了引用新《公司法》的条文序号；根据立法技术调整了“以上”“以下”“超过”等表述。",
+          "sentences": [
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s0",
+              "text": "一是落实新《公司法》等有关审计委员会设置要求，调整监事会、监事相关规定。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s1",
+              "text": "根据新《公司法》《国务院关于实施<中华人民共和国公司法>注册资本登记管理制度的规定》《国务院办公厅关于上市公司独立董事制度改革的意见》有关上市公司应当在董事会中设置审计委员会、审计委员会行使监事会职权、不设监事会的规定，删除关于上市公司监事会、监事的规定；",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s2",
+              "text": "同时，在《关于加强非上市公众公司监管工作的指导意见》等规则中明确，非上市公众公司等应当依法选择审计委员会或者监事会作为内部监督机构。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s3",
+              "text": "二是根据新《公司法》修改情况相应增加、调整公司治理等相关内容。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s4",
+              "text": "在《上市公司治理准则》中增加董事、高级管理人员对公司的忠实勤勉义务，董事、高级管理人员执行职务的赔偿责任，“事实董事”“影子董事”制度。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s5",
+              "text": "三是落实独立董事制度改革要求，删除独立董事发表意见相关内容。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s6",
+              "text": "根据《国务院办公厅关于上市公司独立董事制度改革的意见》《上市公司独立董事管理办法》，删除《公开发行证券的公司信息披露内容与格式准则第 18 号— 被收购公司董事会报告书》等规则中强制要求独立董事发表意见的规定；",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s7",
+              "text": "在《关于上市公司实施员工持股计划试点的指导意见》等规则中明确由薪酬与考核委员会就员工持股计划是否有利于上市公司持续发展等事项发表意见，不再要求独立董事发表意见；",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s8",
+              "text": "适应性调整独立董事的定义等。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s9",
+              "text": "四是根据新《公司法》等规定，调整其他文字表述。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s10",
+              "text": "根据新《公司法》将“股东大会”修改为“股东会”，并调整了引用新《公司法》的条文序号；",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s11",
+              "text": "根据立法技术调整了“以上”“以下”“超过”等表述。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况",
+      "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况",
+      "title": "二、废止规范性文件情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "废止文件名称/《上市公司监管指引第1号》/《关于进一步落实上市公司现金分红有关事项的通知》/新《公司法》第二百一十四条/资本公积金弥补亏损/规则替代关系",
+        "for": [
+          "废止文件",
+          "法规冲突",
+          "新规替代",
+          "条款依据"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况_p0",
+          "para_index": 0,
+          "content": "一是废止《上市公司监管指引第 1 号——上市公司实施重大资产重组后存在未弥补亏损情形的监管要求》。废止的主要理由是，《上市公司监管指引第 1 号— —上市公司实施重大资产重组后存在未弥补亏损情形的监管要求》中有的事项与新《公司法》直接冲突，如，第一条、第二条规定“公司的资本公积金不得用于弥补公司的亏损”与新《公司法》第二百一十四条“可以按照规定使用资本公积金”弥补亏损的规定相悖；有的事项纳入其他规则，如第三条、第四条有关风险提示要求纳入定期报告、重组报告书内容格式准则。\n二是废止《关于进一步落实上市公司现金分红有关事项的通知》。废止的主要理由是，该文件内容已被《上市公司监管指引第3 号——上市公司现金分红》《监管规则适用指引—发行类第 10 号》等新的规则替代。",
+          "sentences": [
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况_p0_s0",
+              "text": "一是废止《上市公司监管指引第 1 号——上市公司实施重大资产重组后存在未弥补亏损情形的监管要求》。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况_p0_s1",
+              "text": "废止的主要理由是，《上市公司监管指引第 1 号— —上市公司实施重大资产重组后存在未弥补亏损情形的监管要求》中有的事项与新《公司法》直接冲突，如，第一条、第二条规定“公司的资本公积金不得用于弥补公司的亏损”与新《公司法》第二百一十四条“可以按照规定使用资本公积金”弥补亏损的规定相悖；",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况_p0_s2",
+              "text": "有的事项纳入其他规则，如第三条、第四条有关风险提示要求纳入定期报告、重组报告书内容格式准则。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况_p0_s3",
+              "text": "二是废止《关于进一步落实上市公司现金分红有关事项的通知》。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况_p0_s4",
+              "text": "废止的主要理由是，该文件内容已被《上市公司监管指引第3 号——上市公司现金分红》《监管规则适用指引—发行类第 10 号》等新的规则替代。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况",
+      "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况",
+      "title": "三、公开征求意见情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "公开征求意见时间/2024.12.27-2025.1.26/意见总数/29条/《证券公司治理准则》第十五条第二款修改/董事监事提名持股比例3%改1%/审计委员会",
+        "for": [
+          "立法依据",
+          "意见采纳",
+          "条款修改",
+          "规则冲突"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0",
+          "para_index": 0,
+          "content": "2024 年 12 月27 日至 2025 年1 月26 日，《修改决定》向社会公开征求意见，共收到意见建议29 条。总体来看，社会各方对于《修改决定》内容表示赞同，认为出台《修改决定》有利于更好贯彻落实新《公司法》。主要意见及采纳情况如下：\n一是有意见提出，建议将《证券公司治理准则》第十五条第二款中提名董事、监事候选人的持股比例要求由 3%修改为 1%。经研究，《公司法》规定，单独或者合计持有公司百分之一以上股份的股东，可以提出临时提案。考虑到实践中提名董事、监事候选人是以提案的形式提出，为与《公司法》保持一致，因此采纳该意见。\n二是有意见提出，建议在《证券公司治理准则》中明确，证券公司可以设置不行使监事会职权的审计委员会，并保留监事会或者监事。经研究，《公司法》第一百二十一条第一款规定，“股份有限公司可以按照公司章程的规定在董事会中设置由董事组成的审计委员会，行使本法规定的监事会的职权，不设监事会或者监事。”根据上述规定，股份有限公司应当选择设置审计委员会或者监事会；选择设置审计委员会的，应当行使《公司法》规定的监事会职权，不设监事会。因此，未采纳该意见。\n三是有意见提出，为做好与《上市公司章程指引》的衔接，建议在《上市公司治理准则》第三十九条中明确，国务院有关主管部门对董事会专门委员会的召集人另有规定的，从其规定。经研究，为做好规则间的衔接，采纳该意见。\n此外，还有的意见涉及对规则内容的实质调整，与落实《公司法》“打包”修改的工作定位不符，或者涉及事项《公司法》已有明确规定，无需重复规定，因此未予采纳。",
+          "sentences": [
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s0",
+              "text": "2024 年 12 月27 日至 2025 年1 月26 日，《修改决定》向社会公开征求意见，共收到意见建议29 条。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s1",
+              "text": "总体来看，社会各方对于《修改决定》内容表示赞同，认为出台《修改决定》有利于更好贯彻落实新《公司法》。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s2",
+              "text": "主要意见及采纳情况如下：\n一是有意见提出，建议将《证券公司治理准则》第十五条第二款中提名董事、监事候选人的持股比例要求由 3%修改为 1%。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s3",
+              "text": "经研究，《公司法》规定，单独或者合计持有公司百分之一以上股份的股东，可以提出临时提案。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s4",
+              "text": "考虑到实践中提名董事、监事候选人是以提案的形式提出，为与《公司法》保持一致，因此采纳该意见。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s5",
+              "text": "二是有意见提出，建议在《证券公司治理准则》中明确，证券公司可以设置不行使监事会职权的审计委员会，并保留监事会或者监事。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s6",
+              "text": "经研究，《公司法》第一百二十一条第一款规定，“股份有限公司可以按照公司章程的规定在董事会中设置由董事组成的审计委员会，行使本法规定的监事会的职权，不设监事会或者监事。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s7",
+              "text": "”根据上述规定，股份有限公司应当选择设置审计委员会或者监事会；",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s8",
+              "text": "选择设置审计委员会的，应当行使《公司法》规定的监事会职权，不设监事会。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s9",
+              "text": "因此，未采纳该意见。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s10",
+              "text": "三是有意见提出，为做好与《上市公司章程指引》的衔接，建议在《上市公司治理准则》第三十九条中明确，国务院有关主管部门对董事会专门委员会的召集人另有规定的，从其规定。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s11",
+              "text": "经研究，为做好规则间的衔接，采纳该意见。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s12",
+              "text": "此外，还有的意见涉及对规则内容的实质调整，与落实《公司法》“打包”修改的工作定位不符，或者涉及事项《公司法》已有明确规定，无需重复规定，因此未予采纳。",
+              "location": {
+                "doc_id": "doc_10ccca372e20",
+                "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_221f44d3b237",
+      "entity_type": "LegalDocument",
+      "mention": "新《公司法》",
+      "canonical_name": "新《公司法》",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明_p0_s0",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fb1db60a77c6",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明_p0_s0",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_27bb2a7c84b7",
+      "entity_type": "LegalDocument",
+      "mention": "《关于修改、废止部分证券期货规范性文件的决定》",
+      "canonical_name": "关于修改、废止部分证券期货规范性文件的决定",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明_p0_s1",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_61d60081cf0d",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院关于实施<中华人民共和国公司法>注册资本登记管理制度的规定》",
+      "canonical_name": "国务院关于实施<中华人民共和国公司法>注册资本登记管理制度的规定",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s1",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cac82bba333c",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院办公厅关于上市公司独立董事制度改革的意见》",
+      "canonical_name": "国务院办公厅关于上市公司独立董事制度改革的意见",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s1",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0c09abf87bce",
+      "entity_type": "LegalDocument",
+      "mention": "《关于加强非上市公众公司监管工作的指导意见》",
+      "canonical_name": "关于加强非上市公众公司监管工作的指导意见",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s2",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4a401d47df09",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司治理准则》",
+      "canonical_name": "上市公司治理准则",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s4",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_99a6ce650540",
+      "entity_type": "LegalTerm",
+      "mention": "“事实董事”",
+      "canonical_name": "事实董事",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s4",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_81d86c729a99",
+      "entity_type": "LegalTerm",
+      "mention": "“影子董事”",
+      "canonical_name": "影子董事",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s4",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ddadaaa9095d",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司独立董事管理办法》",
+      "canonical_name": "上市公司独立董事管理办法",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s6",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_902e5a7091dc",
+      "entity_type": "LegalDocument",
+      "mention": "《公开发行证券的公司信息披露内容与格式准则第 18 号— 被收购公司董事会报告书》",
+      "canonical_name": "公开发行证券的公司信息披露内容与格式准则第 18 号— 被收购公司董事会报告书",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s6",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8388adffe61a",
+      "entity_type": "LegalDocument",
+      "mention": "《关于上市公司实施员工持股计划试点的指导意见》",
+      "canonical_name": "关于上市公司实施员工持股计划试点的指导意见",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s7",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况_p0_s7"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e141181655c8",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司监管指引第 1 号——上市公司实施重大资产重组后存在未弥补亏损情形的监管要求》",
+      "canonical_name": "上市公司监管指引第 1 号——上市公司实施重大资产重组后存在未弥补亏损情形的监管要求",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况_p0_s0",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f682f37bd3b0",
+      "entity_type": "LegalDocument",
+      "mention": "《关于进一步落实上市公司现金分红有关事项的通知》",
+      "canonical_name": "关于进一步落实上市公司现金分红有关事项的通知",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况_p0_s3",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_776e8c3c65b6",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司监管指引第 3 号——上市公司现金分红》",
+      "canonical_name": "上市公司监管指引第 3 号——上市公司现金分红",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况_p0_s4",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6814cf89cc5b",
+      "entity_type": "LegalDocument",
+      "mention": "《监管规则适用指引—发行类第 10 号》",
+      "canonical_name": "监管规则适用指引—发行类第 10 号",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况_p0_s4",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5b1aba580e14",
+      "entity_type": "Date",
+      "mention": "2024 年 12 月 27 日",
+      "canonical_name": "2024-12-27",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_908e915f3f92",
+      "entity_type": "Date",
+      "mention": "2025 年 1 月 26 日",
+      "canonical_name": "2025-01-26",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b21bdb5fa4a9",
+      "entity_type": "MonetaryAmount",
+      "mention": "29 条",
+      "canonical_name": "29",
+      "attributes": {
+        "unit": "条"
+      },
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5ff70d020411",
+      "entity_type": "LegalDocument",
+      "mention": "《证券公司治理准则》",
+      "canonical_name": "证券公司治理准则",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s2",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_dc12bf5f2ef0",
+      "entity_type": "Percentage",
+      "mention": "3%",
+      "canonical_name": "3%",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s2",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d43fedce1719",
+      "entity_type": "Percentage",
+      "mention": "1%",
+      "canonical_name": "1%",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s2",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s2",
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a33e50a1cf0b",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司章程指引》",
+      "canonical_name": "上市公司章程指引",
+      "attributes": {},
+      "sentence_id": "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s10",
+      "sentence_ids": [
+        "doc_10ccca372e20#《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_104a9c374b9a_rel_85f582524206",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_27bb2a7c84b7",
+      "tail_entity_id": "ent_221f44d3b237",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_10ccca372e20",
+        "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_104a9c374b9a_rel_6659cde56a9e",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_27bb2a7c84b7",
+      "tail_entity_id": "ent_cac82bba333c",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_10ccca372e20",
+        "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_104a9c374b9a_rel_a8c08d9fa0fd",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_4a401d47df09",
+      "tail_entity_id": "ent_221f44d3b237",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_10ccca372e20",
+        "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_104a9c374b9a_rel_e5bd1a0a48f7",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_4a401d47df09",
+      "tail_entity_id": "ent_99a6ce650540",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_10ccca372e20",
+        "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_104a9c374b9a_rel_bc22e34c8bae",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_4a401d47df09",
+      "tail_entity_id": "ent_81d86c729a99",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_10ccca372e20",
+        "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_104a9c374b9a_rel_4b22567c4e42",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_ddadaaa9095d",
+      "tail_entity_id": "ent_221f44d3b237",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_10ccca372e20",
+        "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 一、修改规范性文件情况",
+        "paragraph_index": 0,
+        "sentence_index": 6
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_104a9c374b9a_rel_09bf5ce27d5e",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_e141181655c8",
+      "tail_entity_id": "ent_221f44d3b237",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_10ccca372e20",
+        "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_104a9c374b9a_rel_406cde84e0c4",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_776e8c3c65b6",
+      "tail_entity_id": "ent_f682f37bd3b0",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_10ccca372e20",
+        "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_104a9c374b9a_rel_7b615b603789",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_6814cf89cc5b",
+      "tail_entity_id": "ent_f682f37bd3b0",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_10ccca372e20",
+        "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 二、废止规范性文件情况",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_104a9c374b9a_rel_e57791c36b43",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_5ff70d020411",
+      "tail_entity_id": "ent_221f44d3b237",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_10ccca372e20",
+        "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_104a9c374b9a_rel_23b7f76cfe10",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_a33e50a1cf0b",
+      "tail_entity_id": "ent_221f44d3b237",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_10ccca372e20",
+        "section_path": "《关于修改、废止部分证券期货规范性文件的决定》立法说明 > 三、公开征求意见情况",
+        "paragraph_index": 0,
+        "sentence_index": 10
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

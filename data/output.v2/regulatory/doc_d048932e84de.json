@@ -1,0 +1,102 @@
+{
+  "doc_id": "doc_d048932e84de",
+  "title": "附件2",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0036_att3.md",
+  "processed_at": "2026-07-21T00:45:26.750381+00:00",
+  "structured_data": {
+    "title": "附件2"
+  },
+  "stats": {
+    "sections": 2,
+    "paragraphs": 1,
+    "sentences": 1,
+    "entities": 2,
+    "relations": 0,
+    "rejected": 0,
+    "llm_calls": 1965,
+    "llm_tokens": 2906540,
+    "elapsed_seconds": 3.9
+  },
+  "sections": [
+    {
+      "section_id": "doc_d048932e84de#附件2",
+      "section_path": "附件2",
+      "title": "附件2",
+      "level": 1,
+      "reading_guide": null,
+      "paragraphs": []
+    },
+    {
+      "section_id": "doc_d048932e84de#附件2 > 中国证监会决定废止的规范性文件",
+      "section_path": "附件2 > 中国证监会决定废止的规范性文件",
+      "title": "中国证监会决定废止的规范性文件",
+      "level": 2,
+      "reading_guide": {
+        "has": "上市公司监管指引第1号/重大资产重组未弥补亏损/现金分红通知/证监会公告〔2012〕6号/证监发〔2012〕37号",
+        "for": [
+          "废止文件",
+          "重组规则",
+          "分红政策",
+          "监管依据"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d048932e84de#附件2 > 中国证监会决定废止的规范性文件_p0",
+          "para_index": 0,
+          "content": "一、上市公司监管指引第1 号——上市公司实施重大资产重组后存在未弥补亏损情形的监管要求（2012 年3 月23 日 证监会公告〔2012〕6 号）\n二、关于进一步落实上市公司现金分红有关事项的通知（2012年 5 月 4 日 证监发〔2012〕37 号）",
+          "sentences": [
+            {
+              "sentence_id": "doc_d048932e84de#附件2 > 中国证监会决定废止的规范性文件_p0_s0",
+              "text": "一、上市公司监管指引第1 号——上市公司实施重大资产重组后存在未弥补亏损情形的监管要求（2012 年3 月23 日 证监会公告〔2012〕6 号）\n二、关于进一步落实上市公司现金分红有关事项的通知（2012年 5 月 4 日 证监发〔2012〕37 号）",
+              "location": {
+                "doc_id": "doc_d048932e84de",
+                "section_path": "附件2 > 中国证监会决定废止的规范性文件",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_d1dbb692505f",
+      "entity_type": "LegalDocument",
+      "mention": "上市公司监管指引第1 号——上市公司实施重大资产重组后存在未弥补亏损情形的监管要求",
+      "canonical_name": "上市公司监管指引第1号——上市公司实施重大资产重组后存在未弥补亏损情形的监管要求",
+      "attributes": {
+        "issue_date": "2012-03-23",
+        "document_number": "证监会公告〔2012〕6 号"
+      },
+      "sentence_id": "doc_d048932e84de#附件2 > 中国证监会决定废止的规范性文件_p0_s0",
+      "sentence_ids": [
+        "doc_d048932e84de#附件2 > 中国证监会决定废止的规范性文件_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_01852c1003f0",
+      "entity_type": "LegalDocument",
+      "mention": "关于进一步落实上市公司现金分红有关事项的通知",
+      "canonical_name": "关于进一步落实上市公司现金分红有关事项的通知",
+      "attributes": {
+        "issue_date": "2012-05-04",
+        "document_number": "证监发〔2012〕37 号"
+      },
+      "sentence_id": "doc_d048932e84de#附件2 > 中国证监会决定废止的规范性文件_p0_s0",
+      "sentence_ids": [
+        "doc_d048932e84de#附件2 > 中国证监会决定废止的规范性文件_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

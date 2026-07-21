@@ -1,0 +1,844 @@
+{
+  "doc_id": "doc_10b2bbd158f7",
+  "title": "《关于短线交易监管的若干规定》起草说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0014_att2.md",
+  "processed_at": "2026-07-21T00:20:07.418171+00:00",
+  "structured_data": {
+    "title": "关于短线交易监管的若干规定"
+  },
+  "stats": {
+    "sections": 5,
+    "paragraphs": 5,
+    "sentences": 39,
+    "entities": 16,
+    "relations": 6,
+    "rejected": 0,
+    "llm_calls": 441,
+    "llm_tokens": 808217,
+    "elapsed_seconds": 12.67
+  },
+  "sections": [
+    {
+      "section_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明",
+      "section_path": "《关于短线交易监管的若干规定》起草说明",
+      "title": "《关于短线交易监管的若干规定》起草说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "《证券法》要求/优化短线交易监管/保护投资者合法权益/稳定市场预期/中国证监会制定",
+        "for": [
+          "立法依据",
+          "监管目标",
+          "制定机构"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明_p0",
+          "para_index": 0,
+          "content": "为落实《中华人民共和国证券法》（以下简称《证券法》）要求，优化短线交易监管，保护投资者合法权益，稳定市场预期，中国证监会研究制定了《关于短线交易监管的若干规定》（以下简称《规定》）。现将有关起草情况说明如下。",
+          "sentences": [
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明_p0_s0",
+              "text": "为落实《中华人民共和国证券法》（以下简称《证券法》）要求，优化短线交易监管，保护投资者合法权益，稳定市场预期，中国证监会研究制定了《关于短线交易监管的若干规定》（以下简称《规定》）。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明_p0_s1",
+              "text": "现将有关起草情况说明如下。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 一、起草背景",
+      "section_path": "《关于短线交易监管的若干规定》起草说明 > 一、起草背景",
+      "title": "一、起草背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "《证券法》第44条/短线交易制度/适用主体/证券范围/投资者身份界定/买卖时点认定/持股计算口径/可转债转股/继承/捐赠/做市业务/豁免情形",
+        "for": [
+          "法律依据",
+          "制度背景",
+          "豁免情形",
+          "监管要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 一、起草背景_p0",
+          "para_index": 0,
+          "content": "一是贯彻执行《证券法》。《证券法》第 44 条规定了短线交易制度，并完善了适用主体、证券范围等。为贯彻《证券法》要求，便于实践中执行认定，需进一步明确投资者身份界定、买卖时点认定、持股计算口径等核心要素。二是顺应市场发展需要。实践中存在一些特定情形，如可转换公司债券（以下简称可转债）转股、继承、捐赠、做市业务等，在执行过程中应当予以豁免。近年来，境外市场在实践中对类似情形豁免适用短线交易制度。《证券法》也授权中国证监会规定短线交易制度豁免情形。三是监管实践不断丰富。近年来，立法、司法机关及监管机构在实践中积累了一定经验，为完善短线交易制度打下坚实基础，有助于进一步明确监管要求，稳定市场预期。",
+          "sentences": [
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 一、起草背景_p0_s0",
+              "text": "一是贯彻执行《证券法》。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 一、起草背景_p0_s1",
+              "text": "《证券法》第 44 条规定了短线交易制度，并完善了适用主体、证券范围等。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 一、起草背景_p0_s2",
+              "text": "为贯彻《证券法》要求，便于实践中执行认定，需进一步明确投资者身份界定、买卖时点认定、持股计算口径等核心要素。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 一、起草背景_p0_s3",
+              "text": "二是顺应市场发展需要。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 一、起草背景_p0_s4",
+              "text": "实践中存在一些特定情形，如可转换公司债券（以下简称可转债）转股、继承、捐赠、做市业务等，在执行过程中应当予以豁免。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 一、起草背景_p0_s5",
+              "text": "近年来，境外市场在实践中对类似情形豁免适用短线交易制度。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 一、起草背景_p0_s6",
+              "text": "《证券法》也授权中国证监会规定短线交易制度豁免情形。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 一、起草背景_p0_s7",
+              "text": "三是监管实践不断丰富。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 一、起草背景_p0_s8",
+              "text": "近年来，立法、司法机关及监管机构在实践中积累了一定经验，为完善短线交易制度打下坚实基础，有助于进一步明确监管要求，稳定市场预期。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 二、起草原则",
+      "section_path": "《关于短线交易监管的若干规定》起草说明 > 二、起草原则",
+      "title": "二、起草原则",
+      "level": 2,
+      "reading_guide": {
+        "has": "依法规制/尊重实践/内外一致/大股东/董监高/短线交易适用标准/豁免情形/境外公募基金",
+        "for": [
+          "监管原则",
+          "适用对象",
+          "豁免情形",
+          "外资政策"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 二、起草原则_p0",
+          "para_index": 0,
+          "content": "一是依法规制。严格依照《证券法》立法精神及有关监管规定，明确持有上市公司或新三板挂牌公司百分之五以上股份的股东（以下简称大股东）、董事、监事、高级管理人员（以下简称董监高）等特定身份投资者短线交易适用标准和豁免情形，夯实监管制度。二是尊重实践。系统梳理司法实践及公司监管、机构监管、稽查处罚、交易场所自律管理等实践成熟经验做法，总结形成制度规范。三是内外一致。对境内外投资者一视同仁，积极回应外资关切，在依法合规前提下，对于符合要求的境外公募基金，允许其按产品或组合计算持有证券数量。",
+          "sentences": [
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 二、起草原则_p0_s0",
+              "text": "一是依法规制。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 二、起草原则",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 二、起草原则_p0_s1",
+              "text": "严格依照《证券法》立法精神及有关监管规定，明确持有上市公司或新三板挂牌公司百分之五以上股份的股东（以下简称大股东）、董事、监事、高级管理人员（以下简称董监高）等特定身份投资者短线交易适用标准和豁免情形，夯实监管制度。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 二、起草原则",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 二、起草原则_p0_s2",
+              "text": "二是尊重实践。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 二、起草原则",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 二、起草原则_p0_s3",
+              "text": "系统梳理司法实践及公司监管、机构监管、稽查处罚、交易场所自律管理等实践成熟经验做法，总结形成制度规范。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 二、起草原则",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 二、起草原则_p0_s4",
+              "text": "三是内外一致。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 二、起草原则",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 二、起草原则_p0_s5",
+              "text": "对境内外投资者一视同仁，积极回应外资关切，在依法合规前提下，对于符合要求的境外公募基金，允许其按产品或组合计算持有证券数量。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 二、起草原则",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+      "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+      "title": "三、主要内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "适用主体/董监高/大股东/证券范围/股票/存托凭证/可交债/可转债/过户登记日/持股合并计算标准/名义持有人豁免/跨品种不合并/境外投资者合并/13种豁免情形/",
+        "for": [
+          "监管对象",
+          "认定标准",
+          "豁免情形",
+          "机构规则"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0",
+          "para_index": 0,
+          "content": "《规定》全文共12 条，主要包括以下4 方面内容。\n（一）明确适用主体和券种范围。在短线交易主体上，对于买入卖出时均具备大股东、董监高身份和买入时不具备特定身份但卖出时具备的，纳入规制范围。明确所涉证券范围包括股票及存托凭证、可交换公司债券（以下简称可交债）、可转债等其他具有股权性质的证券。\n（二）明确持股和交易时点的认定计算标准。结合监管实践，明确了一系列认定和计算标准，具体包括：一是买入、卖出时点以证券过户登记日为准。二是大股东百分之五以上持股比例按照同一上市公司、新三板挂牌公司在境内外已发行或者挂牌并公开转让的股份合并计算。三是香港中央结算有限公司在互联互通机制下作为名义持有人持股超百分之五以上的不认定为大股东。四是认定短线交易涉及的证券不作跨品种合并计算。五是同一境外投资者应当将其通过合格境外机构投资者、人民币合格境外机构投资者、外国战略投资者、沪深港通机制持有的证券数量合并计算。\n（三）规定豁免适用情形。明确了 13 种豁免情形，主要涵盖3 类情况：一是根据产品或者业务制度设计，市场对相关业务环节有明确预期，需要支持业务发展的，如优先股转股，可转债转股、赎回、回售，可交债换股、赎回、回售，ETF 认购、申购、赎回，股权激励相关授予、登记、行权，做市业务等。二是因客观非交易因素导致持股变动的，如司法强制执行、继承、捐赠，国有股份无偿划转等。三是根据监管规定或为应对重大金融风险、维护金融稳定需要依法依规进行的交易行为，如欺诈发行责令回购，违规减持责令购回等。为防范利用豁免情形规避监管，《规定》明确上述行为如涉及利用信息优势等谋取非法利益的，不予豁免。\n（四）明确机构适用安排。对 3 类由专业机构管理、按照产品或组合单独开立证券账户的情形，按产品或组合的一码通账户单独计算持股：一是境内公募基金、全国社保基金、基本养老保险基金、年金基金、保险资金等。二是证券期货基金经营机构管理的集合私募资管产品以及符合监管要求的私募证券投资基金。三是通过合格境外投资者以及沪深港通机制参与境内证券交易，并按要求报送相应产品的北向持股情况的境外公募基金。为防止利用该项措施规避监管，《规定》明确上述产品或组合如无法独立规范运作或者在交易过程中存在利益冲突、违法违规等情形，将不予单独计算持有证券数量。",
+          "sentences": [
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s0",
+              "text": "《规定》全文共12 条，主要包括以下4 方面内容。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s1",
+              "text": "（一）明确适用主体和券种范围。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s2",
+              "text": "在短线交易主体上，对于买入卖出时均具备大股东、董监高身份和买入时不具备特定身份但卖出时具备的，纳入规制范围。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s3",
+              "text": "明确所涉证券范围包括股票及存托凭证、可交换公司债券（以下简称可交债）、可转债等其他具有股权性质的证券。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s4",
+              "text": "（二）明确持股和交易时点的认定计算标准。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s5",
+              "text": "结合监管实践，明确了一系列认定和计算标准，具体包括：一是买入、卖出时点以证券过户登记日为准。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s6",
+              "text": "二是大股东百分之五以上持股比例按照同一上市公司、新三板挂牌公司在境内外已发行或者挂牌并公开转让的股份合并计算。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s7",
+              "text": "三是香港中央结算有限公司在互联互通机制下作为名义持有人持股超百分之五以上的不认定为大股东。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s8",
+              "text": "四是认定短线交易涉及的证券不作跨品种合并计算。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s9",
+              "text": "五是同一境外投资者应当将其通过合格境外机构投资者、人民币合格境外机构投资者、外国战略投资者、沪深港通机制持有的证券数量合并计算。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s10",
+              "text": "（三）规定豁免适用情形。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s11",
+              "text": "明确了 13 种豁免情形，主要涵盖3 类情况：一是根据产品或者业务制度设计，市场对相关业务环节有明确预期，需要支持业务发展的，如优先股转股，可转债转股、赎回、回售，可交债换股、赎回、回售，ETF 认购、申购、赎回，股权激励相关授予、登记、行权，做市业务等。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s12",
+              "text": "二是因客观非交易因素导致持股变动的，如司法强制执行、继承、捐赠，国有股份无偿划转等。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s13",
+              "text": "三是根据监管规定或为应对重大金融风险、维护金融稳定需要依法依规进行的交易行为，如欺诈发行责令回购，违规减持责令购回等。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s14",
+              "text": "为防范利用豁免情形规避监管，《规定》明确上述行为如涉及利用信息优势等谋取非法利益的，不予豁免。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s15",
+              "text": "（四）明确机构适用安排。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s16",
+              "text": "对 3 类由专业机构管理、按照产品或组合单独开立证券账户的情形，按产品或组合的一码通账户单独计算持股：一是境内公募基金、全国社保基金、基本养老保险基金、年金基金、保险资金等。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s17",
+              "text": "二是证券期货基金经营机构管理的集合私募资管产品以及符合监管要求的私募证券投资基金。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 17
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s18",
+              "text": "三是通过合格境外投资者以及沪深港通机制参与境内证券交易，并按要求报送相应产品的北向持股情况的境外公募基金。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 18
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s19",
+              "text": "为防止利用该项措施规避监管，《规定》明确上述产品或组合如无法独立规范运作或者在交易过程中存在利益冲突、违法违规等情形，将不予单独计算持有证券数量。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 19
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 四、公开征求意见及采纳情况",
+      "section_path": "《关于短线交易监管的若干规定》起草说明 > 四、公开征求意见及采纳情况",
+      "title": "四、公开征求意见及采纳情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "公开征求意见情况/市场反馈/买卖时点计算意见/ETF豁免适用意见/重大原则性意见/采纳情况",
+        "for": [
+          "监管意见",
+          "制度修改",
+          "采纳结果",
+          "争议焦点"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 四、公开征求意见及采纳情况_p0",
+          "para_index": 0,
+          "content": "公开征求意见期间，市场各方积极支持，认为《规定》立足我国资本市场发展现状和监管实践，完善短线交易制度，细化明确监管标准，有利于保护投资者合法权益，提升交易便利性，激发市场活力，提振投资者信心。相关意见主要涉及买卖时点计算、ETF 豁免适用等，不涉及重大原则性意见，已充分吸收采纳或解释说明。",
+          "sentences": [
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 四、公开征求意见及采纳情况_p0_s0",
+              "text": "公开征求意见期间，市场各方积极支持，认为《规定》立足我国资本市场发展现状和监管实践，完善短线交易制度，细化明确监管标准，有利于保护投资者合法权益，提升交易便利性，激发市场活力，提振投资者信心。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 四、公开征求意见及采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 四、公开征求意见及采纳情况_p0_s1",
+              "text": "相关意见主要涉及买卖时点计算、ETF 豁免适用等，不涉及重大原则性意见，已充分吸收采纳或解释说明。",
+              "location": {
+                "doc_id": "doc_10b2bbd158f7",
+                "section_path": "《关于短线交易监管的若干规定》起草说明 > 四、公开征求意见及采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_b1e498fd9ea7",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国证券法》",
+      "canonical_name": "中华人民共和国证券法",
+      "attributes": {},
+      "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fb8dc1032a95",
+      "entity_type": "LegalDocument",
+      "mention": "《关于短线交易监管的若干规定》",
+      "canonical_name": "关于短线交易监管的若干规定",
+      "attributes": {},
+      "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6793f79c5868",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c50f2c9c39a3",
+      "entity_type": "Clause",
+      "mention": "《证券法》第 44 条",
+      "canonical_name": "证券法第44条",
+      "attributes": {},
+      "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 一、起草背景_p0_s1",
+      "sentence_ids": [
+        "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 一、起草背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1ccd8658056d",
+      "entity_type": "",
+      "mention": "短线交易制度",
+      "canonical_name": "短线交易制度",
+      "attributes": {},
+      "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 一、起草背景_p0_s1",
+      "sentence_ids": [
+        "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 一、起草背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c99ae5a06bd5",
+      "entity_type": "LegalTerm",
+      "mention": "大股东",
+      "canonical_name": "大股东",
+      "attributes": {
+        "definition": "持有上市公司或新三板挂牌公司百分之五以上股份的股东"
+      },
+      "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 二、起草原则_p0_s1",
+      "sentence_ids": [
+        "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 二、起草原则_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2333bbe7f9ff",
+      "entity_type": "LegalTerm",
+      "mention": "董监高",
+      "canonical_name": "董监高",
+      "attributes": {
+        "definition": "董事、监事、高级管理人员"
+      },
+      "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 二、起草原则_p0_s1",
+      "sentence_ids": [
+        "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 二、起草原则_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0ba1ccf2204f",
+      "entity_type": "Percentage",
+      "mention": "百分之五",
+      "canonical_name": "5%",
+      "attributes": {},
+      "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 二、起草原则_p0_s1",
+      "sentence_ids": [
+        "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 二、起草原则_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c9bf19fb4a79",
+      "entity_type": "Organization",
+      "mention": "香港中央结算有限公司",
+      "canonical_name": "香港中央结算有限公司",
+      "attributes": {},
+      "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s7",
+      "sentence_ids": [
+        "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s7"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e235af82133d",
+      "entity_type": "InsuranceProduct",
+      "mention": "优先股",
+      "canonical_name": "优先股",
+      "attributes": {},
+      "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s11",
+      "sentence_ids": [
+        "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s11"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_361288296a6e",
+      "entity_type": "InsuranceProduct",
+      "mention": "可转债",
+      "canonical_name": "可转换公司债券",
+      "attributes": {},
+      "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s11",
+      "sentence_ids": [
+        "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s11"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cfa2820a9354",
+      "entity_type": "InsuranceProduct",
+      "mention": "可交债",
+      "canonical_name": "可交换公司债券",
+      "attributes": {},
+      "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s11",
+      "sentence_ids": [
+        "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s11"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f2afb5b5091e",
+      "entity_type": "InsuranceProduct",
+      "mention": "ETF",
+      "canonical_name": "ETF",
+      "attributes": {},
+      "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s11",
+      "sentence_ids": [
+        "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s11"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_42fbf26ce28f",
+      "entity_type": "InsuranceCoverage",
+      "mention": "转股",
+      "canonical_name": "转股豁免",
+      "attributes": {},
+      "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s11",
+      "sentence_ids": [
+        "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s11"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ea2c07729180",
+      "entity_type": "Exclusion",
+      "mention": "利用信息优势等谋取非法利益",
+      "canonical_name": "利用信息优势谋取非法利益",
+      "attributes": {},
+      "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s14",
+      "sentence_ids": [
+        "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 三、主要内容_p0_s14"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_42f1343bc91c",
+      "entity_type": "Industry",
+      "mention": "资本市场",
+      "canonical_name": "资本市场",
+      "attributes": {},
+      "sentence_id": "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 四、公开征求意见及采纳情况_p0_s0",
+      "sentence_ids": [
+        "doc_10b2bbd158f7#《关于短线交易监管的若干规定》起草说明 > 四、公开征求意见及采纳情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_f6d4fc087d66_rel_0b562b694017",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fb8dc1032a95",
+      "tail_entity_id": "ent_b1e498fd9ea7",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_10b2bbd158f7",
+        "section_path": "《关于短线交易监管的若干规定》起草说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f6d4fc087d66_rel_ecb43bfe36df",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_c50f2c9c39a3",
+      "tail_entity_id": "ent_1ccd8658056d",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_10b2bbd158f7",
+        "section_path": "《关于短线交易监管的若干规定》起草说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f6d4fc087d66_rel_8df450c1be2c",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_fb8dc1032a95",
+      "tail_entity_id": "ent_c99ae5a06bd5",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_10b2bbd158f7",
+        "section_path": "《关于短线交易监管的若干规定》起草说明 > 二、起草原则",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f6d4fc087d66_rel_1d2f28869dbf",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_fb8dc1032a95",
+      "tail_entity_id": "ent_2333bbe7f9ff",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_10b2bbd158f7",
+        "section_path": "《关于短线交易监管的若干规定》起草说明 > 二、起草原则",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f6d4fc087d66_rel_ab56f8e0467c",
+      "relation_type": "excludes_risk",
+      "head_entity_id": "ent_fb8dc1032a95",
+      "tail_entity_id": "ent_ea2c07729180",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_10b2bbd158f7",
+        "section_path": "《关于短线交易监管的若干规定》起草说明 > 三、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 14
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f6d4fc087d66_rel_1e0cdf30b8ed",
+      "relation_type": "analyzes_industry",
+      "head_entity_id": "ent_fb8dc1032a95",
+      "tail_entity_id": "ent_42f1343bc91c",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_10b2bbd158f7",
+        "section_path": "《关于短线交易监管的若干规定》起草说明 > 四、公开征求意见及采纳情况",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,217 @@
+{
+  "doc_id": "doc_e5bd069f6adf",
+  "title": "关于修改、废止部分证券期货规范性文件的决定",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0036_att1.md",
+  "processed_at": "2026-07-21T00:39:00.509776+00:00",
+  "structured_data": {
+    "title": "关于修改、废止部分证券期货规范性文件的决定"
+  },
+  "stats": {
+    "sections": 1,
+    "paragraphs": 1,
+    "sentences": 5,
+    "entities": 5,
+    "relations": 3,
+    "rejected": 0,
+    "llm_calls": 1404,
+    "llm_tokens": 1934244,
+    "elapsed_seconds": 5.18
+  },
+  "sections": [
+    {
+      "section_id": "doc_e5bd069f6adf#关于修改、废止部分证券期货规范性文件的决定",
+      "section_path": "关于修改、废止部分证券期货规范性文件的决定",
+      "title": "关于修改、废止部分证券期货规范性文件的决定",
+      "level": 1,
+      "reading_guide": {
+        "has": "65部修改文件/2部废止文件/附件1修改清单/附件2废止清单/施行日期",
+        "for": [
+          "法规清理",
+          "文件废止",
+          "条款修改",
+          "新规施行"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_e5bd069f6adf#关于修改、废止部分证券期货规范性文件的决定_p0",
+          "para_index": 0,
+          "content": "为做好新修订的《公司法》的贯彻落实工作，中国证监会对有关证券期货规范性文件进行了清理。经过清理，中国证监会决定：\n一、对 65 部规范性文件的部分条款予以修改。（附件 1）\n二、对2 部规范性文件予以废止。（附件 2）\n本决定自公布之日起施行。\n附件：1.中国证监会决定修改的规范性文件\n2.中国证监会决定废止的规范性文件",
+          "sentences": [
+            {
+              "sentence_id": "doc_e5bd069f6adf#关于修改、废止部分证券期货规范性文件的决定_p0_s0",
+              "text": "为做好新修订的《公司法》的贯彻落实工作，中国证监会对有关证券期货规范性文件进行了清理。",
+              "location": {
+                "doc_id": "doc_e5bd069f6adf",
+                "section_path": "关于修改、废止部分证券期货规范性文件的决定",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_e5bd069f6adf#关于修改、废止部分证券期货规范性文件的决定_p0_s1",
+              "text": "经过清理，中国证监会决定：\n一、对 65 部规范性文件的部分条款予以修改。",
+              "location": {
+                "doc_id": "doc_e5bd069f6adf",
+                "section_path": "关于修改、废止部分证券期货规范性文件的决定",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_e5bd069f6adf#关于修改、废止部分证券期货规范性文件的决定_p0_s2",
+              "text": "（附件 1）\n二、对2 部规范性文件予以废止。",
+              "location": {
+                "doc_id": "doc_e5bd069f6adf",
+                "section_path": "关于修改、废止部分证券期货规范性文件的决定",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_e5bd069f6adf#关于修改、废止部分证券期货规范性文件的决定_p0_s3",
+              "text": "（附件 2）\n本决定自公布之日起施行。",
+              "location": {
+                "doc_id": "doc_e5bd069f6adf",
+                "section_path": "关于修改、废止部分证券期货规范性文件的决定",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_e5bd069f6adf#关于修改、废止部分证券期货规范性文件的决定_p0_s4",
+              "text": "附件：1.中国证监会决定修改的规范性文件\n2.中国证监会决定废止的规范性文件",
+              "location": {
+                "doc_id": "doc_e5bd069f6adf",
+                "section_path": "关于修改、废止部分证券期货规范性文件的决定",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_5db6dd872df0",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_e5bd069f6adf#关于修改、废止部分证券期货规范性文件的决定_p0_s0",
+      "sentence_ids": [
+        "doc_e5bd069f6adf#关于修改、废止部分证券期货规范性文件的决定_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a09ab320b9e8",
+      "entity_type": "LegalDocument",
+      "mention": "《公司法》",
+      "canonical_name": "公司法",
+      "attributes": {},
+      "sentence_id": "doc_e5bd069f6adf#关于修改、废止部分证券期货规范性文件的决定_p0_s0",
+      "sentence_ids": [
+        "doc_e5bd069f6adf#关于修改、废止部分证券期货规范性文件的决定_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c45780c524a7",
+      "entity_type": "Clause",
+      "mention": "部分条款予以修改",
+      "canonical_name": "规范性文件修改条款",
+      "attributes": {
+        "count": 65
+      },
+      "sentence_id": "doc_e5bd069f6adf#关于修改、废止部分证券期货规范性文件的决定_p0_s1",
+      "sentence_ids": [
+        "doc_e5bd069f6adf#关于修改、废止部分证券期货规范性文件的决定_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c8f22cdd53df",
+      "entity_type": "Clause",
+      "mention": "予以废止",
+      "canonical_name": "规范性文件废止条款",
+      "attributes": {
+        "count": 2
+      },
+      "sentence_id": "doc_e5bd069f6adf#关于修改、废止部分证券期货规范性文件的决定_p0_s2",
+      "sentence_ids": [
+        "doc_e5bd069f6adf#关于修改、废止部分证券期货规范性文件的决定_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5041db48ce0c",
+      "entity_type": "Date",
+      "mention": "公布之日",
+      "canonical_name": "公布之日",
+      "attributes": {},
+      "sentence_id": "doc_e5bd069f6adf#关于修改、废止部分证券期货规范性文件的决定_p0_s3",
+      "sentence_ids": [
+        "doc_e5bd069f6adf#关于修改、废止部分证券期货规范性文件的决定_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_f828fe537eeb_rel_ad9806a75ab4",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_c45780c524a7",
+      "tail_entity_id": "ent_a09ab320b9e8",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_e5bd069f6adf",
+        "section_path": "关于修改、废止部分证券期货规范性文件的决定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f828fe537eeb_rel_e3d071afd09c",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_c45780c524a7",
+      "tail_entity_id": "ent_c45780c524a7",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_e5bd069f6adf",
+        "section_path": "关于修改、废止部分证券期货规范性文件的决定",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f828fe537eeb_rel_75be225a0426",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_c8f22cdd53df",
+      "tail_entity_id": "ent_c8f22cdd53df",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_e5bd069f6adf",
+        "section_path": "关于修改、废止部分证券期货规范性文件的决定",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

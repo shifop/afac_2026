@@ -1,0 +1,887 @@
+{
+  "doc_id": "doc_3562795b0932",
+  "title": "《期货公司分类评价规定》修订说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0025_att2.md",
+  "processed_at": "2026-07-21T00:28:38.364270+00:00",
+  "structured_data": {
+    "title": "期货公司分类评价规定"
+  },
+  "stats": {
+    "sections": 6,
+    "paragraphs": 6,
+    "sentences": 35,
+    "entities": 22,
+    "relations": 5,
+    "rejected": 0,
+    "llm_calls": 670,
+    "llm_tokens": 1200176,
+    "elapsed_seconds": 14.42
+  },
+  "sections": [
+    {
+      "section_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明",
+      "section_path": "《期货公司分类评价规定》修订说明",
+      "title": "《期货公司分类评价规定》修订说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "修订背景/二十届三中全会/中央金融工作会议/国办发〔2024〕47号/监管资源/监管效率",
+        "for": [
+          "修订依据",
+          "政策背景",
+          "监管目标"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明_p0",
+          "para_index": 0,
+          "content": "为贯彻党的二十届三中全会、中央金融工作会议和《国务院办公厅转发中国证监会等部门<关于加强监管防范风险促进期货市场高质量发展的意见>的通知》（国办发〔202447 号）有关精神，有效实施对期货公司的监督管理，合理配置监管资源，提高监管效率，我会对《期货公司分类监管规定》进行修订，形成了《期货公司分类评价规定》（以下简称《规定》）。现将有关修订情况说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明_p0_s0",
+              "text": "为贯彻党的二十届三中全会、中央金融工作会议和《国务院办公厅转发中国证监会等部门<关于加强监管防范风险促进期货市场高质量发展的意见>的通知》（国办发〔202447 号）有关精神，有效实施对期货公司的监督管理，合理配置监管资源，提高监管效率，我会对《期货公司分类监管规定》进行修订，形成了《期货公司分类评价规定》（以下简称《规定》）。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明_p0_s1",
+              "text": "现将有关修订情况说明如下：",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 一、修订背景",
+      "section_path": "《期货公司分类评价规定》修订说明 > 一、修订背景",
+      "title": "一、修订背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "期货公司分类评价制度/监管基础制度/2009年发布/2011年修订/2019年修订/2022年修订/合规经营/稳健发展/市场形势变化",
+        "for": [
+          "制度沿革",
+          "修订历史",
+          "监管背景",
+          "实施效果"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 一、修订背景_p0",
+          "para_index": 0,
+          "content": "期货公司分类评价制度是期货公司监管的基础性制度。2009 年，我会发布《期货公司分类监管规定（试行）》，并历经 2011 年、2019 年、2022 年三次修订。分类评价制度实施以来，在促进期货公司合规经营、稳健发展等方面发挥了重要的引领和导向作用。近年来，随着市场形势和行业状况的发展变化，分类评价制度的一些不足逐渐显现。为更好发挥分类评价作用，我会对《期货公司分类监管规定》进行修订。",
+          "sentences": [
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 一、修订背景_p0_s0",
+              "text": "期货公司分类评价制度是期货公司监管的基础性制度。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 一、修订背景_p0_s1",
+              "text": "2009 年，我会发布《期货公司分类监管规定（试行）》，并历经 2011 年、2019 年、2022 年三次修订。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 一、修订背景_p0_s2",
+              "text": "分类评价制度实施以来，在促进期货公司合规经营、稳健发展等方面发挥了重要的引领和导向作用。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 一、修订背景_p0_s3",
+              "text": "近年来，随着市场形势和行业状况的发展变化，分类评价制度的一些不足逐渐显现。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 一、修订背景_p0_s4",
+              "text": "为更好发挥分类评价作用，我会对《期货公司分类监管规定》进行修订。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 二、修订原则",
+      "section_path": "《期货公司分类评价规定》修订说明 > 二、修订原则",
+      "title": "二、修订原则",
+      "level": 2,
+      "reading_guide": {
+        "has": "目标导向/合规风控能力/监管效能/协调统一/扣分指标标准/加分逻辑/简化指标流程/压降专项评价",
+        "for": [
+          "修订原则",
+          "监管目标",
+          "评价指标",
+          "流程优化"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 二、修订原则_p0",
+          "para_index": 0,
+          "content": "一是坚持目标导向。通过完善分类评价制度，更好反映期货公司合规风控能力，提高对期货公司监管效能，引导期货公司合规稳健经营。二是坚持协调统一。统一扣分指标的评价标准和扣分逻辑，统一市场竞争力等指标的加分逻辑。三是简化指标流程。删除和简化部分指标，优化评价流程，压降专项评价指标，减轻行业负担。",
+          "sentences": [
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 二、修订原则_p0_s0",
+              "text": "一是坚持目标导向。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > 二、修订原则",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 二、修订原则_p0_s1",
+              "text": "通过完善分类评价制度，更好反映期货公司合规风控能力，提高对期货公司监管效能，引导期货公司合规稳健经营。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > 二、修订原则",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 二、修订原则_p0_s2",
+              "text": "二是坚持协调统一。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > 二、修订原则",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 二、修订原则_p0_s3",
+              "text": "统一扣分指标的评价标准和扣分逻辑，统一市场竞争力等指标的加分逻辑。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > 二、修订原则",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 二、修订原则_p0_s4",
+              "text": "三是简化指标流程。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > 二、修订原则",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 二、修订原则_p0_s5",
+              "text": "删除和简化部分指标，优化评价流程，压降专项评价指标，减轻行业负担。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > 二、修订原则",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 三、修订内容",
+      "section_path": "《期货公司分类评价规定》修订说明 > 三、修订内容",
+      "title": "三、修订内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "规则标题变更/《期货公司分类监管规定》调整为《期货公司分类评价规定》",
+        "for": [
+          "修订内容",
+          "法规名称"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 三、修订内容_p0",
+          "para_index": 0,
+          "content": "此次修改，将规则标题由《期货公司分类监管规定》调整为《期货公司分类评价规定》，同时重点修改完善以下两方面内容：",
+          "sentences": [
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 三、修订内容_p0_s0",
+              "text": "此次修改，将规则标题由《期货公司分类监管规定》调整为《期货公司分类评价规定》，同时重点修改完善以下两方面内容：",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > 三、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （一）完善扣分标准",
+      "section_path": "《期货公司分类评价规定》修订说明 > （一）完善扣分标准",
+      "title": "（一）完善扣分标准",
+      "level": 2,
+      "reading_guide": {
+        "has": "扣分依据/监管措施类型/行政处罚类型/分值标准/重复扣分规则/股东实控人违规纳入评价",
+        "for": [
+          "扣分标准",
+          "处罚类型",
+          "评分规则",
+          "违规处理"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （一）完善扣分标准_p0",
+          "para_index": 0,
+          "content": "一是明确扣分依据。对期货公司扣分，原则上均需以生效的监管措施等法律文件为依据，按照措施扣分。\n二是完善监管措施类型和对应分值。详细梳理现有期货公司监管法律法规包含的监管措施、行政处罚类型，根据措施轻重程度，分门别类赋予不同的扣分分值。\n三是消除重复扣分。对于因同一违规事项分别对公司和人员采取监管措施的，不重复扣分，调整为择其重者扣分。\n四是将股东、实控人违规行为纳入对公司的评价，督促相关主体遵守期货公司监管法律法规。",
+          "sentences": [
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （一）完善扣分标准_p0_s0",
+              "text": "一是明确扣分依据。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （一）完善扣分标准",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （一）完善扣分标准_p0_s1",
+              "text": "对期货公司扣分，原则上均需以生效的监管措施等法律文件为依据，按照措施扣分。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （一）完善扣分标准",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （一）完善扣分标准_p0_s2",
+              "text": "二是完善监管措施类型和对应分值。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （一）完善扣分标准",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （一）完善扣分标准_p0_s3",
+              "text": "详细梳理现有期货公司监管法律法规包含的监管措施、行政处罚类型，根据措施轻重程度，分门别类赋予不同的扣分分值。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （一）完善扣分标准",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （一）完善扣分标准_p0_s4",
+              "text": "三是消除重复扣分。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （一）完善扣分标准",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （一）完善扣分标准_p0_s5",
+              "text": "对于因同一违规事项分别对公司和人员采取监管措施的，不重复扣分，调整为择其重者扣分。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （一）完善扣分标准",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （一）完善扣分标准_p0_s6",
+              "text": "四是将股东、实控人违规行为纳入对公司的评价，督促相关主体遵守期货公司监管法律法规。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （一）完善扣分标准",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准",
+      "section_path": "《期货公司分类评价规定》修订说明 > （二）优化加分标准",
+      "title": "（二）优化加分标准",
+      "level": 2,
+      "reading_guide": {
+        "has": "产业客户日均持仓/机构客户日均持仓/经纪业务净收入/期货交易咨询业务净收入/期货做市/衍生品交易/期货资产管理产品日均持仓保证金/月均净资本/成本管理能力/净资",
+        "for": [
+          "加分标准",
+          "指标调整",
+          "删除项",
+          "专项评价",
+          "激励情形"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0",
+          "para_index": 0,
+          "content": "一是优化完善服务实体经济能力指标。增加“产业客户日均持仓”指标，调整“机构客户日均持仓”指标，对评价期内期货公司服务产业客户、机构客户情况进行评价，突出对产业客户参与商品期货市场以及机构客户参与金融期货市场的支持。\n二是重塑市场竞争力加分体系。将市场竞争力指标调整为三大类 9 项指标，全面评价期货公司各项业务开展情况、整体盈利水平和资本实力。除净利润指标保持不变外，将原业务收入指标按具体业务类型拆分为经纪业务净收入和期货交易咨询业务净收入指标，并增加期货做市、衍生品交易业务等指标；将对资产管理业务的评价指标由期货资产管理产品日均衍生品权益调整为期货资产管理产品日均持仓保证金，将年末剩余净资本指标调整为月均净资本指标，作为市场竞争力评价的一部分。\n三是删除部分评价指标。删除“成本管理能力”“净资产收益率”两项指标，鼓励期货公司加大投入，规模化经营；删除“期货公司加权调整后日均客户权益总额排名行业中位数以下的，不得评为 A 类”等限制性条件，以适应期货公司业务范围的增加。\n四是调整专项评价。将“保险+期货”由服务实体经济评价移至专项评价，作为服务国家战略专项评价的一部分；将党建与文化建设专项评价写入《规定》，并将交易者教育并入党建与文化建设专项评价。\n五是调整特殊情形激励评价。对期货公司配合监管部门开展风险处置、期货公司最近 3 个评价期内持续合规状况和风险管理能力无任何扣分、期货公司与其他期货公司合并等情形予以加分激励。",
+          "sentences": [
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s0",
+              "text": "一是优化完善服务实体经济能力指标。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （二）优化加分标准",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s1",
+              "text": "增加“产业客户日均持仓”指标，调整“机构客户日均持仓”指标，对评价期内期货公司服务产业客户、机构客户情况进行评价，突出对产业客户参与商品期货市场以及机构客户参与金融期货市场的支持。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （二）优化加分标准",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s2",
+              "text": "二是重塑市场竞争力加分体系。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （二）优化加分标准",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s3",
+              "text": "将市场竞争力指标调整为三大类 9 项指标，全面评价期货公司各项业务开展情况、整体盈利水平和资本实力。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （二）优化加分标准",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s4",
+              "text": "除净利润指标保持不变外，将原业务收入指标按具体业务类型拆分为经纪业务净收入和期货交易咨询业务净收入指标，并增加期货做市、衍生品交易业务等指标；",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （二）优化加分标准",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s5",
+              "text": "将对资产管理业务的评价指标由期货资产管理产品日均衍生品权益调整为期货资产管理产品日均持仓保证金，将年末剩余净资本指标调整为月均净资本指标，作为市场竞争力评价的一部分。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （二）优化加分标准",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s6",
+              "text": "三是删除部分评价指标。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （二）优化加分标准",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s7",
+              "text": "删除“成本管理能力”“净资产收益率”两项指标，鼓励期货公司加大投入，规模化经营；",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （二）优化加分标准",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s8",
+              "text": "删除“期货公司加权调整后日均客户权益总额排名行业中位数以下的，不得评为 A 类”等限制性条件，以适应期货公司业务范围的增加。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （二）优化加分标准",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s9",
+              "text": "四是调整专项评价。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （二）优化加分标准",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s10",
+              "text": "将“保险+期货”由服务实体经济评价移至专项评价，作为服务国家战略专项评价的一部分；",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （二）优化加分标准",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s11",
+              "text": "将党建与文化建设专项评价写入《规定》，并将交易者教育并入党建与文化建设专项评价。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （二）优化加分标准",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s12",
+              "text": "五是调整特殊情形激励评价。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （二）优化加分标准",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s13",
+              "text": "对期货公司配合监管部门开展风险处置、期货公司最近 3 个评价期内持续合规状况和风险管理能力无任何扣分、期货公司与其他期货公司合并等情形予以加分激励。",
+              "location": {
+                "doc_id": "doc_3562795b0932",
+                "section_path": "《期货公司分类评价规定》修订说明 > （二）优化加分标准",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_7440e4c49bbe",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院办公厅转发中国证监会等部门<关于加强监管防范风险促进期货市场高质量发展的意见>的通知》",
+      "canonical_name": "国务院办公厅转发中国证监会等部门<关于加强监管防范风险促进期货市场高质量发展的意见>的通知",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2e8ee59c5ee9",
+      "entity_type": "LegalDocument",
+      "mention": "《期货公司分类监管规定》",
+      "canonical_name": "期货公司分类监管规定",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_99647342c1de",
+      "entity_type": "LegalDocument",
+      "mention": "《期货公司分类评价规定》",
+      "canonical_name": "期货公司分类评价规定",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b64272df7038",
+      "entity_type": "Date",
+      "mention": "2009 年",
+      "canonical_name": "2009 年",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_12b2cd6a26ea",
+      "entity_type": "Date",
+      "mention": "2011 年",
+      "canonical_name": "2011 年",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1f4bd3372592",
+      "entity_type": "Date",
+      "mention": "2019 年",
+      "canonical_name": "2019 年",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_43b668be9ec7",
+      "entity_type": "Date",
+      "mention": "2022 年",
+      "canonical_name": "2022 年",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c6fd3a024211",
+      "entity_type": "Industry",
+      "mention": "期货公司",
+      "canonical_name": "期货行业",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 一、修订背景_p0_s3",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明 > 一、修订背景_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a3aece563f47",
+      "entity_type": "LegalTerm",
+      "mention": "扣分依据",
+      "canonical_name": "扣分依据",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （一）完善扣分标准_p0_s0",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （一）完善扣分标准_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1d17df8fd814",
+      "entity_type": "LegalTerm",
+      "mention": "监管措施",
+      "canonical_name": "监管措施",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （一）完善扣分标准_p0_s1",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （一）完善扣分标准_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a1194160508f",
+      "entity_type": "LegalTerm",
+      "mention": "行政处罚",
+      "canonical_name": "行政处罚",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （一）完善扣分标准_p0_s3",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （一）完善扣分标准_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b7fc057cc677",
+      "entity_type": "FinancialMetric",
+      "mention": "产业客户日均持仓",
+      "canonical_name": "产业客户日均持仓",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s1",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1b8fb19dc082",
+      "entity_type": "FinancialMetric",
+      "mention": "机构客户日均持仓",
+      "canonical_name": "机构客户日均持仓",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s1",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7b585cdb7294",
+      "entity_type": "FinancialMetric",
+      "mention": "经纪业务净收入",
+      "canonical_name": "经纪业务净收入",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s4",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e1608d5e3b82",
+      "entity_type": "FinancialMetric",
+      "mention": "期货交易咨询业务净收入",
+      "canonical_name": "期货交易咨询业务净收入",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s4",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_48c335b9fab6",
+      "entity_type": "FinancialMetric",
+      "mention": "净利润",
+      "canonical_name": "净利润",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s4",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8203628db13a",
+      "entity_type": "FinancialMetric",
+      "mention": "期货资产管理产品日均持仓保证金",
+      "canonical_name": "期货资产管理产品日均持仓保证金",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s5",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e24e5bcdbb2f",
+      "entity_type": "FinancialMetric",
+      "mention": "月均净资本",
+      "canonical_name": "月均净资本",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s5",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2252ba38641e",
+      "entity_type": "FinancialMetric",
+      "mention": "成本管理能力",
+      "canonical_name": "成本管理能力",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s7",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s7"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f0ab07aa6bf5",
+      "entity_type": "FinancialMetric",
+      "mention": "净资产收益率",
+      "canonical_name": "净资产收益率",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s7",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s7"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ef18f0c7cb80",
+      "entity_type": "InsuranceProduct",
+      "mention": "保险 + 期货",
+      "canonical_name": "保险 + 期货",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s10",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1d14213bed54",
+      "entity_type": "",
+      "mention": "服务国家战略专项评价",
+      "canonical_name": "服务国家战略专项评价",
+      "attributes": {},
+      "sentence_id": "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s10",
+      "sentence_ids": [
+        "doc_3562795b0932#《期货公司分类评价规定》修订说明 > （二）优化加分标准_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_a22140a4b59b_rel_6d0b01fccc73",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_99647342c1de",
+      "tail_entity_id": "ent_7440e4c49bbe",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_3562795b0932",
+        "section_path": "《期货公司分类评价规定》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_a22140a4b59b_rel_fae54817a4b1",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_99647342c1de",
+      "tail_entity_id": "ent_a3aece563f47",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_3562795b0932",
+        "section_path": "《期货公司分类评价规定》修订说明 > （一）完善扣分标准",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_a22140a4b59b_rel_7d76ef3f76e7",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_99647342c1de",
+      "tail_entity_id": "ent_1d17df8fd814",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_3562795b0932",
+        "section_path": "《期货公司分类评价规定》修订说明 > （一）完善扣分标准",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_a22140a4b59b_rel_f89ec9ee4859",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_99647342c1de",
+      "tail_entity_id": "ent_a1194160508f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_3562795b0932",
+        "section_path": "《期货公司分类评价规定》修订说明 > （一）完善扣分标准",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_a22140a4b59b_rel_f5f21a23c16a",
+      "relation_type": "covers_risk",
+      "head_entity_id": "ent_ef18f0c7cb80",
+      "tail_entity_id": "ent_1d14213bed54",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_3562795b0932",
+        "section_path": "《期货公司分类评价规定》修订说明 > （二）优化加分标准",
+        "paragraph_index": 0,
+        "sentence_index": 10
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

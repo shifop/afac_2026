@@ -1,0 +1,1251 @@
+{
+  "doc_id": "doc_81debbaee2b8",
+  "title": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0050_att2.md",
+  "processed_at": "2026-07-21T00:59:19.227181+00:00",
+  "structured_data": {
+    "title": "上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则"
+  },
+  "stats": {
+    "sections": 4,
+    "paragraphs": 4,
+    "sentences": 34,
+    "entities": 32,
+    "relations": 24,
+    "rejected": 0,
+    "llm_calls": 2587,
+    "llm_tokens": 3986568,
+    "elapsed_seconds": 27.05
+  },
+  "sections": [
+    {
+      "section_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明",
+      "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明",
+      "title": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "修订背景/政策依据/规范对象/增持支持/转让行为",
+        "for": [
+          "修订原因",
+          "监管依据",
+          "高管持股",
+          "增持政策"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明_p0",
+          "para_index": 0,
+          "content": "为贯彻落实《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》《关于加强上市公司监管的意见（试行）》，进一步规范董事、监事和高级管理人员转让股份的行为，支持其依法合规增持股份，中国证监会对《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》（以下简称《持股变动规则》）进行修订。现就相关修订情况说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明_p0_s0",
+              "text": "为贯彻落实《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》《关于加强上市公司监管的意见（试行）》，进一步规范董事、监事和高级管理人员转让股份的行为，支持其依法合规增持股份，中国证监会对《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》（以下简称《持股变动规则》）进行修订。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明_p0_s1",
+              "text": "现就相关修订情况说明如下：",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景",
+      "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景",
+      "title": "一、修订背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "《公司法》第一百六十条/窗口期限制/立案期间禁止减持/预披露要求/离婚分割股票绕道/董监高增持维护稳定",
+        "for": [
+          "修订背景",
+          "规则整合",
+          "减持限制",
+          "窗口期调整",
+          "监管漏洞"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0",
+          "para_index": 0,
+          "content": "现行《持股变动规则》主要是细化《公司法》第一百六十条关于董监高转让股份的限制性要求，同时明确了禁止董监高买卖本公司股份的窗口期。《上市公司股东、董监高减持股份的若干规定》（简称《减持规定》）针对董监高减持股份，还明确了立案期间不得减持的限制期和集中竞价减持前预披露的要求。\n实践中，市场反映，董监高转让股份的相关要求体现在不同规则中，较难理解和掌握；董监高通过离婚分割股票后减持存在“绕道”的可能；窗口期的规定较为严格，不利于董监高增持股份、维护市场稳定。为此，综合各方诉求，对规则进行修订，整合相关规范要求。",
+          "sentences": [
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s0",
+              "text": "现行《持股变动规则》主要是细化《公司法》第一百六十条关于董监高转让股份的限制性要求，同时明确了禁止董监高买卖本公司股份的窗口期。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s1",
+              "text": "《上市公司股东、董监高减持股份的若干规定》（简称《减持规定》）针对董监高减持股份，还明确了立案期间不得减持的限制期和集中竞价减持前预披露的要求。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s2",
+              "text": "实践中，市场反映，董监高转让股份的相关要求体现在不同规则中，较难理解和掌握；",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s3",
+              "text": "董监高通过离婚分割股票后减持存在“绕道”的可能；",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s4",
+              "text": "窗口期的规定较为严格，不利于董监高增持股份、维护市场稳定。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s5",
+              "text": "为此，综合各方诉求，对规则进行修订，整合相关规范要求。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容",
+      "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容",
+      "title": "二、修订内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "减持行为规范/违法不得减持情形/预先披露要求/离婚后减持限制/窗口期调整/公告前15日/公告前5日/行政监管措施/证券法第一百八十六条处罚",
+        "for": [
+          "减持规则",
+          "窗口期",
+          "法律责任",
+          "违规后果"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0",
+          "para_index": 0,
+          "content": "一是规范减持行为。将《减持规定》第七条、第八条规定的内容移至《持股变动规则》，并参考《减持规定》的改革方向，明确董监高在自身违法、上市公司违法以及重大违法强制退市、未足额缴纳罚没款等情形下不得减持；明确董监高在集中竞价或者大宗交易减持前都应当预先披露；明确董监高离婚后双方持续共同遵守相关减持限制。\n二是优化窗口期规定。将上市公司年度报告、半年度报告的窗口期调整为“公告前十五日内”，将季度报告、业绩预告、业绩快报的窗口期调整为“公告前五日内”。\n三是严格法律责任。明确董监高违反规则转让股份的，可以采取行政监管措施；细化应予处罚的具体情形，依照《证券法》第一百八十六条实施处罚。",
+          "sentences": [
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s0",
+              "text": "一是规范减持行为。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s1",
+              "text": "将《减持规定》第七条、第八条规定的内容移至《持股变动规则》，并参考《减持规定》的改革方向，明确董监高在自身违法、上市公司违法以及重大违法强制退市、未足额缴纳罚没款等情形下不得减持；",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s2",
+              "text": "明确董监高在集中竞价或者大宗交易减持前都应当预先披露；",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s3",
+              "text": "明确董监高离婚后双方持续共同遵守相关减持限制。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s4",
+              "text": "二是优化窗口期规定。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s5",
+              "text": "将上市公司年度报告、半年度报告的窗口期调整为“公告前十五日内”，将季度报告、业绩预告、业绩快报的窗口期调整为“公告前五日内”。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s6",
+              "text": "三是严格法律责任。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s7",
+              "text": "明确董监高违反规则转让股份的，可以采取行政监管措施；",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s8",
+              "text": "细化应予处罚的具体情形，依照《证券法》第一百八十六条实施处罚。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+      "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+      "title": "三、公开征求意见情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "公开征求意见时间/收到意见数/采纳情况/未采纳原因/新老划断规则/窗口期调整/离婚追溯适用",
+        "for": [
+          "修订依据",
+          "意见采纳",
+          "条款变更",
+          "实施细节"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0",
+          "para_index": 0,
+          "content": "2024 年 4 月 12 日至4 月27 日，《持股变动规则》向社会公开征求意见，共收到意见建议31 条。总体看，社会各方对《持股变动规则》的修订表示认可支持。主要建议及采纳情况如下：\n一是有意见提出，为避免因个别董监高离职、违法违规等原因牵连其他不存在此等情况的董监高依法减持，建议对相关禁止减持情形表述予以适当调整，明确为本人适用。经研究，采纳相关意见。\n二是有意见提出，建议除了明确董事会秘书每季度的检查义务外，也应明确发现违法违规的及时向中国证监会、证券交易所\n报告。经研究，采纳相关意见。\n三是有意见提出，建议将董监高利用他人账户持有的股份纳入规则适用范围。经研究，采纳相关意见。\n四是有意见提出，建议延长离职高管不得减持的期间，建议高管减持与分红额挂钩。考虑到《公司法》明确规定了离职高管不得减持的期间以及高管每年可以转让的比例，未采纳相关意见。\n五是有意见提出，建议对股票质押违约处置豁免适用预披露要求，建议将预披露减持计划改为年报汇总披露。为防范股票质押绕道减持、规避减持限制，防范董监高利用信息优势减持，未采纳相关意见。\n六是有意见提出，建议明确对新规实施前的离婚是否追溯适用。经研究，按照离婚分割股票过户的时点进行新老划断，股票过户在《持股变动规则》施行前的按照当时的规定及证券交易所的规则执行，在《持股变动规则》施行后的按照《持股变动规则》执行。相关意见已采纳。\n七是有意见提出，建议延长禁止董监高买卖股票的“窗口期”。为依法支持董监高增持股份，未采纳相关意见，但董监高不得利用未披露的信息从事内幕交易，对此将持续严厉打击。",
+          "sentences": [
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s0",
+              "text": "2024 年 4 月 12 日至4 月27 日，《持股变动规则》向社会公开征求意见，共收到意见建议31 条。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s1",
+              "text": "总体看，社会各方对《持股变动规则》的修订表示认可支持。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s2",
+              "text": "主要建议及采纳情况如下：\n一是有意见提出，为避免因个别董监高离职、违法违规等原因牵连其他不存在此等情况的董监高依法减持，建议对相关禁止减持情形表述予以适当调整，明确为本人适用。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s3",
+              "text": "经研究，采纳相关意见。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s4",
+              "text": "二是有意见提出，建议除了明确董事会秘书每季度的检查义务外，也应明确发现违法违规的及时向中国证监会、证券交易所\n报告。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s5",
+              "text": "经研究，采纳相关意见。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s6",
+              "text": "三是有意见提出，建议将董监高利用他人账户持有的股份纳入规则适用范围。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s7",
+              "text": "经研究，采纳相关意见。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s8",
+              "text": "四是有意见提出，建议延长离职高管不得减持的期间，建议高管减持与分红额挂钩。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s9",
+              "text": "考虑到《公司法》明确规定了离职高管不得减持的期间以及高管每年可以转让的比例，未采纳相关意见。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s10",
+              "text": "五是有意见提出，建议对股票质押违约处置豁免适用预披露要求，建议将预披露减持计划改为年报汇总披露。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s11",
+              "text": "为防范股票质押绕道减持、规避减持限制，防范董监高利用信息优势减持，未采纳相关意见。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s12",
+              "text": "六是有意见提出，建议明确对新规实施前的离婚是否追溯适用。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s13",
+              "text": "经研究，按照离婚分割股票过户的时点进行新老划断，股票过户在《持股变动规则》施行前的按照当时的规定及证券交易所的规则执行，在《持股变动规则》施行后的按照《持股变动规则》执行。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s14",
+              "text": "相关意见已采纳。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s15",
+              "text": "七是有意见提出，建议延长禁止董监高买卖股票的“窗口期”。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s16",
+              "text": "为依法支持董监高增持股份，未采纳相关意见，但董监高不得利用未披露的信息从事内幕交易，对此将持续严厉打击。",
+              "location": {
+                "doc_id": "doc_81debbaee2b8",
+                "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_ceb8bb7ce4c2",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》",
+      "canonical_name": "国务院关于加强监管防范风险推动资本市场高质量发展的若干意见",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5eec81a44748",
+      "entity_type": "LegalDocument",
+      "mention": "《关于加强上市公司监管的意见（试行）》",
+      "canonical_name": "关于加强上市公司监管的意见（试行）",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ae38008921f4",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_526b8b9837d1",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》",
+      "canonical_name": "上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则",
+      "attributes": {
+        "short_name": "持股变动规则"
+      },
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f11e3e7dcb05",
+      "entity_type": "LegalDocument",
+      "mention": "《公司法》",
+      "canonical_name": "公司法",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s0",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_91dd4e995c3a",
+      "entity_type": "Clause",
+      "mention": "《公司法》第一百六十条",
+      "canonical_name": "公司法第一百六十条",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s0",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_093b02fa302a",
+      "entity_type": "LegalTerm",
+      "mention": "窗口期",
+      "canonical_name": "窗口期",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s0",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3658321fce9a",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司股东、董监高减持股份的若干规定》",
+      "canonical_name": "上市公司股东、董监高减持股份的若干规定",
+      "attributes": {
+        "short_name": "减持规定"
+      },
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_80786ff7f4e5",
+      "entity_type": "LegalTerm",
+      "mention": "立案期间",
+      "canonical_name": "立案期间",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_452c0e7fb0c6",
+      "entity_type": "LegalTerm",
+      "mention": "集中竞价减持前预披露",
+      "canonical_name": "集中竞价减持前预披露",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7e398c252213",
+      "entity_type": "LegalTerm",
+      "mention": "离婚分割股票",
+      "canonical_name": "离婚分割股票",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s3",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_82931fb176b8",
+      "entity_type": "LegalTerm",
+      "mention": "重大违法强制退市",
+      "canonical_name": "重大违法强制退市",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s1",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2e2055ea79ee",
+      "entity_type": "LegalTerm",
+      "mention": "未足额缴纳罚没款",
+      "canonical_name": "未足额缴纳罚没款",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s1",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_dca7d7e6a2b5",
+      "entity_type": "LegalTerm",
+      "mention": "集中竞价",
+      "canonical_name": "集中竞价",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s2",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d9f1f9999964",
+      "entity_type": "LegalTerm",
+      "mention": "大宗交易",
+      "canonical_name": "大宗交易",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s2",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_31db3c939a56",
+      "entity_type": "LegalTerm",
+      "mention": "预先披露",
+      "canonical_name": "预先披露",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s2",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e566dd042aca",
+      "entity_type": "LegalTerm",
+      "mention": "行政监管措施",
+      "canonical_name": "行政监管措施",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s7",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s7"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_dcef2b7c1393",
+      "entity_type": "LegalDocument",
+      "mention": "《证券法》",
+      "canonical_name": "证券法",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s8",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s8"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_642efa250515",
+      "entity_type": "Clause",
+      "mention": "《证券法》第一百八十六条",
+      "canonical_name": "证券法第一百八十六条",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s8",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容_p0_s8"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_abc9d4b94713",
+      "entity_type": "Date",
+      "mention": "2024 年 4 月 12 日",
+      "canonical_name": "2024-04-12",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2892688928b5",
+      "entity_type": "Date",
+      "mention": "4 月 27 日",
+      "canonical_name": "2024-04-27",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_095d4f43c4b4",
+      "entity_type": "MonetaryAmount",
+      "mention": "31 条",
+      "canonical_name": "31",
+      "attributes": {
+        "unit": "条"
+      },
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9816b53bdc81",
+      "entity_type": "LegalTerm",
+      "mention": "董事会秘书每季度的检查义务",
+      "canonical_name": "董事会秘书检查义务",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s4",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_acf2a7021fbc",
+      "entity_type": "LegalTerm",
+      "mention": "及时向中国证监会、证券交易所报告",
+      "canonical_name": "报告义务",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s4",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a902c022711e",
+      "entity_type": "LegalTerm",
+      "mention": "利用他人账户持有的股份",
+      "canonical_name": "利用他人账户持有股份",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s6",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_081974f60391",
+      "entity_type": "LegalTerm",
+      "mention": "离职高管不得减持的期间",
+      "canonical_name": "离职高管不得减持期间",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s8",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s8"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_82603ebac7d7",
+      "entity_type": "LegalTerm",
+      "mention": "高管每年可以转让的比例",
+      "canonical_name": "高管转让比例",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s9",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_aceb10834964",
+      "entity_type": "LegalTerm",
+      "mention": "股票质押违约处置豁免适用预披露要求",
+      "canonical_name": "股票质押违约处置豁免",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s10",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_254cbf532da1",
+      "entity_type": "LegalTerm",
+      "mention": "年报汇总披露",
+      "canonical_name": "年报汇总披露",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s10",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a220f798ba87",
+      "entity_type": "LegalTerm",
+      "mention": "追溯适用",
+      "canonical_name": "追溯适用",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s12",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s12"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_45f69a3f6969",
+      "entity_type": "LegalTerm",
+      "mention": "新老划断",
+      "canonical_name": "新老划断",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s13",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s13"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bd2825fadd47",
+      "entity_type": "LegalTerm",
+      "mention": "内幕交易",
+      "canonical_name": "内幕交易",
+      "attributes": {},
+      "sentence_id": "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s16",
+      "sentence_ids": [
+        "doc_81debbaee2b8#《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况_p0_s16"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_c259da9a63fd",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_526b8b9837d1",
+      "tail_entity_id": "ent_ceb8bb7ce4c2",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_5e5973a768a5",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_526b8b9837d1",
+      "tail_entity_id": "ent_5eec81a44748",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_3a2d9cc6cb9a",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_91dd4e995c3a",
+      "tail_entity_id": "ent_093b02fa302a",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_c60f553614c5",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_3658321fce9a",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_4aff26ad2874",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_80786ff7f4e5",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_2342a3d14d6d",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_452c0e7fb0c6",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_155e61cd05d8",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_82931fb176b8",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_ae6edd831223",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_2e2055ea79ee",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_a28028bc0648",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_dca7d7e6a2b5",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_c9f928287254",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_d9f1f9999964",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_6f32d4b68a65",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_31db3c939a56",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_6346adc63dc8",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_e566dd042aca",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 7
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_ade6ae7e2409",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_642efa250515",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 8
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_b03d1d3b3072",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_642efa250515",
+      "tail_entity_id": "ent_dcef2b7c1393",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 8
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_13037d86f0dc",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_9816b53bdc81",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_4d403a35d213",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_acf2a7021fbc",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_a7143038bd91",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_a902c022711e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+        "paragraph_index": 0,
+        "sentence_index": 6
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_8d2088fcc9da",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_081974f60391",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+        "paragraph_index": 0,
+        "sentence_index": 9
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_6c797335683c",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_82603ebac7d7",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+        "paragraph_index": 0,
+        "sentence_index": 9
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_bdde867dd981",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_aceb10834964",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+        "paragraph_index": 0,
+        "sentence_index": 10
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_212ed34481ed",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_254cbf532da1",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+        "paragraph_index": 0,
+        "sentence_index": 10
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_3c462a1b3cd0",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_a220f798ba87",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+        "paragraph_index": 0,
+        "sentence_index": 12
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_198dc3a308e5",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_45f69a3f6969",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+        "paragraph_index": 0,
+        "sentence_index": 13
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_bc47e6fb6fbe_rel_bacf3e626c2d",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3658321fce9a",
+      "tail_entity_id": "ent_bd2825fadd47",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_81debbaee2b8",
+        "section_path": "《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明 > 三、公开征求意见情况",
+        "paragraph_index": 0,
+        "sentence_index": 16
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

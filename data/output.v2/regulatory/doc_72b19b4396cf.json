@@ -1,0 +1,3016 @@
+{
+  "doc_id": "doc_72b19b4396cf",
+  "title": "Specifications for regional equity markets cross-chain authentication security",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0043_att4.md",
+  "processed_at": "2026-07-21T00:55:06.102623+00:00",
+  "structured_data": {
+    "title": "区域性股权市场跨链认证安全规范"
+  },
+  "stats": {
+    "sections": 40,
+    "paragraphs": 38,
+    "sentences": 101,
+    "entities": 48,
+    "relations": 24,
+    "rejected": 0,
+    "llm_calls": 2498,
+    "llm_tokens": 3805566,
+    "elapsed_seconds": 44.91
+  },
+  "sections": [
+    {
+      "section_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security",
+      "section_path": "Specifications for regional equity markets cross-chain authentication security",
+      "title": "Specifications for regional equity markets cross-chain authentication security",
+      "level": 1,
+      "reading_guide": null,
+      "paragraphs": []
+    },
+    {
+      "section_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 目 次",
+      "section_path": "Specifications for regional equity markets cross-chain authentication security > 目 次",
+      "title": "目 次",
+      "level": 2,
+      "reading_guide": {
+        "has": "发布实施日期/前言/引言/范围/引用文件/术语定义/缩略语/密码算法要求/业务数据要求/地方业务链安全要求/地方业务系统安全要求/跨链机制要求/跨链传输信道安全",
+        "for": [
+          "标准结构",
+          "章节索引",
+          "条款定位",
+          "适用范围"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 目 次_p0",
+          "para_index": 0,
+          "content": "JR/T 0316—2024\n2024-11-20 发布\n2024-11-20 实施\n前言.... III\n引言.... IV\n1 范围.... 1\n2 规范性引用文件.... 1\n3 术语和定义.... 1\n4 缩略语.... 2\n5 密码算法要求.... 2\n6 业务数据要求.... 2\n6.1 生成主体明确.... 2\n6.2 数据生成时间明确.... 3\n6.3 业务数据提取手段可靠.... 3\n6.4 业务数据传输安全.... 3\n6.5 业务数据的存储可靠.... 3\n6.6 数据完整性保护手段可靠.... 3\n7 地方业务链安全要求.... 3\n7.1 数据操作安全.... 3\n7.2 身份信息安全.... 3\n7.3 访问控制.... 4\n7.4 链间访问控制.... 4\n7.5 共识协议.... 4\n7.6 智能合约.... 4\n7.7 稳定性.... 5\n8 地方业务系统安全要求.... 5\n8.1 入侵防范.... 5\n8.2 恶意代码防范.... 5\n8.3 程序可信执行.... 5\n8.4 访问控制.... 5\n8.5 安全策略和管理制度.... 5\n9 跨链机制要求.... 5\n10 跨链传输信道安全要求....6\n10.1 通过证券期货行业专线网络访问....6\n10.2 通过 VPC 专线网络访问....6\n10.3 通过 VPN 网络访问....6\n10.4 对 RPC 接口增加 API 鉴权....6\n10.5 IP 白名单....6\n11 跨链数据安全要求....6\n11.1 基本要求....6\n11.2 数据访问时的要求....6\n11.3 数据传输时的要求....6\n11.4 智能合约调用时的要求....6\n参考文献....7",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 目 次_p0_s0",
+              "text": "JR/T 0316—2024\n2024-11-20 发布\n2024-11-20 实施\n前言.... III\n引言.... IV\n1 范围.... 1\n2 规范性引用文件.... 1\n3 术语和定义.... 1\n4 缩略语.... 2\n5 密码算法要求.... 2\n6 业务数据要求.... 2\n6.1 生成主体明确.... 2\n6.2 数据生成时间明确.... 3\n6.3 业务数据提取手段可靠.... 3\n6.4 业务数据传输安全.... 3\n6.5 业务数据的存储可靠.... 3\n6.6 数据完整性保护手段可靠.... 3\n7 地方业务链安全要求.... 3\n7.1 数据操作安全.... 3\n7.2 身份信息安全.... 3\n7.3 访问控制.... 4\n7.4 链间访问控制.... 4\n7.5 共识协议.... 4\n7.6 智能合约.... 4\n7.7 稳定性.... 5\n8 地方业务系统安全要求.... 5\n8.1 入侵防范.... 5\n8.2 恶意代码防范.... 5\n8.3 程序可信执行.... 5\n8.4 访问控制.... 5\n8.5 安全策略和管理制度.... 5\n9 跨链机制要求.... 5\n10 跨链传输信道安全要求....6\n10.1 通过证券期货行业专线网络访问....6\n10.2 通过 VPC 专线网络访问....6\n10.3 通过 VPN 网络访问....6\n10.4 对 RPC 接口增加 API 鉴权....6\n10.5 IP 白名单....6\n11 跨链数据安全要求....6\n11.1 基本要求....6\n11.2 数据访问时的要求....6\n11.3 数据传输时的要求....6\n11.4 智能合约调用时的要求....6\n参考文献....7",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "Specifications for regional equity markets cross-chain authentication security > 目 次",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言",
+      "section_path": "Specifications for regional equity markets cross-chain authentication security > 前 言",
+      "title": "前 言",
+      "level": 2,
+      "reading_guide": {
+        "has": "起草标准GB/T 1.1-2020/专利声明/提出单位SAC/TC 180/SC4/归口单位SAC/TC 180/起草单位列表/主要起草人名单",
+        "for": [
+          "标准来源",
+          "起草机构",
+          "专利信息",
+          "责任归属"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0",
+          "para_index": 0,
+          "content": "本文件按照GB/T 1.1—2020《标准化工作导则 第1部分：标准化文件的结构和起草规则》的规定起草。\n请注意本文件的某些内容可能涉及专利。本文件的发布机构不承担识别专利的责任。\n本文件由全国金融标准化技术委员会证券分技术委员会（SAC/TC 180/SC4）提出。\n本文件由全国金融标准化技术委员会（SAC/TC 180）归口。\n本文件起草单位：中国证券监督管理委员会科技监管司、中证信息技术服务有限责任公司、中证机构间报价系统股份有限公司、深圳证券通信有限公司、上海边界智能科技有限公司、北京共识数信科技有限公司、同济大学、南京大学。\n本文件主要起草人：张业龙、彭枫、王亚军、王凤冬、王毛路、李宇、陈小泉、马小峰、陈莹。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s0",
+              "text": "本文件按照GB/T 1.1—2020《标准化工作导则 第1部分：标准化文件的结构和起草规则》的规定起草。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "Specifications for regional equity markets cross-chain authentication security > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s1",
+              "text": "请注意本文件的某些内容可能涉及专利。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "Specifications for regional equity markets cross-chain authentication security > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s2",
+              "text": "本文件的发布机构不承担识别专利的责任。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "Specifications for regional equity markets cross-chain authentication security > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s3",
+              "text": "本文件由全国金融标准化技术委员会证券分技术委员会（SAC/TC 180/SC4）提出。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "Specifications for regional equity markets cross-chain authentication security > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s4",
+              "text": "本文件由全国金融标准化技术委员会（SAC/TC 180）归口。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "Specifications for regional equity markets cross-chain authentication security > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s5",
+              "text": "本文件起草单位：中国证券监督管理委员会科技监管司、中证信息技术服务有限责任公司、中证机构间报价系统股份有限公司、深圳证券通信有限公司、上海边界智能科技有限公司、北京共识数信科技有限公司、同济大学、南京大学。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "Specifications for regional equity markets cross-chain authentication security > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s6",
+              "text": "本文件主要起草人：张业龙、彭枫、王亚军、王凤冬、王毛路、李宇、陈小泉、马小峰、陈莹。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "Specifications for regional equity markets cross-chain authentication security > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 引 言",
+      "section_path": "Specifications for regional equity markets cross-chain authentication security > 引 言",
+      "title": "引 言",
+      "level": 2,
+      "reading_guide": {
+        "has": "区域性股权市场定义/功能定位/存在问题/区块链优势/双层架构（监管链+业务链）/跨链对接需求",
+        "for": [
+          "市场定义",
+          "技术背景",
+          "架构设计",
+          "建设目标"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 引 言_p0",
+          "para_index": 0,
+          "content": "区域性股权市场是服务所在省级行政区域内中小微企业的私募股权市场，是多层次资本市场体系重要组成部分，是地方扶持中小微企业政策措施的综合运用平台，也是一类地方金融组织。同时要看到，区域性股权市场也存在功能发挥不畅、地方监管制度体系不完善、业务系统多样异构、数据规范性差、业务规则不完备等问题。区块链具有数据透明、不易篡改、可追溯等技术优势，在促进数据共享、优化业务流程、降低运营成本、提升协同效率、建设可信体系等方面具有积极作用。基于监管链和地方业务链的双层架构，可以更好支持区域性股权市场企业赋能服务、业务创新并逐步实现穿透式监管。为建成物理分散、逻辑统一的区域性股权市场新型金融基础设施，有必要建立监管链与各地方业务链的跨链对接的安全技术标准。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 引 言_p0_s0",
+              "text": "区域性股权市场是服务所在省级行政区域内中小微企业的私募股权市场，是多层次资本市场体系重要组成部分，是地方扶持中小微企业政策措施的综合运用平台，也是一类地方金融组织。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "Specifications for regional equity markets cross-chain authentication security > 引 言",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 引 言_p0_s1",
+              "text": "同时要看到，区域性股权市场也存在功能发挥不畅、地方监管制度体系不完善、业务系统多样异构、数据规范性差、业务规则不完备等问题。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "Specifications for regional equity markets cross-chain authentication security > 引 言",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 引 言_p0_s2",
+              "text": "区块链具有数据透明、不易篡改、可追溯等技术优势，在促进数据共享、优化业务流程、降低运营成本、提升协同效率、建设可信体系等方面具有积极作用。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "Specifications for regional equity markets cross-chain authentication security > 引 言",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 引 言_p0_s3",
+              "text": "基于监管链和地方业务链的双层架构，可以更好支持区域性股权市场企业赋能服务、业务创新并逐步实现穿透式监管。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "Specifications for regional equity markets cross-chain authentication security > 引 言",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 引 言_p0_s4",
+              "text": "为建成物理分散、逻辑统一的区域性股权市场新型金融基础设施，有必要建立监管链与各地方业务链的跨链对接的安全技术标准。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "Specifications for regional equity markets cross-chain authentication security > 引 言",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范",
+      "section_path": "区域性股权市场跨链认证安全规范",
+      "title": "区域性股权市场跨链认证安全规范",
+      "level": 1,
+      "reading_guide": null,
+      "paragraphs": []
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 1 范围",
+      "section_path": "区域性股权市场跨链认证安全规范 > 1 范围",
+      "title": "1 范围",
+      "level": 2,
+      "reading_guide": {
+        "has": "跨链对接安全认证/密码算法要求/业务数据要求/地方业务链安全/地方业务系统安全/跨链机制/跨链安全",
+        "for": [
+          "技术规范",
+          "安全要求",
+          "适用范围",
+          "合规标准"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 1 范围_p0",
+          "para_index": 0,
+          "content": "本文件规定了区域性股权市场地方业务链与监管链跨链对接的安全认证技术与系统实现要求，包括密码算法要求、业务数据要求、地方业务链安全要求、地方业务系统安全要求、跨链机制要求及跨链安全要求。\n本文件适用于在区域性股权市场中进行地方业务链及与地方业务链对接的地方业务系统建设或服务运营的机构。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 1 范围_p0_s0",
+              "text": "本文件规定了区域性股权市场地方业务链与监管链跨链对接的安全认证技术与系统实现要求，包括密码算法要求、业务数据要求、地方业务链安全要求、地方业务系统安全要求、跨链机制要求及跨链安全要求。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 1 范围",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 1 范围_p0_s1",
+              "text": "本文件适用于在区域性股权市场中进行地方业务链及与地方业务链对接的地方业务系统建设或服务运营的机构。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 1 范围",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件",
+      "section_path": "区域性股权市场跨链认证安全规范 > 2 规范性引用文件",
+      "title": "2 规范性引用文件",
+      "level": 2,
+      "reading_guide": {
+        "has": "GB/T 11457/GB/T 20518/GB/T 25069/GB/T 32905/GB/T 32918/JR/T 0184/软件工程术语/数字证书格式/S",
+        "for": [
+          "引用标准",
+          "技术依据",
+          "合规要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件_p0",
+          "para_index": 0,
+          "content": "下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款。其中，注日期的引用文件，仅该日期对应的版本适用于本文件；不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。\nGB/T 11457 信息技术 软件工程术语\nGB/T 20518 信息安全技术 公钥基础设施 数字证书格式\nGB/T 25069 信息安全技术 术语\nGB/T 32905 信息安全技术 SM3密码杂凑算法\nGB/T 32918 信息安全技术 SM2椭圆曲线公钥密码算法\nJR/T 0184 金融分布式账本技术安全规范",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件_p0_s0",
+              "text": "下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 2 规范性引用文件",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件_p0_s1",
+              "text": "其中，注日期的引用文件，仅该日期对应的版本适用于本文件；",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 2 规范性引用文件",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件_p0_s2",
+              "text": "不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 2 规范性引用文件",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件_p0_s3",
+              "text": "GB/T 11457 信息技术 软件工程术语\nGB/T 20518 信息安全技术 公钥基础设施 数字证书格式\nGB/T 25069 信息安全技术 术语\nGB/T 32905 信息安全技术 SM3密码杂凑算法\nGB/T 32918 信息安全技术 SM2椭圆曲线公钥密码算法\nJR/T 0184 金融分布式账本技术安全规范",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 2 规范性引用文件",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3 术语和定义",
+      "section_path": "区域性股权市场跨链认证安全规范 > 3 术语和定义",
+      "title": "3 术语和定义",
+      "level": 2,
+      "reading_guide": {
+        "has": "跨链/监管链/地方业务链/地方业务系统/GB/T 11457/GB/T 25069",
+        "for": [
+          "术语定义",
+          "概念解释",
+          "标准引用",
+          "系统分类"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3 术语和定义_p0",
+          "para_index": 0,
+          "content": "GB/T 11457、GB/T 25069 界定的以及下列术语和定义适用于本文件。\n3.1\n跨链 cross chain\n实现在区块链之间的双向信息交互、信息验证与服务调用的技术。\n3.2\n监管链 global regulation blockchain\n以全局服务和监管为目的构建的区块链系统。\n3.3\n地方业务链 regional business blockchain\n各地方以服务区域性股权市场业务和生态为目的构建的区块链系统。\n3.4\n地方业务系统 regional business system\n与地方业务链对接，实现数据传输到地方业务链的业务系统。\n注：地方业务系统包括区域性股权市场的业务系统等。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3 术语和定义_p0_s0",
+              "text": "GB/T 11457、GB/T 25069 界定的以及下列术语和定义适用于本文件。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 3 术语和定义",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3 术语和定义_p0_s1",
+              "text": "3.1\n跨链 cross chain\n实现在区块链之间的双向信息交互、信息验证与服务调用的技术。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 3 术语和定义",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3 术语和定义_p0_s2",
+              "text": "3.2\n监管链 global regulation blockchain\n以全局服务和监管为目的构建的区块链系统。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 3 术语和定义",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3 术语和定义_p0_s3",
+              "text": "3.3\n地方业务链 regional business blockchain\n各地方以服务区域性股权市场业务和生态为目的构建的区块链系统。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 3 术语和定义",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3 术语和定义_p0_s4",
+              "text": "3.4\n地方业务系统 regional business system\n与地方业务链对接，实现数据传输到地方业务链的业务系统。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 3 术语和定义",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3 术语和定义_p0_s5",
+              "text": "注：地方业务系统包括区域性股权市场的业务系统等。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 3 术语和定义",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3.5",
+      "section_path": "区域性股权市场跨链认证安全规范 > 3.5",
+      "title": "3.5",
+      "level": 2,
+      "reading_guide": {
+        "has": "业务数据定义/地方业务系统存储处理数据/业务参与方定义/数据所有者",
+        "for": [
+          "数据定义",
+          "参与方角色",
+          "系统范围"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3.5_p0",
+          "para_index": 0,
+          "content": "业务数据 business data\n地方业务系统存储和处理的数据。\n业务参与方直接操作生成的数据，并作为该数据所有者的个人或机构。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3.5_p0_s0",
+              "text": "业务数据 business data\n地方业务系统存储和处理的数据。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 3.5",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3.5_p0_s1",
+              "text": "业务参与方直接操作生成的数据，并作为该数据所有者的个人或机构。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 3.5",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3.7",
+      "section_path": "区域性股权市场跨链认证安全规范 > 3.7",
+      "title": "3.7",
+      "level": 2,
+      "reading_guide": {
+        "has": "智能合约定义，信息化传播验证执行合同，分布式账本自动执行程序",
+        "for": [
+          "概念定义",
+          "技术术语",
+          "智能合约"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3.7_p0",
+          "para_index": 0,
+          "content": "智能合约 smart contract\n以信息化方式传播、验证或执行合同的计算机协议。\n注：在分布式账本上体现为可自动执行的计算机程序。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3.7_p0_s0",
+              "text": "智能合约 smart contract\n以信息化方式传播、验证或执行合同的计算机协议。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 3.7",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3.7_p0_s1",
+              "text": "注：在分布式账本上体现为可自动执行的计算机程序。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 3.7",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语",
+      "section_path": "区域性股权市场跨链认证安全规范 > 4 缩略语",
+      "title": "4 缩略语",
+      "level": 2,
+      "reading_guide": {
+        "has": "API/ASN.1/ECC/HMAC/HTTPS/IP/RPC/VPC/VPN",
+        "for": [
+          "术语定义",
+          "缩略语解释",
+          "技术名词"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0",
+          "para_index": 0,
+          "content": "下列缩略语适用于本文件。\nAPI：应用程序编程接口（Application Programming Interface）\nASN.1：抽象语法标记（Abstract Syntax Notation One）\nECC：椭圆曲线加密（Elliptic Curve Cryptography）\nHMAC：密钥相关的哈希运算消息认证码（Hash-based Message Authentication Code）\nHTTPS：超文本传输安全协议（Hypertext Transfer Protocol Secure）\nIP：网际互连协议（Internet Protocol）\nRPC：远程过程调用（Remote Procedure Call）\nVPC：虚拟私有云网络（Virtual Private Cloud）\nVPN：虚拟专用网络（Virtual Private Network）",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s0",
+              "text": "下列缩略语适用于本文件。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 4 缩略语",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s1",
+              "text": "API：应用程序编程接口（Application Programming Interface）\nASN.1：抽象语法标记（Abstract Syntax Notation One）\nECC：椭圆曲线加密（Elliptic Curve Cryptography）\nHMAC：密钥相关的哈希运算消息认证码（Hash-based Message Authentication Code）\nHTTPS：超文本传输安全协议（Hypertext Transfer Protocol Secure）\nIP：网际互连协议（Internet Protocol）\nRPC：远程过程调用（Remote Procedure Call）\nVPC：虚拟私有云网络（Virtual Private Cloud）\nVPN：虚拟专用网络（Virtual Private Network）",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 4 缩略语",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 5 密码算法要求",
+      "section_path": "区域性股权市场跨链认证安全规范 > 5 密码算法要求",
+      "title": "5 密码算法要求",
+      "level": 2,
+      "reading_guide": {
+        "has": "ECC算法/SM2椭圆曲线公钥密码算法/ASN.1编码/Base64格式/证书版本/序列号/颁发者/使用者主体信息/有效期/证书扩展项/算法标识/GB/T 32",
+        "for": [
+          "密码算法",
+          "证书结构",
+          "编码格式",
+          "合规标准"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 5 密码算法要求_p0",
+          "para_index": 0,
+          "content": "国产密码算法的数字证书公钥算法采用ECC算法，公钥参数采用SM2椭圆曲线公钥密码算法。证书使用ASN.1编码，证书文件以二进制或Base64格式存放。证书中应包含证书版本、序列号、颁发者、使用者主体信息、使用者公钥、有效期、证书扩展项、算法标识等信息。\n国产密码算法的数字证书的公钥算法ECC算法标识、公钥参数SM2椭圆曲线公钥密码算法标识、证书签名算法标识、摘要算法标识应符合GB/T 32905、GB/T 32918、GB/T 20518等相关国家标准以及JR/T 0184等相关行业标准。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 5 密码算法要求_p0_s0",
+              "text": "国产密码算法的数字证书公钥算法采用ECC算法，公钥参数采用SM2椭圆曲线公钥密码算法。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 5 密码算法要求",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 5 密码算法要求_p0_s1",
+              "text": "证书使用ASN.1编码，证书文件以二进制或Base64格式存放。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 5 密码算法要求",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 5 密码算法要求_p0_s2",
+              "text": "证书中应包含证书版本、序列号、颁发者、使用者主体信息、使用者公钥、有效期、证书扩展项、算法标识等信息。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 5 密码算法要求",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 5 密码算法要求_p0_s3",
+              "text": "国产密码算法的数字证书的公钥算法ECC算法标识、公钥参数SM2椭圆曲线公钥密码算法标识、证书签名算法标识、摘要算法标识应符合GB/T 32905、GB/T 32918、GB/T 20518等相关国家标准以及JR/T 0184等相关行业标准。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 5 密码算法要求",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6 业务数据要求",
+      "section_path": "区域性股权市场跨链认证安全规范 > 6 业务数据要求",
+      "title": "6 业务数据要求",
+      "level": 2,
+      "reading_guide": {
+        "has": "实名身份认证/数字证书/真实意愿性认证/认证结果留痕/防泄漏/防篡改",
+        "for": [
+          "身份认证",
+          "意愿验证",
+          "数据留痕",
+          "安全要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6 业务数据要求_p0",
+          "para_index": 0,
+          "content": "地方业务系统应在业务数据主体生成数据前，通过证件信息、数字证书等方式对业务数据主体的实名身份进行认证。\n地方业务系统应采用技术手段认证业务数据主体的真实意愿性。\n地方业务系统应对上述认证结果留痕，并采用技术手段对留痕信息防泄漏、防篡改。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6 业务数据要求_p0_s0",
+              "text": "地方业务系统应在业务数据主体生成数据前，通过证件信息、数字证书等方式对业务数据主体的实名身份进行认证。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 6 业务数据要求",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6 业务数据要求_p0_s1",
+              "text": "地方业务系统应采用技术手段认证业务数据主体的真实意愿性。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 6 业务数据要求",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6 业务数据要求_p0_s2",
+              "text": "地方业务系统应对上述认证结果留痕，并采用技术手段对留痕信息防泄漏、防篡改。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 6 业务数据要求",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.2 数据生成时间明确",
+      "section_path": "区域性股权市场跨链认证安全规范 > 6.2 数据生成时间明确",
+      "title": "6.2 数据生成时间明确",
+      "level": 2,
+      "reading_guide": {
+        "has": "业务数据生成时间要求/操作日志留痕/防篡改技术/防灭失保护",
+        "for": [
+          "时间明确",
+          "日志留痕",
+          "数据安全",
+          "防篡改"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.2 数据生成时间明确_p0",
+          "para_index": 0,
+          "content": "业务数据生成的时间应明确。\n应对获取业务数据时间的操作进行日志留痕。留痕的日志信息应采取防篡改、防灭失等技术保护手段。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.2 数据生成时间明确_p0_s0",
+              "text": "业务数据生成的时间应明确。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 6.2 数据生成时间明确",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.2 数据生成时间明确_p0_s1",
+              "text": "应对获取业务数据时间的操作进行日志留痕。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 6.2 数据生成时间明确",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.2 数据生成时间明确_p0_s2",
+              "text": "留痕的日志信息应采取防篡改、防灭失等技术保护手段。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 6.2 数据生成时间明确",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.3 业务数据提取手段可靠",
+      "section_path": "区域性股权市场跨链认证安全规范 > 6.3 业务数据提取手段可靠",
+      "title": "6.3 业务数据提取手段可靠",
+      "level": 2,
+      "reading_guide": {
+        "has": "数据包固化/数字签名/时间戳/数字摘要/区块链/完整性保护/篡改检测",
+        "for": [
+          "数据提取",
+          "安全手段",
+          "完整性验证",
+          "防篡改机制"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.3 业务数据提取手段可靠_p0",
+          "para_index": 0,
+          "content": "业务数据提取手段应可靠，通过采集的数据包内容应第一时间进行固化，采取数字签名、时间戳、数字摘要、区块链等技术手段进行完整性保护，修改后可被发现。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.3 业务数据提取手段可靠_p0_s0",
+              "text": "业务数据提取手段应可靠，通过采集的数据包内容应第一时间进行固化，采取数字签名、时间戳、数字摘要、区块链等技术手段进行完整性保护，修改后可被发现。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 6.3 业务数据提取手段可靠",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.4 业务数据传输安全",
+      "section_path": "区域性股权市场跨链认证安全规范 > 6.4 业务数据传输安全",
+      "title": "6.4 业务数据传输安全",
+      "level": 2,
+      "reading_guide": {
+        "has": "加密算法/国产密码算法/密钥协商/密钥保护/数字摘要/数字签名/HMAC/密码产品认证",
+        "for": [
+          "加密要求",
+          "完整性校验",
+          "国密合规",
+          "密钥管理"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.4 业务数据传输安全_p0",
+          "para_index": 0,
+          "content": "应采取加密算法确保业务数据的机密性，加密算法应采用国产密码算法，密钥协商、密钥保护手段应安全，应使用通过密码产品认证的产品。\n应采取数字摘要、数字签名、HMAC等密码技术确保业务数据传输的完整性，密码算法应采用国产密码算法。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.4 业务数据传输安全_p0_s0",
+              "text": "应采取加密算法确保业务数据的机密性，加密算法应采用国产密码算法，密钥协商、密钥保护手段应安全，应使用通过密码产品认证的产品。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 6.4 业务数据传输安全",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.4 业务数据传输安全_p0_s1",
+              "text": "应采取数字摘要、数字签名、HMAC等密码技术确保业务数据传输的完整性，密码算法应采用国产密码算法。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 6.4 业务数据传输安全",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠",
+      "section_path": "区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠",
+      "title": "6.5 业务数据的存储可靠",
+      "level": 2,
+      "reading_guide": {
+        "has": "存储可靠性/备份容灾/运维制度/保存时限60个月/结构化非结构化数据/电子签名/区块链/数字摘要/完整性校验/修改发现/信息安全制度/人员管理制度",
+        "for": [
+          "数据存储",
+          "安全规范",
+          "数据完整性",
+          "保存期限",
+          "运维要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠_p0",
+          "para_index": 0,
+          "content": "应确保业务数据存储的可靠性。应提供安全、可靠的存储环境，并具备备份、容灾技术手段和运维能力以及运维制度。\n业务数据的保存时限不低于60个月。对于有特殊要求或规定的，从其规定。\n业务数据应支持结构化和非结构化数据类型。\n应采取电子签名、区块链、数字摘要等技术手段确保业务数据完整性。对相关数据进行修改后，应能发现。\n应具备健全的信息安全保护制度、内部人员安全管理制度，确保不泄露。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠_p0_s0",
+              "text": "应确保业务数据存储的可靠性。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠_p0_s1",
+              "text": "应提供安全、可靠的存储环境，并具备备份、容灾技术手段和运维能力以及运维制度。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠_p0_s2",
+              "text": "业务数据的保存时限不低于60个月。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠_p0_s3",
+              "text": "对于有特殊要求或规定的，从其规定。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠_p0_s4",
+              "text": "业务数据应支持结构化和非结构化数据类型。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠_p0_s5",
+              "text": "应采取电子签名、区块链、数字摘要等技术手段确保业务数据完整性。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠_p0_s6",
+              "text": "对相关数据进行修改后，应能发现。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠_p0_s7",
+              "text": "应具备健全的信息安全保护制度、内部人员安全管理制度，确保不泄露。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.6 数据完整性保护手段可靠",
+      "section_path": "区域性股权市场跨链认证安全规范 > 6.6 数据完整性保护手段可靠",
+      "title": "6.6 数据完整性保护手段可靠",
+      "level": 2,
+      "reading_guide": {
+        "has": "业务数据完整性保护手段，生成主体身份验证，生成时间验证，操作规范性验证，数据完整性验证",
+        "for": [
+          "数据完整性",
+          "身份验证",
+          "时间戳",
+          "操作规范"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.6 数据完整性保护手段可靠_p0",
+          "para_index": 0,
+          "content": "业务数据完整性保护手段应可靠，可通过技术手段验证业务数据的生成主体身份、生成时间、操作的规范性、数据的完整性。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.6 数据完整性保护手段可靠_p0_s0",
+              "text": "业务数据完整性保护手段应可靠，可通过技术手段验证业务数据的生成主体身份、生成时间、操作的规范性、数据的完整性。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 6.6 数据完整性保护手段可靠",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7 地方业务链安全要求",
+      "section_path": "区域性股权市场跨链认证安全规范 > 7 地方业务链安全要求",
+      "title": "7 地方业务链安全要求",
+      "level": 2,
+      "reading_guide": {
+        "has": "区块平均生成时间/总区块数/事务明细/链上数据一致性/可靠性",
+        "for": [
+          "性能指标",
+          "数据查询",
+          "功能要求",
+          "数据质量"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7 地方业务链安全要求_p0",
+          "para_index": 0,
+          "content": "地方业务链应具备查询区块平均生成时间、总区块数以及指定区块中事务明细的功能。通过使用这些功能，应能获得一致、可靠的链上数据。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7 地方业务链安全要求_p0_s0",
+              "text": "地方业务链应具备查询区块平均生成时间、总区块数以及指定区块中事务明细的功能。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7 地方业务链安全要求",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7 地方业务链安全要求_p0_s1",
+              "text": "通过使用这些功能，应能获得一致、可靠的链上数据。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7 地方业务链安全要求",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.2 身份信息安全",
+      "section_path": "区域性股权市场跨链认证安全规范 > 7.2 身份信息安全",
+      "title": "7.2 身份信息安全",
+      "level": 2,
+      "reading_guide": {
+        "has": "用户身份标识唯一性/可鉴别性/加密算法/数字签名/防重复身份/防冒用/认证失败处理机制",
+        "for": [
+          "身份安全",
+          "加密机制",
+          "防重放",
+          "异常处理"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.2 身份信息安全_p0",
+          "para_index": 0,
+          "content": "地方业务链应能确保用户身份标识唯一性和可鉴别性。\n地方业务链的校验鉴别信息应具有加密算法和数字签名的安全机制，确保区块链中不存在重复身份标识、身份鉴别信息不被冒用。\n地方业务链应具有身份认证失败处理机制。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.2 身份信息安全_p0_s0",
+              "text": "地方业务链应能确保用户身份标识唯一性和可鉴别性。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7.2 身份信息安全",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.2 身份信息安全_p0_s1",
+              "text": "地方业务链的校验鉴别信息应具有加密算法和数字签名的安全机制，确保区块链中不存在重复身份标识、身份鉴别信息不被冒用。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7.2 身份信息安全",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.2 身份信息安全_p0_s2",
+              "text": "地方业务链应具有身份认证失败处理机制。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7.2 身份信息安全",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.3 访问控制",
+      "section_path": "区域性股权市场跨链认证安全规范 > 7.3 访问控制",
+      "title": "7.3 访问控制",
+      "level": 2,
+      "reading_guide": {
+        "has": "地方业务链访问控制功能,安全策略,访问主体,访问客体,操作资源",
+        "for": [
+          "访问控制",
+          "安全策略",
+          "权限范围"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.3 访问控制_p0",
+          "para_index": 0,
+          "content": "地方业务链应具有访问控制功能，依据安全策略控制用户对数据的访问。\n地方业务链访问控制的覆盖范围应包括：区块链访问相关的主体、区块链访问相关的客体以及区块链访问相关资源之间的操作。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.3 访问控制_p0_s0",
+              "text": "地方业务链应具有访问控制功能，依据安全策略控制用户对数据的访问。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7.3 访问控制",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.3 访问控制_p0_s1",
+              "text": "地方业务链访问控制的覆盖范围应包括：区块链访问相关的主体、区块链访问相关的客体以及区块链访问相关资源之间的操作。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7.3 访问控制",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.3.3 访问控制策略和权限",
+      "section_path": "区域性股权市场跨链认证安全规范 > 7.3.3 访问控制策略和权限",
+      "title": "7.3.3 访问控制策略和权限",
+      "level": 2,
+      "reading_guide": {
+        "has": "访问控制策略配置/权限分配原则/最小化原则/相互制约原则/跨链数据访问控制",
+        "for": [
+          "权限管理",
+          "安全策略",
+          "跨链控制",
+          "账户授权"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.3.3 访问控制策略和权限_p0",
+          "para_index": 0,
+          "content": "地方业务链应用应由授权主体配置访问控制策略，并按照权限最小化、相互制约原则，为账户分配访问权限。\n地方业务链应具有访问控制功能，依据安全策略控制其他区块链系统对本区块链数据的访问。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.3.3 访问控制策略和权限_p0_s0",
+              "text": "地方业务链应用应由授权主体配置访问控制策略，并按照权限最小化、相互制约原则，为账户分配访问权限。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7.3.3 访问控制策略和权限",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.3.3 访问控制策略和权限_p0_s1",
+              "text": "地方业务链应具有访问控制功能，依据安全策略控制其他区块链系统对本区块链数据的访问。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7.3.3 访问控制策略和权限",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.4.2 链间访问控制覆盖范围",
+      "section_path": "区域性股权市场跨链认证安全规范 > 7.4.2 链间访问控制覆盖范围",
+      "title": "7.4.2 链间访问控制覆盖范围",
+      "level": 2,
+      "reading_guide": {
+        "has": "链间访问控制覆盖范围，主体，客体，资源，操作",
+        "for": [
+          "访问控制",
+          "安全规范",
+          "覆盖范围"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.4.2 链间访问控制覆盖范围_p0",
+          "para_index": 0,
+          "content": "地方业务链的链间访问控制的覆盖范围应包括：其他区块链系统对本区块链访问相关的主体、区块链访问相关的客体以及区块链访问相关资源之间的操作。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.4.2 链间访问控制覆盖范围_p0_s0",
+              "text": "地方业务链的链间访问控制的覆盖范围应包括：其他区块链系统对本区块链访问相关的主体、区块链访问相关的客体以及区块链访问相关资源之间的操作。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7.4.2 链间访问控制覆盖范围",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.4.3 访问控制策略和权限",
+      "section_path": "区域性股权市场跨链认证安全规范 > 7.4.3 访问控制策略和权限",
+      "title": "7.4.3 访问控制策略和权限",
+      "level": 2,
+      "reading_guide": {
+        "has": "访问控制策略配置/权限分配原则/最小化原则/相互制约原则/授权主体",
+        "for": [
+          "权限管理",
+          "安全规范",
+          "配置要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.4.3 访问控制策略和权限_p0",
+          "para_index": 0,
+          "content": "地方业务链应用应由授权主体配置其他区块链的访问控制策略，并按照权限最小化、相互制约原则，为账户分配访问权限。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.4.3 访问控制策略和权限_p0_s0",
+              "text": "地方业务链应用应由授权主体配置其他区块链的访问控制策略，并按照权限最小化、相互制约原则，为账户分配访问权限。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7.4.3 访问控制策略和权限",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.5 共识协议",
+      "section_path": "区域性股权市场跨链认证安全规范 > 7.5 共识协议",
+      "title": "7.5 共识协议",
+      "level": 2,
+      "reading_guide": {
+        "has": "共识算法/多节点参与/容错性/节点部署限制/数据一致性/可靠性/可拓展性",
+        "for": [
+          "共识机制",
+          "节点部署",
+          "系统容错",
+          "数据一致"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.5 共识协议_p0",
+          "para_index": 0,
+          "content": "地方业务链需要采用合适的共识算法确保链上数据的一致性，支持多节点参与共识和验证，具备容错性。\n地方业务链的节点不可全部部署到某一机构的服务器或单一云平台服务器上。\n地方业务链应确保节点数据的一致性、可靠性和可拓展性。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.5 共识协议_p0_s0",
+              "text": "地方业务链需要采用合适的共识算法确保链上数据的一致性，支持多节点参与共识和验证，具备容错性。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7.5 共识协议",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.5 共识协议_p0_s1",
+              "text": "地方业务链的节点不可全部部署到某一机构的服务器或单一云平台服务器上。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7.5 共识协议",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.5 共识协议_p0_s2",
+              "text": "地方业务链应确保节点数据的一致性、可靠性和可拓展性。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7.5 共识协议",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.6 智能合约",
+      "section_path": "区域性股权市场跨链认证安全规范 > 7.6 智能合约",
+      "title": "7.6 智能合约",
+      "level": 2,
+      "reading_guide": {
+        "has": "智能合约执行结果明确性/逻辑推理一致性/索引功能/区间查询功能/历史查询功能",
+        "for": [
+          "合约功能",
+          "查询能力",
+          "执行规范"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.6 智能合约_p0",
+          "para_index": 0,
+          "content": "地方业务链的智能合约的执行结果应明确，可通过逻辑推理得出与实际结果一致的执行结果。\n地方业务链的智能合约应支持索引、区间、历史查询等功能。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.6 智能合约_p0_s0",
+              "text": "地方业务链的智能合约的执行结果应明确，可通过逻辑推理得出与实际结果一致的执行结果。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7.6 智能合约",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.6 智能合约_p0_s1",
+              "text": "地方业务链的智能合约应支持索引、区间、历史查询等功能。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7.6 智能合约",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.6.3 智能合约更新",
+      "section_path": "区域性股权市场跨链认证安全规范 > 7.6.3 智能合约更新",
+      "title": "7.6.3 智能合约更新",
+      "level": 2,
+      "reading_guide": {
+        "has": "智能合约动态更新功能/更新前后稳定性要求/智能合约冻结功能/智能合约终止功能",
+        "for": [
+          "合约更新",
+          "运行稳定",
+          "冻结机制",
+          "终止机制"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.6.3 智能合约更新_p0",
+          "para_index": 0,
+          "content": "地方业务链的智能合约应具有动态更新的功能；更新过程前后，地方业务链应运行稳定。\n地方业务链的智能合约应具有冻结或终止功能。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.6.3 智能合约更新_p0_s0",
+              "text": "地方业务链的智能合约应具有动态更新的功能；",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7.6.3 智能合约更新",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.6.3 智能合约更新_p0_s1",
+              "text": "更新过程前后，地方业务链应运行稳定。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7.6.3 智能合约更新",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.6.3 智能合约更新_p0_s2",
+              "text": "地方业务链的智能合约应具有冻结或终止功能。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7.6.3 智能合约更新",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.7 稳定性",
+      "section_path": "区域性股权市场跨链认证安全规范 > 7.7 稳定性",
+      "title": "7.7 稳定性",
+      "level": 2,
+      "reading_guide": {
+        "has": "地方业务链运行稳定性/未确认交易场景/平稳运行要求",
+        "for": [
+          "稳定性",
+          "异常场景",
+          "运行要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.7 稳定性_p0",
+          "para_index": 0,
+          "content": "地方业务链应运行稳定，在始终有未确认交易的场景下，地方业务链仍能平稳运行。\n注：交易是区块链上的一次原子性账本数据状态变更及其过程和结果记录。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.7 稳定性_p0_s0",
+              "text": "地方业务链应运行稳定，在始终有未确认交易的场景下，地方业务链仍能平稳运行。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7.7 稳定性",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 7.7 稳定性_p0_s1",
+              "text": "注：交易是区块链上的一次原子性账本数据状态变更及其过程和结果记录。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 7.7 稳定性",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8 地方业务系统安全要求",
+      "section_path": "区域性股权市场跨链认证安全规范 > 8 地方业务系统安全要求",
+      "title": "8 地方业务系统安全要求",
+      "level": 2,
+      "reading_guide": {
+        "has": "网络攻击检测/防止/限制/源地址/攻击类型/攻击范围/攻击时间",
+        "for": [
+          "安全要求",
+          "攻击检测",
+          "日志记录"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8 地方业务系统安全要求_p0",
+          "para_index": 0,
+          "content": "地方业务系统应能在关键网络节点处检测、防止或限制内外部发起的网络攻击行为；当检测到攻击行为时，地方业务系统应记录攻击信息，包括源网络地址、攻击类型、攻击范围、攻击时间。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8 地方业务系统安全要求_p0_s0",
+              "text": "地方业务系统应能在关键网络节点处检测、防止或限制内外部发起的网络攻击行为；",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 8 地方业务系统安全要求",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8 地方业务系统安全要求_p0_s1",
+              "text": "当检测到攻击行为时，地方业务系统应记录攻击信息，包括源网络地址、攻击类型、攻击范围、攻击时间。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 8 地方业务系统安全要求",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8.2 恶意代码防范",
+      "section_path": "区域性股权市场跨链认证安全规范 > 8.2 恶意代码防范",
+      "title": "8.2 恶意代码防范",
+      "level": 2,
+      "reading_guide": {
+        "has": "恶意代码检测/清除/防护机制/升级更新/可信验证/完整性恢复",
+        "for": [
+          "安全规范",
+          "恶意防范",
+          "系统验证",
+          "完整性保护"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8.2 恶意代码防范_p0",
+          "para_index": 0,
+          "content": "地方业务系统应能检测并清除恶意代码，同时应维护对恶意代码的防护机制、升级和更新。\n地方业务系统应具备可信验证机制，对系统程序、应用程序和重要配置文件或参数进行可信执行验证。地方业务系统应在检测到其完整性受到破坏时采取恢复措施。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8.2 恶意代码防范_p0_s0",
+              "text": "地方业务系统应能检测并清除恶意代码，同时应维护对恶意代码的防护机制、升级和更新。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 8.2 恶意代码防范",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8.2 恶意代码防范_p0_s1",
+              "text": "地方业务系统应具备可信验证机制，对系统程序、应用程序和重要配置文件或参数进行可信执行验证。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 8.2 恶意代码防范",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8.2 恶意代码防范_p0_s2",
+              "text": "地方业务系统应在检测到其完整性受到破坏时采取恢复措施。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 8.2 恶意代码防范",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8.4 访问控制",
+      "section_path": "区域性股权市场跨链认证安全规范 > 8.4 访问控制",
+      "title": "8.4 访问控制",
+      "level": 2,
+      "reading_guide": {
+        "has": "用户访问控制/账户分配/权限管理/最小权限原则/访问控制粒度/主体用户级/客体文件/数据库表/记录/字段",
+        "for": [
+          "权限配置",
+          "安全规范",
+          "访问控制",
+          "数据粒度"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8.4 访问控制_p0",
+          "para_index": 0,
+          "content": "地方业务系统应做好用户访问控制管理，应对登录的用户分配相应的账户和权限。\n地方业务系统的权限管理应遵从最小权限原则。\n地方业务系统的访问控制粒度应达到主体为用户级，客体为文件、数据库表级、记录或字段级。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8.4 访问控制_p0_s0",
+              "text": "地方业务系统应做好用户访问控制管理，应对登录的用户分配相应的账户和权限。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 8.4 访问控制",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8.4 访问控制_p0_s1",
+              "text": "地方业务系统的权限管理应遵从最小权限原则。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 8.4 访问控制",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8.4 访问控制_p0_s2",
+              "text": "地方业务系统的访问控制粒度应达到主体为用户级，客体为文件、数据库表级、记录或字段级。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 8.4 访问控制",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8.5 安全策略和管理制度",
+      "section_path": "区域性股权市场跨链认证安全规范 > 8.5 安全策略和管理制度",
+      "title": "8.5 安全策略和管理制度",
+      "level": 2,
+      "reading_guide": {
+        "has": "信息安全总体方针/安全策略/安全管理目标/管理范围/安全原则/安全框架/安全管理制度/操作规程/记录表单/制度体系",
+        "for": [
+          "安全策略",
+          "管理制度",
+          "操作规范",
+          "合规要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8.5 安全策略和管理制度_p0",
+          "para_index": 0,
+          "content": "应制定信息安全工作的总体方针和安全策略，说明机构安全工作的总体目标、范围、原则和安全框架。\n应对安全管理活动中的各类管理内容建立安全管理制度。\n应对管理人员或操作人员执行的日常管理操作建立操作规程。\n应形成由安全策略、管理制度、操作规程、记录表单等构成的全面的信息安全管理制度体系。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8.5 安全策略和管理制度_p0_s0",
+              "text": "应制定信息安全工作的总体方针和安全策略，说明机构安全工作的总体目标、范围、原则和安全框架。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 8.5 安全策略和管理制度",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8.5 安全策略和管理制度_p0_s1",
+              "text": "应对安全管理活动中的各类管理内容建立安全管理制度。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 8.5 安全策略和管理制度",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8.5 安全策略和管理制度_p0_s2",
+              "text": "应对管理人员或操作人员执行的日常管理操作建立操作规程。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 8.5 安全策略和管理制度",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 8.5 安全策略和管理制度_p0_s3",
+              "text": "应形成由安全策略、管理制度、操作规程、记录表单等构成的全面的信息安全管理制度体系。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 8.5 安全策略和管理制度",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 9 跨链机制要求",
+      "section_path": "区域性股权市场跨链认证安全规范 > 9 跨链机制要求",
+      "title": "9 跨链机制要求",
+      "level": 2,
+      "reading_guide": {
+        "has": "公证人机制/哈希锁定技术/侧链技术/中继技术/跨链消息输入输出口径/真实性证明/有效路由/统一格式定义/消息来源去处/内容验证",
+        "for": [
+          "跨链技术",
+          "安全机制",
+          "消息规范",
+          "路由验证"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 9 跨链机制要求_p0",
+          "para_index": 0,
+          "content": "地方业务链和监管链跨链对接应采用公证人机制技术、哈希锁定技术、侧链技术、中继技术或其他安全的跨链技术。应提供跨链消息的输入、输出口径和真实性证明，跨链消息的有效路由；应构建跨链消息的统一格式，定义消息来源和去处以及消息的内容，跨链消息验证，以保障跨链之后的结果安全可信。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 9 跨链机制要求_p0_s0",
+              "text": "地方业务链和监管链跨链对接应采用公证人机制技术、哈希锁定技术、侧链技术、中继技术或其他安全的跨链技术。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 9 跨链机制要求",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 9 跨链机制要求_p0_s1",
+              "text": "应提供跨链消息的输入、输出口径和真实性证明，跨链消息的有效路由；",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 9 跨链机制要求",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 9 跨链机制要求_p0_s2",
+              "text": "应构建跨链消息的统一格式，定义消息来源和去处以及消息的内容，跨链消息验证，以保障跨链之后的结果安全可信。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 9 跨链机制要求",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 10 跨链传输信道安全要求",
+      "section_path": "区域性股权市场跨链认证安全规范 > 10 跨链传输信道安全要求",
+      "title": "10 跨链传输信道安全要求",
+      "level": 2,
+      "reading_guide": {
+        "has": "地方业务链/监管链/证券期货行业专线网络/通信方式",
+        "for": [
+          "网络架构",
+          "通信链路",
+          "安全要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 10 跨链传输信道安全要求_p0",
+          "para_index": 0,
+          "content": "地方业务链与监管链通过证券期货行业专线网络进行通信。\n在监管链和地方业务链之间建立专线，地方业务链与监管链通过专线进行通信。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 10 跨链传输信道安全要求_p0_s0",
+              "text": "地方业务链与监管链通过证券期货行业专线网络进行通信。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 10 跨链传输信道安全要求",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 10 跨链传输信道安全要求_p0_s1",
+              "text": "在监管链和地方业务链之间建立专线，地方业务链与监管链通过专线进行通信。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 10 跨链传输信道安全要求",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 10.3 通过 VPN 网络访问",
+      "section_path": "区域性股权市场跨链认证安全规范 > 10.3 通过 VPN 网络访问",
+      "title": "10.3 通过 VPN 网络访问",
+      "level": 2,
+      "reading_guide": {
+        "has": "监管链/地方业务链/VPN连接/局域网地址/RPC接口调用/互联网加密传输",
+        "for": [
+          "网络架构",
+          "访问方式",
+          "安全机制",
+          "数据加密"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 10.3 通过 VPN 网络访问_p0",
+          "para_index": 0,
+          "content": "在监管链和地方业务链之间建立VPN连接，监管链通过地方业务链局域网地址调用地方业务链RPC接口，此方式下通过互联网传输加密后的数据。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 10.3 通过 VPN 网络访问_p0_s0",
+              "text": "在监管链和地方业务链之间建立VPN连接，监管链通过地方业务链局域网地址调用地方业务链RPC接口，此方式下通过互联网传输加密后的数据。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 10.3 通过 VPN 网络访问",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 10.4 对 RPC 接口增加 API 鉴权",
+      "section_path": "区域性股权市场跨链认证安全规范 > 10.4 对 RPC 接口增加 API 鉴权",
+      "title": "10.4 对 RPC 接口增加 API 鉴权",
+      "level": 2,
+      "reading_guide": {
+        "has": "RPC接口鉴权/网关服务/HTTPS访问/身份验证/数据转发/不修改返回数据",
+        "for": [
+          "安全规范",
+          "API鉴权",
+          "网络架构",
+          "监管链"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 10.4 对 RPC 接口增加 API 鉴权_p0",
+          "para_index": 0,
+          "content": "在地方业务链节点之上增加网关等鉴权服务，用于地方业务链RPC接口鉴权。监管链通过HTTPS方式访问鉴权服务，鉴权服务验证用户身份通过后，可转发到地方业务链RPC接口，鉴权服务只对调用者身份进行识别，不对接口返回数据进行任何修改。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 10.4 对 RPC 接口增加 API 鉴权_p0_s0",
+              "text": "在地方业务链节点之上增加网关等鉴权服务，用于地方业务链RPC接口鉴权。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 10.4 对 RPC 接口增加 API 鉴权",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 10.4 对 RPC 接口增加 API 鉴权_p0_s1",
+              "text": "监管链通过HTTPS方式访问鉴权服务，鉴权服务验证用户身份通过后，可转发到地方业务链RPC接口，鉴权服务只对调用者身份进行识别，不对接口返回数据进行任何修改。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 10.4 对 RPC 接口增加 API 鉴权",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 10.5 IP 白名单",
+      "section_path": "区域性股权市场跨链认证安全规范 > 10.5 IP 白名单",
+      "title": "10.5 IP 白名单",
+      "level": 2,
+      "reading_guide": {
+        "has": "IP白名单机制,RPC接口访问限制,跨链对接,数据传输安全性,数据一致性",
+        "for": [
+          "安全规范",
+          "访问控制",
+          "跨链对接",
+          "数据一致"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 10.5 IP 白名单_p0",
+          "para_index": 0,
+          "content": "地方业务链应具备IP白名单机制，限制访问节点RPC接口IP。\n地方业务链和监管链跨链对接时，应保证数据传输的安全性与可靠性，所访问的数据，在地方链及监管链上的数据结果应确保一致。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 10.5 IP 白名单_p0_s0",
+              "text": "地方业务链应具备IP白名单机制，限制访问节点RPC接口IP。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 10.5 IP 白名单",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 10.5 IP 白名单_p0_s1",
+              "text": "地方业务链和监管链跨链对接时，应保证数据传输的安全性与可靠性，所访问的数据，在地方链及监管链上的数据结果应确保一致。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 10.5 IP 白名单",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 11.2 数据访问时的要求",
+      "section_path": "区域性股权市场跨链认证安全规范 > 11.2 数据访问时的要求",
+      "title": "11.2 数据访问时的要求",
+      "level": 2,
+      "reading_guide": {
+        "has": "监管链访问地方业务链数据校验/数据传输一致性保障/传输后完整性检查",
+        "for": [
+          "数据校验",
+          "传输安全",
+          "一致性要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 11.2 数据访问时的要求_p0",
+          "para_index": 0,
+          "content": "在监管链访问地方业务链数据时，应当完成数据校验，保障所传输的数据一致。\n在地方业务链向监管链传输数据时，应在传输完成后，进行数据完整性一致性的检查，保障所传输的数据一致。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 11.2 数据访问时的要求_p0_s0",
+              "text": "在监管链访问地方业务链数据时，应当完成数据校验，保障所传输的数据一致。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 11.2 数据访问时的要求",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 11.2 数据访问时的要求_p0_s1",
+              "text": "在地方业务链向监管链传输数据时，应在传输完成后，进行数据完整性一致性的检查，保障所传输的数据一致。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 11.2 数据访问时的要求",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 11.4 智能合约调用时的要求",
+      "section_path": "区域性股权市场跨链认证安全规范 > 11.4 智能合约调用时的要求",
+      "title": "11.4 智能合约调用时的要求",
+      "level": 2,
+      "reading_guide": {
+        "has": "智能合约调用数据检验、返回数据校验、跨链与本地调用结果一致性",
+        "for": [
+          "合约安全",
+          "数据校验",
+          "跨链一致性"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 11.4 智能合约调用时的要求_p0",
+          "para_index": 0,
+          "content": "需要检验智能合约调用时的数据，以及智能合约返回的数据。保障跨链调用智能合约的结果，与本地调用时的结果一致。",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 11.4 智能合约调用时的要求_p0_s0",
+              "text": "需要检验智能合约调用时的数据，以及智能合约返回的数据。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 11.4 智能合约调用时的要求",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 11.4 智能合约调用时的要求_p0_s1",
+              "text": "保障跨链调用智能合约的结果，与本地调用时的结果一致。",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 11.4 智能合约调用时的要求",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 参 考 文 献",
+      "section_path": "区域性股权市场跨链认证安全规范 > 参 考 文 献",
+      "title": "参 考 文 献",
+      "level": 2,
+      "reading_guide": {
+        "has": "参考文献/电子签名法",
+        "for": [
+          "法规依据",
+          "数据来源"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 参 考 文 献_p0",
+          "para_index": 0,
+          "content": "[1] 《中华人民共和国电子签名法》",
+          "sentences": [
+            {
+              "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 参 考 文 献_p0_s0",
+              "text": "[1] 《中华人民共和国电子签名法》",
+              "location": {
+                "doc_id": "doc_72b19b4396cf",
+                "section_path": "区域性股权市场跨链认证安全规范 > 参 考 文 献",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_2b7e3e978c31",
+      "entity_type": "LegalDocument",
+      "mention": "JR/T 0316—2024",
+      "canonical_name": "JR/T 0316—2024",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 目 次_p0_s0",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 目 次_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_abded6e2be04",
+      "entity_type": "Date",
+      "mention": "2024-11-20",
+      "canonical_name": "2024-11-20",
+      "attributes": {
+        "type": "implementation_date"
+      },
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 目 次_p0_s0",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 目 次_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_80f573a698a9",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 1.1—2020",
+      "canonical_name": "GB/T 1.1—2020",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s0",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_16c8c2f7d09e",
+      "entity_type": "Organization",
+      "mention": "全国金融标准化技术委员会证券分技术委员会",
+      "canonical_name": "全国金融标准化技术委员会证券分技术委员会",
+      "attributes": {
+        "abbreviation": "SAC/TC 180/SC4"
+      },
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s3",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d6aabd760844",
+      "entity_type": "Organization",
+      "mention": "全国金融标准化技术委员会",
+      "canonical_name": "全国金融标准化技术委员会",
+      "attributes": {
+        "abbreviation": "SAC/TC 180"
+      },
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s4",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3a7fa0a7b0a7",
+      "entity_type": "Organization",
+      "mention": "中国证券监督管理委员会科技监管司",
+      "canonical_name": "中国证券监督管理委员会科技监管司",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_763518d1f102",
+      "entity_type": "Organization",
+      "mention": "中证信息技术服务有限责任公司",
+      "canonical_name": "中证信息技术服务有限责任公司",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_aef95d43f0b8",
+      "entity_type": "Organization",
+      "mention": "中证机构间报价系统股份有限公司",
+      "canonical_name": "中证机构间报价系统股份有限公司",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_968e322be55a",
+      "entity_type": "Organization",
+      "mention": "深圳证券通信有限公司",
+      "canonical_name": "深圳证券通信有限公司",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2d6c4cb40e0f",
+      "entity_type": "Organization",
+      "mention": "上海边界智能科技有限公司",
+      "canonical_name": "上海边界智能科技有限公司",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_048d49ea09f5",
+      "entity_type": "Organization",
+      "mention": "北京共识数信科技有限公司",
+      "canonical_name": "北京共识数信科技有限公司",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ccb586adc4b9",
+      "entity_type": "Organization",
+      "mention": "同济大学",
+      "canonical_name": "同济大学",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7b075dfc6cd8",
+      "entity_type": "Organization",
+      "mention": "南京大学",
+      "canonical_name": "南京大学",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_85a06832ad54",
+      "entity_type": "Person",
+      "mention": "张业龙",
+      "canonical_name": "张业龙",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_847a15ce0016",
+      "entity_type": "Person",
+      "mention": "彭枫",
+      "canonical_name": "彭枫",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_47b8961869fc",
+      "entity_type": "Person",
+      "mention": "王亚军",
+      "canonical_name": "王亚军",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8927362cbac0",
+      "entity_type": "Person",
+      "mention": "王凤冬",
+      "canonical_name": "王凤冬",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_300e053078dd",
+      "entity_type": "Person",
+      "mention": "王毛路",
+      "canonical_name": "王毛路",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_67585372a944",
+      "entity_type": "Person",
+      "mention": "李宇",
+      "canonical_name": "李宇",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a44f40afdd6c",
+      "entity_type": "Person",
+      "mention": "陈小泉",
+      "canonical_name": "陈小泉",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_33326a9e4e8f",
+      "entity_type": "Person",
+      "mention": "马小峰",
+      "canonical_name": "马小峰",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1c48e6add39e",
+      "entity_type": "Person",
+      "mention": "陈莹",
+      "canonical_name": "陈莹",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_046a5835bf19",
+      "entity_type": "Industry",
+      "mention": "区域性股权市场",
+      "canonical_name": "区域性股权市场",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 引 言_p0_s0",
+      "sentence_ids": [
+        "doc_72b19b4396cf#Specifications for regional equity markets cross-chain authentication security > 引 言_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_49fbc31cd1c1",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 11457",
+      "canonical_name": "GB/T 11457",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ae54c4a507bd",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 20518",
+      "canonical_name": "GB/T 20518",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fd7c72891aef",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 25069",
+      "canonical_name": "GB/T 25069",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a2163b10047b",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 32905",
+      "canonical_name": "GB/T 32905",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a0db365fba4e",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 32918",
+      "canonical_name": "GB/T 32918",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c011644e3b6b",
+      "entity_type": "LegalDocument",
+      "mention": "JR/T 0184",
+      "canonical_name": "JR/T 0184",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_809958ad2e15",
+      "entity_type": "LegalTerm",
+      "mention": "SM3",
+      "canonical_name": "SM3",
+      "attributes": {
+        "definition": "密码杂凑算法"
+      },
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 2 规范性引用文件_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4717af901415",
+      "entity_type": "LegalTerm",
+      "mention": "跨链",
+      "canonical_name": "跨链",
+      "attributes": {
+        "definition": "实现在区块链之间的双向信息交互、信息验证与服务调用的技术。"
+      },
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3 术语和定义_p0_s1",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3 术语和定义_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ee91f52c73d2",
+      "entity_type": "LegalTerm",
+      "mention": "监管链",
+      "canonical_name": "监管链",
+      "attributes": {
+        "definition": "以全局服务和监管为目的构建的区块链系统。"
+      },
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3 术语和定义_p0_s2",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3 术语和定义_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_943bb31eae97",
+      "entity_type": "LegalTerm",
+      "mention": "地方业务链",
+      "canonical_name": "地方业务链",
+      "attributes": {
+        "definition": "各地方以服务区域性股权市场业务和生态为目的构建的区块链系统。"
+      },
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3 术语和定义_p0_s3",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3 术语和定义_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9fb510735277",
+      "entity_type": "LegalTerm",
+      "mention": "地方业务系统",
+      "canonical_name": "地方业务系统",
+      "attributes": {
+        "definition": "与地方业务链对接，实现数据传输到地方业务链的业务系统。"
+      },
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3 术语和定义_p0_s4",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3 术语和定义_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2314da0f9765",
+      "entity_type": "LegalTerm",
+      "mention": "业务数据",
+      "canonical_name": "业务数据",
+      "attributes": {
+        "definition": "地方业务系统存储和处理的数据。"
+      },
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3.5_p0_s0",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3.5_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a52a2ab61f73",
+      "entity_type": "LegalTerm",
+      "mention": "智能合约",
+      "canonical_name": "智能合约",
+      "attributes": {
+        "definition": "以信息化方式传播、验证或执行合同的计算机协议。"
+      },
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3.7_p0_s0",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 3.7_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bc575f07b8e0",
+      "entity_type": "LegalTerm",
+      "mention": "API",
+      "canonical_name": "API",
+      "attributes": {
+        "definition": "应用程序编程接口（Application Programming Interface）"
+      },
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s1",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ef747b147c1c",
+      "entity_type": "LegalTerm",
+      "mention": "ASN.1",
+      "canonical_name": "ASN.1",
+      "attributes": {
+        "definition": "抽象语法标记（Abstract Syntax Notation One）"
+      },
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s1",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ce6659e1d062",
+      "entity_type": "LegalTerm",
+      "mention": "ECC",
+      "canonical_name": "ECC",
+      "attributes": {
+        "definition": "椭圆曲线加密（Elliptic Curve Cryptography）"
+      },
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s1",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c8149a0ab99c",
+      "entity_type": "LegalTerm",
+      "mention": "HMAC",
+      "canonical_name": "HMAC",
+      "attributes": {
+        "definition": "密钥相关的哈希运算消息认证码（Hash-based Message Authentication Code）"
+      },
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s1",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0c013d56daff",
+      "entity_type": "LegalTerm",
+      "mention": "HTTPS",
+      "canonical_name": "HTTPS",
+      "attributes": {
+        "definition": "超文本传输安全协议（Hypertext Transfer Protocol Secure）"
+      },
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s1",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_72592fff0579",
+      "entity_type": "LegalTerm",
+      "mention": "IP",
+      "canonical_name": "IP",
+      "attributes": {
+        "definition": "网际互连协议（Internet Protocol）"
+      },
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s1",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_602880b021b3",
+      "entity_type": "LegalTerm",
+      "mention": "RPC",
+      "canonical_name": "RPC",
+      "attributes": {
+        "definition": "远程过程调用（Remote Procedure Call）"
+      },
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s1",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9ad82bd2b6ee",
+      "entity_type": "LegalTerm",
+      "mention": "VPC",
+      "canonical_name": "VPC",
+      "attributes": {
+        "definition": "虚拟私有云网络（Virtual Private Cloud）"
+      },
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s1",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_430b671c3309",
+      "entity_type": "LegalTerm",
+      "mention": "VPN",
+      "canonical_name": "VPN",
+      "attributes": {
+        "definition": "虚拟专用网络（Virtual Private Network）"
+      },
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s1",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 4 缩略语_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2f3c738a3cb1",
+      "entity_type": "LegalTerm",
+      "mention": "SM2",
+      "canonical_name": "SM2",
+      "attributes": {
+        "definition": "椭圆曲线公钥密码算法"
+      },
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 5 密码算法要求_p0_s0",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 5 密码算法要求_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5a7ea412f8fc",
+      "entity_type": "MonetaryAmount",
+      "mention": "60个月",
+      "canonical_name": "60个月",
+      "attributes": {
+        "unit": "months"
+      },
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠_p0_s2",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 6.5 业务数据的存储可靠_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d2d43099f7b0",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国电子签名法》",
+      "canonical_name": "中华人民共和国电子签名法",
+      "attributes": {},
+      "sentence_id": "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 参 考 文 献_p0_s0",
+      "sentence_ids": [
+        "doc_72b19b4396cf#区域性股权市场跨链认证安全规范 > 参 考 文 献_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_2968c869b216",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_80f573a698a9",
+      "tail_entity_id": "ent_80f573a698a9",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "Specifications for regional equity markets cross-chain authentication security > 前 言",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_2c7b870dc073",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_49fbc31cd1c1",
+      "tail_entity_id": "ent_49fbc31cd1c1",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 2 规范性引用文件",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_8a2677a6f708",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_ae54c4a507bd",
+      "tail_entity_id": "ent_ae54c4a507bd",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 2 规范性引用文件",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_53a335f268b2",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fd7c72891aef",
+      "tail_entity_id": "ent_fd7c72891aef",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 2 规范性引用文件",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_c47bc4dd67f0",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_a2163b10047b",
+      "tail_entity_id": "ent_a2163b10047b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 2 规范性引用文件",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_0050f78f0c79",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_a0db365fba4e",
+      "tail_entity_id": "ent_a0db365fba4e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 2 规范性引用文件",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_41d127731875",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_c011644e3b6b",
+      "tail_entity_id": "ent_c011644e3b6b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 2 规范性引用文件",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_9383e59f729a",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_809958ad2e15",
+      "tail_entity_id": "ent_809958ad2e15",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 2 规范性引用文件",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_ea3cdbb66d8a",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_4717af901415",
+      "tail_entity_id": "ent_4717af901415",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 3 术语和定义",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_de0640323ef2",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_ee91f52c73d2",
+      "tail_entity_id": "ent_ee91f52c73d2",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 3 术语和定义",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_735f14346d0b",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_943bb31eae97",
+      "tail_entity_id": "ent_943bb31eae97",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 3 术语和定义",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_29e564c1b725",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_9fb510735277",
+      "tail_entity_id": "ent_9fb510735277",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 3 术语和定义",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_4de9525f1862",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_2314da0f9765",
+      "tail_entity_id": "ent_2314da0f9765",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 3.5",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_966f5156a1d1",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_a52a2ab61f73",
+      "tail_entity_id": "ent_a52a2ab61f73",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 3.7",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_3a83b5900664",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_bc575f07b8e0",
+      "tail_entity_id": "ent_bc575f07b8e0",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 4 缩略语",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_0430cf75f387",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_ef747b147c1c",
+      "tail_entity_id": "ent_ef747b147c1c",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 4 缩略语",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_835964220bba",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_ce6659e1d062",
+      "tail_entity_id": "ent_ce6659e1d062",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 4 缩略语",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_bfa321b724af",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_c8149a0ab99c",
+      "tail_entity_id": "ent_c8149a0ab99c",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 4 缩略语",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_ca864f08c652",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c013d56daff",
+      "tail_entity_id": "ent_0c013d56daff",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 4 缩略语",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_607369c95c99",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_72592fff0579",
+      "tail_entity_id": "ent_72592fff0579",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 4 缩略语",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_e995300b0e2d",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_602880b021b3",
+      "tail_entity_id": "ent_602880b021b3",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 4 缩略语",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_cf8eff044b2a",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_9ad82bd2b6ee",
+      "tail_entity_id": "ent_9ad82bd2b6ee",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 4 缩略语",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_939bbbf8a392",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_430b671c3309",
+      "tail_entity_id": "ent_430b671c3309",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 4 缩略语",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b1afa0b86a1c_rel_a56878a68e4a",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_2f3c738a3cb1",
+      "tail_entity_id": "ent_2f3c738a3cb1",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_72b19b4396cf",
+        "section_path": "区域性股权市场跨链认证安全规范 > 5 密码算法要求",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

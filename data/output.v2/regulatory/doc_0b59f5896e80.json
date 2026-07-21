@@ -1,0 +1,1177 @@
+{
+  "doc_id": "doc_0b59f5896e80",
+  "title": "《上市公司股东会规则》修订说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0034_att2.md",
+  "processed_at": "2026-07-21T00:36:45.846202+00:00",
+  "structured_data": {
+    "title": "《上市公司股东会规则》"
+  },
+  "stats": {
+    "sections": 5,
+    "paragraphs": 5,
+    "sentences": 16,
+    "entities": 38,
+    "relations": 24,
+    "rejected": 0,
+    "llm_calls": 1352,
+    "llm_tokens": 1852485,
+    "elapsed_seconds": 31.45
+  },
+  "sections": [
+    {
+      "section_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明",
+      "section_path": "《上市公司股东会规则》修订说明",
+      "title": "《上市公司股东会规则》修订说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "新《公司法》/规范运作/监管实践/修订背景",
+        "for": [
+          "修订原因",
+          "政策依据",
+          "规则背景"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明_p0",
+          "para_index": 0,
+          "content": "为贯彻落实新《公司法》，进一步提升上市公司规范运作水平，我会在广泛调研、深入研究的基础上，结合上市公司监管实践，修订形成了《上市公司股东会规则》。现将有关情况说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明_p0_s0",
+              "text": "为贯彻落实新《公司法》，进一步提升上市公司规范运作水平，我会在广泛调研、深入研究的基础上，结合上市公司监管实践，修订形成了《上市公司股东会规则》。",
+              "location": {
+                "doc_id": "doc_0b59f5896e80",
+                "section_path": "《上市公司股东会规则》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明_p0_s1",
+              "text": "现将有关情况说明如下：",
+              "location": {
+                "doc_id": "doc_0b59f5896e80",
+                "section_path": "《上市公司股东会规则》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 一、修订背景",
+      "section_path": "《上市公司股东会规则》修订说明 > 一、修订背景",
+      "title": "一、修订背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "2023年12月29日/第十四届全国人大常委会第七次会议/新《公司法》/2024年7月1日施行/股东权利保护/股东会运作机制",
+        "for": [
+          "修订背景",
+          "法律依据",
+          "实施时间",
+          "立法机构"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 一、修订背景_p0",
+          "para_index": 0,
+          "content": "2023 年12 月 29 日，第十四届全国人民代表大会常务委员会第七次会议审议通过了《公司法》，自 2024 年 7 月 1日起施行。新《公司法》进一步加强了股东权利保护，优化调整了股东会运作机制，有必要按照新法的精神和要求对《上市公司股东会规则》进行修订。",
+          "sentences": [
+            {
+              "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 一、修订背景_p0_s0",
+              "text": "2023 年12 月 29 日，第十四届全国人民代表大会常务委员会第七次会议审议通过了《公司法》，自 2024 年 7 月 1日起施行。",
+              "location": {
+                "doc_id": "doc_0b59f5896e80",
+                "section_path": "《上市公司股东会规则》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 一、修订背景_p0_s1",
+              "text": "新《公司法》进一步加强了股东权利保护，优化调整了股东会运作机制，有必要按照新法的精神和要求对《上市公司股东会规则》进行修订。",
+              "location": {
+                "doc_id": "doc_0b59f5896e80",
+                "section_path": "《上市公司股东会规则》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容",
+      "section_path": "《上市公司股东会规则》修订说明 > 二、修订内容",
+      "title": "二、修订内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "审计委员会职权/监事会职权承接/独立董事提议召开临时股东会条件/表决结果公布/提案权调整/临时提案持股比例1%/禁止提高比例",
+        "for": [
+          "程序规定",
+          "职权变更",
+          "提案门槛",
+          "表决规则"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0",
+          "para_index": 0,
+          "content": "一是调整股东会提议召开、召集和主持等程序性规定。具体包括审计委员会全面承接监事会相关职权，新增独立董事提议召开临时股东会需全体独立董事过半数同意，明确股东会当场公布表决结果。二是调整股东会提案权的相关规定。除明确审计委员会承接监事会的股东会提案权外，还将临时提案权股东的持股比例由百分之三降为百分之一，并明确公司不得提高该比例。",
+          "sentences": [
+            {
+              "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s0",
+              "text": "一是调整股东会提议召开、召集和主持等程序性规定。",
+              "location": {
+                "doc_id": "doc_0b59f5896e80",
+                "section_path": "《上市公司股东会规则》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s1",
+              "text": "具体包括审计委员会全面承接监事会相关职权，新增独立董事提议召开临时股东会需全体独立董事过半数同意，明确股东会当场公布表决结果。",
+              "location": {
+                "doc_id": "doc_0b59f5896e80",
+                "section_path": "《上市公司股东会规则》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s2",
+              "text": "二是调整股东会提案权的相关规定。",
+              "location": {
+                "doc_id": "doc_0b59f5896e80",
+                "section_path": "《上市公司股东会规则》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s3",
+              "text": "除明确审计委员会承接监事会的股东会提案权外，还将临时提案权股东的持股比例由百分之三降为百分之一，并明确公司不得提高该比例。",
+              "location": {
+                "doc_id": "doc_0b59f5896e80",
+                "section_path": "《上市公司股东会规则》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定",
+      "section_path": "《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定",
+      "title": "（二）完善类别股的相关规定",
+      "level": 2,
+      "reading_guide": {
+        "has": "类别股股东权利事项/特别决议/出席类别股股东会议表决权三分之二以上通过/法律行政法规证监会公司章程规定/新公司法表述调整/股东大会更名为股东会",
+        "for": [
+          "类别股权利",
+          "表决机制",
+          "决议程序",
+          "规则修订"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0",
+          "para_index": 0,
+          "content": "一是新增对于可能影响类别股股东权利的事项，除应当经股东会特别决议外，还应当经出席类别股股东会议的股东所持表决权的三分之二以上通过。二是明确类别股股东的决议事项及表决权数等应当符合法律、行政法规、中国证监会以及公司章程的规定。\n此外，根据新《公司法》调整“股东大会”“半数以上”等表述，并将《上市公司股东大会规则》更名为《上市公司股东会规则》。",
+          "sentences": [
+            {
+              "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s0",
+              "text": "一是新增对于可能影响类别股股东权利的事项，除应当经股东会特别决议外，还应当经出席类别股股东会议的股东所持表决权的三分之二以上通过。",
+              "location": {
+                "doc_id": "doc_0b59f5896e80",
+                "section_path": "《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s1",
+              "text": "二是明确类别股股东的决议事项及表决权数等应当符合法律、行政法规、中国证监会以及公司章程的规定。",
+              "location": {
+                "doc_id": "doc_0b59f5896e80",
+                "section_path": "《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s2",
+              "text": "此外，根据新《公司法》调整“股东大会”“半数以上”等表述，并将《上市公司股东大会规则》更名为《上市公司股东会规则》。",
+              "location": {
+                "doc_id": "doc_0b59f5896e80",
+                "section_path": "《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况",
+      "section_path": "《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况",
+      "title": "三、公众意见及采纳情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "征求意见时间/意见数量/采纳情况/未采纳原因/新《公司法》一致性/公司章程自主规定",
+        "for": [
+          "修订依据",
+          "意见采纳",
+          "规则调整",
+          "合规性说明"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0",
+          "para_index": 0,
+          "content": "2024 年 12 月 27 日至 2025 年 1 月 26 日，我会就《上市公司股东会规则》草案向社会公开征求意见，共收到意见建议 6 条。总体而言，各方对《上市公司股东会规则》修订的基本思路和主要内容表示赞同认可。经研究，我会采纳了部分涉及文字表述调整的意见建议。未采纳的意见中，有的与新《公司法》等法律法规不一致，如建议删除“股东会临时提案属于股东会职权范围内”的要求等；有的可以由公司章程自主规定，如建议规定董事及高级管理人员列席股东会的具体情形等，因此未予采纳。",
+          "sentences": [
+            {
+              "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s0",
+              "text": "2024 年 12 月 27 日至 2025 年 1 月 26 日，我会就《上市公司股东会规则》草案向社会公开征求意见，共收到意见建议 6 条。",
+              "location": {
+                "doc_id": "doc_0b59f5896e80",
+                "section_path": "《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s1",
+              "text": "总体而言，各方对《上市公司股东会规则》修订的基本思路和主要内容表示赞同认可。",
+              "location": {
+                "doc_id": "doc_0b59f5896e80",
+                "section_path": "《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s2",
+              "text": "经研究，我会采纳了部分涉及文字表述调整的意见建议。",
+              "location": {
+                "doc_id": "doc_0b59f5896e80",
+                "section_path": "《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s3",
+              "text": "未采纳的意见中，有的与新《公司法》等法律法规不一致，如建议删除“股东会临时提案属于股东会职权范围内”的要求等；",
+              "location": {
+                "doc_id": "doc_0b59f5896e80",
+                "section_path": "《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s4",
+              "text": "有的可以由公司章程自主规定，如建议规定董事及高级管理人员列席股东会的具体情形等，因此未予采纳。",
+              "location": {
+                "doc_id": "doc_0b59f5896e80",
+                "section_path": "《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_486246bc6aa9",
+      "entity_type": "LegalDocument",
+      "mention": "新《公司法》",
+      "canonical_name": "公司法",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明_p0_s0",
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 一、修订背景_p0_s0",
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1bf860b5d38e",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司股东会规则》",
+      "canonical_name": "上市公司股东会规则",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明_p0_s0",
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 一、修订背景_p0_s1",
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s2",
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s0",
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s1",
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_05c73449edd0",
+      "entity_type": "Date",
+      "mention": "2023 年 12 月 29 日",
+      "canonical_name": "2023-12-29",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 一、修订背景_p0_s0",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 一、修订背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_67799febd64c",
+      "entity_type": "Organization",
+      "mention": "第十四届全国人民代表大会常务委员会第七次会议",
+      "canonical_name": "第十四届全国人民代表大会常务委员会",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 一、修订背景_p0_s0",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 一、修订背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d8d322280c37",
+      "entity_type": "Date",
+      "mention": "2024 年 7 月 1 日",
+      "canonical_name": "2024-07-01",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 一、修订背景_p0_s0",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 一、修订背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3d19bb65eb2b",
+      "entity_type": "LegalTerm",
+      "mention": "股东权利保护",
+      "canonical_name": "股东权利保护",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_451476763c75",
+      "entity_type": "LegalTerm",
+      "mention": "股东会运作机制",
+      "canonical_name": "股东会运作机制",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d91bae5caf53",
+      "entity_type": "LegalTerm",
+      "mention": "股东会提议召开",
+      "canonical_name": "股东会提议召开",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s0",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e1c26832680b",
+      "entity_type": "LegalTerm",
+      "mention": "召集",
+      "canonical_name": "召集",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s0",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a932b10e2659",
+      "entity_type": "LegalTerm",
+      "mention": "主持",
+      "canonical_name": "主持",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s0",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_daa56ef1e2f9",
+      "entity_type": "Organization",
+      "mention": "审计委员会",
+      "canonical_name": "审计委员会",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s1",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s1",
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b61d171cd70d",
+      "entity_type": "Organization",
+      "mention": "监事会",
+      "canonical_name": "监事会",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s1",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s1",
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_275f6c588ded",
+      "entity_type": "Person",
+      "mention": "独立董事",
+      "canonical_name": "独立董事",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s1",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8cdac9cd322b",
+      "entity_type": "LegalTerm",
+      "mention": "临时股东会",
+      "canonical_name": "临时股东会",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s1",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b5c2851bae4d",
+      "entity_type": "LegalTerm",
+      "mention": "表决结果",
+      "canonical_name": "表决结果",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s1",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_55b5f6fa441e",
+      "entity_type": "LegalTerm",
+      "mention": "股东会提案权",
+      "canonical_name": "股东会提案权",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s2",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6eff7cce05fb",
+      "entity_type": "LegalTerm",
+      "mention": "临时提案权",
+      "canonical_name": "临时提案权",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s3",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1dd5c888c468",
+      "entity_type": "Percentage",
+      "mention": "百分之三",
+      "canonical_name": "3%",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s3",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_98ccfb8d44dd",
+      "entity_type": "Percentage",
+      "mention": "百分之一",
+      "canonical_name": "1%",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s3",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 二、修订内容_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5e2d398ee5cb",
+      "entity_type": "LegalTerm",
+      "mention": "类别股股东权利",
+      "canonical_name": "类别股股东权利",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s0",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d07d11e5ad6e",
+      "entity_type": "LegalTerm",
+      "mention": "特别决议",
+      "canonical_name": "特别决议",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s0",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8fef5ccb2f55",
+      "entity_type": "LegalTerm",
+      "mention": "类别股股东会议",
+      "canonical_name": "类别股股东会议",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s0",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f49fe5e2d405",
+      "entity_type": "Percentage",
+      "mention": "三分之二",
+      "canonical_name": "2/3",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s0",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e587c4232cc7",
+      "entity_type": "LegalTerm",
+      "mention": "类别股股东的决议事项",
+      "canonical_name": "类别股股东决议事项",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s1",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0a1cd5572fe5",
+      "entity_type": "LegalTerm",
+      "mention": "表决权数",
+      "canonical_name": "表决权数",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s1",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a439f2ffb66b",
+      "entity_type": "LegalDocument",
+      "mention": "法律",
+      "canonical_name": "法律",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s1",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_62fa0897e012",
+      "entity_type": "LegalDocument",
+      "mention": "行政法规",
+      "canonical_name": "行政法规",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s1",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3917cfcaace1",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s1",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_71ef9429783c",
+      "entity_type": "LegalDocument",
+      "mention": "公司章程",
+      "canonical_name": "公司章程",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s1",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0010bb739fd4",
+      "entity_type": "LegalTerm",
+      "mention": "股东大会",
+      "canonical_name": "股东大会",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s2",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3d8300e8d416",
+      "entity_type": "LegalTerm",
+      "mention": "半数以上",
+      "canonical_name": "半数以上",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s2",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7127044e4f8c",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司股东大会规则》",
+      "canonical_name": "上市公司股东大会规则",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s2",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c28cc45984e9",
+      "entity_type": "Date",
+      "mention": "2024 年 12 月 27 日",
+      "canonical_name": "2024-12-27",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s0",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_daa37e79a9b0",
+      "entity_type": "Date",
+      "mention": "2025 年 1 月 26 日",
+      "canonical_name": "2025-01-26",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s0",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_65891fb85bf3",
+      "entity_type": "MonetaryAmount",
+      "mention": "6 条",
+      "canonical_name": "6",
+      "attributes": {
+        "unit": "条"
+      },
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s0",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0f48e9c57865",
+      "entity_type": "LegalTerm",
+      "mention": "股东会临时提案",
+      "canonical_name": "股东会临时提案",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s3",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7659ae316add",
+      "entity_type": "LegalTerm",
+      "mention": "股东会职权范围内",
+      "canonical_name": "股东会职权范围",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s3",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e4229302901e",
+      "entity_type": "LegalTerm",
+      "mention": "董事及高级管理人员列席股东会",
+      "canonical_name": "董事列席股东会",
+      "attributes": {},
+      "sentence_id": "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s4",
+      "sentence_ids": [
+        "doc_0b59f5896e80#《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_77a93c36b72d_rel_f9946ae858f6",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_486246bc6aa9",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_df9d60b7ec6a",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_486246bc6aa9",
+      "tail_entity_id": "ent_486246bc6aa9",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_4f5dd5965553",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_3d19bb65eb2b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_fe17a967da42",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_451476763c75",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_8fcd07279a2a",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_d91bae5caf53",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_75db0fed42bd",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_e1c26832680b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_d8ff7ecc33f5",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_a932b10e2659",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_2fd1b4b90e3d",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_8cdac9cd322b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_770002e86edd",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_b5c2851bae4d",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_1adfa3798154",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_55b5f6fa441e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_94823ff17c7d",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_6eff7cce05fb",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_c08146a0bf11",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_5e2d398ee5cb",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_a276998e9518",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_d07d11e5ad6e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_fb441e4c606e",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_8fef5ccb2f55",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_c42c1e7fb36b",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_e587c4232cc7",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_d708d276f41f",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_0a1cd5572fe5",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_b71088d4aca3",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_a439f2ffb66b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_8523506c51a2",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_62fa0897e012",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_949c4bed937c",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_71ef9429783c",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_ccfb98db9f15",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_0010bb739fd4",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_9e0c565fe3f5",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_3d8300e8d416",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > （二）完善类别股的相关规定",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_ab94754cd3fe",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_486246bc6aa9",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_4c1f70a615f6",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_0f48e9c57865",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_77a93c36b72d_rel_cf21c5b371da",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1bf860b5d38e",
+      "tail_entity_id": "ent_7659ae316add",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0b59f5896e80",
+        "section_path": "《上市公司股东会规则》修订说明 > 三、公众意见及采纳情况",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

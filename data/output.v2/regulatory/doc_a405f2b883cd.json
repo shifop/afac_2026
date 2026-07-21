@@ -1,0 +1,776 @@
+{
+  "doc_id": "doc_a405f2b883cd",
+  "title": "证券结算风险基金管理办法",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0021_att1.md",
+  "processed_at": "2026-07-21T00:26:04.493643+00:00",
+  "structured_data": {
+    "title": "证券结算风险基金管理办法"
+  },
+  "stats": {
+    "sections": 2,
+    "paragraphs": 2,
+    "sentences": 38,
+    "entities": 16,
+    "relations": 7,
+    "rejected": 0,
+    "llm_calls": 575,
+    "llm_tokens": 1035922,
+    "elapsed_seconds": 10.58
+  },
+  "sections": [
+    {
+      "section_id": "doc_a405f2b883cd#证券结算风险基金管理办法",
+      "section_path": "证券结算风险基金管理办法",
+      "title": "证券结算风险基金管理办法",
+      "level": 1,
+      "reading_guide": {
+        "has": "证券结算风险基金/违约交收/技术故障/操作失误/不可抗力/损失垫付/弥补",
+        "for": [
+          "基金定义",
+          "风险类型",
+          "赔付范围",
+          "设立目的"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a405f2b883cd#证券结算风险基金管理办法_p0",
+          "para_index": 0,
+          "content": "第一条 为了防范和化解证券市场风险，保障证券登记结算系统安全运行，妥善管理和使用证券结算风险基金，根据《中华人民共和国证券法》《证券登记结算管理办法》有关规定，制定本办法。\n第二条 本办法所称证券结算风险基金（以下简称“本基金”）是指用于垫付或者弥补因违约交收、技术故障、操作失误、不可抗力造成的证券登记结算机构的损失而设立的专项基金。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法_p0_s0",
+              "text": "第一条 为了防范和化解证券市场风险，保障证券登记结算系统安全运行，妥善管理和使用证券结算风险基金，根据《中华人民共和国证券法》《证券登记结算管理办法》有关规定，制定本办法。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法_p0_s1",
+              "text": "第二条 本办法所称证券结算风险基金（以下简称“本基金”）是指用于垫付或者弥补因违约交收、技术故障、操作失误、不可抗力造成的证券登记结算机构的损失而设立的专项基金。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：",
+      "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+      "title": "第三条 本基金来源：",
+      "level": 2,
+      "reading_guide": {
+        "has": "提取比例/交纳标准/权益类百万分之九/固收类百万分之三/回购期限费率/净资产三十亿元门槛/资金运用范围/存款银行选择/最低支付限额/动用次序/追偿机制/废止旧办",
+        "for": [
+          "基金来源",
+          "交纳标准",
+          "规模要求",
+          "动用规则",
+          "资金用途"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0",
+          "para_index": 0,
+          "content": "（一）按照证券登记结算机构业务收入、收益的百分之九提取；\n（二）对于证券登记结算机构采用多边净额担保结算方式的证券交易，结算参与人按照以下标准逐日交纳：\n1.权益类品种，按照成交金额的百万分之九；\n2.固定收益类品种现券交易，按照成交金额的百万分之三；\n3.质押式回购业务，按照：1 天期回购成交额的千万分之五、2 天期回购成交额的千万分之十、3 天期回购成交额的千万分之十五、4 天期回购成交额的千万分之二十、7 天期回购成交额的千万分之五十、14 天期回购成交额的十万分之一、28 天期回购成交额的十万分之二、91 天期回购成交额的十万分之六、182 天期回购成交额的十万分之十二。\n第四条 本基金净资产总额不少于三十亿元。\n每一财政年度终了，本基金净资产达到或超过三十亿元的，下一年度证券登记结算机构不再按照本办法第三条第（一）项规定提取资金，已交纳本基金满一年的结算参与人不再按照本办法第三条第（二）项规定交纳。对于新加入结算系统的结算参与人，应当自加入结算系统后，按照本办法第三条第（二）项交纳本基金，交纳本基金的时间不得少于一年。\n每一财政年度终了，本基金净资产总额不足三十亿元的，应当自下一年度起，继续提取、交纳本基金。\n第五条 证券登记结算机构应当根据市场发展和风险防控需要，定期动态评估论证本基金所需规模，并向中国证监会和财政部报告。\n中国证监会会同财政部可以根据市场风险情况，适当调整本基金规模、资金提取和交纳方式、比例等。\n第六条 证券登记结算机构负责本基金的日常管理和使用。\n第七条 对本基金的管理应当遵循安全、稳健的原则，保证基金的安全性和流动性。\n本基金的资金运用限于银行存款、购买关键期限国债，以及中国证监会和财政部批准的其他资金运用形式。\n证券登记结算机构应当通过竞争性方式或者询价方式选择国有商业银行作为本基金的存款银行。\n本基金在银行的存款余额不得低于本基金上月末净资产总额的百分之七十。\n第八条 本基金资产与证券登记结算机构资产分开列账，证券登记结算机构应做好账务记录、定期对账等。\n本基金资金运用所产生的各种收益（含孳息）归属本基金。\n第九条 本基金最低支付限额为两千万元。证券登记结算机构应当规定动用本基金的程序。证券登记结算机构按照规定动用本基金后，应当及时向中国证监会和财政部报告。\n第十条 因结算参与人违约导致出现第二条所列情形时，应当按照以下次序动用本基金：\n（一）违约结算参与人按照本办法第三条第（二）项的规定交纳的资金；\n（二）其他结算参与人按照本办法第三条第（二）项的规定交纳的资金；\n（三）按照本办法第三条第（一）项的规定提取的资金。\n第十一条 证券登记结算机构应当依照有关法律、行政法规、部门规章的规定，建立和完善业务规则、内部管理制度及结算参与人管理制度，最大限度地避免风险事故发生。\n结算参与人应当严格依照有关法律、行政法规、部门规章的规定，制定完善的风险防范制度、内部控制制度、风险应急预案以及投资者适当性管理制度，并建立符合中国证监会和证券登记结算机构要求的结算业务相关技术系统、业务连续性管理及容灾备份机制，有效防范风险。\n第十二条 因垫付或者弥补违约交收损失动用本基金后，证券登记结算机构应当采取处置违约相关资产和担保资产、提起民事诉讼、申报破产债权等措施向有关责任方追偿，追偿款转入本基金。证券登记结算机构应当制定追偿工作管理制度，保障追偿及时有效。\n因技术故障、操作失误动用本基金的，证券登记结算机构应当制定相应制度，明确对导致技术故障、操作失误的行为主体的追偿程序、对本基金的赔付机制和追责制度。\n动用本基金，不影响证券登记结算机构对违约结算参与人结算财产享有的优先权利。\n第十三条 本基金作相应变更、清算时，由中国证监会会同财政部另行决定本基金剩余资产中退还有关结算参与人、证券登记结算机构的比例和数额。\n第十四条 本基金的财务核算与管理办法由财政部制定。\n第十五条 证券登记结算机构应当按照本办法的规定，制定本基金的内部管理制度，明确本基金的计收、管理、使用等事项。\n证券登记结算机构应当对本基金的计收、管理、使用情况进行记录和保存，并在每一财政年度终了后六个月内，向中国证监会、财政部报送年度情况报告。\n第十六条 本办法由中国证监会会同财政部解释。\n第十七条 本办法自2025 年12 月 8 日起施行。2006年 6 月 16 日中国证监会、财政部发布的《证券结算风险基金管理办法》（证监发〔2006〕65 号）同时废止。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s0",
+              "text": "（一）按照证券登记结算机构业务收入、收益的百分之九提取；",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s1",
+              "text": "（二）对于证券登记结算机构采用多边净额担保结算方式的证券交易，结算参与人按照以下标准逐日交纳：\n1.权益类品种，按照成交金额的百万分之九；",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s2",
+              "text": "2.固定收益类品种现券交易，按照成交金额的百万分之三；",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s3",
+              "text": "3.质押式回购业务，按照：1 天期回购成交额的千万分之五、2 天期回购成交额的千万分之十、3 天期回购成交额的千万分之十五、4 天期回购成交额的千万分之二十、7 天期回购成交额的千万分之五十、14 天期回购成交额的十万分之一、28 天期回购成交额的十万分之二、91 天期回购成交额的十万分之六、182 天期回购成交额的十万分之十二。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s4",
+              "text": "第四条 本基金净资产总额不少于三十亿元。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s5",
+              "text": "每一财政年度终了，本基金净资产达到或超过三十亿元的，下一年度证券登记结算机构不再按照本办法第三条第（一）项规定提取资金，已交纳本基金满一年的结算参与人不再按照本办法第三条第（二）项规定交纳。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s6",
+              "text": "对于新加入结算系统的结算参与人，应当自加入结算系统后，按照本办法第三条第（二）项交纳本基金，交纳本基金的时间不得少于一年。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s7",
+              "text": "每一财政年度终了，本基金净资产总额不足三十亿元的，应当自下一年度起，继续提取、交纳本基金。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s8",
+              "text": "第五条 证券登记结算机构应当根据市场发展和风险防控需要，定期动态评估论证本基金所需规模，并向中国证监会和财政部报告。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s9",
+              "text": "中国证监会会同财政部可以根据市场风险情况，适当调整本基金规模、资金提取和交纳方式、比例等。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s10",
+              "text": "第六条 证券登记结算机构负责本基金的日常管理和使用。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s11",
+              "text": "第七条 对本基金的管理应当遵循安全、稳健的原则，保证基金的安全性和流动性。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s12",
+              "text": "本基金的资金运用限于银行存款、购买关键期限国债，以及中国证监会和财政部批准的其他资金运用形式。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s13",
+              "text": "证券登记结算机构应当通过竞争性方式或者询价方式选择国有商业银行作为本基金的存款银行。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s14",
+              "text": "本基金在银行的存款余额不得低于本基金上月末净资产总额的百分之七十。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s15",
+              "text": "第八条 本基金资产与证券登记结算机构资产分开列账，证券登记结算机构应做好账务记录、定期对账等。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s16",
+              "text": "本基金资金运用所产生的各种收益（含孳息）归属本基金。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s17",
+              "text": "第九条 本基金最低支付限额为两千万元。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 17
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s18",
+              "text": "证券登记结算机构应当规定动用本基金的程序。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 18
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s19",
+              "text": "证券登记结算机构按照规定动用本基金后，应当及时向中国证监会和财政部报告。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 19
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s20",
+              "text": "第十条 因结算参与人违约导致出现第二条所列情形时，应当按照以下次序动用本基金：\n（一）违约结算参与人按照本办法第三条第（二）项的规定交纳的资金；",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 20
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s21",
+              "text": "（二）其他结算参与人按照本办法第三条第（二）项的规定交纳的资金；",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 21
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s22",
+              "text": "（三）按照本办法第三条第（一）项的规定提取的资金。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 22
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s23",
+              "text": "第十一条 证券登记结算机构应当依照有关法律、行政法规、部门规章的规定，建立和完善业务规则、内部管理制度及结算参与人管理制度，最大限度地避免风险事故发生。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 23
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s24",
+              "text": "结算参与人应当严格依照有关法律、行政法规、部门规章的规定，制定完善的风险防范制度、内部控制制度、风险应急预案以及投资者适当性管理制度，并建立符合中国证监会和证券登记结算机构要求的结算业务相关技术系统、业务连续性管理及容灾备份机制，有效防范风险。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 24
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s25",
+              "text": "第十二条 因垫付或者弥补违约交收损失动用本基金后，证券登记结算机构应当采取处置违约相关资产和担保资产、提起民事诉讼、申报破产债权等措施向有关责任方追偿，追偿款转入本基金。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 25
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s26",
+              "text": "证券登记结算机构应当制定追偿工作管理制度，保障追偿及时有效。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 26
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s27",
+              "text": "因技术故障、操作失误动用本基金的，证券登记结算机构应当制定相应制度，明确对导致技术故障、操作失误的行为主体的追偿程序、对本基金的赔付机制和追责制度。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 27
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s28",
+              "text": "动用本基金，不影响证券登记结算机构对违约结算参与人结算财产享有的优先权利。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 28
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s29",
+              "text": "第十三条 本基金作相应变更、清算时，由中国证监会会同财政部另行决定本基金剩余资产中退还有关结算参与人、证券登记结算机构的比例和数额。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 29
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s30",
+              "text": "第十四条 本基金的财务核算与管理办法由财政部制定。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 30
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s31",
+              "text": "第十五条 证券登记结算机构应当按照本办法的规定，制定本基金的内部管理制度，明确本基金的计收、管理、使用等事项。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 31
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s32",
+              "text": "证券登记结算机构应当对本基金的计收、管理、使用情况进行记录和保存，并在每一财政年度终了后六个月内，向中国证监会、财政部报送年度情况报告。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 32
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s33",
+              "text": "第十六条 本办法由中国证监会会同财政部解释。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 33
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s34",
+              "text": "第十七条 本办法自2025 年12 月 8 日起施行。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 34
+              }
+            },
+            {
+              "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_s35",
+              "text": "2006年 6 月 16 日中国证监会、财政部发布的《证券结算风险基金管理办法》（证监发〔2006〕65 号）同时废止。",
+              "location": {
+                "doc_id": "doc_a405f2b883cd",
+                "section_path": "证券结算风险基金管理办法 > 第三条 本基金来源：",
+                "paragraph_index": 0,
+                "sentence_index": 35
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_69241ac1b609",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国证券法》",
+      "canonical_name": "中华人民共和国证券法",
+      "attributes": {},
+      "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法_p0_s0",
+      "sentence_ids": [
+        "doc_a405f2b883cd#证券结算风险基金管理办法_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ac69e477d628",
+      "entity_type": "LegalDocument",
+      "mention": "《证券登记结算管理办法》",
+      "canonical_name": "证券登记结算管理办法",
+      "attributes": {},
+      "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法_p0_s0",
+      "sentence_ids": [
+        "doc_a405f2b883cd#证券结算风险基金管理办法_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b11b5770f8e4",
+      "entity_type": "InsuranceProduct",
+      "mention": "证券结算风险基金",
+      "canonical_name": "证券结算风险基金",
+      "attributes": {
+        "description": "用于垫付或者弥补因违约交收、技术故障、操作失误、不可抗力造成的证券登记结算机构的损失而设立的专项基金"
+      },
+      "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法_p0_s1",
+      "sentence_ids": [
+        "doc_a405f2b883cd#证券结算风险基金管理办法_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_67ba54ce30ec",
+      "entity_type": "",
+      "mention": "违约交收损失",
+      "canonical_name": "违约交收损失",
+      "attributes": {},
+      "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法_p0_s1",
+      "sentence_ids": [
+        "doc_a405f2b883cd#证券结算风险基金管理办法_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_46599c455032",
+      "entity_type": "",
+      "mention": "技术故障损失",
+      "canonical_name": "技术故障损失",
+      "attributes": {},
+      "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法_p0_s1",
+      "sentence_ids": [
+        "doc_a405f2b883cd#证券结算风险基金管理办法_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_315ce516bc21",
+      "entity_type": "",
+      "mention": "操作失误损失",
+      "canonical_name": "操作失误损失",
+      "attributes": {},
+      "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法_p0_s1",
+      "sentence_ids": [
+        "doc_a405f2b883cd#证券结算风险基金管理办法_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_64810bc27ac6",
+      "entity_type": "",
+      "mention": "不可抗力损失",
+      "canonical_name": "不可抗力损失",
+      "attributes": {},
+      "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法_p0_s1",
+      "sentence_ids": [
+        "doc_a405f2b883cd#证券结算风险基金管理办法_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c31b8919b423",
+      "entity_type": "Organization",
+      "mention": "证券登记结算机构",
+      "canonical_name": "证券登记结算机构",
+      "attributes": {},
+      "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8a0b54b143bb",
+      "entity_type": "Percentage",
+      "mention": "百分之九",
+      "canonical_name": "9%",
+      "attributes": {},
+      "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ddaa300d726c",
+      "entity_type": "MonetaryAmount",
+      "mention": "三十亿元",
+      "canonical_name": "30亿元",
+      "attributes": {},
+      "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cd712935d559",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7049fa55dcdd",
+      "entity_type": "Organization",
+      "mention": "财政部",
+      "canonical_name": "财政部",
+      "attributes": {},
+      "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9812b2545704",
+      "entity_type": "FinancialMetric",
+      "mention": "净资产总额",
+      "canonical_name": "净资产总额",
+      "attributes": {},
+      "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_db674c2c125c",
+      "entity_type": "Date",
+      "mention": "2025 年 12 月 8 日",
+      "canonical_name": "2025-12-08",
+      "attributes": {},
+      "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e852c00c0b9f",
+      "entity_type": "Date",
+      "mention": "2006年 6 月 16 日",
+      "canonical_name": "2006-06-16",
+      "attributes": {},
+      "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_878448dd32aa",
+      "entity_type": "LegalDocument",
+      "mention": "《证券结算风险基金管理办法》",
+      "canonical_name": "证券结算风险基金管理办法",
+      "attributes": {
+        "document_number": "证监发〔2006〕65 号"
+      },
+      "sentence_id": "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_a405f2b883cd#证券结算风险基金管理办法 > 第三条 本基金来源：_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_014ad63cb50e_rel_6929ac6447b7",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_878448dd32aa",
+      "tail_entity_id": "ent_69241ac1b609",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a405f2b883cd",
+        "section_path": "证券结算风险基金管理办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_014ad63cb50e_rel_42fa9a0907b5",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_878448dd32aa",
+      "tail_entity_id": "ent_ac69e477d628",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a405f2b883cd",
+        "section_path": "证券结算风险基金管理办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_014ad63cb50e_rel_cad23aab93a9",
+      "relation_type": "covers_risk",
+      "head_entity_id": "ent_b11b5770f8e4",
+      "tail_entity_id": "ent_67ba54ce30ec",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a405f2b883cd",
+        "section_path": "证券结算风险基金管理办法",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_014ad63cb50e_rel_e215a40edf9f",
+      "relation_type": "covers_risk",
+      "head_entity_id": "ent_b11b5770f8e4",
+      "tail_entity_id": "ent_46599c455032",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a405f2b883cd",
+        "section_path": "证券结算风险基金管理办法",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_014ad63cb50e_rel_e2ec4163bd67",
+      "relation_type": "covers_risk",
+      "head_entity_id": "ent_b11b5770f8e4",
+      "tail_entity_id": "ent_315ce516bc21",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a405f2b883cd",
+        "section_path": "证券结算风险基金管理办法",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_014ad63cb50e_rel_ac2c2e1311e1",
+      "relation_type": "covers_risk",
+      "head_entity_id": "ent_b11b5770f8e4",
+      "tail_entity_id": "ent_64810bc27ac6",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a405f2b883cd",
+        "section_path": "证券结算风险基金管理办法",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_014ad63cb50e_rel_c43eb74e7cc3",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_878448dd32aa",
+      "tail_entity_id": "ent_b11b5770f8e4",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a405f2b883cd",
+        "section_path": "证券结算风险基金管理办法",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

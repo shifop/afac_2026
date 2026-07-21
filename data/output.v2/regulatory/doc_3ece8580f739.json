@@ -1,0 +1,436 @@
+{
+  "doc_id": "doc_3ece8580f739",
+  "title": "《公开募集证券投资基金销售费用管理规定》修订说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0018_att2.md",
+  "processed_at": "2026-07-21T00:25:08.595248+00:00",
+  "structured_data": {
+    "title": "公开募集证券投资基金销售费用管理规定"
+  },
+  "stats": {
+    "sections": 1,
+    "paragraphs": 1,
+    "sentences": 7,
+    "entities": 15,
+    "relations": 7,
+    "rejected": 0,
+    "llm_calls": 548,
+    "llm_tokens": 1001896,
+    "elapsed_seconds": 14.73
+  },
+  "sections": [
+    {
+      "section_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明",
+      "section_path": "《公开募集证券投资基金销售费用管理规定》修订说明",
+      "title": "《公开募集证券投资基金销售费用管理规定》修订说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "章节数/条款数/认申购费率调降/销售服务费率调降/赎回费计入基金财产/持有超一年免销售服务费/客户维护费支付比例上限/销售结算资金利息归属/投顾业务禁止双重收费",
+        "for": [
+          "法规结构",
+          "费率调整",
+          "费用规范",
+          "长期持有",
+          "平台服务"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0",
+          "para_index": 0,
+          "content": "为进一步降低基金投资者成本，规范公募基金销售市场秩序，保护基金份额持有人合法权益，推动公募基金行业高质量发展，我会对《开放式证券投资基金销售费用管理规定》进行了修订，并更名为《公开募集证券投资基金销售费用管理规定》（以下简称《规定》）。\n《规定》共 6 章 29 条，主要内容如下：一是合理调降公募基金认申购费、销售服务费率水平，切实降低投资者成本。二是简化赎回费收费安排，明确赎回费全部计入基金财产。三是明确对投资者持有期限超过一年的基金份额（货币市场基金除外），不再收取销售服务费，鼓励长期持有。四是设置差异化的客户维护费支付比例上限，鼓励大力发展权益类基金。五是强化基金销售费用规范，明确基金销售结算资金利息归属于投资者，要求基金投顾业务不得双重收费。六是建立基金行业机构投资者直销服务平台，为基金管理人直销业务发展提供高效、便捷、安全的服务。",
+          "sentences": [
+            {
+              "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s0",
+              "text": "为进一步降低基金投资者成本，规范公募基金销售市场秩序，保护基金份额持有人合法权益，推动公募基金行业高质量发展，我会对《开放式证券投资基金销售费用管理规定》进行了修订，并更名为《公开募集证券投资基金销售费用管理规定》（以下简称《规定》）。",
+              "location": {
+                "doc_id": "doc_3ece8580f739",
+                "section_path": "《公开募集证券投资基金销售费用管理规定》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s1",
+              "text": "《规定》共 6 章 29 条，主要内容如下：一是合理调降公募基金认申购费、销售服务费率水平，切实降低投资者成本。",
+              "location": {
+                "doc_id": "doc_3ece8580f739",
+                "section_path": "《公开募集证券投资基金销售费用管理规定》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s2",
+              "text": "二是简化赎回费收费安排，明确赎回费全部计入基金财产。",
+              "location": {
+                "doc_id": "doc_3ece8580f739",
+                "section_path": "《公开募集证券投资基金销售费用管理规定》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s3",
+              "text": "三是明确对投资者持有期限超过一年的基金份额（货币市场基金除外），不再收取销售服务费，鼓励长期持有。",
+              "location": {
+                "doc_id": "doc_3ece8580f739",
+                "section_path": "《公开募集证券投资基金销售费用管理规定》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s4",
+              "text": "四是设置差异化的客户维护费支付比例上限，鼓励大力发展权益类基金。",
+              "location": {
+                "doc_id": "doc_3ece8580f739",
+                "section_path": "《公开募集证券投资基金销售费用管理规定》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s5",
+              "text": "五是强化基金销售费用规范，明确基金销售结算资金利息归属于投资者，要求基金投顾业务不得双重收费。",
+              "location": {
+                "doc_id": "doc_3ece8580f739",
+                "section_path": "《公开募集证券投资基金销售费用管理规定》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s6",
+              "text": "六是建立基金行业机构投资者直销服务平台，为基金管理人直销业务发展提供高效、便捷、安全的服务。",
+              "location": {
+                "doc_id": "doc_3ece8580f739",
+                "section_path": "《公开募集证券投资基金销售费用管理规定》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_b52a5003499e",
+      "entity_type": "LegalDocument",
+      "mention": "《公开募集证券投资基金销售费用管理规定》",
+      "canonical_name": "公开募集证券投资基金销售费用管理规定",
+      "attributes": {},
+      "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6fcc10bb33f2",
+      "entity_type": "LegalDocument",
+      "mention": "《开放式证券投资基金销售费用管理规定》",
+      "canonical_name": "开放式证券投资基金销售费用管理规定",
+      "attributes": {},
+      "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_58e7424284b9",
+      "entity_type": "Industry",
+      "mention": "公募基金行业",
+      "canonical_name": "公募基金行业",
+      "attributes": {},
+      "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d454e8a8ed94",
+      "entity_type": "Clause",
+      "mention": "合理调降公募基金认申购费、销售服务费率水平",
+      "canonical_name": "规定_第一章_第一条",
+      "attributes": {
+        "content_summary": "降低投资者成本"
+      },
+      "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s1",
+      "sentence_ids": [
+        "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7c342cede254",
+      "entity_type": "FinancialMetric",
+      "mention": "认申购费",
+      "canonical_name": "认申购费",
+      "attributes": {},
+      "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s1",
+      "sentence_ids": [
+        "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f62c87206876",
+      "entity_type": "FinancialMetric",
+      "mention": "销售服务费率",
+      "canonical_name": "销售服务费率",
+      "attributes": {},
+      "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s1",
+      "sentence_ids": [
+        "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b33286f22f6c",
+      "entity_type": "Clause",
+      "mention": "简化赎回费收费安排，明确赎回费全部计入基金财产",
+      "canonical_name": "规定_第一章_第二条",
+      "attributes": {
+        "content_summary": "赎回费归属"
+      },
+      "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s2",
+      "sentence_ids": [
+        "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2068a6bf3d3c",
+      "entity_type": "FinancialMetric",
+      "mention": "赎回费",
+      "canonical_name": "赎回费",
+      "attributes": {},
+      "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s2",
+      "sentence_ids": [
+        "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_31b5fa907456",
+      "entity_type": "Clause",
+      "mention": "明确对投资者持有期限超过一年的基金份额（货币市场基金除外），不再收取销售服务费",
+      "canonical_name": "规定_第一章_第三条",
+      "attributes": {
+        "content_summary": "长期持有免收销售服务费"
+      },
+      "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s3",
+      "sentence_ids": [
+        "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8b88c1039a30",
+      "entity_type": "",
+      "mention": "货币市场基金",
+      "canonical_name": "货币市场基金",
+      "attributes": {},
+      "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s3",
+      "sentence_ids": [
+        "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_10791d98dc1c",
+      "entity_type": "Clause",
+      "mention": "设置差异化的客户维护费支付比例上限",
+      "canonical_name": "规定_第一章_第四条",
+      "attributes": {
+        "content_summary": "鼓励发展权益类基金"
+      },
+      "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s4",
+      "sentence_ids": [
+        "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_34d7fad0b83f",
+      "entity_type": "Industry",
+      "mention": "权益类基金",
+      "canonical_name": "权益类基金",
+      "attributes": {},
+      "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s4",
+      "sentence_ids": [
+        "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fb91afabcc12",
+      "entity_type": "FinancialMetric",
+      "mention": "客户维护费",
+      "canonical_name": "客户维护费",
+      "attributes": {},
+      "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s4",
+      "sentence_ids": [
+        "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f66eb1bc625f",
+      "entity_type": "Clause",
+      "mention": "明确基金销售结算资金利息归属于投资者，要求基金投顾业务不得双重收费",
+      "canonical_name": "规定_第一章_第五条",
+      "attributes": {
+        "content_summary": "利息归属与禁止双重收费"
+      },
+      "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s5",
+      "sentence_ids": [
+        "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_37eed77ca989",
+      "entity_type": "Clause",
+      "mention": "建立基金行业机构投资者直销服务平台",
+      "canonical_name": "规定_第一章_第六条",
+      "attributes": {
+        "content_summary": "提供直销服务"
+      },
+      "sentence_id": "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s6",
+      "sentence_ids": [
+        "doc_3ece8580f739#《公开募集证券投资基金销售费用管理规定》修订说明_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_cdfda2142b10_rel_01eecee74df7",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_d454e8a8ed94",
+      "tail_entity_id": "ent_b52a5003499e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_3ece8580f739",
+        "section_path": "《公开募集证券投资基金销售费用管理规定》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_cdfda2142b10_rel_969ca18d8dc6",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_b33286f22f6c",
+      "tail_entity_id": "ent_b52a5003499e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_3ece8580f739",
+        "section_path": "《公开募集证券投资基金销售费用管理规定》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_cdfda2142b10_rel_604c250fea3f",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_31b5fa907456",
+      "tail_entity_id": "ent_b52a5003499e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_3ece8580f739",
+        "section_path": "《公开募集证券投资基金销售费用管理规定》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_cdfda2142b10_rel_7adb2a6b7505",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_31b5fa907456",
+      "tail_entity_id": "ent_8b88c1039a30",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_3ece8580f739",
+        "section_path": "《公开募集证券投资基金销售费用管理规定》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_cdfda2142b10_rel_d97a588ffd5f",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_10791d98dc1c",
+      "tail_entity_id": "ent_b52a5003499e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_3ece8580f739",
+        "section_path": "《公开募集证券投资基金销售费用管理规定》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_cdfda2142b10_rel_9514a0ccb78e",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_f66eb1bc625f",
+      "tail_entity_id": "ent_b52a5003499e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_3ece8580f739",
+        "section_path": "《公开募集证券投资基金销售费用管理规定》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 5
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_cdfda2142b10_rel_399b938d5c4b",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_37eed77ca989",
+      "tail_entity_id": "ent_b52a5003499e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_3ece8580f739",
+        "section_path": "《公开募集证券投资基金销售费用管理规定》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 6
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

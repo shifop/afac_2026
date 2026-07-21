@@ -1,0 +1,640 @@
+{
+  "doc_id": "doc_9a2444f2b7e0",
+  "title": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0002_att2.md",
+  "processed_at": "2026-07-21T00:02:06.350012+00:00",
+  "structured_data": {
+    "title": "关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定"
+  },
+  "stats": {
+    "sections": 6,
+    "paragraphs": 6,
+    "sentences": 16,
+    "entities": 14,
+    "relations": 7,
+    "rejected": 0,
+    "llm_calls": 32,
+    "llm_tokens": 48400,
+    "elapsed_seconds": 12.29
+  },
+  "sections": [
+    {
+      "section_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明",
+      "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明",
+      "title": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "中央金融工作会议精神/新国九条/证监会令第194号/实施规定修改/决定说明",
+        "for": [
+          "立法背景",
+          "政策依据",
+          "法规修订",
+          "制度完善"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明_p0",
+          "para_index": 0,
+          "content": "为贯彻落实中央金融工作会议精神和新“国九条”关于完善行政执法当事人承诺制度的要求，中国证监会对《证券期货行政执法当事人承诺制度实施规定》（证监会令第 194 号，以下简称《实施规定》）进行了修改完善，形成了《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》（以下简称《决定》），现说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明_p0_s0",
+              "text": "为贯彻落实中央金融工作会议精神和新“国九条”关于完善行政执法当事人承诺制度的要求，中国证监会对《证券期货行政执法当事人承诺制度实施规定》（证监会令第 194 号，以下简称《实施规定》）进行了修改完善，形成了《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》（以下简称《决定》），现说明如下：",
+              "location": {
+                "doc_id": "doc_9a2444f2b7e0",
+                "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况",
+      "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况",
+      "title": "一、背景情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "2015年试点启动/紫晶存储案/泽达易盛案/中介机构适用/审核委员会设立/制度体系构成/《实施办法》",
+        "for": [
+          "背景沿革",
+          "试点案例",
+          "机构适用",
+          "制度架构"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0",
+          "para_index": 0,
+          "content": "2015 年2 月，经国务院批准，中国证监会在证券期货领域开展行政和解试点。在总结试点经验的基础上，中国证监会推动建立了行政执法当事人承诺制度，形成了以《中华人民共和国证券法》《中华人民共和国期货和衍生品法》为基础，以国务院《证券期货行政执法当事人承诺制度实施办法》（以下简称《实施办法》）为核心，以中国证监会《实施规定》《证券期货行政执法当事人承诺金管理办法》等规章规范性文件为支撑的制度体系。同时，中国证监会按照国务院《实施办法》的要求，设立了行政执法当事人承诺审核委员会，负责对行政执法当事人承诺申请受理、承诺认可协议签署、中止调查、终止调查等重大事项进行集体决策。\n截至目前，中国证监会对紫晶存储案、泽达易盛案两起案件的有关中介机构适用行政执法当事人承诺制度，较好发挥了行政执法当事人承诺制度在救济、惩戒、教育、化解市场矛盾纠纷等方面的综合性作用，各方评价总体上积极正面，法律效果与社会效果良好。为更好实施法律规定的行政执法当事人承诺制度，充分发挥行政执法当事人承诺制度在提高执法效能、维护投资者权益方面的积极作用，有必要进一步完善受理条件，优化办理程序，对《实施规定》的相关规定予以调整、修改。",
+          "sentences": [
+            {
+              "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s0",
+              "text": "2015 年2 月，经国务院批准，中国证监会在证券期货领域开展行政和解试点。",
+              "location": {
+                "doc_id": "doc_9a2444f2b7e0",
+                "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s1",
+              "text": "在总结试点经验的基础上，中国证监会推动建立了行政执法当事人承诺制度，形成了以《中华人民共和国证券法》《中华人民共和国期货和衍生品法》为基础，以国务院《证券期货行政执法当事人承诺制度实施办法》（以下简称《实施办法》）为核心，以中国证监会《实施规定》《证券期货行政执法当事人承诺金管理办法》等规章规范性文件为支撑的制度体系。",
+              "location": {
+                "doc_id": "doc_9a2444f2b7e0",
+                "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s2",
+              "text": "同时，中国证监会按照国务院《实施办法》的要求，设立了行政执法当事人承诺审核委员会，负责对行政执法当事人承诺申请受理、承诺认可协议签署、中止调查、终止调查等重大事项进行集体决策。",
+              "location": {
+                "doc_id": "doc_9a2444f2b7e0",
+                "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s3",
+              "text": "截至目前，中国证监会对紫晶存储案、泽达易盛案两起案件的有关中介机构适用行政执法当事人承诺制度，较好发挥了行政执法当事人承诺制度在救济、惩戒、教育、化解市场矛盾纠纷等方面的综合性作用，各方评价总体上积极正面，法律效果与社会效果良好。",
+              "location": {
+                "doc_id": "doc_9a2444f2b7e0",
+                "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s4",
+              "text": "为更好实施法律规定的行政执法当事人承诺制度，充分发挥行政执法当事人承诺制度在提高执法效能、维护投资者权益方面的积极作用，有必要进一步完善受理条件，优化办理程序，对《实施规定》的相关规定予以调整、修改。",
+              "location": {
+                "doc_id": "doc_9a2444f2b7e0",
+                "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 二、修改的主要内容",
+      "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 二、修改的主要内容",
+      "title": "二、修改的主要内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "不予受理情形/拒绝阻碍调查/缺乏交纳承诺金能力/严重失信主体名单/未修复/曾适用制度未满1年/审慎监管原则",
+        "for": [
+          "受理条件",
+          "禁止情形",
+          "资格限制",
+          "失信影响",
+          "时间限制"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 二、修改的主要内容_p0",
+          "para_index": 0,
+          "content": "根据国务院《实施办法》第七条第六项规定，《决定》规定，有下列情形之一的，中国证监会对适用行政执法当事人承诺的申请不予受理：一是当事人拒绝、阻碍中国证监会或其派出机构依法对其涉嫌违法行为进行调查；二是当事人缺乏交纳承诺金的能力；三是当事人被列入证券期货市场严重失信主体名单且未修复；四是当事人曾因涉嫌证券期货违法行为适用行政执法当事人承诺制度，自承诺认可协议履行完毕之日起未逾 1 年；五是中国证监会基于审慎监管原则认为不适用行政执法当事人承诺制度的其他情形。",
+          "sentences": [
+            {
+              "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 二、修改的主要内容_p0_s0",
+              "text": "根据国务院《实施办法》第七条第六项规定，《决定》规定，有下列情形之一的，中国证监会对适用行政执法当事人承诺的申请不予受理：一是当事人拒绝、阻碍中国证监会或其派出机构依法对其涉嫌违法行为进行调查；",
+              "location": {
+                "doc_id": "doc_9a2444f2b7e0",
+                "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 二、修改的主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 二、修改的主要内容_p0_s1",
+              "text": "二是当事人缺乏交纳承诺金的能力；",
+              "location": {
+                "doc_id": "doc_9a2444f2b7e0",
+                "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 二、修改的主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 二、修改的主要内容_p0_s2",
+              "text": "三是当事人被列入证券期货市场严重失信主体名单且未修复；",
+              "location": {
+                "doc_id": "doc_9a2444f2b7e0",
+                "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 二、修改的主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 二、修改的主要内容_p0_s3",
+              "text": "四是当事人曾因涉嫌证券期货违法行为适用行政执法当事人承诺制度，自承诺认可协议履行完毕之日起未逾 1 年；",
+              "location": {
+                "doc_id": "doc_9a2444f2b7e0",
+                "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 二、修改的主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 二、修改的主要内容_p0_s4",
+              "text": "五是中国证监会基于审慎监管原则认为不适用行政执法当事人承诺制度的其他情形。",
+              "location": {
+                "doc_id": "doc_9a2444f2b7e0",
+                "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 二、修改的主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > （二）完善办理程序",
+      "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > （二）完善办理程序",
+      "title": "（二）完善办理程序",
+      "level": 2,
+      "reading_guide": {
+        "has": "经过必要的调查/申请材料要求/补正申请程序/内部征求意见程序",
+        "for": [
+          "办理程序",
+          "材料要求",
+          "补正流程",
+          "内部程序"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > （二）完善办理程序_p0",
+          "para_index": 0,
+          "content": "《决定》明确了“经过必要的调查”的执行标准，完善了申请材料要求、补正申请的程序规范，以及内部征求意见程序等。",
+          "sentences": [
+            {
+              "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > （二）完善办理程序_p0_s0",
+              "text": "《决定》明确了“经过必要的调查”的执行标准，完善了申请材料要求、补正申请的程序规范，以及内部征求意见程序等。",
+              "location": {
+                "doc_id": "doc_9a2444f2b7e0",
+                "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > （二）完善办理程序",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > （三）加强对当事人的诚信约束",
+      "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > （三）加强对当事人的诚信约束",
+      "title": "（三）加强对当事人的诚信约束",
+      "level": 2,
+      "reading_guide": {
+        "has": "违背诚信原则情形/恶意拖延调查/泄露协商内容/打探案件信息/罚款没收金额协商原则",
+        "for": [
+          "诚信约束",
+          "违规情形",
+          "承诺标准",
+          "处罚依据"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > （三）加强对当事人的诚信约束_p0",
+          "para_index": 0,
+          "content": "为提升行政执法当事人承诺制度的严肃性，《决定》明确，当事人或其受托人利用行政执法当事人承诺恶意拖延调查、审理程序，向第三方泄露协商内容，打探行政执法当事人承诺案件办理信息等行为，属于国务院《实施办法》第十九条规定的违背诚信原则的情形，可以按照规定处理。\n此外，《决定》明确，在考虑国务院《实施办法》第十四条第一款第二项规定的因素时，原则上按照不低于当事人涉嫌违法行为依法可能被处以罚款、没收违法所得的金额协商确定。",
+          "sentences": [
+            {
+              "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > （三）加强对当事人的诚信约束_p0_s0",
+              "text": "为提升行政执法当事人承诺制度的严肃性，《决定》明确，当事人或其受托人利用行政执法当事人承诺恶意拖延调查、审理程序，向第三方泄露协商内容，打探行政执法当事人承诺案件办理信息等行为，属于国务院《实施办法》第十九条规定的违背诚信原则的情形，可以按照规定处理。",
+              "location": {
+                "doc_id": "doc_9a2444f2b7e0",
+                "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > （三）加强对当事人的诚信约束",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > （三）加强对当事人的诚信约束_p0_s1",
+              "text": "此外，《决定》明确，在考虑国务院《实施办法》第十四条第一款第二项规定的因素时，原则上按照不低于当事人涉嫌违法行为依法可能被处以罚款、没收违法所得的金额协商确定。",
+              "location": {
+                "doc_id": "doc_9a2444f2b7e0",
+                "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > （三）加强对当事人的诚信约束",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 三、公开征求意见情况",
+      "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 三、公开征求意见情况",
+      "title": "三、公开征求意见情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "公开征求意见时间/2025年11月28日-12月28日/收到意见数量/13条/反馈情况/总体认可/不涉及条文修改",
+        "for": [
+          "立法过程",
+          "公众反馈",
+          "意见采纳"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 三、公开征求意见情况_p0",
+          "para_index": 0,
+          "content": "2025 年11月 28日-12月 28 日，中国证监会向社会公开征求意见，共收到 13 条意见。从反馈情况看，各方总体认可《决定》，具体意见建议均为对《决定》规定的理解和解释问题，不涉及条文修改。",
+          "sentences": [
+            {
+              "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 三、公开征求意见情况_p0_s0",
+              "text": "2025 年11月 28日-12月 28 日，中国证监会向社会公开征求意见，共收到 13 条意见。",
+              "location": {
+                "doc_id": "doc_9a2444f2b7e0",
+                "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 三、公开征求意见情况_p0_s1",
+              "text": "从反馈情况看，各方总体认可《决定》，具体意见建议均为对《决定》规定的理解和解释问题，不涉及条文修改。",
+              "location": {
+                "doc_id": "doc_9a2444f2b7e0",
+                "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_7b54c7fccdff",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明_p0_s0",
+      "sentence_ids": [
+        "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a1e8c690bdad",
+      "entity_type": "LegalDocument",
+      "mention": "《证券期货行政执法当事人承诺制度实施规定》",
+      "canonical_name": "证券期货行政执法当事人承诺制度实施规定",
+      "attributes": {
+        "order_number": "194"
+      },
+      "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明_p0_s0",
+      "sentence_ids": [
+        "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e964ae57d94d",
+      "entity_type": "LegalDocument",
+      "mention": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》",
+      "canonical_name": "关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定",
+      "attributes": {
+        "short_name": "《决定》"
+      },
+      "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明_p0_s0",
+      "sentence_ids": [
+        "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2b97e604be52",
+      "entity_type": "Date",
+      "mention": "2015 年 2 月",
+      "canonical_name": "2015-02",
+      "attributes": {},
+      "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s0",
+      "sentence_ids": [
+        "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_22444164ceec",
+      "entity_type": "Organization",
+      "mention": "国务院",
+      "canonical_name": "国务院",
+      "attributes": {},
+      "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s0",
+      "sentence_ids": [
+        "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7f993a9ce723",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国证券法》",
+      "canonical_name": "中华人民共和国证券法",
+      "attributes": {},
+      "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s1",
+      "sentence_ids": [
+        "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_648ed6b61145",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国期货和衍生品法》",
+      "canonical_name": "中华人民共和国期货和衍生品法",
+      "attributes": {},
+      "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s1",
+      "sentence_ids": [
+        "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a544bb622890",
+      "entity_type": "LegalDocument",
+      "mention": "《证券期货行政执法当事人承诺制度实施办法》",
+      "canonical_name": "证券期货行政执法当事人承诺制度实施办法",
+      "attributes": {
+        "issuer": "国务院",
+        "short_name": "《实施办法》"
+      },
+      "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s1",
+      "sentence_ids": [
+        "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_504a97f4c38f",
+      "entity_type": "LegalDocument",
+      "mention": "《证券期货行政执法当事人承诺金管理办法》",
+      "canonical_name": "证券期货行政执法当事人承诺金管理办法",
+      "attributes": {},
+      "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s1",
+      "sentence_ids": [
+        "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9fd7b04cc7a7",
+      "entity_type": "Organization",
+      "mention": "行政执法当事人承诺审核委员会",
+      "canonical_name": "行政执法当事人承诺审核委员会",
+      "attributes": {},
+      "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s2",
+      "sentence_ids": [
+        "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d5241eeea86a",
+      "entity_type": "Organization",
+      "mention": "紫晶存储案",
+      "canonical_name": "紫晶存储案",
+      "attributes": {
+        "type": "Case"
+      },
+      "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s3",
+      "sentence_ids": [
+        "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e2a1c81de8c0",
+      "entity_type": "Organization",
+      "mention": "泽达易盛案",
+      "canonical_name": "泽达易盛案",
+      "attributes": {
+        "type": "Case"
+      },
+      "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s3",
+      "sentence_ids": [
+        "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3f5a386a8632",
+      "entity_type": "Date",
+      "mention": "2025 年 11 月 28 日",
+      "canonical_name": "2025-11-28",
+      "attributes": {},
+      "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_db3461b32df7",
+      "entity_type": "Date",
+      "mention": "12 月 28 日",
+      "canonical_name": "2025-12-28",
+      "attributes": {},
+      "sentence_id": "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_9a2444f2b7e0#《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_93be461cca4f_rel_97844cba19ed",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_e964ae57d94d",
+      "tail_entity_id": "ent_a1e8c690bdad",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_9a2444f2b7e0",
+        "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_93be461cca4f_rel_63d51cbda742",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_a544bb622890",
+      "tail_entity_id": "ent_7f993a9ce723",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_9a2444f2b7e0",
+        "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_93be461cca4f_rel_be010ddceeec",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_a544bb622890",
+      "tail_entity_id": "ent_648ed6b61145",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_9a2444f2b7e0",
+        "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_93be461cca4f_rel_ff3733164257",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_9fd7b04cc7a7",
+      "tail_entity_id": "ent_a544bb622890",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_9a2444f2b7e0",
+        "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 一、背景情况",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_93be461cca4f_rel_87f010d33455",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_e964ae57d94d",
+      "tail_entity_id": "ent_a544bb622890",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_9a2444f2b7e0",
+        "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > 二、修改的主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_93be461cca4f_rel_aabf3e2315a5",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_e964ae57d94d",
+      "tail_entity_id": "ent_a544bb622890",
+      "properties": {
+        "clause_reference": "第十九条"
+      },
+      "evidence": {
+        "doc_id": "doc_9a2444f2b7e0",
+        "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > （三）加强对当事人的诚信约束",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_93be461cca4f_rel_9afbbe93c13d",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_e964ae57d94d",
+      "tail_entity_id": "ent_a544bb622890",
+      "properties": {
+        "clause_reference": "第十四条第一款第二项"
+      },
+      "evidence": {
+        "doc_id": "doc_9a2444f2b7e0",
+        "section_path": "《关于修改〈证券期货行政执法当事人承诺制度实施规定〉的决定》立法说明 > （三）加强对当事人的诚信约束",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

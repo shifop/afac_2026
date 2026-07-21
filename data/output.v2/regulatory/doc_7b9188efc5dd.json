@@ -1,0 +1,865 @@
+{
+  "doc_id": "doc_7b9188efc5dd",
+  "title": "关于修订《证券公司风险控制指标计算标准规定》的说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0046_att2.md",
+  "processed_at": "2026-07-21T00:57:22.174222+00:00",
+  "structured_data": {
+    "title": "关于修订《证券公司风险控制指标计算标准规定》的说明"
+  },
+  "stats": {
+    "sections": 5,
+    "paragraphs": 5,
+    "sentences": 29,
+    "entities": 25,
+    "relations": 6,
+    "rejected": 0,
+    "llm_calls": 2541,
+    "llm_tokens": 3922025,
+    "elapsed_seconds": 16.22
+  },
+  "sections": [
+    {
+      "section_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明",
+      "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明",
+      "title": "关于修订《证券公司风险控制指标计算标准规定》的说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "修订背景/中央金融工作会议精神/国务院意见/证监会令166号/全面风险管理/服务实体经济",
+        "for": [
+          "政策依据",
+          "监管要求",
+          "修订原因",
+          "法规来源"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明_p0",
+          "para_index": 0,
+          "content": "为贯彻落实中央金融工作会议精神和《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》《关于加强证券公司和公募基金监管加快推进建设一流投资银行和投资机构的意见（试行）》，加强对证券公司的监管，完善证券公司风险控制指标体系，督促证券公司落实全面风险管理要求，提升服务实体经济质效，促进行业机构高质量发展，我会根据《证券公司风险控制指标管理办法》（证监会令第 166 号）相关规定，对《证券公司风险控制指标计算标准规定》（以下简称《风控指标规定》）进行了修订。",
+          "sentences": [
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明_p0_s0",
+              "text": "为贯彻落实中央金融工作会议精神和《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》《关于加强证券公司和公募基金监管加快推进建设一流投资银行和投资机构的意见（试行）》，加强对证券公司的监管，完善证券公司风险控制指标体系，督促证券公司落实全面风险管理要求，提升服务实体经济质效，促进行业机构高质量发展，我会根据《证券公司风险控制指标管理办法》（证监会令第 166 号）相关规定，对《证券公司风险控制指标计算标准规定》（以下简称《风控指标规定》）进行了修订。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景",
+      "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景",
+      "title": "一、修订背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "净资本/流动性核心指标体系/2020年1月修订发布/风险覆盖率/资本杠杆率/流动性覆盖率/净稳定资金率/监管标准1.5-2.5倍/无重大风险事件",
+        "for": [
+          "修订背景",
+          "历史表现",
+          "核心指标",
+          "行业现状"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0",
+          "para_index": 0,
+          "content": "近年来，我会不断健全以净资本和流动性为核心的风险控制指标体系，督促证券公司落实全面风险管理要求，夯实内控合规基础。2020 年 1 月我会修订发布现行的证券公司风险控制指标计算标准以来，经过四年多的实践，证券行业抗风险能力稳步提升，风险覆盖率、资本杠杆率、流动性覆盖率、净稳定资金率四项核心风险控制指标长期维持在监管标准的 1.5-2.5 倍水平，行业持续稳健发展，没有发生重大风险事件。风险控制指标体系在提升证券公司风险管理水平，增强行业抵御风险能力方面发挥了重要作用。为进一步发挥风险控制指标对证券公司资源配置的“指挥棒”作用，提升全面风险管理的主动性和有效性，以自身高质量发展为经济社会发展提供有力支撑，有必要结合行业发展实际情况，对《风控指标规定》进行修订。",
+          "sentences": [
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s0",
+              "text": "近年来，我会不断健全以净资本和流动性为核心的风险控制指标体系，督促证券公司落实全面风险管理要求，夯实内控合规基础。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s1",
+              "text": "2020 年 1 月我会修订发布现行的证券公司风险控制指标计算标准以来，经过四年多的实践，证券行业抗风险能力稳步提升，风险覆盖率、资本杠杆率、流动性覆盖率、净稳定资金率四项核心风险控制指标长期维持在监管标准的 1.5-2.5 倍水平，行业持续稳健发展，没有发生重大风险事件。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s2",
+              "text": "风险控制指标体系在提升证券公司风险管理水平，增强行业抵御风险能力方面发挥了重要作用。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s3",
+              "text": "为进一步发挥风险控制指标对证券公司资源配置的“指挥棒”作用，提升全面风险管理的主动性和有效性，以自身高质量发展为经济社会发展提供有力支撑，有必要结合行业发展实际情况，对《风控指标规定》进行修订。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路",
+      "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路",
+      "title": "二、主要思路",
+      "level": 2,
+      "reading_guide": {
+        "has": "中央金融工作会议精神/国务院意见/一流投行意见/全面覆盖/审慎从严/风险管理/功能发挥/业务活动约束/创新业务标准/资本集约型",
+        "for": [
+          "监管导向",
+          "修订背景",
+          "风控原则",
+          "业务约束",
+          "发展路径"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路_p0",
+          "para_index": 0,
+          "content": "本次修订《风控指标规定》是落实中央金融工作会议精神和《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》《关于加强证券公司和公募基金监管加快推进建设一流投资银行和投资机构的意见（试行）》的重要举措，主要体现四方面的监管导向：一是突出全面覆盖。对证券公司所有业务活动纳入风险控制指标约束范围，提升风险控制指标体系的完备性，夯实风控基础。二是突出审慎从严。对创新业务和风险较高的业务从严设置风险控制指标计算标准，引导证券公司走资本集约型的专业化稳健发展之路。三是强化风险管理。根据证券公司风险管理水平、业务风险特征和期限匹配性，合理完善计算标准，提升风险控制指标的科学性和有效性。四是促进功能发挥。引导证券公司优化业务结构和资产配置，加大服务实体经济和居民财富管理的力度，提升资本使用效率，成为促进资本市场健康稳定高质量发展的重要力量。",
+          "sentences": [
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路_p0_s0",
+              "text": "本次修订《风控指标规定》是落实中央金融工作会议精神和《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》《关于加强证券公司和公募基金监管加快推进建设一流投资银行和投资机构的意见（试行）》的重要举措，主要体现四方面的监管导向：一是突出全面覆盖。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路_p0_s1",
+              "text": "对证券公司所有业务活动纳入风险控制指标约束范围，提升风险控制指标体系的完备性，夯实风控基础。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路_p0_s2",
+              "text": "二是突出审慎从严。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路_p0_s3",
+              "text": "对创新业务和风险较高的业务从严设置风险控制指标计算标准，引导证券公司走资本集约型的专业化稳健发展之路。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路_p0_s4",
+              "text": "三是强化风险管理。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路_p0_s5",
+              "text": "根据证券公司风险管理水平、业务风险特征和期限匹配性，合理完善计算标准，提升风险控制指标的科学性和有效性。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路_p0_s6",
+              "text": "四是促进功能发挥。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路_p0_s7",
+              "text": "引导证券公司优化业务结构和资产配置，加大服务实体经济和居民财富管理的力度，提升资本使用效率，成为促进资本市场健康稳定高质量发展的重要力量。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容",
+      "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容",
+      "title": "三、修订的主要内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "净资本计算表/风险资本准备计算表/流动性覆盖率/净稳定资金率/股票做市业务计量/公募REITs标准/穿透要求/场外衍生品/分类评价调整系数",
+        "for": [
+          "指标修订",
+          "业务标准",
+          "资本约束",
+          "新规解读"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0",
+          "para_index": 0,
+          "content": "本次调整主要涉及《风控指标规定》中净资本计算表、风险资本准备计算表、表内外资产总额计算表、流动性覆盖率计算表、净稳定资金率计算表、风险控制指标计算表等 6张计算表。主要修订内容如下：\n一是完善业务计量标准，引导发挥功能作用。发挥风险控制指标的导向作用，对证券公司投资股票、开展做市等业务的风险控制指标计算标准予以优化，进一步引导证券公司在投资端、融资端、交易端发力，充分发挥长期价值投资、服务实体经济融资、服务居民财富管理等作用，为经济社会发展提供高质量金融服务。\n二是优化分类计量，引导主动加强风险管理。适当调整连续三年分类评价居前的证券公司的风险资本准备调整系数和表内外资产总额折算系数，差异化充实可用稳定资金，为证券公司适应新的分类评价结果设置过渡期，引导证券公司主动加强风险管理，支持合规稳健的优质证券公司适度提升资本使用效率，更好为实体经济提供综合金融服务。\n三是结合市场实践，提升指标体系完备性。明确证券公司参与公募 REITs 等新业务的风险控制指标计算标准。明确证券公司为区域性股权市场提供服务等业务的特定风险资本准备计算标准。根据期限匹配性，细化不同期限资产的所需稳定资金。\n四是强化资本约束，加强重点业务风险防范。完善证券公司投资单一产品的穿透要求，按照单一或穿透孰严计量风险资本准备。对场外衍生品等适当提高计量标准，加强对私募非标资管、托管等业务的监管力度，提高监管有效性，维护市场稳健运行。",
+          "sentences": [
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s0",
+              "text": "本次调整主要涉及《风控指标规定》中净资本计算表、风险资本准备计算表、表内外资产总额计算表、流动性覆盖率计算表、净稳定资金率计算表、风险控制指标计算表等 6张计算表。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s1",
+              "text": "主要修订内容如下：\n一是完善业务计量标准，引导发挥功能作用。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s2",
+              "text": "发挥风险控制指标的导向作用，对证券公司投资股票、开展做市等业务的风险控制指标计算标准予以优化，进一步引导证券公司在投资端、融资端、交易端发力，充分发挥长期价值投资、服务实体经济融资、服务居民财富管理等作用，为经济社会发展提供高质量金融服务。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s3",
+              "text": "二是优化分类计量，引导主动加强风险管理。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s4",
+              "text": "适当调整连续三年分类评价居前的证券公司的风险资本准备调整系数和表内外资产总额折算系数，差异化充实可用稳定资金，为证券公司适应新的分类评价结果设置过渡期，引导证券公司主动加强风险管理，支持合规稳健的优质证券公司适度提升资本使用效率，更好为实体经济提供综合金融服务。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s5",
+              "text": "三是结合市场实践，提升指标体系完备性。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s6",
+              "text": "明确证券公司参与公募 REITs 等新业务的风险控制指标计算标准。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s7",
+              "text": "明确证券公司为区域性股权市场提供服务等业务的特定风险资本准备计算标准。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s8",
+              "text": "根据期限匹配性，细化不同期限资产的所需稳定资金。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s9",
+              "text": "四是强化资本约束，加强重点业务风险防范。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s10",
+              "text": "完善证券公司投资单一产品的穿透要求，按照单一或穿透孰严计量风险资本准备。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s11",
+              "text": "对场外衍生品等适当提高计量标准，加强对私募非标资管、托管等业务的监管力度，提高监管有效性，维护市场稳健运行。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 四、各方意见采纳情况",
+      "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 四、各方意见采纳情况",
+      "title": "四、各方意见采纳情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "征求意见时间/2023年11月3日至12月3日/反馈方/证券公司/行业自律组织/社会公众/意见采纳情况/未吸收意见/场外衍生品/创新业务/资本约束",
+        "for": [
+          "监管修订",
+          "意见采纳",
+          "衍生品政策",
+          "风控标准"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 四、各方意见采纳情况_p0",
+          "para_index": 0,
+          "content": "2023 年11 月 3 日至 12 月 3 日，我会在官网就《风控指标规定》向社会公开征求意见。征求意见期间，部分证券公司、行业自律组织、社会公众给予积极正面反馈，并提出一些具体修改意见。我会经过逐条研究，大部分意见已充分吸收，没有完全吸收的意见主要是放松对场外衍生品等创新业务计量标准的建议。考虑到从前期监管实践看，个别证券公司未落实衍生品服务风险管理的业务本源，创新业务开展不审慎，未真正发挥服务实体经济、促进资本市场稳定健康发展的功能作用，因此，有必要通过强化资本约束，引导证券公司切实发挥功能作用，故未完全吸收相关放松指标的意见。",
+          "sentences": [
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 四、各方意见采纳情况_p0_s0",
+              "text": "2023 年11 月 3 日至 12 月 3 日，我会在官网就《风控指标规定》向社会公开征求意见。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 四、各方意见采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 四、各方意见采纳情况_p0_s1",
+              "text": "征求意见期间，部分证券公司、行业自律组织、社会公众给予积极正面反馈，并提出一些具体修改意见。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 四、各方意见采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 四、各方意见采纳情况_p0_s2",
+              "text": "我会经过逐条研究，大部分意见已充分吸收，没有完全吸收的意见主要是放松对场外衍生品等创新业务计量标准的建议。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 四、各方意见采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 四、各方意见采纳情况_p0_s3",
+              "text": "考虑到从前期监管实践看，个别证券公司未落实衍生品服务风险管理的业务本源，创新业务开展不审慎，未真正发挥服务实体经济、促进资本市场稳定健康发展的功能作用，因此，有必要通过强化资本约束，引导证券公司切实发挥功能作用，故未完全吸收相关放松指标的意见。",
+              "location": {
+                "doc_id": "doc_7b9188efc5dd",
+                "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 四、各方意见采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_26101b530340",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》",
+      "canonical_name": "国务院关于加强监管防范风险推动资本市场高质量发展的若干意见",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1d70c379a110",
+      "entity_type": "LegalDocument",
+      "mention": "《关于加强证券公司和公募基金监管加快推进建设一流投资银行和投资机构的意见（试行）》",
+      "canonical_name": "关于加强证券公司和公募基金监管加快推进建设一流投资银行和投资机构的意见（试行）",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fff4c18a8aa3",
+      "entity_type": "LegalDocument",
+      "mention": "《证券公司风险控制指标管理办法》",
+      "canonical_name": "证券公司风险控制指标管理办法",
+      "attributes": {
+        "regulation_number": "证监会令第 166 号"
+      },
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1a33803e2c93",
+      "entity_type": "LegalDocument",
+      "mention": "《证券公司风险控制指标计算标准规定》",
+      "canonical_name": "证券公司风险控制指标计算标准规定",
+      "attributes": {
+        "alias": "风控指标规定"
+      },
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8ee7f98112f4",
+      "entity_type": "Date",
+      "mention": "2020 年 1 月",
+      "canonical_name": "2020-01",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_033427c156ae",
+      "entity_type": "FinancialMetric",
+      "mention": "风险覆盖率",
+      "canonical_name": "风险覆盖率",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9387b810328f",
+      "entity_type": "FinancialMetric",
+      "mention": "资本杠杆率",
+      "canonical_name": "资本杠杆率",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_911dc7df1672",
+      "entity_type": "FinancialMetric",
+      "mention": "流动性覆盖率",
+      "canonical_name": "流动性覆盖率",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9a243fafe7af",
+      "entity_type": "FinancialMetric",
+      "mention": "净稳定资金率",
+      "canonical_name": "净稳定资金率",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9595f0fb7734",
+      "entity_type": "Percentage",
+      "mention": "1.5-2.5 倍",
+      "canonical_name": "1.5-2.5",
+      "attributes": {
+        "unit": "times"
+      },
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9e0df3f84b2a",
+      "entity_type": "Industry",
+      "mention": "证券行业",
+      "canonical_name": "证券行业",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f078727be7c1",
+      "entity_type": "Industry",
+      "mention": "证券公司",
+      "canonical_name": "证券业",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s3",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e47f3bb53a38",
+      "entity_type": "LegalDocument",
+      "mention": "中央金融工作会议精神",
+      "canonical_name": "中央金融工作会议精神",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路_p0_s0",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_66893fd73c1c",
+      "entity_type": "LegalTerm",
+      "mention": "全面覆盖",
+      "canonical_name": "全面覆盖",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路_p0_s0",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ed6ea8904890",
+      "entity_type": "LegalTerm",
+      "mention": "审慎从严",
+      "canonical_name": "审慎从严",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路_p0_s2",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fad776e81e16",
+      "entity_type": "LegalTerm",
+      "mention": "风险管理",
+      "canonical_name": "风险管理",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路_p0_s4",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_48eb2fc822a6",
+      "entity_type": "LegalTerm",
+      "mention": "功能发挥",
+      "canonical_name": "功能发挥",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路_p0_s6",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6b41df2b79de",
+      "entity_type": "LegalDocument",
+      "mention": "净资本计算表",
+      "canonical_name": "净资本计算表",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s0",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_afb7618d21cd",
+      "entity_type": "LegalDocument",
+      "mention": "风险资本准备计算表",
+      "canonical_name": "风险资本准备计算表",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s0",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9c80872b4d4e",
+      "entity_type": "LegalDocument",
+      "mention": "表内外资产总额计算表",
+      "canonical_name": "表内外资产总额计算表",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s0",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3e0bbae0cb3f",
+      "entity_type": "LegalDocument",
+      "mention": "流动性覆盖率计算表",
+      "canonical_name": "流动性覆盖率计算表",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s0",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f26aec89693e",
+      "entity_type": "LegalDocument",
+      "mention": "净稳定资金率计算表",
+      "canonical_name": "净稳定资金率计算表",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s0",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_931a3e82c35a",
+      "entity_type": "LegalDocument",
+      "mention": "风险控制指标计算表",
+      "canonical_name": "风险控制指标计算表",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s0",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 三、修订的主要内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_94e7474eb43f",
+      "entity_type": "Date",
+      "mention": "2023 年 11 月 3 日",
+      "canonical_name": "2023-11-03",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 四、各方意见采纳情况_p0_s0",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 四、各方意见采纳情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_25403eaf68e1",
+      "entity_type": "Date",
+      "mention": "12 月 3 日",
+      "canonical_name": "2023-12-03",
+      "attributes": {},
+      "sentence_id": "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 四、各方意见采纳情况_p0_s0",
+      "sentence_ids": [
+        "doc_7b9188efc5dd#关于修订《证券公司风险控制指标计算标准规定》的说明 > 四、各方意见采纳情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_3ac14a9531ae_rel_8fb4ba1f6e92",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_1a33803e2c93",
+      "tail_entity_id": "ent_fff4c18a8aa3",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_7b9188efc5dd",
+        "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3ac14a9531ae_rel_df839c0cac2b",
+      "relation_type": "analyzes_industry",
+      "head_entity_id": "ent_1a33803e2c93",
+      "tail_entity_id": "ent_9e0df3f84b2a",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_7b9188efc5dd",
+        "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3ac14a9531ae_rel_c9436fbc794f",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1a33803e2c93",
+      "tail_entity_id": "ent_66893fd73c1c",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_7b9188efc5dd",
+        "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3ac14a9531ae_rel_c7074cf90777",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1a33803e2c93",
+      "tail_entity_id": "ent_ed6ea8904890",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_7b9188efc5dd",
+        "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3ac14a9531ae_rel_a6357d46f68c",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1a33803e2c93",
+      "tail_entity_id": "ent_fad776e81e16",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_7b9188efc5dd",
+        "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3ac14a9531ae_rel_dc2b461eb6e9",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1a33803e2c93",
+      "tail_entity_id": "ent_48eb2fc822a6",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_7b9188efc5dd",
+        "section_path": "关于修订《证券公司风险控制指标计算标准规定》的说明 > 二、主要思路",
+        "paragraph_index": 0,
+        "sentence_index": 6
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

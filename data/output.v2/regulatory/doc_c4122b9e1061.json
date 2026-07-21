@@ -1,0 +1,864 @@
+{
+  "doc_id": "doc_c4122b9e1061",
+  "title": "《上市公司治理准则》修订说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0023_att2.md",
+  "processed_at": "2026-07-21T00:27:18.943259+00:00",
+  "structured_data": {
+    "title": "上市公司治理准则"
+  },
+  "stats": {
+    "sections": 5,
+    "paragraphs": 5,
+    "sentences": 42,
+    "entities": 14,
+    "relations": 7,
+    "rejected": 0,
+    "llm_calls": 622,
+    "llm_tokens": 1098605,
+    "elapsed_seconds": 12.48
+  },
+  "sections": [
+    {
+      "section_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明",
+      "section_path": "《上市公司治理准则》修订说明",
+      "title": "《上市公司治理准则》修订说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "修订背景/政策依据/规范对象/监管目标",
+        "for": [
+          "修订原因",
+          "政策依据",
+          "监管目标"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明_p0",
+          "para_index": 0,
+          "content": "为贯彻落实《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》《中共中央办公厅 国务院办公厅关于完善中国特色现代企业制度的意见》，进一步规范上市公司董事、高级管理人员和控股股东、实际控制人行为，推动提升上市公司治理水平，中国证监会对《上市公司治理准则》（以下简称《治理准则》）进行修订。现说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明_p0_s0",
+              "text": "为贯彻落实《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》《中共中央办公厅 国务院办公厅关于完善中国特色现代企业制度的意见》，进一步规范上市公司董事、高级管理人员和控股股东、实际控制人行为，推动提升上市公司治理水平，中国证监会对《上市公司治理准则》（以下简称《治理准则》）进行修订。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明_p0_s1",
+              "text": "现说明如下：",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 一、修订背景",
+      "section_path": "《上市公司治理准则》修订说明 > 一、修订背景",
+      "title": "一、修订背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "现行《治理准则》经验总结/股东与股东会规范/董事与董事会规范/高管激励约束机制/控股股东及关联方规范/利益相关者规范/信息披露规范/《公司法》新要求/中国特色现",
+        "for": [
+          "修订背景",
+          "法规依据",
+          "治理架构",
+          "责任机制",
+          "监管要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 一、修订背景_p0",
+          "para_index": 0,
+          "content": "现行《治理准则》在总结境内外上市公司治理相关经验基础上，围绕股东与股东会、董事与董事会、高级管理人员与公司激励约束机制、控股股东及其关联方、利益相关者以及信息披露等，对上市公司治理架构及相关各方的行为进行了规范，在推动健全现代企业制度、提升上市公司规范运作水平等方面发挥了重要作用。\n随着市场的不断发展，公司治理实践日益丰富，治理制度日渐完善。《公司法》《关于完善中国特色现代企业制度的意见》等对进一步完善公司治理提出新要求。为督促公司经营管理层忠实、勤勉地履行职责，防范控股股东、实际控制人滥用控制地位损害公司及股东利益，有必要进一步强化董事、高级管理人员及控股股东、实际控制人等“关键少数”\n的责任，形成更加有效的激励约束机制。",
+          "sentences": [
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 一、修订背景_p0_s0",
+              "text": "现行《治理准则》在总结境内外上市公司治理相关经验基础上，围绕股东与股东会、董事与董事会、高级管理人员与公司激励约束机制、控股股东及其关联方、利益相关者以及信息披露等，对上市公司治理架构及相关各方的行为进行了规范，在推动健全现代企业制度、提升上市公司规范运作水平等方面发挥了重要作用。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 一、修订背景_p0_s1",
+              "text": "随着市场的不断发展，公司治理实践日益丰富，治理制度日渐完善。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 一、修订背景_p0_s2",
+              "text": "《公司法》《关于完善中国特色现代企业制度的意见》等对进一步完善公司治理提出新要求。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 一、修订背景_p0_s3",
+              "text": "为督促公司经营管理层忠实、勤勉地履行职责，防范控股股东、实际控制人滥用控制地位损害公司及股东利益，有必要进一步强化董事、高级管理人员及控股股东、实际控制人等“关键少数”\n的责任，形成更加有效的激励约束机制。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容",
+      "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+      "title": "二、主要修订内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "董事高管任职资格/提名委员会审核/忠实勤勉义务/同业竞争披露/离职追责追偿/薪酬管理制度/业绩匹配机制/薪酬止付追索/递延支付/控股股东行为限制/关联交易审议/",
+        "for": [
+          "任职管理",
+          "履职义务",
+          "离职追责",
+          "薪酬激励",
+          "关联交易"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0",
+          "para_index": 0,
+          "content": "（一）完善董事、高级管理人员任职、履职和离职管理制度。一是明确董事、高级管理人员的任职资格以及董事会提名委员会的审核责任，防范不适格主体任职。二是细化董事、高级管理人员的忠实勤勉义务。强化董事、高级管理人员从事同业竞争、利用公司商业机会等行为的披露要求，要求董事作出决策前充分收集信息、谨慎判断。三是强化对董事、高管离职的管理，要求上市公司在聘任董事、高级管理人员时对离职后的追责追偿做出安排，在董事、高级管理人员离职时对其未尽义务做好审查。\n（二）健全上市公司激励约束机制。一是要求上市公司建立薪酬管理制度，合理确定董事、高级管理人员的薪酬结构和水平。二是规定董事、高级管理人员薪酬与公司经营业绩、个人业绩相匹配，激励董事、高级管理人员积极为公司创造价值。三是完善董事、高级管理人员薪酬止付追索等支付机制，鼓励建立递延支付机制。\n（三）规范控股股东、实际控制人行为。一是严格限制可能对上市公司产生重大不利影响的同业竞争，强化对非重大不利影响同业竞争的披露要求，增强透明度。二是进一步完善董事会对关联交易的识别、审议要求。\n（四）做好与现行规则的衔接。根据《证券法》完善公开征集股东权利的规定；根据《上市公司独立董事管理办法》，完善董事会提名委员会、薪酬与考核委员会职责等规定；根据《上市公司信息披露管理办法》，完善自愿性信息披露、发布可持续发展报告等规定。",
+          "sentences": [
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s0",
+              "text": "（一）完善董事、高级管理人员任职、履职和离职管理制度。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s1",
+              "text": "一是明确董事、高级管理人员的任职资格以及董事会提名委员会的审核责任，防范不适格主体任职。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s2",
+              "text": "二是细化董事、高级管理人员的忠实勤勉义务。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s3",
+              "text": "强化董事、高级管理人员从事同业竞争、利用公司商业机会等行为的披露要求，要求董事作出决策前充分收集信息、谨慎判断。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s4",
+              "text": "三是强化对董事、高管离职的管理，要求上市公司在聘任董事、高级管理人员时对离职后的追责追偿做出安排，在董事、高级管理人员离职时对其未尽义务做好审查。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s5",
+              "text": "（二）健全上市公司激励约束机制。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s6",
+              "text": "一是要求上市公司建立薪酬管理制度，合理确定董事、高级管理人员的薪酬结构和水平。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s7",
+              "text": "二是规定董事、高级管理人员薪酬与公司经营业绩、个人业绩相匹配，激励董事、高级管理人员积极为公司创造价值。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s8",
+              "text": "三是完善董事、高级管理人员薪酬止付追索等支付机制，鼓励建立递延支付机制。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s9",
+              "text": "（三）规范控股股东、实际控制人行为。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s10",
+              "text": "一是严格限制可能对上市公司产生重大不利影响的同业竞争，强化对非重大不利影响同业竞争的披露要求，增强透明度。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s11",
+              "text": "二是进一步完善董事会对关联交易的识别、审议要求。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s12",
+              "text": "（四）做好与现行规则的衔接。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s13",
+              "text": "根据《证券法》完善公开征集股东权利的规定；",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s14",
+              "text": "根据《上市公司独立董事管理办法》，完善董事会提名委员会、薪酬与考核委员会职责等规定；",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s15",
+              "text": "根据《上市公司信息披露管理办法》，完善自愿性信息披露、发布可持续发展报告等规定。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+      "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+      "title": "三、公开征求意见情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "公开征求意见时间/意见总数/董事责任保险/累积投票制/薪酬激励规定/可持续发展条款/董事会多元化",
+        "for": [
+          "修订依据",
+          "意见采纳",
+          "规则变化",
+          "监管动态"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0",
+          "para_index": 0,
+          "content": "2025 年 7 月 25日至 8 月 24 日，《治理准则》向社会公开征求意见，共收到意见建议 195条。总体看，社会各方对《治理准则》修订表示认可，认为有利于促进上市公司提升治理水平。对于各方提出的意见，中国证监会做了认真研究，其中部分意见已体现在其他监管规则中，不在《治理准则》中重复规定，主要意见及采纳情况如下：\n一是关于董事责任保险的范围。有意见提出，《治理准则》关于责任保险范围的规定限制了责任保险作用的实质发挥。经研究，《公司法》修改新增公司为董事投保责任保险的规定，《保险法》及保险业务监管规则等也对责任保险的范围有明确要求，因此，采纳相关建议，修改相关条款，与《公司法》保持一致。\n二是关于累积投票制。有意见提出，建议明确选举两名以上董事时适用累积投票制。经研究，累积投票制的核心是允许股东将拥有的表决权集中使用，在选举一名董事时并无实质意义，因此，采纳了相关意见。\n三是关于薪酬与激励的规定。有意见提出，对董事、高级管理人员的薪酬要求不应适用于独立董事和不在上市公司领薪的董事。经研究，根据《上市公司独立董事管理办法》，独立董事领取的是津贴，与薪酬有所不同，不适用《治理准则》关于薪酬的规定；不在上市公司领薪的董事也无需适用相关规定。相关意见已采纳。此外，针对薪酬与激励的个别条款，也有意见提出如何理解的问题，经研究，做了进一步细化修改。\n四是关于可持续发展的规定。有意见建议增加“双碳目标”、“减排低碳”、“低碳转型”等相关内容，经研究，已根据国家关于生态环境保护的相关要求，对《治理准则》的相关条款做了修改。还有意见提出，建议在董事会中设可持续发展专门委员会，考虑到上市公司规模、行业、发展阶段不同，未提出明确要求，上市公司可以结合自身情况自行设立。\n此外，还有意见提出，在董事会多元化方面规定具体要求、鼓励高级管理人员多元化、提高董事会中独立董事的占比等。对此，公司可以结合自身情况做差异化探索，鼓励上市公司积极实践。",
+          "sentences": [
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s0",
+              "text": "2025 年 7 月 25日至 8 月 24 日，《治理准则》向社会公开征求意见，共收到意见建议 195条。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s1",
+              "text": "总体看，社会各方对《治理准则》修订表示认可，认为有利于促进上市公司提升治理水平。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s2",
+              "text": "对于各方提出的意见，中国证监会做了认真研究，其中部分意见已体现在其他监管规则中，不在《治理准则》中重复规定，主要意见及采纳情况如下：\n一是关于董事责任保险的范围。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s3",
+              "text": "有意见提出，《治理准则》关于责任保险范围的规定限制了责任保险作用的实质发挥。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s4",
+              "text": "经研究，《公司法》修改新增公司为董事投保责任保险的规定，《保险法》及保险业务监管规则等也对责任保险的范围有明确要求，因此，采纳相关建议，修改相关条款，与《公司法》保持一致。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s5",
+              "text": "二是关于累积投票制。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s6",
+              "text": "有意见提出，建议明确选举两名以上董事时适用累积投票制。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s7",
+              "text": "经研究，累积投票制的核心是允许股东将拥有的表决权集中使用，在选举一名董事时并无实质意义，因此，采纳了相关意见。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s8",
+              "text": "三是关于薪酬与激励的规定。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s9",
+              "text": "有意见提出，对董事、高级管理人员的薪酬要求不应适用于独立董事和不在上市公司领薪的董事。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s10",
+              "text": "经研究，根据《上市公司独立董事管理办法》，独立董事领取的是津贴，与薪酬有所不同，不适用《治理准则》关于薪酬的规定；",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s11",
+              "text": "不在上市公司领薪的董事也无需适用相关规定。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s12",
+              "text": "相关意见已采纳。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s13",
+              "text": "此外，针对薪酬与激励的个别条款，也有意见提出如何理解的问题，经研究，做了进一步细化修改。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s14",
+              "text": "四是关于可持续发展的规定。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s15",
+              "text": "有意见建议增加“双碳目标”、“减排低碳”、“低碳转型”等相关内容，经研究，已根据国家关于生态环境保护的相关要求，对《治理准则》的相关条款做了修改。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s16",
+              "text": "还有意见提出，建议在董事会中设可持续发展专门委员会，考虑到上市公司规模、行业、发展阶段不同，未提出明确要求，上市公司可以结合自身情况自行设立。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s17",
+              "text": "此外，还有意见提出，在董事会多元化方面规定具体要求、鼓励高级管理人员多元化、提高董事会中独立董事的占比等。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 17
+              }
+            },
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s18",
+              "text": "对此，公司可以结合自身情况做差异化探索，鼓励上市公司积极实践。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 18
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 四、关于实施日期",
+      "section_path": "《上市公司治理准则》修订说明 > 四、关于实施日期",
+      "title": "四、关于实施日期",
+      "level": 2,
+      "reading_guide": {
+        "has": "实施日期/2026年1月1日/过渡期安排/内部制度调整/新公司法",
+        "for": [
+          "生效时间",
+          "过渡期",
+          "实施规则"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 四、关于实施日期_p0",
+          "para_index": 0,
+          "content": "考虑到《治理准则》本次修订部分涉及对公司内部制度的调整，同时，关于落实新《公司法》调整内部监督机构也设了过渡期安排，为了给上市公司留有准备时间，《治理准则》定于 2026 年 1 月1 日起正式施行。",
+          "sentences": [
+            {
+              "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 四、关于实施日期_p0_s0",
+              "text": "考虑到《治理准则》本次修订部分涉及对公司内部制度的调整，同时，关于落实新《公司法》调整内部监督机构也设了过渡期安排，为了给上市公司留有准备时间，《治理准则》定于 2026 年 1 月1 日起正式施行。",
+              "location": {
+                "doc_id": "doc_c4122b9e1061",
+                "section_path": "《上市公司治理准则》修订说明 > 四、关于实施日期",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_eb44c7ed3dca",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》",
+      "canonical_name": "国务院关于加强监管防范风险推动资本市场高质量发展的若干意见",
+      "attributes": {},
+      "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_c4122b9e1061#《上市公司治理准则》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e149be130d8d",
+      "entity_type": "LegalDocument",
+      "mention": "《中共中央办公厅 国务院办公厅关于完善中国特色现代企业制度的意见》",
+      "canonical_name": "中共中央办公厅 国务院办公厅关于完善中国特色现代企业制度的意见",
+      "attributes": {},
+      "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_c4122b9e1061#《上市公司治理准则》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_64ddf24cb0c1",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_c4122b9e1061#《上市公司治理准则》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_92a2f8d37e2d",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司治理准则》",
+      "canonical_name": "上市公司治理准则",
+      "attributes": {
+        "short_name": "《治理准则》"
+      },
+      "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_c4122b9e1061#《上市公司治理准则》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fed3ed9adb16",
+      "entity_type": "LegalDocument",
+      "mention": "《公司法》",
+      "canonical_name": "公司法",
+      "attributes": {},
+      "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 一、修订背景_p0_s2",
+      "sentence_ids": [
+        "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 一、修订背景_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_01c844a6f4ed",
+      "entity_type": "LegalDocument",
+      "mention": "《证券法》",
+      "canonical_name": "证券法",
+      "attributes": {},
+      "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s13",
+      "sentence_ids": [
+        "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s13"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0e3001dd12b3",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司独立董事管理办法》",
+      "canonical_name": "上市公司独立董事管理办法",
+      "attributes": {},
+      "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s14",
+      "sentence_ids": [
+        "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s14"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c45107d7a8a2",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司信息披露管理办法》",
+      "canonical_name": "上市公司信息披露管理办法",
+      "attributes": {},
+      "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s15",
+      "sentence_ids": [
+        "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 二、主要修订内容_p0_s15"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f75e560deefb",
+      "entity_type": "Date",
+      "mention": "2025 年 7 月 25 日",
+      "canonical_name": "2025-07-25",
+      "attributes": {},
+      "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2339ea6f60aa",
+      "entity_type": "Date",
+      "mention": "8 月 24 日",
+      "canonical_name": "2025-08-24",
+      "attributes": {},
+      "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f92aae82887a",
+      "entity_type": "MonetaryAmount",
+      "mention": "195 条",
+      "canonical_name": "195",
+      "attributes": {
+        "unit": "条"
+      },
+      "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_548a486694f8",
+      "entity_type": "InsuranceProduct",
+      "mention": "责任保险",
+      "canonical_name": "责任保险",
+      "attributes": {},
+      "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s2",
+      "sentence_ids": [
+        "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f1bba13bdbf5",
+      "entity_type": "LegalDocument",
+      "mention": "《保险法》",
+      "canonical_name": "保险法",
+      "attributes": {},
+      "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s4",
+      "sentence_ids": [
+        "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 三、公开征求意见情况_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7d187abfe7e2",
+      "entity_type": "Date",
+      "mention": "2026 年 1 月 1 日",
+      "canonical_name": "2026-01-01",
+      "attributes": {},
+      "sentence_id": "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 四、关于实施日期_p0_s0",
+      "sentence_ids": [
+        "doc_c4122b9e1061#《上市公司治理准则》修订说明 > 四、关于实施日期_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_3c252e0d6f8d_rel_7f194868cce9",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_92a2f8d37e2d",
+      "tail_entity_id": "ent_eb44c7ed3dca",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_c4122b9e1061",
+        "section_path": "《上市公司治理准则》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3c252e0d6f8d_rel_b5e2f5c9879b",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_92a2f8d37e2d",
+      "tail_entity_id": "ent_e149be130d8d",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_c4122b9e1061",
+        "section_path": "《上市公司治理准则》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3c252e0d6f8d_rel_4f07979664de",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_92a2f8d37e2d",
+      "tail_entity_id": "ent_fed3ed9adb16",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_c4122b9e1061",
+        "section_path": "《上市公司治理准则》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3c252e0d6f8d_rel_91e53644d124",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_92a2f8d37e2d",
+      "tail_entity_id": "ent_01c844a6f4ed",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_c4122b9e1061",
+        "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 13
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3c252e0d6f8d_rel_a077561926fb",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_92a2f8d37e2d",
+      "tail_entity_id": "ent_0e3001dd12b3",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_c4122b9e1061",
+        "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 14
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3c252e0d6f8d_rel_bae516d4a3dd",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_92a2f8d37e2d",
+      "tail_entity_id": "ent_c45107d7a8a2",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_c4122b9e1061",
+        "section_path": "《上市公司治理准则》修订说明 > 二、主要修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 15
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3c252e0d6f8d_rel_7320e2934e43",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_92a2f8d37e2d",
+      "tail_entity_id": "ent_f1bba13bdbf5",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_c4122b9e1061",
+        "section_path": "《上市公司治理准则》修订说明 > 三、公开征求意见情况",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

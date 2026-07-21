@@ -1,0 +1,4413 @@
+{
+  "doc_id": "doc_77bafee95d41",
+  "title": "关于修改《中国证监会随机抽查事项清单》的决定",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0054_att1.md",
+  "processed_at": "2026-07-21T01:01:31.293326+00:00",
+  "structured_data": {
+    "title": "关于修改《中国证监会随机抽查事项清单》的决定"
+  },
+  "stats": {
+    "sections": 2,
+    "paragraphs": 2,
+    "sentences": 39,
+    "entities": 116,
+    "relations": 111,
+    "rejected": 0,
+    "llm_calls": 2635,
+    "llm_tokens": 4065517,
+    "elapsed_seconds": 13.7
+  },
+  "sections": [
+    {
+      "section_id": "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定",
+      "section_path": "关于修改《中国证监会随机抽查事项清单》的决定",
+      "title": "关于修改《中国证监会随机抽查事项清单》的决定",
+      "level": 1,
+      "reading_guide": {
+        "has": "随机抽查事项清单修改/首发企业检查/抽查比例5%改20%/抽查依据修订/证监会令第207号/施行日期",
+        "for": [
+          "监管政策",
+          "抽查比例",
+          "法规修订",
+          "执法依据"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定_p0",
+          "para_index": 0,
+          "content": "中国证监会决定对《中国证监会随机抽查事项清单》进行如下修改：\n一、将附件所列抽查事项第 1 项“首发企业检查”的抽查比例由“随机抽签的比例为 5％”修改为“随机抽签的比例为 20％”。\n二、将附件所列抽查事项第 1 项“首发企业检查”的抽查依据由“《证券发行上市保荐业务管理办法》（证监会令第 58 号公布，证监会令第 137 号、第170 号修订）第六十二条”修改为“《证券发行上市保荐业务管理办法》（证监会令第 58号公布，证监会令第 137 号、第170 号、第 207 号修订）第六十一条”。\n本决定自公布之日起施行。\n《中国证监会随机抽查事项清单》根据本决定作相应修改，重新公布。",
+          "sentences": [
+            {
+              "sentence_id": "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定_p0_s0",
+              "text": "中国证监会决定对《中国证监会随机抽查事项清单》进行如下修改：\n一、将附件所列抽查事项第 1 项“首发企业检查”的抽查比例由“随机抽签的比例为 5％”修改为“随机抽签的比例为 20％”。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "关于修改《中国证监会随机抽查事项清单》的决定",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定_p0_s1",
+              "text": "二、将附件所列抽查事项第 1 项“首发企业检查”的抽查依据由“《证券发行上市保荐业务管理办法》（证监会令第 58 号公布，证监会令第 137 号、第170 号修订）第六十二条”修改为“《证券发行上市保荐业务管理办法》（证监会令第 58号公布，证监会令第 137 号、第170 号、第 207 号修订）第六十一条”。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "关于修改《中国证监会随机抽查事项清单》的决定",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定_p0_s2",
+              "text": "本决定自公布之日起施行。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "关于修改《中国证监会随机抽查事项清单》的决定",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定_p0_s3",
+              "text": "《中国证监会随机抽查事项清单》根据本决定作相应修改，重新公布。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "关于修改《中国证监会随机抽查事项清单》的决定",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_77bafee95d41#中国证监会随机抽查事项清单",
+      "section_path": "中国证监会随机抽查事项清单",
+      "title": "中国证监会随机抽查事项清单",
+      "level": 1,
+      "reading_guide": {
+        "has": "随机抽查事项清单/18项检查事项/首发企业检查/上市公司检查/公司债券发行人检查/证券公司检查/会计师事务所检查/律师事务所检查/证券投资咨询机构检查/资产评估",
+        "for": [
+          "监管事项",
+          "检查对象",
+          "抽查比例",
+          "执法依据",
+          "合规要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0",
+          "para_index": 0,
+          "content": "为贯彻落实《国务院办公厅关于推广随机抽查规范事中事后监管的通知》（国办发〔2015〕58 号）要求，推进证券期货监管领域随机抽查工作，规范事中事后监管，我会修改了随机抽查事项清单，现就有关事宜公告如下：\n一、列入我会随机抽查事项清单的事项共计 18 项，均依据法律法规规章设定。随机抽查事项清单将根据有关法律法规规章修订情况和工作实际进行动态调整，及时向社会公布。\n二、我会将根据随机抽查事项清单进一步完善检查对象名录库和执法检查人员名录库，并认真实施随机抽取检查对象、随机选派执法检查人员的“双随机”抽查机制。\n三、随机抽查工作自 2016 年起全面开展。我会将继续坚持随机抽查的事项、程序、结果“三公开”，实行“阳光执法”，保障市场主体权利平等、机会平等、规则平等。\n四、对抽查发现的违法违规行为，我会将依法依规严肃惩处，并及时公开行政监管措施、行政处罚等信息，接受社会监督。\n附件：中国证监会随机抽查事项清单\n中国证监会随机抽查事项清单\n<table><tr><td>序号</td><td>事项名称</td><td>抽查主体</td><td>抽查依据</td><td>抽查内容</td><td>抽查方式</td><td>抽查比例</td><td>抽查频次</td><td>备注</td></tr><tr><td>1</td><td>首发企业检查</td><td>证监会</td><td>1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《证券发行上市保荐业务管理办法》(证监会令第58号公布,证监会令第137号、第170号、第207号修订)第六十一条:中国证监会可以对保荐机构及其与发行上市保荐工作相关的人员,证券服务机构、发行人及其与证券发行上市工作相关的人员等进行定期或者不定期现场检查,相关主体应当积极配合检查,如实提供有关资料,不得拒绝、阻挠、逃避检查,不得谎报、隐匿、销毁相关证据材料。</td><td>证券发行人、保荐机构、会计师事务所、律师事务所有关情况</td><td>结合日常监管情况,问题、风险导向和随机抽签相结合,问题、风险导向根据问题、风险性质确定,随机抽签通过抽签、摇号等方式确定。</td><td>随机抽签的比例为20%</td><td>至少1次/年</td><td></td></tr><tr><td>2</td><td>上市公司检查</td><td>证监会</td><td>《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......</td><td>对上市公司信息披露、公司治理等规范运作情况进行监督检查</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。</td><td>不低于2%</td><td>1次/年</td><td></td></tr><tr><td>3</td><td>公司债券发行人检查</td><td>证监会</td><td>《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......</td><td>信息披露义务人信息披露的合法合规性</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。</td><td>0.5-5%</td><td>1次/年</td><td></td></tr><tr><td>4</td><td>证券公司检查</td><td>证监会</td><td>《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......</td><td>证券公司有关情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。</td><td>10%</td><td>1次/年</td><td></td></tr><tr><td>5</td><td>会计师事务所从事证券服务业务检查</td><td>证监会</td><td>《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......</td><td>会计师事务所证券服务业务质量</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。</td><td>结合会计师事务所服务对象(如上市公司等)的抽查情况,由各派出机构综合确定。</td><td>1次/年</td><td></td></tr><tr><td>6</td><td>律师事务所从事证券法律业务检查</td><td>证监会</td><td>《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......</td><td>律师事务所从事证券法律业务情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。</td><td>1%</td><td>1次/年</td><td></td></tr><tr><td>7</td><td>证券投资咨询机构从事证券服务业务检查</td><td>证监会</td><td>1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《证券、期货投资咨询管理暂行办法》(证委发〔1997〕96号)第二十七条:中国证监会和地方证管办(证监会)有权对证券、期货投资咨询机构和投资咨询人员的业务活动进行检查,被检查的证券、期货投资咨询机构及其投资咨询人员应当予以配合,不得干扰和阻碍。......</td><td>证券投资咨询机构有关情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。</td><td>10%</td><td>1次/年</td><td></td></tr><tr><td>8</td><td>资产评估机构从事证券服务业务检查</td><td>证监会</td><td>《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......</td><td>资产评估机构证券服务业务质量</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。</td><td>结合资产评估机构服务对象(如上市公司等)的抽查情况,由各派出机构综合确定。</td><td>1次/年</td><td></td></tr><tr><td>9</td><td>评级机构从事证券市场资信评级业务检查</td><td>证监会</td><td>《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......</td><td>证券市场资信评级业务活动的合法合规性</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。</td><td>20%-30%</td><td>1次/年</td><td></td></tr><tr><td>10</td><td>财务顾问机构从事证券服务业务检查</td><td>证监会</td><td>1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《上市公司并购重组财务顾问业务管理办法》(证监会令第54号)第三十七条:中国证监会及其派出机构可以根据审慎监管原则,要求财务顾问提供已按照本办法的规定履行尽职调查义务的证明材料、工作档案和工作底稿,并对财务顾问的公司治理、内部控制、经营运作、风险状况、从业活动等方面进行非现场检查或者现场检查。......</td><td>财务顾问机构有关情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。</td><td>10%</td><td>1次/年</td><td></td></tr><tr><td>11</td><td>信息技术系统服务机构从事证券基金服务业务检查</td><td>证监会</td><td>1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《中华人民共和国证券投资基金法》第一百一十三条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对基金管理人、基金托管人、基金服务机构进行现场检查,并要求其报送有关的业务资料;......</td><td>信息技术系统服务机构证券基金服务质量</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。</td><td>1%</td><td>1次/年</td><td></td></tr><tr><td>12</td><td>证券基金经营机构从事债券承销、受托管理等业务检查</td><td>证监会</td><td>1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《中华人民共和国证券投资基金法》第一百一十三条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对基金管理人、基金托管人、基金服务机构进行现场检查,并要求其发送有关的业务资料;......</td><td>公司债券承销、受托管理等业务活动的合法合规性</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。</td><td>1%-5%</td><td>1次/年</td><td></td></tr><tr><td>13</td><td>基金管理人检查</td><td>证监会</td><td>《中华人民共和国证券投资基金法》第一百一十三条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对基金管理人、基金托管人、基金服务机构进行现场检查,并要求其报送有关的业务资料;......</td><td>基金管理人有关情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。</td><td>10%</td><td>至少1次/年</td><td></td></tr><tr><td>14</td><td>基金托管人检查</td><td>证监会</td><td>《中华人民共和国证券投资基金法》第一百一十三条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对基金管理人、基金托管人、基金服务机构进行现场检查,并要求其报送有关的业务资料;......</td><td>基金托管人有关情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。</td><td>10%</td><td>1次/年</td><td></td></tr><tr><td>15</td><td>基金服务机构检查</td><td>证监会</td><td>《中华人民共和国证券投资基金法》第一百一十三条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对基金管理人、基金托管人、基金服务机构进行现场检查,并要求其报送有关的业务资料;......</td><td>基金服务机构有关情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。</td><td>10%</td><td>1次/年</td><td></td></tr><tr><td>16</td><td>期货公司检查</td><td>证监会</td><td>《期货交易管理条例》第四十七条:国务院期货监督管理机构依法履行职责,可以采取下列措施:(一)对期货交易所、期货公司及其他期货经营机构、非期货公司结算会员、期货保证金安全存管监控机构和交割仓库进行现场检查。......</td><td>期货公司有关情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。</td><td>10%</td><td>1次/年</td><td></td></tr><tr><td>17</td><td>外国证券类机构驻华代表机构及其首席代表检查</td><td>证监会</td><td>《外国证券类机构驻华代表机构管理办法》(证监机构字〔1999〕26号)第四条:中国证券监督管理委员会(以下简称“证监会”)是代表处的审批和监管机关;证监会派出机构对本辖区的代表处进行日常监管。</td><td>外国证券类机构驻华代表机构设立、运营及其首席代表资质、履职及向我会备案等情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。</td><td>5%</td><td>1次/年</td><td></td></tr><tr><td>18</td><td>境外证券期货交易所驻华代表机构检查</td><td>证监会</td><td>1.《境外证券期货交易所驻华代表机构管理办法》(证监会令第157号)第三条:中国证监会根据审慎监管的原则,依法对代表处进行监管。中国证监会派出机构在中国证监会授权范围内对本辖区的代表处进行监管。......2.《境外证券期货交易所驻华代表机构管理办法》(证监会令第157号)第十三条:中国证监会或者其派出机构可以对代表处进行定期或者不定期现场或者非现场检查。......</td><td>境外证券期货交易所驻华代表机构设立、运营及其首席代表资质、履职及向我会备案等情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。</td><td>5%</td><td>1次/年</td><td></td></tr></table>",
+          "sentences": [
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+              "text": "为贯彻落实《国务院办公厅关于推广随机抽查规范事中事后监管的通知》（国办发〔2015〕58 号）要求，推进证券期货监管领域随机抽查工作，规范事中事后监管，我会修改了随机抽查事项清单，现就有关事宜公告如下：\n一、列入我会随机抽查事项清单的事项共计 18 项，均依据法律法规规章设定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s1",
+              "text": "随机抽查事项清单将根据有关法律法规规章修订情况和工作实际进行动态调整，及时向社会公布。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s2",
+              "text": "二、我会将根据随机抽查事项清单进一步完善检查对象名录库和执法检查人员名录库，并认真实施随机抽取检查对象、随机选派执法检查人员的“双随机”抽查机制。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s3",
+              "text": "三、随机抽查工作自 2016 年起全面开展。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s4",
+              "text": "我会将继续坚持随机抽查的事项、程序、结果“三公开”，实行“阳光执法”，保障市场主体权利平等、机会平等、规则平等。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s5",
+              "text": "四、对抽查发现的违法违规行为，我会将依法依规严肃惩处，并及时公开行政监管措施、行政处罚等信息，接受社会监督。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s6",
+              "text": "附件：中国证监会随机抽查事项清单\n中国证监会随机抽查事项清单\n<table><tr><td>序号</td><td>事项名称</td><td>抽查主体</td><td>抽查依据</td><td>抽查内容</td><td>抽查方式</td><td>抽查比例</td><td>抽查频次</td><td>备注</td></tr><tr><td>1</td><td>首发企业检查</td><td>证监会</td><td>1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《证券发行上市保荐业务管理办法》(证监会令第58号公布,证监会令第137号、第170号、第207号修订)第六十一条:中国证监会可以对保荐机构及其与发行上市保荐工作相关的人员,证券服务机构、发行人及其与证券发行上市工作相关的人员等进行定期或者不定期现场检查,相关主体应当积极配合检查,如实提供有关资料,不得拒绝、阻挠、逃避检查,不得谎报、隐匿、销毁相关证据材料。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s7",
+              "text": "</td><td>证券发行人、保荐机构、会计师事务所、律师事务所有关情况</td><td>结合日常监管情况,问题、风险导向和随机抽签相结合,问题、风险导向根据问题、风险性质确定,随机抽签通过抽签、摇号等方式确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s8",
+              "text": "</td><td>随机抽签的比例为20%</td><td>至少1次/年</td><td></td></tr><tr><td>2</td><td>上市公司检查</td><td>证监会</td><td>《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......</td><td>对上市公司信息披露、公司治理等规范运作情况进行监督检查</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s9",
+              "text": "</td><td>不低于2%</td><td>1次/年</td><td></td></tr><tr><td>3</td><td>公司债券发行人检查</td><td>证监会</td><td>《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......</td><td>信息披露义务人信息披露的合法合规性</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s10",
+              "text": "</td><td>0.5-5%</td><td>1次/年</td><td></td></tr><tr><td>4</td><td>证券公司检查</td><td>证监会</td><td>《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......</td><td>证券公司有关情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s11",
+              "text": "</td><td>10%</td><td>1次/年</td><td></td></tr><tr><td>5</td><td>会计师事务所从事证券服务业务检查</td><td>证监会</td><td>《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......</td><td>会计师事务所证券服务业务质量</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s12",
+              "text": "</td><td>结合会计师事务所服务对象(如上市公司等)的抽查情况,由各派出机构综合确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s13",
+              "text": "</td><td>1次/年</td><td></td></tr><tr><td>6</td><td>律师事务所从事证券法律业务检查</td><td>证监会</td><td>《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......</td><td>律师事务所从事证券法律业务情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s14",
+              "text": "</td><td>1%</td><td>1次/年</td><td></td></tr><tr><td>7</td><td>证券投资咨询机构从事证券服务业务检查</td><td>证监会</td><td>1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《证券、期货投资咨询管理暂行办法》(证委发〔1997〕96号)第二十七条:中国证监会和地方证管办(证监会)有权对证券、期货投资咨询机构和投资咨询人员的业务活动进行检查,被检查的证券、期货投资咨询机构及其投资咨询人员应当予以配合,不得干扰和阻碍。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s15",
+              "text": "......</td><td>证券投资咨询机构有关情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s16",
+              "text": "</td><td>10%</td><td>1次/年</td><td></td></tr><tr><td>8</td><td>资产评估机构从事证券服务业务检查</td><td>证监会</td><td>《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......</td><td>资产评估机构证券服务业务质量</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s17",
+              "text": "</td><td>结合资产评估机构服务对象(如上市公司等)的抽查情况,由各派出机构综合确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 17
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s18",
+              "text": "</td><td>1次/年</td><td></td></tr><tr><td>9</td><td>评级机构从事证券市场资信评级业务检查</td><td>证监会</td><td>《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......</td><td>证券市场资信评级业务活动的合法合规性</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 18
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s19",
+              "text": "</td><td>20%-30%</td><td>1次/年</td><td></td></tr><tr><td>10</td><td>财务顾问机构从事证券服务业务检查</td><td>证监会</td><td>1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《上市公司并购重组财务顾问业务管理办法》(证监会令第54号)第三十七条:中国证监会及其派出机构可以根据审慎监管原则,要求财务顾问提供已按照本办法的规定履行尽职调查义务的证明材料、工作档案和工作底稿,并对财务顾问的公司治理、内部控制、经营运作、风险状况、从业活动等方面进行非现场检查或者现场检查。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 19
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s20",
+              "text": "......</td><td>财务顾问机构有关情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 20
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s21",
+              "text": "</td><td>10%</td><td>1次/年</td><td></td></tr><tr><td>11</td><td>信息技术系统服务机构从事证券基金服务业务检查</td><td>证监会</td><td>1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《中华人民共和国证券投资基金法》第一百一十三条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对基金管理人、基金托管人、基金服务机构进行现场检查,并要求其报送有关的业务资料;......</td><td>信息技术系统服务机构证券基金服务质量</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 21
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s22",
+              "text": "</td><td>1%</td><td>1次/年</td><td></td></tr><tr><td>12</td><td>证券基金经营机构从事债券承销、受托管理等业务检查</td><td>证监会</td><td>1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《中华人民共和国证券投资基金法》第一百一十三条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对基金管理人、基金托管人、基金服务机构进行现场检查,并要求其发送有关的业务资料;......</td><td>公司债券承销、受托管理等业务活动的合法合规性</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 22
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s23",
+              "text": "</td><td>1%-5%</td><td>1次/年</td><td></td></tr><tr><td>13</td><td>基金管理人检查</td><td>证监会</td><td>《中华人民共和国证券投资基金法》第一百一十三条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对基金管理人、基金托管人、基金服务机构进行现场检查,并要求其报送有关的业务资料;......</td><td>基金管理人有关情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 23
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s24",
+              "text": "</td><td>10%</td><td>至少1次/年</td><td></td></tr><tr><td>14</td><td>基金托管人检查</td><td>证监会</td><td>《中华人民共和国证券投资基金法》第一百一十三条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对基金管理人、基金托管人、基金服务机构进行现场检查,并要求其报送有关的业务资料;......</td><td>基金托管人有关情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 24
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s25",
+              "text": "</td><td>10%</td><td>1次/年</td><td></td></tr><tr><td>15</td><td>基金服务机构检查</td><td>证监会</td><td>《中华人民共和国证券投资基金法》第一百一十三条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对基金管理人、基金托管人、基金服务机构进行现场检查,并要求其报送有关的业务资料;......</td><td>基金服务机构有关情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 25
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s26",
+              "text": "</td><td>10%</td><td>1次/年</td><td></td></tr><tr><td>16</td><td>期货公司检查</td><td>证监会</td><td>《期货交易管理条例》第四十七条:国务院期货监督管理机构依法履行职责,可以采取下列措施:(一)对期货交易所、期货公司及其他期货经营机构、非期货公司结算会员、期货保证金安全存管监控机构和交割仓库进行现场检查。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 26
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s27",
+              "text": "......</td><td>期货公司有关情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 27
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s28",
+              "text": "</td><td>10%</td><td>1次/年</td><td></td></tr><tr><td>17</td><td>外国证券类机构驻华代表机构及其首席代表检查</td><td>证监会</td><td>《外国证券类机构驻华代表机构管理办法》(证监机构字〔1999〕26号)第四条:中国证券监督管理委员会(以下简称“证监会”)是代表处的审批和监管机关;证监会派出机构对本辖区的代表处进行日常监管。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 28
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s29",
+              "text": "</td><td>外国证券类机构驻华代表机构设立、运营及其首席代表资质、履职及向我会备案等情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 29
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s30",
+              "text": "</td><td>5%</td><td>1次/年</td><td></td></tr><tr><td>18</td><td>境外证券期货交易所驻华代表机构检查</td><td>证监会</td><td>1.《境外证券期货交易所驻华代表机构管理办法》(证监会令第157号)第三条:中国证监会根据审慎监管的原则,依法对代表处进行监管。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 30
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s31",
+              "text": "中国证监会派出机构在中国证监会授权范围内对本辖区的代表处进行监管。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 31
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s32",
+              "text": "......2.《境外证券期货交易所驻华代表机构管理办法》(证监会令第157号)第十三条:中国证监会或者其派出机构可以对代表处进行定期或者不定期现场或者非现场检查。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 32
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s33",
+              "text": "......</td><td>境外证券期货交易所驻华代表机构设立、运营及其首席代表资质、履职及向我会备案等情况</td><td>结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 33
+              }
+            },
+            {
+              "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s34",
+              "text": "</td><td>5%</td><td>1次/年</td><td></td></tr></table>",
+              "location": {
+                "doc_id": "doc_77bafee95d41",
+                "section_path": "中国证监会随机抽查事项清单",
+                "paragraph_index": 0,
+                "sentence_index": 34
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_d39e40275a54",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_65fdd4ee520c",
+      "entity_type": "LegalDocument",
+      "mention": "《中国证监会随机抽查事项清单》",
+      "canonical_name": "中国证监会随机抽查事项清单",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_272cb1e095c7",
+      "entity_type": "Percentage",
+      "mention": "5％",
+      "canonical_name": "5%",
+      "attributes": {
+        "value": 5.0
+      },
+      "sentence_id": "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定_p0_s0",
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub6_s0",
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_20de1960a09b",
+      "entity_type": "Percentage",
+      "mention": "20％",
+      "canonical_name": "20%",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8d87bddb78cf",
+      "entity_type": "LegalDocument",
+      "mention": "《证券发行上市保荐业务管理办法》",
+      "canonical_name": "证券发行上市保荐业务管理办法",
+      "attributes": {
+        "order_numbers": [
+          "58",
+          "137",
+          "170",
+          "207"
+        ]
+      },
+      "sentence_id": "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定_p0_s1",
+      "sentence_ids": [
+        "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_af070c9dc40d",
+      "entity_type": "Clause",
+      "mention": "第六十一条",
+      "canonical_name": "证券发行上市保荐业务管理办法_第六十一条",
+      "attributes": {
+        "source_document": "证券发行上市保荐业务管理办法"
+      },
+      "sentence_id": "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定_p0_s1",
+      "sentence_ids": [
+        "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5b6330b1dfe6",
+      "entity_type": "Date",
+      "mention": "公布之日",
+      "canonical_name": "公布之日",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定_p0_s2",
+      "sentence_ids": [
+        "doc_77bafee95d41#关于修改《中国证监会随机抽查事项清单》的决定_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_daeff3d1faa7",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院办公厅关于推广随机抽查规范事中事后监管的通知》",
+      "canonical_name": "国务院办公厅关于推广随机抽查规范事中事后监管的通知",
+      "attributes": {
+        "document_number": "国办发〔2015〕58 号"
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub0_s0",
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub3_s0",
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub6_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8e60e9451aa4",
+      "entity_type": "Industry",
+      "mention": "证券期货监管领域",
+      "canonical_name": "证券期货监管领域",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f549af235db9",
+      "entity_type": "LegalTerm",
+      "mention": "双随机",
+      "canonical_name": "双随机",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2b307a5ec5d6",
+      "entity_type": "Date",
+      "mention": "2016 年",
+      "canonical_name": "2016年",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0479e6ebcd80",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国证券法》",
+      "canonical_name": "中华人民共和国证券法",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub0_s0",
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a65eefdaa7c1",
+      "entity_type": "Clause",
+      "mention": "第一百七十条",
+      "canonical_name": "中华人民共和国证券法_第一百七十条",
+      "attributes": {
+        "source_document": "中华人民共和国证券法"
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_53d2ac1908c4",
+      "entity_type": "Organization",
+      "mention": "证监会",
+      "canonical_name": "证监会",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub0_s0",
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6a178b92b2c2",
+      "entity_type": "LegalDocument",
+      "mention": "《证券、期货投资咨询管理暂行办法》",
+      "canonical_name": "证券、期货投资咨询管理暂行办法",
+      "attributes": {
+        "order_number": "证委发〔1997〕96号"
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d8cf9a48213a",
+      "entity_type": "Clause",
+      "mention": "第二十七条",
+      "canonical_name": "证券、期货投资咨询管理暂行办法_第二十七条",
+      "attributes": {
+        "source_document": "证券、期货投资咨询管理暂行办法"
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_50ac1bb134d4",
+      "entity_type": "Clause",
+      "mention": "《中华人民共和国证券法》第一百七十条",
+      "canonical_name": "证券法第一百七十条",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub3_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_95b86c7394e2",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司并购重组财务顾问业务管理办法》",
+      "canonical_name": "上市公司并购重组财务顾问业务管理办法",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub3_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_26b19cb34173",
+      "entity_type": "Clause",
+      "mention": "《上市公司并购重组财务顾问业务管理办法》(证监会令第54号)第三十七条",
+      "canonical_name": "财务顾问业务管理办法第三十七条",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub3_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b6ae4ac69127",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国证券投资基金法》",
+      "canonical_name": "中华人民共和国证券投资基金法",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub4_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub4_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_64720c672f6c",
+      "entity_type": "Clause",
+      "mention": "《中华人民共和国证券投资基金法》第一百一十三条",
+      "canonical_name": "证券投资基金法第一百一十三条",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub4_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub4_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9385129607ad",
+      "entity_type": "LegalDocument",
+      "mention": "《期货交易管理条例》",
+      "canonical_name": "期货交易管理条例",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub5_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub5_s0",
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub6_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8c693641675e",
+      "entity_type": "Clause",
+      "mention": "《期货交易管理条例》第四十七条",
+      "canonical_name": "期货交易管理条例第四十七条",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub5_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub5_s0",
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub6_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a82642532f24",
+      "entity_type": "Organization",
+      "mention": "证监会",
+      "canonical_name": "中国证券监督管理委员会",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub6_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub6_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_50bc9e0d9c60",
+      "entity_type": "LegalDocument",
+      "mention": "《外国证券类机构驻华代表机构管理办法》",
+      "canonical_name": "外国证券类机构驻华代表机构管理办法",
+      "attributes": {
+        "document_number": "证监机构字〔1999〕26号"
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub6_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub6_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4074ff5a0182",
+      "entity_type": "LegalDocument",
+      "mention": "《境外证券期货交易所驻华代表机构管理办法》",
+      "canonical_name": "境外证券期货交易所驻华代表机构管理办法",
+      "attributes": {
+        "document_number": "证监会令第157号"
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub6_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub6_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_aef1b0d48b6d",
+      "entity_type": "Clause",
+      "mention": "《外国证券类机构驻华代表机构管理办法》(证监机构字〔1999〕26号)第四条",
+      "canonical_name": "外国证券类机构驻华代表机构管理办法第四条",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub6_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub6_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1e3c799fc294",
+      "entity_type": "Clause",
+      "mention": "《境外证券期货交易所驻华代表机构管理办法》(证监会令第157号)第三条",
+      "canonical_name": "境外证券期货交易所驻华代表机构管理办法第三条",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub6_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub6_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e3abff739694",
+      "entity_type": "Clause",
+      "mention": "《境外证券期货交易所驻华代表机构管理办法》(证监会令第157号)第十三条",
+      "canonical_name": "境外证券期货交易所驻华代表机构管理办法第十三条",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub6_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub6_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_dd329c65d9f0",
+      "entity_type": "Percentage",
+      "mention": "10%",
+      "canonical_name": "10%",
+      "attributes": {
+        "value": 10.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub6_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_sub6_s0",
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_794e2267e56c",
+      "entity_type": "MonetaryAmount",
+      "mention": "1",
+      "canonical_name": "1",
+      "attributes": {
+        "amount": 1.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_168735ef1eb4",
+      "entity_type": "",
+      "mention": "首发企业检查",
+      "canonical_name": "首发企业检查",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_440d892b5e27",
+      "entity_type": "",
+      "mention": "证监会",
+      "canonical_name": "证监会",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9b21bb72c56b",
+      "entity_type": "MonetaryAmount",
+      "mention": "1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《证券发行上市保荐业务管理办法》(证监会令第58号公布,证监会令第137号、第170号、第207号修订)第六十一条:中国证监会可以对保荐机构及其与发行上市保荐工作相关的人员,证券服务机构、发行人及其与证券发行上市工作相关的人员等进行定期或者不定期现场检查,相关主体应当积极配合检查,如实提供有关资料,不得拒绝、阻挠、逃避检查,不得谎报、隐匿、销毁相关证据材料。",
+      "canonical_name": "1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《证券发行上市保荐业务管理办法》(证监会令第58号公布,证监会令第137号、第170号、第207号修订)第六十一条:中国证监会可以对保荐机构及其与发行上市保荐工作相关的人员,证券服务机构、发行人及其与证券发行上市工作相关的人员等进行定期或者不定期现场检查,相关主体应当积极配合检查,如实提供有关资料,不得拒绝、阻挠、逃避检查,不得谎报、隐匿、销毁相关证据材料。",
+      "attributes": {
+        "amount": 100.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6f0618feb848",
+      "entity_type": "",
+      "mention": "证券发行人、保荐机构、会计师事务所、律师事务所有关情况",
+      "canonical_name": "证券发行人、保荐机构、会计师事务所、律师事务所有关情况",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c66a197ca0eb",
+      "entity_type": "",
+      "mention": "结合日常监管情况,问题、风险导向和随机抽签相结合,问题、风险导向根据问题、风险性质确定,随机抽签通过抽签、摇号等方式确定。",
+      "canonical_name": "结合日常监管情况,问题、风险导向和随机抽签相结合,问题、风险导向根据问题、风险性质确定,随机抽签通过抽签、摇号等方式确定。",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f7dfc0e84e35",
+      "entity_type": "MonetaryAmount",
+      "mention": "随机抽签的比例为20%",
+      "canonical_name": "随机抽签的比例为20%",
+      "attributes": {
+        "amount": 20.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_450fb7a32f24",
+      "entity_type": "MonetaryAmount",
+      "mention": "至少1次/年",
+      "canonical_name": "至少1次/年",
+      "attributes": {
+        "amount": 1.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_88192e5f10f5",
+      "entity_type": "MonetaryAmount",
+      "mention": "2",
+      "canonical_name": "2",
+      "attributes": {
+        "amount": 2.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d856e9b312a8",
+      "entity_type": "",
+      "mention": "上市公司检查",
+      "canonical_name": "上市公司检查",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_48919f1211c7",
+      "entity_type": "",
+      "mention": "《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......",
+      "canonical_name": "《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3175aba10e0d",
+      "entity_type": "",
+      "mention": "对上市公司信息披露、公司治理等规范运作情况进行监督检查",
+      "canonical_name": "对上市公司信息披露、公司治理等规范运作情况进行监督检查",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f42d428902db",
+      "entity_type": "",
+      "mention": "结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。",
+      "canonical_name": "结合日常监管情况,以问题和风险为导向,通过抽签、摇号等方式确定。",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_eba6170df47a",
+      "entity_type": "MonetaryAmount",
+      "mention": "不低于2%",
+      "canonical_name": "不低于2%",
+      "attributes": {
+        "amount": 2.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9e620d81f2d6",
+      "entity_type": "MonetaryAmount",
+      "mention": "1次/年",
+      "canonical_name": "1次/年",
+      "attributes": {
+        "amount": 1.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5d0eb027ba4a",
+      "entity_type": "MonetaryAmount",
+      "mention": "3",
+      "canonical_name": "3",
+      "attributes": {
+        "amount": 3.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c96abed27397",
+      "entity_type": "",
+      "mention": "公司债券发行人检查",
+      "canonical_name": "公司债券发行人检查",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b08708cf99c0",
+      "entity_type": "",
+      "mention": "信息披露义务人信息披露的合法合规性",
+      "canonical_name": "信息披露义务人信息披露的合法合规性",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b21007d19cb2",
+      "entity_type": "Percentage",
+      "mention": "0.5-5%",
+      "canonical_name": "0.5-5%",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_42e49b008506",
+      "entity_type": "MonetaryAmount",
+      "mention": "4",
+      "canonical_name": "4",
+      "attributes": {
+        "amount": 4.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0f0b8ee45bdd",
+      "entity_type": "",
+      "mention": "证券公司检查",
+      "canonical_name": "证券公司检查",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f22168875fb0",
+      "entity_type": "",
+      "mention": "证券公司有关情况",
+      "canonical_name": "证券公司有关情况",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d3c167d27641",
+      "entity_type": "MonetaryAmount",
+      "mention": "5",
+      "canonical_name": "5",
+      "attributes": {
+        "amount": 5.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c77db5015fd2",
+      "entity_type": "",
+      "mention": "会计师事务所从事证券服务业务检查",
+      "canonical_name": "会计师事务所从事证券服务业务检查",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_142d45910cbb",
+      "entity_type": "",
+      "mention": "会计师事务所证券服务业务质量",
+      "canonical_name": "会计师事务所证券服务业务质量",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_beec5f6f6c35",
+      "entity_type": "",
+      "mention": "结合会计师事务所服务对象(如上市公司等)的抽查情况,由各派出机构综合确定。",
+      "canonical_name": "结合会计师事务所服务对象(如上市公司等)的抽查情况,由各派出机构综合确定。",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_afb0d401aa41",
+      "entity_type": "MonetaryAmount",
+      "mention": "6",
+      "canonical_name": "6",
+      "attributes": {
+        "amount": 6.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_33489fe14375",
+      "entity_type": "",
+      "mention": "律师事务所从事证券法律业务检查",
+      "canonical_name": "律师事务所从事证券法律业务检查",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6342fa71ce4f",
+      "entity_type": "",
+      "mention": "律师事务所从事证券法律业务情况",
+      "canonical_name": "律师事务所从事证券法律业务情况",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_91eb009d0159",
+      "entity_type": "Percentage",
+      "mention": "1%",
+      "canonical_name": "1%",
+      "attributes": {
+        "value": 1.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fb636442c5e7",
+      "entity_type": "MonetaryAmount",
+      "mention": "7",
+      "canonical_name": "7",
+      "attributes": {
+        "amount": 7.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5a5d11909692",
+      "entity_type": "",
+      "mention": "证券投资咨询机构从事证券服务业务检查",
+      "canonical_name": "证券投资咨询机构从事证券服务业务检查",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_09f399992cd8",
+      "entity_type": "MonetaryAmount",
+      "mention": "1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《证券、期货投资咨询管理暂行办法》(证委发〔1997〕96号)第二十七条:中国证监会和地方证管办(证监会)有权对证券、期货投资咨询机构和投资咨询人员的业务活动进行检查,被检查的证券、期货投资咨询机构及其投资咨询人员应当予以配合,不得干扰和阻碍。......",
+      "canonical_name": "1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《证券、期货投资咨询管理暂行办法》(证委发〔1997〕96号)第二十七条:中国证监会和地方证管办(证监会)有权对证券、期货投资咨询机构和投资咨询人员的业务活动进行检查,被检查的证券、期货投资咨询机构及其投资咨询人员应当予以配合,不得干扰和阻碍。......",
+      "attributes": {
+        "amount": 100.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_28e3adb48e03",
+      "entity_type": "",
+      "mention": "证券投资咨询机构有关情况",
+      "canonical_name": "证券投资咨询机构有关情况",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b412a13a4df0",
+      "entity_type": "MonetaryAmount",
+      "mention": "8",
+      "canonical_name": "8",
+      "attributes": {
+        "amount": 8.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_dee446ec044d",
+      "entity_type": "",
+      "mention": "资产评估机构从事证券服务业务检查",
+      "canonical_name": "资产评估机构从事证券服务业务检查",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f3755bd38b2e",
+      "entity_type": "",
+      "mention": "资产评估机构证券服务业务质量",
+      "canonical_name": "资产评估机构证券服务业务质量",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e7d072cc0037",
+      "entity_type": "",
+      "mention": "结合资产评估机构服务对象(如上市公司等)的抽查情况,由各派出机构综合确定。",
+      "canonical_name": "结合资产评估机构服务对象(如上市公司等)的抽查情况,由各派出机构综合确定。",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7d3a0830d782",
+      "entity_type": "MonetaryAmount",
+      "mention": "9",
+      "canonical_name": "9",
+      "attributes": {
+        "amount": 9.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bdcf294f0107",
+      "entity_type": "",
+      "mention": "评级机构从事证券市场资信评级业务检查",
+      "canonical_name": "评级机构从事证券市场资信评级业务检查",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4707d085f183",
+      "entity_type": "",
+      "mention": "证券市场资信评级业务活动的合法合规性",
+      "canonical_name": "证券市场资信评级业务活动的合法合规性",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5b1046553ae7",
+      "entity_type": "Percentage",
+      "mention": "20%-30%",
+      "canonical_name": "20%-30%",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_beda59cd8816",
+      "entity_type": "MonetaryAmount",
+      "mention": "10",
+      "canonical_name": "10",
+      "attributes": {
+        "amount": 10.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_845a994ccbeb",
+      "entity_type": "",
+      "mention": "财务顾问机构从事证券服务业务检查",
+      "canonical_name": "财务顾问机构从事证券服务业务检查",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_035e0fd49911",
+      "entity_type": "MonetaryAmount",
+      "mention": "1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《上市公司并购重组财务顾问业务管理办法》(证监会令第54号)第三十七条:中国证监会及其派出机构可以根据审慎监管原则,要求财务顾问提供已按照本办法的规定履行尽职调查义务的证明材料、工作档案和工作底稿,并对财务顾问的公司治理、内部控制、经营运作、风险状况、从业活动等方面进行非现场检查或者现场检查。......",
+      "canonical_name": "1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《上市公司并购重组财务顾问业务管理办法》(证监会令第54号)第三十七条:中国证监会及其派出机构可以根据审慎监管原则,要求财务顾问提供已按照本办法的规定履行尽职调查义务的证明材料、工作档案和工作底稿,并对财务顾问的公司治理、内部控制、经营运作、风险状况、从业活动等方面进行非现场检查或者现场检查。......",
+      "attributes": {
+        "amount": 100.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6cfd53e21c7d",
+      "entity_type": "",
+      "mention": "财务顾问机构有关情况",
+      "canonical_name": "财务顾问机构有关情况",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_736cd4067186",
+      "entity_type": "MonetaryAmount",
+      "mention": "11",
+      "canonical_name": "11",
+      "attributes": {
+        "amount": 11.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e7478b2c6092",
+      "entity_type": "",
+      "mention": "信息技术系统服务机构从事证券基金服务业务检查",
+      "canonical_name": "信息技术系统服务机构从事证券基金服务业务检查",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e69e11eab00c",
+      "entity_type": "MonetaryAmount",
+      "mention": "1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《中华人民共和国证券投资基金法》第一百一十三条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对基金管理人、基金托管人、基金服务机构进行现场检查,并要求其报送有关的业务资料;......",
+      "canonical_name": "1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《中华人民共和国证券投资基金法》第一百一十三条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对基金管理人、基金托管人、基金服务机构进行现场检查,并要求其报送有关的业务资料;......",
+      "attributes": {
+        "amount": 100.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2042f08ae170",
+      "entity_type": "",
+      "mention": "信息技术系统服务机构证券基金服务质量",
+      "canonical_name": "信息技术系统服务机构证券基金服务质量",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b95354c0483b",
+      "entity_type": "MonetaryAmount",
+      "mention": "12",
+      "canonical_name": "12",
+      "attributes": {
+        "amount": 12.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bd95a7a1b626",
+      "entity_type": "",
+      "mention": "证券基金经营机构从事债券承销、受托管理等业务检查",
+      "canonical_name": "证券基金经营机构从事债券承销、受托管理等业务检查",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6c90f8b2cb91",
+      "entity_type": "MonetaryAmount",
+      "mention": "1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《中华人民共和国证券投资基金法》第一百一十三条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对基金管理人、基金托管人、基金服务机构进行现场检查,并要求其发送有关的业务资料;......",
+      "canonical_name": "1.《中华人民共和国证券法》第一百七十条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对证券发行人、证券公司、证券服务机构、证券交易场所、证券登记结算机构进行现场检查;......2.《中华人民共和国证券投资基金法》第一百一十三条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对基金管理人、基金托管人、基金服务机构进行现场检查,并要求其发送有关的业务资料;......",
+      "attributes": {
+        "amount": 100.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2ddddb32d56c",
+      "entity_type": "",
+      "mention": "公司债券承销、受托管理等业务活动的合法合规性",
+      "canonical_name": "公司债券承销、受托管理等业务活动的合法合规性",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e9ce7b718b9d",
+      "entity_type": "Percentage",
+      "mention": "1%-5%",
+      "canonical_name": "1%-5%",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5f7750ca9b62",
+      "entity_type": "MonetaryAmount",
+      "mention": "13",
+      "canonical_name": "13",
+      "attributes": {
+        "amount": 13.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7a5606db8d06",
+      "entity_type": "",
+      "mention": "基金管理人检查",
+      "canonical_name": "基金管理人检查",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f55d3d7fea39",
+      "entity_type": "",
+      "mention": "《中华人民共和国证券投资基金法》第一百一十三条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对基金管理人、基金托管人、基金服务机构进行现场检查,并要求其报送有关的业务资料;......",
+      "canonical_name": "《中华人民共和国证券投资基金法》第一百一十三条:国务院证券监督管理机构依法履行职责,有权采取下列措施:(一)对基金管理人、基金托管人、基金服务机构进行现场检查,并要求其报送有关的业务资料;......",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b50d601dfc86",
+      "entity_type": "",
+      "mention": "基金管理人有关情况",
+      "canonical_name": "基金管理人有关情况",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_acdfd6405657",
+      "entity_type": "MonetaryAmount",
+      "mention": "14",
+      "canonical_name": "14",
+      "attributes": {
+        "amount": 14.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_13d0401dda13",
+      "entity_type": "",
+      "mention": "基金托管人检查",
+      "canonical_name": "基金托管人检查",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9caae94c7fa0",
+      "entity_type": "",
+      "mention": "基金托管人有关情况",
+      "canonical_name": "基金托管人有关情况",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b35a05f164f1",
+      "entity_type": "MonetaryAmount",
+      "mention": "15",
+      "canonical_name": "15",
+      "attributes": {
+        "amount": 15.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_abd9f965e87c",
+      "entity_type": "",
+      "mention": "基金服务机构检查",
+      "canonical_name": "基金服务机构检查",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0291a0fa82bf",
+      "entity_type": "",
+      "mention": "基金服务机构有关情况",
+      "canonical_name": "基金服务机构有关情况",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5c9647992428",
+      "entity_type": "MonetaryAmount",
+      "mention": "16",
+      "canonical_name": "16",
+      "attributes": {
+        "amount": 16.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c32c6a1f37d9",
+      "entity_type": "",
+      "mention": "期货公司检查",
+      "canonical_name": "期货公司检查",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_91d42f10e282",
+      "entity_type": "",
+      "mention": "《期货交易管理条例》第四十七条:国务院期货监督管理机构依法履行职责,可以采取下列措施:(一)对期货交易所、期货公司及其他期货经营机构、非期货公司结算会员、期货保证金安全存管监控机构和交割仓库进行现场检查。......",
+      "canonical_name": "《期货交易管理条例》第四十七条:国务院期货监督管理机构依法履行职责,可以采取下列措施:(一)对期货交易所、期货公司及其他期货经营机构、非期货公司结算会员、期货保证金安全存管监控机构和交割仓库进行现场检查。......",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0941276425ae",
+      "entity_type": "",
+      "mention": "期货公司有关情况",
+      "canonical_name": "期货公司有关情况",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e3f838b5682c",
+      "entity_type": "MonetaryAmount",
+      "mention": "17",
+      "canonical_name": "17",
+      "attributes": {
+        "amount": 17.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_eb28ec828d9d",
+      "entity_type": "",
+      "mention": "外国证券类机构驻华代表机构及其首席代表检查",
+      "canonical_name": "外国证券类机构驻华代表机构及其首席代表检查",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ecfa19f94365",
+      "entity_type": "MonetaryAmount",
+      "mention": "《外国证券类机构驻华代表机构管理办法》(证监机构字〔1999〕26号)第四条:中国证券监督管理委员会(以下简称“证监会”)是代表处的审批和监管机关;证监会派出机构对本辖区的代表处进行日常监管。",
+      "canonical_name": "《外国证券类机构驻华代表机构管理办法》(证监机构字〔1999〕26号)第四条:中国证券监督管理委员会(以下简称“证监会”)是代表处的审批和监管机关;证监会派出机构对本辖区的代表处进行日常监管。",
+      "attributes": {
+        "amount": 1999.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1fda7392483a",
+      "entity_type": "",
+      "mention": "外国证券类机构驻华代表机构设立、运营及其首席代表资质、履职及向我会备案等情况",
+      "canonical_name": "外国证券类机构驻华代表机构设立、运营及其首席代表资质、履职及向我会备案等情况",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e01dd3ac4981",
+      "entity_type": "MonetaryAmount",
+      "mention": "18",
+      "canonical_name": "18",
+      "attributes": {
+        "amount": 18.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cdc43d0c73c2",
+      "entity_type": "",
+      "mention": "境外证券期货交易所驻华代表机构检查",
+      "canonical_name": "境外证券期货交易所驻华代表机构检查",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_69aa1c297339",
+      "entity_type": "MonetaryAmount",
+      "mention": "1.《境外证券期货交易所驻华代表机构管理办法》(证监会令第157号)第三条:中国证监会根据审慎监管的原则,依法对代表处进行监管。中国证监会派出机构在中国证监会授权范围内对本辖区的代表处进行监管。......2.《境外证券期货交易所驻华代表机构管理办法》(证监会令第157号)第十三条:中国证监会或者其派出机构可以对代表处进行定期或者不定期现场或者非现场检查。......",
+      "canonical_name": "1.《境外证券期货交易所驻华代表机构管理办法》(证监会令第157号)第三条:中国证监会根据审慎监管的原则,依法对代表处进行监管。中国证监会派出机构在中国证监会授权范围内对本辖区的代表处进行监管。......2.《境外证券期货交易所驻华代表机构管理办法》(证监会令第157号)第十三条:中国证监会或者其派出机构可以对代表处进行定期或者不定期现场或者非现场检查。......",
+      "attributes": {
+        "amount": 1.0
+      },
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_dcb86eb651ee",
+      "entity_type": "",
+      "mention": "境外证券期货交易所驻华代表机构设立、运营及其首席代表资质、履职及向我会备案等情况",
+      "canonical_name": "境外证券期货交易所驻华代表机构设立、运营及其首席代表资质、履职及向我会备案等情况",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f601bc298935",
+      "entity_type": "",
+      "mention": "序号",
+      "canonical_name": "序号",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a28d484114dd",
+      "entity_type": "",
+      "mention": "事项名称",
+      "canonical_name": "事项名称",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a5bf0b369939",
+      "entity_type": "",
+      "mention": "抽查主体",
+      "canonical_name": "抽查主体",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a4c6b10447e8",
+      "entity_type": "",
+      "mention": "抽查依据",
+      "canonical_name": "抽查依据",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d719aa68b0a6",
+      "entity_type": "",
+      "mention": "抽查内容",
+      "canonical_name": "抽查内容",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f8570a027c13",
+      "entity_type": "",
+      "mention": "抽查方式",
+      "canonical_name": "抽查方式",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4d5bba8d47dc",
+      "entity_type": "",
+      "mention": "抽查比例",
+      "canonical_name": "抽查比例",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8798e081ff80",
+      "entity_type": "",
+      "mention": "抽查频次",
+      "canonical_name": "抽查频次",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2ec3c0163131",
+      "entity_type": "",
+      "mention": "备注",
+      "canonical_name": "备注",
+      "attributes": {},
+      "sentence_id": "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0",
+      "sentence_ids": [
+        "doc_77bafee95d41#中国证监会随机抽查事项清单_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_4923767afed4_rel_78f9b76d96e6",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_af070c9dc40d",
+      "tail_entity_id": "ent_8d87bddb78cf",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_77bafee95d41",
+        "section_path": "关于修改《中国证监会随机抽查事项清单》的决定",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_4923767afed4_rel_550a7e5a013d",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_a65eefdaa7c1",
+      "tail_entity_id": "ent_0479e6ebcd80",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_77bafee95d41",
+        "section_path": "中国证监会随机抽查事项清单",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_4923767afed4_rel_ab05b75e2666",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_d8cf9a48213a",
+      "tail_entity_id": "ent_6a178b92b2c2",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_77bafee95d41",
+        "section_path": "中国证监会随机抽查事项清单",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b3b8f6200220_rel_39600c2fa973",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_50ac1bb134d4",
+      "tail_entity_id": "ent_0479e6ebcd80",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_77bafee95d41",
+        "section_path": "中国证监会随机抽查事项清单",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b3b8f6200220_rel_76c87fc26cee",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_26b19cb34173",
+      "tail_entity_id": "ent_95b86c7394e2",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_77bafee95d41",
+        "section_path": "中国证监会随机抽查事项清单",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b3b8f6200220_rel_7adb862f6256",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_64720c672f6c",
+      "tail_entity_id": "ent_b6ae4ac69127",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_77bafee95d41",
+        "section_path": "中国证监会随机抽查事项清单",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_b3b8f6200220_rel_513598e67d4a",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_8c693641675e",
+      "tail_entity_id": "ent_9385129607ad",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_77bafee95d41",
+        "section_path": "中国证监会随机抽查事项清单",
+        "paragraph_index": 0,
+        "sentence_index": 5
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_6652633849bc_rel_1f0bfeeb941a",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_8c693641675e",
+      "tail_entity_id": "ent_9385129607ad",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_77bafee95d41",
+        "section_path": "中国证监会随机抽查事项清单",
+        "paragraph_index": 0,
+        "sentence_index": 6
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_6652633849bc_rel_184b62b10211",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_aef1b0d48b6d",
+      "tail_entity_id": "ent_50bc9e0d9c60",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_77bafee95d41",
+        "section_path": "中国证监会随机抽查事项清单",
+        "paragraph_index": 0,
+        "sentence_index": 6
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_6652633849bc_rel_6e21d966d14a",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_1e3c799fc294",
+      "tail_entity_id": "ent_4074ff5a0182",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_77bafee95d41",
+        "section_path": "中国证监会随机抽查事项清单",
+        "paragraph_index": 0,
+        "sentence_index": 6
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_6652633849bc_rel_ec11c7bd8a8a",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_e3abff739694",
+      "tail_entity_id": "ent_4074ff5a0182",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_77bafee95d41",
+        "section_path": "中国证监会随机抽查事项清单",
+        "paragraph_index": 0,
+        "sentence_index": 6
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_10b9672027e0",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f601bc298935",
+      "tail_entity_id": "ent_794e2267e56c",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          0,
+          0
+        ],
+        "header_col": 0
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_73f6b2be23a8",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_440d892b5e27",
+      "tail_entity_id": "ent_9b21bb72c56b",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          0,
+          3
+        ],
+        "label_cell": [
+          0,
+          2
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_f21d563b8c9e",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a4c6b10447e8",
+      "tail_entity_id": "ent_9b21bb72c56b",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          0,
+          3
+        ],
+        "header_col": 3
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_38722ea19a3f",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_c66a197ca0eb",
+      "tail_entity_id": "ent_f7dfc0e84e35",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          0,
+          6
+        ],
+        "label_cell": [
+          0,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_62d66a47459d",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_4d5bba8d47dc",
+      "tail_entity_id": "ent_f7dfc0e84e35",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          0,
+          6
+        ],
+        "header_col": 6
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_d5b5c85c4a4e",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_c66a197ca0eb",
+      "tail_entity_id": "ent_450fb7a32f24",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          0,
+          7
+        ],
+        "label_cell": [
+          0,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_b7a9cb7e0c27",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8798e081ff80",
+      "tail_entity_id": "ent_450fb7a32f24",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          0,
+          7
+        ],
+        "header_col": 7
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_1d6f7d6e2ac4",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f601bc298935",
+      "tail_entity_id": "ent_88192e5f10f5",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          1,
+          0
+        ],
+        "header_col": 0
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_ed0781f0c105",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_eba6170df47a",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          1,
+          6
+        ],
+        "label_cell": [
+          1,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_4a43eecc2139",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_4d5bba8d47dc",
+      "tail_entity_id": "ent_eba6170df47a",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          1,
+          6
+        ],
+        "header_col": 6
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_692b931e1fe7",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          1,
+          7
+        ],
+        "label_cell": [
+          1,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_8cf0f4d6dc4a",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8798e081ff80",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          1,
+          7
+        ],
+        "header_col": 7
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_83d7f1a4f8ee",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f601bc298935",
+      "tail_entity_id": "ent_5d0eb027ba4a",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          2,
+          0
+        ],
+        "header_col": 0
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_2158b9eddd9a",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_b21007d19cb2",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          2,
+          6
+        ],
+        "label_cell": [
+          2,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_676021939850",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_4d5bba8d47dc",
+      "tail_entity_id": "ent_b21007d19cb2",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          2,
+          6
+        ],
+        "header_col": 6
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_6519bfc378c6",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          2,
+          7
+        ],
+        "label_cell": [
+          2,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_6459e0093f17",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8798e081ff80",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          2,
+          7
+        ],
+        "header_col": 7
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_a90aad1613fa",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f601bc298935",
+      "tail_entity_id": "ent_42e49b008506",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          3,
+          0
+        ],
+        "header_col": 0
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_a653f5cbb951",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_dd329c65d9f0",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          3,
+          6
+        ],
+        "label_cell": [
+          3,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_2870d810199a",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_4d5bba8d47dc",
+      "tail_entity_id": "ent_dd329c65d9f0",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          3,
+          6
+        ],
+        "header_col": 6
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_452d5f6b3361",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          3,
+          7
+        ],
+        "label_cell": [
+          3,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_0d40cfc91649",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8798e081ff80",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          3,
+          7
+        ],
+        "header_col": 7
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_14d1c28fde07",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f601bc298935",
+      "tail_entity_id": "ent_d3c167d27641",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          4,
+          0
+        ],
+        "header_col": 0
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_ade9ca1dfb8b",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_beec5f6f6c35",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          4,
+          7
+        ],
+        "label_cell": [
+          4,
+          6
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_fbb287c32082",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8798e081ff80",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          4,
+          7
+        ],
+        "header_col": 7
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_ccb5f6ca03cc",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f601bc298935",
+      "tail_entity_id": "ent_afb0d401aa41",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          5,
+          0
+        ],
+        "header_col": 0
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_e012106608b9",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_91eb009d0159",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          5,
+          6
+        ],
+        "label_cell": [
+          5,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_27befcd8c5b8",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_beec5f6f6c35",
+      "tail_entity_id": "ent_91eb009d0159",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          5,
+          6
+        ],
+        "label_cell": [
+          4,
+          6
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_a4516b3862ad",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          5,
+          7
+        ],
+        "label_cell": [
+          5,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_4d6611bba608",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8798e081ff80",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          5,
+          7
+        ],
+        "header_col": 7
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_1a0769c8505b",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f601bc298935",
+      "tail_entity_id": "ent_fb636442c5e7",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          6,
+          0
+        ],
+        "header_col": 0
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_c933adf380ca",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_440d892b5e27",
+      "tail_entity_id": "ent_09f399992cd8",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          6,
+          3
+        ],
+        "label_cell": [
+          6,
+          2
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_2855440d21ca",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_48919f1211c7",
+      "tail_entity_id": "ent_09f399992cd8",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          6,
+          3
+        ],
+        "label_cell": [
+          5,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_45f8c8e28c61",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_dd329c65d9f0",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          6,
+          6
+        ],
+        "label_cell": [
+          6,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_f210ae573dfe",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_beec5f6f6c35",
+      "tail_entity_id": "ent_dd329c65d9f0",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          6,
+          6
+        ],
+        "label_cell": [
+          4,
+          6
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_9c514fe9dda6",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          6,
+          7
+        ],
+        "label_cell": [
+          6,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_e6d71ddc088d",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8798e081ff80",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          6,
+          7
+        ],
+        "header_col": 7
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_66fd0aff7f65",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f601bc298935",
+      "tail_entity_id": "ent_b412a13a4df0",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          7,
+          0
+        ],
+        "header_col": 0
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_8bde46ecd7ea",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_e7d072cc0037",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          7,
+          7
+        ],
+        "label_cell": [
+          7,
+          6
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_28b7e2f49d29",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8798e081ff80",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          7,
+          7
+        ],
+        "header_col": 7
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_4c9796f2ef26",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f601bc298935",
+      "tail_entity_id": "ent_7d3a0830d782",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          8,
+          0
+        ],
+        "header_col": 0
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_979eff5bea83",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_5b1046553ae7",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          8,
+          6
+        ],
+        "label_cell": [
+          8,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_f438cf6238ac",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_e7d072cc0037",
+      "tail_entity_id": "ent_5b1046553ae7",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          8,
+          6
+        ],
+        "label_cell": [
+          7,
+          6
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_a2c0abaa803f",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          8,
+          7
+        ],
+        "label_cell": [
+          8,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_404b4513901d",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8798e081ff80",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          8,
+          7
+        ],
+        "header_col": 7
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_f8ec7aa3ac5b",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f601bc298935",
+      "tail_entity_id": "ent_beda59cd8816",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          9,
+          0
+        ],
+        "header_col": 0
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_edf0b553a2a6",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_440d892b5e27",
+      "tail_entity_id": "ent_035e0fd49911",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          9,
+          3
+        ],
+        "label_cell": [
+          9,
+          2
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_3b87dc090575",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_48919f1211c7",
+      "tail_entity_id": "ent_035e0fd49911",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          9,
+          3
+        ],
+        "label_cell": [
+          8,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_0bf124a4c40c",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_dd329c65d9f0",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          9,
+          6
+        ],
+        "label_cell": [
+          9,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_def6457dea54",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_e7d072cc0037",
+      "tail_entity_id": "ent_dd329c65d9f0",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          9,
+          6
+        ],
+        "label_cell": [
+          7,
+          6
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_69a8438c3c15",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          9,
+          7
+        ],
+        "label_cell": [
+          9,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_ded7b3bfae2b",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8798e081ff80",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          9,
+          7
+        ],
+        "header_col": 7
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_6c452330c945",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f601bc298935",
+      "tail_entity_id": "ent_736cd4067186",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          10,
+          0
+        ],
+        "header_col": 0
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_447d6b770ef8",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_440d892b5e27",
+      "tail_entity_id": "ent_e69e11eab00c",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          10,
+          3
+        ],
+        "label_cell": [
+          10,
+          2
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_899ba0f71334",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_48919f1211c7",
+      "tail_entity_id": "ent_e69e11eab00c",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          10,
+          3
+        ],
+        "label_cell": [
+          8,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_e9f325d841aa",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_91eb009d0159",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          10,
+          6
+        ],
+        "label_cell": [
+          10,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_df72cfa6f87b",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_e7d072cc0037",
+      "tail_entity_id": "ent_91eb009d0159",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          10,
+          6
+        ],
+        "label_cell": [
+          7,
+          6
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_5c9950bb64c7",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          10,
+          7
+        ],
+        "label_cell": [
+          10,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_72dc5c5cca7e",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8798e081ff80",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          10,
+          7
+        ],
+        "header_col": 7
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_d2e1ebc6e9cc",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f601bc298935",
+      "tail_entity_id": "ent_b95354c0483b",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          11,
+          0
+        ],
+        "header_col": 0
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_4705ce2f602b",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_440d892b5e27",
+      "tail_entity_id": "ent_6c90f8b2cb91",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          11,
+          3
+        ],
+        "label_cell": [
+          11,
+          2
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_629a1090e643",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_48919f1211c7",
+      "tail_entity_id": "ent_6c90f8b2cb91",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          11,
+          3
+        ],
+        "label_cell": [
+          8,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_9a6b3d37f84e",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_e9ce7b718b9d",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          11,
+          6
+        ],
+        "label_cell": [
+          11,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_a37cd7f6aaf3",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_e7d072cc0037",
+      "tail_entity_id": "ent_e9ce7b718b9d",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          11,
+          6
+        ],
+        "label_cell": [
+          7,
+          6
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_d3fe11a87d53",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          11,
+          7
+        ],
+        "label_cell": [
+          11,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_2ea33a9746ec",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8798e081ff80",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          11,
+          7
+        ],
+        "header_col": 7
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_c1a83da357a8",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f601bc298935",
+      "tail_entity_id": "ent_5f7750ca9b62",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          12,
+          0
+        ],
+        "header_col": 0
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_728eb039e829",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_dd329c65d9f0",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          12,
+          6
+        ],
+        "label_cell": [
+          12,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_babdc6e6772d",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_e7d072cc0037",
+      "tail_entity_id": "ent_dd329c65d9f0",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          12,
+          6
+        ],
+        "label_cell": [
+          7,
+          6
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_6f50f8954197",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_450fb7a32f24",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          12,
+          7
+        ],
+        "label_cell": [
+          12,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_fb1dd37ead9a",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8798e081ff80",
+      "tail_entity_id": "ent_450fb7a32f24",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          12,
+          7
+        ],
+        "header_col": 7
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_39f199560032",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f601bc298935",
+      "tail_entity_id": "ent_acdfd6405657",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          13,
+          0
+        ],
+        "header_col": 0
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_e22e8954b0f0",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_dd329c65d9f0",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          13,
+          6
+        ],
+        "label_cell": [
+          13,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_0ae622efa1c8",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_e7d072cc0037",
+      "tail_entity_id": "ent_dd329c65d9f0",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          13,
+          6
+        ],
+        "label_cell": [
+          7,
+          6
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_516e82928c59",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          13,
+          7
+        ],
+        "label_cell": [
+          13,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_af4608d8548a",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8798e081ff80",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          13,
+          7
+        ],
+        "header_col": 7
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_dd5e84155935",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f601bc298935",
+      "tail_entity_id": "ent_b35a05f164f1",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          14,
+          0
+        ],
+        "header_col": 0
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_253a46721db5",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_dd329c65d9f0",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          14,
+          6
+        ],
+        "label_cell": [
+          14,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_e4046359b811",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_e7d072cc0037",
+      "tail_entity_id": "ent_dd329c65d9f0",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          14,
+          6
+        ],
+        "label_cell": [
+          7,
+          6
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_4d6c3fd3c29c",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          14,
+          7
+        ],
+        "label_cell": [
+          14,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_2cd0f64f3235",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8798e081ff80",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          14,
+          7
+        ],
+        "header_col": 7
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_dd3b5e9ebc4c",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f601bc298935",
+      "tail_entity_id": "ent_5c9647992428",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          15,
+          0
+        ],
+        "header_col": 0
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_717491c3d682",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_dd329c65d9f0",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          15,
+          6
+        ],
+        "label_cell": [
+          15,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_236fc2b35025",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_e7d072cc0037",
+      "tail_entity_id": "ent_dd329c65d9f0",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          15,
+          6
+        ],
+        "label_cell": [
+          7,
+          6
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_5082152c370d",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          15,
+          7
+        ],
+        "label_cell": [
+          15,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_58280cfbd306",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8798e081ff80",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          15,
+          7
+        ],
+        "header_col": 7
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_af349afeb8f3",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f601bc298935",
+      "tail_entity_id": "ent_e3f838b5682c",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          16,
+          0
+        ],
+        "header_col": 0
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_265f72ab8ec8",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_440d892b5e27",
+      "tail_entity_id": "ent_ecfa19f94365",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          16,
+          3
+        ],
+        "label_cell": [
+          16,
+          2
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_5f789f149bee",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_91d42f10e282",
+      "tail_entity_id": "ent_ecfa19f94365",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          16,
+          3
+        ],
+        "label_cell": [
+          15,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_d0e686f66429",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_272cb1e095c7",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          16,
+          6
+        ],
+        "label_cell": [
+          16,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_72c4a186a3d8",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_e7d072cc0037",
+      "tail_entity_id": "ent_272cb1e095c7",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          16,
+          6
+        ],
+        "label_cell": [
+          7,
+          6
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_8f9d5f6ae863",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          16,
+          7
+        ],
+        "label_cell": [
+          16,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_36ec07d1379c",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8798e081ff80",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          16,
+          7
+        ],
+        "header_col": 7
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_fe8601c6fc19",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f601bc298935",
+      "tail_entity_id": "ent_e01dd3ac4981",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          17,
+          0
+        ],
+        "header_col": 0
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_76fffb4a1d78",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_440d892b5e27",
+      "tail_entity_id": "ent_69aa1c297339",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          17,
+          3
+        ],
+        "label_cell": [
+          17,
+          2
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_d53d75fc3e88",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_91d42f10e282",
+      "tail_entity_id": "ent_69aa1c297339",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          17,
+          3
+        ],
+        "label_cell": [
+          15,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_8c26966b486d",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_272cb1e095c7",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          17,
+          6
+        ],
+        "label_cell": [
+          17,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_63173d9923c9",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_e7d072cc0037",
+      "tail_entity_id": "ent_272cb1e095c7",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          17,
+          6
+        ],
+        "label_cell": [
+          7,
+          6
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_a47981c80a18",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_f42d428902db",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          17,
+          7
+        ],
+        "label_cell": [
+          17,
+          5
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_3cc32d5025ce_rel_2d1f349251c4",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8798e081ff80",
+      "tail_entity_id": "ent_9e620d81f2d6",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_52c3ae7dd0a2",
+        "section_path": "中国证监会随机抽查事项清单",
+        "value_cell": [
+          17,
+          7
+        ],
+        "header_col": 7
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

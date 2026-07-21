@@ -1,0 +1,360 @@
+{
+  "doc_id": "doc_a55db1bfc131",
+  "title": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0030_att2.md",
+  "processed_at": "2026-07-21T00:30:31.526527+00:00",
+  "structured_data": {
+    "title": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明"
+  },
+  "stats": {
+    "sections": 3,
+    "paragraphs": 3,
+    "sentences": 11,
+    "entities": 5,
+    "relations": 5,
+    "rejected": 0,
+    "llm_calls": 725,
+    "llm_tokens": 1301938,
+    "elapsed_seconds": 7.91
+  },
+  "sections": [
+    {
+      "section_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明",
+      "section_path": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明",
+      "title": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "上市公司监管指引第9号/重大资产重组/条文修改/新国九条/并购六条",
+        "for": [
+          "法规依据",
+          "政策背景",
+          "修订内容"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明_p0",
+          "para_index": 0,
+          "content": "为贯彻落实《公司法》《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》（以下简称新“国九条”）和《中国证监会关于深化上市公司并购重组市场改革的意见》（以下简称“并购六条”）要求，我会对《上市公司监管指引第9号— 上市公司筹划和实施重大资产重组的监管要求》（以下简称《9 号指引》）部分条文进行修改。现将有关情况说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明_p0_s0",
+              "text": "为贯彻落实《公司法》《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》（以下简称新“国九条”）和《中国证监会关于深化上市公司并购重组市场改革的意见》（以下简称“并购六条”）要求，我会对《上市公司监管指引第9号— 上市公司筹划和实施重大资产重组的监管要求》（以下简称《9 号指引》）部分条文进行修改。",
+              "location": {
+                "doc_id": "doc_a55db1bfc131",
+                "section_path": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明_p0_s1",
+              "text": "现将有关情况说明如下：",
+              "location": {
+                "doc_id": "doc_a55db1bfc131",
+                "section_path": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 一、修订背景",
+      "section_path": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 一、修订背景",
+      "title": "一、修订背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "新国九条/并购六条/重组办法修订/9号指引调整/公司法要求",
+        "for": [
+          "政策背景",
+          "法规依据",
+          "修订原因"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 一、修订背景_p0",
+          "para_index": 0,
+          "content": "为贯彻落实新“国九条”和“并购六条”要求，我会对《上市公司重大资产重组管理办法》（以下简称《重组办法》）作了修订。根据修订后的《重组办法》，《9 号指引》相关条文内容需要相应调整。同时，为贯彻落实《公司法》等有关要求，调整相应文字表述。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 一、修订背景_p0_s0",
+              "text": "为贯彻落实新“国九条”和“并购六条”要求，我会对《上市公司重大资产重组管理办法》（以下简称《重组办法》）作了修订。",
+              "location": {
+                "doc_id": "doc_a55db1bfc131",
+                "section_path": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 一、修订背景_p0_s1",
+              "text": "根据修订后的《重组办法》，《9 号指引》相关条文内容需要相应调整。",
+              "location": {
+                "doc_id": "doc_a55db1bfc131",
+                "section_path": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 一、修订背景_p0_s2",
+              "text": "同时，为贯彻落实《公司法》等有关要求，调整相应文字表述。",
+              "location": {
+                "doc_id": "doc_a55db1bfc131",
+                "section_path": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 二、主要内容",
+      "section_path": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 二、主要内容",
+      "title": "二、主要内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "重组办法条款调整/持续经营能力/同业竞争/关联交易/监管包容度/股东会表述修改",
+        "for": [
+          "监管要求",
+          "重组条件",
+          "同业竞争",
+          "关联交易",
+          "规则衔接"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 二、主要内容_p0",
+          "para_index": 0,
+          "content": "一是根据修订后的《重组办法》调整相关条款。便利上市公司并购重组，对重组导致的财务状况变化、同业竞争和关联交易适当提高监管包容度，将第四条第四项修改为“本次交易应当有利于上市公司增强持续经营能力，不会导致财务状况发生重大不利变化；有利于上市公司突出主业、增强抗风险能力；有利于上市公司增强独立性，不会导致新增重大不利影响的同业竞争，以及严重影响独立性或者显失公平的关联交易”。\n二是落实《公司法》，做好规则之间配套衔接。将《9 号指引》中“股东大会”改为“股东会”，与《公司法》表述保持一致。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 二、主要内容_p0_s0",
+              "text": "一是根据修订后的《重组办法》调整相关条款。",
+              "location": {
+                "doc_id": "doc_a55db1bfc131",
+                "section_path": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 二、主要内容_p0_s1",
+              "text": "便利上市公司并购重组，对重组导致的财务状况变化、同业竞争和关联交易适当提高监管包容度，将第四条第四项修改为“本次交易应当有利于上市公司增强持续经营能力，不会导致财务状况发生重大不利变化；",
+              "location": {
+                "doc_id": "doc_a55db1bfc131",
+                "section_path": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 二、主要内容_p0_s2",
+              "text": "有利于上市公司突出主业、增强抗风险能力；",
+              "location": {
+                "doc_id": "doc_a55db1bfc131",
+                "section_path": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 二、主要内容_p0_s3",
+              "text": "有利于上市公司增强独立性，不会导致新增重大不利影响的同业竞争，以及严重影响独立性或者显失公平的关联交易”。",
+              "location": {
+                "doc_id": "doc_a55db1bfc131",
+                "section_path": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 二、主要内容_p0_s4",
+              "text": "二是落实《公司法》，做好规则之间配套衔接。",
+              "location": {
+                "doc_id": "doc_a55db1bfc131",
+                "section_path": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 二、主要内容_p0_s5",
+              "text": "将《9 号指引》中“股东大会”改为“股东会”，与《公司法》表述保持一致。",
+              "location": {
+                "doc_id": "doc_a55db1bfc131",
+                "section_path": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_2f05c606789c",
+      "entity_type": "LegalDocument",
+      "mention": "《公司法》",
+      "canonical_name": "公司法",
+      "attributes": {},
+      "sentence_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_97ad4d3db320",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》",
+      "canonical_name": "国务院关于加强监管防范风险推动资本市场高质量发展的若干意见",
+      "attributes": {
+        "alias": "新“国九条”"
+      },
+      "sentence_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9dce5c69da1c",
+      "entity_type": "LegalDocument",
+      "mention": "《中国证监会关于深化上市公司并购重组市场改革的意见》",
+      "canonical_name": "中国证监会关于深化上市公司并购重组市场改革的意见",
+      "attributes": {
+        "alias": "“并购六条”"
+      },
+      "sentence_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ac27fe5f3f2d",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司监管指引第9号— 上市公司筹划和实施重大资产重组的监管要求》",
+      "canonical_name": "上市公司监管指引第9号— 上市公司筹划和实施重大资产重组的监管要求",
+      "attributes": {
+        "alias": "《9 号指引》"
+      },
+      "sentence_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_781c060e11ee",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司重大资产重组管理办法》",
+      "canonical_name": "上市公司重大资产重组管理办法",
+      "attributes": {
+        "alias": "《重组办法》"
+      },
+      "sentence_id": "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 一、修订背景_p0_s0",
+      "sentence_ids": [
+        "doc_a55db1bfc131#关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 一、修订背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_452e356666c7_rel_09e2f46d89ac",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_ac27fe5f3f2d",
+      "tail_entity_id": "ent_2f05c606789c",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a55db1bfc131",
+        "section_path": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_452e356666c7_rel_4dcea4cdc6ac",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_ac27fe5f3f2d",
+      "tail_entity_id": "ent_97ad4d3db320",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a55db1bfc131",
+        "section_path": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_452e356666c7_rel_776fe034c9a4",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_ac27fe5f3f2d",
+      "tail_entity_id": "ent_9dce5c69da1c",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a55db1bfc131",
+        "section_path": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_452e356666c7_rel_159e748a1a97",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_ac27fe5f3f2d",
+      "tail_entity_id": "ent_781c060e11ee",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a55db1bfc131",
+        "section_path": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_452e356666c7_rel_20fb20f4ba2d",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_781c060e11ee",
+      "tail_entity_id": "ent_2f05c606789c",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a55db1bfc131",
+        "section_path": "关于《上市公司监管指引第 9 号——上市公司筹划和实施重大资产重组的监管要求》的说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

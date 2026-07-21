@@ -1,0 +1,1155 @@
+{
+  "doc_id": "doc_0ffaa280ad5f",
+  "title": "上市公司监管指引第 10 号— 市值管理",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0045_att1.md",
+  "processed_at": "2026-07-21T00:55:51.018082+00:00",
+  "structured_data": {
+    "title": "上市公司监管指引第 10 号— 市值管理"
+  },
+  "stats": {
+    "sections": 1,
+    "paragraphs": 1,
+    "sentences": 58,
+    "entities": 21,
+    "relations": 16,
+    "rejected": 0,
+    "llm_calls": 2501,
+    "llm_tokens": 3813458,
+    "elapsed_seconds": 19.44
+  },
+  "sections": [
+    {
+      "section_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理",
+      "section_path": "上市公司监管指引第 10 号— 市值管理",
+      "title": "上市公司监管指引第 10 号— 市值管理",
+      "level": 1,
+      "reading_guide": {
+        "has": "市值管理定义/提升方式（并购重组/股权激励/分红/回购/信披）/董事会职责/董监高义务/控股股东责任/指数成份股制度要求/破净公司估值提升计划/禁止行为清单/违",
+        "for": [
+          "市值管理",
+          "分红政策",
+          "股份回购",
+          "合规红线",
+          "监管处罚"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0",
+          "para_index": 0,
+          "content": "第一条 为切实推动上市公司提升投资价值，增强投资者回报，根据《中华人民共和国公司法》《中华人民共和国证券法》《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》《上市公司信息披露管理办法》等规定，制定本指引。\n第二条 本指引所称市值管理，是指上市公司以提高公司质量为基础，为提升公司投资价值和股东回报能力而实施的战略管理行为。\n上市公司应当牢固树立回报股东意识，采取措施保护投资者尤其是中小投资者利益，诚实守信、规范运作、专注主业、稳健经营，以新质生产力的培育和运用，推动经营水平和发展质量提升，并在此基础上做好投资者关系管理，增强信息披露质量和透明度，必要时积极采取措施提振投资者信心，推动上市公司投资价值合理反映上市公司质量。\n上市公司质量是公司投资价值的基础和市值管理的重要抓手。上市公司应当立足提升公司质量，依法依规运用各类方式提升上市公司投资价值。\n第三条 上市公司应当聚焦主业，提升经营效率和盈利能力，同时可以结合自身情况，综合运用下列方式促进上市公司投资价值合理反映上市公司质量：\n（一）并购重组；\n（二）股权激励、员工持股计划；\n（三）现金分红；\n（四）投资者关系管理；\n（五）信息披露；\n（六）股份回购；\n（七）其他合法合规的方式。\n第四条 董事会应当重视上市公司质量的提升，根据当前业绩和未来战略规划就上市公司投资价值制定长期目标，在公司治理、日常经营、并购重组及融资等重大事项决策中充分考虑投资者利益和回报，坚持稳健经营，避免盲目扩张，不断提升上市公司投资价值。\n董事会应当密切关注市场对上市公司价值的反映，在市场表现明显偏离上市公司价值时，审慎分析研判可能的原因，积极采取措施促进上市公司投资价值合理反映上市公司质量。\n董事会在建立董事和高级管理人员的薪酬体系时，薪酬水平应当与市场发展、个人能力价值和业绩贡献、上市公司可持续发展相匹配。鼓励董事会建立长效激励机制，充分运用股权激励、员工持股计划等工具，合理拟定授予价格、激励对象范围、股票数量和业绩考核条件，强化管理层、员工与上市公司长期利益的一致性，激发管理层、员工提升上市公司价值的主动性和积极性。\n鼓励董事会结合上市公司的股权结构和业务经营需要，推动在公司章程或者其他内部文件中明确股份回购的机制安排。鼓励有条件的上市公司根据回购计划安排，做好前期资金规划和储备。鼓励上市公司将回购股份依法注销。\n鼓励董事会根据公司发展阶段和经营情况，制定并披露中长期分红规划，增加分红频次，优化分红节奏，合理提高分红率，增强投资者获得感。\n第五条 董事长应当积极督促执行提升上市公司投资价值的董事会决议，推动提升上市公司投资价值的相关内部制度不断完善，协调各方采取措施促进上市公司投资价值合理反映上市公司质量。\n董事、高级管理人员应当积极参与提升上市公司投资价值的各项工作，参加业绩说明会、投资者沟通会等各类投资者关系活动，增进投资者对上市公司的了解。\n董事、高级管理人员可以依法依规制定并实施股份增持计划，提振市场信心。\n第六条 董事会秘书应当做好投资者关系管理和信息披露相关工作，与投资者建立畅通的沟通机制，积极收集、分析市场各方对上市公司投资价值的判断和对上市公司经营的预期，持续提升信息披露透明度和精准度。\n董事会秘书应当加强舆情监测分析，密切关注各类媒体报道和市场传闻，发现可能对投资者决策或者上市公司股票交易价格产生较大影响的，应当及时向董事会报告。上市公司应当根据实际情况及时发布澄清公告等，同时可通过官方声明、召开新闻发布会等合法合规方式予以回应。\n第七条 鼓励控股股东、实际控制人长期持有上市公司股份，保持上市公司控制权的相对稳定。控股股东、实际控制人可以通过依法依规实施股份增持计划、自愿延长股份锁定期、自愿终止减持计划或者承诺不减持股份等方式，提振市场信心。\n上市公司应当积极做好与股东的沟通，引导股东长期投资。\n第八条 主要指数成份股公司应当制定上市公司市值管理制度，至少明确以下事项：\n（一）负责市值管理的具体部门或人员；\n（二）董事及高级管理人员职责；\n（三）对上市公司市值、市盈率、市净率或者其他适用指标及上述指标行业平均水平的具体监测预警机制安排；\n（四）上市公司出现股价短期连续或者大幅下跌情形时的应对措施。\n主要指数成份股公司应当经董事会审议后披露市值管理制度的制定情况，并就市值管理制度执行情况在年度业绩\n说明会中进行专项说明。\n其他上市公司可以结合自身实际情况，参照执行前两款规定。\n第九条 长期破净公司应当制定上市公司估值提升计划，并经董事会审议后披露。估值提升计划相关内容应当明确、具体、可执行，不得使用容易引起歧义或者误导投资者的表述。长期破净公司应当至少每年对估值提升计划的实施效果进行评估，评估后需要完善的，应经董事会审议后披露。\n市净率低于所在行业平均水平的长期破净公司应当就估值提升计划执行情况在年度业绩说明会中进行专项说明。\n第十条 上市公司及其控股股东、实际控制人、董事、高级管理人员等应当切实提高合规意识，不得在市值管理中从事以下行为：\n（一）操控上市公司信息披露，通过控制信息披露节奏、选择性披露信息、披露虚假信息等方式，误导或者欺骗投资者；\n（二）通过内幕交易、泄露内幕信息、操纵股价或者配合其他主体实施操纵行为等方式，牟取非法利益，扰乱资本市场秩序；\n（三）对上市公司证券及其衍生品种交易价格等作出预测或者承诺；\n（四）未通过回购专用账户实施股份回购，未通过相应实名账户实施股份增持，股份增持、回购违反信息披露或股票交易等规则；\n（五）直接或间接披露涉密项目信息；\n（六）其他违反法律、行政法规、中国证监会规定的行为。\n第十一条 违反本指引第八条、第九条规定，主要指数成份股公司未披露上市公司市值管理制度制定情况，长期破净公司未披露上市公司估值提升计划的，中国证监会可以按照《证券法》第一百七十条第二款采取责令改正、监管谈话、出具警示函的措施。\n第十二条 上市公司及其控股股东、实际控制人、董事、高级管理人员等违反本指引，同时违反其他法律、行政法规、中国证监会规定的，中国证监会根据相关行为的性质、情节轻重依法予以处理。\n第十三条 上市公司披露无控股股东、实际控制人的，持股比例超过5%的第一大股东及其一致行动人参照第七条、第十条的有关规定执行。\n第十四条 本指引下列用语的含义：\n（一）主要指数成份股公司，是指：\n1.中证 A500 指数成份股公司；\n2.沪深 300 指数成份股公司；\n3.上证科创板 50 成份指数、上证科创板 100 指数成\n份股公司；\n4.创业板指数、创业板中盘 200 指数成份股公司；\n5.北证 50 成份指数成份股公司；\n6.证券交易所规定的其他公司。\n（二）股价短期连续或者大幅下跌情形，是指\n1.连续 20 个交易日内上市公司股票收盘价格跌幅累计达到20%；\n2.上市公司股票收盘价格低于最近一年股票最高收盘价格的 50%;\n3.证券交易所规定的其他情形。\n（三）长期破净公司，是指股票连续 12 个月每个交易日的收盘价均低于其最近一个会计年度经审计的每股归属于公司普通股股东的净资产的上市公司。\n第十五条 本指引自发布之日起实施。",
+          "sentences": [
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s0",
+              "text": "第一条 为切实推动上市公司提升投资价值，增强投资者回报，根据《中华人民共和国公司法》《中华人民共和国证券法》《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》《上市公司信息披露管理办法》等规定，制定本指引。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s1",
+              "text": "第二条 本指引所称市值管理，是指上市公司以提高公司质量为基础，为提升公司投资价值和股东回报能力而实施的战略管理行为。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s2",
+              "text": "上市公司应当牢固树立回报股东意识，采取措施保护投资者尤其是中小投资者利益，诚实守信、规范运作、专注主业、稳健经营，以新质生产力的培育和运用，推动经营水平和发展质量提升，并在此基础上做好投资者关系管理，增强信息披露质量和透明度，必要时积极采取措施提振投资者信心，推动上市公司投资价值合理反映上市公司质量。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s3",
+              "text": "上市公司质量是公司投资价值的基础和市值管理的重要抓手。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s4",
+              "text": "上市公司应当立足提升公司质量，依法依规运用各类方式提升上市公司投资价值。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s5",
+              "text": "第三条 上市公司应当聚焦主业，提升经营效率和盈利能力，同时可以结合自身情况，综合运用下列方式促进上市公司投资价值合理反映上市公司质量：\n（一）并购重组；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s6",
+              "text": "（二）股权激励、员工持股计划；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s7",
+              "text": "（三）现金分红；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s8",
+              "text": "（四）投资者关系管理；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s9",
+              "text": "（五）信息披露；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s10",
+              "text": "（六）股份回购；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s11",
+              "text": "（七）其他合法合规的方式。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s12",
+              "text": "第四条 董事会应当重视上市公司质量的提升，根据当前业绩和未来战略规划就上市公司投资价值制定长期目标，在公司治理、日常经营、并购重组及融资等重大事项决策中充分考虑投资者利益和回报，坚持稳健经营，避免盲目扩张，不断提升上市公司投资价值。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s13",
+              "text": "董事会应当密切关注市场对上市公司价值的反映，在市场表现明显偏离上市公司价值时，审慎分析研判可能的原因，积极采取措施促进上市公司投资价值合理反映上市公司质量。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s14",
+              "text": "董事会在建立董事和高级管理人员的薪酬体系时，薪酬水平应当与市场发展、个人能力价值和业绩贡献、上市公司可持续发展相匹配。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s15",
+              "text": "鼓励董事会建立长效激励机制，充分运用股权激励、员工持股计划等工具，合理拟定授予价格、激励对象范围、股票数量和业绩考核条件，强化管理层、员工与上市公司长期利益的一致性，激发管理层、员工提升上市公司价值的主动性和积极性。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s16",
+              "text": "鼓励董事会结合上市公司的股权结构和业务经营需要，推动在公司章程或者其他内部文件中明确股份回购的机制安排。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s17",
+              "text": "鼓励有条件的上市公司根据回购计划安排，做好前期资金规划和储备。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 17
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s18",
+              "text": "鼓励上市公司将回购股份依法注销。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 18
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s19",
+              "text": "鼓励董事会根据公司发展阶段和经营情况，制定并披露中长期分红规划，增加分红频次，优化分红节奏，合理提高分红率，增强投资者获得感。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 19
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s20",
+              "text": "第五条 董事长应当积极督促执行提升上市公司投资价值的董事会决议，推动提升上市公司投资价值的相关内部制度不断完善，协调各方采取措施促进上市公司投资价值合理反映上市公司质量。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 20
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s21",
+              "text": "董事、高级管理人员应当积极参与提升上市公司投资价值的各项工作，参加业绩说明会、投资者沟通会等各类投资者关系活动，增进投资者对上市公司的了解。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 21
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s22",
+              "text": "董事、高级管理人员可以依法依规制定并实施股份增持计划，提振市场信心。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 22
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s23",
+              "text": "第六条 董事会秘书应当做好投资者关系管理和信息披露相关工作，与投资者建立畅通的沟通机制，积极收集、分析市场各方对上市公司投资价值的判断和对上市公司经营的预期，持续提升信息披露透明度和精准度。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 23
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s24",
+              "text": "董事会秘书应当加强舆情监测分析，密切关注各类媒体报道和市场传闻，发现可能对投资者决策或者上市公司股票交易价格产生较大影响的，应当及时向董事会报告。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 24
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s25",
+              "text": "上市公司应当根据实际情况及时发布澄清公告等，同时可通过官方声明、召开新闻发布会等合法合规方式予以回应。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 25
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s26",
+              "text": "第七条 鼓励控股股东、实际控制人长期持有上市公司股份，保持上市公司控制权的相对稳定。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 26
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s27",
+              "text": "控股股东、实际控制人可以通过依法依规实施股份增持计划、自愿延长股份锁定期、自愿终止减持计划或者承诺不减持股份等方式，提振市场信心。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 27
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s28",
+              "text": "上市公司应当积极做好与股东的沟通，引导股东长期投资。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 28
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s29",
+              "text": "第八条 主要指数成份股公司应当制定上市公司市值管理制度，至少明确以下事项：\n（一）负责市值管理的具体部门或人员；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 29
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s30",
+              "text": "（二）董事及高级管理人员职责；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 30
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s31",
+              "text": "（三）对上市公司市值、市盈率、市净率或者其他适用指标及上述指标行业平均水平的具体监测预警机制安排；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 31
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s32",
+              "text": "（四）上市公司出现股价短期连续或者大幅下跌情形时的应对措施。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 32
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s33",
+              "text": "主要指数成份股公司应当经董事会审议后披露市值管理制度的制定情况，并就市值管理制度执行情况在年度业绩\n说明会中进行专项说明。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 33
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s34",
+              "text": "其他上市公司可以结合自身实际情况，参照执行前两款规定。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 34
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s35",
+              "text": "第九条 长期破净公司应当制定上市公司估值提升计划，并经董事会审议后披露。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 35
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s36",
+              "text": "估值提升计划相关内容应当明确、具体、可执行，不得使用容易引起歧义或者误导投资者的表述。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 36
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s37",
+              "text": "长期破净公司应当至少每年对估值提升计划的实施效果进行评估，评估后需要完善的，应经董事会审议后披露。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 37
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s38",
+              "text": "市净率低于所在行业平均水平的长期破净公司应当就估值提升计划执行情况在年度业绩说明会中进行专项说明。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 38
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s39",
+              "text": "第十条 上市公司及其控股股东、实际控制人、董事、高级管理人员等应当切实提高合规意识，不得在市值管理中从事以下行为：\n（一）操控上市公司信息披露，通过控制信息披露节奏、选择性披露信息、披露虚假信息等方式，误导或者欺骗投资者；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 39
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s40",
+              "text": "（二）通过内幕交易、泄露内幕信息、操纵股价或者配合其他主体实施操纵行为等方式，牟取非法利益，扰乱资本市场秩序；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 40
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s41",
+              "text": "（三）对上市公司证券及其衍生品种交易价格等作出预测或者承诺；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 41
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s42",
+              "text": "（四）未通过回购专用账户实施股份回购，未通过相应实名账户实施股份增持，股份增持、回购违反信息披露或股票交易等规则；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 42
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s43",
+              "text": "（五）直接或间接披露涉密项目信息；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 43
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s44",
+              "text": "（六）其他违反法律、行政法规、中国证监会规定的行为。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 44
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s45",
+              "text": "第十一条 违反本指引第八条、第九条规定，主要指数成份股公司未披露上市公司市值管理制度制定情况，长期破净公司未披露上市公司估值提升计划的，中国证监会可以按照《证券法》第一百七十条第二款采取责令改正、监管谈话、出具警示函的措施。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 45
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s46",
+              "text": "第十二条 上市公司及其控股股东、实际控制人、董事、高级管理人员等违反本指引，同时违反其他法律、行政法规、中国证监会规定的，中国证监会根据相关行为的性质、情节轻重依法予以处理。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 46
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s47",
+              "text": "第十三条 上市公司披露无控股股东、实际控制人的，持股比例超过5%的第一大股东及其一致行动人参照第七条、第十条的有关规定执行。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 47
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s48",
+              "text": "第十四条 本指引下列用语的含义：\n（一）主要指数成份股公司，是指：\n1.中证 A500 指数成份股公司；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 48
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s49",
+              "text": "2.沪深 300 指数成份股公司；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 49
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s50",
+              "text": "3.上证科创板 50 成份指数、上证科创板 100 指数成\n份股公司；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 50
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s51",
+              "text": "4.创业板指数、创业板中盘 200 指数成份股公司；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 51
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s52",
+              "text": "5.北证 50 成份指数成份股公司；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 52
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s53",
+              "text": "6.证券交易所规定的其他公司。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 53
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s54",
+              "text": "（二）股价短期连续或者大幅下跌情形，是指\n1.连续 20 个交易日内上市公司股票收盘价格跌幅累计达到20%；",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 54
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s55",
+              "text": "2.上市公司股票收盘价格低于最近一年股票最高收盘价格的 50%;\n3.证券交易所规定的其他情形。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 55
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s56",
+              "text": "（三）长期破净公司，是指股票连续 12 个月每个交易日的收盘价均低于其最近一个会计年度经审计的每股归属于公司普通股股东的净资产的上市公司。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 56
+              }
+            },
+            {
+              "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_s57",
+              "text": "第十五条 本指引自发布之日起实施。",
+              "location": {
+                "doc_id": "doc_0ffaa280ad5f",
+                "section_path": "上市公司监管指引第 10 号— 市值管理",
+                "paragraph_index": 0,
+                "sentence_index": 57
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_569242e06551",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国公司法》",
+      "canonical_name": "中华人民共和国公司法",
+      "attributes": {},
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d36887a7a3fc",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国证券法》",
+      "canonical_name": "中华人民共和国证券法",
+      "attributes": {},
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e37f7e02a2a6",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》",
+      "canonical_name": "国务院关于加强监管防范风险推动资本市场高质量发展的若干意见",
+      "attributes": {},
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0df7f32057c8",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司信息披露管理办法》",
+      "canonical_name": "上市公司信息披露管理办法",
+      "attributes": {},
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bc876f477a32",
+      "entity_type": "LegalDocument",
+      "mention": "本指引",
+      "canonical_name": "本指引",
+      "attributes": {},
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_688d4afea8f6",
+      "entity_type": "LegalTerm",
+      "mention": "市值管理",
+      "canonical_name": "市值管理",
+      "attributes": {
+        "definition": "上市公司以提高公司质量为基础，为提升公司投资价值和股东回报能力而实施的战略管理行为"
+      },
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3bc4a9fb996b",
+      "entity_type": "FinancialMetric",
+      "mention": "投资价值",
+      "canonical_name": "投资价值",
+      "attributes": {},
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ed428ef56f11",
+      "entity_type": "Industry",
+      "mention": "资本市场",
+      "canonical_name": "资本市场",
+      "attributes": {},
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b63254ff0825",
+      "entity_type": "LegalTerm",
+      "mention": "股份回购",
+      "canonical_name": "股份回购",
+      "attributes": {},
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cb85d53f03a0",
+      "entity_type": "LegalTerm",
+      "mention": "股权激励",
+      "canonical_name": "股权激励",
+      "attributes": {},
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3bfb8944ca13",
+      "entity_type": "LegalTerm",
+      "mention": "员工持股计划",
+      "canonical_name": "员工持股计划",
+      "attributes": {},
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f761ffae3af8",
+      "entity_type": "LegalTerm",
+      "mention": "现金分红",
+      "canonical_name": "现金分红",
+      "attributes": {},
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_07200f2db8da",
+      "entity_type": "LegalTerm",
+      "mention": "投资者关系管理",
+      "canonical_name": "投资者关系管理",
+      "attributes": {},
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_af7e1000f752",
+      "entity_type": "LegalTerm",
+      "mention": "并购重组",
+      "canonical_name": "并购重组",
+      "attributes": {},
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f8a26e1bba7c",
+      "entity_type": "FinancialMetric",
+      "mention": "市净率",
+      "canonical_name": "市净率",
+      "attributes": {},
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_34bdde02cce7",
+      "entity_type": "FinancialMetric",
+      "mention": "市盈率",
+      "canonical_name": "市盈率",
+      "attributes": {},
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f2c5acaf19b6",
+      "entity_type": "LegalTerm",
+      "mention": "主要指数成份股公司",
+      "canonical_name": "主要指数成份股公司",
+      "attributes": {
+        "definition": "中证 A500 指数成份股公司、沪深 300 指数成份股公司等"
+      },
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cb8620397570",
+      "entity_type": "LegalTerm",
+      "mention": "股价短期连续或者大幅下跌情形",
+      "canonical_name": "股价短期连续或者大幅下跌情形",
+      "attributes": {
+        "definition": "连续 20 个交易日内跌幅累计达 20% 或低于最高价 50%"
+      },
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fe96bab8fb13",
+      "entity_type": "LegalTerm",
+      "mention": "长期破净公司",
+      "canonical_name": "长期破净公司",
+      "attributes": {
+        "definition": "股票连续 12 个月收盘价均低于最近一年经审计每股净资产的上市公司"
+      },
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_456590623fee",
+      "entity_type": "LegalTerm",
+      "mention": "内幕交易",
+      "canonical_name": "内幕交易",
+      "attributes": {},
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_61483cd7d0b9",
+      "entity_type": "LegalTerm",
+      "mention": "操纵股价",
+      "canonical_name": "操纵股价",
+      "attributes": {},
+      "sentence_id": "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_0ffaa280ad5f#上市公司监管指引第 10 号— 市值管理_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_f766de7a7f44_rel_17adf937f91b",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_bc876f477a32",
+      "tail_entity_id": "ent_569242e06551",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ffaa280ad5f",
+        "section_path": "上市公司监管指引第 10 号— 市值管理",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f766de7a7f44_rel_b63d9d3aff00",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_bc876f477a32",
+      "tail_entity_id": "ent_d36887a7a3fc",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ffaa280ad5f",
+        "section_path": "上市公司监管指引第 10 号— 市值管理",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f766de7a7f44_rel_2b4a7850552d",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_bc876f477a32",
+      "tail_entity_id": "ent_e37f7e02a2a6",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ffaa280ad5f",
+        "section_path": "上市公司监管指引第 10 号— 市值管理",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f766de7a7f44_rel_aeccba902a26",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_bc876f477a32",
+      "tail_entity_id": "ent_0df7f32057c8",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ffaa280ad5f",
+        "section_path": "上市公司监管指引第 10 号— 市值管理",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f766de7a7f44_rel_178b4be2a4d3",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_bc876f477a32",
+      "tail_entity_id": "ent_688d4afea8f6",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ffaa280ad5f",
+        "section_path": "上市公司监管指引第 10 号— 市值管理",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f766de7a7f44_rel_e39b16e65ef1",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_bc876f477a32",
+      "tail_entity_id": "ent_b63254ff0825",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ffaa280ad5f",
+        "section_path": "上市公司监管指引第 10 号— 市值管理",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f766de7a7f44_rel_60fbc3d04bab",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_bc876f477a32",
+      "tail_entity_id": "ent_cb85d53f03a0",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ffaa280ad5f",
+        "section_path": "上市公司监管指引第 10 号— 市值管理",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f766de7a7f44_rel_d252115eb781",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_bc876f477a32",
+      "tail_entity_id": "ent_3bfb8944ca13",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ffaa280ad5f",
+        "section_path": "上市公司监管指引第 10 号— 市值管理",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f766de7a7f44_rel_8909159d45eb",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_bc876f477a32",
+      "tail_entity_id": "ent_f761ffae3af8",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ffaa280ad5f",
+        "section_path": "上市公司监管指引第 10 号— 市值管理",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f766de7a7f44_rel_cd1296bc8594",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_bc876f477a32",
+      "tail_entity_id": "ent_07200f2db8da",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ffaa280ad5f",
+        "section_path": "上市公司监管指引第 10 号— 市值管理",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f766de7a7f44_rel_528464e7f619",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_bc876f477a32",
+      "tail_entity_id": "ent_af7e1000f752",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ffaa280ad5f",
+        "section_path": "上市公司监管指引第 10 号— 市值管理",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f766de7a7f44_rel_369363c26e80",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_bc876f477a32",
+      "tail_entity_id": "ent_f2c5acaf19b6",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ffaa280ad5f",
+        "section_path": "上市公司监管指引第 10 号— 市值管理",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f766de7a7f44_rel_029b9d96b33b",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_bc876f477a32",
+      "tail_entity_id": "ent_cb8620397570",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ffaa280ad5f",
+        "section_path": "上市公司监管指引第 10 号— 市值管理",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f766de7a7f44_rel_2c9ea7030f76",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_bc876f477a32",
+      "tail_entity_id": "ent_fe96bab8fb13",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ffaa280ad5f",
+        "section_path": "上市公司监管指引第 10 号— 市值管理",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f766de7a7f44_rel_a805bcb02b7b",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_bc876f477a32",
+      "tail_entity_id": "ent_456590623fee",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ffaa280ad5f",
+        "section_path": "上市公司监管指引第 10 号— 市值管理",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f766de7a7f44_rel_3903bb35d9c8",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_bc876f477a32",
+      "tail_entity_id": "ent_61483cd7d0b9",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ffaa280ad5f",
+        "section_path": "上市公司监管指引第 10 号— 市值管理",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

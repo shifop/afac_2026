@@ -1,0 +1,1307 @@
+{
+  "doc_id": "doc_5fbf6a9a22dc",
+  "title": "《上市公司章程指引》修订说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0035_att2.md",
+  "processed_at": "2026-07-21T00:38:28.731561+00:00",
+  "structured_data": {
+    "title": "上市公司章程指引"
+  },
+  "stats": {
+    "sections": 6,
+    "paragraphs": 6,
+    "sentences": 21,
+    "entities": 36,
+    "relations": 30,
+    "rejected": 0,
+    "llm_calls": 1401,
+    "llm_tokens": 1932383,
+    "elapsed_seconds": 31.78
+  },
+  "sections": [
+    {
+      "section_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明",
+      "section_path": "《上市公司章程指引》修订说明",
+      "title": "《上市公司章程指引》修订说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "新《公司法》/规范运作/调研/监管实践",
+        "for": [
+          "修订背景",
+          "政策依据",
+          "制定过程"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明_p0",
+          "para_index": 0,
+          "content": "为贯彻落实新《公司法》，进一步提升上市公司规范运作水平，我会在广泛调研、深入研究的基础上，结合上市公司监管实践，修订形成了《上市公司章程指引》。现将有关情况说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明_p0_s0",
+              "text": "为贯彻落实新《公司法》，进一步提升上市公司规范运作水平，我会在广泛调研、深入研究的基础上，结合上市公司监管实践，修订形成了《上市公司章程指引》。",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明_p0_s1",
+              "text": "现将有关情况说明如下：",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景",
+      "section_path": "《上市公司章程指引》修订说明 > 一、修订背景",
+      "title": "一、修订背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "2023年12月29日/第十四届全国人大常委会第七次会议/新《公司法》/2024年7月1日施行/股东权利保护/控股股东责任/公司治理结构",
+        "for": [
+          "修订背景",
+          "法律依据",
+          "实施时间",
+          "治理变化"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景_p0",
+          "para_index": 0,
+          "content": "2023 年12 月 29 日，第十四届全国人民代表大会常务委员会第七次会议审议通过了《公司法》，自 2024 年 7 月1 日起施行。新《公司法》进一步加强了股东权利保护，强化了控股股东、实际控制人和经营管理人员的责任，完善了公司治理结构，有必要按照新法的精神和要求对《上市公司章程指引》进行修订。",
+          "sentences": [
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景_p0_s0",
+              "text": "2023 年12 月 29 日，第十四届全国人民代表大会常务委员会第七次会议审议通过了《公司法》，自 2024 年 7 月1 日起施行。",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景_p0_s1",
+              "text": "新《公司法》进一步加强了股东权利保护，强化了控股股东、实际控制人和经营管理人员的责任，完善了公司治理结构，有必要按照新法的精神和要求对《上市公司章程指引》进行修订。",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 二、修订内容",
+      "section_path": "《上市公司章程指引》修订说明 > 二、修订内容",
+      "title": "二、修订内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "章程制定目的/法定代表人范围职权更换时限法律责任/面额股无面额股规定",
+        "for": [
+          "章程目的",
+          "法定代表人",
+          "股权类型"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 二、修订内容_p0",
+          "para_index": 0,
+          "content": "一是进一步完善公司章程制定目的，是为了维护公司、股东、职工和债权人的合法权益。二是确定法定代表人的范围、职权、更换时限及法律责任等，要求公司在章程中载明法定代表人产生、变更办法。三是衔接新《公司法》关于面额股和无面额股的规定，完善面额股相关表述。",
+          "sentences": [
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 二、修订内容_p0_s0",
+              "text": "一是进一步完善公司章程制定目的，是为了维护公司、股东、职工和债权人的合法权益。",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 二、修订内容_p0_s1",
+              "text": "二是确定法定代表人的范围、职权、更换时限及法律责任等，要求公司在章程中载明法定代表人产生、变更办法。",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 二、修订内容_p0_s2",
+              "text": "三是衔接新《公司法》关于面额股和无面额股的规定，完善面额股相关表述。",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度",
+      "section_path": "《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度",
+      "title": "（二）完善股东、股东会相关制度",
+      "level": 2,
+      "reading_guide": {
+        "has": "控股股东职责义务/实际控制人义务/类别股权利义务/中小股东保护措施/股东会召集主持/代位诉讼/临时提案权持股比例/表决程序",
+        "for": [
+          "股东权利",
+          "治理结构",
+          "投票机制",
+          "实控人责任"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度_p0",
+          "para_index": 0,
+          "content": "一是新增控股股东和实际控制人专节，明确规定控股股东及实际控制人的职责和义务。二是完善存在类别股公司相关规定，要求公司在章程中载明类别股的权利义务以及中小股东权益的保护措施。三是修改股东会召集与主持、代位诉讼等相关条款，降低临时提案权股东的持股比例，优化股东会召开方式及表决程序。",
+          "sentences": [
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度_p0_s0",
+              "text": "一是新增控股股东和实际控制人专节，明确规定控股股东及实际控制人的职责和义务。",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度_p0_s1",
+              "text": "二是完善存在类别股公司相关规定，要求公司在章程中载明类别股的权利义务以及中小股东权益的保护措施。",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度_p0_s2",
+              "text": "三是修改股东会召集与主持、代位诉讼等相关条款，降低临时提案权股东的持股比例，优化股东会召开方式及表决程序。",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求",
+      "section_path": "《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求",
+      "title": "（三）完善董事、董事会及专门委员会的要求",
+      "level": 2,
+      "reading_guide": {
+        "has": "董事会专门委员会/审计委员会职权/独立董事定位及任职条件/职工董事设置/职务侵权责任/资本公积金补亏/会计师事务所聘任程序",
+        "for": [
+          "治理结构",
+          "独董制度",
+          "董事责任",
+          "财务调整",
+          "章程条款"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0",
+          "para_index": 0,
+          "content": "一是新增专节规定董事会专门委员会。明确公司在章程中规定董事会设置审计委员会，行使监事会的法定职权，并规定专门委员会的职责和组成。二是新增专节规定独立董事。要求公司在章程中明确独立董事的定位、独立性及任职条件、基本职责及特别职权等事项，完善独立董事专门会议制度。三是新增董事任职资格、职工董事设置、董事和高级管理人员职务侵权行为的责任承担等条款。\n此外，根据新《公司法》，明确可以按照规定使用资本公积金弥补公司亏损，完善聘用或解聘会计师事务所的审议程序等规定，并调整“股东大会”“半数以上”等表述。",
+          "sentences": [
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s0",
+              "text": "一是新增专节规定董事会专门委员会。",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s1",
+              "text": "明确公司在章程中规定董事会设置审计委员会，行使监事会的法定职权，并规定专门委员会的职责和组成。",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s2",
+              "text": "二是新增专节规定独立董事。",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s3",
+              "text": "要求公司在章程中明确独立董事的定位、独立性及任职条件、基本职责及特别职权等事项，完善独立董事专门会议制度。",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s4",
+              "text": "三是新增董事任职资格、职工董事设置、董事和高级管理人员职务侵权行为的责任承担等条款。",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s5",
+              "text": "此外，根据新《公司法》，明确可以按照规定使用资本公积金弥补公司亏损，完善聘用或解聘会计师事务所的审议程序等规定，并调整“股东大会”“半数以上”等表述。",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况",
+      "section_path": "《上市公司章程指引》修订说明 > 三、公众意见及采纳情况",
+      "title": "三、公众意见及采纳情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "征求意见时间/意见总数/采纳情况/具体采纳条款/未采纳原因",
+        "for": [
+          "修订依据",
+          "意见统计",
+          "条款变更",
+          "规则调整"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0",
+          "para_index": 0,
+          "content": "2024 年 12 月 27 日至 2025 年 1 月 26 日，我会就《上市公司章程指引》草案向社会公开征求意见，共收到意见建议103 条。总体而言，各方对《上市公司章程指引》修订的基本思路和主要内容表示赞同认可，大部分未涉及实质性修改意见。经研究，我会吸收采纳了部分意见建议，如明确上市公司股东会除以现场形式召开外还可同时以电子通信方式召开、进一步明确法人股东授权参与股东会的主体、增加被交易所认定为不适当人选作为不得担任董事高管的负面情形等并调整了部分文字表述。未予采纳的意见中，有的与新《公司法》等法律法规、规则不一致，如建议删除“股东会临时提案属于股东会职权范围内”的要求、降低审计委员会成员任职资格等；有的可以由公司章程自主规定，如建议规定董事及高级管理人员列席股东会的具体情形、明确董事会召开及表决的具体形式等，因此未予采纳。",
+          "sentences": [
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0_s0",
+              "text": "2024 年 12 月 27 日至 2025 年 1 月 26 日，我会就《上市公司章程指引》草案向社会公开征求意见，共收到意见建议103 条。",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明 > 三、公众意见及采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0_s1",
+              "text": "总体而言，各方对《上市公司章程指引》修订的基本思路和主要内容表示赞同认可，大部分未涉及实质性修改意见。",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明 > 三、公众意见及采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0_s2",
+              "text": "经研究，我会吸收采纳了部分意见建议，如明确上市公司股东会除以现场形式召开外还可同时以电子通信方式召开、进一步明确法人股东授权参与股东会的主体、增加被交易所认定为不适当人选作为不得担任董事高管的负面情形等并调整了部分文字表述。",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明 > 三、公众意见及采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0_s3",
+              "text": "未予采纳的意见中，有的与新《公司法》等法律法规、规则不一致，如建议删除“股东会临时提案属于股东会职权范围内”的要求、降低审计委员会成员任职资格等；",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明 > 三、公众意见及采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0_s4",
+              "text": "有的可以由公司章程自主规定，如建议规定董事及高级管理人员列席股东会的具体情形、明确董事会召开及表决的具体形式等，因此未予采纳。",
+              "location": {
+                "doc_id": "doc_5fbf6a9a22dc",
+                "section_path": "《上市公司章程指引》修订说明 > 三、公众意见及采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_0c95e04d63c3",
+      "entity_type": "LegalDocument",
+      "mention": "新《公司法》",
+      "canonical_name": "公司法",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_eb9f832b8c81",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司章程指引》",
+      "canonical_name": "上市公司章程指引",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d329674eedc6",
+      "entity_type": "Date",
+      "mention": "2023 年 12 月 29 日",
+      "canonical_name": "2023-12-29",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景_p0_s0",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d4d3bd08aa23",
+      "entity_type": "Organization",
+      "mention": "第十四届全国人民代表大会常务委员会第七次会议",
+      "canonical_name": "第十四届全国人民代表大会常务委员会",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景_p0_s0",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8b38417d141e",
+      "entity_type": "Date",
+      "mention": "2024 年 7 月 1 日",
+      "canonical_name": "2024-07-01",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景_p0_s0",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8d5ef233abd4",
+      "entity_type": "LegalTerm",
+      "mention": "股东权利保护",
+      "canonical_name": "股东权利保护",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a2dd7587b593",
+      "entity_type": "LegalTerm",
+      "mention": "控股股东",
+      "canonical_name": "控股股东",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d2a05c642ae8",
+      "entity_type": "LegalTerm",
+      "mention": "实际控制人",
+      "canonical_name": "实际控制人",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_df5684ecb903",
+      "entity_type": "LegalTerm",
+      "mention": "经营管理人员",
+      "canonical_name": "经营管理人员",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bd7df4452248",
+      "entity_type": "LegalTerm",
+      "mention": "公司治理结构",
+      "canonical_name": "公司治理结构",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_850efadc7b66",
+      "entity_type": "LegalTerm",
+      "mention": "法定代表人",
+      "canonical_name": "法定代表人",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 二、修订内容_p0_s1",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 二、修订内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_11c9cad43ea1",
+      "entity_type": "LegalTerm",
+      "mention": "面额股",
+      "canonical_name": "面额股",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 二、修订内容_p0_s2",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 二、修订内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_829323a1fdb2",
+      "entity_type": "LegalTerm",
+      "mention": "无面额股",
+      "canonical_name": "无面额股",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 二、修订内容_p0_s2",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 二、修订内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e3341ff579d7",
+      "entity_type": "LegalTerm",
+      "mention": "类别股",
+      "canonical_name": "类别股",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度_p0_s1",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fd186c426e50",
+      "entity_type": "LegalTerm",
+      "mention": "中小股东权益",
+      "canonical_name": "中小股东权益",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度_p0_s1",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2522c7c45af1",
+      "entity_type": "LegalTerm",
+      "mention": "股东会召集",
+      "canonical_name": "股东会召集",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度_p0_s2",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b2cf6bf53683",
+      "entity_type": "LegalTerm",
+      "mention": "代位诉讼",
+      "canonical_name": "代位诉讼",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度_p0_s2",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1e3782802399",
+      "entity_type": "LegalTerm",
+      "mention": "临时提案权",
+      "canonical_name": "临时提案权",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度_p0_s2",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_56ef24e8397b",
+      "entity_type": "LegalTerm",
+      "mention": "董事会专门委员会",
+      "canonical_name": "董事会专门委员会",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s0",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0f055ec7b838",
+      "entity_type": "LegalTerm",
+      "mention": "审计委员会",
+      "canonical_name": "审计委员会",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s1",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c9d102aa18fe",
+      "entity_type": "LegalTerm",
+      "mention": "监事会",
+      "canonical_name": "监事会",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s1",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_507d6e75960a",
+      "entity_type": "LegalTerm",
+      "mention": "独立董事",
+      "canonical_name": "独立董事",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s2",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_80d1ed4ba3fc",
+      "entity_type": "LegalTerm",
+      "mention": "独立董事专门会议制度",
+      "canonical_name": "独立董事专门会议制度",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s3",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f445281d92ce",
+      "entity_type": "LegalTerm",
+      "mention": "董事任职资格",
+      "canonical_name": "董事任职资格",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s4",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2a6a534cde44",
+      "entity_type": "LegalTerm",
+      "mention": "职工董事",
+      "canonical_name": "职工董事",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s4",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d8958c356ddf",
+      "entity_type": "LegalTerm",
+      "mention": "职务侵权行为",
+      "canonical_name": "职务侵权行为",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s4",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8882bfd38af3",
+      "entity_type": "LegalTerm",
+      "mention": "资本公积金",
+      "canonical_name": "资本公积金",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s5",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_20b711a30aa8",
+      "entity_type": "LegalTerm",
+      "mention": "会计师事务所",
+      "canonical_name": "会计师事务所",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s5",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c2b7fa324a84",
+      "entity_type": "LegalTerm",
+      "mention": "股东大会",
+      "canonical_name": "股东大会",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s5",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_97a61e747fef",
+      "entity_type": "Date",
+      "mention": "2024 年 12 月 27 日",
+      "canonical_name": "2024-12-27",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0_s0",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_609f477982d6",
+      "entity_type": "Date",
+      "mention": "2025 年 1 月 26 日",
+      "canonical_name": "2025-01-26",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0_s0",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_37ed1f4aaa17",
+      "entity_type": "MonetaryAmount",
+      "mention": "103 条",
+      "canonical_name": "103",
+      "attributes": {
+        "unit": "条"
+      },
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0_s0",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c7fe26330eb5",
+      "entity_type": "LegalTerm",
+      "mention": "电子通信方式",
+      "canonical_name": "电子通信方式",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0_s2",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_60800f47f23e",
+      "entity_type": "LegalTerm",
+      "mention": "法人股东授权",
+      "canonical_name": "法人股东授权",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0_s2",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8a312346e1a6",
+      "entity_type": "LegalTerm",
+      "mention": "不适当人选",
+      "canonical_name": "不适当人选",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0_s2",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_79d44badaf05",
+      "entity_type": "LegalTerm",
+      "mention": "列席股东会",
+      "canonical_name": "列席股东会",
+      "attributes": {},
+      "sentence_id": "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0_s4",
+      "sentence_ids": [
+        "doc_5fbf6a9a22dc#《上市公司章程指引》修订说明 > 三、公众意见及采纳情况_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_639c0e0d8378_rel_fa48172ae8d4",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_0c95e04d63c3",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_b3b44a955ba4",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_0c95e04d63c3",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_cd84797d9b8d",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c95e04d63c3",
+      "tail_entity_id": "ent_8d5ef233abd4",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_a50606993d4d",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c95e04d63c3",
+      "tail_entity_id": "ent_a2dd7587b593",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_7fb13b6079bf",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c95e04d63c3",
+      "tail_entity_id": "ent_d2a05c642ae8",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_0cc2159aeac3",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c95e04d63c3",
+      "tail_entity_id": "ent_df5684ecb903",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_f9dc7ebbc943",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c95e04d63c3",
+      "tail_entity_id": "ent_bd7df4452248",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_ffcb2374e335",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_850efadc7b66",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_47b0a29ff774",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c95e04d63c3",
+      "tail_entity_id": "ent_11c9cad43ea1",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_496bd9c0e55a",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c95e04d63c3",
+      "tail_entity_id": "ent_829323a1fdb2",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_7bd0534bed75",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_e3341ff579d7",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_510685e9932c",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_fd186c426e50",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_ae3949faa33a",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_2522c7c45af1",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_a3bc275ec9d8",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_b2cf6bf53683",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_25351a985c38",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_1e3782802399",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > （二）完善股东、股东会相关制度",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_fdb190ca64b6",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_56ef24e8397b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_942446b48033",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_0f055ec7b838",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_a54431941c59",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_c9d102aa18fe",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_3089d1749a3a",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_507d6e75960a",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_74b58bb9c9bc",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_80d1ed4ba3fc",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_797d7f82783d",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_f445281d92ce",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_8e7c3cbbb2e1",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_2a6a534cde44",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_534cd92910d9",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_d8958c356ddf",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_caf0f4a41146",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c95e04d63c3",
+      "tail_entity_id": "ent_8882bfd38af3",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求",
+        "paragraph_index": 0,
+        "sentence_index": 5
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_1741512fcd5c",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_20b711a30aa8",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求",
+        "paragraph_index": 0,
+        "sentence_index": 5
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_f05a2f261c05",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_c2b7fa324a84",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > （三）完善董事、董事会及专门委员会的要求",
+        "paragraph_index": 0,
+        "sentence_index": 5
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_b1f0b8102b97",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_c7fe26330eb5",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > 三、公众意见及采纳情况",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_f26ed65081ab",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_60800f47f23e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > 三、公众意见及采纳情况",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_ce770804d397",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_8a312346e1a6",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > 三、公众意见及采纳情况",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_639c0e0d8378_rel_80557da4091b",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb9f832b8c81",
+      "tail_entity_id": "ent_79d44badaf05",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5fbf6a9a22dc",
+        "section_path": "《上市公司章程指引》修订说明 > 三、公众意见及采纳情况",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

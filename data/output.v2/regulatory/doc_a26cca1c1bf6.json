@@ -1,0 +1,251 @@
+{
+  "doc_id": "doc_a26cca1c1bf6",
+  "title": "《监管规则适用指引—发行类第 10 号》起草说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0064_att1.md",
+  "processed_at": "2026-07-21T01:06:19.184150+00:00",
+  "structured_data": {
+    "title": "监管规则适用指引—发行类第 10 号"
+  },
+  "stats": {
+    "sections": 3,
+    "paragraphs": 2,
+    "sentences": 5,
+    "entities": 5,
+    "relations": 3,
+    "rejected": 0,
+    "llm_calls": 2806,
+    "llm_tokens": 4284143,
+    "elapsed_seconds": 7.72
+  },
+  "sections": [
+    {
+      "section_id": "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明",
+      "section_path": "《监管规则适用指引—发行类第 10 号》起草说明",
+      "title": "《监管规则适用指引—发行类第 10 号》起草说明",
+      "level": 1,
+      "reading_guide": null,
+      "paragraphs": []
+    },
+    {
+      "section_id": "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明 > 一、起草背景",
+      "section_path": "《监管规则适用指引—发行类第 10 号》起草说明 > 一、起草背景",
+      "title": "一、起草背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "监管规则适用指引—发行类第10号/起草背景/落实意见/细化披露要求/强化约束/保护投资者利益/沪深交易所实施",
+        "for": [
+          "政策依据",
+          "制定目的",
+          "适用范围",
+          "监管目标"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明 > 一、起草背景_p0",
+          "para_index": 0,
+          "content": "为落实《关于严把发行上市准入关从源头上提高上市公司质量的意见（试行）》，细化《公开发行证券的公司信息披露内容与格式准则第57 号—招股说明书》的信息披露要求，强化企业上市行为约束，切实保护投资者利益，证监会起草了《监管规则适用指引—发行类第 10 号》（以下简称《指引10 号》），在沪深证券交易所各板块实施。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明 > 一、起草背景_p0_s0",
+              "text": "为落实《关于严把发行上市准入关从源头上提高上市公司质量的意见（试行）》，细化《公开发行证券的公司信息披露内容与格式准则第57 号—招股说明书》的信息披露要求，强化企业上市行为约束，切实保护投资者利益，证监会起草了《监管规则适用指引—发行类第 10 号》（以下简称《指引10 号》），在沪深证券交易所各板块实施。",
+              "location": {
+                "doc_id": "doc_a26cca1c1bf6",
+                "section_path": "《监管规则适用指引—发行类第 10 号》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明 > 二、主要内容",
+      "section_path": "《监管规则适用指引—发行类第 10 号》起草说明 > 二、主要内容",
+      "title": "二、主要内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "上市观/融资必要性/募集资金规划/未来发展规划/业绩下滑承诺/延长锁定期/分红政策/利润分配/现金分红计划/长期回报规划/未盈利企业/盈利预测",
+        "for": [
+          "信息披露",
+          "锁定承诺",
+          "分红政策",
+          "业绩下滑",
+          "未盈利披露"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明 > 二、主要内容_p0",
+          "para_index": 0,
+          "content": "《指引 10 号》主要包括四部分：第一部分为发行人基本情况相关信息披露要求，规定了发行人应当向投资者阐明有关上市目的、融资必要性、募集资金使用规划、未来发展规划等“上市观”内容；第二部分为业绩下滑相关承诺的披露要求，规定了发行人上市后三年内业绩出现大幅下滑的，“关键少数”可作出延长股份锁定期的承诺；第三部分为上市后分红政策相关信息披露要求，规定了对公司章程中的利润分配、董事会关于股东回报事项的论证、上市后三年内现金分红等分配计划、长期回报规划等的披露要求；第四部分为未盈利企业相关信息披露要求，要求审慎披露预计实现盈利情况等前瞻性信息。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明 > 二、主要内容_p0_s0",
+              "text": "《指引 10 号》主要包括四部分：第一部分为发行人基本情况相关信息披露要求，规定了发行人应当向投资者阐明有关上市目的、融资必要性、募集资金使用规划、未来发展规划等“上市观”内容；",
+              "location": {
+                "doc_id": "doc_a26cca1c1bf6",
+                "section_path": "《监管规则适用指引—发行类第 10 号》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明 > 二、主要内容_p0_s1",
+              "text": "第二部分为业绩下滑相关承诺的披露要求，规定了发行人上市后三年内业绩出现大幅下滑的，“关键少数”可作出延长股份锁定期的承诺；",
+              "location": {
+                "doc_id": "doc_a26cca1c1bf6",
+                "section_path": "《监管规则适用指引—发行类第 10 号》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明 > 二、主要内容_p0_s2",
+              "text": "第三部分为上市后分红政策相关信息披露要求，规定了对公司章程中的利润分配、董事会关于股东回报事项的论证、上市后三年内现金分红等分配计划、长期回报规划等的披露要求；",
+              "location": {
+                "doc_id": "doc_a26cca1c1bf6",
+                "section_path": "《监管规则适用指引—发行类第 10 号》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明 > 二、主要内容_p0_s3",
+              "text": "第四部分为未盈利企业相关信息披露要求，要求审慎披露预计实现盈利情况等前瞻性信息。",
+              "location": {
+                "doc_id": "doc_a26cca1c1bf6",
+                "section_path": "《监管规则适用指引—发行类第 10 号》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_5ed878bde80c",
+      "entity_type": "LegalDocument",
+      "mention": "《关于严把发行上市准入关从源头上提高上市公司质量的意见（试行）》",
+      "canonical_name": "关于严把发行上市准入关从源头上提高上市公司质量的意见（试行）",
+      "attributes": {},
+      "sentence_id": "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明 > 一、起草背景_p0_s0",
+      "sentence_ids": [
+        "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明 > 一、起草背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a319f14a8243",
+      "entity_type": "LegalDocument",
+      "mention": "《公开发行证券的公司信息披露内容与格式准则第57 号—招股说明书》",
+      "canonical_name": "公开发行证券的公司信息披露内容与格式准则第57号—招股说明书",
+      "attributes": {},
+      "sentence_id": "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明 > 一、起草背景_p0_s0",
+      "sentence_ids": [
+        "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明 > 一、起草背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_403dcfbd5505",
+      "entity_type": "Organization",
+      "mention": "证监会",
+      "canonical_name": "证监会",
+      "attributes": {},
+      "sentence_id": "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明 > 一、起草背景_p0_s0",
+      "sentence_ids": [
+        "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明 > 一、起草背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cd4ad7165225",
+      "entity_type": "LegalDocument",
+      "mention": "《监管规则适用指引—发行类第 10 号》",
+      "canonical_name": "监管规则适用指引—发行类第10号",
+      "attributes": {
+        "alias": "《指引10 号》"
+      },
+      "sentence_id": "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明 > 一、起草背景_p0_s0",
+      "sentence_ids": [
+        "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明 > 一、起草背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e9d9364edfbc",
+      "entity_type": "Organization",
+      "mention": "沪深证券交易所",
+      "canonical_name": "沪深证券交易所",
+      "attributes": {},
+      "sentence_id": "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明 > 一、起草背景_p0_s0",
+      "sentence_ids": [
+        "doc_a26cca1c1bf6#《监管规则适用指引—发行类第 10 号》起草说明 > 一、起草背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_9f2c6675189c_rel_4771943714f4",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_cd4ad7165225",
+      "tail_entity_id": "ent_5ed878bde80c",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a26cca1c1bf6",
+        "section_path": "《监管规则适用指引—发行类第 10 号》起草说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_9f2c6675189c_rel_659ab2a8bf2a",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_cd4ad7165225",
+      "tail_entity_id": "ent_a319f14a8243",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a26cca1c1bf6",
+        "section_path": "《监管规则适用指引—发行类第 10 号》起草说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_9f2c6675189c_rel_295b148907d9",
+      "relation_type": "has_director",
+      "head_entity_id": "ent_403dcfbd5505",
+      "tail_entity_id": "ent_cd4ad7165225",
+      "properties": {
+        "role": "drafting_authority"
+      },
+      "evidence": {
+        "doc_id": "doc_a26cca1c1bf6",
+        "section_path": "《监管规则适用指引—发行类第 10 号》起草说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

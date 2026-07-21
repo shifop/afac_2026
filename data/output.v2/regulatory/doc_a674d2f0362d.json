@@ -1,0 +1,918 @@
+{
+  "doc_id": "doc_a674d2f0362d",
+  "title": "起草说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0039_att2.md",
+  "processed_at": "2026-07-21T00:47:31.605633+00:00",
+  "structured_data": {
+    "title": "上市公司监管指引第 11 号——上市公司破产重整相关事项"
+  },
+  "stats": {
+    "sections": 9,
+    "paragraphs": 9,
+    "sentences": 37,
+    "entities": 16,
+    "relations": 5,
+    "rejected": 0,
+    "llm_calls": 2060,
+    "llm_tokens": 3051768,
+    "elapsed_seconds": 13.08
+  },
+  "sections": [
+    {
+      "section_id": "doc_a674d2f0362d#起草说明",
+      "section_path": "起草说明",
+      "title": "起草说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "监管指引名称/制定目的/背景",
+        "for": [
+          "政策依据",
+          "制定背景"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a674d2f0362d#起草说明_p0",
+          "para_index": 0,
+          "content": "为进一步加强上市公司破产重整监管，有效化解上市公司风险，推动提升上市公司质量，促进证券市场资源的优化配置，结合监管实践情况，中国证监会研究制定了《上市公司监管指引第 11 号——上市公司破产重整相关事项》（以下简称《指引》）。现就有关情况说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明_p0_s0",
+              "text": "为进一步加强上市公司破产重整监管，有效化解上市公司风险，推动提升上市公司质量，促进证券市场资源的优化配置，结合监管实践情况，中国证监会研究制定了《上市公司监管指引第 11 号——上市公司破产重整相关事项》（以下简称《指引》）。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明_p0_s1",
+              "text": "现就有关情况说明如下：",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_a674d2f0362d#起草说明 > 一、起草背景",
+      "section_path": "起草说明 > 一、起草背景",
+      "title": "一、起草背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "破产重整背景/2007年《企业破产法》/100+上市公司案例/国发〔2020〕14号文/最高人民法院/证监会/《座谈会纪要》/配套《指引》",
+        "for": [
+          "政策背景",
+          "法律依据",
+          "监管文件",
+          "重整现状"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a674d2f0362d#起草说明 > 一、起草背景_p0",
+          "para_index": 0,
+          "content": "破产重整是化解上市公司风险和提高上市公司质量的重要途径。2007 年《企业破产法》实施以来，共有 100 多家上市公司实施完成破产重整，重整完成后，多数公司重获新生，偿债风险明显化解，控制权实现平稳交接，亏损资产得以剥离，实现较好的效果。\n《国务院关于进一步提高上市公司质量的意见》（国发〔2020〕14 号）提出，完善破产重整制度，支持上市公司通过破产重整等方式出清风险。近年来，党中央国务院多次强调要大力提高上市公司质量，这对上市公司破产重整提出了更高要求，一些新情况、新问题迫切需要进一步凝聚共识、明确标准、优化机制。为此，最高人民法院会同我会，对近年来上市公司重整案件的审理情况进行了总结、梳理、讨论，就进一步完善和统一规则适用，切实审理好上市公司破产重整案件相关重要问题取得了共识，形成《关于切实审理好上市公司破产重整案件工作座谈会议纪要》（以下简称《座谈会纪要》）。为衔接《座谈会纪要》，我会配套起草了《指引》，对证券监管相关核心事项进行细化明确。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > 一、起草背景_p0_s0",
+              "text": "破产重整是化解上市公司风险和提高上市公司质量的重要途径。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > 一、起草背景_p0_s1",
+              "text": "2007 年《企业破产法》实施以来，共有 100 多家上市公司实施完成破产重整，重整完成后，多数公司重获新生，偿债风险明显化解，控制权实现平稳交接，亏损资产得以剥离，实现较好的效果。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > 一、起草背景_p0_s2",
+              "text": "《国务院关于进一步提高上市公司质量的意见》（国发〔2020〕14 号）提出，完善破产重整制度，支持上市公司通过破产重整等方式出清风险。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > 一、起草背景_p0_s3",
+              "text": "近年来，党中央国务院多次强调要大力提高上市公司质量，这对上市公司破产重整提出了更高要求，一些新情况、新问题迫切需要进一步凝聚共识、明确标准、优化机制。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > 一、起草背景_p0_s4",
+              "text": "为此，最高人民法院会同我会，对近年来上市公司重整案件的审理情况进行了总结、梳理、讨论，就进一步完善和统一规则适用，切实审理好上市公司破产重整案件相关重要问题取得了共识，形成《关于切实审理好上市公司破产重整案件工作座谈会议纪要》（以下简称《座谈会纪要》）。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > 一、起草背景_p0_s5",
+              "text": "为衔接《座谈会纪要》，我会配套起草了《指引》，对证券监管相关核心事项进行细化明确。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_a674d2f0362d#起草说明 > 二、主要内容",
+      "section_path": "起草说明 > 二、主要内容",
+      "title": "二、主要内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "证监会协作机制/法院监管/破产重整/证券交易所/信息披露规则/自律管理",
+        "for": [
+          "监管机制",
+          "重整流程",
+          "信披规则",
+          "职责分工"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a674d2f0362d#起草说明 > 二、主要内容_p0",
+          "para_index": 0,
+          "content": "明确中国证监会依法建立健全与人民法院协作机制，对上市公司破产重整中涉及证券市场相关事项进行监督管理；证券交易所依法制定上市公司破产重整信息披露规则，对上市公司破产重整中的信息披露行为进行自律管理。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > 二、主要内容_p0_s0",
+              "text": "明确中国证监会依法建立健全与人民法院协作机制，对上市公司破产重整中涉及证券市场相关事项进行监督管理；",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > 二、主要内容_p0_s1",
+              "text": "证券交易所依法制定上市公司破产重整信息披露规则，对上市公司破产重整中的信息披露行为进行自律管理。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_a674d2f0362d#起草说明 > （二）明确破产重整信息披露要求，强化内幕交易防控",
+      "section_path": "起草说明 > （二）明确破产重整信息披露要求，强化内幕交易防控",
+      "title": "（二）明确破产重整信息披露要求，强化内幕交易防控",
+      "level": 2,
+      "reading_guide": {
+        "has": "破产重整信息披露要求/重大违法退市自查/资金占用违规担保披露/盈利预测及财务顾问核查/内幕交易防控/保密义务",
+        "for": [
+          "重整披露",
+          "合规自查",
+          "盈利预测",
+          "内幕交易",
+          "保密义务"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a674d2f0362d#起草说明 > （二）明确破产重整信息披露要求，强化内幕交易防控_p0",
+          "para_index": 0,
+          "content": "上市公司及破产重整相关方应当及时、公平地披露或者提供涉及上市公司破产重整的信息，保证所披露或者提供信息的真实、准确、完整。上市公司申请或者被申请破产重整的，应当对是否存在重大违法强制退市情形、涉及信息披露或者规范运作等方面的重大缺陷、资金占用违规担保情况等进行自查并对外披露。上市公司重整计划涉及盈利预测的，应当客观、审慎，充分说明盈利预测的合理性及可实现性，并应当聘请财务顾问出具专项核查意见。同时，明确要求上市公司及相关各方严格遵守保密义务，任何单位和个人不得利用破产重整相关信息从事内幕交易、操纵证券市场等违法活动。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > （二）明确破产重整信息披露要求，强化内幕交易防控_p0_s0",
+              "text": "上市公司及破产重整相关方应当及时、公平地披露或者提供涉及上市公司破产重整的信息，保证所披露或者提供信息的真实、准确、完整。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > （二）明确破产重整信息披露要求，强化内幕交易防控",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > （二）明确破产重整信息披露要求，强化内幕交易防控_p0_s1",
+              "text": "上市公司申请或者被申请破产重整的，应当对是否存在重大违法强制退市情形、涉及信息披露或者规范运作等方面的重大缺陷、资金占用违规担保情况等进行自查并对外披露。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > （二）明确破产重整信息披露要求，强化内幕交易防控",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > （二）明确破产重整信息披露要求，强化内幕交易防控_p0_s2",
+              "text": "上市公司重整计划涉及盈利预测的，应当客观、审慎，充分说明盈利预测的合理性及可实现性，并应当聘请财务顾问出具专项核查意见。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > （二）明确破产重整信息披露要求，强化内幕交易防控",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > （二）明确破产重整信息披露要求，强化内幕交易防控_p0_s3",
+              "text": "同时，明确要求上市公司及相关各方严格遵守保密义务，任何单位和个人不得利用破产重整相关信息从事内幕交易、操纵证券市场等违法活动。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > （二）明确破产重整信息披露要求，强化内幕交易防控",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制",
+      "section_path": "起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制",
+      "title": "（三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制",
+      "level": 2,
+      "reading_guide": {
+        "has": "资本公积金转增比例上限/每十股转增十五股/重整投资人获股价格下限/市场参考价50%/代持披露要求/契约基金禁任控股股东/控制权锁定期36个月/其他锁定期12个月",
+        "for": [
+          "转增限制",
+          "投资人定价",
+          "持股锁定",
+          "股东资格",
+          "权益稀释"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0",
+          "para_index": 0,
+          "content": "一是对重整转增股份数量进行规制。要求公司根据资本公积金转增股票的用途、目的、必要性等审慎、合理地确定资本公积金转增股本数量，明确规定资本公积金转增比例不得超过每十股转增十五股，满足公司偿还债务及引入重整投资人需求，同时避免股本过度扩张稀释中小股东权益。\n二是对重整投资人获得股份价格进行规制。强调重整计划草案应当明确重整投资人相关信息。重整投资人获得股份的价格不得低于市场参考价的百分之五十，引导重整投资人通过改善公司经营情况实现协同发展。明确重整投资人等相关方持有上市公司股份权益变动的，应当依规履行相关义务。要求重整投资人披露是否存在代持情形。强调重整投资人取得上市公司股份需严格遵守国家产业政策及行业准入等规定。明确契约型基金、信托计划或者资产管理计划不得成为上市公司控股股东、实际控制人、第一大股东。\n三是明确重整投资人股份锁定期限。为确保重整后公司股权、经营相对稳定，要求获得公司控制权的重整投资人持股期限不得少于三十六个月，其他重整投资人持股期限不得少于十二个月。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s0",
+              "text": "一是对重整转增股份数量进行规制。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s1",
+              "text": "要求公司根据资本公积金转增股票的用途、目的、必要性等审慎、合理地确定资本公积金转增股本数量，明确规定资本公积金转增比例不得超过每十股转增十五股，满足公司偿还债务及引入重整投资人需求，同时避免股本过度扩张稀释中小股东权益。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s2",
+              "text": "二是对重整投资人获得股份价格进行规制。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s3",
+              "text": "强调重整计划草案应当明确重整投资人相关信息。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s4",
+              "text": "重整投资人获得股份的价格不得低于市场参考价的百分之五十，引导重整投资人通过改善公司经营情况实现协同发展。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s5",
+              "text": "明确重整投资人等相关方持有上市公司股份权益变动的，应当依规履行相关义务。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s6",
+              "text": "要求重整投资人披露是否存在代持情形。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s7",
+              "text": "强调重整投资人取得上市公司股份需严格遵守国家产业政策及行业准入等规定。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s8",
+              "text": "明确契约型基金、信托计划或者资产管理计划不得成为上市公司控股股东、实际控制人、第一大股东。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s9",
+              "text": "三是明确重整投资人股份锁定期限。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s10",
+              "text": "为确保重整后公司股权、经营相对稳定，要求获得公司控制权的重整投资人持股期限不得少于三十六个月，其他重整投资人持股期限不得少于十二个月。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_a674d2f0362d#起草说明 > （四）对严格做好债务重组收益确认提出要求",
+      "section_path": "起草说明 > （四）对严格做好债务重组收益确认提出要求",
+      "title": "（四）对严格做好债务重组收益确认提出要求",
+      "level": 2,
+      "reading_guide": {
+        "has": "债务重组收益确认/重整计划执行/重大不确定性/审计机构责任/收益确认时点",
+        "for": [
+          "收益确认",
+          "审计责任",
+          "重整风险",
+          "合规要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a674d2f0362d#起草说明 > （四）对严格做好债务重组收益确认提出要求_p0",
+          "para_index": 0,
+          "content": "一方面要求上市公司充分核实重整计划执行过程及结果是否存在重大不确定性，明确不得在重整计划实施的重大不确定性消除前，提前确认债务重组收益，并进一步细化收益确认需满足的必要条件。另一方面压严压实审计机构责任，要求审计机构勤勉尽责、规范执业，高度关注债务重组收益确认时点的合理性，审慎发表专业意见。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > （四）对严格做好债务重组收益确认提出要求_p0_s0",
+              "text": "一方面要求上市公司充分核实重整计划执行过程及结果是否存在重大不确定性，明确不得在重整计划实施的重大不确定性消除前，提前确认债务重组收益，并进一步细化收益确认需满足的必要条件。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > （四）对严格做好债务重组收益确认提出要求",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > （四）对严格做好债务重组收益确认提出要求_p0_s1",
+              "text": "另一方面压严压实审计机构责任，要求审计机构勤勉尽责、规范执业，高度关注债务重组收益确认时点的合理性，审慎发表专业意见。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > （四）对严格做好债务重组收益确认提出要求",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_a674d2f0362d#起草说明 > （五）强化承诺监管，引导督促履行业绩补偿承诺",
+      "section_path": "起草说明 > （五）强化承诺监管，引导督促履行业绩补偿承诺",
+      "title": "（五）强化承诺监管，引导督促履行业绩补偿承诺",
+      "level": 2,
+      "reading_guide": {
+        "has": "业绩补偿承诺/重整计划变更限制/承诺方怠于履行/诉讼主张权利/申请保全",
+        "for": [
+          "承诺监管",
+          "重整限制",
+          "履约督促",
+          "维权方式"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a674d2f0362d#起草说明 > （五）强化承诺监管，引导督促履行业绩补偿承诺_p0",
+          "para_index": 0,
+          "content": "强调上市公司前期重大资产重组中涉及的业绩补偿承诺，不得通过重整计划予以变更。承诺方怠于履行业绩补偿承诺的行为严重损害上市公司合法权益，极大影响了上市公司重整程序中的偿债资源，上市公司或者管理人应当通过提起诉讼、申请保全等方式及时向业绩补偿承诺方主张权利，督促其严格履行作出的承诺。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > （五）强化承诺监管，引导督促履行业绩补偿承诺_p0_s0",
+              "text": "强调上市公司前期重大资产重组中涉及的业绩补偿承诺，不得通过重整计划予以变更。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > （五）强化承诺监管，引导督促履行业绩补偿承诺",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > （五）强化承诺监管，引导督促履行业绩补偿承诺_p0_s1",
+              "text": "承诺方怠于履行业绩补偿承诺的行为严重损害上市公司合法权益，极大影响了上市公司重整程序中的偿债资源，上市公司或者管理人应当通过提起诉讼、申请保全等方式及时向业绩补偿承诺方主张权利，督促其严格履行作出的承诺。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > （五）强化承诺监管，引导督促履行业绩补偿承诺",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_a674d2f0362d#起草说明 > 三、公开征求意见情况",
+      "section_path": "起草说明 > 三、公开征求意见情况",
+      "title": "三、公开征求意见情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "公开征求意见/54条意见建议/重整计划披露/债务重组收益确认/董高保密责任/意见采纳情况",
+        "for": [
+          "意见统计",
+          "规则依据",
+          "采纳结果",
+          "争议焦点"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a674d2f0362d#起草说明 > 三、公开征求意见情况_p0",
+          "para_index": 0,
+          "content": "公开征求意见期间，我会共收到相关意见建议 54 条。总体上，市场各方认为《指引》进一步强化了上市公司重整监管，有助于提高上市公司重整质效，切实保护投资者和债权人的利益。反馈意见主要涉及重整计划的披露要求、债务重组收益的确认依据、董事和高管人员保密责任等方面，我们逐条进行了认真研究，并从有利于提升执行效率、避免增加披露负担的角度采纳了绝大多数意见。部分意见与现有规则存在冲突或与提升上市公司破产重整质效的目标不一致，未予采纳。后续我们将进一步加强政策解读，做好《指引》实施相关工作。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > 三、公开征求意见情况_p0_s0",
+              "text": "公开征求意见期间，我会共收到相关意见建议 54 条。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > 三、公开征求意见情况_p0_s1",
+              "text": "总体上，市场各方认为《指引》进一步强化了上市公司重整监管，有助于提高上市公司重整质效，切实保护投资者和债权人的利益。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > 三、公开征求意见情况_p0_s2",
+              "text": "反馈意见主要涉及重整计划的披露要求、债务重组收益的确认依据、董事和高管人员保密责任等方面，我们逐条进行了认真研究，并从有利于提升执行效率、避免增加披露负担的角度采纳了绝大多数意见。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > 三、公开征求意见情况_p0_s3",
+              "text": "部分意见与现有规则存在冲突或与提升上市公司破产重整质效的目标不一致，未予采纳。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > 三、公开征求意见情况_p0_s4",
+              "text": "后续我们将进一步加强政策解读，做好《指引》实施相关工作。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_a674d2f0362d#起草说明 > 四、过渡期安排",
+      "section_path": "起草说明 > 四、过渡期安排",
+      "title": "四、过渡期安排",
+      "level": 2,
+      "reading_guide": {
+        "has": "施行日期/生效时间/过渡期安排/法院裁定受理/无需适用条款/转增比例限制/股份定价规定",
+        "for": [
+          "生效时间",
+          "适用范围",
+          "例外情形",
+          "法律条款"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a674d2f0362d#起草说明 > 四、过渡期安排_p0",
+          "para_index": 0,
+          "content": "本指引自公布之日起施行。本指引公布之日前，法院已裁定受理上市公司破产重整申请的，无需适用本指引第七条转增比例限制及第八条股份定价相关规定。\n特此说明。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > 四、过渡期安排_p0_s0",
+              "text": "本指引自公布之日起施行。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > 四、过渡期安排",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > 四、过渡期安排_p0_s1",
+              "text": "本指引公布之日前，法院已裁定受理上市公司破产重整申请的，无需适用本指引第七条转增比例限制及第八条股份定价相关规定。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > 四、过渡期安排",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_a674d2f0362d#起草说明 > 四、过渡期安排_p0_s2",
+              "text": "特此说明。",
+              "location": {
+                "doc_id": "doc_a674d2f0362d",
+                "section_path": "起草说明 > 四、过渡期安排",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_905cf8f58de1",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_a674d2f0362d#起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_a674d2f0362d#起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fc71f6eb1622",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司监管指引第 11 号——上市公司破产重整相关事项》",
+      "canonical_name": "上市公司监管指引第 11 号——上市公司破产重整相关事项",
+      "attributes": {
+        "short_name": "《指引》"
+      },
+      "sentence_id": "doc_a674d2f0362d#起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_a674d2f0362d#起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_77f480e6b898",
+      "entity_type": "LegalDocument",
+      "mention": "《企业破产法》",
+      "canonical_name": "企业破产法",
+      "attributes": {
+        "year": "2007"
+      },
+      "sentence_id": "doc_a674d2f0362d#起草说明 > 一、起草背景_p0_s1",
+      "sentence_ids": [
+        "doc_a674d2f0362d#起草说明 > 一、起草背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_959cb2e4efe3",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院关于进一步提高上市公司质量的意见》",
+      "canonical_name": "国务院关于进一步提高上市公司质量的意见",
+      "attributes": {
+        "document_number": "国发〔2020〕14 号"
+      },
+      "sentence_id": "doc_a674d2f0362d#起草说明 > 一、起草背景_p0_s2",
+      "sentence_ids": [
+        "doc_a674d2f0362d#起草说明 > 一、起草背景_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9a858b304882",
+      "entity_type": "Organization",
+      "mention": "最高人民法院",
+      "canonical_name": "最高人民法院",
+      "attributes": {},
+      "sentence_id": "doc_a674d2f0362d#起草说明 > 一、起草背景_p0_s4",
+      "sentence_ids": [
+        "doc_a674d2f0362d#起草说明 > 一、起草背景_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_38b6de0ed51d",
+      "entity_type": "LegalDocument",
+      "mention": "《关于切实审理好上市公司破产重整案件工作座谈会议纪要》",
+      "canonical_name": "关于切实审理好上市公司破产重整案件工作座谈会议纪要",
+      "attributes": {
+        "short_name": "《座谈会纪要》"
+      },
+      "sentence_id": "doc_a674d2f0362d#起草说明 > 一、起草背景_p0_s4",
+      "sentence_ids": [
+        "doc_a674d2f0362d#起草说明 > 一、起草背景_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_06ecc1157625",
+      "entity_type": "Organization",
+      "mention": "证券交易所",
+      "canonical_name": "证券交易所",
+      "attributes": {},
+      "sentence_id": "doc_a674d2f0362d#起草说明 > 二、主要内容_p0_s1",
+      "sentence_ids": [
+        "doc_a674d2f0362d#起草说明 > 二、主要内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bcf1119ab36e",
+      "entity_type": "LegalTerm",
+      "mention": "资本公积金转增比例",
+      "canonical_name": "资本公积金转增比例",
+      "attributes": {},
+      "sentence_id": "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s1",
+      "sentence_ids": [
+        "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5d9ba216d769",
+      "entity_type": "Percentage",
+      "mention": "每十股转增十五股",
+      "canonical_name": "每十股转增十五股",
+      "attributes": {},
+      "sentence_id": "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s1",
+      "sentence_ids": [
+        "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2dd435038b9c",
+      "entity_type": "Percentage",
+      "mention": "百分之五十",
+      "canonical_name": "百分之五十",
+      "attributes": {},
+      "sentence_id": "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s4",
+      "sentence_ids": [
+        "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b8602ab79bea",
+      "entity_type": "LegalTerm",
+      "mention": "股份锁定期限",
+      "canonical_name": "股份锁定期限",
+      "attributes": {},
+      "sentence_id": "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s9",
+      "sentence_ids": [
+        "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_104d6c769e02",
+      "entity_type": "MonetaryAmount",
+      "mention": "三十六个月",
+      "canonical_name": "三十六个月",
+      "attributes": {
+        "unit": "months"
+      },
+      "sentence_id": "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s10",
+      "sentence_ids": [
+        "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8337568774ac",
+      "entity_type": "MonetaryAmount",
+      "mention": "十二个月",
+      "canonical_name": "十二个月",
+      "attributes": {
+        "unit": "months"
+      },
+      "sentence_id": "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s10",
+      "sentence_ids": [
+        "doc_a674d2f0362d#起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_717e20b360c5",
+      "entity_type": "FinancialMetric",
+      "mention": "债务重组收益",
+      "canonical_name": "债务重组收益",
+      "attributes": {},
+      "sentence_id": "doc_a674d2f0362d#起草说明 > （四）对严格做好债务重组收益确认提出要求_p0_s0",
+      "sentence_ids": [
+        "doc_a674d2f0362d#起草说明 > （四）对严格做好债务重组收益确认提出要求_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cf205ad8041a",
+      "entity_type": "Organization",
+      "mention": "审计机构",
+      "canonical_name": "审计机构",
+      "attributes": {},
+      "sentence_id": "doc_a674d2f0362d#起草说明 > （四）对严格做好债务重组收益确认提出要求_p0_s1",
+      "sentence_ids": [
+        "doc_a674d2f0362d#起草说明 > （四）对严格做好债务重组收益确认提出要求_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_931e3d1164e3",
+      "entity_type": "LegalTerm",
+      "mention": "业绩补偿承诺",
+      "canonical_name": "业绩补偿承诺",
+      "attributes": {},
+      "sentence_id": "doc_a674d2f0362d#起草说明 > （五）强化承诺监管，引导督促履行业绩补偿承诺_p0_s0",
+      "sentence_ids": [
+        "doc_a674d2f0362d#起草说明 > （五）强化承诺监管，引导督促履行业绩补偿承诺_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_ce5b6c01c1ff_rel_d2a708ffc0e4",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fc71f6eb1622",
+      "tail_entity_id": "ent_77f480e6b898",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a674d2f0362d",
+        "section_path": "起草说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_ce5b6c01c1ff_rel_b2ce598b6301",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fc71f6eb1622",
+      "tail_entity_id": "ent_959cb2e4efe3",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a674d2f0362d",
+        "section_path": "起草说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_ce5b6c01c1ff_rel_2aac5062957d",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_fc71f6eb1622",
+      "tail_entity_id": "ent_bcf1119ab36e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a674d2f0362d",
+        "section_path": "起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_ce5b6c01c1ff_rel_f8029704b255",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_fc71f6eb1622",
+      "tail_entity_id": "ent_b8602ab79bea",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a674d2f0362d",
+        "section_path": "起草说明 > （三）优化重整计划草案规范要求，引导市场各方充分博弈，构建长效发展机制",
+        "paragraph_index": 0,
+        "sentence_index": 9
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_ce5b6c01c1ff_rel_09088f5645d9",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_fc71f6eb1622",
+      "tail_entity_id": "ent_931e3d1164e3",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a674d2f0362d",
+        "section_path": "起草说明 > （五）强化承诺监管，引导督促履行业绩补偿承诺",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

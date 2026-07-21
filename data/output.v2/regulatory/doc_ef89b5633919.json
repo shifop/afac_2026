@@ -1,0 +1,615 @@
+{
+  "doc_id": "doc_ef89b5633919",
+  "title": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0048_att1.md",
+  "processed_at": "2026-07-21T00:58:16.721739+00:00",
+  "structured_data": {
+    "title": "证监会系统离职人员入股拟上市企业监管规定（试行）"
+  },
+  "stats": {
+    "sections": 1,
+    "paragraphs": 1,
+    "sentences": 41,
+    "entities": 7,
+    "relations": 4,
+    "rejected": 0,
+    "llm_calls": 2561,
+    "llm_tokens": 3950550,
+    "elapsed_seconds": 6.55
+  },
+  "sections": [
+    {
+      "section_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）",
+      "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+      "title": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+      "level": 1,
+      "reading_guide": {
+        "has": "离职人员定义/入股禁止期/不当入股情形/专项说明内容/清理要求/核查范围/实施日期",
+        "for": [
+          "监管规定",
+          "禁止期",
+          "不当入股",
+          "核查要求",
+          "离职人员"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0",
+          "para_index": 0,
+          "content": "第一条 为进一步加强证监会系统离职人员(以下简称离职人员)入股拟上市企业的管理，维护资本市场的公开、公平、公正，根据《中华人民共和国公司法》《中华人民共和国证券法》《首次公开发行股票注册管理办法》《存托凭证发行与交易管理办法（试行）》等，制定本规定。\n第二条 对于申请首次公开发行股票、存托凭证并在上海、深圳证券交易所上市，或向不特定合格投资者公开发行股票并在北京证券交易所上市的企业（以下简称发行人），保荐机构、发行人律师、申报会计师（以下统称中介机构）应当按照本规定要求，做好离职人员入股核查工作，研判是否属于不当入股情形并发表明确意见。\n发行人、保荐机构及发行人律师应当提交离职人员入股情况的专项说明。离职人员应当配合中介机构的核查工作。\n第三条 本规定第二条所称不当入股情形包括：\n（一）在入股禁止期内入股；\n（二）利用原职务影响谋取投资机会；\n（三）入股过程存在价格不公允等利益输送情形；\n（四）通过代持方式入股；\n（五）入股资金来源违法违规；\n（六）其他不当入股情形。\n第四条 发行人、保荐机构及发行人律师提交的专项说明应当明确是否存在离职人员入股的情形。存在离职人员入股情形的，专项说明应当包括以下内容：\n（一）离职人员基本情况。包括离职人员的离职时间、工作经历、离职前岗位等；\n（二）投资机会来源。包括离职人员获取投资机会的途径、方法等。通过获得相关工作机会获取投资机会的，应当说明是否与原职务影响有关；\n（三）入股价格。包括离职人员入股价格与第三方或者同行业可比公司同时期并购重组、增资入股价格是否存在差异，定价依据是否合理，是否存在显失公允或者利益输送的情形等；\n（四）入股资金来源。包括离职人员入股金额与其个人经济收入、家庭背景是否匹配等。属于借款入股的，应当说明出借方有关背景、借款协议、利率、还款期限、还款安排和还款进度，以及借款真实性、是否存在股权代持行为等情况；\n（五）退出真实性。离职人员在报告期内清退所持发行人股份的，应当说明离职人员清退股份的路径、方式，受让人有关背景和资金来源，清退价格是否公允，交易对价是否支付，资金流向是否异常，清退行为是否真实等；\n（六）与离职人员入股有关的其他重要事项。\n保荐机构及发行人律师应当对以上事项进行充分核查并发表明确意见。\n第五条 存在离职人员不当入股情形的，应当予以清理，并在专项说明中详细说明清理情况。\n不存在离职人员不当入股情形的，离职人员应当出具不存在不当入股情形的承诺，作为专项说明的附件。\n第六条 发行人提交发行上市申请文件后，发行人或者中介机构发现离职人员入股情况发生变化或者出现媒体质疑的，应当及时向证券交易所报告。\n第七条 证监会根据需要对离职人员入股情况进行核查，对审核注册过程进行复核，发现违法违纪线索的，移交有关部门处理。\n第八条 本规定所称离职人员，是指发行人申报时相关股东为离开证监会系统未满十年的原工作人员，具体包括：\n（一）从证监会会机关、派出机构、证券交易所、全国股转公司离职的人员；\n（二）从证监会其他会管单位离职的原会管干部；\n（三）在证监会发行监管司或公众公司监管司借调累计满十二个月并在借调结束后三年内离职的证监会其他会管单位人员；\n（四）从证监会会机关、派出机构、证券交易所、全国股转公司调动到证监会其他会管单位并在调动后三年内离职的人员。\n第九条 本规定所称入股禁止期，按照以下方式确定：\n（一）离职人员在离职前五年内曾任职发行监管岗位，或者在离职前属于会管干部的，入股禁止期为离职后十年内；\n（二）离职人员不属于前项所列情形的，副处级（中层）及以上的入股禁止期为离职后五年内，副处级（中层）以下的为离职后四年内。\n前款所称发行监管岗位包括证监会发行监管司和公众公司监管司、证券交易所负责发行审核注册及拟上市企业督导和现场检查工作、全国股转公司负责挂牌业务、上海和深圳证券交易所负责上市服务和发行承销监管工作、全国股转公司（北京证券交易所）负责市场服务工作、北京证券交易所负责发行承销监管工作、证监会派出机构负责辅导监管及拟上市企业现场检查工作相关岗位。\n第十条 发行人在新三板挂牌期间，离职人员通过集合竞价、连续竞价、做市交易等公开交易方式取得发行人股份的，不适用本规定有关核查要求。\n离职人员因持有上市公司、新三板挂牌企业股份间接持有发行人股份，或者因继承、执行法院判决或仲裁裁决取得发行人股份的，不适用本规定有关核查要求。\n第十一条 离职人员的父母、配偶、子女及其配偶入股拟上市企业的，核查复核要求参照本办法执行，并由中介机构在专项说明中说明核查情况及结论。\n第十二条 本规定自 2024 年 10 月 8 日起实施。《监管规则适用指引——发行类第2号》同时废止。",
+          "sentences": [
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s0",
+              "text": "第一条 为进一步加强证监会系统离职人员(以下简称离职人员)入股拟上市企业的管理，维护资本市场的公开、公平、公正，根据《中华人民共和国公司法》《中华人民共和国证券法》《首次公开发行股票注册管理办法》《存托凭证发行与交易管理办法（试行）》等，制定本规定。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s1",
+              "text": "第二条 对于申请首次公开发行股票、存托凭证并在上海、深圳证券交易所上市，或向不特定合格投资者公开发行股票并在北京证券交易所上市的企业（以下简称发行人），保荐机构、发行人律师、申报会计师（以下统称中介机构）应当按照本规定要求，做好离职人员入股核查工作，研判是否属于不当入股情形并发表明确意见。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s2",
+              "text": "发行人、保荐机构及发行人律师应当提交离职人员入股情况的专项说明。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s3",
+              "text": "离职人员应当配合中介机构的核查工作。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s4",
+              "text": "第三条 本规定第二条所称不当入股情形包括：\n（一）在入股禁止期内入股；",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s5",
+              "text": "（二）利用原职务影响谋取投资机会；",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s6",
+              "text": "（三）入股过程存在价格不公允等利益输送情形；",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s7",
+              "text": "（四）通过代持方式入股；",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s8",
+              "text": "（五）入股资金来源违法违规；",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s9",
+              "text": "（六）其他不当入股情形。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s10",
+              "text": "第四条 发行人、保荐机构及发行人律师提交的专项说明应当明确是否存在离职人员入股的情形。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s11",
+              "text": "存在离职人员入股情形的，专项说明应当包括以下内容：\n（一）离职人员基本情况。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s12",
+              "text": "包括离职人员的离职时间、工作经历、离职前岗位等；",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s13",
+              "text": "（二）投资机会来源。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s14",
+              "text": "包括离职人员获取投资机会的途径、方法等。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s15",
+              "text": "通过获得相关工作机会获取投资机会的，应当说明是否与原职务影响有关；",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s16",
+              "text": "（三）入股价格。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s17",
+              "text": "包括离职人员入股价格与第三方或者同行业可比公司同时期并购重组、增资入股价格是否存在差异，定价依据是否合理，是否存在显失公允或者利益输送的情形等；",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 17
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s18",
+              "text": "（四）入股资金来源。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 18
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s19",
+              "text": "包括离职人员入股金额与其个人经济收入、家庭背景是否匹配等。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 19
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s20",
+              "text": "属于借款入股的，应当说明出借方有关背景、借款协议、利率、还款期限、还款安排和还款进度，以及借款真实性、是否存在股权代持行为等情况；",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 20
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s21",
+              "text": "（五）退出真实性。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 21
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s22",
+              "text": "离职人员在报告期内清退所持发行人股份的，应当说明离职人员清退股份的路径、方式，受让人有关背景和资金来源，清退价格是否公允，交易对价是否支付，资金流向是否异常，清退行为是否真实等；",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 22
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s23",
+              "text": "（六）与离职人员入股有关的其他重要事项。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 23
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s24",
+              "text": "保荐机构及发行人律师应当对以上事项进行充分核查并发表明确意见。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 24
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s25",
+              "text": "第五条 存在离职人员不当入股情形的，应当予以清理，并在专项说明中详细说明清理情况。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 25
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s26",
+              "text": "不存在离职人员不当入股情形的，离职人员应当出具不存在不当入股情形的承诺，作为专项说明的附件。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 26
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s27",
+              "text": "第六条 发行人提交发行上市申请文件后，发行人或者中介机构发现离职人员入股情况发生变化或者出现媒体质疑的，应当及时向证券交易所报告。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 27
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s28",
+              "text": "第七条 证监会根据需要对离职人员入股情况进行核查，对审核注册过程进行复核，发现违法违纪线索的，移交有关部门处理。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 28
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s29",
+              "text": "第八条 本规定所称离职人员，是指发行人申报时相关股东为离开证监会系统未满十年的原工作人员，具体包括：\n（一）从证监会会机关、派出机构、证券交易所、全国股转公司离职的人员；",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 29
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s30",
+              "text": "（二）从证监会其他会管单位离职的原会管干部；",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 30
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s31",
+              "text": "（三）在证监会发行监管司或公众公司监管司借调累计满十二个月并在借调结束后三年内离职的证监会其他会管单位人员；",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 31
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s32",
+              "text": "（四）从证监会会机关、派出机构、证券交易所、全国股转公司调动到证监会其他会管单位并在调动后三年内离职的人员。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 32
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s33",
+              "text": "第九条 本规定所称入股禁止期，按照以下方式确定：\n（一）离职人员在离职前五年内曾任职发行监管岗位，或者在离职前属于会管干部的，入股禁止期为离职后十年内；",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 33
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s34",
+              "text": "（二）离职人员不属于前项所列情形的，副处级（中层）及以上的入股禁止期为离职后五年内，副处级（中层）以下的为离职后四年内。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 34
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s35",
+              "text": "前款所称发行监管岗位包括证监会发行监管司和公众公司监管司、证券交易所负责发行审核注册及拟上市企业督导和现场检查工作、全国股转公司负责挂牌业务、上海和深圳证券交易所负责上市服务和发行承销监管工作、全国股转公司（北京证券交易所）负责市场服务工作、北京证券交易所负责发行承销监管工作、证监会派出机构负责辅导监管及拟上市企业现场检查工作相关岗位。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 35
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s36",
+              "text": "第十条 发行人在新三板挂牌期间，离职人员通过集合竞价、连续竞价、做市交易等公开交易方式取得发行人股份的，不适用本规定有关核查要求。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 36
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s37",
+              "text": "离职人员因持有上市公司、新三板挂牌企业股份间接持有发行人股份，或者因继承、执行法院判决或仲裁裁决取得发行人股份的，不适用本规定有关核查要求。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 37
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s38",
+              "text": "第十一条 离职人员的父母、配偶、子女及其配偶入股拟上市企业的，核查复核要求参照本办法执行，并由中介机构在专项说明中说明核查情况及结论。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 38
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s39",
+              "text": "第十二条 本规定自 2024 年 10 月 8 日起实施。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 39
+              }
+            },
+            {
+              "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_s40",
+              "text": "《监管规则适用指引——发行类第2号》同时废止。",
+              "location": {
+                "doc_id": "doc_ef89b5633919",
+                "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 40
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_6cd48ebbae68",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国公司法》",
+      "canonical_name": "中华人民共和国公司法",
+      "attributes": {},
+      "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b469a680f128",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国证券法》",
+      "canonical_name": "中华人民共和国证券法",
+      "attributes": {},
+      "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a0f604b66609",
+      "entity_type": "LegalDocument",
+      "mention": "《首次公开发行股票注册管理办法》",
+      "canonical_name": "首次公开发行股票注册管理办法",
+      "attributes": {},
+      "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fa07f66542c0",
+      "entity_type": "LegalDocument",
+      "mention": "《存托凭证发行与交易管理办法（试行）》",
+      "canonical_name": "存托凭证发行与交易管理办法（试行）",
+      "attributes": {},
+      "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5bc07fc61d25",
+      "entity_type": "",
+      "mention": "第一条",
+      "canonical_name": "第一条",
+      "attributes": {},
+      "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d5f0a0069ba1",
+      "entity_type": "LegalDocument",
+      "mention": "《监管规则适用指引——发行类第2号》",
+      "canonical_name": "监管规则适用指引——发行类第2号",
+      "attributes": {},
+      "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cdf8277f597b",
+      "entity_type": "Date",
+      "mention": "2024 年 10 月 8 日",
+      "canonical_name": "2024-10-08",
+      "attributes": {},
+      "sentence_id": "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_ef89b5633919#证监会系统离职人员入股拟上市企业监管规定（试行）_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_9f720830cffa_rel_29b95fe9803a",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_5bc07fc61d25",
+      "tail_entity_id": "ent_6cd48ebbae68",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ef89b5633919",
+        "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_9f720830cffa_rel_2b4435060efc",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_5bc07fc61d25",
+      "tail_entity_id": "ent_b469a680f128",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ef89b5633919",
+        "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_9f720830cffa_rel_3d11830e1572",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_5bc07fc61d25",
+      "tail_entity_id": "ent_a0f604b66609",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ef89b5633919",
+        "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_9f720830cffa_rel_a6d1170aedde",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_5bc07fc61d25",
+      "tail_entity_id": "ent_fa07f66542c0",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ef89b5633919",
+        "section_path": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

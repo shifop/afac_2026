@@ -1,0 +1,269 @@
+{
+  "doc_id": "doc_5b881e853350",
+  "title": "关于《监管规则适用指引—机构类第 3 号》的说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0067_att1.md",
+  "processed_at": "2026-07-21T01:06:56.106758+00:00",
+  "structured_data": {
+    "title": "关于《监管规则适用指引—机构类第 3 号》的说明"
+  },
+  "stats": {
+    "sections": 1,
+    "paragraphs": 1,
+    "sentences": 6,
+    "entities": 8,
+    "relations": 3,
+    "rejected": 0,
+    "llm_calls": 2816,
+    "llm_tokens": 4295986,
+    "elapsed_seconds": 7.98
+  },
+  "sections": [
+    {
+      "section_id": "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明",
+      "section_path": "关于《监管规则适用指引—机构类第 3 号》的说明",
+      "title": "关于《监管规则适用指引—机构类第 3 号》的说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "银发〔2018〕107号/《指导意见》/权益性投资指标/40%净资产限制/以股权投资为主业企业/股东资质要求/穿透式监管",
+        "for": [
+          "监管政策",
+          "投资限额",
+          "股东准入",
+          "主业认定",
+          "合规要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0",
+          "para_index": 0,
+          "content": "《关于加强非金融企业投资金融机构监管的指导意见》（银发〔2018〕107 号，以下简称《指导意见》）规定权益性投资指标的主要目的是防止实业企业盲目扩张投资、无序入股金融机构，防范风险跨机构跨业态传递。《证券法》《证券公司监督管理条例》等相关法律法规也对证券基金经营机构股东特别是控股股东提出了资质要求。监管实践中发现，部分拟控股证券基金经营机构的非金融企业以股权投资为主业，对其适用权益性投资余额不超过本企业净资产 40%的要求不尽合理，将导致自有资金大量闲置等问题。综合考虑《指导意见》的原则性要求和监管实践，在严控风险的前提下，进一步明确权益性投资指标的适用范围。除权益性投资指标外，“以股权投资为主业的企业”仍须严格遵守《指导意见》和法律法规的相关要求。\n证监会将坚决贯彻落实中央金融工作会议精神，持续强化穿透式监管，严把证券基金经营机构股东准入关口，依法支持资质优良的主体成为控股股东，严防无序跨业。",
+          "sentences": [
+            {
+              "sentence_id": "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s0",
+              "text": "《关于加强非金融企业投资金融机构监管的指导意见》（银发〔2018〕107 号，以下简称《指导意见》）规定权益性投资指标的主要目的是防止实业企业盲目扩张投资、无序入股金融机构，防范风险跨机构跨业态传递。",
+              "location": {
+                "doc_id": "doc_5b881e853350",
+                "section_path": "关于《监管规则适用指引—机构类第 3 号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s1",
+              "text": "《证券法》《证券公司监督管理条例》等相关法律法规也对证券基金经营机构股东特别是控股股东提出了资质要求。",
+              "location": {
+                "doc_id": "doc_5b881e853350",
+                "section_path": "关于《监管规则适用指引—机构类第 3 号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s2",
+              "text": "监管实践中发现，部分拟控股证券基金经营机构的非金融企业以股权投资为主业，对其适用权益性投资余额不超过本企业净资产 40%的要求不尽合理，将导致自有资金大量闲置等问题。",
+              "location": {
+                "doc_id": "doc_5b881e853350",
+                "section_path": "关于《监管规则适用指引—机构类第 3 号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s3",
+              "text": "综合考虑《指导意见》的原则性要求和监管实践，在严控风险的前提下，进一步明确权益性投资指标的适用范围。",
+              "location": {
+                "doc_id": "doc_5b881e853350",
+                "section_path": "关于《监管规则适用指引—机构类第 3 号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s4",
+              "text": "除权益性投资指标外，“以股权投资为主业的企业”仍须严格遵守《指导意见》和法律法规的相关要求。",
+              "location": {
+                "doc_id": "doc_5b881e853350",
+                "section_path": "关于《监管规则适用指引—机构类第 3 号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s5",
+              "text": "证监会将坚决贯彻落实中央金融工作会议精神，持续强化穿透式监管，严把证券基金经营机构股东准入关口，依法支持资质优良的主体成为控股股东，严防无序跨业。",
+              "location": {
+                "doc_id": "doc_5b881e853350",
+                "section_path": "关于《监管规则适用指引—机构类第 3 号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_cf376842c9f9",
+      "entity_type": "LegalDocument",
+      "mention": "《关于加强非金融企业投资金融机构监管的指导意见》",
+      "canonical_name": "关于加强非金融企业投资金融机构监管的指导意见",
+      "attributes": {
+        "document_number": "银发〔2018〕107 号"
+      },
+      "sentence_id": "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0acf1563303d",
+      "entity_type": "LegalDocument",
+      "mention": "《证券法》",
+      "canonical_name": "证券法",
+      "attributes": {},
+      "sentence_id": "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s1",
+      "sentence_ids": [
+        "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7953387bfe15",
+      "entity_type": "LegalDocument",
+      "mention": "《证券公司监督管理条例》",
+      "canonical_name": "证券公司监督管理条例",
+      "attributes": {},
+      "sentence_id": "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s1",
+      "sentence_ids": [
+        "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_49ba5853d320",
+      "entity_type": "Industry",
+      "mention": "证券基金经营机构",
+      "canonical_name": "证券基金经营机构",
+      "attributes": {},
+      "sentence_id": "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s1",
+      "sentence_ids": [
+        "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3852ef1b9af3",
+      "entity_type": "FinancialMetric",
+      "mention": "权益性投资余额",
+      "canonical_name": "权益性投资余额",
+      "attributes": {},
+      "sentence_id": "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s2",
+      "sentence_ids": [
+        "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a29938694f6e",
+      "entity_type": "MonetaryAmount",
+      "mention": "40%",
+      "canonical_name": "40%",
+      "attributes": {
+        "unit": "percentage"
+      },
+      "sentence_id": "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s2",
+      "sentence_ids": [
+        "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0ba6a09b281c",
+      "entity_type": "Industry",
+      "mention": "以股权投资为主业的企业",
+      "canonical_name": "股权投资行业",
+      "attributes": {},
+      "sentence_id": "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s2",
+      "sentence_ids": [
+        "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3ac8820f5b4a",
+      "entity_type": "Organization",
+      "mention": "证监会",
+      "canonical_name": "证监会",
+      "attributes": {},
+      "sentence_id": "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s5",
+      "sentence_ids": [
+        "doc_5b881e853350#关于《监管规则适用指引—机构类第 3 号》的说明_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_1d749a5988d1_rel_87a4a471eadf",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_cf376842c9f9",
+      "tail_entity_id": "ent_0acf1563303d",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5b881e853350",
+        "section_path": "关于《监管规则适用指引—机构类第 3 号》的说明",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_1d749a5988d1_rel_ecbd383c86cb",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_cf376842c9f9",
+      "tail_entity_id": "ent_7953387bfe15",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5b881e853350",
+        "section_path": "关于《监管规则适用指引—机构类第 3 号》的说明",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_1d749a5988d1_rel_61f933f0b50b",
+      "relation_type": "reports_financial",
+      "head_entity_id": "ent_49ba5853d320",
+      "tail_entity_id": "ent_3852ef1b9af3",
+      "properties": {
+        "value_entity_name": "40%"
+      },
+      "evidence": {
+        "doc_id": "doc_5b881e853350",
+        "section_path": "关于《监管规则适用指引—机构类第 3 号》的说明",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

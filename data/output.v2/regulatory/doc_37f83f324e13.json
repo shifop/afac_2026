@@ -1,0 +1,1551 @@
+{
+  "doc_id": "doc_37f83f324e13",
+  "title": "关于短线交易监管的若干规定",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0014_att1.md",
+  "processed_at": "2026-07-21T00:19:32.177427+00:00",
+  "structured_data": {
+    "title": "关于短线交易监管的若干规定"
+  },
+  "stats": {
+    "sections": 1,
+    "paragraphs": 1,
+    "sentences": 37,
+    "entities": 50,
+    "relations": 31,
+    "rejected": 0,
+    "llm_calls": 434,
+    "llm_tokens": 800426,
+    "elapsed_seconds": 35.24
+  },
+  "sections": [
+    {
+      "section_id": "doc_37f83f324e13#关于短线交易监管的若干规定",
+      "section_path": "关于短线交易监管的若干规定",
+      "title": "关于短线交易监管的若干规定",
+      "level": 1,
+      "reading_guide": {
+        "has": "短线交易定义/特定身份投资者/持股5%以上股东/董监高/六个月期限/证券范围/非交易豁免情形/账户合并计算规则/独立产品认定/违规处罚与从轻减轻条款",
+        "for": [
+          "认定标准",
+          "豁免情形",
+          "处罚规定",
+          "主体界定",
+          "时间窗口"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0",
+          "para_index": 0,
+          "content": "第一条 为了明确证券市场短线交易行为认定标准，保护投资者合法权益，促进证券市场健康稳定发展，根据《中华人民共和国公司法》《中华人民共和国证券法》（以下简称《证券法》）、《中华人民共和国行政处罚法》（以下简称《行政处罚法》）、《中华人民共和国证券投资基金法》（以下简称《基金法》）等法律、行政法规、部门规章，制定本规定。\n第二条 本规定所称短线交易，是指特定身份投资者在买入后六个月内卖出，或者在卖出后六个月内又买入同一上市公司、股票在国务院批准的其他全国性证券交易场所交易的公司（以下简称新三板挂牌公司）的证券的行为。\n本规定所称特定身份投资者，是指持有上市公司、新三板挂牌公司百分之五以上股份的股东及上市公司、新三板挂牌公司的董事、监事、高级管理人员。\n本规定所称证券，是指股票以及其他具有股权性质的证券，包括股票、存托凭证、可交换公司债券、可转换公司债券等。\n第三条 持有百分之五以上股份的股东，是指持有同一上市公司、新三板挂牌公司在境内外已发行股份合计达到百分之五以上的股东。\n内地和香港股票市场交易互联互通机制下，香港中央结算有限公司仅作为名义持有人持有上市公司股份达到百分之五以上的，不视为前款规定的持有百分之五以上股份的股东。\n第四条 特定身份投资者买入证券后六个月内卖出的，或者卖出后六个月内买入的，应当适用本规定。投资者买入时不具备特定身份，但买入后卖出时具备的，应当适用本规定。\n第五条 买入、卖出行为，是指支付对价买入导致证券数量增加，或为获取对价卖出导致证券数量减少的行为。买入、卖出时点以证券过户登记日为准，法律、行政法规另有规定的，从其规定。\n第六条 下列行为导致证券数量变动的，不构成短线交易，但利用信息优势等，谋取非法利益的除外：\n（一）优先股转股；\n（二）可交换公司债券换股、赎回及回售；\n（三）可转换公司债券转股、赎回及回售；\n（四）认购、申购、赎回交易型开放式指数基金（ETF）。完全按照有关指数的构成比例进行证券投资的基金因跟踪指数变动或者因投资者认购、申购、赎回导致证券数量变动；\n（五）司法强制执行、继承、捐赠等非交易行为；\n（六）根据国有股份管理部门决定，无偿划转国有股份；\n（七）上市公司、新三板挂牌公司股权激励限制性股票\n授予、登记或者股票期权行权；\n（八）证券公司购入包销售后剩余股票；\n（九）证券公司等按照法律法规等要求，依法合规开展股票做市业务，履行做市报价义务的相关交易行为；\n（十）根据中国证监会依据《证券法》第二十四条作出的责令回购决定开展的回购行为；\n（十一）根据中国证监会责令购回违规减持股份监管措施或者违规主体主动购回违规减持股份开展的购回行为；\n（十二）为应对重大金融风险、维护金融稳定需要依法依规进行的交易行为；\n（十三）中国证监会规定的其他情形。\n第七条 短线交易认定涉及的证券，按照股票、存托凭证、可交换公司债券、可转换公司债券等各品种的持有数量分别予以计算。\n第八条 短线交易认定涉及的董事、监事、高级管理人员、自然人股东持有的证券，包括其配偶、父母、子女持有的以及利用他人账户持有的证券。\n第九条 以下依法单独开立证券账户、依照有关监管要求独立开展投资的产品或组合，可单独计算持股数量。但产品或者组合由同一管理人统一决策或者受同一投资者实际控制，无法实现独立、规范运作，或者在交易过程中存在利益冲突、违法违规等情形的除外：\n（一）全国社会保障基金、基本养老保险基金、年金基\n金、保险资金等；\n（二）依照《基金法》等法律、行政法规设立的公开募集证券投资基金；\n（三）证券期货基金经营机构管理的集合私募资产管理产品；\n（四）符合有关监管规定，依法设立且按产品单独开立证券账户的私募证券投资基金；\n（五）合格境外机构投资者、人民币合格境外机构投资者在境内按基金产品开立证券账户的公募基金，以及内地与香港股票市场交易互联互通机制下按基金产品开立北向投资者身份识别码的公募基金。上述按产品单独计算持有证券数量的公募基金管理机构应当按月度向证券交易所报告通过内地与香港股票市场交易互联互通机制持有证券数量的投资情况。\n第十条 同一境外投资者应当将其通过合格境外机构投资者、人民币合格境外机构投资者，A 股上市公司的外国战略投资者，以及内地与香港股票市场交易互联互通机制持有的境内同一上市公司或者新三板挂牌公司的证券数量合并计算。\n第十一条 特定身份投资者违反短线交易规定的，中国证监会可以依照《证券法》及有关规定采取行政监管措施或者作出行政处罚决定。\n特定身份投资者违反短线交易规定，主动向中国证监会报告尚未被掌握的违法行为，或者及时向上市公司、新三板挂牌公司缴纳全部所得收益的，中国证监会可以依据《行政处罚法》规定，从轻、减轻或者不予行政处罚。\n第十二条 本规定自 2026 年 4 月 7 日起施行。",
+          "sentences": [
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s0",
+              "text": "第一条 为了明确证券市场短线交易行为认定标准，保护投资者合法权益，促进证券市场健康稳定发展，根据《中华人民共和国公司法》《中华人民共和国证券法》（以下简称《证券法》）、《中华人民共和国行政处罚法》（以下简称《行政处罚法》）、《中华人民共和国证券投资基金法》（以下简称《基金法》）等法律、行政法规、部门规章，制定本规定。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s1",
+              "text": "第二条 本规定所称短线交易，是指特定身份投资者在买入后六个月内卖出，或者在卖出后六个月内又买入同一上市公司、股票在国务院批准的其他全国性证券交易场所交易的公司（以下简称新三板挂牌公司）的证券的行为。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s2",
+              "text": "本规定所称特定身份投资者，是指持有上市公司、新三板挂牌公司百分之五以上股份的股东及上市公司、新三板挂牌公司的董事、监事、高级管理人员。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s3",
+              "text": "本规定所称证券，是指股票以及其他具有股权性质的证券，包括股票、存托凭证、可交换公司债券、可转换公司债券等。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s4",
+              "text": "第三条 持有百分之五以上股份的股东，是指持有同一上市公司、新三板挂牌公司在境内外已发行股份合计达到百分之五以上的股东。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s5",
+              "text": "内地和香港股票市场交易互联互通机制下，香港中央结算有限公司仅作为名义持有人持有上市公司股份达到百分之五以上的，不视为前款规定的持有百分之五以上股份的股东。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s6",
+              "text": "第四条 特定身份投资者买入证券后六个月内卖出的，或者卖出后六个月内买入的，应当适用本规定。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s7",
+              "text": "投资者买入时不具备特定身份，但买入后卖出时具备的，应当适用本规定。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s8",
+              "text": "第五条 买入、卖出行为，是指支付对价买入导致证券数量增加，或为获取对价卖出导致证券数量减少的行为。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s9",
+              "text": "买入、卖出时点以证券过户登记日为准，法律、行政法规另有规定的，从其规定。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s10",
+              "text": "第六条 下列行为导致证券数量变动的，不构成短线交易，但利用信息优势等，谋取非法利益的除外：\n（一）优先股转股；",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s11",
+              "text": "（二）可交换公司债券换股、赎回及回售；",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s12",
+              "text": "（三）可转换公司债券转股、赎回及回售；",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s13",
+              "text": "（四）认购、申购、赎回交易型开放式指数基金（ETF）。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s14",
+              "text": "完全按照有关指数的构成比例进行证券投资的基金因跟踪指数变动或者因投资者认购、申购、赎回导致证券数量变动；",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s15",
+              "text": "（五）司法强制执行、继承、捐赠等非交易行为；",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s16",
+              "text": "（六）根据国有股份管理部门决定，无偿划转国有股份；",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s17",
+              "text": "（七）上市公司、新三板挂牌公司股权激励限制性股票\n授予、登记或者股票期权行权；",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 17
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s18",
+              "text": "（八）证券公司购入包销售后剩余股票；",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 18
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s19",
+              "text": "（九）证券公司等按照法律法规等要求，依法合规开展股票做市业务，履行做市报价义务的相关交易行为；",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 19
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s20",
+              "text": "（十）根据中国证监会依据《证券法》第二十四条作出的责令回购决定开展的回购行为；",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 20
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s21",
+              "text": "（十一）根据中国证监会责令购回违规减持股份监管措施或者违规主体主动购回违规减持股份开展的购回行为；",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 21
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s22",
+              "text": "（十二）为应对重大金融风险、维护金融稳定需要依法依规进行的交易行为；",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 22
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s23",
+              "text": "（十三）中国证监会规定的其他情形。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 23
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s24",
+              "text": "第七条 短线交易认定涉及的证券，按照股票、存托凭证、可交换公司债券、可转换公司债券等各品种的持有数量分别予以计算。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 24
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s25",
+              "text": "第八条 短线交易认定涉及的董事、监事、高级管理人员、自然人股东持有的证券，包括其配偶、父母、子女持有的以及利用他人账户持有的证券。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 25
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s26",
+              "text": "第九条 以下依法单独开立证券账户、依照有关监管要求独立开展投资的产品或组合，可单独计算持股数量。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 26
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s27",
+              "text": "但产品或者组合由同一管理人统一决策或者受同一投资者实际控制，无法实现独立、规范运作，或者在交易过程中存在利益冲突、违法违规等情形的除外：\n（一）全国社会保障基金、基本养老保险基金、年金基\n金、保险资金等；",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 27
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s28",
+              "text": "（二）依照《基金法》等法律、行政法规设立的公开募集证券投资基金；",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 28
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s29",
+              "text": "（三）证券期货基金经营机构管理的集合私募资产管理产品；",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 29
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s30",
+              "text": "（四）符合有关监管规定，依法设立且按产品单独开立证券账户的私募证券投资基金；",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 30
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s31",
+              "text": "（五）合格境外机构投资者、人民币合格境外机构投资者在境内按基金产品开立证券账户的公募基金，以及内地与香港股票市场交易互联互通机制下按基金产品开立北向投资者身份识别码的公募基金。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 31
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s32",
+              "text": "上述按产品单独计算持有证券数量的公募基金管理机构应当按月度向证券交易所报告通过内地与香港股票市场交易互联互通机制持有证券数量的投资情况。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 32
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s33",
+              "text": "第十条 同一境外投资者应当将其通过合格境外机构投资者、人民币合格境外机构投资者，A 股上市公司的外国战略投资者，以及内地与香港股票市场交易互联互通机制持有的境内同一上市公司或者新三板挂牌公司的证券数量合并计算。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 33
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s34",
+              "text": "第十一条 特定身份投资者违反短线交易规定的，中国证监会可以依照《证券法》及有关规定采取行政监管措施或者作出行政处罚决定。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 34
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s35",
+              "text": "特定身份投资者违反短线交易规定，主动向中国证监会报告尚未被掌握的违法行为，或者及时向上市公司、新三板挂牌公司缴纳全部所得收益的，中国证监会可以依据《行政处罚法》规定，从轻、减轻或者不予行政处罚。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 35
+              }
+            },
+            {
+              "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_s36",
+              "text": "第十二条 本规定自 2026 年 4 月 7 日起施行。",
+              "location": {
+                "doc_id": "doc_37f83f324e13",
+                "section_path": "关于短线交易监管的若干规定",
+                "paragraph_index": 0,
+                "sentence_index": 36
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_73bf53702972",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国公司法》",
+      "canonical_name": "中华人民共和国公司法",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_475cb0e8b91f",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国证券法》",
+      "canonical_name": "中华人民共和国证券法",
+      "attributes": {
+        "short_name": "《证券法》"
+      },
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a3c8f9aa22b0",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国行政处罚法》",
+      "canonical_name": "中华人民共和国行政处罚法",
+      "attributes": {
+        "short_name": "《行政处罚法》"
+      },
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fa2002615be0",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国证券投资基金法》",
+      "canonical_name": "中华人民共和国证券投资基金法",
+      "attributes": {
+        "short_name": "《基金法》"
+      },
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_60f1c45fe9e2",
+      "entity_type": "Clause",
+      "mention": "第二条 本规定所称短线交易...",
+      "canonical_name": "短线交易定义条款",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_404de441c046",
+      "entity_type": "Clause",
+      "mention": "本规定所称特定身份投资者...",
+      "canonical_name": "特定身份投资者定义条款",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9a698964697e",
+      "entity_type": "Clause",
+      "mention": "本规定所称证券...",
+      "canonical_name": "证券定义条款",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0f944911000c",
+      "entity_type": "Clause",
+      "mention": "第三条 持有百分之五以上股份的股东...",
+      "canonical_name": "持股百分之五以上股东定义条款",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_75165c45fff5",
+      "entity_type": "Clause",
+      "mention": "第四条 特定身份投资者买入证券后六个月内卖出的...",
+      "canonical_name": "适用情形条款",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_82992733fa7e",
+      "entity_type": "Clause",
+      "mention": "第五条 买入、卖出行为...",
+      "canonical_name": "买卖行为定义条款",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_04953e52592e",
+      "entity_type": "Clause",
+      "mention": "第六条 下列行为导致证券数量变动的，不构成短线交易...",
+      "canonical_name": "不构成短线交易情形条款",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_faea518025d8",
+      "entity_type": "Exclusion",
+      "mention": "（一）优先股转股",
+      "canonical_name": "优先股转股",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_307e7cacd9fb",
+      "entity_type": "Exclusion",
+      "mention": "（二）可交换公司债券换股、赎回及回售",
+      "canonical_name": "可交换公司债券换股、赎回及回售",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_070d7074be50",
+      "entity_type": "Exclusion",
+      "mention": "（三）可转换公司债券转股、赎回及回售",
+      "canonical_name": "可转换公司债券转股、赎回及回售",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_99871cd7eb01",
+      "entity_type": "Exclusion",
+      "mention": "（四）认购、申购、赎回交易型开放式指数基金（ETF）",
+      "canonical_name": "ETF认购申购赎回",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b3d3dc9f8d3b",
+      "entity_type": "Exclusion",
+      "mention": "（五）司法强制执行、继承、捐赠等非交易行为",
+      "canonical_name": "司法强制执行等非交易行为",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6398386fd4a2",
+      "entity_type": "Exclusion",
+      "mention": "（六）根据国有股份管理部门决定，无偿划转国有股份",
+      "canonical_name": "国有股份无偿划转",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_85314f92a11d",
+      "entity_type": "Exclusion",
+      "mention": "（七）上市公司、新三板挂牌公司股权激励限制性股票授予、登记或者股票期权行权",
+      "canonical_name": "股权激励相关行为",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d61d58afd674",
+      "entity_type": "Exclusion",
+      "mention": "（八）证券公司购入包销售后剩余股票",
+      "canonical_name": "证券公司包销售剩余股票购入",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8bae782838a1",
+      "entity_type": "LegalTerm",
+      "mention": "短线交易",
+      "canonical_name": "短线交易",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8d1054481f42",
+      "entity_type": "LegalTerm",
+      "mention": "特定身份投资者",
+      "canonical_name": "特定身份投资者",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b825ea2274d0",
+      "entity_type": "LegalTerm",
+      "mention": "董事",
+      "canonical_name": "董事",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_32417ce336f8",
+      "entity_type": "LegalTerm",
+      "mention": "监事",
+      "canonical_name": "监事",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5dab7b624289",
+      "entity_type": "LegalTerm",
+      "mention": "高级管理人员",
+      "canonical_name": "高级管理人员",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d05ac495e6eb",
+      "entity_type": "LegalTerm",
+      "mention": "证券",
+      "canonical_name": "证券",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1628b7108b75",
+      "entity_type": "LegalTerm",
+      "mention": "股票",
+      "canonical_name": "股票",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_44badd1027c4",
+      "entity_type": "LegalTerm",
+      "mention": "存托凭证",
+      "canonical_name": "存托凭证",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4a74c96058b7",
+      "entity_type": "LegalTerm",
+      "mention": "可交换公司债券",
+      "canonical_name": "可交换公司债券",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_74b59bc1ab1b",
+      "entity_type": "LegalTerm",
+      "mention": "可转换公司债券",
+      "canonical_name": "可转换公司债券",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d599df2e5f7c",
+      "entity_type": "LegalTerm",
+      "mention": "交易型开放式指数基金",
+      "canonical_name": "交易型开放式指数基金",
+      "attributes": {
+        "abbreviation": "ETF"
+      },
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_79a07a7681a2",
+      "entity_type": "Industry",
+      "mention": "证券市场",
+      "canonical_name": "证券市场",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d9119d1aa500",
+      "entity_type": "Industry",
+      "mention": "股票市场",
+      "canonical_name": "股票市场",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0c21fb33284d",
+      "entity_type": "",
+      "mention": "不适用情形条款",
+      "canonical_name": "不适用情形条款",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_df27b689a73e",
+      "entity_type": "Exclusion",
+      "mention": "（九）证券公司等按照法律法规等要求，依法合规开展股票做市业务...",
+      "canonical_name": "做市业务交易行为",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e7fd48a3e852",
+      "entity_type": "Exclusion",
+      "mention": "（十）根据中国证监会依据《证券法》第二十四条作出的责令回购决定开展的回购行为",
+      "canonical_name": "责令回购行为",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_701cf6d9dcbe",
+      "entity_type": "Exclusion",
+      "mention": "（十一）根据中国证监会责令购回违规减持股份监管措施或者违规主体主动购回违规减持股份开展的购回行为",
+      "canonical_name": "违规减持购回行为",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_54652c2931b8",
+      "entity_type": "Exclusion",
+      "mention": "（十二）为应对重大金融风险、维护金融稳定需要依法依规进行的交易行为",
+      "canonical_name": "应对重大金融风险交易",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_df22f3ffebf8",
+      "entity_type": "LegalTerm",
+      "mention": "全国社会保障基金",
+      "canonical_name": "全国社会保障基金",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c51522f0ee00",
+      "entity_type": "LegalTerm",
+      "mention": "基本养老保险基金",
+      "canonical_name": "基本养老保险基金",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_dfc10b776cc7",
+      "entity_type": "LegalTerm",
+      "mention": "年金基金",
+      "canonical_name": "年金基金",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cb1e88167da1",
+      "entity_type": "LegalTerm",
+      "mention": "保险资金",
+      "canonical_name": "保险资金",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6acb8cfbb15a",
+      "entity_type": "LegalTerm",
+      "mention": "公开募集证券投资基金",
+      "canonical_name": "公开募集证券投资基金",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_39e1ded51373",
+      "entity_type": "LegalTerm",
+      "mention": "集合私募资产管理产品",
+      "canonical_name": "集合私募资产管理产品",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a23b711b4929",
+      "entity_type": "LegalTerm",
+      "mention": "私募证券投资基金",
+      "canonical_name": "私募证券投资基金",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c4ddb829a62e",
+      "entity_type": "LegalTerm",
+      "mention": "合格境外机构投资者",
+      "canonical_name": "合格境外机构投资者",
+      "attributes": {
+        "abbreviation": "QFII"
+      },
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b35e65bf2ab1",
+      "entity_type": "LegalTerm",
+      "mention": "人民币合格境外机构投资者",
+      "canonical_name": "人民币合格境外机构投资者",
+      "attributes": {
+        "abbreviation": "RQFII"
+      },
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_83edc50855cd",
+      "entity_type": "LegalTerm",
+      "mention": "北向投资者",
+      "canonical_name": "北向投资者",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fd98fe48969f",
+      "entity_type": "LegalTerm",
+      "mention": "外国战略投资者",
+      "canonical_name": "外国战略投资者",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2255252a2f91",
+      "entity_type": "",
+      "mention": "行政处罚条款",
+      "canonical_name": "行政处罚条款",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_818dea53237f",
+      "entity_type": "Date",
+      "mention": "2026 年 4 月 7 日",
+      "canonical_name": "2026-04-07",
+      "attributes": {},
+      "sentence_id": "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_37f83f324e13#关于短线交易监管的若干规定_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_51dc22383d3b_rel_d556bc1fbde2",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_60f1c45fe9e2",
+      "tail_entity_id": "ent_73bf53702972",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_b237e88408d0",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_60f1c45fe9e2",
+      "tail_entity_id": "ent_475cb0e8b91f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_1b8e47e29511",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_60f1c45fe9e2",
+      "tail_entity_id": "ent_a3c8f9aa22b0",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_34de52c2f967",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_60f1c45fe9e2",
+      "tail_entity_id": "ent_fa2002615be0",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_f6b3487d6163",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_60f1c45fe9e2",
+      "tail_entity_id": "ent_8bae782838a1",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_5991347965b0",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_404de441c046",
+      "tail_entity_id": "ent_8d1054481f42",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_1a704a5ac035",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_404de441c046",
+      "tail_entity_id": "ent_b825ea2274d0",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_767ba3b846cf",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_404de441c046",
+      "tail_entity_id": "ent_32417ce336f8",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_0dd53546e3ee",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_404de441c046",
+      "tail_entity_id": "ent_5dab7b624289",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_bcb5bc365444",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_9a698964697e",
+      "tail_entity_id": "ent_d05ac495e6eb",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_a9138dca57a8",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_9a698964697e",
+      "tail_entity_id": "ent_1628b7108b75",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_80a0a9f7c599",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_9a698964697e",
+      "tail_entity_id": "ent_44badd1027c4",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_71662d0657fe",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_9a698964697e",
+      "tail_entity_id": "ent_4a74c96058b7",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_401fca629c00",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_9a698964697e",
+      "tail_entity_id": "ent_74b59bc1ab1b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_f5b15ab583dd",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c21fb33284d",
+      "tail_entity_id": "ent_faea518025d8",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_5617c609e2bc",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c21fb33284d",
+      "tail_entity_id": "ent_307e7cacd9fb",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_c1314c12f8f4",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c21fb33284d",
+      "tail_entity_id": "ent_070d7074be50",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_28fdba0bef91",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c21fb33284d",
+      "tail_entity_id": "ent_99871cd7eb01",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_a85d0dab038e",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c21fb33284d",
+      "tail_entity_id": "ent_b3d3dc9f8d3b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_c8e72fd116a1",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c21fb33284d",
+      "tail_entity_id": "ent_6398386fd4a2",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_348305705864",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c21fb33284d",
+      "tail_entity_id": "ent_85314f92a11d",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_6a3b9e49a104",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c21fb33284d",
+      "tail_entity_id": "ent_d61d58afd674",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_e4fb359fce23",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c21fb33284d",
+      "tail_entity_id": "ent_df27b689a73e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_479e4db4f179",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c21fb33284d",
+      "tail_entity_id": "ent_e7fd48a3e852",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_3e5b99faa193",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c21fb33284d",
+      "tail_entity_id": "ent_701cf6d9dcbe",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_5194e2e01d8a",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c21fb33284d",
+      "tail_entity_id": "ent_54652c2931b8",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_a5ea1cad7de6",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_e7fd48a3e852",
+      "tail_entity_id": "ent_475cb0e8b91f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_d257261365b6",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_701cf6d9dcbe",
+      "tail_entity_id": "ent_475cb0e8b91f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_5a3c61f0b8bc",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_701cf6d9dcbe",
+      "tail_entity_id": "ent_a3c8f9aa22b0",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_02de90cada47",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_2255252a2f91",
+      "tail_entity_id": "ent_475cb0e8b91f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_51dc22383d3b_rel_8234a790170b",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_2255252a2f91",
+      "tail_entity_id": "ent_a3c8f9aa22b0",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37f83f324e13",
+        "section_path": "关于短线交易监管的若干规定",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

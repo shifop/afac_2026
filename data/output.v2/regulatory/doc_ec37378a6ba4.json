@@ -1,0 +1,935 @@
+{
+  "doc_id": "doc_ec37378a6ba4",
+  "title": "起草说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0045_att2.md",
+  "processed_at": "2026-07-21T00:56:10.464685+00:00",
+  "structured_data": {
+    "title": "上市公司监管指引第 10 号——市值管理"
+  },
+  "stats": {
+    "sections": 5,
+    "paragraphs": 5,
+    "sentences": 26,
+    "entities": 24,
+    "relations": 14,
+    "rejected": 0,
+    "llm_calls": 2508,
+    "llm_tokens": 3821235,
+    "elapsed_seconds": 21.72
+  },
+  "sections": [
+    {
+      "section_id": "doc_ec37378a6ba4#起草说明",
+      "section_path": "起草说明",
+      "title": "起草说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "国发〔2024〕10号/上市公司监管指引第10号/市值管理/投资者回报",
+        "for": [
+          "政策背景",
+          "文件依据",
+          "制定目的"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_ec37378a6ba4#起草说明_p0",
+          "para_index": 0,
+          "content": "为贯彻落实《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》（国发〔2024〕10 号），进一步引导上市公司提高对自身投资价值的关注，切实提升投资者回报水平，中国证监会研究制定了《上市公司监管指引第 10号——市值管理》（以下简称《指引》）。现将有关情况说明如下。",
+          "sentences": [
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明_p0_s0",
+              "text": "为贯彻落实《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》（国发〔2024〕10 号），进一步引导上市公司提高对自身投资价值的关注，切实提升投资者回报水平，中国证监会研究制定了《上市公司监管指引第 10号——市值管理》（以下简称《指引》）。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明_p0_s1",
+              "text": "现将有关情况说明如下。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_ec37378a6ba4#起草说明 > 一、起草背景",
+      "section_path": "起草说明 > 一、起草背景",
+      "title": "一、起草背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "上市公司质量提升/经营效率/信息披露/分红回购增持/业绩说明会/市值管理指引/国发〔2024〕10号",
+        "for": [
+          "政策背景",
+          "监管要求",
+          "市场现状",
+          "文件依据"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_ec37378a6ba4#起草说明 > 一、起草背景_p0",
+          "para_index": 0,
+          "content": "近年来，我会持续推动上市公司质量提升，支持和引导上市公司不断改善经营效率和盈利能力，增强信息披露质量和透明度，增进与投资者沟通互动，综合运用分红、回购、大股东增持等手段提升投资价值。今年以来，95%以上的上市公司召开了业绩说明会，股份回购家数和金额以及现金分红金额均创历史新高，中期分红家数增长近三倍。总体来看，上市公司积极与投资者交流沟通、多措并举提升上市公司投资价值的市场氛围正在形成。但实践中仍然存在部分上市公司投资价值未被合理反映等问题，一定程度上影响了投资者信心和资本市场稳定。\n今年 4 月，《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》（国发〔2024〕10 号）明确要求推动上市公司提升投资价值，制定上市公司市值管理指引。\n为抓好贯彻落实，切实提升投资者回报，我们会同相关部委研究起草了《指引》，要求上市公司牢固树立以投资者为本的意识，推动上市公司投资价值充分反映上市公司质量。",
+          "sentences": [
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 一、起草背景_p0_s0",
+              "text": "近年来，我会持续推动上市公司质量提升，支持和引导上市公司不断改善经营效率和盈利能力，增强信息披露质量和透明度，增进与投资者沟通互动，综合运用分红、回购、大股东增持等手段提升投资价值。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 一、起草背景_p0_s1",
+              "text": "今年以来，95%以上的上市公司召开了业绩说明会，股份回购家数和金额以及现金分红金额均创历史新高，中期分红家数增长近三倍。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 一、起草背景_p0_s2",
+              "text": "总体来看，上市公司积极与投资者交流沟通、多措并举提升上市公司投资价值的市场氛围正在形成。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 一、起草背景_p0_s3",
+              "text": "但实践中仍然存在部分上市公司投资价值未被合理反映等问题，一定程度上影响了投资者信心和资本市场稳定。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 一、起草背景_p0_s4",
+              "text": "今年 4 月，《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》（国发〔2024〕10 号）明确要求推动上市公司提升投资价值，制定上市公司市值管理指引。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 一、起草背景_p0_s5",
+              "text": "为抓好贯彻落实，切实提升投资者回报，我们会同相关部委研究起草了《指引》，要求上市公司牢固树立以投资者为本的意识，推动上市公司投资价值充分反映上市公司质量。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容",
+      "section_path": "起草说明 > 二、主要内容",
+      "title": "二、主要内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "《指引》十五条/市值管理定义/并购重组/股权激励/现金分红/股份回购/董事会责任/董事长职责/董秘工作/控股股东增持/指数成份股要求/破净公司估值计划",
+        "for": [
+          "政策内容",
+          "管理方式",
+          "主体责任",
+          "特殊要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0",
+          "para_index": 0,
+          "content": "《指引》共十五条，包括以下四方面内容：\n（一）明确市值管理的定义\n《指引》第一条至第三条明确了市值管理的目标、定义和具体方式。上市公司开展市值管理应当以提高公司质量为基础，依法依规运用并购重组、股权激励、员工持股计划、现金分红、投资者关系管理、信息披露、股份回购等方式促进上市公司投资价值合理反映上市公司质量。\n（二）明确相关主体的责任义务\n《指引》第四条至第七条分别对上市公司董事会、董事和高级管理人员、控股股东等相关主体责任义务进行了明确。一是董事会应当重视上市公司质量的提升，在各项重大决策和具体工作中充分考虑投资者利益和回报。二是董事长应当做好相关工作的督促、推动和协调，董事和高级管理人员应当积极参与提升上市公司投资价值的各项工作。三是董事会秘书应当做好投资者关系管理和信息披露等相关工作。四是控股股东可以通过股份增持等方式提振市场信心。\n（三）明确两类公司的特殊要求\n《指引》第八条和第九条就主要指数成份股公司和长期破净公司作出专门要求。一是主要指数成份股公司应当制定市值管理制度，明确具体职责分工等，经董事会审议后披露市值管理制度的制定情况，并在年度业绩说明会中就制度执行情况进行专项说明。其他上市公司可参照执行。二是长期破净公司应当披露估值提升计划，市净率低于所在行业平均水平的长期破净公司还应在年度业绩说明会中就估值提升计划执行情况进行专项说明。",
+          "sentences": [
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s0",
+              "text": "《指引》共十五条，包括以下四方面内容：\n（一）明确市值管理的定义\n《指引》第一条至第三条明确了市值管理的目标、定义和具体方式。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s1",
+              "text": "上市公司开展市值管理应当以提高公司质量为基础，依法依规运用并购重组、股权激励、员工持股计划、现金分红、投资者关系管理、信息披露、股份回购等方式促进上市公司投资价值合理反映上市公司质量。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s2",
+              "text": "（二）明确相关主体的责任义务\n《指引》第四条至第七条分别对上市公司董事会、董事和高级管理人员、控股股东等相关主体责任义务进行了明确。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s3",
+              "text": "一是董事会应当重视上市公司质量的提升，在各项重大决策和具体工作中充分考虑投资者利益和回报。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s4",
+              "text": "二是董事长应当做好相关工作的督促、推动和协调，董事和高级管理人员应当积极参与提升上市公司投资价值的各项工作。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s5",
+              "text": "三是董事会秘书应当做好投资者关系管理和信息披露等相关工作。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s6",
+              "text": "四是控股股东可以通过股份增持等方式提振市场信心。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s7",
+              "text": "（三）明确两类公司的特殊要求\n《指引》第八条和第九条就主要指数成份股公司和长期破净公司作出专门要求。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s8",
+              "text": "一是主要指数成份股公司应当制定市值管理制度，明确具体职责分工等，经董事会审议后披露市值管理制度的制定情况，并在年度业绩说明会中就制度执行情况进行专项说明。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s9",
+              "text": "其他上市公司可参照执行。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s10",
+              "text": "二是长期破净公司应当披露估值提升计划，市净率低于所在行业平均水平的长期破净公司还应在年度业绩说明会中就估值提升计划执行情况进行专项说明。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_ec37378a6ba4#起草说明 > （四）明确禁止事项",
+      "section_path": "起草说明 > （四）明确禁止事项",
+      "title": "（四）明确禁止事项",
+      "level": 2,
+      "reading_guide": {
+        "has": "禁止事项/操纵市场/内幕交易/违规信息披露/损害中小投资者权益/监督管理/法律责任/解释性条款",
+        "for": [
+          "合规禁令",
+          "监管责任",
+          "法律后果",
+          "条款范围"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_ec37378a6ba4#起草说明 > （四）明确禁止事项_p0",
+          "para_index": 0,
+          "content": "《指引》第十条明确要求上市公司及其控股股东、实际控制人、董事、高级管理人员等切实提高合规意识，不得在市值管理中出现操纵市场、内幕交易、违规信息披露等各类违法违规、损害中小投资者合法权益的行为。\n另外，《指引》第十一条、第十二条为监督管理和法律责任，第十三条至第十五条为解释性条款。",
+          "sentences": [
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > （四）明确禁止事项_p0_s0",
+              "text": "《指引》第十条明确要求上市公司及其控股股东、实际控制人、董事、高级管理人员等切实提高合规意识，不得在市值管理中出现操纵市场、内幕交易、违规信息披露等各类违法违规、损害中小投资者合法权益的行为。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > （四）明确禁止事项",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > （四）明确禁止事项_p0_s1",
+              "text": "另外，《指引》第十一条、第十二条为监督管理和法律责任，第十三条至第十五条为解释性条款。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > （四）明确禁止事项",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_ec37378a6ba4#起草说明 > 三、公开征求意见情况",
+      "section_path": "起草说明 > 三、公开征求意见情况",
+      "title": "三、公开征求意见情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "公开征求意见数/232条/采纳意见156条/未采纳原因/市值管理主体责任/指数成份股披露/破净公司披露",
+        "for": [
+          "意见统计",
+          "规则修改",
+          "采纳情况",
+          "实施反馈"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_ec37378a6ba4#起草说明 > 三、公开征求意见情况_p0",
+          "para_index": 0,
+          "content": "公开征求意见期间，我会共收到相关意见建议 232 条，剔除与规则条文没有直接关系的意见后，共计 156 条意见。总体上，市场各方认为《指引》压实了上市公司市值管理主体责任，有利于切实提升投资者回报能力和水平。反馈意见主要包括进一步明晰市值管理概念，相关主体责任义务的细化，对主要指数成份股公司和长期破净公司具体披露方法和内容的优化等方面，我们逐条进行了认真研究，并从有利于提升执行效率、避免增加披露负担的角度采纳了绝大多数意见。部分意见与现有规则存在冲突或与提升上市公司投资价值的目标不一致，未予采纳。后续我们将进一步加强政策解读，做好《指引》实施相关工作。",
+          "sentences": [
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 三、公开征求意见情况_p0_s0",
+              "text": "公开征求意见期间，我会共收到相关意见建议 232 条，剔除与规则条文没有直接关系的意见后，共计 156 条意见。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 三、公开征求意见情况_p0_s1",
+              "text": "总体上，市场各方认为《指引》压实了上市公司市值管理主体责任，有利于切实提升投资者回报能力和水平。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 三、公开征求意见情况_p0_s2",
+              "text": "反馈意见主要包括进一步明晰市值管理概念，相关主体责任义务的细化，对主要指数成份股公司和长期破净公司具体披露方法和内容的优化等方面，我们逐条进行了认真研究，并从有利于提升执行效率、避免增加披露负担的角度采纳了绝大多数意见。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 三、公开征求意见情况_p0_s3",
+              "text": "部分意见与现有规则存在冲突或与提升上市公司投资价值的目标不一致，未予采纳。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_ec37378a6ba4#起草说明 > 三、公开征求意见情况_p0_s4",
+              "text": "后续我们将进一步加强政策解读，做好《指引》实施相关工作。",
+              "location": {
+                "doc_id": "doc_ec37378a6ba4",
+                "section_path": "起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_512c5ffcb542",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》",
+      "canonical_name": "国务院关于加强监管防范风险推动资本市场高质量发展的若干意见",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7068666b1482",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司监管指引第 10 号——市值管理》",
+      "canonical_name": "上市公司监管指引第 10 号——市值管理",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明_p0_s0",
+        "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_786ceec7390d",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_21f1f5d63110",
+      "entity_type": "Date",
+      "mention": "今年 4 月",
+      "canonical_name": "2024-04",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > 一、起草背景_p0_s4",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > 一、起草背景_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8b2372455041",
+      "entity_type": "LegalTerm",
+      "mention": "市值管理",
+      "canonical_name": "市值管理",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s0",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8ba3346ec501",
+      "entity_type": "LegalTerm",
+      "mention": "并购重组",
+      "canonical_name": "并购重组",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s1",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d336c3478787",
+      "entity_type": "LegalTerm",
+      "mention": "股权激励",
+      "canonical_name": "股权激励",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s1",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8fc71b4cefc8",
+      "entity_type": "LegalTerm",
+      "mention": "员工持股计划",
+      "canonical_name": "员工持股计划",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s1",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7d8752d00fb2",
+      "entity_type": "LegalTerm",
+      "mention": "现金分红",
+      "canonical_name": "现金分红",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s1",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4307ddb5ba2d",
+      "entity_type": "LegalTerm",
+      "mention": "投资者关系管理",
+      "canonical_name": "投资者关系管理",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s1",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8985d81c6397",
+      "entity_type": "LegalTerm",
+      "mention": "信息披露",
+      "canonical_name": "信息披露",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s1",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_794ea383f14a",
+      "entity_type": "LegalTerm",
+      "mention": "股份回购",
+      "canonical_name": "股份回购",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s1",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e7818e92b6ca",
+      "entity_type": "LegalTerm",
+      "mention": "董事会",
+      "canonical_name": "董事会",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s2",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_dbc017890f4a",
+      "entity_type": "LegalTerm",
+      "mention": "董事",
+      "canonical_name": "董事",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s2",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_eb5a038a7806",
+      "entity_type": "LegalTerm",
+      "mention": "高级管理人员",
+      "canonical_name": "高级管理人员",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s2",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d72a2520cf2b",
+      "entity_type": "LegalTerm",
+      "mention": "控股股东",
+      "canonical_name": "控股股东",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s2",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8061faf19baf",
+      "entity_type": "LegalTerm",
+      "mention": "董事长",
+      "canonical_name": "董事长",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s4",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_86c21817d7cf",
+      "entity_type": "LegalTerm",
+      "mention": "董事会秘书",
+      "canonical_name": "董事会秘书",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s5",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_31fc2f98b706",
+      "entity_type": "LegalTerm",
+      "mention": "主要指数成份股公司",
+      "canonical_name": "主要指数成份股公司",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s7",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s7"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0f77fc2e098d",
+      "entity_type": "LegalTerm",
+      "mention": "长期破净公司",
+      "canonical_name": "长期破净公司",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s7",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > 二、主要内容_p0_s7"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f4685c24c5b3",
+      "entity_type": "LegalTerm",
+      "mention": "实际控制人",
+      "canonical_name": "实际控制人",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > （四）明确禁止事项_p0_s0",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > （四）明确禁止事项_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_877ccb10fe40",
+      "entity_type": "LegalTerm",
+      "mention": "操纵市场",
+      "canonical_name": "操纵市场",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > （四）明确禁止事项_p0_s0",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > （四）明确禁止事项_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f334cdd38753",
+      "entity_type": "LegalTerm",
+      "mention": "内幕交易",
+      "canonical_name": "内幕交易",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > （四）明确禁止事项_p0_s0",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > （四）明确禁止事项_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b4715985044b",
+      "entity_type": "LegalTerm",
+      "mention": "违规信息披露",
+      "canonical_name": "违规信息披露",
+      "attributes": {},
+      "sentence_id": "doc_ec37378a6ba4#起草说明 > （四）明确禁止事项_p0_s0",
+      "sentence_ids": [
+        "doc_ec37378a6ba4#起草说明 > （四）明确禁止事项_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_88b2f6a5a144_rel_eff6706ac0fa",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_7068666b1482",
+      "tail_entity_id": "ent_512c5ffcb542",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ec37378a6ba4",
+        "section_path": "起草说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_88b2f6a5a144_rel_39d320d3c571",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_7068666b1482",
+      "tail_entity_id": "ent_8b2372455041",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ec37378a6ba4",
+        "section_path": "起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_88b2f6a5a144_rel_f46bd11a8b0e",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_7068666b1482",
+      "tail_entity_id": "ent_e7818e92b6ca",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ec37378a6ba4",
+        "section_path": "起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_88b2f6a5a144_rel_7a69fd0a27c7",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_7068666b1482",
+      "tail_entity_id": "ent_dbc017890f4a",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ec37378a6ba4",
+        "section_path": "起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_88b2f6a5a144_rel_cc038e087ff4",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_7068666b1482",
+      "tail_entity_id": "ent_eb5a038a7806",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ec37378a6ba4",
+        "section_path": "起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_88b2f6a5a144_rel_3601382dcf79",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_7068666b1482",
+      "tail_entity_id": "ent_d72a2520cf2b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ec37378a6ba4",
+        "section_path": "起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_88b2f6a5a144_rel_afababd7fd2c",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_7068666b1482",
+      "tail_entity_id": "ent_8061faf19baf",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ec37378a6ba4",
+        "section_path": "起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_88b2f6a5a144_rel_f811820af0e3",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_7068666b1482",
+      "tail_entity_id": "ent_86c21817d7cf",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ec37378a6ba4",
+        "section_path": "起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 5
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_88b2f6a5a144_rel_0a6090e56352",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_7068666b1482",
+      "tail_entity_id": "ent_31fc2f98b706",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ec37378a6ba4",
+        "section_path": "起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 7
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_88b2f6a5a144_rel_6224247ab0ec",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_7068666b1482",
+      "tail_entity_id": "ent_0f77fc2e098d",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ec37378a6ba4",
+        "section_path": "起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 7
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_88b2f6a5a144_rel_54d3eae72fbd",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_7068666b1482",
+      "tail_entity_id": "ent_f4685c24c5b3",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ec37378a6ba4",
+        "section_path": "起草说明 > （四）明确禁止事项",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_88b2f6a5a144_rel_1a0834a26f05",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_7068666b1482",
+      "tail_entity_id": "ent_877ccb10fe40",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ec37378a6ba4",
+        "section_path": "起草说明 > （四）明确禁止事项",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_88b2f6a5a144_rel_e6cb48fc3c98",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_7068666b1482",
+      "tail_entity_id": "ent_f334cdd38753",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ec37378a6ba4",
+        "section_path": "起草说明 > （四）明确禁止事项",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_88b2f6a5a144_rel_9346faa48de9",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_7068666b1482",
+      "tail_entity_id": "ent_b4715985044b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ec37378a6ba4",
+        "section_path": "起草说明 > （四）明确禁止事项",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

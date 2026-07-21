@@ -1,0 +1,569 @@
+{
+  "doc_id": "doc_61c0339174d0",
+  "title": "《首发企业现场检查规定》修订说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0058_att2.md",
+  "processed_at": "2026-07-21T01:03:50.696546+00:00",
+  "structured_data": {
+    "title": "首发企业现场检查规定"
+  },
+  "stats": {
+    "sections": 5,
+    "paragraphs": 5,
+    "sentences": 17,
+    "entities": 12,
+    "relations": 6,
+    "rejected": 0,
+    "llm_calls": 2751,
+    "llm_tokens": 4228172,
+    "elapsed_seconds": 11.31
+  },
+  "sections": [
+    {
+      "section_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明",
+      "section_path": "《首发企业现场检查规定》修订说明",
+      "title": "《首发企业现场检查规定》修订说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "首发企业现场检查规定/修订说明/信息披露监管/保荐人责任/证券服务机构责任/投资者保护/证券市场秩序",
+        "for": [
+          "法规背景",
+          "监管目的",
+          "修订原因"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明_p0",
+          "para_index": 0,
+          "content": "为进一步强化首发企业信息披露监管，督促保荐人、证券服务机构归位尽责，保护投资者合法权益，维护证券市场秩序，中国证监会对《首发企业现场检查规定》进行了修订。现说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明_p0_s0",
+              "text": "为进一步强化首发企业信息披露监管，督促保荐人、证券服务机构归位尽责，保护投资者合法权益，维护证券市场秩序，中国证监会对《首发企业现场检查规定》进行了修订。",
+              "location": {
+                "doc_id": "doc_61c0339174d0",
+                "section_path": "《首发企业现场检查规定》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明_p0_s1",
+              "text": "现说明如下：",
+              "location": {
+                "doc_id": "doc_61c0339174d0",
+                "section_path": "《首发企业现场检查规定》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 一、修订背景",
+      "section_path": "《首发企业现场检查规定》修订说明 > 一、修订背景",
+      "title": "一、修订背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "2021年发布实施/注册制监管手段/书面审核补充/第三方监督/检查抽签透明度/会商会/撤回申请/消极配合/核准制调整",
+        "for": [
+          "修订背景",
+          "监管成效",
+          "存在问题",
+          "制度调整"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 一、修订背景_p0",
+          "para_index": 0,
+          "content": "2021 年发布实施的《首发企业现场检查规定》，对首发企业现场检查的工作程序、方式及要求做出系统性规定。实施以来，现场检查成为注册制下的有力监管手段，发挥了对书面审核的重要补充功能，对把好入口关、督促提升信息披露质量、引导中介机构提高执业质量等起到了积极作用。\n规定实施以来，现场检查工作既积累了新的有益经验，如通过强化第三方监督提升检查抽签透明度、召开现场检查会商会统一问题处理标准、通报检查处理结果增进市场预期等，需要在制度层面及时固化；也面临一些新情况新问题，如部分检查对象在抽中检查后随意撤回发行申请、个别检查对象消极配合、少数检查对象多次出现同类问题等，需要完善制度补足监管要求。此外，规定中适用于核准制的检查流程及表述，也需要结合全面注册制实际予以调整。",
+          "sentences": [
+            {
+              "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 一、修订背景_p0_s0",
+              "text": "2021 年发布实施的《首发企业现场检查规定》，对首发企业现场检查的工作程序、方式及要求做出系统性规定。",
+              "location": {
+                "doc_id": "doc_61c0339174d0",
+                "section_path": "《首发企业现场检查规定》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 一、修订背景_p0_s1",
+              "text": "实施以来，现场检查成为注册制下的有力监管手段，发挥了对书面审核的重要补充功能，对把好入口关、督促提升信息披露质量、引导中介机构提高执业质量等起到了积极作用。",
+              "location": {
+                "doc_id": "doc_61c0339174d0",
+                "section_path": "《首发企业现场检查规定》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 一、修订背景_p0_s2",
+              "text": "规定实施以来，现场检查工作既积累了新的有益经验，如通过强化第三方监督提升检查抽签透明度、召开现场检查会商会统一问题处理标准、通报检查处理结果增进市场预期等，需要在制度层面及时固化；",
+              "location": {
+                "doc_id": "doc_61c0339174d0",
+                "section_path": "《首发企业现场检查规定》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 一、修订背景_p0_s3",
+              "text": "也面临一些新情况新问题，如部分检查对象在抽中检查后随意撤回发行申请、个别检查对象消极配合、少数检查对象多次出现同类问题等，需要完善制度补足监管要求。",
+              "location": {
+                "doc_id": "doc_61c0339174d0",
+                "section_path": "《首发企业现场检查规定》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 一、修订背景_p0_s4",
+              "text": "此外，规定中适用于核准制的检查流程及表述，也需要结合全面注册制实际予以调整。",
+              "location": {
+                "doc_id": "doc_61c0339174d0",
+                "section_path": "《首发企业现场检查规定》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容",
+      "section_path": "《首发企业现场检查规定》修订说明 > 二、修订内容",
+      "title": "二、修订内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "检查期间撤回申请/不影响检查实施/证监会统筹协调/通知程序/信息通报机制/时限要求/报告格式/检查结果运用",
+        "for": [
+          "撤回影响",
+          "统筹机制",
+          "实施流程",
+          "结果运用"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容_p0",
+          "para_index": 0,
+          "content": "按照强化“申报即担责”、加强统筹协调、提升监管透明的思路，修订后的《首发企业现场检查规定》合并内部操作规范，设总则、确定检查对象、组织与实施、监督管理及\n附则 5 章，共39 条。\n主要修订内容包括：一是明确检查期间撤回申请不影响检查实施，检查对象确定后，检查对象撤回发行申请不影响检查工作实施，也不影响证监会及交易所依法依规对检查发现的问题进行处理。二是健全统筹协调制度机制，强化证监会注册部门负责现场检查的整体统筹协调及指导。三是完善组织与实施流程，完善通知检查对象的程序，明确检查信息通报机制，对检查机构报送检查计划、开展进场工作、申请延期等设置了时限要求，完善现场检查报告格式。四是规范检查结果的运用，审核注册部门应结合发现问题、会商意见、整改完成情况推进审核注册工作。",
+          "sentences": [
+            {
+              "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容_p0_s0",
+              "text": "按照强化“申报即担责”、加强统筹协调、提升监管透明的思路，修订后的《首发企业现场检查规定》合并内部操作规范，设总则、确定检查对象、组织与实施、监督管理及\n附则 5 章，共39 条。",
+              "location": {
+                "doc_id": "doc_61c0339174d0",
+                "section_path": "《首发企业现场检查规定》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容_p0_s1",
+              "text": "主要修订内容包括：一是明确检查期间撤回申请不影响检查实施，检查对象确定后，检查对象撤回发行申请不影响检查工作实施，也不影响证监会及交易所依法依规对检查发现的问题进行处理。",
+              "location": {
+                "doc_id": "doc_61c0339174d0",
+                "section_path": "《首发企业现场检查规定》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容_p0_s2",
+              "text": "二是健全统筹协调制度机制，强化证监会注册部门负责现场检查的整体统筹协调及指导。",
+              "location": {
+                "doc_id": "doc_61c0339174d0",
+                "section_path": "《首发企业现场检查规定》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容_p0_s3",
+              "text": "三是完善组织与实施流程，完善通知检查对象的程序，明确检查信息通报机制，对检查机构报送检查计划、开展进场工作、申请延期等设置了时限要求，完善现场检查报告格式。",
+              "location": {
+                "doc_id": "doc_61c0339174d0",
+                "section_path": "《首发企业现场检查规定》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容_p0_s4",
+              "text": "四是规范检查结果的运用，审核注册部门应结合发现问题、会商意见、整改完成情况推进审核注册工作。",
+              "location": {
+                "doc_id": "doc_61c0339174d0",
+                "section_path": "《首发企业现场检查规定》修订说明 > 二、修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 三、公开征求意见情况",
+      "section_path": "《首发企业现场检查规定》修订说明 > 三、公开征求意见情况",
+      "title": "三、公开征求意见情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "公开征求意见时间/2023年11月20日至12月10日/采纳意见/加大检查覆盖面/同类问题处理期延长至36个月/书面解释说明/未采纳意见/5个工作日通知",
+        "for": [
+          "意见采纳",
+          "条款修改",
+          "时间节点",
+          "处理结果"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 三、公开征求意见情况_p0",
+          "para_index": 0,
+          "content": "2023 年11 月 20 日至 12 月 10 日，我会就《首发企业现场检查规定（修订草案征求意见稿）》公开征求市场意见，收到意见后，我会进行了认真研究，主要处理情况如下：采纳有关意见，一是加大首发企业现场检查覆盖面；二是将24个月内现场检查多次发现同类问题时从重处理，延长为 36个月；三是检查完成前检查对象可以对发现的问题进行书面解释说明。对于检查组入场前5 个工作日通知检查对象的建议，从必要性和提高工作效率的角度，未予采纳。",
+          "sentences": [
+            {
+              "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 三、公开征求意见情况_p0_s0",
+              "text": "2023 年11 月 20 日至 12 月 10 日，我会就《首发企业现场检查规定（修订草案征求意见稿）》公开征求市场意见，收到意见后，我会进行了认真研究，主要处理情况如下：采纳有关意见，一是加大首发企业现场检查覆盖面；",
+              "location": {
+                "doc_id": "doc_61c0339174d0",
+                "section_path": "《首发企业现场检查规定》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 三、公开征求意见情况_p0_s1",
+              "text": "二是将24个月内现场检查多次发现同类问题时从重处理，延长为 36个月；",
+              "location": {
+                "doc_id": "doc_61c0339174d0",
+                "section_path": "《首发企业现场检查规定》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 三、公开征求意见情况_p0_s2",
+              "text": "三是检查完成前检查对象可以对发现的问题进行书面解释说明。",
+              "location": {
+                "doc_id": "doc_61c0339174d0",
+                "section_path": "《首发企业现场检查规定》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 三、公开征求意见情况_p0_s3",
+              "text": "对于检查组入场前5 个工作日通知检查对象的建议，从必要性和提高工作效率的角度，未予采纳。",
+              "location": {
+                "doc_id": "doc_61c0339174d0",
+                "section_path": "《首发企业现场检查规定》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 四、实施安排",
+      "section_path": "《首发企业现场检查规定》修订说明 > 四、实施安排",
+      "title": "四、实施安排",
+      "level": 2,
+      "reading_guide": {
+        "has": "实施时间/新旧规定适用规则/已开展检查/新开展检查",
+        "for": [
+          "生效时间",
+          "适用范围",
+          "新旧衔接"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 四、实施安排_p0",
+          "para_index": 0,
+          "content": "本规定发布后，新开展的现场检查工作适用修订后的规定，已开展的现场检查工作仍适用原规定。",
+          "sentences": [
+            {
+              "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 四、实施安排_p0_s0",
+              "text": "本规定发布后，新开展的现场检查工作适用修订后的规定，已开展的现场检查工作仍适用原规定。",
+              "location": {
+                "doc_id": "doc_61c0339174d0",
+                "section_path": "《首发企业现场检查规定》修订说明 > 四、实施安排",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_eca92428cb37",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_61c0339174d0#《首发企业现场检查规定》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_12a0bd276429",
+      "entity_type": "LegalDocument",
+      "mention": "《首发企业现场检查规定》",
+      "canonical_name": "首发企业现场检查规定",
+      "attributes": {},
+      "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_61c0339174d0#《首发企业现场检查规定》修订说明_p0_s0",
+        "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 一、修订背景_p0_s0",
+        "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e01a199fac9b",
+      "entity_type": "Date",
+      "mention": "2021 年",
+      "canonical_name": "2021",
+      "attributes": {},
+      "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 一、修订背景_p0_s0",
+      "sentence_ids": [
+        "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 一、修订背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bb281d16f6f2",
+      "entity_type": "LegalTerm",
+      "mention": "“申报即担责”",
+      "canonical_name": "申报即担责",
+      "attributes": {},
+      "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容_p0_s0",
+      "sentence_ids": [
+        "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_31583152d0b7",
+      "entity_type": "Clause",
+      "mention": "总则",
+      "canonical_name": "总则",
+      "attributes": {},
+      "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容_p0_s0",
+      "sentence_ids": [
+        "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0c26bd53787d",
+      "entity_type": "Clause",
+      "mention": "确定检查对象",
+      "canonical_name": "确定检查对象",
+      "attributes": {},
+      "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容_p0_s0",
+      "sentence_ids": [
+        "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f42010159e30",
+      "entity_type": "Clause",
+      "mention": "组织与实施",
+      "canonical_name": "组织与实施",
+      "attributes": {},
+      "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容_p0_s0",
+      "sentence_ids": [
+        "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3ef8b626cf9c",
+      "entity_type": "Clause",
+      "mention": "监督管理",
+      "canonical_name": "监督管理",
+      "attributes": {},
+      "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容_p0_s0",
+      "sentence_ids": [
+        "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ff48c9c1ad92",
+      "entity_type": "Clause",
+      "mention": "附则",
+      "canonical_name": "附则",
+      "attributes": {},
+      "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容_p0_s0",
+      "sentence_ids": [
+        "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 二、修订内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b25c0659ffa8",
+      "entity_type": "LegalDocument",
+      "mention": "《首发企业现场检查规定（修订草案征求意见稿）》",
+      "canonical_name": "首发企业现场检查规定（修订草案征求意见稿）",
+      "attributes": {},
+      "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9cd765a040c9",
+      "entity_type": "Date",
+      "mention": "2023 年 11 月 20 日",
+      "canonical_name": "2023-11-20",
+      "attributes": {},
+      "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_deb22f4b4d4e",
+      "entity_type": "Date",
+      "mention": "12 月 10 日",
+      "canonical_name": "2023-12-10",
+      "attributes": {},
+      "sentence_id": "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_61c0339174d0#《首发企业现场检查规定》修订说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_7260b7ea7cb4_rel_7187ff6a0734",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_12a0bd276429",
+      "tail_entity_id": "ent_12a0bd276429",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_61c0339174d0",
+        "section_path": "《首发企业现场检查规定》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_7260b7ea7cb4_rel_2043e697c4b2",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_31583152d0b7",
+      "tail_entity_id": "ent_bb281d16f6f2",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_61c0339174d0",
+        "section_path": "《首发企业现场检查规定》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_7260b7ea7cb4_rel_d5d67fd38386",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_0c26bd53787d",
+      "tail_entity_id": "ent_bb281d16f6f2",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_61c0339174d0",
+        "section_path": "《首发企业现场检查规定》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_7260b7ea7cb4_rel_207335f7f2c1",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_f42010159e30",
+      "tail_entity_id": "ent_bb281d16f6f2",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_61c0339174d0",
+        "section_path": "《首发企业现场检查规定》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_7260b7ea7cb4_rel_7dc951958c70",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3ef8b626cf9c",
+      "tail_entity_id": "ent_bb281d16f6f2",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_61c0339174d0",
+        "section_path": "《首发企业现场检查规定》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_7260b7ea7cb4_rel_eb41f2b0bff7",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_ff48c9c1ad92",
+      "tail_entity_id": "ent_bb281d16f6f2",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_61c0339174d0",
+        "section_path": "《首发企业现场检查规定》修订说明 > 二、修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

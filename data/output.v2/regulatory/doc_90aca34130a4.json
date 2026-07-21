@@ -1,0 +1,1214 @@
+{
+  "doc_id": "doc_90aca34130a4",
+  "title": "《公开募集证券投资基金业绩比较基准指引》起草说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0016_att2.md",
+  "processed_at": "2026-07-21T00:21:03.727198+00:00",
+  "structured_data": {
+    "title": "公开募集证券投资基金业绩比较基准指引"
+  },
+  "stats": {
+    "sections": 3,
+    "paragraphs": 3,
+    "sentences": 55,
+    "entities": 21,
+    "relations": 19,
+    "rejected": 0,
+    "llm_calls": 458,
+    "llm_tokens": 836401,
+    "elapsed_seconds": 18.61
+  },
+  "sections": [
+    {
+      "section_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明",
+      "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明",
+      "title": "《公开募集证券投资基金业绩比较基准指引》起草说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "《公开募集证券投资基金业绩比较基准指引》/起草背景/法律依据/《证券投资基金法》/《公开募集证券投资基金运作管理办法》/政策目标",
+        "for": [
+          "法规依据",
+          "政策背景",
+          "立法目的",
+          "文件来源"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明_p0",
+          "para_index": 0,
+          "content": "为落实《推动公募基金高质量发展行动方案》部署，强化业绩比较基准约束，保护投资者合法权益，根据《证券投资基金法》《公开募集证券投资基金运作管理办法》及其他有关法律法规，我们研究起草了《公开募集证券投资基金业绩比较基准指引》（以下简称《指引》）。",
+          "sentences": [
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明_p0_s0",
+              "text": "为落实《推动公募基金高质量发展行动方案》部署，强化业绩比较基准约束，保护投资者合法权益，根据《证券投资基金法》《公开募集证券投资基金运作管理办法》及其他有关法律法规，我们研究起草了《公开募集证券投资基金业绩比较基准指引》（以下简称《指引》）。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景",
+      "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景",
+      "title": "一、起草背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "业绩比较基准定义/构成要素/功能作用/法规制度缺失/内控机制不足/风格漂移问题",
+        "for": [
+          "基准定义",
+          "法规现状",
+          "存在问题",
+          "监管背景"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景_p0",
+          "para_index": 0,
+          "content": "业绩比较基准是管理人基于产品定位和投资目标而为基金设定的业绩参考标准，一般由指数、合约价格、利率等要素构成，是基金合同的基本要素。从功能作用看，业绩比较基准是基金投资的“锚”和“尺”，发挥确定产品定位、明晰投资策略、表征投资风格、衡量产品业绩、约束投资行为等重要作用。但当前我国公募基金在业绩比较基准方面还存在以下问题：一是法规制度缺乏专门性、系统性的规定，仅在信息披露、特殊产品设计等监管规则有零散要求，约束力不强。二是多数管理人尚未建立覆盖业绩比较基准的全链条内控机制，托管、销售等机构也未有效监督和使用基准。三是部分主动管理权益类基金业绩大幅偏离业绩比较基准，个别产品甚至出现“风格漂移”，对投资者获得感造成较大影响。",
+          "sentences": [
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景_p0_s0",
+              "text": "业绩比较基准是管理人基于产品定位和投资目标而为基金设定的业绩参考标准，一般由指数、合约价格、利率等要素构成，是基金合同的基本要素。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景_p0_s1",
+              "text": "从功能作用看，业绩比较基准是基金投资的“锚”和“尺”，发挥确定产品定位、明晰投资策略、表征投资风格、衡量产品业绩、约束投资行为等重要作用。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景_p0_s2",
+              "text": "但当前我国公募基金在业绩比较基准方面还存在以下问题：一是法规制度缺乏专门性、系统性的规定，仅在信息披露、特殊产品设计等监管规则有零散要求，约束力不强。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景_p0_s3",
+              "text": "二是多数管理人尚未建立覆盖业绩比较基准的全链条内控机制，托管、销售等机构也未有效监督和使用基准。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景_p0_s4",
+              "text": "三是部分主动管理权益类基金业绩大幅偏离业绩比较基准，个别产品甚至出现“风格漂移”，对投资者获得感造成较大影响。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+      "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+      "title": "二、主要内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "基准选取规范/代表性/客观性/指数要求/管理人托管人责任/要素库/基准变更情形/变更程序/告知义务/信息披露内容/定期报告对比/内控机制/风格稳定性/投资监督/",
+        "for": [
+          "基准规范",
+          "变更流程",
+          "披露要求",
+          "考核评价",
+          "过渡安排"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0",
+          "para_index": 0,
+          "content": "《指引》共二十一条，分为总则、基准的规范、管理人的内部控制和管理、基准的外部约束、监督管理、附则等六章，主要内容如下：\n（一）明确基准的选取规范。一是代表性要求。基准的构成要素与权重应当能够表征基金产品投资风格，并符合基金合同约定。投资风格主要包括投资策略、投资方向、风险收益特征等。二是客观性要求。基准的计算方法、数据来源等应当清晰透明、可持续、可量化，标的资产可公允定价。三是指数的特别要求。选取的指数应当满足代表性强、编制方案合理、成份券具备较好流动性、持续披露信息等条件，且相关指数编制机构应当具备较强的研发和运维能力等。四是强化管理人、托管人责任。管理人应当按照合理化、差异化布局的原则开发产品，明晰产品定位和投资风格，确定匹配的基准和基金经理。托管人应当加强基金合同审核，对基准的选取、变更等进行充分评估。五是授权基金业协会建立基准要素库。管理人可以从基金行业业绩比较基准要素库中选取基准要素。\n（二）严格基准变更要求。一是持续性要求。除特殊基金品种外，基金法律文件应当约定业绩比较基准。业绩比较基准应当具有持续性，不得仅因基金经理变化、市场短期变动、业绩考核或者排名等原因而变更基准。二是明确可变更基准的情形和程序。基准拟发生一般变更的，管理人应当与托管人协商，在新基准生效前 30 日公告；基金投资目标、投资范围、投资策略、投资比例等拟进行重大调整或其他对基金份额持有人利益产生重大实质性影响的，需按规定履行变更注册、召开持有人大会等程序。三是明确基准变更的告知义务。考虑到基准变更对投资者决策有重大影响，明确要求销售机构等应当及时将基准变更信息告知投资者。\n（三）加强基准的信息披露。一是法律文件。在基金合同、招募说明书等法律文件中披露基准的设定及原因，基准的计算方法，基准要素所涉及的发布机构和查询途径，管理人管理投资偏离基准的方法、基准变更的情形和程序等信息。二是定期报告。在基金定期报告中披露基金实际投资与基准在收益率、波动率等方面的对比情况，并对基金业绩与基准的差异进行说明。基金托管人应当对披露内容加强复核监督。\n（四）强化基准的约束作用。一是健全管理人内控机制。要求管理人建立健全基准的全流程管控机制，公司管理层承担主要责任并对基准选取进行决策，合规负责人负责监督检查合法合规情况。二是强化风格稳定性管理。管理人应加强对基金经理、基金产品投资风格稳定性的持续管理，针对不同产品审慎设置差异化指标和阈值。三是压实托管人投资监督职责。托管人应加强对基金投资标的风格库的审慎复核；同时，加强对投资风格稳定性的监督，对主题型产品投资风格偏离主题、非主题型产品行业集中度过高等风险加强提醒。\n（五）突出基准衡量业绩的作用。一是规范绩效考核。\n明确管理人应建立健全以基金投资收益为核心的绩效考核和薪酬管理体系，充分体现产品业绩和投资者盈亏情况。在衡量主动权益类基金业绩时，应当加强与业绩比较基准对比，做好业绩归因分析，科学评估超额收益质量和偏离基准情况。二是规范业绩展示。管理人、销售机构、评价机构展示股票基金、混合基金、基金中基金等产品过往区间业绩的，应当同时在同一位置展示业绩比较基准的表现。三是规范基金评价。评价机构应当将业绩比较基准作为评价基金投资管理情况的重要依据。管理人、销售机构、评价机构应当结合业绩比较基准合理区分产品类型，原则上不得将不同类型的权益类基金直接进行投资业绩排序或排名。\n（六）过渡期设置。一是对存量产品业绩比较基准设置和其他内容不符合《指引》和基金业协会自律规则规定的，给予 1 年的实施过渡期。二是为确保业绩比较基准相关信息披露、业绩展示、评价评奖、排名排序的客观性和准确性，避免误导投资者，将相关要求与存量产品基准调整过渡期拉齐为 1 年。三是托管人监督基金投资风格稳定性的要求，考虑到涉及系统调整和数据交互等工作，给予 6 个月的实施过渡期。",
+          "sentences": [
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s0",
+              "text": "《指引》共二十一条，分为总则、基准的规范、管理人的内部控制和管理、基准的外部约束、监督管理、附则等六章，主要内容如下：\n（一）明确基准的选取规范。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s1",
+              "text": "一是代表性要求。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s2",
+              "text": "基准的构成要素与权重应当能够表征基金产品投资风格，并符合基金合同约定。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s3",
+              "text": "投资风格主要包括投资策略、投资方向、风险收益特征等。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s4",
+              "text": "二是客观性要求。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s5",
+              "text": "基准的计算方法、数据来源等应当清晰透明、可持续、可量化，标的资产可公允定价。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s6",
+              "text": "三是指数的特别要求。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s7",
+              "text": "选取的指数应当满足代表性强、编制方案合理、成份券具备较好流动性、持续披露信息等条件，且相关指数编制机构应当具备较强的研发和运维能力等。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s8",
+              "text": "四是强化管理人、托管人责任。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s9",
+              "text": "管理人应当按照合理化、差异化布局的原则开发产品，明晰产品定位和投资风格，确定匹配的基准和基金经理。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s10",
+              "text": "托管人应当加强基金合同审核，对基准的选取、变更等进行充分评估。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s11",
+              "text": "五是授权基金业协会建立基准要素库。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s12",
+              "text": "管理人可以从基金行业业绩比较基准要素库中选取基准要素。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s13",
+              "text": "（二）严格基准变更要求。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s14",
+              "text": "一是持续性要求。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s15",
+              "text": "除特殊基金品种外，基金法律文件应当约定业绩比较基准。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s16",
+              "text": "业绩比较基准应当具有持续性，不得仅因基金经理变化、市场短期变动、业绩考核或者排名等原因而变更基准。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s17",
+              "text": "二是明确可变更基准的情形和程序。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 17
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s18",
+              "text": "基准拟发生一般变更的，管理人应当与托管人协商，在新基准生效前 30 日公告；",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 18
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s19",
+              "text": "基金投资目标、投资范围、投资策略、投资比例等拟进行重大调整或其他对基金份额持有人利益产生重大实质性影响的，需按规定履行变更注册、召开持有人大会等程序。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 19
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s20",
+              "text": "三是明确基准变更的告知义务。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 20
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s21",
+              "text": "考虑到基准变更对投资者决策有重大影响，明确要求销售机构等应当及时将基准变更信息告知投资者。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 21
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s22",
+              "text": "（三）加强基准的信息披露。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 22
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s23",
+              "text": "一是法律文件。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 23
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s24",
+              "text": "在基金合同、招募说明书等法律文件中披露基准的设定及原因，基准的计算方法，基准要素所涉及的发布机构和查询途径，管理人管理投资偏离基准的方法、基准变更的情形和程序等信息。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 24
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s25",
+              "text": "二是定期报告。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 25
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s26",
+              "text": "在基金定期报告中披露基金实际投资与基准在收益率、波动率等方面的对比情况，并对基金业绩与基准的差异进行说明。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 26
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s27",
+              "text": "基金托管人应当对披露内容加强复核监督。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 27
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s28",
+              "text": "（四）强化基准的约束作用。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 28
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s29",
+              "text": "一是健全管理人内控机制。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 29
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s30",
+              "text": "要求管理人建立健全基准的全流程管控机制，公司管理层承担主要责任并对基准选取进行决策，合规负责人负责监督检查合法合规情况。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 30
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s31",
+              "text": "二是强化风格稳定性管理。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 31
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s32",
+              "text": "管理人应加强对基金经理、基金产品投资风格稳定性的持续管理，针对不同产品审慎设置差异化指标和阈值。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 32
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s33",
+              "text": "三是压实托管人投资监督职责。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 33
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s34",
+              "text": "托管人应加强对基金投资标的风格库的审慎复核；",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 34
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s35",
+              "text": "同时，加强对投资风格稳定性的监督，对主题型产品投资风格偏离主题、非主题型产品行业集中度过高等风险加强提醒。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 35
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s36",
+              "text": "（五）突出基准衡量业绩的作用。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 36
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s37",
+              "text": "一是规范绩效考核。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 37
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s38",
+              "text": "明确管理人应建立健全以基金投资收益为核心的绩效考核和薪酬管理体系，充分体现产品业绩和投资者盈亏情况。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 38
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s39",
+              "text": "在衡量主动权益类基金业绩时，应当加强与业绩比较基准对比，做好业绩归因分析，科学评估超额收益质量和偏离基准情况。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 39
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s40",
+              "text": "二是规范业绩展示。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 40
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s41",
+              "text": "管理人、销售机构、评价机构展示股票基金、混合基金、基金中基金等产品过往区间业绩的，应当同时在同一位置展示业绩比较基准的表现。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 41
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s42",
+              "text": "三是规范基金评价。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 42
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s43",
+              "text": "评价机构应当将业绩比较基准作为评价基金投资管理情况的重要依据。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 43
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s44",
+              "text": "管理人、销售机构、评价机构应当结合业绩比较基准合理区分产品类型，原则上不得将不同类型的权益类基金直接进行投资业绩排序或排名。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 44
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s45",
+              "text": "（六）过渡期设置。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 45
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s46",
+              "text": "一是对存量产品业绩比较基准设置和其他内容不符合《指引》和基金业协会自律规则规定的，给予 1 年的实施过渡期。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 46
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s47",
+              "text": "二是为确保业绩比较基准相关信息披露、业绩展示、评价评奖、排名排序的客观性和准确性，避免误导投资者，将相关要求与存量产品基准调整过渡期拉齐为 1 年。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 47
+              }
+            },
+            {
+              "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_s48",
+              "text": "三是托管人监督基金投资风格稳定性的要求，考虑到涉及系统调整和数据交互等工作，给予 6 个月的实施过渡期。",
+              "location": {
+                "doc_id": "doc_90aca34130a4",
+                "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 48
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_ab247214e686",
+      "entity_type": "LegalDocument",
+      "mention": "《推动公募基金高质量发展行动方案》",
+      "canonical_name": "推动公募基金高质量发展行动方案",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3e6ee9d2d55f",
+      "entity_type": "LegalDocument",
+      "mention": "《证券投资基金法》",
+      "canonical_name": "证券投资基金法",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7fcbc4829ab5",
+      "entity_type": "LegalDocument",
+      "mention": "《公开募集证券投资基金运作管理办法》",
+      "canonical_name": "公开募集证券投资基金运作管理办法",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bd3924ec32f2",
+      "entity_type": "LegalDocument",
+      "mention": "《公开募集证券投资基金业绩比较基准指引》",
+      "canonical_name": "公开募集证券投资基金业绩比较基准指引",
+      "attributes": {
+        "alias": "《指引》"
+      },
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_397171bcbb84",
+      "entity_type": "LegalTerm",
+      "mention": "业绩比较基准",
+      "canonical_name": "业绩比较基准",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景_p0_s0",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_17a6c60b9adc",
+      "entity_type": "LegalTerm",
+      "mention": "基金合同",
+      "canonical_name": "基金合同",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景_p0_s0",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c8bc5b946961",
+      "entity_type": "LegalTerm",
+      "mention": "投资风格",
+      "canonical_name": "投资风格",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景_p0_s1",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cee72611caff",
+      "entity_type": "Industry",
+      "mention": "公募基金",
+      "canonical_name": "公募基金行业",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景_p0_s2",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fc5bc22ce2a7",
+      "entity_type": "LegalTerm",
+      "mention": "内控机制",
+      "canonical_name": "内控机制",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景_p0_s3",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7c63877c040c",
+      "entity_type": "LegalTerm",
+      "mention": "风格漂移",
+      "canonical_name": "风格漂移",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景_p0_s4",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ea6b1ca8adf8",
+      "entity_type": "Clause",
+      "mention": "明确基准的选取规范",
+      "canonical_name": "基准选取规范",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f56d370d502d",
+      "entity_type": "Clause",
+      "mention": "严格基准变更要求",
+      "canonical_name": "基准变更要求",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_72c1bedd9b8b",
+      "entity_type": "Clause",
+      "mention": "加强基准的信息披露",
+      "canonical_name": "信息披露",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6edbb1ae25e7",
+      "entity_type": "Clause",
+      "mention": "强化基准的约束作用",
+      "canonical_name": "约束作用",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e996d7da6835",
+      "entity_type": "Organization",
+      "mention": "基金业协会",
+      "canonical_name": "中国证券投资基金业协会",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7bc68771cb30",
+      "entity_type": "Clause",
+      "mention": "突出基准衡量业绩的作用",
+      "canonical_name": "业绩衡量作用",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_96e6360f102f",
+      "entity_type": "Clause",
+      "mention": "过渡期设置",
+      "canonical_name": "过渡期设置",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3e305505981f",
+      "entity_type": "LegalTerm",
+      "mention": "绩效考核",
+      "canonical_name": "绩效考核",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c3e176c4b58e",
+      "entity_type": "LegalTerm",
+      "mention": "薪酬管理体系",
+      "canonical_name": "薪酬管理体系",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_92a84b2523f8",
+      "entity_type": "LegalTerm",
+      "mention": "超额收益",
+      "canonical_name": "超额收益",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_15cad8e8b91f",
+      "entity_type": "LegalTerm",
+      "mention": "存量产品",
+      "canonical_name": "存量产品",
+      "attributes": {},
+      "sentence_id": "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_90aca34130a4#《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_c229f3cb6c47_rel_ccba13f8f30d",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_bd3924ec32f2",
+      "tail_entity_id": "ent_ab247214e686",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_90aca34130a4",
+        "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c229f3cb6c47_rel_0bcb2595257f",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_bd3924ec32f2",
+      "tail_entity_id": "ent_3e6ee9d2d55f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_90aca34130a4",
+        "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c229f3cb6c47_rel_09ea2b06459e",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_bd3924ec32f2",
+      "tail_entity_id": "ent_7fcbc4829ab5",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_90aca34130a4",
+        "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c229f3cb6c47_rel_ad9d1e6b4a48",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_397171bcbb84",
+      "tail_entity_id": "ent_397171bcbb84",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_90aca34130a4",
+        "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c229f3cb6c47_rel_0f8c8f93ec0f",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_17a6c60b9adc",
+      "tail_entity_id": "ent_17a6c60b9adc",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_90aca34130a4",
+        "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c229f3cb6c47_rel_eeeb48cd3741",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_c8bc5b946961",
+      "tail_entity_id": "ent_c8bc5b946961",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_90aca34130a4",
+        "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c229f3cb6c47_rel_949851573138",
+      "relation_type": "analyzes_industry",
+      "head_entity_id": "ent_bd3924ec32f2",
+      "tail_entity_id": "ent_cee72611caff",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_90aca34130a4",
+        "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c229f3cb6c47_rel_03f02344cc49",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_fc5bc22ce2a7",
+      "tail_entity_id": "ent_fc5bc22ce2a7",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_90aca34130a4",
+        "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c229f3cb6c47_rel_3f7c66f23fcf",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_7c63877c040c",
+      "tail_entity_id": "ent_7c63877c040c",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_90aca34130a4",
+        "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c229f3cb6c47_rel_6ca2ebd09b5f",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_ea6b1ca8adf8",
+      "tail_entity_id": "ent_ea6b1ca8adf8",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_90aca34130a4",
+        "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c229f3cb6c47_rel_f6c6dd298603",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_f56d370d502d",
+      "tail_entity_id": "ent_f56d370d502d",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_90aca34130a4",
+        "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c229f3cb6c47_rel_6e0319e2aee5",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_72c1bedd9b8b",
+      "tail_entity_id": "ent_72c1bedd9b8b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_90aca34130a4",
+        "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c229f3cb6c47_rel_a0ba73e24fc9",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_6edbb1ae25e7",
+      "tail_entity_id": "ent_6edbb1ae25e7",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_90aca34130a4",
+        "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c229f3cb6c47_rel_28417364f038",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3e305505981f",
+      "tail_entity_id": "ent_3e305505981f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_90aca34130a4",
+        "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c229f3cb6c47_rel_cbd64ef5199b",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_c3e176c4b58e",
+      "tail_entity_id": "ent_c3e176c4b58e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_90aca34130a4",
+        "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c229f3cb6c47_rel_eee989964967",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_92a84b2523f8",
+      "tail_entity_id": "ent_92a84b2523f8",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_90aca34130a4",
+        "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c229f3cb6c47_rel_5bb2dc144d80",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_15cad8e8b91f",
+      "tail_entity_id": "ent_15cad8e8b91f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_90aca34130a4",
+        "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c229f3cb6c47_rel_c89827ddc8a9",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_7bc68771cb30",
+      "tail_entity_id": "ent_7bc68771cb30",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_90aca34130a4",
+        "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c229f3cb6c47_rel_2272b11c0f87",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_96e6360f102f",
+      "tail_entity_id": "ent_96e6360f102f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_90aca34130a4",
+        "section_path": "《公开募集证券投资基金业绩比较基准指引》起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

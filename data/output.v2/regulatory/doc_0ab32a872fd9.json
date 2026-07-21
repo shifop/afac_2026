@@ -1,0 +1,1847 @@
+{
+  "doc_id": "doc_0ab32a872fd9",
+  "title": "证券期货市场监督管理措施实施办法",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0003_att1.md",
+  "processed_at": "2026-07-21T00:02:18.649953+00:00",
+  "structured_data": {
+    "title": "证券期货市场监督管理措施实施办法"
+  },
+  "stats": {
+    "sections": 1,
+    "paragraphs": 1,
+    "sentences": 74,
+    "entities": 41,
+    "relations": 34,
+    "rejected": 0,
+    "llm_calls": 36,
+    "llm_tokens": 60145,
+    "elapsed_seconds": 24.14
+  },
+  "sections": [
+    {
+      "section_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法",
+      "section_path": "证券期货市场监督管理措施实施办法",
+      "title": "证券期货市场监督管理措施实施办法",
+      "level": 1,
+      "reading_guide": {
+        "has": "监管措施种类/责令改正/监管谈话/警示函/限制业务/股权强制转让/回避程序/陈述申辩期限/决定书要素/复议诉讼权利/追责条款/施行日期",
+        "for": [
+          "措施类型",
+          "执法程序",
+          "救济途径",
+          "时效规定",
+          "适用情形"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0",
+          "para_index": 0,
+          "content": "（2025 年12 月 30 日中国证券监督管理委员会\n第 6次委务会议审议通过）\n第一条 为了规范证券期货市场监督管理措施的实施，维护证券期货市场秩序，防范证券期货市场风险，保护公民、法人和其他组织的合法权益，根据《中华人民共和国证券法》《中华人民共和国证券投资基金法》《中华人民共和国期货和衍生品法》《证券公司监督管理条例》《期货交易管理条例》《私募投资基金监督管理条例》等法律、行政法规，制定本办法。\n第二条 本办法所称监督管理措施是指中国证券监督管理委员会（以下简称中国证监会）及其派出机构（以下统称实施机构）为了保护公共利益、及时矫正违法行为、防范市场风险、维护市场秩序，依法对当事人采取的下列措施：\n（一）责令改正；\n（二）监管谈话；\n（三）出具警示函；\n（四）责令公开说明；\n（五）责令定期报告;\n（六）责令增加内部合规检查次数；\n（七）责令处分有关人员；\n（八）认定为不适当人选;\n（九）责令更换董事、监事、高级管理人员或者有关业务部门、分支机构负责人员等，或者限制其权利；\n（十）限制业务活动，责令暂停部分或者全部业务，停止核准新业务；\n（十一）责令负有责任的股东转让股权、负有责任的合伙人转让财产份额，限制负有责任的股东或者合伙人行使权利；\n（十二）限制分配红利，限制向董事、监事、高级管理人员支付报酬、提供福利；\n（十三）限制公司自有资金或者风险准备金的调拨和使用；\n（十四）限制转让财产或者在财产上设定其他权利；\n（十五）法律、行政法规、中国证监会规章规定的其他监督管理措施。\n第三条 实施监督管理措施，应当遵循依法原则，按照法律、行政法规、中国证监会规章规定的程序实施。行政规范性文件不得设定监督管理措施。\n实施监督管理措施，应当遵循效率原则，及时矫正违法行为，防范风险蔓延与危害后果扩散，坚持风险防控与教育相结合。\n实施监督管理措施，应当遵循公正原则，以事实为依据，与行为的性质、情节、危害程度以及风险大小相当。\n第四条 实施机构按照法律、行政法规和中国证监会的规定，对具有下列情形之一的当事人实施监督管理措施：\n（一）存在证券基金期货及衍生品违法行为；\n（二）证券基金期货及衍生品经营机构、私募基金管理人治理结构不健全、内部控制不完善、经营管理混乱；\n（三）证券基金期货及衍生品经营机构、私募基金管理人风险控制不符合规定；\n（四）法律、行政法规和中国证监会的规章规定的其他情形。\n监督管理措施可以单独或者合并适用。\n第五条 实施机构应当依法以文字、音像等形式，对监督管理措施的取证、决定、送达等进行记录，归档保存。\n第六条 监督管理措施需要现场执法的，应当由具有行政执法资格的执法人员实施。执法人员不得少于两人，法律、行政法规另有规定的除外。\n第七条 实施机构应当自启动监督管理措施实施程序之日起六个月内作出监督管理措施决定。有特殊情况需要延长的，应当报经实施机构负责人批准，每次延长期限不得超过六个月。\n第八条 违法行为在二年内未被发现的，实施机构不再对该违法行为采取监督管理措施，法律、行政法规、中国证监会规章另有规定或者违法行为所产生的影响尚未消除的除外。\n前款规定的期限，从违法行为发生之日起计算；违法行为有连续或者继续状态的，从行为终了之日起计算。\n第九条 实施机构参与实施监督管理措施的工作人员与当事人有直接利害关系，或者有其他关系可能影响公正执法的，应当主动申请回避；当事人也有权申请其回避。\n实施机构应当根据回避申请，经审查后作出是否回避的决定，也可以不经申请直接作出回避决定。\n第十条 实施机构实施监督管理措施应当查明事实，全面收集证据。\n实施机构履行其他法定职责依法取得的证据材料、有权机关移交或者公布的证据材料，以及通过其他渠道依法获取的证据材料，经审查符合真实性、合法性及关联性要求的，可以在实施监督管理措施时使用。\n第十一条 实施本办法第二条第七项至第十四项规定的监督管理措施的，实施机构应当向当事人送达事先告知书，告知当事人拟采取的监督管理措施的内容、事实、理由和依据，并告知当事人依法享有陈述、申辩等权利。\n当事人要求陈述、申辩的，应当在事先告知书送达后五个工作日内提出，并在事先告知书送达后十个工作日内提出陈述、申辩意见。当事人书面申请延长陈述、申辩期限的，经同意后可以延期；未按规定提出陈述、申辩的，视为放弃陈述、申辩权利。\n当事人按照前款规定进行陈述和申辩的，实施机构应当充分听取当事人的意见，对当事人提出的事实、理由和证据，应当进行复核；当事人提出的事实、理由或者证据成立的，实施机构应当采纳。\n第十二条 对已经送达的事先告知书认定的主要事实、理由、依据或者拟采取监督管理措施的内容作出调整的，应当重新向当事人送达事先告知书，但作出对当事人有利变更的除外。\n第十三条 实施监督管理措施应当进行法制审核，法律、行政法规和中国证监会的规章另有规定的除外。\n第十四条 实施机构实施监督管理措施，应当制作监督管理\n措施决定书。监督管理措施决定书应当载明下列事项：\n（一）当事人的姓名或者名称；\n（二）监督管理措施依据的事实；\n（三）监督管理措施的种类和依据；\n（四）监督管理措施的履行方式、期限和是否需要整改验收；\n（五）申请行政复议或者提起行政诉讼的途径和期限；\n（六）监督管理措施的实施机构名称和实施日期；\n（七）其他依法应当载明的事项。\n监督管理措施决定书应当加盖实施机构的印章。\n第十五条 监督管理措施决定作出后可以向社会公开，但涉及国家秘密、商业秘密、个人隐私，以及公开后可能危及国家安全、公共安全、经济安全、社会稳定、市场稳定等的除外。\n责令公开说明等具有公开要求的监督管理措施决定作出后应当向社会公开。\n第十六条 在监督管理措施决定书及相关文书作出后七个工作日内，实施机构原则上应当参照《中华人民共和国民事诉讼法》等有关规定送达当事人。当事人同意的，可以采用传真、电子邮件等方式送达。\n第十七条 在对当事人采取本办法第二条第七项至第十四项规定的监督管理措施期间，当事人符合解除限制条件的，实施机构可以自行或者根据当事人的申请解除限制措施。\n提前解除限制措施，或者限制期限届满解除限制措施的，当事人应当按要求整改，并向实施机构提交整改报告。实施机构应当按照规定及时验收，经验收符合要求的，应当自验收完毕之日起三个工作日内解除对当事人采取的有关限制措施。\n第十八条 监督管理措施决定作出或者限制措施解除后，实施机构可以通报当事人的所在单位、主管部门、上级单位、有关纪检监察机关、有关行业协会，或者其控股股东、实际控制人等部门、单位。\n第十九条 出现下列情形之一，不立即采取本办法第二条第七项至第十四项规定的监督管理措施将严重危害金融秩序、影响金融机构稳健运行、损害公共利益或者出现其他严重危害后果的，实施机构可以当场或者通过电子通讯等方式听取当事人意见，不受本办法第十一条规定的形式和时限限制,存在确实无法联系到当事人等特殊情况的，经实施机构主要负责人批准，不适用本办法第十一条的规定：\n（一）证券基金期货经营机构监管指标恶化；\n（二）证券基金期货经营机构经营管理情况恶化；\n（三）发生重大风险事件；\n（四）存在其他重大风险隐患。\n第二十条 实施本办法第二条第十五项规定的其他监督管理措施，对当事人权利义务有较大影响的，适用本办法第十一条、第十二条、第十七条、第十九条的规定。\n第二十一条 当事人对监督管理措施决定不服的，可以依法申请行政复议或者依法直接向人民法院提起诉讼。复议和诉讼期间，不停止监督管理措施的执行，法律另有规定的除外。\n第二十二条 违法行为被给予行政处罚的，不再采取监督管理措施，但为及时防范风险或者保护投资者合法权益，确有必要采取的除外；涉嫌犯罪的，应当依法移送司法机关处理。\n第二十三条 当事人申请适用行政执法当事人承诺制度并完全履行承诺认可协议的，实施机构不再对其同一行为采取监督管理措施。\n第二十四条 实施机构工作人员在监督管理措施实施工作中存在失职失责行为，造成重大损失、严重后果或者恶劣影响的，依规依纪依法严肃追责问责。\n第二十五条 本办法自 2026 年 6 月 30 日起施行。《证券期货市场监督管理措施实施办法（试行）》同时废止。",
+          "sentences": [
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s0",
+              "text": "（2025 年12 月 30 日中国证券监督管理委员会\n第 6次委务会议审议通过）\n第一条 为了规范证券期货市场监督管理措施的实施，维护证券期货市场秩序，防范证券期货市场风险，保护公民、法人和其他组织的合法权益，根据《中华人民共和国证券法》《中华人民共和国证券投资基金法》《中华人民共和国期货和衍生品法》《证券公司监督管理条例》《期货交易管理条例》《私募投资基金监督管理条例》等法律、行政法规，制定本办法。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s1",
+              "text": "第二条 本办法所称监督管理措施是指中国证券监督管理委员会（以下简称中国证监会）及其派出机构（以下统称实施机构）为了保护公共利益、及时矫正违法行为、防范市场风险、维护市场秩序，依法对当事人采取的下列措施：\n（一）责令改正；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s2",
+              "text": "（二）监管谈话；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s3",
+              "text": "（三）出具警示函；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s4",
+              "text": "（四）责令公开说明；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s5",
+              "text": "（五）责令定期报告;\n（六）责令增加内部合规检查次数；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s6",
+              "text": "（七）责令处分有关人员；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s7",
+              "text": "（八）认定为不适当人选;\n（九）责令更换董事、监事、高级管理人员或者有关业务部门、分支机构负责人员等，或者限制其权利；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s8",
+              "text": "（十）限制业务活动，责令暂停部分或者全部业务，停止核准新业务；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s9",
+              "text": "（十一）责令负有责任的股东转让股权、负有责任的合伙人转让财产份额，限制负有责任的股东或者合伙人行使权利；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s10",
+              "text": "（十二）限制分配红利，限制向董事、监事、高级管理人员支付报酬、提供福利；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s11",
+              "text": "（十三）限制公司自有资金或者风险准备金的调拨和使用；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s12",
+              "text": "（十四）限制转让财产或者在财产上设定其他权利；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s13",
+              "text": "（十五）法律、行政法规、中国证监会规章规定的其他监督管理措施。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s14",
+              "text": "第三条 实施监督管理措施，应当遵循依法原则，按照法律、行政法规、中国证监会规章规定的程序实施。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s15",
+              "text": "行政规范性文件不得设定监督管理措施。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s16",
+              "text": "实施监督管理措施，应当遵循效率原则，及时矫正违法行为，防范风险蔓延与危害后果扩散，坚持风险防控与教育相结合。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s17",
+              "text": "实施监督管理措施，应当遵循公正原则，以事实为依据，与行为的性质、情节、危害程度以及风险大小相当。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 17
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s18",
+              "text": "第四条 实施机构按照法律、行政法规和中国证监会的规定，对具有下列情形之一的当事人实施监督管理措施：\n（一）存在证券基金期货及衍生品违法行为；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 18
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s19",
+              "text": "（二）证券基金期货及衍生品经营机构、私募基金管理人治理结构不健全、内部控制不完善、经营管理混乱；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 19
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s20",
+              "text": "（三）证券基金期货及衍生品经营机构、私募基金管理人风险控制不符合规定；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 20
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s21",
+              "text": "（四）法律、行政法规和中国证监会的规章规定的其他情形。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 21
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s22",
+              "text": "监督管理措施可以单独或者合并适用。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 22
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s23",
+              "text": "第五条 实施机构应当依法以文字、音像等形式，对监督管理措施的取证、决定、送达等进行记录，归档保存。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 23
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s24",
+              "text": "第六条 监督管理措施需要现场执法的，应当由具有行政执法资格的执法人员实施。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 24
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s25",
+              "text": "执法人员不得少于两人，法律、行政法规另有规定的除外。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 25
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s26",
+              "text": "第七条 实施机构应当自启动监督管理措施实施程序之日起六个月内作出监督管理措施决定。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 26
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s27",
+              "text": "有特殊情况需要延长的，应当报经实施机构负责人批准，每次延长期限不得超过六个月。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 27
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s28",
+              "text": "第八条 违法行为在二年内未被发现的，实施机构不再对该违法行为采取监督管理措施，法律、行政法规、中国证监会规章另有规定或者违法行为所产生的影响尚未消除的除外。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 28
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s29",
+              "text": "前款规定的期限，从违法行为发生之日起计算；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 29
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s30",
+              "text": "违法行为有连续或者继续状态的，从行为终了之日起计算。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 30
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s31",
+              "text": "第九条 实施机构参与实施监督管理措施的工作人员与当事人有直接利害关系，或者有其他关系可能影响公正执法的，应当主动申请回避；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 31
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s32",
+              "text": "当事人也有权申请其回避。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 32
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s33",
+              "text": "实施机构应当根据回避申请，经审查后作出是否回避的决定，也可以不经申请直接作出回避决定。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 33
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s34",
+              "text": "第十条 实施机构实施监督管理措施应当查明事实，全面收集证据。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 34
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s35",
+              "text": "实施机构履行其他法定职责依法取得的证据材料、有权机关移交或者公布的证据材料，以及通过其他渠道依法获取的证据材料，经审查符合真实性、合法性及关联性要求的，可以在实施监督管理措施时使用。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 35
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s36",
+              "text": "第十一条 实施本办法第二条第七项至第十四项规定的监督管理措施的，实施机构应当向当事人送达事先告知书，告知当事人拟采取的监督管理措施的内容、事实、理由和依据，并告知当事人依法享有陈述、申辩等权利。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 36
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s37",
+              "text": "当事人要求陈述、申辩的，应当在事先告知书送达后五个工作日内提出，并在事先告知书送达后十个工作日内提出陈述、申辩意见。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 37
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s38",
+              "text": "当事人书面申请延长陈述、申辩期限的，经同意后可以延期；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 38
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s39",
+              "text": "未按规定提出陈述、申辩的，视为放弃陈述、申辩权利。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 39
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s40",
+              "text": "当事人按照前款规定进行陈述和申辩的，实施机构应当充分听取当事人的意见，对当事人提出的事实、理由和证据，应当进行复核；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 40
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s41",
+              "text": "当事人提出的事实、理由或者证据成立的，实施机构应当采纳。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 41
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s42",
+              "text": "第十二条 对已经送达的事先告知书认定的主要事实、理由、依据或者拟采取监督管理措施的内容作出调整的，应当重新向当事人送达事先告知书，但作出对当事人有利变更的除外。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 42
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s43",
+              "text": "第十三条 实施监督管理措施应当进行法制审核，法律、行政法规和中国证监会的规章另有规定的除外。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 43
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s44",
+              "text": "第十四条 实施机构实施监督管理措施，应当制作监督管理\n措施决定书。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 44
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s45",
+              "text": "监督管理措施决定书应当载明下列事项：\n（一）当事人的姓名或者名称；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 45
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s46",
+              "text": "（二）监督管理措施依据的事实；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 46
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s47",
+              "text": "（三）监督管理措施的种类和依据；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 47
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s48",
+              "text": "（四）监督管理措施的履行方式、期限和是否需要整改验收；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 48
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s49",
+              "text": "（五）申请行政复议或者提起行政诉讼的途径和期限；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 49
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s50",
+              "text": "（六）监督管理措施的实施机构名称和实施日期；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 50
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s51",
+              "text": "（七）其他依法应当载明的事项。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 51
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s52",
+              "text": "监督管理措施决定书应当加盖实施机构的印章。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 52
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s53",
+              "text": "第十五条 监督管理措施决定作出后可以向社会公开，但涉及国家秘密、商业秘密、个人隐私，以及公开后可能危及国家安全、公共安全、经济安全、社会稳定、市场稳定等的除外。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 53
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s54",
+              "text": "责令公开说明等具有公开要求的监督管理措施决定作出后应当向社会公开。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 54
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s55",
+              "text": "第十六条 在监督管理措施决定书及相关文书作出后七个工作日内，实施机构原则上应当参照《中华人民共和国民事诉讼法》等有关规定送达当事人。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 55
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s56",
+              "text": "当事人同意的，可以采用传真、电子邮件等方式送达。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 56
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s57",
+              "text": "第十七条 在对当事人采取本办法第二条第七项至第十四项规定的监督管理措施期间，当事人符合解除限制条件的，实施机构可以自行或者根据当事人的申请解除限制措施。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 57
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s58",
+              "text": "提前解除限制措施，或者限制期限届满解除限制措施的，当事人应当按要求整改，并向实施机构提交整改报告。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 58
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s59",
+              "text": "实施机构应当按照规定及时验收，经验收符合要求的，应当自验收完毕之日起三个工作日内解除对当事人采取的有关限制措施。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 59
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s60",
+              "text": "第十八条 监督管理措施决定作出或者限制措施解除后，实施机构可以通报当事人的所在单位、主管部门、上级单位、有关纪检监察机关、有关行业协会，或者其控股股东、实际控制人等部门、单位。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 60
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s61",
+              "text": "第十九条 出现下列情形之一，不立即采取本办法第二条第七项至第十四项规定的监督管理措施将严重危害金融秩序、影响金融机构稳健运行、损害公共利益或者出现其他严重危害后果的，实施机构可以当场或者通过电子通讯等方式听取当事人意见，不受本办法第十一条规定的形式和时限限制,存在确实无法联系到当事人等特殊情况的，经实施机构主要负责人批准，不适用本办法第十一条的规定：\n（一）证券基金期货经营机构监管指标恶化；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 61
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s62",
+              "text": "（二）证券基金期货经营机构经营管理情况恶化；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 62
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s63",
+              "text": "（三）发生重大风险事件；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 63
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s64",
+              "text": "（四）存在其他重大风险隐患。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 64
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s65",
+              "text": "第二十条 实施本办法第二条第十五项规定的其他监督管理措施，对当事人权利义务有较大影响的，适用本办法第十一条、第十二条、第十七条、第十九条的规定。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 65
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s66",
+              "text": "第二十一条 当事人对监督管理措施决定不服的，可以依法申请行政复议或者依法直接向人民法院提起诉讼。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 66
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s67",
+              "text": "复议和诉讼期间，不停止监督管理措施的执行，法律另有规定的除外。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 67
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s68",
+              "text": "第二十二条 违法行为被给予行政处罚的，不再采取监督管理措施，但为及时防范风险或者保护投资者合法权益，确有必要采取的除外；",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 68
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s69",
+              "text": "涉嫌犯罪的，应当依法移送司法机关处理。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 69
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s70",
+              "text": "第二十三条 当事人申请适用行政执法当事人承诺制度并完全履行承诺认可协议的，实施机构不再对其同一行为采取监督管理措施。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 70
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s71",
+              "text": "第二十四条 实施机构工作人员在监督管理措施实施工作中存在失职失责行为，造成重大损失、严重后果或者恶劣影响的，依规依纪依法严肃追责问责。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 71
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s72",
+              "text": "第二十五条 本办法自 2026 年 6 月 30 日起施行。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 72
+              }
+            },
+            {
+              "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_s73",
+              "text": "《证券期货市场监督管理措施实施办法（试行）》同时废止。",
+              "location": {
+                "doc_id": "doc_0ab32a872fd9",
+                "section_path": "证券期货市场监督管理措施实施办法",
+                "paragraph_index": 0,
+                "sentence_index": 73
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_b2467bf3a761",
+      "entity_type": "Date",
+      "mention": "2025 年 12 月 30 日",
+      "canonical_name": "2025-12-30",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1af4b01c9d92",
+      "entity_type": "Organization",
+      "mention": "中国证券监督管理委员会",
+      "canonical_name": "中国证券监督管理委员会",
+      "attributes": {
+        "alias": "中国证监会"
+      },
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b9c6be504d0f",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国证券法》",
+      "canonical_name": "中华人民共和国证券法",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f66182448c91",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国证券投资基金法》",
+      "canonical_name": "中华人民共和国证券投资基金法",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_712ed351b26f",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国期货和衍生品法》",
+      "canonical_name": "中华人民共和国期货和衍生品法",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ffbbaf63fa8f",
+      "entity_type": "LegalDocument",
+      "mention": "《证券公司监督管理条例》",
+      "canonical_name": "证券公司监督管理条例",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f292955a49b4",
+      "entity_type": "LegalDocument",
+      "mention": "《期货交易管理条例》",
+      "canonical_name": "期货交易管理条例",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e96c371e6071",
+      "entity_type": "LegalDocument",
+      "mention": "《私募投资基金监督管理条例》",
+      "canonical_name": "私募投资基金监督管理条例",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_40af88a496af",
+      "entity_type": "LegalTerm",
+      "mention": "监督管理措施",
+      "canonical_name": "监督管理措施",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3bc31df04901",
+      "entity_type": "LegalTerm",
+      "mention": "实施机构",
+      "canonical_name": "实施机构",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0f6508fa3c1f",
+      "entity_type": "LegalTerm",
+      "mention": "责令改正",
+      "canonical_name": "责令改正",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7bbf4f2b4bfb",
+      "entity_type": "LegalTerm",
+      "mention": "监管谈话",
+      "canonical_name": "监管谈话",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7854ab36e613",
+      "entity_type": "LegalTerm",
+      "mention": "出具警示函",
+      "canonical_name": "出具警示函",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_886696c6dfcc",
+      "entity_type": "LegalTerm",
+      "mention": "责令公开说明",
+      "canonical_name": "责令公开说明",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_63f7947e9657",
+      "entity_type": "LegalTerm",
+      "mention": "责令定期报告",
+      "canonical_name": "责令定期报告",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_71d3210f5acc",
+      "entity_type": "LegalTerm",
+      "mention": "认定为不适当人选",
+      "canonical_name": "认定为不适当人选",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_60d787554d99",
+      "entity_type": "LegalTerm",
+      "mention": "限制业务活动",
+      "canonical_name": "限制业务活动",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e8beeb2104eb",
+      "entity_type": "LegalTerm",
+      "mention": "暂停部分或者全部业务",
+      "canonical_name": "暂停部分或者全部业务",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e784b955ef43",
+      "entity_type": "LegalTerm",
+      "mention": "停止核准新业务",
+      "canonical_name": "停止核准新业务",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_02a6614b6cc6",
+      "entity_type": "LegalTerm",
+      "mention": "转让股权",
+      "canonical_name": "转让股权",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4b7c64d80197",
+      "entity_type": "LegalTerm",
+      "mention": "限制分配红利",
+      "canonical_name": "限制分配红利",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a75757447307",
+      "entity_type": "LegalTerm",
+      "mention": "限制公司自有资金或者风险准备金的调拨和使用",
+      "canonical_name": "限制公司自有资金或者风险准备金的调拨和使用",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5c1b17f851a6",
+      "entity_type": "LegalTerm",
+      "mention": "限制转让财产",
+      "canonical_name": "限制转让财产",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_783652cd2664",
+      "entity_type": "LegalTerm",
+      "mention": "事先告知书",
+      "canonical_name": "事先告知书",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_535efbc4ba78",
+      "entity_type": "LegalTerm",
+      "mention": "陈述、申辩",
+      "canonical_name": "陈述、申辩",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cdc0fb142484",
+      "entity_type": "LegalTerm",
+      "mention": "回避",
+      "canonical_name": "回避",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8ede716c20fc",
+      "entity_type": "LegalTerm",
+      "mention": "法制审核",
+      "canonical_name": "法制审核",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2ad17d966223",
+      "entity_type": "LegalTerm",
+      "mention": "监督管理措施决定书",
+      "canonical_name": "监督管理措施决定书",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bc08769de862",
+      "entity_type": "LegalTerm",
+      "mention": "行政复议",
+      "canonical_name": "行政复议",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a18da762ceb5",
+      "entity_type": "LegalTerm",
+      "mention": "行政诉讼",
+      "canonical_name": "行政诉讼",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_382433f42058",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国民事诉讼法》",
+      "canonical_name": "中华人民共和国民事诉讼法",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fc239fe95b2a",
+      "entity_type": "Clause",
+      "mention": "第十九条",
+      "canonical_name": "第十九条",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_256bc44bedf2",
+      "entity_type": "Clause",
+      "mention": "第二十条",
+      "canonical_name": "第二十条",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_25da90c7b0c8",
+      "entity_type": "Clause",
+      "mention": "第二十一条",
+      "canonical_name": "第二十一条",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_826871ec5396",
+      "entity_type": "Clause",
+      "mention": "第二十二条",
+      "canonical_name": "第二十二条",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_dfa0465edfcc",
+      "entity_type": "Clause",
+      "mention": "第二十三条",
+      "canonical_name": "第二十三条",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2623170b0eb4",
+      "entity_type": "Clause",
+      "mention": "第二十四条",
+      "canonical_name": "第二十四条",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3241f0f97543",
+      "entity_type": "Clause",
+      "mention": "第二十五条",
+      "canonical_name": "第二十五条",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0a3541738fc1",
+      "entity_type": "LegalTerm",
+      "mention": "行政执法当事人承诺制度",
+      "canonical_name": "行政执法当事人承诺制度",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5301cfc4161b",
+      "entity_type": "LegalDocument",
+      "mention": "《证券期货市场监督管理措施实施办法（试行）》",
+      "canonical_name": "证券期货市场监督管理措施实施办法（试行）",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4f60ce0fc4ba",
+      "entity_type": "Date",
+      "mention": "2026 年 6 月 30 日",
+      "canonical_name": "2026-06-30",
+      "attributes": {},
+      "sentence_id": "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0",
+      "sentence_ids": [
+        "doc_0ab32a872fd9#证券期货市场监督管理措施实施办法_p0_sub3_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_fa9b09b69082_rel_5344cbc88d94",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_b9c6be504d0f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_2bf93cbde108",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_f66182448c91",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_d948596b5fdd",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_712ed351b26f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_35360613bf4b",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_ffbbaf63fa8f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_9d6b4ea4d90c",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_f292955a49b4",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_b1ec83da7301",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_e96c371e6071",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_3d8384ba6689",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_3bc31df04901",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_2b28130c9f52",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_0f6508fa3c1f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_1cbaacc3db81",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_7bbf4f2b4bfb",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_ba912200c784",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_7854ab36e613",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_ef0fe16210a1",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_886696c6dfcc",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_871ef637abe1",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_63f7947e9657",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_fe624e1a7097",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_71d3210f5acc",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_de073796ee4b",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_60d787554d99",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_93a517cee3fa",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_e8beeb2104eb",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_00f00be7dd81",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_e784b955ef43",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_9c8daeaaeb3b",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_02a6614b6cc6",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_19d5026eef1e",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_4b7c64d80197",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_8ad460e7d6bd",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_a75757447307",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_f78c80fabf54",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_5c1b17f851a6",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_c8f5d44dd5cd",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_783652cd2664",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_52d21053a035",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_535efbc4ba78",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_e8e5816f6bde",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_cdc0fb142484",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_e2a91d4aa808",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_8ede716c20fc",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_fd6d52f3f1df",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_2ad17d966223",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_0578d7b6f9a7",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_bc08769de862",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_fa9b09b69082_rel_46d3d02ba8f2",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_40af88a496af",
+      "tail_entity_id": "ent_a18da762ceb5",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_92bc7f0742fb_rel_7eff0e3dede6",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fc239fe95b2a",
+      "tail_entity_id": "ent_b9c6be504d0f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_92bc7f0742fb_rel_600447b145be",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fc239fe95b2a",
+      "tail_entity_id": "ent_f66182448c91",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_92bc7f0742fb_rel_97a19de1c7bb",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fc239fe95b2a",
+      "tail_entity_id": "ent_712ed351b26f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_92bc7f0742fb_rel_e3adc40060ed",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fc239fe95b2a",
+      "tail_entity_id": "ent_ffbbaf63fa8f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_92bc7f0742fb_rel_08345a7e5ab6",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fc239fe95b2a",
+      "tail_entity_id": "ent_f292955a49b4",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_92bc7f0742fb_rel_095b151053ae",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fc239fe95b2a",
+      "tail_entity_id": "ent_e96c371e6071",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_92bc7f0742fb_rel_df77a99d9f74",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_dfa0465edfcc",
+      "tail_entity_id": "ent_0a3541738fc1",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ab32a872fd9",
+        "section_path": "证券期货市场监督管理措施实施办法",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

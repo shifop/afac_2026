@@ -1,0 +1,324 @@
+{
+  "doc_id": "doc_6a2425a32a31",
+  "title": "监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0065_att1.md",
+  "processed_at": "2026-07-21T01:06:26.903556+00:00",
+  "structured_data": {
+    "title": "监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求"
+  },
+  "stats": {
+    "sections": 1,
+    "paragraphs": 1,
+    "sentences": 6,
+    "entities": 10,
+    "relations": 5,
+    "rejected": 0,
+    "llm_calls": 2809,
+    "llm_tokens": 4287302,
+    "elapsed_seconds": 12.53
+  },
+  "sections": [
+    {
+      "section_id": "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求",
+      "section_path": "监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求",
+      "title": "监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求",
+      "level": 1,
+      "reading_guide": {
+        "has": "境外转板上市/备案程序/3个工作日/《试行办法》第十六条/2023年3月31日/违规案例",
+        "for": [
+          "转板规则",
+          "备案时限",
+          "合规要求",
+          "监管依据"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0",
+          "para_index": 0,
+          "content": "案例：近期，某在境外场外市场挂牌的境内企业向境外监管机构提交了转至境外证券交易所上市（以下简称“境外转板上市”）的申请，在未履行境外首次公开发行上市备案程序的情况下，完成境外上市。上述行为违反了《境内企业境外发行证券和上市管理试行办法》（以下简称《试行办法》）相关规定。\n规则依据：根据《试行办法》第一条和第二条的规定，境外发行上市指在境外证券交易所发行上市相关活动，境内企业在境外场外市场挂牌不属于备案管理范围；《试行办法》第十六条规定“发行人境外首次公开发行或者上市的，应当在境外提交发行上市申请文件后3个工作日内向中国证监会备案”；境内企业境外转板上市的，应当按照境外首次公开发行上市相关要求，在境外提交转板上市申请文件后 3 个工作日内向中国证监会备案。\n根据《关于境内企业境外发行上市备案管理安排的通知》，《试行办法》施行之日（即 2023 年 3 月 31 日），已在境外提交转板上市申请文件、未获境外监管机构或者境外证券交易所同意的境内企业，应当在境外转板上市完成前履行备案程序。",
+          "sentences": [
+            {
+              "sentence_id": "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s0",
+              "text": "案例：近期，某在境外场外市场挂牌的境内企业向境外监管机构提交了转至境外证券交易所上市（以下简称“境外转板上市”）的申请，在未履行境外首次公开发行上市备案程序的情况下，完成境外上市。",
+              "location": {
+                "doc_id": "doc_6a2425a32a31",
+                "section_path": "监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s1",
+              "text": "上述行为违反了《境内企业境外发行证券和上市管理试行办法》（以下简称《试行办法》）相关规定。",
+              "location": {
+                "doc_id": "doc_6a2425a32a31",
+                "section_path": "监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s2",
+              "text": "规则依据：根据《试行办法》第一条和第二条的规定，境外发行上市指在境外证券交易所发行上市相关活动，境内企业在境外场外市场挂牌不属于备案管理范围；",
+              "location": {
+                "doc_id": "doc_6a2425a32a31",
+                "section_path": "监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s3",
+              "text": "《试行办法》第十六条规定“发行人境外首次公开发行或者上市的，应当在境外提交发行上市申请文件后3个工作日内向中国证监会备案”；",
+              "location": {
+                "doc_id": "doc_6a2425a32a31",
+                "section_path": "监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s4",
+              "text": "境内企业境外转板上市的，应当按照境外首次公开发行上市相关要求，在境外提交转板上市申请文件后 3 个工作日内向中国证监会备案。",
+              "location": {
+                "doc_id": "doc_6a2425a32a31",
+                "section_path": "监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s5",
+              "text": "根据《关于境内企业境外发行上市备案管理安排的通知》，《试行办法》施行之日（即 2023 年 3 月 31 日），已在境外提交转板上市申请文件、未获境外监管机构或者境外证券交易所同意的境内企业，应当在境外转板上市完成前履行备案程序。",
+              "location": {
+                "doc_id": "doc_6a2425a32a31",
+                "section_path": "监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_84eba0321303",
+      "entity_type": "LegalDocument",
+      "mention": "《境内企业境外发行证券和上市管理试行办法》",
+      "canonical_name": "境内企业境外发行证券和上市管理试行办法",
+      "attributes": {
+        "short_name": "《试行办法》"
+      },
+      "sentence_id": "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s1",
+      "sentence_ids": [
+        "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s1",
+        "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s2",
+        "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s3",
+        "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8fa3d422ea55",
+      "entity_type": "Clause",
+      "mention": "《试行办法》第一条",
+      "canonical_name": "境内企业境外发行证券和上市管理试行办法_第一条",
+      "attributes": {},
+      "sentence_id": "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s2",
+      "sentence_ids": [
+        "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_75b2f1a8f900",
+      "entity_type": "Clause",
+      "mention": "《试行办法》第二条",
+      "canonical_name": "境内企业境外发行证券和上市管理试行办法_第二条",
+      "attributes": {},
+      "sentence_id": "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s2",
+      "sentence_ids": [
+        "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0c823c5cac34",
+      "entity_type": "LegalTerm",
+      "mention": "境外发行上市",
+      "canonical_name": "境外发行上市",
+      "attributes": {},
+      "sentence_id": "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s2",
+      "sentence_ids": [
+        "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_006e131262eb",
+      "entity_type": "LegalTerm",
+      "mention": "备案管理范围",
+      "canonical_name": "备案管理范围",
+      "attributes": {},
+      "sentence_id": "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s2",
+      "sentence_ids": [
+        "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ac437d364519",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s3",
+      "sentence_ids": [
+        "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s3",
+        "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fd5755ac261c",
+      "entity_type": "Clause",
+      "mention": "《试行办法》第十六条",
+      "canonical_name": "境内企业境外发行证券和上市管理试行办法_第十六条",
+      "attributes": {},
+      "sentence_id": "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s3",
+      "sentence_ids": [
+        "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a20f01a20b0a",
+      "entity_type": "LegalDocument",
+      "mention": "《关于境内企业境外发行上市备案管理安排的通知》",
+      "canonical_name": "关于境内企业境外发行上市备案管理安排的通知",
+      "attributes": {},
+      "sentence_id": "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s5",
+      "sentence_ids": [
+        "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_146124015cfb",
+      "entity_type": "Date",
+      "mention": "2023 年 3 月 31 日",
+      "canonical_name": "2023-03-31",
+      "attributes": {},
+      "sentence_id": "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s5",
+      "sentence_ids": [
+        "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8b296d441798",
+      "entity_type": "LegalTerm",
+      "mention": "备案程序",
+      "canonical_name": "备案程序",
+      "attributes": {},
+      "sentence_id": "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s5",
+      "sentence_ids": [
+        "doc_6a2425a32a31#监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_4addf4031edc_rel_de0df2edb9dd",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_8fa3d422ea55",
+      "tail_entity_id": "ent_84eba0321303",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_6a2425a32a31",
+        "section_path": "监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_4addf4031edc_rel_2eb08fb59ff4",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_75b2f1a8f900",
+      "tail_entity_id": "ent_84eba0321303",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_6a2425a32a31",
+        "section_path": "监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_4addf4031edc_rel_9dc5ef4137ad",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_8fa3d422ea55",
+      "tail_entity_id": "ent_0c823c5cac34",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_6a2425a32a31",
+        "section_path": "监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_4addf4031edc_rel_826d4ccd31bd",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_75b2f1a8f900",
+      "tail_entity_id": "ent_006e131262eb",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_6a2425a32a31",
+        "section_path": "监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_4addf4031edc_rel_6489d8e23888",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fd5755ac261c",
+      "tail_entity_id": "ent_84eba0321303",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_6a2425a32a31",
+        "section_path": "监管规则适用指引—— 境外发行上市类第 7号：关于境内企业由境外场外市场转至境外证券交易所实现境外发行上市的监管要求",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

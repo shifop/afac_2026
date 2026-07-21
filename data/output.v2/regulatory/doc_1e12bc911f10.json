@@ -1,0 +1,340 @@
+{
+  "doc_id": "doc_1e12bc911f10",
+  "title": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0019_att1.md",
+  "processed_at": "2026-07-21T00:25:23.331034+00:00",
+  "structured_data": {
+    "title": "中国证监会关于推出商业不动产投资信托基金试点的公告"
+  },
+  "stats": {
+    "sections": 1,
+    "paragraphs": 1,
+    "sentences": 12,
+    "entities": 9,
+    "relations": 3,
+    "rejected": 0,
+    "llm_calls": 551,
+    "llm_tokens": 1005285,
+    "elapsed_seconds": 7.57
+  },
+  "sections": [
+    {
+      "section_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告",
+      "section_path": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+      "title": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+      "level": 1,
+      "reading_guide": {
+        "has": "商业不动产 REITs 定义/基金管理人条件/基金托管人条件/尽职调查要求/评估法律审计服务/注册申请材料/不动产合规要求/现金流要求/运营管理职责/监管职责/",
+        "for": [
+          "REITs 定义",
+          "准入条件",
+          "运营要求",
+          "监管职责",
+          "合规标准"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0",
+          "para_index": 0,
+          "content": "为深入贯彻落实党的二十届三中、四中全会精神和《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》（国发〔2024〕10 号）部署要求，积极发挥多层次资本市场功能，着力推动不动产投资信托基金（REITs）市场高质量发展，现就推出商业不动产投资信托基金试点公告如下。\n一、商业不动产投资信托基金，是指通过投资于商业不动产资产支持证券，以其和相关项目公司为载体取得商业不动产的所有权或者经营权利，运营管理商业不动产以获取租金、收费等稳定现金流，并将主要收益分配给基金份额持有人的封闭式公开募集证券投资基金。\n二、申请募集商业不动产投资信托基金，拟任基金管理人、基金托管人应当符合《中华人民共和国证券投资基金法》《公开募集证券投资基金运作管理办法》规定的相关条件。拟任基金管理人应当具备健全有效的商业不动产投资信托基金投资管理、资产运营、内部控制与风险管理制度和流程。\n三、申请募集商业不动产投资信托基金前，基金管理人应当对拟持有的商业不动产进行全面的尽职调查，聘请符合规定的专业机构提供评估、法律、审计等专业服务。申请募集商业不动产投资信托基金，基金管理人应当向中国证监会提交《中华人民共和国证券投资基金法》和中国证监会规定\n的注册申请材料。\n四、商业不动产投资信托基金拟持有的商业不动产应当符合国家战略、发展规划、产业政策，权属清晰、范围明确、关键合规手续齐备，已产生持续、稳定的现金流，以及中国证监会规定的其他要求。\n五、商业不动产投资信托基金运作过程中，基金管理人应当按照法律、行政法规规定和基金合同约定主动履行商业不动产运营管理职责。\n六、基金管理人、基金托管人及其他专业机构应当按照相关规定和约定履职尽责，严格遵守执业规范和监管要求，为商业不动产投资信托基金市场健康发展提供专业服务。\n七、中国证监会及其派出机构依法依规履行商业不动产投资信托基金监管和风险监测处置等职责，证券交易所、中国证券业协会、中国证券投资基金业协会等履行商业不动产投资信托基金自律管理职责。\n八、商业不动产投资信托基金其他有关事宜，参照《公开募集基础设施证券投资基金指引（试行）》（证监会公告〔2023〕55 号）有关规定执行。\n本公告自公布之日起施行。",
+          "sentences": [
+            {
+              "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s0",
+              "text": "为深入贯彻落实党的二十届三中、四中全会精神和《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》（国发〔2024〕10 号）部署要求，积极发挥多层次资本市场功能，着力推动不动产投资信托基金（REITs）市场高质量发展，现就推出商业不动产投资信托基金试点公告如下。",
+              "location": {
+                "doc_id": "doc_1e12bc911f10",
+                "section_path": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s1",
+              "text": "一、商业不动产投资信托基金，是指通过投资于商业不动产资产支持证券，以其和相关项目公司为载体取得商业不动产的所有权或者经营权利，运营管理商业不动产以获取租金、收费等稳定现金流，并将主要收益分配给基金份额持有人的封闭式公开募集证券投资基金。",
+              "location": {
+                "doc_id": "doc_1e12bc911f10",
+                "section_path": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s2",
+              "text": "二、申请募集商业不动产投资信托基金，拟任基金管理人、基金托管人应当符合《中华人民共和国证券投资基金法》《公开募集证券投资基金运作管理办法》规定的相关条件。",
+              "location": {
+                "doc_id": "doc_1e12bc911f10",
+                "section_path": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s3",
+              "text": "拟任基金管理人应当具备健全有效的商业不动产投资信托基金投资管理、资产运营、内部控制与风险管理制度和流程。",
+              "location": {
+                "doc_id": "doc_1e12bc911f10",
+                "section_path": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s4",
+              "text": "三、申请募集商业不动产投资信托基金前，基金管理人应当对拟持有的商业不动产进行全面的尽职调查，聘请符合规定的专业机构提供评估、法律、审计等专业服务。",
+              "location": {
+                "doc_id": "doc_1e12bc911f10",
+                "section_path": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s5",
+              "text": "申请募集商业不动产投资信托基金，基金管理人应当向中国证监会提交《中华人民共和国证券投资基金法》和中国证监会规定\n的注册申请材料。",
+              "location": {
+                "doc_id": "doc_1e12bc911f10",
+                "section_path": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s6",
+              "text": "四、商业不动产投资信托基金拟持有的商业不动产应当符合国家战略、发展规划、产业政策，权属清晰、范围明确、关键合规手续齐备，已产生持续、稳定的现金流，以及中国证监会规定的其他要求。",
+              "location": {
+                "doc_id": "doc_1e12bc911f10",
+                "section_path": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s7",
+              "text": "五、商业不动产投资信托基金运作过程中，基金管理人应当按照法律、行政法规规定和基金合同约定主动履行商业不动产运营管理职责。",
+              "location": {
+                "doc_id": "doc_1e12bc911f10",
+                "section_path": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s8",
+              "text": "六、基金管理人、基金托管人及其他专业机构应当按照相关规定和约定履职尽责，严格遵守执业规范和监管要求，为商业不动产投资信托基金市场健康发展提供专业服务。",
+              "location": {
+                "doc_id": "doc_1e12bc911f10",
+                "section_path": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s9",
+              "text": "七、中国证监会及其派出机构依法依规履行商业不动产投资信托基金监管和风险监测处置等职责，证券交易所、中国证券业协会、中国证券投资基金业协会等履行商业不动产投资信托基金自律管理职责。",
+              "location": {
+                "doc_id": "doc_1e12bc911f10",
+                "section_path": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s10",
+              "text": "八、商业不动产投资信托基金其他有关事宜，参照《公开募集基础设施证券投资基金指引（试行）》（证监会公告〔2023〕55 号）有关规定执行。",
+              "location": {
+                "doc_id": "doc_1e12bc911f10",
+                "section_path": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s11",
+              "text": "本公告自公布之日起施行。",
+              "location": {
+                "doc_id": "doc_1e12bc911f10",
+                "section_path": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_661e305381a0",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》",
+      "canonical_name": "国务院关于加强监管防范风险推动资本市场高质量发展的若干意见",
+      "attributes": {
+        "document_number": "国发〔2024〕10 号"
+      },
+      "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s0",
+      "sentence_ids": [
+        "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b385f3259076",
+      "entity_type": "InsuranceProduct",
+      "mention": "商业不动产投资信托基金",
+      "canonical_name": "商业不动产投资信托基金",
+      "attributes": {},
+      "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s1",
+      "sentence_ids": [
+        "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_18f086787f6a",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国证券投资基金法》",
+      "canonical_name": "中华人民共和国证券投资基金法",
+      "attributes": {},
+      "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s2",
+      "sentence_ids": [
+        "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6c1a04ddd191",
+      "entity_type": "LegalDocument",
+      "mention": "《公开募集证券投资基金运作管理办法》",
+      "canonical_name": "公开募集证券投资基金运作管理办法",
+      "attributes": {},
+      "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s2",
+      "sentence_ids": [
+        "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6f2db25206b1",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s5",
+      "sentence_ids": [
+        "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e56edd1d4d69",
+      "entity_type": "Organization",
+      "mention": "证券交易所",
+      "canonical_name": "证券交易所",
+      "attributes": {},
+      "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s9",
+      "sentence_ids": [
+        "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7bc2710364a6",
+      "entity_type": "Organization",
+      "mention": "中国证券业协会",
+      "canonical_name": "中国证券业协会",
+      "attributes": {},
+      "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s9",
+      "sentence_ids": [
+        "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fc59bd8524b0",
+      "entity_type": "Organization",
+      "mention": "中国证券投资基金业协会",
+      "canonical_name": "中国证券投资基金业协会",
+      "attributes": {},
+      "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s9",
+      "sentence_ids": [
+        "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_58af2638a38a",
+      "entity_type": "LegalDocument",
+      "mention": "《公开募集基础设施证券投资基金指引（试行）》",
+      "canonical_name": "公开募集基础设施证券投资基金指引（试行）",
+      "attributes": {
+        "document_number": "证监会公告〔2023〕55 号"
+      },
+      "sentence_id": "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s10",
+      "sentence_ids": [
+        "doc_1e12bc911f10#中国证监会关于推出商业不动产投资信托基金试点的公告_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_21f8163ceb6b_rel_fef880605942",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_b385f3259076",
+      "tail_entity_id": "ent_18f086787f6a",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_1e12bc911f10",
+        "section_path": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_21f8163ceb6b_rel_c912e66a6390",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_b385f3259076",
+      "tail_entity_id": "ent_6c1a04ddd191",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_1e12bc911f10",
+        "section_path": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_21f8163ceb6b_rel_aac8737f8b6d",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_b385f3259076",
+      "tail_entity_id": "ent_58af2638a38a",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_1e12bc911f10",
+        "section_path": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+        "paragraph_index": 0,
+        "sentence_index": 10
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,518 @@
+{
+  "doc_id": "doc_0ea982986a65",
+  "title": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0053_att2.md",
+  "processed_at": "2026-07-21T01:01:17.241675+00:00",
+  "structured_data": {
+    "title": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明"
+  },
+  "stats": {
+    "sections": 4,
+    "paragraphs": 4,
+    "sentences": 12,
+    "entities": 15,
+    "relations": 5,
+    "rejected": 0,
+    "llm_calls": 2629,
+    "llm_tokens": 4048904,
+    "elapsed_seconds": 14.05
+  },
+  "sections": [
+    {
+      "section_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明",
+      "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明",
+      "title": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "科创属性评价指引（试行）/修改决定/国务院意见/证监会监管要求/新质生产力",
+        "for": [
+          "政策依据",
+          "修改原因",
+          "监管导向"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明_p0",
+          "para_index": 0,
+          "content": "为落实《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》《关于严把发行上市准入关从源头上提高上市公司质量的意见（试行）》（以下简称《意见》）要求，更好发挥科创板促进提升创新驱动发展能力的功能作用，以科技创新推动产业创新，培育壮大新质生产力，促进高质量发展，证监会对《科创属性评价指引（试行）》（以下简称《指引》）进行修改，现说明如下。",
+          "sentences": [
+            {
+              "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明_p0_s0",
+              "text": "为落实《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》《关于严把发行上市准入关从源头上提高上市公司质量的意见（试行）》（以下简称《意见》）要求，更好发挥科创板促进提升创新驱动发展能力的功能作用，以科技创新推动产业创新，培育壮大新质生产力，促进高质量发展，证监会对《科创属性评价指引（试行）》（以下简称《指引》）进行修改，现说明如下。",
+              "location": {
+                "doc_id": "doc_0ea982986a65",
+                "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 一、修改背景",
+      "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 一、修改背景",
+      "title": "一、修改背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "科创板定位/硬科技特色/关键核心技术/科研投入指标/科研成果指标/成长性指标/中介机构申报质量",
+        "for": [
+          "板块定位",
+          "科创属性",
+          "核心要求",
+          "上市标准"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 一、修改背景_p0",
+          "para_index": 0,
+          "content": "《意见》提出，要凸显科创板“硬科技”特色，强化科创属性要求。这要求科创板始终坚守板块定位，主要服务符合国家战略，拥有关键核心技术，科技创新能力突出，主要依靠核心技术开展生产经营，具有稳定商业模式，市场认可度高，社会形象良好，具有较强成长性的企业。强化衡量科研投入、科研成果和成长性的关键指标，旨在进一步引导中介机构提高申报企业质量，推荐真正具有关键核心技术的优质科技企业在科创板上市。",
+          "sentences": [
+            {
+              "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 一、修改背景_p0_s0",
+              "text": "《意见》提出，要凸显科创板“硬科技”特色，强化科创属性要求。",
+              "location": {
+                "doc_id": "doc_0ea982986a65",
+                "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 一、修改背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 一、修改背景_p0_s1",
+              "text": "这要求科创板始终坚守板块定位，主要服务符合国家战略，拥有关键核心技术，科技创新能力突出，主要依靠核心技术开展生产经营，具有稳定商业模式，市场认可度高，社会形象良好，具有较强成长性的企业。",
+              "location": {
+                "doc_id": "doc_0ea982986a65",
+                "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 一、修改背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 一、修改背景_p0_s2",
+              "text": "强化衡量科研投入、科研成果和成长性的关键指标，旨在进一步引导中介机构提高申报企业质量，推荐真正具有关键核心技术的优质科技企业在科创板上市。",
+              "location": {
+                "doc_id": "doc_0ea982986a65",
+                "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 一、修改背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容",
+      "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容",
+      "title": "二、修改内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "研发投入金额/发明专利数量/营业收入复合增长率/产业化要求/国防专利",
+        "for": [
+          "科创指标",
+          "研发门槛",
+          "专利要求",
+          "营收增速",
+          "修改条款"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0",
+          "para_index": 0,
+          "content": "一是将《指引》第一条第一项“最近三年研发投入金额”由“累计在 6000 万元以上”调整为“累计在 8000 万元以上”；将第三项“应用于公司主营业务的发明专利 5 项以上”调整为“应用于公司主营业务并能够产业化的发明专利 7 项以上”；将第四项“最近三年营业收入复合增长率”由“达到20%”调整为“达到 25%”。\n二是将第二条第五项“形成核心技术和应用于主营业务的发明专利（含国防专利）合计 50 项以上”调整为“形成核心技术和应用于主营业务，并能够产业化的发明专利（含国防专利）合计 50 项以上”。",
+          "sentences": [
+            {
+              "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s0",
+              "text": "一是将《指引》第一条第一项“最近三年研发投入金额”由“累计在 6000 万元以上”调整为“累计在 8000 万元以上”；",
+              "location": {
+                "doc_id": "doc_0ea982986a65",
+                "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s1",
+              "text": "将第三项“应用于公司主营业务的发明专利 5 项以上”调整为“应用于公司主营业务并能够产业化的发明专利 7 项以上”；",
+              "location": {
+                "doc_id": "doc_0ea982986a65",
+                "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s2",
+              "text": "将第四项“最近三年营业收入复合增长率”由“达到20%”调整为“达到 25%”。",
+              "location": {
+                "doc_id": "doc_0ea982986a65",
+                "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s3",
+              "text": "二是将第二条第五项“形成核心技术和应用于主营业务的发明专利（含国防专利）合计 50 项以上”调整为“形成核心技术和应用于主营业务，并能够产业化的发明专利（含国防专利）合计 50 项以上”。",
+              "location": {
+                "doc_id": "doc_0ea982986a65",
+                "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 三、公开征求意见情况",
+      "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 三、公开征求意见情况",
+      "title": "三、公开征求意见情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "公开征求意见时间/2024年4月12日至27日/有效建议数/7条/采纳情况/发明专利产业化要求/取消营收增长要求/新增推荐证明",
+        "for": [
+          "意见征集",
+          "建议采纳",
+          "政策修改",
+          "企业负担"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 三、公开征求意见情况_p0",
+          "para_index": 0,
+          "content": "2024 年4 月 12 日至 4 月27 日，我会就《指引》公开征求市场意见，共收到各方有效建议7 条，相关内容及采纳情况如下：\n有建议提出，为引导企业更加注重科研成果转化能力，促进科研成果转化质效提升，建议明确发明专利能够产业化的要求。我们予以采纳。\n对于取消营业收入增长要求、新增科委或协会出具推荐证明等建议，考虑到成长性是科技企业一大特征、新增推荐证明会加重企业负担等原因，相关建议未予采纳。\n特此说明。",
+          "sentences": [
+            {
+              "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 三、公开征求意见情况_p0_s0",
+              "text": "2024 年4 月 12 日至 4 月27 日，我会就《指引》公开征求市场意见，共收到各方有效建议7 条，相关内容及采纳情况如下：\n有建议提出，为引导企业更加注重科研成果转化能力，促进科研成果转化质效提升，建议明确发明专利能够产业化的要求。",
+              "location": {
+                "doc_id": "doc_0ea982986a65",
+                "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 三、公开征求意见情况_p0_s1",
+              "text": "我们予以采纳。",
+              "location": {
+                "doc_id": "doc_0ea982986a65",
+                "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 三、公开征求意见情况_p0_s2",
+              "text": "对于取消营业收入增长要求、新增科委或协会出具推荐证明等建议，考虑到成长性是科技企业一大特征、新增推荐证明会加重企业负担等原因，相关建议未予采纳。",
+              "location": {
+                "doc_id": "doc_0ea982986a65",
+                "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 三、公开征求意见情况_p0_s3",
+              "text": "特此说明。",
+              "location": {
+                "doc_id": "doc_0ea982986a65",
+                "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_85158aba1ccc",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》",
+      "canonical_name": "国务院关于加强监管防范风险推动资本市场高质量发展的若干意见",
+      "attributes": {},
+      "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7389bef7f00d",
+      "entity_type": "LegalDocument",
+      "mention": "《关于严把发行上市准入关从源头上提高上市公司质量的意见（试行）》",
+      "canonical_name": "关于严把发行上市准入关从源头上提高上市公司质量的意见（试行）",
+      "attributes": {},
+      "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_63008e746a35",
+      "entity_type": "LegalDocument",
+      "mention": "《科创属性评价指引（试行）》",
+      "canonical_name": "科创属性评价指引（试行）",
+      "attributes": {},
+      "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b00369498b7b",
+      "entity_type": "Industry",
+      "mention": "科创板",
+      "canonical_name": "科创板",
+      "attributes": {},
+      "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 一、修改背景_p0_s0",
+      "sentence_ids": [
+        "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 一、修改背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5aa5de37d41b",
+      "entity_type": "FinancialMetric",
+      "mention": "研发投入金额",
+      "canonical_name": "研发投入金额",
+      "attributes": {},
+      "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s0",
+      "sentence_ids": [
+        "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_30e22f5a6100",
+      "entity_type": "MonetaryAmount",
+      "mention": "6000 万元",
+      "canonical_name": "6000 万元",
+      "attributes": {},
+      "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s0",
+      "sentence_ids": [
+        "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_56a665e49575",
+      "entity_type": "MonetaryAmount",
+      "mention": "8000 万元",
+      "canonical_name": "8000 万元",
+      "attributes": {},
+      "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s0",
+      "sentence_ids": [
+        "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_276d202c3529",
+      "entity_type": "FinancialMetric",
+      "mention": "发明专利",
+      "canonical_name": "发明专利数量",
+      "attributes": {},
+      "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s1",
+      "sentence_ids": [
+        "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_64be4a41e167",
+      "entity_type": "MonetaryAmount",
+      "mention": "5 项",
+      "canonical_name": "5 项",
+      "attributes": {},
+      "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s1",
+      "sentence_ids": [
+        "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9b2ed20c2ce0",
+      "entity_type": "MonetaryAmount",
+      "mention": "7 项",
+      "canonical_name": "7 项",
+      "attributes": {},
+      "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s1",
+      "sentence_ids": [
+        "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1da1ef661aa6",
+      "entity_type": "FinancialMetric",
+      "mention": "营业收入复合增长率",
+      "canonical_name": "营业收入复合增长率",
+      "attributes": {},
+      "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s2",
+      "sentence_ids": [
+        "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a9ea4df41bc0",
+      "entity_type": "Percentage",
+      "mention": "20%",
+      "canonical_name": "20%",
+      "attributes": {},
+      "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s2",
+      "sentence_ids": [
+        "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1a8629c4b5f2",
+      "entity_type": "Percentage",
+      "mention": "25%",
+      "canonical_name": "25%",
+      "attributes": {},
+      "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s2",
+      "sentence_ids": [
+        "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_322ca6939386",
+      "entity_type": "Date",
+      "mention": "2024 年 4 月 12 日",
+      "canonical_name": "2024-04-12",
+      "attributes": {},
+      "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_331fe4425008",
+      "entity_type": "Date",
+      "mention": "4 月 27 日",
+      "canonical_name": "2024-04-27",
+      "attributes": {},
+      "sentence_id": "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_0ea982986a65#关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_eb952d55fb67_rel_a1f931869ae6",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_63008e746a35",
+      "tail_entity_id": "ent_85158aba1ccc",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ea982986a65",
+        "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_eb952d55fb67_rel_7dcaa4aa0b4f",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_63008e746a35",
+      "tail_entity_id": "ent_7389bef7f00d",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ea982986a65",
+        "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_eb952d55fb67_rel_195195b47ed6",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_63008e746a35",
+      "tail_entity_id": "ent_5aa5de37d41b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ea982986a65",
+        "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_eb952d55fb67_rel_d5a9955c11ca",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_63008e746a35",
+      "tail_entity_id": "ent_276d202c3529",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ea982986a65",
+        "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_eb952d55fb67_rel_3d831e284867",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_63008e746a35",
+      "tail_entity_id": "ent_1da1ef661aa6",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0ea982986a65",
+        "section_path": "关于《关于修改〈科创属性评价指引（试行）〉的决定》的说明 > 二、修改内容",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,946 @@
+{
+  "doc_id": "doc_ebedb4630f6c",
+  "title": "关于修改《科创属性评价指引（试行）》的决定",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0053_att1.md",
+  "processed_at": "2026-07-21T01:00:50.160720+00:00",
+  "structured_data": {
+    "title": "关于修改《科创属性评价指引（试行）》的决定"
+  },
+  "stats": {
+    "sections": 2,
+    "paragraphs": 2,
+    "sentences": 24,
+    "entities": 34,
+    "relations": 12,
+    "rejected": 0,
+    "llm_calls": 2623,
+    "llm_tokens": 4043724,
+    "elapsed_seconds": 27.08
+  },
+  "sections": [
+    {
+      "section_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定",
+      "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+      "title": "关于修改《科创属性评价指引（试行）》的决定",
+      "level": 1,
+      "reading_guide": {
+        "has": "研发投入占比/研发人员比例/发明专利数量/营业收入复合增长率/红筹企业豁免/软件行业特殊要求",
+        "for": [
+          "上市指标",
+          "科创属性",
+          "研发投入",
+          "专利要求",
+          "豁免条款"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0",
+          "para_index": 0,
+          "content": "一、将第一条修改为：“支持和鼓励科创板定位规定的相关行业领域中，同时符合下列4 项指标的企业申报科创板上市：\n（1）最近三年研发投入占营业收入比例 5%以上，或最近三年研发投入金额累计在8000 万元以上；\n（2）研发人员占当年员工总数的比例不低于 10%；\n（3）应用于公司主营业务并能够产业化的发明专利 7 项以上；\n（4）最近三年营业收入复合增长率达到 25%，或最近一年营业收入金额达到3 亿元。\n采用《上海证券交易所科创板股票上市规则》第 2.1.2 条第一款第（五）项规定的上市标准申报科创板的企业，或按照《关于开展创新企业境内发行股票或存托凭证试点的若干意见》等相关规则申报科创板的已境外上市红筹企业，可不适用上述第（4）项指标的规定；软件行业不适用上述第（3）项指标的要求，但研发投入占比应在10%以上。”\n二、将第二条第（5）项修改为：“形成核心技术和应用于主营业务，并能够产业化的发明专利（含国防专利）合计 50 项以上。”\n本决定自公布之日起施行。\n《科创属性评价指引（试行）》根据本决定作相应的修改，重新公布。",
+          "sentences": [
+            {
+              "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s0",
+              "text": "一、将第一条修改为：“支持和鼓励科创板定位规定的相关行业领域中，同时符合下列4 项指标的企业申报科创板上市：\n（1）最近三年研发投入占营业收入比例 5%以上，或最近三年研发投入金额累计在8000 万元以上；",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s1",
+              "text": "（2）研发人员占当年员工总数的比例不低于 10%；",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s2",
+              "text": "（3）应用于公司主营业务并能够产业化的发明专利 7 项以上；",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s3",
+              "text": "（4）最近三年营业收入复合增长率达到 25%，或最近一年营业收入金额达到3 亿元。",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s4",
+              "text": "采用《上海证券交易所科创板股票上市规则》第 2.1.2 条第一款第（五）项规定的上市标准申报科创板的企业，或按照《关于开展创新企业境内发行股票或存托凭证试点的若干意见》等相关规则申报科创板的已境外上市红筹企业，可不适用上述第（4）项指标的规定；",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s5",
+              "text": "软件行业不适用上述第（3）项指标的要求，但研发投入占比应在10%以上。",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s6",
+              "text": "”\n二、将第二条第（5）项修改为：“形成核心技术和应用于主营业务，并能够产业化的发明专利（含国防专利）合计 50 项以上。",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s7",
+              "text": "”\n本决定自公布之日起施行。",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s8",
+              "text": "《科创属性评价指引（试行）》根据本决定作相应的修改，重新公布。",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_ebedb4630f6c#科创属性评价指引（试行）",
+      "section_path": "科创属性评价指引（试行）",
+      "title": "科创属性评价指引（试行）",
+      "level": 1,
+      "reading_guide": {
+        "has": "科创属性评价指引/修订日期/研发投入占比5%或8000万/研发人员比例10%/发明专利7项/营收复合增长率25%或3亿元/软件行业特殊要求/国家科技奖项/重大专",
+        "for": [
+          "上市指标",
+          "研发投入",
+          "专利数量",
+          "营收增长",
+          "禁止行业"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0",
+          "para_index": 0,
+          "content": "（2020 年 3 月 20日公布 根据2021 年4 月 16日中国证券监督管理委员会《关于修改〈科创属性评价指引（试行）〉的决定》第一次修正 根据 2022 年 12 月 30 日中国证券监督管理委员会《关于修改〈科创属性评价指引（试行）〉的决定》第二次修正 根据 2023 年 8 月 10 日中国证券监督管理委员会《关于修改、废止部分证券期货制度文件的决定》第三次修正 根据 2024年 4 月 30 日中国证券监督管理委员会《关于修改〈科创属性评价指引（试行）〉的决定》第四次修正）\n为落实科创板定位，支持和鼓励硬科技企业在科创板上市，根据《关于在上海证券交易所设立科创板并试点注册制的实施意见》和《首次公开发行股票注册管理办法》，制定本指引。\n一、支持和鼓励科创板定位规定的相关行业领域中，同时符合下列4 项指标的企业申报科创板上市：\n（1）最近三年研发投入占营业收入比例 5%以上，或最近三年研发投入金额累计在8000 万元以上；\n（2）研发人员占当年员工总数的比例不低于 10%；\n（3）应用于公司主营业务并能够产业化的发明专利 7 项以上；\n（4）最近三年营业收入复合增长率达到 25%，或最近一年营业收入金额达到3 亿元。\n采用《上海证券交易所科创板股票上市规则》第 2.1.2 条第一款第（五）项规定的上市标准申报科创板的企业，或按照《关于开展创新企业境内发行股票或存托凭证试点的若干意见》等相关规则申报科创板的已境外上市红筹企业，可不适用上述第（4）项指标的规定；软件行业不适用上述第（3）项指标的要求，但研发投入占比应在10%以上。\n二、支持和鼓励科创板定位规定的相关行业领域中，虽未达到前述指标，但符合下列情形之一的企业申报科创板上市：\n（1）发行人拥有的核心技术经国家主管部门认定具有国际领先、引领作用或者对于国家战略具有重大意义；\n（2）发行人作为主要参与单位或者发行人的核心技术人员作为主要参与人员，获得国家科技进步奖、国家自然科学奖、国家技术发明奖，并将相关技术运用于公司主营业务；\n（3）发行人独立或者牵头承担与主营业务和核心技术相关的国家重大科技专项项目；\n（4）发行人依靠核心技术形成的主要产品（服务），属于国家鼓励、支持和推动的关键设备、关键产品、关键零部件、关键材料等，并实现了进口替代；\n（5）形成核心技术和应用于主营业务，并能够产业化的发明专利（含国防专利）合计50 项以上。\n三、限制金融科技、模式创新企业在科创板上市。禁止房地产和主要从事金融、投资类业务的企业在科创板上市。\n四、上海证券交易所就落实本指引制定具体业务规则。",
+          "sentences": [
+            {
+              "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_s0",
+              "text": "（2020 年 3 月 20日公布 根据2021 年4 月 16日中国证券监督管理委员会《关于修改〈科创属性评价指引（试行）〉的决定》第一次修正 根据 2022 年 12 月 30 日中国证券监督管理委员会《关于修改〈科创属性评价指引（试行）〉的决定》第二次修正 根据 2023 年 8 月 10 日中国证券监督管理委员会《关于修改、废止部分证券期货制度文件的决定》第三次修正 根据 2024年 4 月 30 日中国证券监督管理委员会《关于修改〈科创属性评价指引（试行）〉的决定》第四次修正）\n为落实科创板定位，支持和鼓励硬科技企业在科创板上市，根据《关于在上海证券交易所设立科创板并试点注册制的实施意见》和《首次公开发行股票注册管理办法》，制定本指引。",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "科创属性评价指引（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_s1",
+              "text": "一、支持和鼓励科创板定位规定的相关行业领域中，同时符合下列4 项指标的企业申报科创板上市：\n（1）最近三年研发投入占营业收入比例 5%以上，或最近三年研发投入金额累计在8000 万元以上；",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "科创属性评价指引（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_s2",
+              "text": "（2）研发人员占当年员工总数的比例不低于 10%；",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "科创属性评价指引（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_s3",
+              "text": "（3）应用于公司主营业务并能够产业化的发明专利 7 项以上；",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "科创属性评价指引（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_s4",
+              "text": "（4）最近三年营业收入复合增长率达到 25%，或最近一年营业收入金额达到3 亿元。",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "科创属性评价指引（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_s5",
+              "text": "采用《上海证券交易所科创板股票上市规则》第 2.1.2 条第一款第（五）项规定的上市标准申报科创板的企业，或按照《关于开展创新企业境内发行股票或存托凭证试点的若干意见》等相关规则申报科创板的已境外上市红筹企业，可不适用上述第（4）项指标的规定；",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "科创属性评价指引（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_s6",
+              "text": "软件行业不适用上述第（3）项指标的要求，但研发投入占比应在10%以上。",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "科创属性评价指引（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_s7",
+              "text": "二、支持和鼓励科创板定位规定的相关行业领域中，虽未达到前述指标，但符合下列情形之一的企业申报科创板上市：\n（1）发行人拥有的核心技术经国家主管部门认定具有国际领先、引领作用或者对于国家战略具有重大意义；",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "科创属性评价指引（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_s8",
+              "text": "（2）发行人作为主要参与单位或者发行人的核心技术人员作为主要参与人员，获得国家科技进步奖、国家自然科学奖、国家技术发明奖，并将相关技术运用于公司主营业务；",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "科创属性评价指引（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_s9",
+              "text": "（3）发行人独立或者牵头承担与主营业务和核心技术相关的国家重大科技专项项目；",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "科创属性评价指引（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_s10",
+              "text": "（4）发行人依靠核心技术形成的主要产品（服务），属于国家鼓励、支持和推动的关键设备、关键产品、关键零部件、关键材料等，并实现了进口替代；",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "科创属性评价指引（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_s11",
+              "text": "（5）形成核心技术和应用于主营业务，并能够产业化的发明专利（含国防专利）合计50 项以上。",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "科创属性评价指引（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_s12",
+              "text": "三、限制金融科技、模式创新企业在科创板上市。",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "科创属性评价指引（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_s13",
+              "text": "禁止房地产和主要从事金融、投资类业务的企业在科创板上市。",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "科创属性评价指引（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_s14",
+              "text": "四、上海证券交易所就落实本指引制定具体业务规则。",
+              "location": {
+                "doc_id": "doc_ebedb4630f6c",
+                "section_path": "科创属性评价指引（试行）",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_4c7ff150e6eb",
+      "entity_type": "FinancialMetric",
+      "mention": "研发投入占营业收入比例",
+      "canonical_name": "研发投入占营业收入比例",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s0",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_dd53ab605631",
+      "entity_type": "MonetaryAmount",
+      "mention": "8000 万元",
+      "canonical_name": "8000 万元",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s0",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_aeb59b4d3b2c",
+      "entity_type": "Percentage",
+      "mention": "5%",
+      "canonical_name": "5%",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s0",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_96c10de15ea9",
+      "entity_type": "Clause",
+      "mention": "最近三年研发投入占营业收入比例 5%以上，或最近三年研发投入金额累计在8000 万元以上",
+      "canonical_name": "指标_研发投入占比",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s0",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4eb30533df97",
+      "entity_type": "FinancialMetric",
+      "mention": "研发人员占当年员工总数的比例",
+      "canonical_name": "研发人员占比",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s1",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_043205658f09",
+      "entity_type": "Percentage",
+      "mention": "10%",
+      "canonical_name": "10%",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s1",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3e296bcc1045",
+      "entity_type": "Clause",
+      "mention": "研发人员占当年员工总数的比例不低于 10%",
+      "canonical_name": "指标_研发人员占比",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s1",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_548c5f8851ee",
+      "entity_type": "Clause",
+      "mention": "应用于公司主营业务并能够产业化的发明专利 7 项以上",
+      "canonical_name": "指标_发明专利数量",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s2",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cd1c2ed67127",
+      "entity_type": "FinancialMetric",
+      "mention": "营业收入复合增长率",
+      "canonical_name": "营业收入复合增长率",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s3",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ec102e39371f",
+      "entity_type": "Percentage",
+      "mention": "25%",
+      "canonical_name": "25%",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s3",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d9adc4d3577d",
+      "entity_type": "FinancialMetric",
+      "mention": "营业收入金额",
+      "canonical_name": "营业收入金额",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s3",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d42ff295452a",
+      "entity_type": "MonetaryAmount",
+      "mention": "3 亿元",
+      "canonical_name": "3 亿元",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s3",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_954a5313a4e6",
+      "entity_type": "Clause",
+      "mention": "最近三年营业收入复合增长率达到 25%，或最近一年营业收入金额达到3 亿元",
+      "canonical_name": "指标_营收增长或规模",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s3",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cbdd56976ebe",
+      "entity_type": "LegalDocument",
+      "mention": "《上海证券交易所科创板股票上市规则》",
+      "canonical_name": "上海证券交易所科创板股票上市规则",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s4",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0aaad7d16a5c",
+      "entity_type": "LegalDocument",
+      "mention": "《关于开展创新企业境内发行股票或存托凭证试点的若干意见》",
+      "canonical_name": "关于开展创新企业境内发行股票或存托凭证试点的若干意见",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s4",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_46347fdc8260",
+      "entity_type": "Clause",
+      "mention": "采用《上海证券交易所科创板股票上市规则》第 2.1.2 条第一款第（五）项规定的上市标准申报科创板的企业...可不适用上述第（4）项指标的规定",
+      "canonical_name": "豁免条款_红筹企业",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s4",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_33264ecbcd14",
+      "entity_type": "Industry",
+      "mention": "软件行业",
+      "canonical_name": "软件行业",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s5",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4daf1eb53125",
+      "entity_type": "Clause",
+      "mention": "软件行业不适用上述第（3）项指标的要求，但研发投入占比应在10%以上",
+      "canonical_name": "豁免条款_软件行业",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s5",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_22ab7b9efae9",
+      "entity_type": "Clause",
+      "mention": "形成核心技术和应用于主营业务，并能够产业化的发明专利（含国防专利）合计 50 项以上",
+      "canonical_name": "核心技术与专利要求",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s6",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f48260ecbab5",
+      "entity_type": "LegalDocument",
+      "mention": "《科创属性评价指引（试行）》",
+      "canonical_name": "科创属性评价指引（试行）",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s8",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#关于修改《科创属性评价指引（试行）》的决定_p0_s8"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9f9eddd2b80d",
+      "entity_type": "LegalDocument",
+      "mention": "《关于修改〈科创属性评价指引（试行）〉的决定》",
+      "canonical_name": "关于修改〈科创属性评价指引（试行）〉的决定",
+      "attributes": {
+        "version": "第四次修正"
+      },
+      "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_23c33d9ea977",
+      "entity_type": "LegalDocument",
+      "mention": "《关于修改、废止部分证券期货制度文件的决定》",
+      "canonical_name": "关于修改、废止部分证券期货制度文件的决定",
+      "attributes": {
+        "version": "第三次修正"
+      },
+      "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9d1702cac018",
+      "entity_type": "LegalDocument",
+      "mention": "《关于在上海证券交易所设立科创板并试点注册制的实施意见》",
+      "canonical_name": "关于在上海证券交易所设立科创板并试点注册制的实施意见",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_664775b03d14",
+      "entity_type": "LegalDocument",
+      "mention": "《首次公开发行股票注册管理办法》",
+      "canonical_name": "首次公开发行股票注册管理办法",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d1da31636622",
+      "entity_type": "Organization",
+      "mention": "中国证券监督管理委员会",
+      "canonical_name": "中国证券监督管理委员会",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4a5b845ca2dd",
+      "entity_type": "Date",
+      "mention": "2020 年 3 月 20 日",
+      "canonical_name": "2020-03-20",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d635fe8ee381",
+      "entity_type": "Date",
+      "mention": "2021 年 4 月 16 日",
+      "canonical_name": "2021-04-16",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7c2d7b3098d0",
+      "entity_type": "Date",
+      "mention": "2022 年 12 月 30 日",
+      "canonical_name": "2022-12-30",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_af725ed84e3b",
+      "entity_type": "Date",
+      "mention": "2023 年 8 月 10 日",
+      "canonical_name": "2023-08-10",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_35a7a914380a",
+      "entity_type": "Date",
+      "mention": "2024 年 4 月 30 日",
+      "canonical_name": "2024-04-30",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2f2faff3ad39",
+      "entity_type": "LegalTerm",
+      "mention": "硬科技企业",
+      "canonical_name": "硬科技企业",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1730eb314206",
+      "entity_type": "Industry",
+      "mention": "金融科技",
+      "canonical_name": "金融科技",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e4a31e584a15",
+      "entity_type": "Industry",
+      "mention": "房地产",
+      "canonical_name": "房地产",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0356bdaf5321",
+      "entity_type": "LegalTerm",
+      "mention": "进口替代",
+      "canonical_name": "进口替代",
+      "attributes": {},
+      "sentence_id": "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_ebedb4630f6c#科创属性评价指引（试行）_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_f0118b776ad4_rel_222a76964fe3",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_96c10de15ea9",
+      "tail_entity_id": "ent_f48260ecbab5",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ebedb4630f6c",
+        "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f0118b776ad4_rel_d87707f9f8cd",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_96c10de15ea9",
+      "tail_entity_id": "ent_2f2faff3ad39",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ebedb4630f6c",
+        "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f0118b776ad4_rel_10ab0b64f0ca",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_3e296bcc1045",
+      "tail_entity_id": "ent_f48260ecbab5",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ebedb4630f6c",
+        "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f0118b776ad4_rel_c3bdcb800a5c",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3e296bcc1045",
+      "tail_entity_id": "ent_2f2faff3ad39",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ebedb4630f6c",
+        "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f0118b776ad4_rel_08754ac8306a",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_548c5f8851ee",
+      "tail_entity_id": "ent_f48260ecbab5",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ebedb4630f6c",
+        "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f0118b776ad4_rel_3feaa77c47b1",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_548c5f8851ee",
+      "tail_entity_id": "ent_2f2faff3ad39",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ebedb4630f6c",
+        "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f0118b776ad4_rel_4a5bb1d9f3d4",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_954a5313a4e6",
+      "tail_entity_id": "ent_f48260ecbab5",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ebedb4630f6c",
+        "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f0118b776ad4_rel_1e7c06ec88bb",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_954a5313a4e6",
+      "tail_entity_id": "ent_2f2faff3ad39",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ebedb4630f6c",
+        "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f0118b776ad4_rel_5174f1e637b5",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_46347fdc8260",
+      "tail_entity_id": "ent_cbdd56976ebe",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ebedb4630f6c",
+        "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f0118b776ad4_rel_e89a97036c02",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_46347fdc8260",
+      "tail_entity_id": "ent_0aaad7d16a5c",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ebedb4630f6c",
+        "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f0118b776ad4_rel_f23587df6645",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_22ab7b9efae9",
+      "tail_entity_id": "ent_2f2faff3ad39",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ebedb4630f6c",
+        "section_path": "关于修改《科创属性评价指引（试行）》的决定",
+        "paragraph_index": 0,
+        "sentence_index": 6
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f0118b776ad4_rel_e875f17dceef",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_22ab7b9efae9",
+      "tail_entity_id": "ent_0356bdaf5321",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_ebedb4630f6c",
+        "section_path": "科创属性评价指引（试行）",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

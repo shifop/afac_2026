@@ -1,0 +1,712 @@
+{
+  "doc_id": "doc_bbd79dbe5b42",
+  "title": "《期货公司互联网营销管理暂行规定》起草说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0026_att2.md",
+  "processed_at": "2026-07-21T00:29:01.031499+00:00",
+  "structured_data": {
+    "title": "期货公司互联网营销管理暂行规定"
+  },
+  "stats": {
+    "sections": 4,
+    "paragraphs": 4,
+    "sentences": 35,
+    "entities": 11,
+    "relations": 6,
+    "rejected": 0,
+    "llm_calls": 679,
+    "llm_tokens": 1211792,
+    "elapsed_seconds": 10.35
+  },
+  "sections": [
+    {
+      "section_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明",
+      "section_path": "《期货公司互联网营销管理暂行规定》起草说明",
+      "title": "《期货公司互联网营销管理暂行规定》起草说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "《期货和衍生品法》/国办发〔2024〕47号/《暂行规定》/监管要求/合规展业/保护交易者权益",
+        "for": [
+          "法规依据",
+          "制定目的",
+          "监管背景"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明_p0",
+          "para_index": 0,
+          "content": "为落实《中华人民共和国期货和衍生品法》《国务院办公厅转发中国证监会等部门<关于加强监管防范风险促进期货市场高质量发展的意见>的通知》（国办发〔2024〕47 号）要求，加强期货公司互联网营销活动监管，指导期货公司合规有序展业，保护期货交易者合法权益，中国证监会制定了《期货公司互联网营销管理暂行规定》（以下简称《暂行规定》）。现说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明_p0_s0",
+              "text": "为落实《中华人民共和国期货和衍生品法》《国务院办公厅转发中国证监会等部门<关于加强监管防范风险促进期货市场高质量发展的意见>的通知》（国办发〔2024〕47 号）要求，加强期货公司互联网营销活动监管，指导期货公司合规有序展业，保护期货交易者合法权益，中国证监会制定了《期货公司互联网营销管理暂行规定》（以下简称《暂行规定》）。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明_p0_s1",
+              "text": "现说明如下：",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 一、起草背景",
+      "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 一、起草背景",
+      "title": "一、起草背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "信息技术发展/互联网营销融合/获客渠道/不当宣传/诱导开户/变相居间/违法违规行为/交易者权益/行业声誉/证监会起草",
+        "for": [
+          "背景原因",
+          "问题现状",
+          "监管目的",
+          "政策动机"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 一、起草背景_p0",
+          "para_index": 0,
+          "content": "近年来，随着信息技术快速发展，各行业加速与互联网融合，期货公司营销行为也逐渐向线上发展。期货公司通过互联网进行营销，在一定程度上提升了信息传递效率，拓宽了服务半径，增加了获客渠道。但是，个别期货公司在互联网营销过程中存在不当宣传、诱导开户、变相居间等违法违规行为，损害了交易者的合法权益和期货行业的整体声誉。为规范期货公司营销行为，保护交易者合法权益，证监会研究起草了《暂行规定》。",
+          "sentences": [
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 一、起草背景_p0_s0",
+              "text": "近年来，随着信息技术快速发展，各行业加速与互联网融合，期货公司营销行为也逐渐向线上发展。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 一、起草背景_p0_s1",
+              "text": "期货公司通过互联网进行营销，在一定程度上提升了信息传递效率，拓宽了服务半径，增加了获客渠道。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 一、起草背景_p0_s2",
+              "text": "但是，个别期货公司在互联网营销过程中存在不当宣传、诱导开户、变相居间等违法违规行为，损害了交易者的合法权益和期货行业的整体声誉。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 一、起草背景_p0_s3",
+              "text": "为规范期货公司营销行为，保护交易者合法权益，证监会研究起草了《暂行规定》。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+      "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+      "title": "二、主要内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "互联网营销定义/内容审核/内部管理制度/总部管理部门/从业人员授权/账号管理/第三方机构协议/手续费公示/风险提示回访/欺诈误导行为/公平竞争禁止/监管检查方式",
+        "for": [
+          "营销范围",
+          "合规要求",
+          "人员管理",
+          "第三方合作",
+          "客户保护"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0",
+          "para_index": 0,
+          "content": "《暂行规定》坚持问题导向和目标导向，共十八条，聚焦期货公司互联网营销活动出现的问题与风险隐患，从以下方面提出具体监管要求：\n（一）界定营销范围。明确本规定所称互联网营销活动，是指通过互联网对期货公司提供的期货经纪或者期货交易咨询服务进行商业性宣传推介的活动。\n（二）强化营销内容审核。要求期货公司对营销内容进行统一审核管理，确保合法合规，不得发布、转载未经公司统一审核的营销内容，并对互联网营销活动全流程留痕等。\n（三）明确营销制度与部门。规定期货公司应当建立健全互联网营销内部管理制度，纳入合规管理体系；应当在总部设置或指定具体部门统一管理互联网营销活动。\n（四）加强营销人员与账号管理。要求开展营销活动的人员应为获得期货公司授权并统一管理的期货从业人员，公司应当强化培训、监督和检查，对各类营销账号统一管理。\n（五）加强对第三方机构的管理。要求期货公司加强事前评估，依法审慎选择第三方机构并订立书面协议，明确协议内容和禁止性行为；规范向第三方机构支付费用等。\n（六）加大客户保护力度。要求期货公司加强风险提示和回访，公示手续费收取标准并不得高于公示标准收取手续费，对客户频繁交易等异常情况应当及时了解情况、提示风险等。\n（七）不得欺诈或者误导客户。要求期货公司及其从业人员不得以欺诈或者误导客户的方式开展互联网营销，明确欺诈或误导客户的具体行为。\n（八）禁止损害公平竞争。要求期货公司及其从业人员不得以损害公平竞争的方式开展互联网营销，明确损害公平竞争的具体行为。\n（九）强化监督管理。明确中国证监会及派出机构可以采取非现场监管或者现场检查等方式，对期货公司互联网营销活动实施监督管理；建立监管信息共享机制，发现涉嫌违法违规的及时通报，依法打击非法期货活动等。",
+          "sentences": [
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s0",
+              "text": "《暂行规定》坚持问题导向和目标导向，共十八条，聚焦期货公司互联网营销活动出现的问题与风险隐患，从以下方面提出具体监管要求：\n（一）界定营销范围。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s1",
+              "text": "明确本规定所称互联网营销活动，是指通过互联网对期货公司提供的期货经纪或者期货交易咨询服务进行商业性宣传推介的活动。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s2",
+              "text": "（二）强化营销内容审核。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s3",
+              "text": "要求期货公司对营销内容进行统一审核管理，确保合法合规，不得发布、转载未经公司统一审核的营销内容，并对互联网营销活动全流程留痕等。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s4",
+              "text": "（三）明确营销制度与部门。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s5",
+              "text": "规定期货公司应当建立健全互联网营销内部管理制度，纳入合规管理体系；",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s6",
+              "text": "应当在总部设置或指定具体部门统一管理互联网营销活动。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s7",
+              "text": "（四）加强营销人员与账号管理。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s8",
+              "text": "要求开展营销活动的人员应为获得期货公司授权并统一管理的期货从业人员，公司应当强化培训、监督和检查，对各类营销账号统一管理。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s9",
+              "text": "（五）加强对第三方机构的管理。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s10",
+              "text": "要求期货公司加强事前评估，依法审慎选择第三方机构并订立书面协议，明确协议内容和禁止性行为；",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s11",
+              "text": "规范向第三方机构支付费用等。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s12",
+              "text": "（六）加大客户保护力度。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s13",
+              "text": "要求期货公司加强风险提示和回访，公示手续费收取标准并不得高于公示标准收取手续费，对客户频繁交易等异常情况应当及时了解情况、提示风险等。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s14",
+              "text": "（七）不得欺诈或者误导客户。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s15",
+              "text": "要求期货公司及其从业人员不得以欺诈或者误导客户的方式开展互联网营销，明确欺诈或误导客户的具体行为。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s16",
+              "text": "（八）禁止损害公平竞争。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s17",
+              "text": "要求期货公司及其从业人员不得以损害公平竞争的方式开展互联网营销，明确损害公平竞争的具体行为。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 17
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s18",
+              "text": "（九）强化监督管理。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 18
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s19",
+              "text": "明确中国证监会及派出机构可以采取非现场监管或者现场检查等方式，对期货公司互联网营销活动实施监督管理；",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 19
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s20",
+              "text": "建立监管信息共享机制，发现涉嫌违法违规的及时通报，依法打击非法期货活动等。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 20
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况",
+      "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况",
+      "title": "三、公开征求意见情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "公开征求意见时间/2025年1月10日至2月9日/收到意见建议184条/采纳情况/未采纳原因",
+        "for": [
+          "意见征集",
+          "反馈统计",
+          "采纳情况"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况_p0",
+          "para_index": 0,
+          "content": "2025 年 1 月 10 日至 2 月 9 日，证监会就《暂行规定》向社会公开征求意见。征求意见期间，共收到意见建议184条。总体看，市场认为《暂行规定》针对期货公司互联网营销活动出现的问题和风险隐患，提出一系列监管安排，有利于规范期货公司互联网营销行为，指导期货公司合规有序展业，保障期货交易者合法权益；同时建议后续在操作层面进一步明确具体标准和流程等。我们对反馈意见逐条认真研究。与《暂行规定》相关的大多数意见建议均已采纳；部分意见因与现有规则不符或与监管目标不一致而未予采纳；其他与期货市场监管相关的意见建议将在监管工作中认真研究。",
+          "sentences": [
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况_p0_s0",
+              "text": "2025 年 1 月 10 日至 2 月 9 日，证监会就《暂行规定》向社会公开征求意见。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况_p0_s1",
+              "text": "征求意见期间，共收到意见建议184条。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况_p0_s2",
+              "text": "总体看，市场认为《暂行规定》针对期货公司互联网营销活动出现的问题和风险隐患，提出一系列监管安排，有利于规范期货公司互联网营销行为，指导期货公司合规有序展业，保障期货交易者合法权益；",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况_p0_s3",
+              "text": "同时建议后续在操作层面进一步明确具体标准和流程等。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况_p0_s4",
+              "text": "我们对反馈意见逐条认真研究。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况_p0_s5",
+              "text": "与《暂行规定》相关的大多数意见建议均已采纳；",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况_p0_s6",
+              "text": "部分意见因与现有规则不符或与监管目标不一致而未予采纳；",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况_p0_s7",
+              "text": "其他与期货市场监管相关的意见建议将在监管工作中认真研究。",
+              "location": {
+                "doc_id": "doc_bbd79dbe5b42",
+                "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_5ef060e74ae5",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国期货和衍生品法》",
+      "canonical_name": "中华人民共和国期货和衍生品法",
+      "attributes": {},
+      "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f088d27f79e0",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院办公厅转发中国证监会等部门<关于加强监管防范风险促进期货市场高质量发展的意见>的通知》（国办发〔2024〕47 号）",
+      "canonical_name": "关于加强监管防范风险促进期货市场高质量发展的意见的通知",
+      "attributes": {},
+      "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2036b335bd2b",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b70ae601938e",
+      "entity_type": "LegalDocument",
+      "mention": "《期货公司互联网营销管理暂行规定》",
+      "canonical_name": "期货公司互联网营销管理暂行规定",
+      "attributes": {
+        "short_name": "《暂行规定》"
+      },
+      "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b7b0765ef326",
+      "entity_type": "Industry",
+      "mention": "期货行业",
+      "canonical_name": "期货行业",
+      "attributes": {},
+      "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 一、起草背景_p0_s2",
+      "sentence_ids": [
+        "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 一、起草背景_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b5456335cee0",
+      "entity_type": "LegalTerm",
+      "mention": "互联网营销活动",
+      "canonical_name": "互联网营销活动",
+      "attributes": {},
+      "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s1",
+      "sentence_ids": [
+        "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_474157572ef6",
+      "entity_type": "LegalTerm",
+      "mention": "欺诈",
+      "canonical_name": "欺诈",
+      "attributes": {},
+      "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s15",
+      "sentence_ids": [
+        "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s15"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b34a69b9fd81",
+      "entity_type": "LegalTerm",
+      "mention": "误导客户",
+      "canonical_name": "误导客户",
+      "attributes": {},
+      "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s15",
+      "sentence_ids": [
+        "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s15"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_318f96e2b858",
+      "entity_type": "LegalTerm",
+      "mention": "损害公平竞争",
+      "canonical_name": "损害公平竞争",
+      "attributes": {},
+      "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s17",
+      "sentence_ids": [
+        "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容_p0_s17"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e05befbda77b",
+      "entity_type": "Date",
+      "mention": "2025 年 1 月 10 日",
+      "canonical_name": "2025-01-10",
+      "attributes": {},
+      "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b677cff3745a",
+      "entity_type": "Date",
+      "mention": "2 月 9 日",
+      "canonical_name": "2025-02-09",
+      "attributes": {},
+      "sentence_id": "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_bbd79dbe5b42#《期货公司互联网营销管理暂行规定》起草说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_0c4d1ba6ef50_rel_c0982725eefd",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_b70ae601938e",
+      "tail_entity_id": "ent_5ef060e74ae5",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_bbd79dbe5b42",
+        "section_path": "《期货公司互联网营销管理暂行规定》起草说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_0c4d1ba6ef50_rel_908ab2f74129",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_b70ae601938e",
+      "tail_entity_id": "ent_f088d27f79e0",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_bbd79dbe5b42",
+        "section_path": "《期货公司互联网营销管理暂行规定》起草说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_0c4d1ba6ef50_rel_62f372c4f3de",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_b70ae601938e",
+      "tail_entity_id": "ent_b5456335cee0",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_bbd79dbe5b42",
+        "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_0c4d1ba6ef50_rel_8ee0d8ad0f09",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_b70ae601938e",
+      "tail_entity_id": "ent_474157572ef6",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_bbd79dbe5b42",
+        "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 15
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_0c4d1ba6ef50_rel_efff0e5139de",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_b70ae601938e",
+      "tail_entity_id": "ent_b34a69b9fd81",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_bbd79dbe5b42",
+        "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 15
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_0c4d1ba6ef50_rel_6fe2566907c9",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_b70ae601938e",
+      "tail_entity_id": "ent_318f96e2b858",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_bbd79dbe5b42",
+        "section_path": "《期货公司互联网营销管理暂行规定》起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 17
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

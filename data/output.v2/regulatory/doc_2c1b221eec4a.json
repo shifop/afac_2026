@@ -1,0 +1,327 @@
+{
+  "doc_id": "doc_2c1b221eec4a",
+  "title": "关于《监管规则适用指引— 会计类第 5号》的说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0061_att2.md",
+  "processed_at": "2026-07-21T01:05:50.451866+00:00",
+  "structured_data": {
+    "title": "监管规则适用指引—会计类第5号"
+  },
+  "stats": {
+    "sections": 3,
+    "paragraphs": 3,
+    "sentences": 10,
+    "entities": 6,
+    "relations": 2,
+    "rejected": 0,
+    "llm_calls": 2796,
+    "llm_tokens": 4275818,
+    "elapsed_seconds": 13.77
+  },
+  "sections": [
+    {
+      "section_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明",
+      "section_path": "关于《监管规则适用指引— 会计类第 5号》的说明",
+      "title": "关于《监管规则适用指引— 会计类第 5号》的说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "监管规则适用指引，会计类第5号，会计信息披露质量，会计实务问题",
+        "for": [
+          "规则依据",
+          "会计指引",
+          "披露要求"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明_p0",
+          "para_index": 0,
+          "content": "为持续完善资本市场会计监管规则体系，推动资本市场经营主体提升会计信息披露质量，我会对近期市场反映较多的会计实务问题进行梳理，研究起草了《监管规则适用指引——会计类第5 号》（下称《会计类第 5 号》）。现将相关情况说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明_p0_s0",
+              "text": "为持续完善资本市场会计监管规则体系，推动资本市场经营主体提升会计信息披露质量，我会对近期市场反映较多的会计实务问题进行梳理，研究起草了《监管规则适用指引——会计类第5 号》（下称《会计类第 5 号》）。",
+              "location": {
+                "doc_id": "doc_2c1b221eec4a",
+                "section_path": "关于《监管规则适用指引— 会计类第 5号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明_p0_s1",
+              "text": "现将相关情况说明如下：",
+              "location": {
+                "doc_id": "doc_2c1b221eec4a",
+                "section_path": "关于《监管规则适用指引— 会计类第 5号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景",
+      "section_path": "关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景",
+      "title": "一、起草背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "会计信息重要性/会计准则执行挑战/新产业新业态新模式/财务造假防范/监管制度供给",
+        "for": [
+          "背景原因",
+          "监管目标",
+          "政策动机",
+          "行业挑战"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景_p0",
+          "para_index": 0,
+          "content": "会计信息是资本市场关键基础性信息，对投资者价值判断和科学决策至关重要。会计准则是会计信息生成的基本依据，准确理解和有效执行会计准则，对于提升会计信息披露质量尤为关键。近年来，资本市场新产业新业态新模式不断涌现，对经营主体准确理解并一致有效执行会计准则提出了挑战。\n为加强制度供给、明确监管要求，防范经营主体利用会计准则专业判断空间实施财务造假，进一步提升资本市场会计信息披露质量，我会及时收集整理了近期市场反映较为集中的会计问题，结合我国资本市场发展实际，研究制定了《会计类第 5 号》。",
+          "sentences": [
+            {
+              "sentence_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景_p0_s0",
+              "text": "会计信息是资本市场关键基础性信息，对投资者价值判断和科学决策至关重要。",
+              "location": {
+                "doc_id": "doc_2c1b221eec4a",
+                "section_path": "关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景_p0_s1",
+              "text": "会计准则是会计信息生成的基本依据，准确理解和有效执行会计准则，对于提升会计信息披露质量尤为关键。",
+              "location": {
+                "doc_id": "doc_2c1b221eec4a",
+                "section_path": "关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景_p0_s2",
+              "text": "近年来，资本市场新产业新业态新模式不断涌现，对经营主体准确理解并一致有效执行会计准则提出了挑战。",
+              "location": {
+                "doc_id": "doc_2c1b221eec4a",
+                "section_path": "关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景_p0_s3",
+              "text": "为加强制度供给、明确监管要求，防范经营主体利用会计准则专业判断空间实施财务造假，进一步提升资本市场会计信息披露质量，我会及时收集整理了近期市场反映较为集中的会计问题，结合我国资本市场发展实际，研究制定了《会计类第 5 号》。",
+              "location": {
+                "doc_id": "doc_2c1b221eec4a",
+                "section_path": "关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容",
+      "section_path": "关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容",
+      "title": "二、功能定位与主要内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "会计类第5号/功能定位/主要内容/8个具体问题/收入/金融工具/长期股权投资/交易背景/监管口径",
+        "for": [
+          "指引性质",
+          "覆盖范围",
+          "问题类型",
+          "执行要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容_p0",
+          "para_index": 0,
+          "content": "《会计类第 5 号》并非对会计准则的解释或补充规定，而是在准则规定范畴内针对资本市场具体交易事项如何执行会计准则予以指导，旨在促进会计准则在资本市场的一致有效执行。《会计类第 5 号》共涉及收入、金融工具、长期股权投资等 8 个具体问题。每项具体指引包括三部分内容：交易事项背景及具体的会计问题、会计准则的相关规定、具体问题适用会计准则的意见或监管口径。\n下一步，我会将密切关注《会计类第 5 号》的执行情况，并根据资本市场会计监管最新实践，指导各类经营主体恰当执行会计准则，提高会计信息披露质量。",
+          "sentences": [
+            {
+              "sentence_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容_p0_s0",
+              "text": "《会计类第 5 号》并非对会计准则的解释或补充规定，而是在准则规定范畴内针对资本市场具体交易事项如何执行会计准则予以指导，旨在促进会计准则在资本市场的一致有效执行。",
+              "location": {
+                "doc_id": "doc_2c1b221eec4a",
+                "section_path": "关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容_p0_s1",
+              "text": "《会计类第 5 号》共涉及收入、金融工具、长期股权投资等 8 个具体问题。",
+              "location": {
+                "doc_id": "doc_2c1b221eec4a",
+                "section_path": "关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容_p0_s2",
+              "text": "每项具体指引包括三部分内容：交易事项背景及具体的会计问题、会计准则的相关规定、具体问题适用会计准则的意见或监管口径。",
+              "location": {
+                "doc_id": "doc_2c1b221eec4a",
+                "section_path": "关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容_p0_s3",
+              "text": "下一步，我会将密切关注《会计类第 5 号》的执行情况，并根据资本市场会计监管最新实践，指导各类经营主体恰当执行会计准则，提高会计信息披露质量。",
+              "location": {
+                "doc_id": "doc_2c1b221eec4a",
+                "section_path": "关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_0a80541429d9",
+      "entity_type": "LegalDocument",
+      "mention": "《监管规则适用指引——会计类第5号》",
+      "canonical_name": "监管规则适用指引——会计类第5号",
+      "attributes": {},
+      "sentence_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_890e613468a4",
+      "entity_type": "LegalDocument",
+      "mention": "《会计类第 5 号》",
+      "canonical_name": "会计类第5号",
+      "attributes": {},
+      "sentence_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明_p0_s0",
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景_p0_s3",
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容_p0_s0",
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容_p0_s1",
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ea39e00246fe",
+      "entity_type": "FinancialMetric",
+      "mention": "会计信息披露质量",
+      "canonical_name": "会计信息披露质量",
+      "attributes": {},
+      "sentence_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明_p0_s0",
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景_p0_s1",
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景_p0_s3",
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2f91c17f2ccf",
+      "entity_type": "Industry",
+      "mention": "资本市场",
+      "canonical_name": "资本市场",
+      "attributes": {},
+      "sentence_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明_p0_s0",
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景_p0_s0",
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景_p0_s2",
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景_p0_s3",
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容_p0_s0",
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7ae90a18ef3b",
+      "entity_type": "LegalTerm",
+      "mention": "会计准则",
+      "canonical_name": "会计准则",
+      "attributes": {},
+      "sentence_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景_p0_s1",
+      "sentence_ids": [
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景_p0_s1",
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景_p0_s2",
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景_p0_s3",
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容_p0_s0",
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容_p0_s2",
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3bef04c3ada0",
+      "entity_type": "LegalTerm",
+      "mention": "财务造假",
+      "canonical_name": "财务造假",
+      "attributes": {},
+      "sentence_id": "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景_p0_s3",
+      "sentence_ids": [
+        "doc_2c1b221eec4a#关于《监管规则适用指引— 会计类第 5号》的说明 > 一、起草背景_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_cde44c39cd33_rel_fdbb7e68ef3c",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_890e613468a4",
+      "tail_entity_id": "ent_7ae90a18ef3b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_2c1b221eec4a",
+        "section_path": "关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_cde44c39cd33_rel_123332b19895",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_890e613468a4",
+      "tail_entity_id": "ent_7ae90a18ef3b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_2c1b221eec4a",
+        "section_path": "关于《监管规则适用指引— 会计类第 5号》的说明 > 二、功能定位与主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,525 @@
+{
+  "doc_id": "doc_a8282ace41b3",
+  "title": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0040_att1.md",
+  "processed_at": "2026-07-21T00:47:44.689847+00:00",
+  "structured_data": {
+    "title": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见"
+  },
+  "stats": {
+    "sections": 1,
+    "paragraphs": 1,
+    "sentences": 15,
+    "entities": 12,
+    "relations": 11,
+    "rejected": 0,
+    "llm_calls": 2063,
+    "llm_tokens": 3056323,
+    "elapsed_seconds": 15.07
+  },
+  "sections": [
+    {
+      "section_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+      "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+      "title": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+      "level": 1,
+      "reading_guide": {
+        "has": "《收购办法》第十三条/第十四条适用意见/5%持股触发点/5%整数倍阈值/1%整数倍阈值/股本变动豁免情形/公告义务/交易日定义/3日期限起算规则/新旧法规适用",
+        "for": [
+          "持股披露",
+          "权益变动",
+          "触发阈值",
+          "时间计算",
+          "新规适用"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0",
+          "para_index": 0,
+          "content": "为了正确理解与适用《上市公司收购管理办法》（证监会令第166 号，以下简称《收购办法》）第十三条、第十四条，我会制定《证券期货法律适用意见第 19 号— <上市公司收购管理办法>第十三条、第十四条的适用意见》，现予公布，请遵照执行。\n一、《收购办法》第十三条第一款“达到一个上市公司已发行股份的 5%时”是指触及一个上市公司已发行股份的5%时，如从4%升至 5%、从 6%降至 5%。\n《收购办法》第十四条第一款“达到或者超过一个上市公司已发行股份的 5%时”是指触及或者跨越一个上市公司已发行股份的5%时。\n二、《收购办法》第十三条第二款“占该上市公司已发行股份的比例每增加或者减少 5%”是指占该上市公司已发行股份的比例触及 5%的整数倍（不含 5%），如 10%、15%等。\n《收购办法》第十四条第二款“占该上市公司已发行股份的比例每增加或者减少达到或者超过 5%”是指占该上市公司已发行股份的比例触及或者跨越5%的整数倍（不含5%），如 10%、15%等。\n三、《收购办法》第十三条第三款“占该上市公司已发行股份的比例每增加或者减少 1%”是指占该上市公司已发行股份的比例触及 1%的整数倍时，如 6%、7%、8%等。\n四、因上市公司增发股份、减少股本、以及可转债持有人转股等上市公司股本变化导致投资者及其一致行动人拥有权益的股份比例触及或者跨越 5%及 5%的整数倍，或者导致持股 5%以上的投资者及其一致行动人拥有权益的股份比例触及 1%的整数倍的，投资者及其一致行动人无需履行报告、公告和限售义务。上市公司应当自完成股本变更登记之日起规定时间内，就因此导致的投资者及其一致行动人拥有权益的股份发生前述变动情况作出公告；因公司减少股本可能导致投资者及其一致行动人成为公司第一大股东或者实际控制人的，该投资者及其一致行动人应当按照《收购办法》第十九条履行报告、公告义务。\n五、《收购办法》第十三条、第十四条中的时间指交易日。其中，第十三条第一款和第十四条第一款的“事实发生之日起3 日内”中3 日的起算日为事实发生当日；第十三条第一款的“在上述期限内”是指该事实发生之日起至公告日，含事实发生之日和公告日当日；第十三条第二款的“事实发生之日起至公告后 3 日内”含事实发生当日，3 日的起算日为公告日的次一交易日。\n六、本规定自发布之日起实施。本规定发布之前实施的股票交易行为适用2020 年 7 月 31 日发布的《监管规则适用指引——上市类第 1 号》，但依据本规定认定违法程度较轻或者不认为是违法的，适用本规定。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_s0",
+              "text": "为了正确理解与适用《上市公司收购管理办法》（证监会令第166 号，以下简称《收购办法》）第十三条、第十四条，我会制定《证券期货法律适用意见第 19 号— <上市公司收购管理办法>第十三条、第十四条的适用意见》，现予公布，请遵照执行。",
+              "location": {
+                "doc_id": "doc_a8282ace41b3",
+                "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_s1",
+              "text": "一、《收购办法》第十三条第一款“达到一个上市公司已发行股份的 5%时”是指触及一个上市公司已发行股份的5%时，如从4%升至 5%、从 6%降至 5%。",
+              "location": {
+                "doc_id": "doc_a8282ace41b3",
+                "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_s2",
+              "text": "《收购办法》第十四条第一款“达到或者超过一个上市公司已发行股份的 5%时”是指触及或者跨越一个上市公司已发行股份的5%时。",
+              "location": {
+                "doc_id": "doc_a8282ace41b3",
+                "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_s3",
+              "text": "二、《收购办法》第十三条第二款“占该上市公司已发行股份的比例每增加或者减少 5%”是指占该上市公司已发行股份的比例触及 5%的整数倍（不含 5%），如 10%、15%等。",
+              "location": {
+                "doc_id": "doc_a8282ace41b3",
+                "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_s4",
+              "text": "《收购办法》第十四条第二款“占该上市公司已发行股份的比例每增加或者减少达到或者超过 5%”是指占该上市公司已发行股份的比例触及或者跨越5%的整数倍（不含5%），如 10%、15%等。",
+              "location": {
+                "doc_id": "doc_a8282ace41b3",
+                "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_s5",
+              "text": "三、《收购办法》第十三条第三款“占该上市公司已发行股份的比例每增加或者减少 1%”是指占该上市公司已发行股份的比例触及 1%的整数倍时，如 6%、7%、8%等。",
+              "location": {
+                "doc_id": "doc_a8282ace41b3",
+                "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_s6",
+              "text": "四、因上市公司增发股份、减少股本、以及可转债持有人转股等上市公司股本变化导致投资者及其一致行动人拥有权益的股份比例触及或者跨越 5%及 5%的整数倍，或者导致持股 5%以上的投资者及其一致行动人拥有权益的股份比例触及 1%的整数倍的，投资者及其一致行动人无需履行报告、公告和限售义务。",
+              "location": {
+                "doc_id": "doc_a8282ace41b3",
+                "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_s7",
+              "text": "上市公司应当自完成股本变更登记之日起规定时间内，就因此导致的投资者及其一致行动人拥有权益的股份发生前述变动情况作出公告；",
+              "location": {
+                "doc_id": "doc_a8282ace41b3",
+                "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_s8",
+              "text": "因公司减少股本可能导致投资者及其一致行动人成为公司第一大股东或者实际控制人的，该投资者及其一致行动人应当按照《收购办法》第十九条履行报告、公告义务。",
+              "location": {
+                "doc_id": "doc_a8282ace41b3",
+                "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_s9",
+              "text": "五、《收购办法》第十三条、第十四条中的时间指交易日。",
+              "location": {
+                "doc_id": "doc_a8282ace41b3",
+                "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_s10",
+              "text": "其中，第十三条第一款和第十四条第一款的“事实发生之日起3 日内”中3 日的起算日为事实发生当日；",
+              "location": {
+                "doc_id": "doc_a8282ace41b3",
+                "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_s11",
+              "text": "第十三条第一款的“在上述期限内”是指该事实发生之日起至公告日，含事实发生之日和公告日当日；",
+              "location": {
+                "doc_id": "doc_a8282ace41b3",
+                "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_s12",
+              "text": "第十三条第二款的“事实发生之日起至公告后 3 日内”含事实发生当日，3 日的起算日为公告日的次一交易日。",
+              "location": {
+                "doc_id": "doc_a8282ace41b3",
+                "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_s13",
+              "text": "六、本规定自发布之日起实施。",
+              "location": {
+                "doc_id": "doc_a8282ace41b3",
+                "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_s14",
+              "text": "本规定发布之前实施的股票交易行为适用2020 年 7 月 31 日发布的《监管规则适用指引——上市类第 1 号》，但依据本规定认定违法程度较轻或者不认为是违法的，适用本规定。",
+              "location": {
+                "doc_id": "doc_a8282ace41b3",
+                "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_8f319ff12aaa",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司收购管理办法》",
+      "canonical_name": "上市公司收购管理办法",
+      "attributes": {},
+      "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_01e0fef6df9f",
+      "entity_type": "LegalDocument",
+      "mention": "《证券期货法律适用意见第 19 号— <上市公司收购管理办法>第十三条、第十四条的适用意见》",
+      "canonical_name": "证券期货法律适用意见第 19 号",
+      "attributes": {},
+      "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_75ca533a051e",
+      "entity_type": "Clause",
+      "mention": "《收购办法》第十三条第一款",
+      "canonical_name": "上市公司收购管理办法_第十三条第一款",
+      "attributes": {},
+      "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_706a81b3d262",
+      "entity_type": "Clause",
+      "mention": "《收购办法》第十四条第一款",
+      "canonical_name": "上市公司收购管理办法_第十四条第一款",
+      "attributes": {},
+      "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8626a95365b3",
+      "entity_type": "Clause",
+      "mention": "《收购办法》第十三条第二款",
+      "canonical_name": "上市公司收购管理办法_第十三条第二款",
+      "attributes": {},
+      "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cd0075d97e50",
+      "entity_type": "Clause",
+      "mention": "《收购办法》第十四条第二款",
+      "canonical_name": "上市公司收购管理办法_第十四条第二款",
+      "attributes": {},
+      "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6cc787f56545",
+      "entity_type": "Clause",
+      "mention": "《收购办法》第十三条第三款",
+      "canonical_name": "上市公司收购管理办法_第十三条第三款",
+      "attributes": {},
+      "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_19e5dfb9d44d",
+      "entity_type": "Clause",
+      "mention": "《收购办法》第十九条",
+      "canonical_name": "上市公司收购管理办法_第十九条",
+      "attributes": {},
+      "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_381b6bda3861",
+      "entity_type": "LegalTerm",
+      "mention": "5%",
+      "canonical_name": "5%",
+      "attributes": {},
+      "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_65a41033504d",
+      "entity_type": "LegalTerm",
+      "mention": "1%",
+      "canonical_name": "1%",
+      "attributes": {},
+      "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7c0e7aaebfc4",
+      "entity_type": "Date",
+      "mention": "2020 年 7 月 31 日",
+      "canonical_name": "2020-07-31",
+      "attributes": {},
+      "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7e35cd3f1196",
+      "entity_type": "LegalDocument",
+      "mention": "《监管规则适用指引——上市类第 1 号》",
+      "canonical_name": "监管规则适用指引——上市类第 1 号",
+      "attributes": {},
+      "sentence_id": "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_a8282ace41b3#证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_3d2bcc080aec_rel_910d54db5867",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_75ca533a051e",
+      "tail_entity_id": "ent_8f319ff12aaa",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a8282ace41b3",
+        "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3d2bcc080aec_rel_06b57287c48d",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_706a81b3d262",
+      "tail_entity_id": "ent_8f319ff12aaa",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a8282ace41b3",
+        "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3d2bcc080aec_rel_5be1c94b32bd",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_8626a95365b3",
+      "tail_entity_id": "ent_8f319ff12aaa",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a8282ace41b3",
+        "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3d2bcc080aec_rel_24d207cdb646",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_cd0075d97e50",
+      "tail_entity_id": "ent_8f319ff12aaa",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a8282ace41b3",
+        "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3d2bcc080aec_rel_08fddc60e328",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_6cc787f56545",
+      "tail_entity_id": "ent_8f319ff12aaa",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a8282ace41b3",
+        "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3d2bcc080aec_rel_92e1164978a5",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_19e5dfb9d44d",
+      "tail_entity_id": "ent_8f319ff12aaa",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a8282ace41b3",
+        "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3d2bcc080aec_rel_ccad551c952b",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_75ca533a051e",
+      "tail_entity_id": "ent_381b6bda3861",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a8282ace41b3",
+        "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3d2bcc080aec_rel_9ec22a47bdab",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_706a81b3d262",
+      "tail_entity_id": "ent_381b6bda3861",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a8282ace41b3",
+        "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3d2bcc080aec_rel_5923bbd3920d",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_8626a95365b3",
+      "tail_entity_id": "ent_381b6bda3861",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a8282ace41b3",
+        "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3d2bcc080aec_rel_9441daa502fe",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_cd0075d97e50",
+      "tail_entity_id": "ent_381b6bda3861",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a8282ace41b3",
+        "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3d2bcc080aec_rel_eccaea4b31d9",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_6cc787f56545",
+      "tail_entity_id": "ent_65a41033504d",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a8282ace41b3",
+        "section_path": "证券期货法律适用意见第 19 号《上市公司收购管理办法》第十三条、第十四条的适用意见",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

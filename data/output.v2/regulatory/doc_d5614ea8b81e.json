@@ -1,0 +1,660 @@
+{
+  "doc_id": "doc_d5614ea8b81e",
+  "title": "《关于修改部分证券期货规章的决定》立法说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0008_att2.md",
+  "processed_at": "2026-07-21T00:14:59.288446+00:00",
+  "structured_data": {
+    "title": "关于修改部分证券期货规章的决定"
+  },
+  "stats": {
+    "sections": 3,
+    "paragraphs": 3,
+    "sentences": 15,
+    "entities": 16,
+    "relations": 13,
+    "rejected": 0,
+    "llm_calls": 333,
+    "llm_tokens": 652999,
+    "elapsed_seconds": 15.26
+  },
+  "sections": [
+    {
+      "section_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明",
+      "section_path": "《关于修改部分证券期货规章的决定》立法说明",
+      "title": "《关于修改部分证券期货规章的决定》立法说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "新《公司法》/独立董事制度改革/规章清理/21部规章修改/立法说明",
+        "for": [
+          "法规依据",
+          "改革背景",
+          "修改范围",
+          "制度要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明_p0",
+          "para_index": 0,
+          "content": "为贯彻落实新《公司法》及国务院独立董事制度改革有关要求，中国证监会对有关规章制度进行了清理。经过清理，决定对21 部规章的部分条款予以修改，形成《关于修改部分证券期货规章的决定》（以下简称《修改决定》），现将主要情况说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明_p0_s0",
+              "text": "为贯彻落实新《公司法》及国务院独立董事制度改革有关要求，中国证监会对有关规章制度进行了清理。",
+              "location": {
+                "doc_id": "doc_d5614ea8b81e",
+                "section_path": "《关于修改部分证券期货规章的决定》立法说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明_p0_s1",
+              "text": "经过清理，决定对21 部规章的部分条款予以修改，形成《关于修改部分证券期货规章的决定》（以下简称《修改决定》），现将主要情况说明如下：",
+              "location": {
+                "doc_id": "doc_d5614ea8b81e",
+                "section_path": "《关于修改部分证券期货规章的决定》立法说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+      "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+      "title": "一、主要内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "审计委员会设置/监事会删除/独立董事意见修改/股东大会改股东会/股东减持条款删除",
+        "for": [
+          "治理结构",
+          "独董制度",
+          "法规修订",
+          "机构调整"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0",
+          "para_index": 0,
+          "content": "一是落实新《公司法》等有关审计委员会设置要求，调整监事会、监事相关规定。根据新《公司法》《国务院关于实施<中华人民共和国公司法>注册资本登记管理制度的规定》《国务院办公厅关于上市公司独立董事制度改革的意见》有关上市公司应当在董事会中设置审计委员会、审计委员会行使监事会职权、不设监事会的规定，删除关于上市公司监事会、监事的规定；同时，在《非上市公众公司监督管理办法》《公开募集证券投资基金管理人监督管理办法》等规则中明确，非上市公众公司、基金管理公司等应当依法选择审计委员会或者监事会作为内部监督机构。\n二是落实独立董事制度改革要求，删除独立董事发表意见相关内容。根据《国务院办公厅关于上市公司独立董事制度改革的意见》《上市公司独立董事管理办法》，删除《上市公司收购管理办法》等规则中强制要求独立董事发表意见的规定；在《上市公司股权激励管理办法》等规则中明确由薪酬与考核委员会就股权激励计划是否有利于上市公司持续发展等事项发表意见，不再要求独立董事发表意见等。\n三是根据新《公司法》将“股东大会”修改为“股东会”，并调整了引用新《公司法》的条文序号。\n此外，2024 年 5月发布的《上市公司股东减持股份管理暂行办法》对向特定对象发行股票而取得的上市公司股份的适用条款已有明确规定，本次相应删除《上市公司证券发行注册管理办法》第八十八条。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s0",
+              "text": "一是落实新《公司法》等有关审计委员会设置要求，调整监事会、监事相关规定。",
+              "location": {
+                "doc_id": "doc_d5614ea8b81e",
+                "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s1",
+              "text": "根据新《公司法》《国务院关于实施<中华人民共和国公司法>注册资本登记管理制度的规定》《国务院办公厅关于上市公司独立董事制度改革的意见》有关上市公司应当在董事会中设置审计委员会、审计委员会行使监事会职权、不设监事会的规定，删除关于上市公司监事会、监事的规定；",
+              "location": {
+                "doc_id": "doc_d5614ea8b81e",
+                "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s2",
+              "text": "同时，在《非上市公众公司监督管理办法》《公开募集证券投资基金管理人监督管理办法》等规则中明确，非上市公众公司、基金管理公司等应当依法选择审计委员会或者监事会作为内部监督机构。",
+              "location": {
+                "doc_id": "doc_d5614ea8b81e",
+                "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s3",
+              "text": "二是落实独立董事制度改革要求，删除独立董事发表意见相关内容。",
+              "location": {
+                "doc_id": "doc_d5614ea8b81e",
+                "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s4",
+              "text": "根据《国务院办公厅关于上市公司独立董事制度改革的意见》《上市公司独立董事管理办法》，删除《上市公司收购管理办法》等规则中强制要求独立董事发表意见的规定；",
+              "location": {
+                "doc_id": "doc_d5614ea8b81e",
+                "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s5",
+              "text": "在《上市公司股权激励管理办法》等规则中明确由薪酬与考核委员会就股权激励计划是否有利于上市公司持续发展等事项发表意见，不再要求独立董事发表意见等。",
+              "location": {
+                "doc_id": "doc_d5614ea8b81e",
+                "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s6",
+              "text": "三是根据新《公司法》将“股东大会”修改为“股东会”，并调整了引用新《公司法》的条文序号。",
+              "location": {
+                "doc_id": "doc_d5614ea8b81e",
+                "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s7",
+              "text": "此外，2024 年 5月发布的《上市公司股东减持股份管理暂行办法》对向特定对象发行股票而取得的上市公司股份的适用条款已有明确规定，本次相应删除《上市公司证券发行注册管理办法》第八十八条。",
+              "location": {
+                "doc_id": "doc_d5614ea8b81e",
+                "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况",
+      "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况",
+      "title": "二、公开征求意见情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "公开征求意见时间/2024年12月27日至2025年1月26日/收到意见建议条数/13条/意见采纳情况/实质性调整未采纳/新公司法已有规定未采纳",
+        "for": [
+          "征求意见",
+          "反馈统计",
+          "意见处理",
+          "修改依据"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况_p0",
+          "para_index": 0,
+          "content": "2024 年 12 月27 日至 2025 年1 月26 日，《修改决定》向社会公开征求意见，共收到意见建议13 条。总体来看，社会各方对于《修改决定》内容表示赞同，认为出台《修改决定》有利于更好贯彻落实新《公司法》。对于各方提出的意见，我们做了认真研究。其中，有的意见涉及对中国证监会规章的实质性调整，与本次“打包”修改的定位不符，后续将在有关规章单独修改时予以研究。有的意见涉及事项新《公司法》已有明确规定，无需在中国证监会规章中重复规定，如建议在《公开募集证券投资基金管理人监督管理办法》等规章中明确职工人数三百人以上公司的董事会成员中应当有职工董事等，因此未予采纳。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况_p0_s0",
+              "text": "2024 年 12 月27 日至 2025 年1 月26 日，《修改决定》向社会公开征求意见，共收到意见建议13 条。",
+              "location": {
+                "doc_id": "doc_d5614ea8b81e",
+                "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况_p0_s1",
+              "text": "总体来看，社会各方对于《修改决定》内容表示赞同，认为出台《修改决定》有利于更好贯彻落实新《公司法》。",
+              "location": {
+                "doc_id": "doc_d5614ea8b81e",
+                "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况_p0_s2",
+              "text": "对于各方提出的意见，我们做了认真研究。",
+              "location": {
+                "doc_id": "doc_d5614ea8b81e",
+                "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况_p0_s3",
+              "text": "其中，有的意见涉及对中国证监会规章的实质性调整，与本次“打包”修改的定位不符，后续将在有关规章单独修改时予以研究。",
+              "location": {
+                "doc_id": "doc_d5614ea8b81e",
+                "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况_p0_s4",
+              "text": "有的意见涉及事项新《公司法》已有明确规定，无需在中国证监会规章中重复规定，如建议在《公开募集证券投资基金管理人监督管理办法》等规章中明确职工人数三百人以上公司的董事会成员中应当有职工董事等，因此未予采纳。",
+              "location": {
+                "doc_id": "doc_d5614ea8b81e",
+                "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_8eaa1b5f786f",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明_p0_s0",
+      "sentence_ids": [
+        "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e41ba1ec0d15",
+      "entity_type": "LegalDocument",
+      "mention": "新《公司法》",
+      "canonical_name": "新《公司法》",
+      "attributes": {},
+      "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明_p0_s0",
+      "sentence_ids": [
+        "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fe2ad7eeca17",
+      "entity_type": "LegalDocument",
+      "mention": "《关于修改部分证券期货规章的决定》",
+      "canonical_name": "关于修改部分证券期货规章的决定",
+      "attributes": {
+        "short_name": "《修改决定》"
+      },
+      "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明_p0_s1",
+      "sentence_ids": [
+        "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_abc68fec642c",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院关于实施<中华人民共和国公司法>注册资本登记管理制度的规定》",
+      "canonical_name": "国务院关于实施<中华人民共和国公司法>注册资本登记管理制度的规定",
+      "attributes": {},
+      "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s1",
+      "sentence_ids": [
+        "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1327605a634d",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院办公厅关于上市公司独立董事制度改革的意见》",
+      "canonical_name": "国务院办公厅关于上市公司独立董事制度改革的意见",
+      "attributes": {},
+      "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s1",
+      "sentence_ids": [
+        "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_24bccb8b13b9",
+      "entity_type": "LegalDocument",
+      "mention": "《非上市公众公司监督管理办法》",
+      "canonical_name": "非上市公众公司监督管理办法",
+      "attributes": {},
+      "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s2",
+      "sentence_ids": [
+        "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ab5f4f72c2fb",
+      "entity_type": "LegalDocument",
+      "mention": "《公开募集证券投资基金管理人监督管理办法》",
+      "canonical_name": "公开募集证券投资基金管理人监督管理办法",
+      "attributes": {},
+      "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s2",
+      "sentence_ids": [
+        "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_126a245767c4",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司独立董事管理办法》",
+      "canonical_name": "上市公司独立董事管理办法",
+      "attributes": {},
+      "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s4",
+      "sentence_ids": [
+        "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c7f72a82841e",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司收购管理办法》",
+      "canonical_name": "上市公司收购管理办法",
+      "attributes": {},
+      "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s4",
+      "sentence_ids": [
+        "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d36f5161543e",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司股权激励管理办法》",
+      "canonical_name": "上市公司股权激励管理办法",
+      "attributes": {},
+      "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s5",
+      "sentence_ids": [
+        "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4d8dd0615605",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司股东减持股份管理暂行办法》",
+      "canonical_name": "上市公司股东减持股份管理暂行办法",
+      "attributes": {},
+      "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s7",
+      "sentence_ids": [
+        "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s7"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0fcb54cb0ad8",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司证券发行注册管理办法》",
+      "canonical_name": "上市公司证券发行注册管理办法",
+      "attributes": {},
+      "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s7",
+      "sentence_ids": [
+        "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s7"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_397cc9738fe7",
+      "entity_type": "Date",
+      "mention": "2024 年 5 月",
+      "canonical_name": "2024-05",
+      "attributes": {},
+      "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s7",
+      "sentence_ids": [
+        "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容_p0_s7"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c8e42f22309b",
+      "entity_type": "Date",
+      "mention": "2024 年 12 月 27 日",
+      "canonical_name": "2024-12-27",
+      "attributes": {},
+      "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7dc21c2ba0b6",
+      "entity_type": "Date",
+      "mention": "2025 年 1 月 26 日",
+      "canonical_name": "2025-01-26",
+      "attributes": {},
+      "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4cc5af39ad7f",
+      "entity_type": "MonetaryAmount",
+      "mention": "13 条",
+      "canonical_name": "13",
+      "attributes": {
+        "unit": "条"
+      },
+      "sentence_id": "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_d5614ea8b81e#《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_91708381a5ed_rel_328f6b1123b7",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fe2ad7eeca17",
+      "tail_entity_id": "ent_e41ba1ec0d15",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d5614ea8b81e",
+        "section_path": "《关于修改部分证券期货规章的决定》立法说明",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_91708381a5ed_rel_8c44e9a3a6bb",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fe2ad7eeca17",
+      "tail_entity_id": "ent_abc68fec642c",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d5614ea8b81e",
+        "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_91708381a5ed_rel_e8451364ebb5",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fe2ad7eeca17",
+      "tail_entity_id": "ent_1327605a634d",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d5614ea8b81e",
+        "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_91708381a5ed_rel_28eb31961743",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fe2ad7eeca17",
+      "tail_entity_id": "ent_24bccb8b13b9",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d5614ea8b81e",
+        "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_91708381a5ed_rel_0b868786cc84",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fe2ad7eeca17",
+      "tail_entity_id": "ent_ab5f4f72c2fb",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d5614ea8b81e",
+        "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_91708381a5ed_rel_8775305c1c80",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fe2ad7eeca17",
+      "tail_entity_id": "ent_126a245767c4",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d5614ea8b81e",
+        "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_91708381a5ed_rel_922ac561dab6",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fe2ad7eeca17",
+      "tail_entity_id": "ent_c7f72a82841e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d5614ea8b81e",
+        "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_91708381a5ed_rel_72c73dcbb69d",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fe2ad7eeca17",
+      "tail_entity_id": "ent_d36f5161543e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d5614ea8b81e",
+        "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 5
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_91708381a5ed_rel_00e7122c1d8b",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fe2ad7eeca17",
+      "tail_entity_id": "ent_e41ba1ec0d15",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d5614ea8b81e",
+        "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 6
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_91708381a5ed_rel_f373e0b89653",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fe2ad7eeca17",
+      "tail_entity_id": "ent_4d8dd0615605",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d5614ea8b81e",
+        "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 7
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_91708381a5ed_rel_b1c776b98269",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fe2ad7eeca17",
+      "tail_entity_id": "ent_0fcb54cb0ad8",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d5614ea8b81e",
+        "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 一、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 7
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_91708381a5ed_rel_31f63ca27409",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fe2ad7eeca17",
+      "tail_entity_id": "ent_e41ba1ec0d15",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d5614ea8b81e",
+        "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_91708381a5ed_rel_2813197b81d2",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fe2ad7eeca17",
+      "tail_entity_id": "ent_e41ba1ec0d15",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d5614ea8b81e",
+        "section_path": "《关于修改部分证券期货规章的决定》立法说明 > 二、公开征求意见情况",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

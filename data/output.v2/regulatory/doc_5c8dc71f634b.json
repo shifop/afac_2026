@@ -1,0 +1,1129 @@
+{
+  "doc_id": "doc_5c8dc71f634b",
+  "title": "《期货市场程序化交易管理规定（试行）》起草说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0029_att2.md",
+  "processed_at": "2026-07-21T00:30:17.122431+00:00",
+  "structured_data": {
+    "title": "期货市场程序化交易管理规定（试行）"
+  },
+  "stats": {
+    "sections": 4,
+    "paragraphs": 4,
+    "sentences": 78,
+    "entities": 12,
+    "relations": 4,
+    "rejected": 0,
+    "llm_calls": 717,
+    "llm_tokens": 1293930,
+    "elapsed_seconds": 9.33
+  },
+  "sections": [
+    {
+      "section_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明",
+      "section_path": "《期货市场程序化交易管理规定（试行）》起草说明",
+      "title": "《期货市场程序化交易管理规定（试行）》起草说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "起草背景/法律依据/监管目标/《管理规定》简称",
+        "for": [
+          "法规依据",
+          "立法目的",
+          "政策背景"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明_p0",
+          "para_index": 0,
+          "content": "为落实《期货和衍生品法》《关于加强监管防范风险促进期货市场高质量发展的意见》（国办发〔2024〕47 号）要求，加强程序化交易监管，规范程序化交易发展，维护期货交易秩序和市场公平，证监会全面总结期货市场程序化交易监管实践经验，起草了《期货市场程序化交易管理规定（试行）》（以下简称《管理规定》）。现说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明_p0_s0",
+              "text": "为落实《期货和衍生品法》《关于加强监管防范风险促进期货市场高质量发展的意见》（国办发〔2024〕47 号）要求，加强程序化交易监管，规范程序化交易发展，维护期货交易秩序和市场公平，证监会全面总结期货市场程序化交易监管实践经验，起草了《期货市场程序化交易管理规定（试行）》（以下简称《管理规定》）。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明_p0_s1",
+              "text": "现说明如下：",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 一、起草背景",
+      "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 一、起草背景",
+      "title": "一、起草背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "程序化交易分类/高频与中低频交易/《期货和衍生品法》第二十一条/报备制度/申报收费制度/监测监控指标体系/异常交易管理/监管原则",
+        "for": [
+          "法律依据",
+          "监管措施",
+          "交易分类",
+          "政策背景"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 一、起草背景_p0",
+          "para_index": 0,
+          "content": "根据交易频率不同，程序化交易可分为高频交易和中低频交易。伴随着信息技术的进步，高频交易在全球兴起，近年来发展较快。《期货和衍生品法》第二十一条规定，“通过计算机程序自动生成或者下达交易指令进行程序化交易的，应当符合国务院期货监督管理机构的规定，并向期货交易场所报告，不得影响期货交易场所系统安全或者正常交易秩序”。证监会高度重视期货市场程序化交易监管，多措并举，已采取一系列措施，包括建立程序化交易报备制度、实施申报收费制度、建立健全监测监控指标体系、加强异常交易行为管理等。为落实好《期货和衍生品法》要求，证监会在总结前期监管实践的基础上，坚持趋利避害、突出公平、从严监管、规范发展的原则，研究起草了《管理规定》。",
+          "sentences": [
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 一、起草背景_p0_s0",
+              "text": "根据交易频率不同，程序化交易可分为高频交易和中低频交易。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 一、起草背景_p0_s1",
+              "text": "伴随着信息技术的进步，高频交易在全球兴起，近年来发展较快。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 一、起草背景_p0_s2",
+              "text": "《期货和衍生品法》第二十一条规定，“通过计算机程序自动生成或者下达交易指令进行程序化交易的，应当符合国务院期货监督管理机构的规定，并向期货交易场所报告，不得影响期货交易场所系统安全或者正常交易秩序”。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 一、起草背景_p0_s3",
+              "text": "证监会高度重视期货市场程序化交易监管，多措并举，已采取一系列措施，包括建立程序化交易报备制度、实施申报收费制度、建立健全监测监控指标体系、加强异常交易行为管理等。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 一、起草背景_p0_s4",
+              "text": "为落实好《期货和衍生品法》要求，证监会在总结前期监管实践的基础上，坚持趋利避害、突出公平、从严监管、规范发展的原则，研究起草了《管理规定》。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+      "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+      "title": "二、主要内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "7章37条/总则/适用范围/定义（程序化交易、高频交易）/职责分工（证监会、交易所、协会、监控中心）/报告管理路径/系统接入要求/主机托管与席位管理/交易监测监",
+        "for": [
+          "法规结构",
+          "监管职责",
+          "报告流程",
+          "系统要求",
+          "风控措施"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0",
+          "para_index": 0,
+          "content": "《管理规定》共 7 章 37 条，具体包括：\n（一）总则。一是明确制定目的。加强期货市场程序化交易监管，规范程序化交易行为，维护期货交易秩序和市场公平。二是明确适用范围。在中华人民共和国境内期货市场的程序化交易相关活动，适用本规定。三是明确定义。明确程序化交易和高频交易定义、特征，高频交易具体标准由期货交易所制定。四是明确基本原则。从事程序化交易应当遵循公平原则，不得影响期货交易所系统安全和正常交易秩序。五是明确职责分工。包括中国证监会及其派出机构的行政监管职责，期货交易所、中国期货业协会的自律管理职责，中国期货市场监控中心的监测监控职责。六是明确信息共享和监测监控。期货交易所等单位应当加强程序化交易跨交易所跨市场信息共享和监测监控。\n（二）报告管理。一是明确各方责任。中国期货业协会制定程序化交易委托协议的必备条款。期货公司与程序化交易客户应当签订委托协议并约定双方的权利、义务等事项。程序化交易者应当真实、准确、完整报告有关信息。二是明确报告路径。期货公司的客户向期货公司报告；期货公司核查无误的，应当向相关期货交易所报告，并在收到期货交易所反馈后向客户确认；客户收到期货公司确认后，方可从事程序化交易。非期货公司会员等向期货交易所报告。三是明确核查要求。期货交易所、期货公司应当定期或者不定期核查程序化交易者报告的信息。\n（三）系统接入管理。一是明确系统外接要求。期货公司应当将系统外部接入管理纳入合规风控体系，建立健全接入测试、交易监测等全流程管理机制。二是明确系统功能要求。程序化交易者使用的技术系统应当具备有效的异常监测、阈值管理等功能，期货公司使用的交易信息系统应当具备有效的验资验仓、权限控制、异常监测等功能。三是明确系统测试要求。期货公司应当自行或委托第三方机构对接入期货公司的客户技术系统进行测试，并按要求保存测试记录。四是明确禁止性行为。期货公司不得将交易信息系统的管理权限开放给客户等，程序化交易者不得利用系统对接非法经营期货业务等。\n（四）主机托管和席位管理。一是明确期货交易所制度建设要求和资源分配原则。期货交易所应当建立主机托管信息报告制度和交易席位管理制度，提供主机托管服务和分配交易席位，应当遵循安全、公平、合理原则。二是规范期货公司使用主机托管资源行为。期货公司应当建立主机托管资源管理制度，合理使用主机托管资源。对频繁发生异常交易行为、技术系统出现重大技术故障等情况的程序化交易客户，期货公司不得向其提供主机托管服务。三是规范期货公司席位管理行为。期货公司应当建立交易席位管理制度，公平分配交易席位。\n（五）交易监测与风险管理。一是明确程序化交易者合规风控要求。从事程序化交易的法人、非法人组织应当建立并有效执行程序化交易相关制度，负责合规和风险管理的责任人员应当履行相应职责。二是明确期货公司合规风控要求。期货公司应当建立并有效执行程序化交易相关制度，加强对客户程序化交易行为的监控，首席风险官应当履行相应职责。三是明确期货交易所风险防控要求。期货交易所应当建立并有效执行程序化交易风险监测、预防预警、应急处置等制度。四是加强交易监测监控。期货交易所对程序化交易实行实时监测监控，对报撤单频率高、报撤单成交比高等异常交易行为予以重点监控。中国期货市场监控中心对程序化交易行为进行监测监控。五是突出对高频交易的重点监管。期货交易所对高频交易实行重点管理，密切监测监控高频交易行为变化，及时评估市场影响。六是明确突发事件处置。对突发事件，程序化交易者、期货公司、期货交易所应采取应急措施。\n（六）监督管理。一是明确期货交易所依法建立程序化交易报告制度。二是明确期货交易所、中国期货业协会对程序化交易的自律管理措施。三是明确中国证监会及其派出机构对程序化交易相关机构和个人的行政监管及处罚措施。四是明确监管履职要求。\n（七）附则。一是明确对做市商以程序化交易方式从事做市业务的，由期货交易所按照本规定的原则另行规定。二是明确在上海国际能源交易中心从事程序化交易的，适用本规定，沪深交易所 ETF期权不适用本规定。三是明确实施时间。",
+          "sentences": [
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s0",
+              "text": "《管理规定》共 7 章 37 条，具体包括：\n（一）总则。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s1",
+              "text": "一是明确制定目的。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s2",
+              "text": "加强期货市场程序化交易监管，规范程序化交易行为，维护期货交易秩序和市场公平。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s3",
+              "text": "二是明确适用范围。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s4",
+              "text": "在中华人民共和国境内期货市场的程序化交易相关活动，适用本规定。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s5",
+              "text": "三是明确定义。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s6",
+              "text": "明确程序化交易和高频交易定义、特征，高频交易具体标准由期货交易所制定。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s7",
+              "text": "四是明确基本原则。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s8",
+              "text": "从事程序化交易应当遵循公平原则，不得影响期货交易所系统安全和正常交易秩序。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s9",
+              "text": "五是明确职责分工。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s10",
+              "text": "包括中国证监会及其派出机构的行政监管职责，期货交易所、中国期货业协会的自律管理职责，中国期货市场监控中心的监测监控职责。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s11",
+              "text": "六是明确信息共享和监测监控。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s12",
+              "text": "期货交易所等单位应当加强程序化交易跨交易所跨市场信息共享和监测监控。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s13",
+              "text": "（二）报告管理。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s14",
+              "text": "一是明确各方责任。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s15",
+              "text": "中国期货业协会制定程序化交易委托协议的必备条款。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s16",
+              "text": "期货公司与程序化交易客户应当签订委托协议并约定双方的权利、义务等事项。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s17",
+              "text": "程序化交易者应当真实、准确、完整报告有关信息。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 17
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s18",
+              "text": "二是明确报告路径。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 18
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s19",
+              "text": "期货公司的客户向期货公司报告；",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 19
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s20",
+              "text": "期货公司核查无误的，应当向相关期货交易所报告，并在收到期货交易所反馈后向客户确认；",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 20
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s21",
+              "text": "客户收到期货公司确认后，方可从事程序化交易。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 21
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s22",
+              "text": "非期货公司会员等向期货交易所报告。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 22
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s23",
+              "text": "三是明确核查要求。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 23
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s24",
+              "text": "期货交易所、期货公司应当定期或者不定期核查程序化交易者报告的信息。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 24
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s25",
+              "text": "（三）系统接入管理。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 25
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s26",
+              "text": "一是明确系统外接要求。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 26
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s27",
+              "text": "期货公司应当将系统外部接入管理纳入合规风控体系，建立健全接入测试、交易监测等全流程管理机制。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 27
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s28",
+              "text": "二是明确系统功能要求。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 28
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s29",
+              "text": "程序化交易者使用的技术系统应当具备有效的异常监测、阈值管理等功能，期货公司使用的交易信息系统应当具备有效的验资验仓、权限控制、异常监测等功能。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 29
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s30",
+              "text": "三是明确系统测试要求。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 30
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s31",
+              "text": "期货公司应当自行或委托第三方机构对接入期货公司的客户技术系统进行测试，并按要求保存测试记录。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 31
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s32",
+              "text": "四是明确禁止性行为。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 32
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s33",
+              "text": "期货公司不得将交易信息系统的管理权限开放给客户等，程序化交易者不得利用系统对接非法经营期货业务等。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 33
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s34",
+              "text": "（四）主机托管和席位管理。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 34
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s35",
+              "text": "一是明确期货交易所制度建设要求和资源分配原则。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 35
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s36",
+              "text": "期货交易所应当建立主机托管信息报告制度和交易席位管理制度，提供主机托管服务和分配交易席位，应当遵循安全、公平、合理原则。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 36
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s37",
+              "text": "二是规范期货公司使用主机托管资源行为。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 37
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s38",
+              "text": "期货公司应当建立主机托管资源管理制度，合理使用主机托管资源。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 38
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s39",
+              "text": "对频繁发生异常交易行为、技术系统出现重大技术故障等情况的程序化交易客户，期货公司不得向其提供主机托管服务。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 39
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s40",
+              "text": "三是规范期货公司席位管理行为。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 40
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s41",
+              "text": "期货公司应当建立交易席位管理制度，公平分配交易席位。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 41
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s42",
+              "text": "（五）交易监测与风险管理。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 42
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s43",
+              "text": "一是明确程序化交易者合规风控要求。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 43
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s44",
+              "text": "从事程序化交易的法人、非法人组织应当建立并有效执行程序化交易相关制度，负责合规和风险管理的责任人员应当履行相应职责。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 44
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s45",
+              "text": "二是明确期货公司合规风控要求。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 45
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s46",
+              "text": "期货公司应当建立并有效执行程序化交易相关制度，加强对客户程序化交易行为的监控，首席风险官应当履行相应职责。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 46
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s47",
+              "text": "三是明确期货交易所风险防控要求。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 47
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s48",
+              "text": "期货交易所应当建立并有效执行程序化交易风险监测、预防预警、应急处置等制度。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 48
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s49",
+              "text": "四是加强交易监测监控。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 49
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s50",
+              "text": "期货交易所对程序化交易实行实时监测监控，对报撤单频率高、报撤单成交比高等异常交易行为予以重点监控。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 50
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s51",
+              "text": "中国期货市场监控中心对程序化交易行为进行监测监控。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 51
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s52",
+              "text": "五是突出对高频交易的重点监管。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 52
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s53",
+              "text": "期货交易所对高频交易实行重点管理，密切监测监控高频交易行为变化，及时评估市场影响。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 53
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s54",
+              "text": "六是明确突发事件处置。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 54
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s55",
+              "text": "对突发事件，程序化交易者、期货公司、期货交易所应采取应急措施。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 55
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s56",
+              "text": "（六）监督管理。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 56
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s57",
+              "text": "一是明确期货交易所依法建立程序化交易报告制度。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 57
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s58",
+              "text": "二是明确期货交易所、中国期货业协会对程序化交易的自律管理措施。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 58
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s59",
+              "text": "三是明确中国证监会及其派出机构对程序化交易相关机构和个人的行政监管及处罚措施。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 59
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s60",
+              "text": "四是明确监管履职要求。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 60
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s61",
+              "text": "（七）附则。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 61
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s62",
+              "text": "一是明确对做市商以程序化交易方式从事做市业务的，由期货交易所按照本规定的原则另行规定。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 62
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s63",
+              "text": "二是明确在上海国际能源交易中心从事程序化交易的，适用本规定，沪深交易所 ETF期权不适用本规定。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 63
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_s64",
+              "text": "三是明确实施时间。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 64
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况",
+      "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况",
+      "title": "三、公开征求意见情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "公开征求意见时间/2025年1月17日至2月16日/收到意见建议122条/采纳情况/未采纳原因",
+        "for": [
+          "意见征集",
+          "采纳比例",
+          "监管反馈"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况_p0",
+          "para_index": 0,
+          "content": "2025 年1 月17 日至2 月16 日，我会就《管理规定》向社会公开征求意见。征求意见期间，共收到意见建议122条。总体看，市场认为《管理规定》有利于维护期货交易场所系统安全和正常交易秩序，有利于促进交易公平、稳定市场预期；市场意见主要涉及实际操作中的标准、流程等，我们逐条进行了认真研究，与《管理规定》相关的绝大多数意见建议均已采纳；部分意见与现有规则存在冲突或与程序化交易监管目标不一致，未予采纳；其他与期货市场监管相关的意见建议我们将在监管工作中认真研究。",
+          "sentences": [
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况_p0_s0",
+              "text": "2025 年1 月17 日至2 月16 日，我会就《管理规定》向社会公开征求意见。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况_p0_s1",
+              "text": "征求意见期间，共收到意见建议122条。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况_p0_s2",
+              "text": "总体看，市场认为《管理规定》有利于维护期货交易场所系统安全和正常交易秩序，有利于促进交易公平、稳定市场预期；",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况_p0_s3",
+              "text": "市场意见主要涉及实际操作中的标准、流程等，我们逐条进行了认真研究，与《管理规定》相关的绝大多数意见建议均已采纳；",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况_p0_s4",
+              "text": "部分意见与现有规则存在冲突或与程序化交易监管目标不一致，未予采纳；",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况_p0_s5",
+              "text": "其他与期货市场监管相关的意见建议我们将在监管工作中认真研究。",
+              "location": {
+                "doc_id": "doc_5c8dc71f634b",
+                "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_c99db47ea30e",
+      "entity_type": "LegalDocument",
+      "mention": "《期货和衍生品法》",
+      "canonical_name": "期货和衍生品法",
+      "attributes": {},
+      "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f038c95fe7c0",
+      "entity_type": "LegalDocument",
+      "mention": "《关于加强监管防范风险促进期货市场高质量发展的意见》",
+      "canonical_name": "关于加强监管防范风险促进期货市场高质量发展的意见",
+      "attributes": {
+        "document_number": "国办发〔2024〕47 号"
+      },
+      "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5bda83a4ac04",
+      "entity_type": "Organization",
+      "mention": "证监会",
+      "canonical_name": "证监会",
+      "attributes": {},
+      "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b399481f4e1c",
+      "entity_type": "LegalDocument",
+      "mention": "《期货市场程序化交易管理规定（试行）》",
+      "canonical_name": "期货市场程序化交易管理规定（试行）",
+      "attributes": {
+        "short_name": "《管理规定》"
+      },
+      "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_210ff63986b7",
+      "entity_type": "Industry",
+      "mention": "高频交易",
+      "canonical_name": "高频交易",
+      "attributes": {},
+      "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 一、起草背景_p0_s0",
+      "sentence_ids": [
+        "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 一、起草背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ff68a2ef88df",
+      "entity_type": "Industry",
+      "mention": "中低频交易",
+      "canonical_name": "中低频交易",
+      "attributes": {},
+      "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 一、起草背景_p0_s0",
+      "sentence_ids": [
+        "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 一、起草背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_74d0bc6e8c18",
+      "entity_type": "LegalTerm",
+      "mention": "程序化交易",
+      "canonical_name": "程序化交易",
+      "attributes": {},
+      "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 一、起草背景_p0_s2",
+      "sentence_ids": [
+        "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 一、起草背景_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_28d9a3d4bc94",
+      "entity_type": "Organization",
+      "mention": "中国期货业协会",
+      "canonical_name": "中国期货业协会",
+      "attributes": {},
+      "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_81461a2f4ab6",
+      "entity_type": "Organization",
+      "mention": "中国期货市场监控中心",
+      "canonical_name": "中国期货市场监控中心",
+      "attributes": {},
+      "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fb432f1787eb",
+      "entity_type": "Date",
+      "mention": "2025 年 1 月 17 日",
+      "canonical_name": "2025-01-17",
+      "attributes": {},
+      "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_29d26f28bd8e",
+      "entity_type": "Date",
+      "mention": "2 月 16 日",
+      "canonical_name": "2025-02-16",
+      "attributes": {},
+      "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ab705a68d3ff",
+      "entity_type": "MonetaryAmount",
+      "mention": "122条",
+      "canonical_name": "122",
+      "attributes": {
+        "unit": "条"
+      },
+      "sentence_id": "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况_p0_s1",
+      "sentence_ids": [
+        "doc_5c8dc71f634b#《期货市场程序化交易管理规定（试行）》起草说明 > 三、公开征求意见情况_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_563974f089b4_rel_540c8b3d7e5b",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_b399481f4e1c",
+      "tail_entity_id": "ent_c99db47ea30e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5c8dc71f634b",
+        "section_path": "《期货市场程序化交易管理规定（试行）》起草说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_563974f089b4_rel_0c0c508f597e",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_b399481f4e1c",
+      "tail_entity_id": "ent_f038c95fe7c0",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5c8dc71f634b",
+        "section_path": "《期货市场程序化交易管理规定（试行）》起草说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_563974f089b4_rel_f7b162320fbf",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_b399481f4e1c",
+      "tail_entity_id": "ent_74d0bc6e8c18",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5c8dc71f634b",
+        "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_563974f089b4_rel_c30330fecaa0",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_b399481f4e1c",
+      "tail_entity_id": "ent_210ff63986b7",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5c8dc71f634b",
+        "section_path": "《期货市场程序化交易管理规定（试行）》起草说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,5017 @@
+{
+  "doc_id": "doc_d873096f857e",
+  "title": "Specification for regional equity markets cross-chain technology",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0043_att2.md",
+  "processed_at": "2026-07-21T00:51:58.869342+00:00",
+  "structured_data": {
+    "title": "区域性股权市场跨链技术规范"
+  },
+  "stats": {
+    "sections": 33,
+    "paragraphs": 30,
+    "sentences": 131,
+    "entities": 145,
+    "relations": 49,
+    "rejected": 0,
+    "llm_calls": 2250,
+    "llm_tokens": 3339530,
+    "elapsed_seconds": 54.0
+  },
+  "sections": [
+    {
+      "section_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology",
+      "section_path": "Specification for regional equity markets cross-chain technology",
+      "title": "Specification for regional equity markets cross-chain technology",
+      "level": 1,
+      "reading_guide": null,
+      "paragraphs": []
+    },
+    {
+      "section_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 目 次",
+      "section_path": "Specification for regional equity markets cross-chain technology > 目 次",
+      "title": "目 次",
+      "level": 2,
+      "reading_guide": {
+        "has": "JR/T 0314—2024/发布日期/实施日期/范围/规范性引用文件/术语和定义/缩略语/应用环境/业务数据存储/数据头/数据体/生命周期管理/节点接口/共识",
+        "for": [
+          "标准版本",
+          "章节结构",
+          "术语定义",
+          "存储规范",
+          "接口要求"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 目 次_p0",
+          "para_index": 0,
+          "content": "JR/T 0314—2024\n2024-11-20 发布 2024-11-20 实施\n前言.... II\n引言.... III\n1 范围.... 1\n2 规范性引用文件.... 1\n3 术语和定义.... 1\n4 缩略语.... 2\n5 应用环境.... 2\n6 业务数据存储.... 2\n6.1 基本要求.... 3\n6.2 业务数据对象编码.... 3\n6.3 数据头.... 3\n6.4 数据体.... 3\n6.5 数据对象生命周期管理.... 4\n6.6 数据对象存储.... 4\n7 地方业务链的节点接口要求.... 5\n7.1 基本要求.... 5\n7.2 获取区块链网络信息的接口.... 5\n7.3 获取区块信息的接口.... 5\n7.4 获取共识状态信息的接口.... 6\n7.5 获取业务数据对象或业务数据对象引用的接口.... 6\n附录A（资料性）应用环境参考示例.... 7\n附录B（资料性）数据对象数据头参考示例.... 8\n附录C（资料性）数据对象生命周期管理参考示例.... 9\n附录D（资料性）数据对象 JSON 模式参考示例.... 10\nD.1 数据对象 JSON 模式基本使用流程.... 10\nD.2 代码生成工具.... 10\nD.3 代码检验工具.... 10\n附录E（资料性）数据对象快照存证参考示例.... 13\n参考文献.... 14",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 目 次_p0_s0",
+              "text": "JR/T 0314—2024\n2024-11-20 发布 2024-11-20 实施\n前言.... II\n引言.... III\n1 范围.... 1\n2 规范性引用文件.... 1\n3 术语和定义.... 1\n4 缩略语.... 2\n5 应用环境.... 2\n6 业务数据存储.... 2\n6.1 基本要求.... 3\n6.2 业务数据对象编码.... 3\n6.3 数据头.... 3\n6.4 数据体.... 3\n6.5 数据对象生命周期管理.... 4\n6.6 数据对象存储.... 4\n7 地方业务链的节点接口要求.... 5\n7.1 基本要求.... 5\n7.2 获取区块链网络信息的接口.... 5\n7.3 获取区块信息的接口.... 5\n7.4 获取共识状态信息的接口.... 6\n7.5 获取业务数据对象或业务数据对象引用的接口.... 6\n附录A（资料性）应用环境参考示例.... 7\n附录B（资料性）数据对象数据头参考示例.... 8\n附录C（资料性）数据对象生命周期管理参考示例.... 9\n附录D（资料性）数据对象 JSON 模式参考示例.... 10\nD.1 数据对象 JSON 模式基本使用流程.... 10\nD.2 代码生成工具.... 10\nD.3 代码检验工具.... 10\n附录E（资料性）数据对象快照存证参考示例.... 13\n参考文献.... 14",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "Specification for regional equity markets cross-chain technology > 目 次",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言",
+      "section_path": "Specification for regional equity markets cross-chain technology > 前 言",
+      "title": "前 言",
+      "level": 2,
+      "reading_guide": {
+        "has": "起草标准GB/T 1.1-2020/专利声明/提出单位SAC/TC 180/SC4/归口单位SAC/TC 180/起草单位列表/主要起草人名单",
+        "for": [
+          "标准依据",
+          "专利信息",
+          "组织机构",
+          "起草人员"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0",
+          "para_index": 0,
+          "content": "本文件按照GB/T 1.1—2020《标准化工作导则 第1部分：标准化文件的结构和起草规则》的规定起草。\n请注意本文件的某些内容可能涉及专利。本文件的发布机构不承担识别专利的责任。\n本文件由全国金融标准化技术委员会证券分技术委员会（SAC/TC 180/SC4）提出。\n本文件由全国金融标准化技术委员会（SAC/TC 180）归口。\n本文件起草单位：中国证券监督管理委员会科技监管司、中国证券监督管理委员会市场监管二司、中证信息技术服务有限责任公司、深圳证券通信有限公司、同济大学、南京大学、北京股权交易中心有限公司、上海股权托管交易中心股份有限公司、江苏股权交易中心有限责任公司、浙江省股权交易中心有限公司、深圳前海股权交易中心有限公司、上海边界智能科技有限公司、中诚区块链研究院（南京）有限公司、南京数字金融产业研究院有限公司、梧桐链数字科技研究院（苏州）有限公司、中钞信用卡产业发展有限公司杭州区块链技术研究院。\n本文件主要起草人：奚海峰、彭枫、王凤冬、李宇、陈柏峰、王继伟、杨博、马堃、蒲军、赵滨、马小峰、陈莹、陈小泉、王强、朱培、周耀亮、林智辰、葛浩、陶祖国、邵洪峰、孙北北、胡爽峰、肖东、邵俊杰、万强、叶蔚、张一锋、王加楠。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s0",
+              "text": "本文件按照GB/T 1.1—2020《标准化工作导则 第1部分：标准化文件的结构和起草规则》的规定起草。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "Specification for regional equity markets cross-chain technology > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s1",
+              "text": "请注意本文件的某些内容可能涉及专利。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "Specification for regional equity markets cross-chain technology > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s2",
+              "text": "本文件的发布机构不承担识别专利的责任。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "Specification for regional equity markets cross-chain technology > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s3",
+              "text": "本文件由全国金融标准化技术委员会证券分技术委员会（SAC/TC 180/SC4）提出。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "Specification for regional equity markets cross-chain technology > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s4",
+              "text": "本文件由全国金融标准化技术委员会（SAC/TC 180）归口。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "Specification for regional equity markets cross-chain technology > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5",
+              "text": "本文件起草单位：中国证券监督管理委员会科技监管司、中国证券监督管理委员会市场监管二司、中证信息技术服务有限责任公司、深圳证券通信有限公司、同济大学、南京大学、北京股权交易中心有限公司、上海股权托管交易中心股份有限公司、江苏股权交易中心有限责任公司、浙江省股权交易中心有限公司、深圳前海股权交易中心有限公司、上海边界智能科技有限公司、中诚区块链研究院（南京）有限公司、南京数字金融产业研究院有限公司、梧桐链数字科技研究院（苏州）有限公司、中钞信用卡产业发展有限公司杭州区块链技术研究院。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "Specification for regional equity markets cross-chain technology > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+              "text": "本文件主要起草人：奚海峰、彭枫、王凤冬、李宇、陈柏峰、王继伟、杨博、马堃、蒲军、赵滨、马小峰、陈莹、陈小泉、王强、朱培、周耀亮、林智辰、葛浩、陶祖国、邵洪峰、孙北北、胡爽峰、肖东、邵俊杰、万强、叶蔚、张一锋、王加楠。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "Specification for regional equity markets cross-chain technology > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 引 言",
+      "section_path": "Specification for regional equity markets cross-chain technology > 引 言",
+      "title": "引 言",
+      "level": 2,
+      "reading_guide": {
+        "has": "区域性股权市场定义/功能定位/存在问题/区块链优势/双层架构（监管链+业务链）/跨链对接技术规范目标",
+        "for": [
+          "市场定义",
+          "技术背景",
+          "架构设计",
+          "规范目的"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 引 言_p0",
+          "para_index": 0,
+          "content": "区域性股权市场是服务所在省级行政区域内中小微企业的私募股权市场，是多层次资本市场体系重要组成部分，是地方扶持中小微企业政策措施的综合运用平台，也是一类地方金融组织。同时要看到，区域性股权市场也存在功能发挥不畅、地方监管制度体系不完善、业务系统多样异构、数据规范性差、业务规则不完备等问题。区块链具有数据透明、不易篡改、可追溯等技术优势，在促进数据共享、优化业务流程、降低运营成本、提升协同效率、建设可信体系等方面具有积极作用。基于监管链和地方业务链的双层架构，可以更好支持区域性股权市场企业赋能服务、业务创新并逐步实现穿透式监管。为建成物理分散、逻辑统一的区域性股权市场新型金融基础设施，有必要定义监管链与各地方业务链的跨链对接技术规范。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 引 言_p0_s0",
+              "text": "区域性股权市场是服务所在省级行政区域内中小微企业的私募股权市场，是多层次资本市场体系重要组成部分，是地方扶持中小微企业政策措施的综合运用平台，也是一类地方金融组织。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "Specification for regional equity markets cross-chain technology > 引 言",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 引 言_p0_s1",
+              "text": "同时要看到，区域性股权市场也存在功能发挥不畅、地方监管制度体系不完善、业务系统多样异构、数据规范性差、业务规则不完备等问题。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "Specification for regional equity markets cross-chain technology > 引 言",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 引 言_p0_s2",
+              "text": "区块链具有数据透明、不易篡改、可追溯等技术优势，在促进数据共享、优化业务流程、降低运营成本、提升协同效率、建设可信体系等方面具有积极作用。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "Specification for regional equity markets cross-chain technology > 引 言",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 引 言_p0_s3",
+              "text": "基于监管链和地方业务链的双层架构，可以更好支持区域性股权市场企业赋能服务、业务创新并逐步实现穿透式监管。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "Specification for regional equity markets cross-chain technology > 引 言",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 引 言_p0_s4",
+              "text": "为建成物理分散、逻辑统一的区域性股权市场新型金融基础设施，有必要定义监管链与各地方业务链的跨链对接技术规范。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "Specification for regional equity markets cross-chain technology > 引 言",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范",
+      "section_path": "区域性股权市场跨链技术规范",
+      "title": "区域性股权市场跨链技术规范",
+      "level": 1,
+      "reading_guide": null,
+      "paragraphs": []
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 1 范围",
+      "section_path": "区域性股权市场跨链技术规范 > 1 范围",
+      "title": "1 范围",
+      "level": 2,
+      "reading_guide": {
+        "has": "区域性股权市场/地方业务链/监管链/跨链对接/技术规范/系统实现/应用环境/业务数据存储/节点接口",
+        "for": [
+          "适用范围",
+          "技术架构",
+          "数据规范",
+          "接口要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 1 范围_p0",
+          "para_index": 0,
+          "content": "本文件规定了区域性股权市场地方业务链与监管链跨链对接的技术规范与系统实现要求，包括对应用环境、业务数据存储及地方业务链的节点接口要求。\n本文件适用于在区域性股权市场中进行地方业务链建设或服务运营的机构。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 1 范围_p0_s0",
+              "text": "本文件规定了区域性股权市场地方业务链与监管链跨链对接的技术规范与系统实现要求，包括对应用环境、业务数据存储及地方业务链的节点接口要求。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 1 范围",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 1 范围_p0_s1",
+              "text": "本文件适用于在区域性股权市场中进行地方业务链建设或服务运营的机构。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 1 范围",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 2 规范性引用文件",
+      "section_path": "区域性股权市场跨链技术规范 > 2 规范性引用文件",
+      "title": "2 规范性引用文件",
+      "level": 2,
+      "reading_guide": {
+        "has": "GB/T 20518/GB/T 25069/GB/T 32905/GB/T 32918/JR/T 0184/数字证书格式/术语/SM3算法/SM2算法/分布式账",
+        "for": [
+          "引用标准",
+          "技术依据",
+          "合规要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 2 规范性引用文件_p0",
+          "para_index": 0,
+          "content": "下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款。其中，注日期的引用文件，仅该日期对应的版本适用于本文件；不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。\nGB/T 20518 信息安全技术 公钥基础设施 数字证书格式\nGB/T 25069 信息安全技术 术语\nGB/T 32905 信息安全技术 SM3密码杂凑算法\nGB/T 32918 信息安全技术 SM2椭圆曲线公钥密码算法\nJR/T 0184 金融分布式账本技术安全规范",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 2 规范性引用文件_p0_s0",
+              "text": "下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 2 规范性引用文件",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 2 规范性引用文件_p0_s1",
+              "text": "其中，注日期的引用文件，仅该日期对应的版本适用于本文件；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 2 规范性引用文件",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 2 规范性引用文件_p0_s2",
+              "text": "不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 2 规范性引用文件",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 2 规范性引用文件_p0_s3",
+              "text": "GB/T 20518 信息安全技术 公钥基础设施 数字证书格式\nGB/T 25069 信息安全技术 术语\nGB/T 32905 信息安全技术 SM3密码杂凑算法\nGB/T 32918 信息安全技术 SM2椭圆曲线公钥密码算法\nJR/T 0184 金融分布式账本技术安全规范",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 2 规范性引用文件",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3 术语和定义",
+      "section_path": "区域性股权市场跨链技术规范 > 3 术语和定义",
+      "title": "3 术语和定义",
+      "level": 2,
+      "reading_guide": {
+        "has": "共识节点/验证节点/账本数据一致性/跨链/信息交互/信息验证/服务调用",
+        "for": [
+          "术语定义",
+          "技术概念",
+          "节点类型",
+          "跨链功能"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3 术语和定义_p0",
+          "para_index": 0,
+          "content": "GB/T 25069界定的以及下列术语和定义适用于本文件。\n3.1\n共识节点 consensus node\n负责账本数据一致性的节点。\n注：在有些区块链系统中也被称为验证节点。\n3.2\n跨链 cross chain\n实现在区块链之间的信息交互、信息验证与服务调用的技术。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3 术语和定义_p0_s0",
+              "text": "GB/T 25069界定的以及下列术语和定义适用于本文件。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 3 术语和定义",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3 术语和定义_p0_s1",
+              "text": "3.1\n共识节点 consensus node\n负责账本数据一致性的节点。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 3 术语和定义",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3 术语和定义_p0_s2",
+              "text": "注：在有些区块链系统中也被称为验证节点。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 3 术语和定义",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3 术语和定义_p0_s3",
+              "text": "3.2\n跨链 cross chain\n实现在区块链之间的信息交互、信息验证与服务调用的技术。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 3 术语和定义",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.3",
+      "section_path": "区域性股权市场跨链技术规范 > 3.3",
+      "title": "3.3",
+      "level": 2,
+      "reading_guide": {
+        "has": "交易 transaction/原子性账本数据状态变更/交易标识符",
+        "for": [
+          "定义",
+          "概念",
+          "术语"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.3_p0",
+          "para_index": 0,
+          "content": "交易 transaction\n区块链上的一次原子性账本数据状态变更及其过程和结果记录，由交易标识符唯一标识。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.3_p0_s0",
+              "text": "交易 transaction\n区块链上的一次原子性账本数据状态变更及其过程和结果记录，由交易标识符唯一标识。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 3.3",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.4",
+      "section_path": "区域性股权市场跨链技术规范 > 3.4",
+      "title": "3.4",
+      "level": 2,
+      "reading_guide": {
+        "has": "共识状态/consensus state/全局状态/世界状态哈希/共识签名/共识节点公钥",
+        "for": [
+          "数据结构",
+          "跨链协议",
+          "元数据定义"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.4_p0",
+          "para_index": 0,
+          "content": "共识状态 consensus state\n共识协议在每个共识节点维护的特定区块的全局状态，是跨链协议所依赖的一个关键数据结构。注：共识状态一般会包括最新的世界状态的哈希值、共识签名、共识节点公钥等元数据。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.4_p0_s0",
+              "text": "共识状态 consensus state\n共识协议在每个共识节点维护的特定区块的全局状态，是跨链协议所依赖的一个关键数据结构。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 3.4",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.4_p0_s1",
+              "text": "注：共识状态一般会包括最新的世界状态的哈希值、共识签名、共识节点公钥等元数据。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 3.4",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.5",
+      "section_path": "区域性股权市场跨链技术规范 > 3.5",
+      "title": "3.5",
+      "level": 2,
+      "reading_guide": {
+        "has": "默克尔证明/merkle proof/数据存在性验证/监管链/global regulation blockchain/全局服务/区块链系统",
+        "for": [
+          "技术定义",
+          "概念解释",
+          "术语含义"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.5_p0",
+          "para_index": 0,
+          "content": "默克尔证明 merkle proof\n利用默克尔树来快速证明一段数据是否存在于某数据集合中的方法。\n监管链 global regulation blockchain\n以全局服务和监管为目的构建的区块链系统。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.5_p0_s0",
+              "text": "默克尔证明 merkle proof\n利用默克尔树来快速证明一段数据是否存在于某数据集合中的方法。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 3.5",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.5_p0_s1",
+              "text": "监管链 global regulation blockchain\n以全局服务和监管为目的构建的区块链系统。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 3.5",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.7",
+      "section_path": "区域性股权市场跨链技术规范 > 3.7",
+      "title": "3.7",
+      "level": 2,
+      "reading_guide": {
+        "has": "地方业务链/regional business blockchain/区域性股权市场/区块链系统定义",
+        "for": [
+          "术语定义",
+          "系统架构",
+          "概念解释"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.7_p0",
+          "para_index": 0,
+          "content": "地方业务链 regional business blockchain\n各地方以服务区域性股权市场业务和生态为目的构建的区块链系统。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.7_p0_s0",
+              "text": "地方业务链 regional business blockchain\n各地方以服务区域性股权市场业务和生态为目的构建的区块链系统。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 3.7",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.8",
+      "section_path": "区域性股权市场跨链技术规范 > 3.8",
+      "title": "3.8",
+      "level": 2,
+      "reading_guide": {
+        "has": "数据模型定义/数据类型标准/数据对象实例/地方业务链",
+        "for": [
+          "数据定义",
+          "模型规范",
+          "对象结构"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.8_p0",
+          "para_index": 0,
+          "content": "数据模型 data model\n对业务数据的标准化建模，一组标准的数据类型的定义。\n数据对象 data object\n地方业务链为每个数据类型生成的一个或多个以对象方式组织的实例。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.8_p0_s0",
+              "text": "数据模型 data model\n对业务数据的标准化建模，一组标准的数据类型的定义。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 3.8",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.8_p0_s1",
+              "text": "数据对象 data object\n地方业务链为每个数据类型生成的一个或多个以对象方式组织的实例。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 3.8",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.10",
+      "section_path": "区域性股权市场跨链技术规范 > 3.10",
+      "title": "3.10",
+      "level": 2,
+      "reading_guide": {
+        "has": "数据对象引用/地方业务链标识信息/统一资源标识符",
+        "for": [
+          "定义解释",
+          "技术术语",
+          "标识规范"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.10_p0",
+          "para_index": 0,
+          "content": "数据对象引用 data object reference\n为获取数据对象，存储在地方业务链上的标识信息。\n注：一般采用统一资源标识符的形式。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.10_p0_s0",
+              "text": "数据对象引用 data object reference\n为获取数据对象，存储在地方业务链上的标识信息。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 3.10",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.10_p0_s1",
+              "text": "注：一般采用统一资源标识符的形式。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 3.10",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.11",
+      "section_path": "区域性股权市场跨链技术规范 > 3.11",
+      "title": "3.11",
+      "level": 2,
+      "reading_guide": {
+        "has": "JSON schema定义/缩略语列表/AWS S3/RPC/TLS",
+        "for": [
+          "术语定义",
+          "技术缩写",
+          "协议标准"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.11_p0",
+          "para_index": 0,
+          "content": "JSON 模式 JSON schema\n一种用于描述和验证JSON数据结构的模式。\n下列缩略语适用于本文件。\nAWS S3：亚马逊云服务提供的对象存储服务（Amazon Web Service Simple Storage Service）\nJSON：JavaScript对象标记（JavaScript Object Notation）\nRPC：远程过程调用（Remote Procedure Call）\nTLS：传输层安全协议（Transport Layer Security）",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.11_p0_s0",
+              "text": "JSON 模式 JSON schema\n一种用于描述和验证JSON数据结构的模式。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 3.11",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.11_p0_s1",
+              "text": "下列缩略语适用于本文件。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 3.11",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.11_p0_s2",
+              "text": "AWS S3：亚马逊云服务提供的对象存储服务（Amazon Web Service Simple Storage Service）\nJSON：JavaScript对象标记（JavaScript Object Notation）\nRPC：远程过程调用（Remote Procedure Call）\nTLS：传输层安全协议（Transport Layer Security）",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 3.11",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 5 应用环境",
+      "section_path": "区域性股权市场跨链技术规范 > 5 应用环境",
+      "title": "5 应用环境",
+      "level": 2,
+      "reading_guide": {
+        "has": "应用环境参考示例/地方业务链存储/监管链跨链/业务数据对象/数据对象版本/快照/创建更新删除重写操作",
+        "for": [
+          "技术架构",
+          "数据存储",
+          "跨链机制",
+          "数据版本"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 5 应用环境_p0",
+          "para_index": 0,
+          "content": "附录A给出了区域性股权市场跨链技术规范的应用环境参考示例。\n业务数据在地方业务链存储，并可跨链至监管链。\n每个业务数据在地方业务链生成一个或多个实例（即：业务数据对象）；而每个数据对象可以有一个或多个版本（即：业务数据对象快照或简称快照），代表对该数据对象执行创建，或更新，或删除，或重写操作的结果。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 5 应用环境_p0_s0",
+              "text": "附录A给出了区域性股权市场跨链技术规范的应用环境参考示例。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 5 应用环境",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 5 应用环境_p0_s1",
+              "text": "业务数据在地方业务链存储，并可跨链至监管链。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 5 应用环境",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 5 应用环境_p0_s2",
+              "text": "每个业务数据在地方业务链生成一个或多个实例（即：业务数据对象）；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 5 应用环境",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 5 应用环境_p0_s3",
+              "text": "而每个数据对象可以有一个或多个版本（即：业务数据对象快照或简称快照），代表对该数据对象执行创建，或更新，或删除，或重写操作的结果。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 5 应用环境",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+      "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+      "title": "6.2 业务数据对象编码",
+      "level": 2,
+      "reading_guide": {
+        "has": "数据头格式/字段定义/字段路径/字段类型/字段长度/数据模型名称/数据对象版本/数据对象类型/数据对象标识/对应操作/时间戳/数据所有者签名/签名者公钥类型/签",
+        "for": [
+          "数据结构",
+          "字段规范",
+          "编码标准",
+          "签名算法",
+          "协议版本"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0",
+          "para_index": 0,
+          "content": "业务数据对象由数据头、数据体两部分组成，以JSON格式表示，采用UTF-8方式编码。\n数据头格式应符合表1的要求，数据头应包含数据模型名称、数据对象版本、数据对象类型、数据所有者签名、数据对象元数据等字段。签名者公钥、签名摘要算法采用的密码算法应符合GB/T 32905、GB/T 32918和GB/T 20518等相关国家标准以及JR/T 0184等相关行业标准。\n表 1 数据头格式\n<table><tr><td>字段定义</td><td>字段路径</td><td>字段类型</td><td>字段长度</td></tr><tr><td>数据模型名称</td><td>header.model.protocol</td><td>字符串</td><td>64</td></tr><tr><td>数据模型版本</td><td>header.model.version</td><td>字符串</td><td>32</td></tr><tr><td>数据对象类型</td><td>header.content.type</td><td>字符串</td><td>32</td></tr><tr><td>数据对象标识</td><td>header.content.object_id</td><td>字符串</td><td>128</td></tr><tr><td>数据对象版本</td><td>header.content.version</td><td>整数型(初始版本号为0,版本号依次递增)</td><td>—</td></tr><tr><td>对应操作</td><td>header.content.operation</td><td>字符串(“create”:创建、“update”:更新、“overwrite”:重写、“delete”:删除)</td><td>16</td></tr><tr><td>时间戳(UNIX时间)</td><td>header.content.timestamp</td><td>整数型</td><td></td></tr><tr><td>备注</td><td>header.remark</td><td>字符串</td><td>2048</td></tr><tr><td>数据所有者签名</td><td>header.seal</td><td>JSON对象集合</td><td>—</td></tr><tr><td>签名者公钥类型</td><td>header.seal.pub_key.type</td><td>字符串(“SM2”)</td><td>64</td></tr><tr><td>签名者公钥值</td><td>header.seal.pub_key.value</td><td>字符串</td><td>512</td></tr><tr><td>签名摘要算法</td><td>header.seal.digest_algo</td><td>字符串(“SM3”)</td><td>32</td></tr><tr><td>签名</td><td>header.seal.signature</td><td>字符串</td><td>1024</td></tr><tr><td>数据对象元数据</td><td>header.metadata</td><td>JSON对象</td><td>—</td></tr></table>\n附录B给出了数据对象数据头参考示例。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+              "text": "业务数据对象由数据头、数据体两部分组成，以JSON格式表示，采用UTF-8方式编码。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s1",
+              "text": "数据头格式应符合表1的要求，数据头应包含数据模型名称、数据对象版本、数据对象类型、数据所有者签名、数据对象元数据等字段。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s2",
+              "text": "签名者公钥、签名摘要算法采用的密码算法应符合GB/T 32905、GB/T 32918和GB/T 20518等相关国家标准以及JR/T 0184等相关行业标准。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s3",
+              "text": "表 1 数据头格式\n<table><tr><td>字段定义</td><td>字段路径</td><td>字段类型</td><td>字段长度</td></tr><tr><td>数据模型名称</td><td>header.model.protocol</td><td>字符串</td><td>64</td></tr><tr><td>数据模型版本</td><td>header.model.version</td><td>字符串</td><td>32</td></tr><tr><td>数据对象类型</td><td>header.content.type</td><td>字符串</td><td>32</td></tr><tr><td>数据对象标识</td><td>header.content.object_id</td><td>字符串</td><td>128</td></tr><tr><td>数据对象版本</td><td>header.content.version</td><td>整数型(初始版本号为0,版本号依次递增)</td><td>—</td></tr><tr><td>对应操作</td><td>header.content.operation</td><td>字符串(“create”:创建、“update”:更新、“overwrite”:重写、“delete”:删除)</td><td>16</td></tr><tr><td>时间戳(UNIX时间)</td><td>header.content.timestamp</td><td>整数型</td><td></td></tr><tr><td>备注</td><td>header.remark</td><td>字符串</td><td>2048</td></tr><tr><td>数据所有者签名</td><td>header.seal</td><td>JSON对象集合</td><td>—</td></tr><tr><td>签名者公钥类型</td><td>header.seal.pub_key.type</td><td>字符串(“SM2”)</td><td>64</td></tr><tr><td>签名者公钥值</td><td>header.seal.pub_key.value</td><td>字符串</td><td>512</td></tr><tr><td>签名摘要算法</td><td>header.seal.digest_algo</td><td>字符串(“SM3”)</td><td>32</td></tr><tr><td>签名</td><td>header.seal.signature</td><td>字符串</td><td>1024</td></tr><tr><td>数据对象元数据</td><td>header.metadata</td><td>JSON对象</td><td>—</td></tr></table>\n附录B给出了数据对象数据头参考示例。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.4 数据体",
+      "section_path": "区域性股权市场跨链技术规范 > 6.4 数据体",
+      "title": "6.4 数据体",
+      "level": 2,
+      "reading_guide": {
+        "has": "数据体格式/表2/字段定义/字段路径/字段类型/JSON对象/body",
+        "for": [
+          "数据结构",
+          "字段定义",
+          "数据格式"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.4 数据体_p0",
+          "para_index": 0,
+          "content": "数据体格式应符合表2的要求。\n表 2 数据体格式\n<table><tr><td>字段定义</td><td>字段路径</td><td>字段类型</td></tr><tr><td>数据体内容</td><td>body</td><td>JSON 对象</td></tr></table>",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.4 数据体_p0_s0",
+              "text": "数据体格式应符合表2的要求。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.4 数据体",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.4 数据体_p0_s1",
+              "text": "表 2 数据体格式\n<table><tr><td>字段定义</td><td>字段路径</td><td>字段类型</td></tr><tr><td>数据体内容</td><td>body</td><td>JSON 对象</td></tr></table>",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.4 数据体",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+      "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+      "title": "6.5 数据对象生命周期管理",
+      "level": 2,
+      "reading_guide": {
+        "has": "数据对象生命周期/创建规则/更新规则/重写规则/删除规则/版本号管理/增量与全量存储/null值处理/JSON模式校验/快照结构/数据头/数据体/引用机制",
+        "for": [
+          "数据规范",
+          "版本控制",
+          "操作规则",
+          "校验标准",
+          "跨链流程"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0",
+          "para_index": 0,
+          "content": "在关键业务流程执行的每个关键环节，所有被影响的业务数据需要同步体现在对应的链上数据对象中。数据对象的生命周期管理应满足：\na) 数据对象标识是数据对象全生命周期中的唯一标识，不随数据对象版本和内容的更新而变更；\nb) 创建数据对象：\n1) 地方业务链应生成其系统唯一的对象标识；\n2) 以版本号 0 在链上存储完整快照，或链上存证并在链外存储完整快照。\nc) 更新数据对象：\n1) 应在链上或链外存储数据体为全量或增量内容、数据头版本号加 1 的新快照；\n2) 若采用增量方式更新数据对象的内容且要将上一版本中的某属性值更新为空值，应设置为计算机里表示空值的 null；\n3) 增量更新需要满足：将增量内容合并至由所有历史版本组成的全量快照而得到的最新版本的全量快照，仍然可以通过 JSON 模式的合法性校验。\nd) 重写数据对象：\n1) 应在链上或链外存储数据体为全量或增量内容、数据头版本号与被重写快照一致的新快照；\n2) 若被重写的快照版本不是该对象的最新版本，则从该版本到最新版本之间所有的快照，都应重写；\n3) 若采用增量方式重写数据对象的内容且要将上一版本中的某属性值更新为空值，应设置为计算机里表示空值的 null；\n4) 增量重写应满足：将增量内容合并至上一版本的全量快照而得到的最新版本的全量快照，仍然可以通过 JSON 模式的合法性校验。\ne) 删除数据对象：\n1) 应在链上或链外存储数据体为空、数据头版本号加 1 的新快照，历史快照不应删除；\n2) 删除操作是一个数据对象生命周期的终止操作，被执行过删除的数据对象，不应再有任何新的操作。\nf) 无论创建、更新、重写还是删除操作，生成的对应快照都由“数据头”+“数据体”组成；\ng) 数据对象引用：\n1) 若不同数据对象之间有引用关系，应按照业务发生时序，引用业务发生时对应的快照；“数据对象引用”属性的取值为：被引用数据对象 id、对应的快照版本；\n2) 当被引用的数据对象发生版本更新时，无需更新引用值。\n附录C给出了数据对象生命周期管理参考示例。\n业务数据应通过JSON模式的合法性校验方能完成跨链处理，未能通过校验时将被作为异常记入跨链日志，地方业务链可通过监管链提供的跨链服务查询校验结果反馈作为更正参考。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0_s0",
+              "text": "在关键业务流程执行的每个关键环节，所有被影响的业务数据需要同步体现在对应的链上数据对象中。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0_s1",
+              "text": "数据对象的生命周期管理应满足：\na) 数据对象标识是数据对象全生命周期中的唯一标识，不随数据对象版本和内容的更新而变更；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0_s2",
+              "text": "b) 创建数据对象：\n1) 地方业务链应生成其系统唯一的对象标识；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0_s3",
+              "text": "2) 以版本号 0 在链上存储完整快照，或链上存证并在链外存储完整快照。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0_s4",
+              "text": "c) 更新数据对象：\n1) 应在链上或链外存储数据体为全量或增量内容、数据头版本号加 1 的新快照；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0_s5",
+              "text": "2) 若采用增量方式更新数据对象的内容且要将上一版本中的某属性值更新为空值，应设置为计算机里表示空值的 null；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0_s6",
+              "text": "3) 增量更新需要满足：将增量内容合并至由所有历史版本组成的全量快照而得到的最新版本的全量快照，仍然可以通过 JSON 模式的合法性校验。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0_s7",
+              "text": "d) 重写数据对象：\n1) 应在链上或链外存储数据体为全量或增量内容、数据头版本号与被重写快照一致的新快照；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0_s8",
+              "text": "2) 若被重写的快照版本不是该对象的最新版本，则从该版本到最新版本之间所有的快照，都应重写；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0_s9",
+              "text": "3) 若采用增量方式重写数据对象的内容且要将上一版本中的某属性值更新为空值，应设置为计算机里表示空值的 null；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0_s10",
+              "text": "4) 增量重写应满足：将增量内容合并至上一版本的全量快照而得到的最新版本的全量快照，仍然可以通过 JSON 模式的合法性校验。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0_s11",
+              "text": "e) 删除数据对象：\n1) 应在链上或链外存储数据体为空、数据头版本号加 1 的新快照，历史快照不应删除；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0_s12",
+              "text": "2) 删除操作是一个数据对象生命周期的终止操作，被执行过删除的数据对象，不应再有任何新的操作。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0_s13",
+              "text": "f) 无论创建、更新、重写还是删除操作，生成的对应快照都由“数据头”+“数据体”组成；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0_s14",
+              "text": "g) 数据对象引用：\n1) 若不同数据对象之间有引用关系，应按照业务发生时序，引用业务发生时对应的快照；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0_s15",
+              "text": "“数据对象引用”属性的取值为：被引用数据对象 id、对应的快照版本；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0_s16",
+              "text": "2) 当被引用的数据对象发生版本更新时，无需更新引用值。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0_s17",
+              "text": "附录C给出了数据对象生命周期管理参考示例。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+                "paragraph_index": 0,
+                "sentence_index": 17
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理_p0_s18",
+              "text": "业务数据应通过JSON模式的合法性校验方能完成跨链处理，未能通过校验时将被作为异常记入跨链日志，地方业务链可通过监管链提供的跨链服务查询校验结果反馈作为更正参考。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.5 数据对象生命周期管理",
+                "paragraph_index": 0,
+                "sentence_index": 18
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.6 数据对象存储",
+      "section_path": "区域性股权市场跨链技术规范 > 6.6 数据对象存储",
+      "title": "6.6 数据对象存储",
+      "level": 2,
+      "reading_guide": {
+        "has": "链上快照哈希值/链外对象存储/AWS S3协议/TLS鉴权查询接口/数据对象标识版本号/JSON格式编码/JSON模式校验/快照存证示例",
+        "for": [
+          "存储方案",
+          "查询接口",
+          "数据格式",
+          "安全机制",
+          "存证方式"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.6 数据对象存储_p0",
+          "para_index": 0,
+          "content": "地方业务链可根据隐私保护的需求，将快照的部分内容记录在链上，同时将其全部内容通过链外存储服务在链外予以保存。链上记录应包含链外对应快照的哈希值。链外存储工具为兼容AWSS3协议的对象存储工具。\n地方业务链应对行业监管机构监管链开放查询接口，该接口应满足以下要求：\n查询接口应通过 TLS和鉴权加以保护；\n以数据对象标识和版本号为参数，在地方业务链上或链外可以获取到指定版本号的快照；\n查询返回的快照以统一的 JSON格式编码（在快照上链之前，应使用数据对象 JSON 模式进行合法性校验）。\n附录D给出了数据对象JSON模式参考示例。\n如果地方业务链暂时无法将所有业务数据实时记录在链上，作为临时过渡方案，可将快照在链上存证，附录E给出了数据对象快照存证参考示例。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.6 数据对象存储_p0_s0",
+              "text": "地方业务链可根据隐私保护的需求，将快照的部分内容记录在链上，同时将其全部内容通过链外存储服务在链外予以保存。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.6 数据对象存储",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.6 数据对象存储_p0_s1",
+              "text": "链上记录应包含链外对应快照的哈希值。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.6 数据对象存储",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.6 数据对象存储_p0_s2",
+              "text": "链外存储工具为兼容AWSS3协议的对象存储工具。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.6 数据对象存储",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.6 数据对象存储_p0_s3",
+              "text": "地方业务链应对行业监管机构监管链开放查询接口，该接口应满足以下要求：\n查询接口应通过 TLS和鉴权加以保护；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.6 数据对象存储",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.6 数据对象存储_p0_s4",
+              "text": "以数据对象标识和版本号为参数，在地方业务链上或链外可以获取到指定版本号的快照；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.6 数据对象存储",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.6 数据对象存储_p0_s5",
+              "text": "查询返回的快照以统一的 JSON格式编码（在快照上链之前，应使用数据对象 JSON 模式进行合法性校验）。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.6 数据对象存储",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.6 数据对象存储_p0_s6",
+              "text": "附录D给出了数据对象JSON模式参考示例。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.6 数据对象存储",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.6 数据对象存储_p0_s7",
+              "text": "如果地方业务链暂时无法将所有业务数据实时记录在链上，作为临时过渡方案，可将快照在链上存证，附录E给出了数据对象快照存证参考示例。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 6.6 数据对象存储",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7 地方业务链的节点接口要求",
+      "section_path": "区域性股权市场跨链技术规范 > 7 地方业务链的节点接口要求",
+      "title": "7 地方业务链的节点接口要求",
+      "level": 2,
+      "reading_guide": {
+        "has": "监管链节点接口/区块链网络标识/拜占庭容错共识协议/RPC接口/全节点数量/网络信息获取/区块信息获取/共识状态获取/业务数据获取",
+        "for": [
+          "节点接口",
+          "共识协议",
+          "RPC配置",
+          "数据同步",
+          "监管对接"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7 地方业务链的节点接口要求_p0",
+          "para_index": 0,
+          "content": "地方业务链应按照监管链的要求提供节点接口，每个地方业务链有自定义的区块链网络标识。\n地方业务链应采用拜占庭容错等支持容错的共识协议。\n地方业务链应向监管链暴露至少两个不同全节点的RPC接口。监管链将通过这些RPC接口获取地方业务链的链上数据。\n地方业务链的节点RPC接口应支持监管链实现获取网络信息、区块信息、共识状态、业务数据等能力。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7 地方业务链的节点接口要求_p0_s0",
+              "text": "地方业务链应按照监管链的要求提供节点接口，每个地方业务链有自定义的区块链网络标识。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7 地方业务链的节点接口要求",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7 地方业务链的节点接口要求_p0_s1",
+              "text": "地方业务链应采用拜占庭容错等支持容错的共识协议。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7 地方业务链的节点接口要求",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7 地方业务链的节点接口要求_p0_s2",
+              "text": "地方业务链应向监管链暴露至少两个不同全节点的RPC接口。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7 地方业务链的节点接口要求",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7 地方业务链的节点接口要求_p0_s3",
+              "text": "监管链将通过这些RPC接口获取地方业务链的链上数据。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7 地方业务链的节点接口要求",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7 地方业务链的节点接口要求_p0_s4",
+              "text": "地方业务链的节点RPC接口应支持监管链实现获取网络信息、区块信息、共识状态、业务数据等能力。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7 地方业务链的节点接口要求",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口",
+      "section_path": "区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口",
+      "title": "7.2 获取区块链网络信息的接口",
+      "level": 2,
+      "reading_guide": {
+        "has": "获取可用网络列表接口/获取网络配置选项接口/获取当前网络状态接口/区块链网络标识/子网列表/节点版本/操作类型/当前区块高度/区块哈希/区块时间戳/连接节点",
+        "for": [
+          "网络列表",
+          "网络状态",
+          "配置选项",
+          "接口规范",
+          "数据字段"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0",
+          "para_index": 0,
+          "content": "获取区块链网络信息的接口用于获取可用网络或子网的列表、网络的当前状态（最新的终局性区块）以及监管链要求提供的其他有用信息。接口应符合表3的要求。\n表 3 获取地方业务链网络信息的接口要求\n<table><tr><td>接口功能</td><td>请求内容</td><td>响应内容</td></tr><tr><td>获取可用网络列表</td><td>无</td><td>可用网络列表,内容包括:区块链网络标识、区块链网络信息及其子网列表</td></tr><tr><td>获取网络配置选项</td><td>区块链网络标识</td><td>节点版本、允许的操作类型及其结果状态</td></tr><tr><td>获取当前网络状态</td><td>区块链网络标识</td><td>当前区块高度、区块哈希、区块时间戳、连接的节点等</td></tr></table>",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0",
+              "text": "获取区块链网络信息的接口用于获取可用网络或子网的列表、网络的当前状态（最新的终局性区块）以及监管链要求提供的其他有用信息。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s1",
+              "text": "接口应符合表3的要求。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s2",
+              "text": "表 3 获取地方业务链网络信息的接口要求\n<table><tr><td>接口功能</td><td>请求内容</td><td>响应内容</td></tr><tr><td>获取可用网络列表</td><td>无</td><td>可用网络列表,内容包括:区块链网络标识、区块链网络信息及其子网列表</td></tr><tr><td>获取网络配置选项</td><td>区块链网络标识</td><td>节点版本、允许的操作类型及其结果状态</td></tr><tr><td>获取当前网络状态</td><td>区块链网络标识</td><td>当前区块高度、区块哈希、区块时间戳、连接的节点等</td></tr></table>",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口",
+      "section_path": "区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口",
+      "title": "7.3 获取区块信息的接口",
+      "level": 2,
+      "reading_guide": {
+        "has": "获取区块信息接口/获取交易信息接口/请求参数：区块链网络标识、区块高度、交易标识符/响应内容：区块哈希、时间戳、交易ID、操作类型及结果/区块大小限制16MB",
+        "for": [
+          "接口定义",
+          "请求参数",
+          "响应数据",
+          "技术规格"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0",
+          "para_index": 0,
+          "content": "获取区块信息的接口用于访问保存在区块里的所有数据。该接口应符合表4的要求，返回一个区块里所有改变链上世界状态的操作。\n注：世界状态是区块链上所有数据在某一时刻所表征的当前状态集合。\n表 4 获取地方业务链区块信息的接口要求\n<table><tr><td>接口功能</td><td>请求内容</td><td>响应内容</td></tr><tr><td>获取区块信息</td><td>区块链网络标识、区块高度</td><td>区块高度及其哈希、前一个区块的高度及其哈希、区块时间戳、包含的交易标识符、区块头等每个区块的大小应不超过16MB</td></tr><tr><td>获取交易信息</td><td>区块链网络标识、区块高度、交易标识符</td><td>交易包含的一系列操作,其操作类型及结果</td></tr></table>",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0_s0",
+              "text": "获取区块信息的接口用于访问保存在区块里的所有数据。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0_s1",
+              "text": "该接口应符合表4的要求，返回一个区块里所有改变链上世界状态的操作。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0_s2",
+              "text": "注：世界状态是区块链上所有数据在某一时刻所表征的当前状态集合。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0_s3",
+              "text": "表 4 获取地方业务链区块信息的接口要求\n<table><tr><td>接口功能</td><td>请求内容</td><td>响应内容</td></tr><tr><td>获取区块信息</td><td>区块链网络标识、区块高度</td><td>区块高度及其哈希、前一个区块的高度及其哈希、区块时间戳、包含的交易标识符、区块头等每个区块的大小应不超过16MB</td></tr><tr><td>获取交易信息</td><td>区块链网络标识、区块高度、交易标识符</td><td>交易包含的一系列操作,其操作类型及结果</td></tr></table>",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.4 获取共识状态信息的接口",
+      "section_path": "区域性股权市场跨链技术规范 > 7.4 获取共识状态信息的接口",
+      "title": "7.4 获取共识状态信息的接口",
+      "level": 2,
+      "reading_guide": {
+        "has": "获取共识状态接口/表5要求/请求参数(区块链网络标识、区块高度)/响应内容(状态根、交易根、公钥集、投票信息、签名列表、签名数据)",
+        "for": [
+          "接口规范",
+          "请求参数",
+          "响应数据",
+          "技术实现"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.4 获取共识状态信息的接口_p0",
+          "para_index": 0,
+          "content": "该接口应符合表5的要求，以获取某个区块高度的共识状态。\n表 5 获取地方业务链共识状态信息的接口要求\n<table><tr><td>接口功能</td><td>请求内容</td><td>响应内容</td></tr><tr><td>获取某个区块高度的共识状态</td><td>区块链网络标识、区块高度</td><td>状态根、交易根以及其他信任信息,如:共识节点的公钥集、共识过程中的投票信息;其中共识过程中的投票信息包括:参与投票的共识节点列表、本区块的共识节点签名列表、签名数据(一般为区块哈希)等</td></tr></table>",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.4 获取共识状态信息的接口_p0_s0",
+              "text": "该接口应符合表5的要求，以获取某个区块高度的共识状态。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7.4 获取共识状态信息的接口",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.4 获取共识状态信息的接口_p0_s1",
+              "text": "表 5 获取地方业务链共识状态信息的接口要求\n<table><tr><td>接口功能</td><td>请求内容</td><td>响应内容</td></tr><tr><td>获取某个区块高度的共识状态</td><td>区块链网络标识、区块高度</td><td>状态根、交易根以及其他信任信息,如:共识节点的公钥集、共识过程中的投票信息;其中共识过程中的投票信息包括:参与投票的共识节点列表、本区块的共识节点签名列表、签名数据(一般为区块哈希)等</td></tr></table>",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7.4 获取共识状态信息的接口",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口",
+      "section_path": "区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口",
+      "title": "7.5 获取业务数据对象或业务数据对象引用的接口",
+      "level": 2,
+      "reading_guide": {
+        "has": "获取业务数据对象接口/获取数据对象引用接口/请求参数：区块链网络标识、区块高度、数据对象标识/响应内容：数据对象编码、默克尔证明、URI/地方业务链默克尔证明替",
+        "for": [
+          "接口定义",
+          "数据查询",
+          "跨链验证",
+          "技术实现"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0",
+          "para_index": 0,
+          "content": "该接口应符合表6的要求，以获取业务数据对象或业务数据对象引用。如该接口返回的是业务数据对象引用，监管链应能通过该业务数据对象引用访问并获取到业务数据对象。如地方业务链因底层技术原因无法提供默克尔证明，应提供可快速证明数据是否存在于某数据集合中的方法，且该方法应满足监管链的验证要求。\n表 6 获取地方业务链业务数据对象或业务数据对象引用的接口要求\n<table><tr><td>接口功能</td><td>请求内容</td><td>响应内容</td></tr><tr><td>获取某一个区块包含的数据对象标识</td><td>区块链网络标识、区块高度</td><td>指定区块所包含的数据对象标识</td></tr><tr><td>获取数据对象或数据对象引用</td><td>区块链网络标识、区块高度、数据对象标识</td><td>数据对象在链上的实际编码内容及其默克尔证明,或数据对象引用(一般为数据对象的统一资源标识)</td></tr></table>\n附 录 A\n（资料性）\n应用环境参考示例\n图 A.1是区域性股权市场跨链技术规范应用环境的参考示例。在该参考示例中，区域性股权市场跨链技术规范用于地方业务链与监管链之间数据对象的跨链处理。\n[图片：]\n图A.1 应用环境参考",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s0",
+              "text": "该接口应符合表6的要求，以获取业务数据对象或业务数据对象引用。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s1",
+              "text": "如该接口返回的是业务数据对象引用，监管链应能通过该业务数据对象引用访问并获取到业务数据对象。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s2",
+              "text": "如地方业务链因底层技术原因无法提供默克尔证明，应提供可快速证明数据是否存在于某数据集合中的方法，且该方法应满足监管链的验证要求。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s3",
+              "text": "表 6 获取地方业务链业务数据对象或业务数据对象引用的接口要求\n<table><tr><td>接口功能</td><td>请求内容</td><td>响应内容</td></tr><tr><td>获取某一个区块包含的数据对象标识</td><td>区块链网络标识、区块高度</td><td>指定区块所包含的数据对象标识</td></tr><tr><td>获取数据对象或数据对象引用</td><td>区块链网络标识、区块高度、数据对象标识</td><td>数据对象在链上的实际编码内容及其默克尔证明,或数据对象引用(一般为数据对象的统一资源标识)</td></tr></table>\n附 录 A\n（资料性）\n应用环境参考示例\n图 A.1是区域性股权市场跨链技术规范应用环境的参考示例。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s4",
+              "text": "在该参考示例中，区域性股权市场跨链技术规范用于地方业务链与监管链之间数据对象的跨链处理。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s5",
+              "text": "[图片：]\n图A.1 应用环境参考",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 附 录 B",
+      "section_path": "区域性股权市场跨链技术规范 > 附 录 B",
+      "title": "附 录 B",
+      "level": 2,
+      "reading_guide": {
+        "has": "数据对象数据头字段定义 (object_id, operation, timestamp, type, version, protocol, model_ver",
+        "for": [
+          "数据结构",
+          "字段含义",
+          "操作流程",
+          "生命周期"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 附 录 B_p0",
+          "para_index": 0,
+          "content": "（资料性）\n图 B.1 是区域性股权市场跨链技术规范业务数据对象数据头的参考示例。在该参考示例中，数据对象数据头主要字段含义如下：\nheader.content.object\\_id\n解释：地方业务链业务数据对象唯一标识。\nheader.content.operation\n解释：标识当前对业务数据对象所做的操作行为。\nheader.content.timestamp\n解释：标识当前业务数据对象操作发生时刻的 Unix时间戳。\nheader.content.type\n解释：标识当前业务数据对象类型。\nheader.content.version\n解释：标识业务数据对象版本号。\n——header.model.protocol\n解释：标识数据模型协议名称，固定为“区域性股权市场跨链业务数据模型”。\nheader.model.version\n解释：标识当前所使用的数据模型版本号。\n—header.source\n解释：标识当前业务数据对象来源。\n—header.body\n解释：标识当前业务数据对象内容。\n[图片：]\n图 B.1 数据对象数据头参考\n附 录 C\n（资料性）\n数据对象生命周期管理参考示例\n图 C.1是区域性股权市场跨链技术规范数据对象生命周期管理的示例参考。\n[图片：]\n在该参考示例中，对数据对象操作的说明如下：\n创建：业务数据第一次生成，则需要创建数据对象；\n—更新：业务执行过程导致数据对象内容变更，则需要更新业务数据对象；\n重写：因业务操作原因导致业务数据对象内容错误，则需要重写业务数据对象；\n删除：因业务变化导致业务数据过期或无用，则需要删除业务数据对象。\n图C.1 数据对象生命周期管理参考",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 附 录 B_p0_s0",
+              "text": "（资料性）\n图 B.1 是区域性股权市场跨链技术规范业务数据对象数据头的参考示例。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 附 录 B",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 附 录 B_p0_s1",
+              "text": "在该参考示例中，数据对象数据头主要字段含义如下：\nheader.content.object\\_id\n解释：地方业务链业务数据对象唯一标识。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 附 录 B",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 附 录 B_p0_s2",
+              "text": "header.content.operation\n解释：标识当前对业务数据对象所做的操作行为。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 附 录 B",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 附 录 B_p0_s3",
+              "text": "header.content.timestamp\n解释：标识当前业务数据对象操作发生时刻的 Unix时间戳。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 附 录 B",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 附 录 B_p0_s4",
+              "text": "header.content.type\n解释：标识当前业务数据对象类型。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 附 录 B",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 附 录 B_p0_s5",
+              "text": "header.content.version\n解释：标识业务数据对象版本号。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 附 录 B",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 附 录 B_p0_s6",
+              "text": "——header.model.protocol\n解释：标识数据模型协议名称，固定为“区域性股权市场跨链业务数据模型”。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 附 录 B",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 附 录 B_p0_s7",
+              "text": "header.model.version\n解释：标识当前所使用的数据模型版本号。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 附 录 B",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 附 录 B_p0_s8",
+              "text": "—header.source\n解释：标识当前业务数据对象来源。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 附 录 B",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 附 录 B_p0_s9",
+              "text": "—header.body\n解释：标识当前业务数据对象内容。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 附 录 B",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 附 录 B_p0_s10",
+              "text": "[图片：]\n图 B.1 数据对象数据头参考\n附 录 C\n（资料性）\n数据对象生命周期管理参考示例\n图 C.1是区域性股权市场跨链技术规范数据对象生命周期管理的示例参考。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 附 录 B",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 附 录 B_p0_s11",
+              "text": "[图片：]\n在该参考示例中，对数据对象操作的说明如下：\n创建：业务数据第一次生成，则需要创建数据对象；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 附 录 B",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 附 录 B_p0_s12",
+              "text": "—更新：业务执行过程导致数据对象内容变更，则需要更新业务数据对象；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 附 录 B",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 附 录 B_p0_s13",
+              "text": "重写：因业务操作原因导致业务数据对象内容错误，则需要重写业务数据对象；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 附 录 B",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 附 录 B_p0_s14",
+              "text": "删除：因业务变化导致业务数据过期或无用，则需要删除业务数据对象。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 附 录 B",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 附 录 B_p0_s15",
+              "text": "图C.1 数据对象生命周期管理参考",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "区域性股权市场跨链技术规范 > 附 录 B",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#附 录 D",
+      "section_path": "附 录 D",
+      "title": "附 录 D",
+      "level": 1,
+      "reading_guide": null,
+      "paragraphs": []
+    },
+    {
+      "section_id": "doc_d873096f857e#附 录 D > （资料性）",
+      "section_path": "附 录 D > （资料性）",
+      "title": "（资料性）",
+      "level": 2,
+      "reading_guide": {
+        "has": "区域性股权市场跨链技术规范/数据对象JSON模式参考示例/基本使用流程/a)生成代码 b)构造业务对象 c)序列化快照 d)校验结构体",
+        "for": [
+          "技术规范",
+          "JSON模式",
+          "使用流程",
+          "工具推荐"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#附 录 D > （资料性）_p0",
+          "para_index": 0,
+          "content": "区域性股权市场跨链技术规范对数据对象JSON模式的参考示例仅用于演示JSON模式的基本使用流程，不对 JSON 模式工具的选择构成建议和要求，可根据技术特点和需求进行评估。更多工具请参考：https://json-schema.org/tools。\n在区域性股权市场区块链试点场景中，数据对象 JSON 模式的基本使用流程为：\na) 使用 JSON 模式生成代码；\nb) 基于 JSON 模式生成的代码构造业务数据对象；\nc) 将业务数据对象序列化为 JSON结构体（快照）；\nd) 使用 JSON 模式校验序列化后的 JSON结构体。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > （资料性）_p0_s0",
+              "text": "区域性股权市场跨链技术规范对数据对象JSON模式的参考示例仅用于演示JSON模式的基本使用流程，不对 JSON 模式工具的选择构成建议和要求，可根据技术特点和需求进行评估。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > （资料性）",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > （资料性）_p0_s1",
+              "text": "更多工具请参考：https://json-schema.org/tools。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > （资料性）",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > （资料性）_p0_s2",
+              "text": "在区域性股权市场区块链试点场景中，数据对象 JSON 模式的基本使用流程为：\na) 使用 JSON 模式生成代码；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > （资料性）",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > （资料性）_p0_s3",
+              "text": "b) 基于 JSON 模式生成的代码构造业务数据对象；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > （资料性）",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > （资料性）_p0_s4",
+              "text": "c) 将业务数据对象序列化为 JSON结构体（快照）；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > （资料性）",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > （资料性）_p0_s5",
+              "text": "d) 使用 JSON 模式校验序列化后的 JSON结构体。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > （资料性）",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#附 录 D > D.2 代码生成工具",
+      "section_path": "附 录 D > D.2 代码生成工具",
+      "title": "D.2 代码生成工具",
+      "level": 2,
+      "reading_guide": {
+        "has": "代码生成工具网址/Quicktype.io/根对象名称InterChainObject/Source type JSON Schema/开发语言选择/Java代",
+        "for": [
+          "工具使用",
+          "代码生成",
+          "Java配置",
+          "Schema转换"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#附 录 D > D.2 代码生成工具_p0",
+          "para_index": 0,
+          "content": "使用工具生成业务数据对象代码的示例如下：\n工具网址：https://app.quicktype.io/#l=schema。\n通过以上网址在浏览器中打开在线代码生成工具，在网页左侧“Name”输入根对象名称“InterChainObject”，“Source type”选择“JSON Schema”，然后在文本域中输入完整的数据对象Schema 内容；\n在网页右侧悬浮框中，选择对应的开发语言等属性，即能够自动生成对应语言的代码。注意生成Java 代码时：\n可能出现非必填日期/时间格式字段没有正确添加 JsonFormat 注解的情况，此系工具本身对Java语言代码生成支持存在缺陷导致，日期/时间格式字段需要手动在代码中添加；\n—右侧选项框“Date time provider type”选择“Legacy”，则生成的代码中，日期会使用“java.utils.Date”类。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > D.2 代码生成工具_p0_s0",
+              "text": "使用工具生成业务数据对象代码的示例如下：\n工具网址：https://app.quicktype.io/#l=schema。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > D.2 代码生成工具",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > D.2 代码生成工具_p0_s1",
+              "text": "通过以上网址在浏览器中打开在线代码生成工具，在网页左侧“Name”输入根对象名称“InterChainObject”，“Source type”选择“JSON Schema”，然后在文本域中输入完整的数据对象Schema 内容；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > D.2 代码生成工具",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > D.2 代码生成工具_p0_s2",
+              "text": "在网页右侧悬浮框中，选择对应的开发语言等属性，即能够自动生成对应语言的代码。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > D.2 代码生成工具",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > D.2 代码生成工具_p0_s3",
+              "text": "注意生成Java 代码时：\n可能出现非必填日期/时间格式字段没有正确添加 JsonFormat 注解的情况，此系工具本身对Java语言代码生成支持存在缺陷导致，日期/时间格式字段需要手动在代码中添加；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > D.2 代码生成工具",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > D.2 代码生成工具_p0_s4",
+              "text": "—右侧选项框“Date time provider type”选择“Legacy”，则生成的代码中，日期会使用“java.utils.Date”类。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > D.2 代码生成工具",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#附 录 D > D.3 代码检验工具",
+      "section_path": "附 录 D > D.3 代码检验工具",
+      "title": "D.3 代码检验工具",
+      "level": 2,
+      "reading_guide": {
+        "has": "JSON结构校验工具/属性值合法性验证/在线校验网址/jsonschemavalidator.net/图D.1",
+        "for": [
+          "代码校验",
+          "工具推荐",
+          "格式验证"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#附 录 D > D.3 代码检验工具_p0",
+          "para_index": 0,
+          "content": "使用工具校验JSON结构及各属性值合法性的示例如下：\n工具网址：https://www.jsonschemavalidator.net。\n使用示例如图D.1：\n[图片：]\n图D.1 在线格式校验参考",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > D.3 代码检验工具_p0_s0",
+              "text": "使用工具校验JSON结构及各属性值合法性的示例如下：\n工具网址：https://www.jsonschemavalidator.net。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > D.3 代码检验工具",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > D.3 代码检验工具_p0_s1",
+              "text": "使用示例如图D.1：\n[图片：]\n图D.1 在线格式校验参考",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > D.3 代码检验工具",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#附 录 D > D.3.2 本地代码验证",
+      "section_path": "附 录 D > D.3.2 本地代码验证",
+      "title": "D.3.2 本地代码验证",
+      "level": 2,
+      "reading_guide": {
+        "has": "JSON结构校验代码示例/Groovy工具类/ValidationException异常处理/Maven依赖/GitHub链接/报错信息格式/schema vi",
+        "for": [
+          "代码实现",
+          "错误排查",
+          "工具使用",
+          "数据验证"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#附 录 D > D.3.2 本地代码验证_p0",
+          "para_index": 0,
+          "content": "使用代码校验 JSON 结构及各属性值合法性的示例如下：\nGitHub: https://github.com/everit-org/json-schema。\n使用方法：\nMaven 依赖可见上述 GitHub 链接。\n代码示例如图 D.2：\n[图片：]\n图 D.2 本地格式校验参考\n```groovy\npublic class ToolTest {\n    @Test\n    void testTool() {\n        try (\n            InputStream schemaInputStream = new FileInputStream( name: \"demo.json\");\n            InputStream jsonInputStream = new FileInputStream( name: \"product.json\")\n        ) {\n            JSONObject rawSchema = new JSONObject(new JSONTokenizer(schemaInputStream));\n            JSONObject RawJson = new JSONObject(new JSONTokenizer(jsonInputStream));\n            Schema schema = SchemaLoader.load(rawSchema);\n            schema.validate(rawJson); // throws a ValidationException if this object is invalid\n        } catch (ValidationException e) {\n            System.out.println(e.getErrorMessage());\n            for(String s : e.getAllMessages())\n                System.out.println(s);\n        }\n        return;\n    } catch (Exception e) {\n        e.printStackTrace();\n        return;\n    }\n    System.out.println(\"valid\");\n}\n}\n```\n图 D.2 本地格式校验参考（续）\n当 JSON 格式或其属性值不符合 JSON模式中定义的规范时，会得到如图 D.3 的报错信息，通过报错信息可以轻松定位到错误原因并进行修复：\n```txt\n10 schema violations found\n#/header/model/version: 2.0 is not a valid enum value\n#/header/content: required key [version] not found\n#/header/content/operation: add is not a valid enum value\n#/body: required key [account] not found\n#/body: required key [product] not found\n#/body: required key [transaction] not found\n#/body: required key [settlement] not found\n#/body: required key [registration] not found\n#/body/subject/basic_information_subject/general_information_subject: required key [subject_type] not found\n#/body/subject/basic_information_subject/subject_qualification_information/0/investor_suitability_information/0/subject_investor_qua\n```\n图 D.3 校验报错信息参考",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > D.3.2 本地代码验证_p0_s0",
+              "text": "使用代码校验 JSON 结构及各属性值合法性的示例如下：\nGitHub: https://github.com/everit-org/json-schema。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > D.3.2 本地代码验证",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > D.3.2 本地代码验证_p0_s1",
+              "text": "使用方法：\nMaven 依赖可见上述 GitHub 链接。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > D.3.2 本地代码验证",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > D.3.2 本地代码验证_p0_s2",
+              "text": "代码示例如图 D.2：\n[图片：]\n图 D.2 本地格式校验参考\n```groovy\npublic class ToolTest {\n    @Test\n    void testTool() {\n        try (\n            InputStream schemaInputStream = new FileInputStream( name: \"demo.json\");\n            InputStream jsonInputStream = new FileInputStream( name: \"product.json\")\n        ) {\n            JSONObject rawSchema = new JSONObject(new JSONTokenizer(schemaInputStream));\n            JSONObject RawJson = new JSONObject(new JSONTokenizer(jsonInputStream));\n            Schema schema = SchemaLoader.load(rawSchema);\n            schema.validate(rawJson); // throws a ValidationException if this object is invalid\n        } catch (ValidationException e) {\n            System.out.println(e.getErrorMessage());\n            for(String s : e.getAllMessages())\n                System.out.println(s);\n        }\n        return;\n    } catch (Exception e) {\n        e.printStackTrace();\n        return;\n    }\n    System.out.println(\"valid\");\n}\n}\n```\n图 D.2 本地格式校验参考（续）\n当 JSON 格式或其属性值不符合 JSON模式中定义的规范时，会得到如图 D.3 的报错信息，通过报错信息可以轻松定位到错误原因并进行修复：\n```txt\n10 schema violations found\n#/header/model/version: 2.0 is not a valid enum value\n#/header/content: required key [version] not found\n#/header/content/operation: add is not a valid enum value\n#/body: required key [account] not found\n#/body: required key [product] not found\n#/body: required key [transaction] not found\n#/body: required key [settlement] not found\n#/body: required key [registration] not found\n#/body/subject/basic_information_subject/general_information_subject: required key [subject_type] not found\n#/body/subject/basic_information_subject/subject_qualification_information/0/investor_suitability_information/0/subject_investor_qua\n```\n图 D.3 校验报错信息参考",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > D.3.2 本地代码验证",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#附 录 D > 附 录 E（资料性）数据对象快照存证参考示例",
+      "section_path": "附 录 D > 附 录 E（资料性）数据对象快照存证参考示例",
+      "title": "附 录 E（资料性）数据对象快照存证参考示例",
+      "level": 2,
+      "reading_guide": {
+        "has": "区域性股权市场跨链技术规范/数据对象快照存证参考示例/链上存证临时过渡方案/OSS存储/JSON格式属性/图E.1存证记录属性",
+        "for": [
+          "存证流程",
+          "技术示例",
+          "数据格式",
+          "规范附录"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#附 录 D > 附 录 E（资料性）数据对象快照存证参考示例_p0",
+          "para_index": 0,
+          "content": "以下是区域性股权市场跨链技术规范对数据对象快照存证的参考示例。在该参考示例中，地方业务链暂时无法将所有业务数据实时记录在链上，按以下步骤采用链上存证的临时过渡方案：\na) 在关键业务流程执行完毕时，按照业务逻辑触达的先后顺序生成所有被影响的快照，并将它们存储于链外（如：OSS）；\nb) 每个链外存储成功的快照都要在链上存证；\nc) 存证记录应该至少包含图E.1 所示的属性（以 JSON格式为例）。\n[图片：]\n图 E.1 存证记录包含属性参考\n每个存证记录可包含多个数据项，每个数据项对应一个快照的链上存证。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > 附 录 E（资料性）数据对象快照存证参考示例_p0_s0",
+              "text": "以下是区域性股权市场跨链技术规范对数据对象快照存证的参考示例。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > 附 录 E（资料性）数据对象快照存证参考示例",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > 附 录 E（资料性）数据对象快照存证参考示例_p0_s1",
+              "text": "在该参考示例中，地方业务链暂时无法将所有业务数据实时记录在链上，按以下步骤采用链上存证的临时过渡方案：\na) 在关键业务流程执行完毕时，按照业务逻辑触达的先后顺序生成所有被影响的快照，并将它们存储于链外（如：OSS）；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > 附 录 E（资料性）数据对象快照存证参考示例",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > 附 录 E（资料性）数据对象快照存证参考示例_p0_s2",
+              "text": "b) 每个链外存储成功的快照都要在链上存证；",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > 附 录 E（资料性）数据对象快照存证参考示例",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > 附 录 E（资料性）数据对象快照存证参考示例_p0_s3",
+              "text": "c) 存证记录应该至少包含图E.1 所示的属性（以 JSON格式为例）。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > 附 录 E（资料性）数据对象快照存证参考示例",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > 附 录 E（资料性）数据对象快照存证参考示例_p0_s4",
+              "text": "[图片：]\n图 E.1 存证记录包含属性参考\n每个存证记录可包含多个数据项，每个数据项对应一个快照的链上存证。",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > 附 录 E（资料性）数据对象快照存证参考示例",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d873096f857e#附 录 D > 参 考 文 献",
+      "section_path": "附 录 D > 参 考 文 献",
+      "title": "参 考 文 献",
+      "level": 2,
+      "reading_guide": {
+        "has": "GB/T 5271.18/信息技术词汇/GB/T 11457/软件工程术语",
+        "for": [
+          "标准引用",
+          "术语定义"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d873096f857e#附 录 D > 参 考 文 献_p0",
+          "para_index": 0,
+          "content": "[1] GB/T 5271.18 信息技术 词汇\n[2] GB/T 11457 信息技术 软件工程术语",
+          "sentences": [
+            {
+              "sentence_id": "doc_d873096f857e#附 录 D > 参 考 文 献_p0_s0",
+              "text": "[1] GB/T 5271.18 信息技术 词汇\n[2] GB/T 11457 信息技术 软件工程术语",
+              "location": {
+                "doc_id": "doc_d873096f857e",
+                "section_path": "附 录 D > 参 考 文 献",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_7e6626f425dc",
+      "entity_type": "LegalDocument",
+      "mention": "JR/T 0314—2024",
+      "canonical_name": "JR/T 0314—2024",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 目 次_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 目 次_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2de47cacb42b",
+      "entity_type": "Date",
+      "mention": "2024-11-20",
+      "canonical_name": "2024-11-20",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 目 次_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 目 次_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_df579946558f",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 1.1—2020",
+      "canonical_name": "GB/T 1.1—2020",
+      "attributes": {
+        "full_title": "标准化工作导则 第1部分：标准化文件的结构和起草规则"
+      },
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8d06902880ea",
+      "entity_type": "Organization",
+      "mention": "全国金融标准化技术委员会证券分技术委员会（SAC/TC 180/SC4）",
+      "canonical_name": "全国金融标准化技术委员会证券分技术委员会",
+      "attributes": {
+        "code": "SAC/TC 180/SC4"
+      },
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s3",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d0c256ed9cfb",
+      "entity_type": "Organization",
+      "mention": "全国金融标准化技术委员会（SAC/TC 180）",
+      "canonical_name": "全国金融标准化技术委员会",
+      "attributes": {
+        "code": "SAC/TC 180"
+      },
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s4",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9da442fd4f8d",
+      "entity_type": "Organization",
+      "mention": "中国证券监督管理委员会科技监管司",
+      "canonical_name": "中国证券监督管理委员会科技监管司",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_721dce9979f9",
+      "entity_type": "Organization",
+      "mention": "中国证券监督管理委员会市场监管二司",
+      "canonical_name": "中国证券监督管理委员会市场监管二司",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0df5ba9fffed",
+      "entity_type": "Organization",
+      "mention": "中证信息技术服务有限责任公司",
+      "canonical_name": "中证信息技术服务有限责任公司",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a02e90a8085e",
+      "entity_type": "Organization",
+      "mention": "深圳证券通信有限公司",
+      "canonical_name": "深圳证券通信有限公司",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c2909265e266",
+      "entity_type": "Organization",
+      "mention": "同济大学",
+      "canonical_name": "同济大学",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_989d41d9c976",
+      "entity_type": "Organization",
+      "mention": "南京大学",
+      "canonical_name": "南京大学",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fbc0edb63813",
+      "entity_type": "Organization",
+      "mention": "北京股权交易中心有限公司",
+      "canonical_name": "北京股权交易中心有限公司",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cbe8c9754f1f",
+      "entity_type": "Organization",
+      "mention": "上海股权托管交易中心股份有限公司",
+      "canonical_name": "上海股权托管交易中心股份有限公司",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1a2e5368549c",
+      "entity_type": "Organization",
+      "mention": "江苏股权交易中心有限责任公司",
+      "canonical_name": "江苏股权交易中心有限责任公司",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c357ce148c1a",
+      "entity_type": "Organization",
+      "mention": "浙江省股权交易中心有限公司",
+      "canonical_name": "浙江省股权交易中心有限公司",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ca5263c999d9",
+      "entity_type": "Organization",
+      "mention": "深圳前海股权交易中心有限公司",
+      "canonical_name": "深圳前海股权交易中心有限公司",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_58cac8134f2f",
+      "entity_type": "Organization",
+      "mention": "上海边界智能科技有限公司",
+      "canonical_name": "上海边界智能科技有限公司",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b744995c67a4",
+      "entity_type": "Organization",
+      "mention": "中诚区块链研究院（南京）有限公司",
+      "canonical_name": "中诚区块链研究院（南京）有限公司",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f3c7f03d77f9",
+      "entity_type": "Organization",
+      "mention": "南京数字金融产业研究院有限公司",
+      "canonical_name": "南京数字金融产业研究院有限公司",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4b0432ff049b",
+      "entity_type": "Organization",
+      "mention": "梧桐链数字科技研究院（苏州）有限公司",
+      "canonical_name": "梧桐链数字科技研究院（苏州）有限公司",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_37007a1693cf",
+      "entity_type": "Organization",
+      "mention": "中钞信用卡产业发展有限公司杭州区块链技术研究院",
+      "canonical_name": "中钞信用卡产业发展有限公司杭州区块链技术研究院",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_532a7fbd11f6",
+      "entity_type": "Person",
+      "mention": "奚海峰",
+      "canonical_name": "奚海峰",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_616a782fa069",
+      "entity_type": "Person",
+      "mention": "彭枫",
+      "canonical_name": "彭枫",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e7de1fbcb89f",
+      "entity_type": "Person",
+      "mention": "王凤冬",
+      "canonical_name": "王凤冬",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f55ed721db97",
+      "entity_type": "Person",
+      "mention": "李宇",
+      "canonical_name": "李宇",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_67595eaac552",
+      "entity_type": "Person",
+      "mention": "陈柏峰",
+      "canonical_name": "陈柏峰",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7691bf122465",
+      "entity_type": "Person",
+      "mention": "王继伟",
+      "canonical_name": "王继伟",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_298492485329",
+      "entity_type": "Person",
+      "mention": "杨博",
+      "canonical_name": "杨博",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7c06f79a651a",
+      "entity_type": "Person",
+      "mention": "马堃",
+      "canonical_name": "马堃",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_dde03b4858a8",
+      "entity_type": "Person",
+      "mention": "蒲军",
+      "canonical_name": "蒲军",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_66dae6ed7c31",
+      "entity_type": "Person",
+      "mention": "赵滨",
+      "canonical_name": "赵滨",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4a4f497e1be1",
+      "entity_type": "Person",
+      "mention": "马小峰",
+      "canonical_name": "马小峰",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4593e490cda8",
+      "entity_type": "Person",
+      "mention": "陈莹",
+      "canonical_name": "陈莹",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f0239f074a0b",
+      "entity_type": "Person",
+      "mention": "陈小泉",
+      "canonical_name": "陈小泉",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_dd2f77c00edf",
+      "entity_type": "Person",
+      "mention": "王强",
+      "canonical_name": "王强",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4d7b14345ff1",
+      "entity_type": "Person",
+      "mention": "朱培",
+      "canonical_name": "朱培",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_50a7a00861a3",
+      "entity_type": "Person",
+      "mention": "周耀亮",
+      "canonical_name": "周耀亮",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7c14b14f83a3",
+      "entity_type": "Person",
+      "mention": "林智辰",
+      "canonical_name": "林智辰",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2f2e3ddca21a",
+      "entity_type": "Person",
+      "mention": "葛浩",
+      "canonical_name": "葛浩",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_02039a3f7b89",
+      "entity_type": "Person",
+      "mention": "陶祖国",
+      "canonical_name": "陶祖国",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d039c79b1278",
+      "entity_type": "Person",
+      "mention": "邵洪峰",
+      "canonical_name": "邵洪峰",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2e214f28ebdf",
+      "entity_type": "Person",
+      "mention": "孙北北",
+      "canonical_name": "孙北北",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_65be1701c5ba",
+      "entity_type": "Person",
+      "mention": "胡爽峰",
+      "canonical_name": "胡爽峰",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0546c2685c77",
+      "entity_type": "Person",
+      "mention": "肖东",
+      "canonical_name": "肖东",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_dbacb9527497",
+      "entity_type": "Person",
+      "mention": "邵俊杰",
+      "canonical_name": "邵俊杰",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ed0f0bbdb488",
+      "entity_type": "Person",
+      "mention": "万强",
+      "canonical_name": "万强",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_852e39e5f7d5",
+      "entity_type": "Person",
+      "mention": "叶蔚",
+      "canonical_name": "叶蔚",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c029943cd7d9",
+      "entity_type": "Person",
+      "mention": "张一锋",
+      "canonical_name": "张一锋",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_763eacb03953",
+      "entity_type": "Person",
+      "mention": "王加楠",
+      "canonical_name": "王加楠",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 前 言_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0ff5ffe6b84b",
+      "entity_type": "Industry",
+      "mention": "区域性股权市场",
+      "canonical_name": "区域性股权市场",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 引 言_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#Specification for regional equity markets cross-chain technology > 引 言_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_dfd0e751648d",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 20518",
+      "canonical_name": "GB/T 20518",
+      "attributes": {
+        "full_title": "信息安全技术 公钥基础设施 数字证书格式"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 2 规范性引用文件_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_be711d881138",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 25069",
+      "canonical_name": "GB/T 25069",
+      "attributes": {
+        "full_title": "信息安全技术 术语"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 2 规范性引用文件_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1cc9a88ccf44",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 32905",
+      "canonical_name": "GB/T 32905",
+      "attributes": {
+        "full_title": "信息安全技术 SM3密码杂凑算法"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 2 规范性引用文件_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_489ae8bc81b1",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 32918",
+      "canonical_name": "GB/T 32918",
+      "attributes": {
+        "full_title": "信息安全技术 SM2椭圆曲线公钥密码算法"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 2 规范性引用文件_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2dbf9a60e205",
+      "entity_type": "LegalDocument",
+      "mention": "JR/T 0184",
+      "canonical_name": "JR/T 0184",
+      "attributes": {
+        "full_title": "金融分布式账本技术安全规范"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 2 规范性引用文件_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_da5840a7ce42",
+      "entity_type": "LegalTerm",
+      "mention": "共识节点",
+      "canonical_name": "共识节点",
+      "attributes": {
+        "definition": "负责账本数据一致性的节点。"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3 术语和定义_p0_s1",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 3 术语和定义_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b3da1f6cadfa",
+      "entity_type": "LegalTerm",
+      "mention": "跨链",
+      "canonical_name": "跨链",
+      "attributes": {
+        "definition": "实现在区块链之间的信息交互、信息验证与服务调用的技术。"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3 术语和定义_p0_s3",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 3 术语和定义_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_12dcc7cce8ee",
+      "entity_type": "LegalTerm",
+      "mention": "交易",
+      "canonical_name": "交易",
+      "attributes": {
+        "definition": "区块链上的一次原子性账本数据状态变更及其过程和结果记录，由交易标识符唯一标识。"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.3_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.3_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7ca8ec055e57",
+      "entity_type": "LegalTerm",
+      "mention": "共识状态",
+      "canonical_name": "共识状态",
+      "attributes": {
+        "definition": "共识协议在每个共识节点维护的特定区块的全局状态，是跨链协议所依赖的一个关键数据结构。"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.4_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.4_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fa76a4423e4a",
+      "entity_type": "LegalTerm",
+      "mention": "默克尔证明",
+      "canonical_name": "默克尔证明",
+      "attributes": {
+        "definition": "利用默克尔树来快速证明一段数据是否存在于某数据集合中的方法。"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.5_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.5_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3ee4ec46e009",
+      "entity_type": "LegalTerm",
+      "mention": "监管链",
+      "canonical_name": "监管链",
+      "attributes": {
+        "definition": "以全局服务和监管为目的构建的区块链系统。"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.5_p0_s1",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.5_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b4744303b403",
+      "entity_type": "LegalTerm",
+      "mention": "地方业务链",
+      "canonical_name": "地方业务链",
+      "attributes": {
+        "definition": "各地方以服务区域性股权市场业务和生态为目的构建的区块链系统。"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.7_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.7_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fc7e333568d9",
+      "entity_type": "LegalTerm",
+      "mention": "数据模型",
+      "canonical_name": "数据模型",
+      "attributes": {
+        "definition": "对业务数据的标准化建模，一组标准的数据类型的定义。"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.8_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.8_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_27f745465bae",
+      "entity_type": "LegalTerm",
+      "mention": "数据对象",
+      "canonical_name": "数据对象",
+      "attributes": {
+        "definition": "地方业务链为每个数据类型生成的一个或多个以对象方式组织的实例。"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.8_p0_s1",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.8_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bee4a67e8b0c",
+      "entity_type": "LegalTerm",
+      "mention": "数据对象引用",
+      "canonical_name": "数据对象引用",
+      "attributes": {
+        "definition": "为获取数据对象，存储在地方业务链上的标识信息。"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.10_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.10_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_88d3fe9ee127",
+      "entity_type": "LegalTerm",
+      "mention": "JSON 模式",
+      "canonical_name": "JSON 模式",
+      "attributes": {
+        "definition": "一种用于描述和验证JSON数据结构的模式。"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.11_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.11_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_707fe358de4b",
+      "entity_type": "LegalTerm",
+      "mention": "AWS S3",
+      "canonical_name": "AWS S3",
+      "attributes": {
+        "definition": "亚马逊云服务提供的对象存储服务（Amazon Web Service Simple Storage Service）"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.11_p0_s2",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.11_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ab60bff10722",
+      "entity_type": "LegalTerm",
+      "mention": "JSON",
+      "canonical_name": "JSON",
+      "attributes": {
+        "definition": "JavaScript对象标记（JavaScript Object Notation）"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.11_p0_s2",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.11_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_eb415698a7c3",
+      "entity_type": "LegalTerm",
+      "mention": "RPC",
+      "canonical_name": "RPC",
+      "attributes": {
+        "definition": "远程过程调用（Remote Procedure Call）"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.11_p0_s2",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.11_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_abef48865fb3",
+      "entity_type": "LegalTerm",
+      "mention": "TLS",
+      "canonical_name": "TLS",
+      "attributes": {
+        "definition": "传输层安全协议（Transport Layer Security）"
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.11_p0_s2",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 3.11_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_09bb9dcfc47c",
+      "entity_type": "",
+      "mention": "数据模型名称",
+      "canonical_name": "数据模型名称",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b1797a21fcf6",
+      "entity_type": "",
+      "mention": "header.model.protocol",
+      "canonical_name": "header.model.protocol",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_23b6720a1bc7",
+      "entity_type": "",
+      "mention": "字符串",
+      "canonical_name": "字符串",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_865847d0ff9b",
+      "entity_type": "MonetaryAmount",
+      "mention": "64",
+      "canonical_name": "64",
+      "attributes": {
+        "amount": 64.0
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3303661dab18",
+      "entity_type": "",
+      "mention": "数据模型版本",
+      "canonical_name": "数据模型版本",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8c968e912969",
+      "entity_type": "",
+      "mention": "header.model.version",
+      "canonical_name": "header.model.version",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9ede16c47893",
+      "entity_type": "MonetaryAmount",
+      "mention": "32",
+      "canonical_name": "32",
+      "attributes": {
+        "amount": 32.0
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ba0b6c294ade",
+      "entity_type": "",
+      "mention": "数据对象类型",
+      "canonical_name": "数据对象类型",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6049981b48fc",
+      "entity_type": "",
+      "mention": "header.content.type",
+      "canonical_name": "header.content.type",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_678a5095cbe3",
+      "entity_type": "",
+      "mention": "数据对象标识",
+      "canonical_name": "数据对象标识",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f0853c310d52",
+      "entity_type": "",
+      "mention": "header.content.object_id",
+      "canonical_name": "header.content.object_id",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4f68e7094a37",
+      "entity_type": "MonetaryAmount",
+      "mention": "128",
+      "canonical_name": "128",
+      "attributes": {
+        "amount": 128.0
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0412ac67c8fb",
+      "entity_type": "",
+      "mention": "数据对象版本",
+      "canonical_name": "数据对象版本",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_062370f6435d",
+      "entity_type": "",
+      "mention": "header.content.version",
+      "canonical_name": "header.content.version",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a7ae6838d417",
+      "entity_type": "MonetaryAmount",
+      "mention": "整数型(初始版本号为0,版本号依次递增)",
+      "canonical_name": "整数型(初始版本号为0,版本号依次递增)",
+      "attributes": {
+        "amount": 0.0
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ee45b5ba221c",
+      "entity_type": "",
+      "mention": "—",
+      "canonical_name": "—",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1cc83b7f0c93",
+      "entity_type": "",
+      "mention": "对应操作",
+      "canonical_name": "对应操作",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_652740fcd296",
+      "entity_type": "",
+      "mention": "header.content.operation",
+      "canonical_name": "header.content.operation",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_010e62a01aa6",
+      "entity_type": "",
+      "mention": "字符串(“create”:创建、“update”:更新、“overwrite”:重写、“delete”:删除)",
+      "canonical_name": "字符串(“create”:创建、“update”:更新、“overwrite”:重写、“delete”:删除)",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_112e802a0490",
+      "entity_type": "MonetaryAmount",
+      "mention": "16",
+      "canonical_name": "16",
+      "attributes": {
+        "amount": 16.0
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3a9ff75d2e90",
+      "entity_type": "",
+      "mention": "时间戳(UNIX时间)",
+      "canonical_name": "时间戳(UNIX时间)",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_baaee59f6699",
+      "entity_type": "",
+      "mention": "header.content.timestamp",
+      "canonical_name": "header.content.timestamp",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_59bc601ec19b",
+      "entity_type": "",
+      "mention": "整数型",
+      "canonical_name": "整数型",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e05ce7739c6a",
+      "entity_type": "",
+      "mention": "备注",
+      "canonical_name": "备注",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5b5f229adf70",
+      "entity_type": "",
+      "mention": "header.remark",
+      "canonical_name": "header.remark",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_75db21dfde0b",
+      "entity_type": "MonetaryAmount",
+      "mention": "2048",
+      "canonical_name": "2048",
+      "attributes": {
+        "amount": 2048.0
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5a0c726c7f5f",
+      "entity_type": "",
+      "mention": "数据所有者签名",
+      "canonical_name": "数据所有者签名",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_34edaf13b7db",
+      "entity_type": "",
+      "mention": "header.seal",
+      "canonical_name": "header.seal",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9c646b86e02b",
+      "entity_type": "",
+      "mention": "JSON对象集合",
+      "canonical_name": "JSON对象集合",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8bd6b13e2561",
+      "entity_type": "",
+      "mention": "签名者公钥类型",
+      "canonical_name": "签名者公钥类型",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5d0fd0c428e9",
+      "entity_type": "",
+      "mention": "header.seal.pub_key.type",
+      "canonical_name": "header.seal.pub_key.type",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c3f0a1167c49",
+      "entity_type": "MonetaryAmount",
+      "mention": "字符串(“SM2”)",
+      "canonical_name": "字符串(“SM2”)",
+      "attributes": {
+        "amount": 2.0
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_257968dc78fe",
+      "entity_type": "",
+      "mention": "签名者公钥值",
+      "canonical_name": "签名者公钥值",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2e50342f2ef7",
+      "entity_type": "",
+      "mention": "header.seal.pub_key.value",
+      "canonical_name": "header.seal.pub_key.value",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e97fd5678bcd",
+      "entity_type": "MonetaryAmount",
+      "mention": "512",
+      "canonical_name": "512",
+      "attributes": {
+        "amount": 512.0
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_512186464890",
+      "entity_type": "",
+      "mention": "签名摘要算法",
+      "canonical_name": "签名摘要算法",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_188e0607068e",
+      "entity_type": "",
+      "mention": "header.seal.digest_algo",
+      "canonical_name": "header.seal.digest_algo",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e60e81d6f086",
+      "entity_type": "MonetaryAmount",
+      "mention": "字符串(“SM3”)",
+      "canonical_name": "字符串(“SM3”)",
+      "attributes": {
+        "amount": 3.0
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_79b8e1cd418f",
+      "entity_type": "",
+      "mention": "签名",
+      "canonical_name": "签名",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_932ec48c45d1",
+      "entity_type": "",
+      "mention": "header.seal.signature",
+      "canonical_name": "header.seal.signature",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_eadf2caaaa44",
+      "entity_type": "MonetaryAmount",
+      "mention": "1024",
+      "canonical_name": "1024",
+      "attributes": {
+        "amount": 1024.0
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d9e9d549f0d9",
+      "entity_type": "",
+      "mention": "数据对象元数据",
+      "canonical_name": "数据对象元数据",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_91c6a92c1002",
+      "entity_type": "",
+      "mention": "header.metadata",
+      "canonical_name": "header.metadata",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e553f1767803",
+      "entity_type": "",
+      "mention": "JSON对象",
+      "canonical_name": "JSON对象",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_66ff54f988e3",
+      "entity_type": "",
+      "mention": "字段定义",
+      "canonical_name": "字段定义",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.4 数据体_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_724a0b637173",
+      "entity_type": "",
+      "mention": "字段路径",
+      "canonical_name": "字段路径",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.4 数据体_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b67919355e78",
+      "entity_type": "",
+      "mention": "字段类型",
+      "canonical_name": "字段类型",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.4 数据体_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0e0552748ed3",
+      "entity_type": "",
+      "mention": "字段长度",
+      "canonical_name": "字段长度",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.2 业务数据对象编码_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_18b4f5d28414",
+      "entity_type": "",
+      "mention": "数据体内容",
+      "canonical_name": "数据体内容",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.4 数据体_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.4 数据体_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_641f4849d4d0",
+      "entity_type": "",
+      "mention": "body",
+      "canonical_name": "body",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.4 数据体_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.4 数据体_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_365787fcff0b",
+      "entity_type": "",
+      "mention": "JSON 对象",
+      "canonical_name": "JSON 对象",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.4 数据体_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 6.4 数据体_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9599c7f104e2",
+      "entity_type": "",
+      "mention": "获取可用网络列表",
+      "canonical_name": "获取可用网络列表",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1d95786da3b5",
+      "entity_type": "",
+      "mention": "无",
+      "canonical_name": "无",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3f81e7ae3232",
+      "entity_type": "",
+      "mention": "可用网络列表,内容包括:区块链网络标识、区块链网络信息及其子网列表",
+      "canonical_name": "可用网络列表,内容包括:区块链网络标识、区块链网络信息及其子网列表",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_45ff40ca6118",
+      "entity_type": "",
+      "mention": "获取网络配置选项",
+      "canonical_name": "获取网络配置选项",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ac43731aa25d",
+      "entity_type": "",
+      "mention": "区块链网络标识",
+      "canonical_name": "区块链网络标识",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fe5cfa161cda",
+      "entity_type": "",
+      "mention": "节点版本、允许的操作类型及其结果状态",
+      "canonical_name": "节点版本、允许的操作类型及其结果状态",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_adcf92d2a869",
+      "entity_type": "",
+      "mention": "获取当前网络状态",
+      "canonical_name": "获取当前网络状态",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_be9756b5583b",
+      "entity_type": "",
+      "mention": "当前区块高度、区块哈希、区块时间戳、连接的节点等",
+      "canonical_name": "当前区块高度、区块哈希、区块时间戳、连接的节点等",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3f7c97c7034b",
+      "entity_type": "",
+      "mention": "接口功能",
+      "canonical_name": "接口功能",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0",
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0_s0",
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.4 获取共识状态信息的接口_p0_s0",
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5000c81ebacd",
+      "entity_type": "",
+      "mention": "请求内容",
+      "canonical_name": "请求内容",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0",
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0_s0",
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.4 获取共识状态信息的接口_p0_s0",
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fb490b051311",
+      "entity_type": "",
+      "mention": "响应内容",
+      "canonical_name": "响应内容",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.2 获取区块链网络信息的接口_p0_s0",
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0_s0",
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.4 获取共识状态信息的接口_p0_s0",
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_007e3ac75164",
+      "entity_type": "",
+      "mention": "获取区块信息",
+      "canonical_name": "获取区块信息",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bf861dd0be14",
+      "entity_type": "",
+      "mention": "区块链网络标识、区块高度",
+      "canonical_name": "区块链网络标识、区块高度",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0_s0",
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.4 获取共识状态信息的接口_p0_s0",
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c6b0fbaca072",
+      "entity_type": "MonetaryAmount",
+      "mention": "区块高度及其哈希、前一个区块的高度及其哈希、区块时间戳、包含的交易标识符、区块头等每个区块的大小应不超过16MB",
+      "canonical_name": "区块高度及其哈希、前一个区块的高度及其哈希、区块时间戳、包含的交易标识符、区块头等每个区块的大小应不超过16MB",
+      "attributes": {
+        "amount": 16.0
+      },
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_57e2b3e323ae",
+      "entity_type": "",
+      "mention": "获取交易信息",
+      "canonical_name": "获取交易信息",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2d0f83f760a6",
+      "entity_type": "",
+      "mention": "区块链网络标识、区块高度、交易标识符",
+      "canonical_name": "区块链网络标识、区块高度、交易标识符",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9287a7c8bde5",
+      "entity_type": "",
+      "mention": "交易包含的一系列操作,其操作类型及结果",
+      "canonical_name": "交易包含的一系列操作,其操作类型及结果",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d71b4f90acd2",
+      "entity_type": "",
+      "mention": "获取某个区块高度的共识状态",
+      "canonical_name": "获取某个区块高度的共识状态",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.4 获取共识状态信息的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.4 获取共识状态信息的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_84c058ecc1e4",
+      "entity_type": "",
+      "mention": "状态根、交易根以及其他信任信息,如:共识节点的公钥集、共识过程中的投票信息;其中共识过程中的投票信息包括:参与投票的共识节点列表、本区块的共识节点签名列表、签名数据(一般为区块哈希)等",
+      "canonical_name": "状态根、交易根以及其他信任信息,如:共识节点的公钥集、共识过程中的投票信息;其中共识过程中的投票信息包括:参与投票的共识节点列表、本区块的共识节点签名列表、签名数据(一般为区块哈希)等",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.4 获取共识状态信息的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.4 获取共识状态信息的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d80078636126",
+      "entity_type": "",
+      "mention": "获取某一个区块包含的数据对象标识",
+      "canonical_name": "获取某一个区块包含的数据对象标识",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e7c644fec271",
+      "entity_type": "",
+      "mention": "指定区块所包含的数据对象标识",
+      "canonical_name": "指定区块所包含的数据对象标识",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f8d0a2c6fe46",
+      "entity_type": "",
+      "mention": "获取数据对象或数据对象引用",
+      "canonical_name": "获取数据对象或数据对象引用",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ce6726acf7ad",
+      "entity_type": "",
+      "mention": "区块链网络标识、区块高度、数据对象标识",
+      "canonical_name": "区块链网络标识、区块高度、数据对象标识",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7bcff70710c3",
+      "entity_type": "",
+      "mention": "数据对象在链上的实际编码内容及其默克尔证明,或数据对象引用(一般为数据对象的统一资源标识)",
+      "canonical_name": "数据对象在链上的实际编码内容及其默克尔证明,或数据对象引用(一般为数据对象的统一资源标识)",
+      "attributes": {},
+      "sentence_id": "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s0",
+      "sentence_ids": [
+        "doc_d873096f857e#区域性股权市场跨链技术规范 > 7.5 获取业务数据对象或业务数据对象引用的接口_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_94fa87093feb_rel_76ff061dc859",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_df579946558f",
+      "tail_entity_id": "ent_df579946558f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "Specification for regional equity markets cross-chain technology > 前 言",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_5b47fa65af6b",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_dfd0e751648d",
+      "tail_entity_id": "ent_dfd0e751648d",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 2 规范性引用文件",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_8fe788fd7b45",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_be711d881138",
+      "tail_entity_id": "ent_be711d881138",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 2 规范性引用文件",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_4ee0da281bc3",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_1cc9a88ccf44",
+      "tail_entity_id": "ent_1cc9a88ccf44",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 2 规范性引用文件",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_0b49e74c706c",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_489ae8bc81b1",
+      "tail_entity_id": "ent_489ae8bc81b1",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 2 规范性引用文件",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_c115819b86e5",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_2dbf9a60e205",
+      "tail_entity_id": "ent_2dbf9a60e205",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 2 规范性引用文件",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_213611f72c31",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_da5840a7ce42",
+      "tail_entity_id": "ent_da5840a7ce42",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 3 术语和定义",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_aa2ce6bc3cd2",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_b3da1f6cadfa",
+      "tail_entity_id": "ent_b3da1f6cadfa",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 3 术语和定义",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_657ff11be71e",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_12dcc7cce8ee",
+      "tail_entity_id": "ent_12dcc7cce8ee",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 3.3",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_36ba2497905c",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_7ca8ec055e57",
+      "tail_entity_id": "ent_7ca8ec055e57",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 3.4",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_dd248adade27",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_fa76a4423e4a",
+      "tail_entity_id": "ent_fa76a4423e4a",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 3.5",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_ba2e8a7667c7",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3ee4ec46e009",
+      "tail_entity_id": "ent_3ee4ec46e009",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 3.5",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_299358cf143e",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_b4744303b403",
+      "tail_entity_id": "ent_b4744303b403",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 3.7",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_670d2754fbb2",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_fc7e333568d9",
+      "tail_entity_id": "ent_fc7e333568d9",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 3.8",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_8c3f9db51d27",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_27f745465bae",
+      "tail_entity_id": "ent_27f745465bae",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 3.8",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_d2f67bf32842",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_bee4a67e8b0c",
+      "tail_entity_id": "ent_bee4a67e8b0c",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 3.10",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_92be93fda010",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_88d3fe9ee127",
+      "tail_entity_id": "ent_88d3fe9ee127",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 3.11",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_9be5e2370418",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_707fe358de4b",
+      "tail_entity_id": "ent_707fe358de4b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 3.11",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_af49f0923c74",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_ab60bff10722",
+      "tail_entity_id": "ent_ab60bff10722",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 3.11",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_eef14848ce9f",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_eb415698a7c3",
+      "tail_entity_id": "ent_eb415698a7c3",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 3.11",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_94fa87093feb_rel_01f815982365",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_abef48865fb3",
+      "tail_entity_id": "ent_abef48865fb3",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d873096f857e",
+        "section_path": "区域性股权市场跨链技术规范 > 3.11",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_4e274910b4bf",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_23b6720a1bc7",
+      "tail_entity_id": "ent_865847d0ff9b",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          0,
+          3
+        ],
+        "label_cell": [
+          0,
+          2
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_0cd0c69e5c78",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_0e0552748ed3",
+      "tail_entity_id": "ent_865847d0ff9b",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          0,
+          3
+        ],
+        "header_col": 3
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_9255264465ab",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_23b6720a1bc7",
+      "tail_entity_id": "ent_9ede16c47893",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          1,
+          3
+        ],
+        "label_cell": [
+          1,
+          2
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_785108c59fa5",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_0e0552748ed3",
+      "tail_entity_id": "ent_9ede16c47893",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          1,
+          3
+        ],
+        "header_col": 3
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_584226dc2bd7",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_23b6720a1bc7",
+      "tail_entity_id": "ent_9ede16c47893",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          2,
+          3
+        ],
+        "label_cell": [
+          2,
+          2
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_7d7f3b8adaea",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_0e0552748ed3",
+      "tail_entity_id": "ent_9ede16c47893",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          2,
+          3
+        ],
+        "header_col": 3
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_09f59f7ec2e1",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_23b6720a1bc7",
+      "tail_entity_id": "ent_4f68e7094a37",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          3,
+          3
+        ],
+        "label_cell": [
+          3,
+          2
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_22b827757596",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_0e0552748ed3",
+      "tail_entity_id": "ent_4f68e7094a37",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          3,
+          3
+        ],
+        "header_col": 3
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_0711619d183e",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_062370f6435d",
+      "tail_entity_id": "ent_a7ae6838d417",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          4,
+          2
+        ],
+        "label_cell": [
+          4,
+          1
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_6dc368fdfec9",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_23b6720a1bc7",
+      "tail_entity_id": "ent_a7ae6838d417",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          4,
+          2
+        ],
+        "label_cell": [
+          3,
+          2
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_59c1c181c3d6",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_010e62a01aa6",
+      "tail_entity_id": "ent_112e802a0490",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          5,
+          3
+        ],
+        "label_cell": [
+          5,
+          2
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_6cbca7476bf8",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_ee45b5ba221c",
+      "tail_entity_id": "ent_112e802a0490",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          5,
+          3
+        ],
+        "label_cell": [
+          4,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_4ba979efd5fe",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_23b6720a1bc7",
+      "tail_entity_id": "ent_75db21dfde0b",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          7,
+          3
+        ],
+        "label_cell": [
+          7,
+          2
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_ca10ff367ee4",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_ee45b5ba221c",
+      "tail_entity_id": "ent_75db21dfde0b",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          7,
+          3
+        ],
+        "label_cell": [
+          4,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_4e432a8fa14b",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_5d0fd0c428e9",
+      "tail_entity_id": "ent_c3f0a1167c49",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          9,
+          2
+        ],
+        "label_cell": [
+          9,
+          1
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_a118f846ca65",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_9c646b86e02b",
+      "tail_entity_id": "ent_c3f0a1167c49",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          9,
+          2
+        ],
+        "label_cell": [
+          8,
+          2
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_a34071878dc3",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_5d0fd0c428e9",
+      "tail_entity_id": "ent_865847d0ff9b",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          9,
+          3
+        ],
+        "label_cell": [
+          9,
+          1
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_cef48530cc1c",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_ee45b5ba221c",
+      "tail_entity_id": "ent_865847d0ff9b",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          9,
+          3
+        ],
+        "label_cell": [
+          8,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_e8ac2646668b",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_23b6720a1bc7",
+      "tail_entity_id": "ent_e97fd5678bcd",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          10,
+          3
+        ],
+        "label_cell": [
+          10,
+          2
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_437a25374e96",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_ee45b5ba221c",
+      "tail_entity_id": "ent_e97fd5678bcd",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          10,
+          3
+        ],
+        "label_cell": [
+          8,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_7210ba46768b",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_188e0607068e",
+      "tail_entity_id": "ent_e60e81d6f086",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          11,
+          2
+        ],
+        "label_cell": [
+          11,
+          1
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_b6b2747e309b",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_23b6720a1bc7",
+      "tail_entity_id": "ent_e60e81d6f086",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          11,
+          2
+        ],
+        "label_cell": [
+          10,
+          2
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_917248ce480b",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_188e0607068e",
+      "tail_entity_id": "ent_9ede16c47893",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          11,
+          3
+        ],
+        "label_cell": [
+          11,
+          1
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_ee15ed273ef1",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_ee45b5ba221c",
+      "tail_entity_id": "ent_9ede16c47893",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          11,
+          3
+        ],
+        "label_cell": [
+          8,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_01877e6709df",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_23b6720a1bc7",
+      "tail_entity_id": "ent_eadf2caaaa44",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          12,
+          3
+        ],
+        "label_cell": [
+          12,
+          2
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_65e0c003dd66_rel_5f3f20504434",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_ee45b5ba221c",
+      "tail_entity_id": "ent_eadf2caaaa44",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_ff52a453123f",
+        "section_path": "区域性股权市场跨链技术规范 > 6.2 业务数据对象编码",
+        "value_cell": [
+          12,
+          3
+        ],
+        "label_cell": [
+          8,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_23180dfe034b_rel_c12809136fdc",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_bf861dd0be14",
+      "tail_entity_id": "ent_c6b0fbaca072",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_41653b836a22",
+        "section_path": "区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口",
+        "value_cell": [
+          0,
+          2
+        ],
+        "label_cell": [
+          0,
+          1
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_23180dfe034b_rel_fe1de0f81508",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_fb490b051311",
+      "tail_entity_id": "ent_c6b0fbaca072",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_41653b836a22",
+        "section_path": "区域性股权市场跨链技术规范 > 7.3 获取区块信息的接口",
+        "value_cell": [
+          0,
+          2
+        ],
+        "header_col": 2
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

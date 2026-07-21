@@ -1,0 +1,228 @@
+{
+  "doc_id": "doc_b04bafad0eff",
+  "title": "关于《监管规则适用指引— 会计类第 4号》的说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0068_att2.md",
+  "processed_at": "2026-07-21T01:07:28.106333+00:00",
+  "structured_data": {
+    "title": "关于《监管规则适用指引— 会计类第 4号》的说明"
+  },
+  "stats": {
+    "sections": 3,
+    "paragraphs": 3,
+    "sentences": 10,
+    "entities": 2,
+    "relations": 0,
+    "rejected": 0,
+    "llm_calls": 2832,
+    "llm_tokens": 4313871,
+    "elapsed_seconds": 2.82
+  },
+  "sections": [
+    {
+      "section_id": "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明",
+      "section_path": "关于《监管规则适用指引— 会计类第 4号》的说明",
+      "title": "关于《监管规则适用指引— 会计类第 4号》的说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "监管规则适用指引—会计类第4号/起草背景/完善资本市场监管规则体系/提高监管透明度/提升会计信息披露质量",
+        "for": [
+          "政策依据",
+          "规则来源",
+          "监管背景"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明_p0",
+          "para_index": 0,
+          "content": "为进一步完善资本市场监管规则体系，提高监管透明度，推动经营主体提升会计信息披露质量，我会对近期市场反映较为集中的会计问题进行梳理，研究起草了《监管规则适用指引——会计类第 4 号》（下称《会计类第4 号》）。现将相关情况说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明_p0_s0",
+              "text": "为进一步完善资本市场监管规则体系，提高监管透明度，推动经营主体提升会计信息披露质量，我会对近期市场反映较为集中的会计问题进行梳理，研究起草了《监管规则适用指引——会计类第 4 号》（下称《会计类第4 号》）。",
+              "location": {
+                "doc_id": "doc_b04bafad0eff",
+                "section_path": "关于《监管规则适用指引— 会计类第 4号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明_p0_s1",
+              "text": "现将相关情况说明如下：",
+              "location": {
+                "doc_id": "doc_b04bafad0eff",
+                "section_path": "关于《监管规则适用指引— 会计类第 4号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明 > 一、起草背景",
+      "section_path": "关于《监管规则适用指引— 会计类第 4号》的说明 > 一、起草背景",
+      "title": "一、起草背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "监管规则背景/会计准则执行挑战/新业务新模式/会计信息披露质量/《会计类第4号》制定目的",
+        "for": [
+          "规则背景",
+          "制定原因",
+          "监管目标",
+          "适用场景"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明 > 一、起草背景_p0",
+          "para_index": 0,
+          "content": "会计信息是资本市场关键的基础性信息，督促经营主体真实、准确、及时、完整地披露信息，尤其是披露具有可靠性、相关性、可理解性等高质量特征的会计信息，是建设中国特色现代资本市场的重要内容。促进各类经营主体一致有效地执行会计准则，是提升会计信息披露质量的关键环节。近年来资本市场新业务新模式不断涌现，对经营主体正确理解并一致有效执行会计准则提出了挑战。为进一步指导市场实践，完善资本市场监管规则体系，提升资本市场会计信息披露质量，我会及时收集整理了近期市场较具普遍性和代表性的会计问题，立足我国资本市场实际情况，研究制定了《会计类第 4 号》，明确相关监管口径。",
+          "sentences": [
+            {
+              "sentence_id": "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明 > 一、起草背景_p0_s0",
+              "text": "会计信息是资本市场关键的基础性信息，督促经营主体真实、准确、及时、完整地披露信息，尤其是披露具有可靠性、相关性、可理解性等高质量特征的会计信息，是建设中国特色现代资本市场的重要内容。",
+              "location": {
+                "doc_id": "doc_b04bafad0eff",
+                "section_path": "关于《监管规则适用指引— 会计类第 4号》的说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明 > 一、起草背景_p0_s1",
+              "text": "促进各类经营主体一致有效地执行会计准则，是提升会计信息披露质量的关键环节。",
+              "location": {
+                "doc_id": "doc_b04bafad0eff",
+                "section_path": "关于《监管规则适用指引— 会计类第 4号》的说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明 > 一、起草背景_p0_s2",
+              "text": "近年来资本市场新业务新模式不断涌现，对经营主体正确理解并一致有效执行会计准则提出了挑战。",
+              "location": {
+                "doc_id": "doc_b04bafad0eff",
+                "section_path": "关于《监管规则适用指引— 会计类第 4号》的说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明 > 一、起草背景_p0_s3",
+              "text": "为进一步指导市场实践，完善资本市场监管规则体系，提升资本市场会计信息披露质量，我会及时收集整理了近期市场较具普遍性和代表性的会计问题，立足我国资本市场实际情况，研究制定了《会计类第 4 号》，明确相关监管口径。",
+              "location": {
+                "doc_id": "doc_b04bafad0eff",
+                "section_path": "关于《监管规则适用指引— 会计类第 4号》的说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明 > 二、功能定位与主要内容",
+      "section_path": "关于《监管规则适用指引— 会计类第 4号》的说明 > 二、功能定位与主要内容",
+      "title": "二、功能定位与主要内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "会计类第4号/功能定位/主要内容/金融工具/收入/研发支出/长期股权投资/8个具体问题/交易背景/监管口径",
+        "for": [
+          "指引性质",
+          "覆盖范围",
+          "问题类型",
+          "监管口径",
+          "执行原则"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明 > 二、功能定位与主要内容_p0",
+          "para_index": 0,
+          "content": "《会计类第 4 号》并非对会计准则的解释，而是针对资本市场具体交易事项如何执行会计准则提供指导性意见，旨在促进会计准则在资本市场的一致有效执行，提高经营主体的会计信息披露质量。《会计类第 4 号》共涉及金融工具、收入、研发支出和长期股权投资等 8 个具体问题。每项具体指引包括三部分内容：交易事项背景及具体的会计问题、会计准则的相关规定、具体问题适用会计准则的意见或监管口径。\n下一步，我会将密切关注《会计类第4 号》的执行情况，并根据资本市场会计监管实践，适时研究调整会计类监管规则适用指引的内容，及时有效地向市场传递会计监管政策与理念。",
+          "sentences": [
+            {
+              "sentence_id": "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明 > 二、功能定位与主要内容_p0_s0",
+              "text": "《会计类第 4 号》并非对会计准则的解释，而是针对资本市场具体交易事项如何执行会计准则提供指导性意见，旨在促进会计准则在资本市场的一致有效执行，提高经营主体的会计信息披露质量。",
+              "location": {
+                "doc_id": "doc_b04bafad0eff",
+                "section_path": "关于《监管规则适用指引— 会计类第 4号》的说明 > 二、功能定位与主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明 > 二、功能定位与主要内容_p0_s1",
+              "text": "《会计类第 4 号》共涉及金融工具、收入、研发支出和长期股权投资等 8 个具体问题。",
+              "location": {
+                "doc_id": "doc_b04bafad0eff",
+                "section_path": "关于《监管规则适用指引— 会计类第 4号》的说明 > 二、功能定位与主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明 > 二、功能定位与主要内容_p0_s2",
+              "text": "每项具体指引包括三部分内容：交易事项背景及具体的会计问题、会计准则的相关规定、具体问题适用会计准则的意见或监管口径。",
+              "location": {
+                "doc_id": "doc_b04bafad0eff",
+                "section_path": "关于《监管规则适用指引— 会计类第 4号》的说明 > 二、功能定位与主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明 > 二、功能定位与主要内容_p0_s3",
+              "text": "下一步，我会将密切关注《会计类第4 号》的执行情况，并根据资本市场会计监管实践，适时研究调整会计类监管规则适用指引的内容，及时有效地向市场传递会计监管政策与理念。",
+              "location": {
+                "doc_id": "doc_b04bafad0eff",
+                "section_path": "关于《监管规则适用指引— 会计类第 4号》的说明 > 二、功能定位与主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_58debdc5738c",
+      "entity_type": "LegalDocument",
+      "mention": "《监管规则适用指引——会计类第 4 号》",
+      "canonical_name": "监管规则适用指引——会计类第 4 号",
+      "attributes": {},
+      "sentence_id": "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f05fc805858e",
+      "entity_type": "LegalDocument",
+      "mention": "《会计类第 4 号》",
+      "canonical_name": "会计类第 4 号",
+      "attributes": {},
+      "sentence_id": "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_b04bafad0eff#关于《监管规则适用指引— 会计类第 4号》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

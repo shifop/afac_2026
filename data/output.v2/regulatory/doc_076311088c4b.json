@@ -1,0 +1,211 @@
+{
+  "doc_id": "doc_076311088c4b",
+  "title": "关于《监管规则适用指引— 法律类第 4号》的说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0063_att1.md",
+  "processed_at": "2026-07-21T01:06:13.144725+00:00",
+  "structured_data": {
+    "title": "监管规则适用指引— 法律类第 4 号"
+  },
+  "stats": {
+    "sections": 1,
+    "paragraphs": 1,
+    "sentences": 5,
+    "entities": 7,
+    "relations": 1,
+    "rejected": 0,
+    "llm_calls": 2802,
+    "llm_tokens": 4281261,
+    "elapsed_seconds": 6.04
+  },
+  "sections": [
+    {
+      "section_id": "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明",
+      "section_path": "关于《监管规则适用指引— 法律类第 4号》的说明",
+      "title": "关于《监管规则适用指引— 法律类第 4号》的说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "《律师事务所从事证券法律业务管理办法》/第三十条/定期报送要求/《监管规则适用指引—法律类第4号》/报送主体/报送时间/报送内容/监督检查",
+        "for": [
+          "法规依据",
+          "报送要求",
+          "监管指引",
+          "合规义务"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0",
+          "para_index": 0,
+          "content": "2023 年 10 月 27 日，证监会联合司法部发布了《律师事务所从事证券法律业务管理办法》（以下简称《管理办法》），于12 月 1 日正式施行。《管理办法》第三十条规定，律师事务所应当按照中国证监会的要求，定期报送从事证券法律业务的基本情况。为方便从事证券法律业务的律师事务所做好执业信息报送工作，证监会制定了《监管规则适用指引——法律类第4 号》。\n《监管规则适用指引— 法律类第4 号》主要明确了律师事务所报送执业信息的总体要求、报送主体、报送时间、报送内容和监督检查等内容。\n下一步，我们将结合律师事务所报送执业信息工作开展情况，汇总整理律师事务所报送执业信息过程中遇到的共性问题，及时更新监管规则适用指引，方便律师事务所开展报送工作。",
+          "sentences": [
+            {
+              "sentence_id": "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0_s0",
+              "text": "2023 年 10 月 27 日，证监会联合司法部发布了《律师事务所从事证券法律业务管理办法》（以下简称《管理办法》），于12 月 1 日正式施行。",
+              "location": {
+                "doc_id": "doc_076311088c4b",
+                "section_path": "关于《监管规则适用指引— 法律类第 4号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0_s1",
+              "text": "《管理办法》第三十条规定，律师事务所应当按照中国证监会的要求，定期报送从事证券法律业务的基本情况。",
+              "location": {
+                "doc_id": "doc_076311088c4b",
+                "section_path": "关于《监管规则适用指引— 法律类第 4号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0_s2",
+              "text": "为方便从事证券法律业务的律师事务所做好执业信息报送工作，证监会制定了《监管规则适用指引——法律类第4 号》。",
+              "location": {
+                "doc_id": "doc_076311088c4b",
+                "section_path": "关于《监管规则适用指引— 法律类第 4号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0_s3",
+              "text": "《监管规则适用指引— 法律类第4 号》主要明确了律师事务所报送执业信息的总体要求、报送主体、报送时间、报送内容和监督检查等内容。",
+              "location": {
+                "doc_id": "doc_076311088c4b",
+                "section_path": "关于《监管规则适用指引— 法律类第 4号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0_s4",
+              "text": "下一步，我们将结合律师事务所报送执业信息工作开展情况，汇总整理律师事务所报送执业信息过程中遇到的共性问题，及时更新监管规则适用指引，方便律师事务所开展报送工作。",
+              "location": {
+                "doc_id": "doc_076311088c4b",
+                "section_path": "关于《监管规则适用指引— 法律类第 4号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_f32b7f0e2fd7",
+      "entity_type": "Date",
+      "mention": "2023 年 10 月 27 日",
+      "canonical_name": "2023-10-27",
+      "attributes": {},
+      "sentence_id": "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_40bc7a38ae23",
+      "entity_type": "Organization",
+      "mention": "证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_87c779534cc5",
+      "entity_type": "Organization",
+      "mention": "司法部",
+      "canonical_name": "司法部",
+      "attributes": {},
+      "sentence_id": "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_dfee23597782",
+      "entity_type": "LegalDocument",
+      "mention": "《律师事务所从事证券法律业务管理办法》",
+      "canonical_name": "律师事务所从事证券法律业务管理办法",
+      "attributes": {
+        "short_name": "《管理办法》"
+      },
+      "sentence_id": "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b095a3128b2f",
+      "entity_type": "Date",
+      "mention": "12 月 1 日",
+      "canonical_name": "2023-12-01",
+      "attributes": {},
+      "sentence_id": "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d995aba80d62",
+      "entity_type": "Clause",
+      "mention": "《管理办法》第三十条",
+      "canonical_name": "管理办法第三十条",
+      "attributes": {},
+      "sentence_id": "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0_s1",
+      "sentence_ids": [
+        "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_12bd86eadab9",
+      "entity_type": "LegalDocument",
+      "mention": "《监管规则适用指引——法律类第4 号》",
+      "canonical_name": "监管规则适用指引——法律类第4号",
+      "attributes": {},
+      "sentence_id": "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0_s2",
+      "sentence_ids": [
+        "doc_076311088c4b#关于《监管规则适用指引— 法律类第 4号》的说明_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_f310efe38d2b_rel_0d454c0fec3f",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_d995aba80d62",
+      "tail_entity_id": "ent_dfee23597782",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_076311088c4b",
+        "section_path": "关于《监管规则适用指引— 法律类第 4号》的说明",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

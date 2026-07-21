@@ -1,0 +1,422 @@
+{
+  "doc_id": "doc_987957682038",
+  "title": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0013_att2.md",
+  "processed_at": "2026-07-21T00:19:19.389273+00:00",
+  "structured_data": {
+    "title": "公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式"
+  },
+  "stats": {
+    "sections": 1,
+    "paragraphs": 1,
+    "sentences": 9,
+    "entities": 12,
+    "relations": 8,
+    "rejected": 0,
+    "llm_calls": 431,
+    "llm_tokens": 791360,
+    "elapsed_seconds": 12.79
+  },
+  "sections": [
+    {
+      "section_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+      "section_path": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+      "title": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "修订背景/公募基金高质量发展行动方案/持有人权益保护/行业透明度提升/准则整合/3章36条/定期报告披露体系/差异化披露要求/上位法调整/XBRL模板/基金业协",
+        "for": [
+          "修订依据",
+          "核心变化",
+          "披露重点",
+          "监管要求",
+          "XBRL规范"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0",
+          "para_index": 0,
+          "content": "为落实《推动公募基金高质量发展行动方案》，保护基金份额持有人合法权益，提升行业透明度，中国证监会对《证券投资基金信息披露内容与格式准则第2号—年度报告的内容与格式》《证券投资基金信息披露内容与格式准则第 3 号—半年度报告的内容与格式》《证券投资基金信息披露内容与格式准则第4 号—季度报告的内容与格式》进行了整合修订，并更名为《公开募集证券投资基金信息披露内容与格式准则第2 号—定期报告的内容与格式》（以下简称《准则》）。\n《准则》共 3 章 36 条，主要修订内容如下：一是整合定期报告披露内容。对年度报告、中期报告和季度报告中相同或相近的披露事项进行整合，构建结构统一、层次清晰、重点突出的定期报告披露体系。二是明确不同报告披露重点。根据年度报告、中期报告和季度报告不同功能定位，提出针对性、个性化的信息披露要求。三是根据上位法要求及行业实践做相应调整。根据上位法规要求及行业实践，借鉴境外成熟市场经验，简化、调整部分信息披露要求。四是明确信息披露自律管理要求。基金业协会根据《准则》制定可拓展商业报告语言（XBRL）模板，要求基金管理人按照相关模板要求编制并披露基金定期报告等。",
+          "sentences": [
+            {
+              "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s0",
+              "text": "为落实《推动公募基金高质量发展行动方案》，保护基金份额持有人合法权益，提升行业透明度，中国证监会对《证券投资基金信息披露内容与格式准则第2号—年度报告的内容与格式》《证券投资基金信息披露内容与格式准则第 3 号—半年度报告的内容与格式》《证券投资基金信息披露内容与格式准则第4 号—季度报告的内容与格式》进行了整合修订，并更名为《公开募集证券投资基金信息披露内容与格式准则第2 号—定期报告的内容与格式》（以下简称《准则》）。",
+              "location": {
+                "doc_id": "doc_987957682038",
+                "section_path": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s1",
+              "text": "《准则》共 3 章 36 条，主要修订内容如下：一是整合定期报告披露内容。",
+              "location": {
+                "doc_id": "doc_987957682038",
+                "section_path": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s2",
+              "text": "对年度报告、中期报告和季度报告中相同或相近的披露事项进行整合，构建结构统一、层次清晰、重点突出的定期报告披露体系。",
+              "location": {
+                "doc_id": "doc_987957682038",
+                "section_path": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s3",
+              "text": "二是明确不同报告披露重点。",
+              "location": {
+                "doc_id": "doc_987957682038",
+                "section_path": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s4",
+              "text": "根据年度报告、中期报告和季度报告不同功能定位，提出针对性、个性化的信息披露要求。",
+              "location": {
+                "doc_id": "doc_987957682038",
+                "section_path": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s5",
+              "text": "三是根据上位法要求及行业实践做相应调整。",
+              "location": {
+                "doc_id": "doc_987957682038",
+                "section_path": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s6",
+              "text": "根据上位法规要求及行业实践，借鉴境外成熟市场经验，简化、调整部分信息披露要求。",
+              "location": {
+                "doc_id": "doc_987957682038",
+                "section_path": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s7",
+              "text": "四是明确信息披露自律管理要求。",
+              "location": {
+                "doc_id": "doc_987957682038",
+                "section_path": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s8",
+              "text": "基金业协会根据《准则》制定可拓展商业报告语言（XBRL）模板，要求基金管理人按照相关模板要求编制并披露基金定期报告等。",
+              "location": {
+                "doc_id": "doc_987957682038",
+                "section_path": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_8732502f812a",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_341aa9fe67c3",
+      "entity_type": "LegalDocument",
+      "mention": "《推动公募基金高质量发展行动方案》",
+      "canonical_name": "推动公募基金高质量发展行动方案",
+      "attributes": {},
+      "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7763bba057aa",
+      "entity_type": "LegalDocument",
+      "mention": "《证券投资基金信息披露内容与格式准则第2号—年度报告的内容与格式》",
+      "canonical_name": "证券投资基金信息披露内容与格式准则第2号—年度报告的内容与格式",
+      "attributes": {},
+      "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e01fb40eaea3",
+      "entity_type": "LegalDocument",
+      "mention": "《证券投资基金信息披露内容与格式准则第 3 号—半年度报告的内容与格式》",
+      "canonical_name": "证券投资基金信息披露内容与格式准则第3号—半年度报告的内容与格式",
+      "attributes": {},
+      "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f34fe711dbab",
+      "entity_type": "LegalDocument",
+      "mention": "《证券投资基金信息披露内容与格式准则第4 号—季度报告的内容与格式》",
+      "canonical_name": "证券投资基金信息披露内容与格式准则第4号—季度报告的内容与格式",
+      "attributes": {},
+      "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_865fa41f0b50",
+      "entity_type": "LegalDocument",
+      "mention": "《公开募集证券投资基金信息披露内容与格式准则第2 号—定期报告的内容与格式》",
+      "canonical_name": "公开募集证券投资基金信息披露内容与格式准则第2号—定期报告的内容与格式",
+      "attributes": {
+        "alias": "《准则》"
+      },
+      "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a4e6bce72cc4",
+      "entity_type": "Industry",
+      "mention": "行业",
+      "canonical_name": "公募基金行业",
+      "attributes": {},
+      "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_467fa6751569",
+      "entity_type": "Clause",
+      "mention": "一是整合定期报告披露内容",
+      "canonical_name": "整合定期报告披露内容",
+      "attributes": {},
+      "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s1",
+      "sentence_ids": [
+        "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_88d2656be32a",
+      "entity_type": "Clause",
+      "mention": "二是明确不同报告披露重点",
+      "canonical_name": "明确不同报告披露重点",
+      "attributes": {},
+      "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s3",
+      "sentence_ids": [
+        "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ab93316dcef5",
+      "entity_type": "Clause",
+      "mention": "三是根据上位法要求及行业实践做相应调整",
+      "canonical_name": "根据上位法要求及行业实践做相应调整",
+      "attributes": {},
+      "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s5",
+      "sentence_ids": [
+        "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4638ecfcaf4b",
+      "entity_type": "Clause",
+      "mention": "四是明确信息披露自律管理要求",
+      "canonical_name": "明确信息披露自律管理要求",
+      "attributes": {},
+      "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s7",
+      "sentence_ids": [
+        "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s7"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_35f1c894a454",
+      "entity_type": "Organization",
+      "mention": "基金业协会",
+      "canonical_name": "基金业协会",
+      "attributes": {},
+      "sentence_id": "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s8",
+      "sentence_ids": [
+        "doc_987957682038#《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明_p0_s8"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_aba7d1c51ab3_rel_eb6f0af2dd30",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_865fa41f0b50",
+      "tail_entity_id": "ent_341aa9fe67c3",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_987957682038",
+        "section_path": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_aba7d1c51ab3_rel_3e1e8346787e",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_865fa41f0b50",
+      "tail_entity_id": "ent_7763bba057aa",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_987957682038",
+        "section_path": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_aba7d1c51ab3_rel_101fbb3239c6",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_865fa41f0b50",
+      "tail_entity_id": "ent_e01fb40eaea3",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_987957682038",
+        "section_path": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_aba7d1c51ab3_rel_b25191d69b91",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_865fa41f0b50",
+      "tail_entity_id": "ent_f34fe711dbab",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_987957682038",
+        "section_path": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_aba7d1c51ab3_rel_b1b42697551f",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_467fa6751569",
+      "tail_entity_id": "ent_865fa41f0b50",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_987957682038",
+        "section_path": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_aba7d1c51ab3_rel_529adc00ce00",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_88d2656be32a",
+      "tail_entity_id": "ent_865fa41f0b50",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_987957682038",
+        "section_path": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_aba7d1c51ab3_rel_6feccd88997e",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_ab93316dcef5",
+      "tail_entity_id": "ent_865fa41f0b50",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_987957682038",
+        "section_path": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 5
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_aba7d1c51ab3_rel_e4b1f59cca06",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_4638ecfcaf4b",
+      "tail_entity_id": "ent_865fa41f0b50",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_987957682038",
+        "section_path": "《公开募集证券投资基金信息披露内容与格式准则第 2 号—定期报告的内容与格式》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 7
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

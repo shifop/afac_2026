@@ -1,0 +1,940 @@
+{
+  "doc_id": "doc_5966ee05bcd8",
+  "title": "《关于修改<证券发行与承销管理办法>的决定》的立法说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0007_att2.md",
+  "processed_at": "2026-07-21T00:06:13.137527+00:00",
+  "structured_data": {
+    "title": "证券发行与承销管理办法"
+  },
+  "stats": {
+    "sections": 4,
+    "paragraphs": 4,
+    "sentences": 20,
+    "entities": 34,
+    "relations": 11,
+    "rejected": 0,
+    "llm_calls": 121,
+    "llm_tokens": 215033,
+    "elapsed_seconds": 19.55
+  },
+  "sections": [
+    {
+      "section_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明",
+      "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明",
+      "title": "《关于修改<证券发行与承销管理办法>的决定》的立法说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "立法说明/修改背景/科创板改革/中长期资金入市/发行承销制度",
+        "for": [
+          "政策背景",
+          "修改原因",
+          "监管导向"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明_p0",
+          "para_index": 0,
+          "content": "为贯彻落实《关于深化科创板改革 服务科技创新和新质生产力发展的八条措施》《关于推动中长期资金入市工作的实施方案》，进一步完善发行承销制度，中国证监会对《证券发行与承销管理办法》（以下简称《承销办法》）做了修改。现就主要修改情况说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明_p0_s0",
+              "text": "为贯彻落实《关于深化科创板改革 服务科技创新和新质生产力发展的八条措施》《关于推动中长期资金入市工作的实施方案》，进一步完善发行承销制度，中国证监会对《证券发行与承销管理办法》（以下简称《承销办法》）做了修改。",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明_p0_s1",
+              "text": "现就主要修改情况说明如下：",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景",
+      "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景",
+      "title": "一、《承销办法》的修改背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "2024年6月19日证监会八条措施/科创板未盈利企业试点/网下机构锁定比例与期限/2025年1月22日中长期资金入市方案/银行理财保险资管公募基金同等待遇/新公",
+        "for": [
+          "修改背景",
+          "政策依据",
+          "试点内容",
+          "资金待遇",
+          "法规调整"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0",
+          "para_index": 0,
+          "content": "2024 年 6 月 19 日，中国证监会发布《关于深化科创板改革 服务科技创新和新质生产力发展的八条措施》，提出要开展深化发行承销制度试点，在科创板试点对未盈利企业公开发行股票锁定比例更高、锁定期限更长的网下投资机构，相应提高其配售比例。2025 年 1 月 22 日，中央金融办、中国证监会、财政部、人力资源社会保障部、中国人民银行、金融监管总局联合印发《关于推动中长期资金入市工作的实施方案》，提出要在参与新股申购、上市公司定增、举牌认定标准方面，给予银行理财、保险资管与公募基金同等政策待遇。为贯彻落实上述两份政策文件的要求，有必要对《承销办法》进行修改。此外，新《公司法》生效后，也有必要对《承销办法》的相关表述作适应性调整。",
+          "sentences": [
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s0",
+              "text": "2024 年 6 月 19 日，中国证监会发布《关于深化科创板改革 服务科技创新和新质生产力发展的八条措施》，提出要开展深化发行承销制度试点，在科创板试点对未盈利企业公开发行股票锁定比例更高、锁定期限更长的网下投资机构，相应提高其配售比例。",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s1",
+              "text": "2025 年 1 月 22 日，中央金融办、中国证监会、财政部、人力资源社会保障部、中国人民银行、金融监管总局联合印发《关于推动中长期资金入市工作的实施方案》，提出要在参与新股申购、上市公司定增、举牌认定标准方面，给予银行理财、保险资管与公募基金同等政策待遇。",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s2",
+              "text": "为贯彻落实上述两份政策文件的要求，有必要对《承销办法》进行修改。",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s3",
+              "text": "此外，新《公司法》生效后，也有必要对《承销办法》的相关表述作适应性调整。",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+      "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+      "title": "二、《承销办法》的主要修改内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "银行理财产品/IPO优先配售/保险资产管理产品/证券交易所分类配售规定/战略配售限售期禁止出借股份/新公司法适应性调整/财务资助禁止条款/股东会修改",
+        "for": [
+          "配售对象",
+          "分类配售",
+          "限售股出借",
+          "法规修订",
+          "公司治理"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0",
+          "para_index": 0,
+          "content": "一是增加银行理财产品、保险资产管理产品作为 IPO 优先配售对象。落实《关于推动中长期资金入市工作的实施方案》有关在新股申购标准方面给予银行理财、保险资管与公募基金同等政策待遇的要求，在《承销办法》第十二条第二款中增加银行理财产品、保险资产管理产品作为IPO 优先配售对象，同时明确由证券交易所规定优先配售的其他情形，为将来增加优先配售对象预留空间。\n二是明确由证券交易所制定 IPO 分类配售具体规定。落实《关于深化科创板改革 服务科技创新和新质生产力发展的八条措施》有关在科创板试点未盈利企业分类配售的要求，在《承销办法》第十二条第三款中明确由证券交易所制定分类配售的具体规定。\n三是禁止参与IPO战略配售的投资者在承诺的限售期内出借股份。为了落实《关于加强上市公司监管的意见（试行）》有关禁止限售股转融通出借的要求，做好与《上市公司股东减持股份管理暂行办法》第十八条有关上市公司股东不得通过转融通出借存在不得减持情形股份规定的衔接，回应市场关切，删除《承销办法》二十一条第三款有关参与 IPO 战略配售的投资者可以在承诺的限售期内出借获配证券的规定。\n四是根据新《公司法》作适应性调整。完善有关财务资助的表述，在《承销办法》第二十七条、第三十八条中增加有关禁止通过财务资助等方式损害公司利益的表述。将第三十三条中的“股东大会”修改为“股东会”。增加一条作为第六十一条，明确公司依法不设监事会的，不适用《承销办法》有关监事的规定。",
+          "sentences": [
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s0",
+              "text": "一是增加银行理财产品、保险资产管理产品作为 IPO 优先配售对象。",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s1",
+              "text": "落实《关于推动中长期资金入市工作的实施方案》有关在新股申购标准方面给予银行理财、保险资管与公募基金同等政策待遇的要求，在《承销办法》第十二条第二款中增加银行理财产品、保险资产管理产品作为IPO 优先配售对象，同时明确由证券交易所规定优先配售的其他情形，为将来增加优先配售对象预留空间。",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s2",
+              "text": "二是明确由证券交易所制定 IPO 分类配售具体规定。",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s3",
+              "text": "落实《关于深化科创板改革 服务科技创新和新质生产力发展的八条措施》有关在科创板试点未盈利企业分类配售的要求，在《承销办法》第十二条第三款中明确由证券交易所制定分类配售的具体规定。",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s4",
+              "text": "三是禁止参与IPO战略配售的投资者在承诺的限售期内出借股份。",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s5",
+              "text": "为了落实《关于加强上市公司监管的意见（试行）》有关禁止限售股转融通出借的要求，做好与《上市公司股东减持股份管理暂行办法》第十八条有关上市公司股东不得通过转融通出借存在不得减持情形股份规定的衔接，回应市场关切，删除《承销办法》二十一条第三款有关参与 IPO 战略配售的投资者可以在承诺的限售期内出借获配证券的规定。",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s6",
+              "text": "四是根据新《公司法》作适应性调整。",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s7",
+              "text": "完善有关财务资助的表述，在《承销办法》第二十七条、第三十八条中增加有关禁止通过财务资助等方式损害公司利益的表述。",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s8",
+              "text": "将第三十三条中的“股东大会”修改为“股东会”。",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s9",
+              "text": "增加一条作为第六十一条，明确公司依法不设监事会的，不适用《承销办法》有关监事的规定。",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况",
+      "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况",
+      "title": "三、公开征求意见情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "公开征求意见时间/2025年1月3日至2月2日/收到意见29条/采纳意见：完善财务资助规定/修改条款：第二十七条、第三十八条/未采纳意见：网上竞价发行、取消包销",
+        "for": [
+          "立法过程",
+          "意见采纳",
+          "条款修改",
+          "制度调整"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况_p0",
+          "para_index": 0,
+          "content": "2025 年 1 月 3 日至 2025 年 2 月 2 日，中国证监会就修改《承销办法》向社会公开征求意见，期间共收到意见建议29 条。对于涉及完善财务资助规定表述的意见，经研究后予以采纳，完善了《承销办法》第二十七条、第三十八条的表述。对于所有新股采取网上竞价发行、取消新股发行包销制等意见，因涉及对现行发行承销制度作较大调整，且不涉及落实《关于深化科创板改革 服务科技创新和新质生产力发展的八条措施》《关于推动中长期资金入市工作的实施方案》，此次未予采纳。此外，还收到有关完善减持制度、降低科创板投资者门槛等不属于《承销办法》规制范围的意见，将在未来完善其他制度时予以统筹研究。",
+          "sentences": [
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况_p0_s0",
+              "text": "2025 年 1 月 3 日至 2025 年 2 月 2 日，中国证监会就修改《承销办法》向社会公开征求意见，期间共收到意见建议29 条。",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况_p0_s1",
+              "text": "对于涉及完善财务资助规定表述的意见，经研究后予以采纳，完善了《承销办法》第二十七条、第三十八条的表述。",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况_p0_s2",
+              "text": "对于所有新股采取网上竞价发行、取消新股发行包销制等意见，因涉及对现行发行承销制度作较大调整，且不涉及落实《关于深化科创板改革 服务科技创新和新质生产力发展的八条措施》《关于推动中长期资金入市工作的实施方案》，此次未予采纳。",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况_p0_s3",
+              "text": "此外，还收到有关完善减持制度、降低科创板投资者门槛等不属于《承销办法》规制范围的意见，将在未来完善其他制度时予以统筹研究。",
+              "location": {
+                "doc_id": "doc_5966ee05bcd8",
+                "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_7f90f292cfe7",
+      "entity_type": "LegalDocument",
+      "mention": "《关于深化科创板改革 服务科技创新和新质生产力发展的八条措施》",
+      "canonical_name": "关于深化科创板改革 服务科技创新和新质生产力发展的八条措施",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明_p0_s0",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_be8b7361d770",
+      "entity_type": "LegalDocument",
+      "mention": "《关于推动中长期资金入市工作的实施方案》",
+      "canonical_name": "关于推动中长期资金入市工作的实施方案",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明_p0_s0",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_db7f70afc11d",
+      "entity_type": "LegalDocument",
+      "mention": "《证券发行与承销管理办法》",
+      "canonical_name": "证券发行与承销管理办法",
+      "attributes": {
+        "short_name": "《承销办法》"
+      },
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明_p0_s0",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2ce38442745a",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明_p0_s0",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ad699fce4ee4",
+      "entity_type": "",
+      "mention": "承销办法",
+      "canonical_name": "承销办法",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明_p0_s0",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_870b2b36c85c",
+      "entity_type": "Date",
+      "mention": "2024 年 6 月 19 日",
+      "canonical_name": "2024-06-19",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s0",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a64479edd763",
+      "entity_type": "Date",
+      "mention": "2025 年 1 月 22 日",
+      "canonical_name": "2025-01-22",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s1",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_574e7f0c0090",
+      "entity_type": "Organization",
+      "mention": "中央金融办",
+      "canonical_name": "中央金融办",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s1",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d782e15499b7",
+      "entity_type": "Organization",
+      "mention": "财政部",
+      "canonical_name": "财政部",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s1",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f0a50b37d4ff",
+      "entity_type": "Organization",
+      "mention": "人力资源社会保障部",
+      "canonical_name": "人力资源社会保障部",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s1",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b52a04b51068",
+      "entity_type": "Organization",
+      "mention": "中国人民银行",
+      "canonical_name": "中国人民银行",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s1",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c34aee80c961",
+      "entity_type": "Organization",
+      "mention": "金融监管总局",
+      "canonical_name": "金融监管总局",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s1",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e139cab1192f",
+      "entity_type": "LegalDocument",
+      "mention": "新《公司法》",
+      "canonical_name": "新公司法",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s3",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 一、《承销办法》的修改背景_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_32a99024064c",
+      "entity_type": "LegalTerm",
+      "mention": "银行理财产品",
+      "canonical_name": "银行理财产品",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s0",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_993450308efb",
+      "entity_type": "LegalTerm",
+      "mention": "保险资产管理产品",
+      "canonical_name": "保险资产管理产品",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s0",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_47d354152d19",
+      "entity_type": "LegalTerm",
+      "mention": "IPO 优先配售对象",
+      "canonical_name": "IPO 优先配售对象",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s1",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_89e4a74aaae0",
+      "entity_type": "",
+      "mention": "承销办法第十二条第二款",
+      "canonical_name": "承销办法第十二条第二款",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s1",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2a4b7c6979e6",
+      "entity_type": "LegalTerm",
+      "mention": "证券交易所",
+      "canonical_name": "证券交易所",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s2",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e3ce5426febd",
+      "entity_type": "LegalTerm",
+      "mention": "未盈利企业分类配售",
+      "canonical_name": "未盈利企业分类配售",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s3",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7581bf724859",
+      "entity_type": "",
+      "mention": "承销办法第十二条第三款",
+      "canonical_name": "承销办法第十二条第三款",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s3",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ddbf5bd93aba",
+      "entity_type": "LegalTerm",
+      "mention": "IPO 战略配售",
+      "canonical_name": "IPO 战略配售",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s4",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9ec0cb4e7b5a",
+      "entity_type": "LegalDocument",
+      "mention": "《关于加强上市公司监管的意见（试行）》",
+      "canonical_name": "关于加强上市公司监管的意见（试行）",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s5",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a18f39a6dba6",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司股东减持股份管理暂行办法》",
+      "canonical_name": "上市公司股东减持股份管理暂行办法",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s5",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_db7f57618222",
+      "entity_type": "",
+      "mention": "承销办法二十一条第三款",
+      "canonical_name": "承销办法二十一条第三款",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s5",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_54e03722f089",
+      "entity_type": "Clause",
+      "mention": "《承销办法》第二十七条",
+      "canonical_name": "承销办法第二十七条",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s7",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s7"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0ac8735599e0",
+      "entity_type": "Clause",
+      "mention": "《承销办法》第三十八条",
+      "canonical_name": "承销办法第三十八条",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s7",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s7"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bc80faaddbf7",
+      "entity_type": "Clause",
+      "mention": "第三十三条",
+      "canonical_name": "承销办法第三十三条",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s8",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s8"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a4cfc3156130",
+      "entity_type": "Clause",
+      "mention": "第六十一条",
+      "canonical_name": "承销办法第六十一条",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s9",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4f5d4b63dd9c",
+      "entity_type": "Date",
+      "mention": "2025 年 1 月 3 日",
+      "canonical_name": "2025-01-03",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8ce000620ade",
+      "entity_type": "Date",
+      "mention": "2025 年 2 月 2 日",
+      "canonical_name": "2025-02-02",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d1fb8cfdbdb1",
+      "entity_type": "MonetaryAmount",
+      "mention": "29 条",
+      "canonical_name": "29",
+      "attributes": {
+        "unit": "条"
+      },
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_eaf71c880330",
+      "entity_type": "LegalTerm",
+      "mention": "财务资助",
+      "canonical_name": "财务资助",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况_p0_s1",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f454cffce744",
+      "entity_type": "LegalTerm",
+      "mention": "网上竞价发行",
+      "canonical_name": "网上竞价发行",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况_p0_s2",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7637783caee5",
+      "entity_type": "LegalTerm",
+      "mention": "新股发行包销制",
+      "canonical_name": "新股发行包销制",
+      "attributes": {},
+      "sentence_id": "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况_p0_s2",
+      "sentence_ids": [
+        "doc_5966ee05bcd8#《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 三、公开征求意见情况_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_d13a1c01b80f_rel_14f55ec5672f",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_db7f70afc11d",
+      "tail_entity_id": "ent_7f90f292cfe7",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5966ee05bcd8",
+        "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_d13a1c01b80f_rel_dd1c73805f9d",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_db7f70afc11d",
+      "tail_entity_id": "ent_be8b7361d770",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5966ee05bcd8",
+        "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_d13a1c01b80f_rel_5061743a9857",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_db7f70afc11d",
+      "tail_entity_id": "ent_ad699fce4ee4",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5966ee05bcd8",
+        "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_d13a1c01b80f_rel_9ff9c8f9cdd2",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_89e4a74aaae0",
+      "tail_entity_id": "ent_be8b7361d770",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5966ee05bcd8",
+        "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_d13a1c01b80f_rel_28850fe88d22",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_7581bf724859",
+      "tail_entity_id": "ent_7f90f292cfe7",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5966ee05bcd8",
+        "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_d13a1c01b80f_rel_f40c55fc57cf",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_9ec0cb4e7b5a",
+      "tail_entity_id": "ent_a18f39a6dba6",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5966ee05bcd8",
+        "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+        "paragraph_index": 0,
+        "sentence_index": 5
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_d13a1c01b80f_rel_7f559e5b3315",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_db7f57618222",
+      "tail_entity_id": "ent_a18f39a6dba6",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5966ee05bcd8",
+        "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+        "paragraph_index": 0,
+        "sentence_index": 5
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_d13a1c01b80f_rel_8826148009c1",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_54e03722f089",
+      "tail_entity_id": "ent_e139cab1192f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5966ee05bcd8",
+        "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+        "paragraph_index": 0,
+        "sentence_index": 7
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_d13a1c01b80f_rel_85f5edee9c2a",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_0ac8735599e0",
+      "tail_entity_id": "ent_e139cab1192f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5966ee05bcd8",
+        "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+        "paragraph_index": 0,
+        "sentence_index": 7
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_d13a1c01b80f_rel_fa5299bda027",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_bc80faaddbf7",
+      "tail_entity_id": "ent_e139cab1192f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5966ee05bcd8",
+        "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+        "paragraph_index": 0,
+        "sentence_index": 8
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_d13a1c01b80f_rel_cc3b6a9d7690",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_a4cfc3156130",
+      "tail_entity_id": "ent_e139cab1192f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_5966ee05bcd8",
+        "section_path": "《关于修改<证券发行与承销管理办法>的决定》的立法说明 > 二、《承销办法》的主要修改内容",
+        "paragraph_index": 0,
+        "sentence_index": 9
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

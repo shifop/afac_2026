@@ -1,0 +1,405 @@
+{
+  "doc_id": "doc_469593fec88e",
+  "title": "关于境内资产境外发行资产支持证券代币的监管指引",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0015_att1.md",
+  "processed_at": "2026-07-21T00:20:20.091890+00:00",
+  "structured_data": {
+    "title": "关于境内资产境外发行资产支持证券代币的监管指引"
+  },
+  "stats": {
+    "sections": 1,
+    "paragraphs": 1,
+    "sentences": 20,
+    "entities": 8,
+    "relations": 3,
+    "rejected": 0,
+    "llm_calls": 444,
+    "llm_tokens": 811640,
+    "elapsed_seconds": 6.28
+  },
+  "sections": [
+    {
+      "section_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引",
+      "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+      "title": "关于境内资产境外发行资产支持证券代币的监管指引",
+      "level": 1,
+      "reading_guide": {
+        "has": "境内资产境外发行代币定义/禁止情形/负面清单/备案主体/备案材料/备案流程/重大事项报告/跨境监管合作",
+        "for": [
+          "业务定义",
+          "准入条件",
+          "备案要求",
+          "禁止行为",
+          "监管流程"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0",
+          "para_index": 0,
+          "content": "为严格监管以中华人民共和国境内资产在境外发行资产支持证券代币相关业务，防范相关投机炒作风险，切实维护经济金融秩序和人民群众财产安全，根据《中华人民共和国证券法》《关于进一步防范和处置虚拟货币等相关风险的通知》（银发[2026]42 号）等规定，制定本指引。\n一、本指引所称境内资产境外发行资产支持证券代币是指，以境内资产或相关资产权利所产生的现金流为偿付支持，利用加密技术及分布式账本或类似技术，在境外发行代币化权益凭证的活动。\n二、境内资产境外发行资产支持证券代币，应当严格遵守跨境投资、外汇管理、网络和数据安全等法律、行政法规和有关政策规定，履行前述相关监管部门要求的核准、备案或安全审查等程序，不得损害国家利益和社会公共利益。\n三、基础资产及实际控制该资产的境内主体存在下列情形之一的，不得开展相关业务：\n（一）法律、行政法规或者国家有关规定明确禁止通过资本市场融资的；\n（二）经国务院有关主管部门依法审查认定，境外发行资产支持证券代币可能危害国家安全的；\n（三）境内主体或者其控股股东、实际控制人最近3 年内存在贪污、贿赂、侵占财产、挪用财产或者破坏社会主义市场经济秩序的刑事犯罪的；\n（四）境内主体因涉嫌犯罪或者重大违法违规行为正在被依法立案调查，尚未有明确结论意见的；\n（五）基础资产存在重大权属纠纷，或该资产依法不得转让的；\n（六）基础资产存在境内资产证券化业务基础资产负面清单规定的禁止情形的。\n四、中国证券监督管理委员会（以下简称中国证监会）对境内资产境外发行资产支持证券代币依法依规进行严格监管。\n开展相关业务前，实际控制基础资产的境内主体（以下简称境内备案主体）应当向中国证监会备案，按要求报送备案报告、境外全套发行资料等有关材料，完整说明境内备案主体信息、基础资产信息、代币发行方案等情况。\n境内备案主体及其控股股东、实际控制人、董事、监事、高级管理人员，以及相关中介机构应当保证出具的备案材料真实、准确、完整，不得有虚假记载、误导性陈述或者重大遗漏。\n五、备案材料不完备或需要更正的，中国证监会将告知需要补正的材料。备案材料完备且符合规定的，中国证监会履行备案程序，并在办结备案后通过网站公示备案信息；不符合规定的，中国证监会不予备案。\n中国证监会可视情况征求国务院有关主管部门及行业\n监管机构的意见。\n六、境内备案主体完成备案后，如发生以下事项，应当及时向中国证监会报告相关情况：\n（一）境外发行完毕；\n（二）发生重大风险；\n（三）其他重大事项。\n七、中国证监会加强与境外证券监督管理机构跨境监管合作和信息共享，防范境内资产境外发行资产支持证券代币业务风险。",
+          "sentences": [
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s0",
+              "text": "为严格监管以中华人民共和国境内资产在境外发行资产支持证券代币相关业务，防范相关投机炒作风险，切实维护经济金融秩序和人民群众财产安全，根据《中华人民共和国证券法》《关于进一步防范和处置虚拟货币等相关风险的通知》（银发[2026]42 号）等规定，制定本指引。",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s1",
+              "text": "一、本指引所称境内资产境外发行资产支持证券代币是指，以境内资产或相关资产权利所产生的现金流为偿付支持，利用加密技术及分布式账本或类似技术，在境外发行代币化权益凭证的活动。",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s2",
+              "text": "二、境内资产境外发行资产支持证券代币，应当严格遵守跨境投资、外汇管理、网络和数据安全等法律、行政法规和有关政策规定，履行前述相关监管部门要求的核准、备案或安全审查等程序，不得损害国家利益和社会公共利益。",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s3",
+              "text": "三、基础资产及实际控制该资产的境内主体存在下列情形之一的，不得开展相关业务：\n（一）法律、行政法规或者国家有关规定明确禁止通过资本市场融资的；",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s4",
+              "text": "（二）经国务院有关主管部门依法审查认定，境外发行资产支持证券代币可能危害国家安全的；",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s5",
+              "text": "（三）境内主体或者其控股股东、实际控制人最近3 年内存在贪污、贿赂、侵占财产、挪用财产或者破坏社会主义市场经济秩序的刑事犯罪的；",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s6",
+              "text": "（四）境内主体因涉嫌犯罪或者重大违法违规行为正在被依法立案调查，尚未有明确结论意见的；",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s7",
+              "text": "（五）基础资产存在重大权属纠纷，或该资产依法不得转让的；",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s8",
+              "text": "（六）基础资产存在境内资产证券化业务基础资产负面清单规定的禁止情形的。",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s9",
+              "text": "四、中国证券监督管理委员会（以下简称中国证监会）对境内资产境外发行资产支持证券代币依法依规进行严格监管。",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s10",
+              "text": "开展相关业务前，实际控制基础资产的境内主体（以下简称境内备案主体）应当向中国证监会备案，按要求报送备案报告、境外全套发行资料等有关材料，完整说明境内备案主体信息、基础资产信息、代币发行方案等情况。",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s11",
+              "text": "境内备案主体及其控股股东、实际控制人、董事、监事、高级管理人员，以及相关中介机构应当保证出具的备案材料真实、准确、完整，不得有虚假记载、误导性陈述或者重大遗漏。",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s12",
+              "text": "五、备案材料不完备或需要更正的，中国证监会将告知需要补正的材料。",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s13",
+              "text": "备案材料完备且符合规定的，中国证监会履行备案程序，并在办结备案后通过网站公示备案信息；",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s14",
+              "text": "不符合规定的，中国证监会不予备案。",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s15",
+              "text": "中国证监会可视情况征求国务院有关主管部门及行业\n监管机构的意见。",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s16",
+              "text": "六、境内备案主体完成备案后，如发生以下事项，应当及时向中国证监会报告相关情况：\n（一）境外发行完毕；",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            },
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s17",
+              "text": "（二）发生重大风险；",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 17
+              }
+            },
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s18",
+              "text": "（三）其他重大事项。",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 18
+              }
+            },
+            {
+              "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_s19",
+              "text": "七、中国证监会加强与境外证券监督管理机构跨境监管合作和信息共享，防范境内资产境外发行资产支持证券代币业务风险。",
+              "location": {
+                "doc_id": "doc_469593fec88e",
+                "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+                "paragraph_index": 0,
+                "sentence_index": 19
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_64fc6d4cf00b",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国证券法》",
+      "canonical_name": "中华人民共和国证券法",
+      "attributes": {},
+      "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ee44d5468c6f",
+      "entity_type": "LegalDocument",
+      "mention": "《关于进一步防范和处置虚拟货币等相关风险的通知》",
+      "canonical_name": "关于进一步防范和处置虚拟货币等相关风险的通知",
+      "attributes": {
+        "document_number": "银发[2026]42 号"
+      },
+      "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8c814ff9ab5c",
+      "entity_type": "Organization",
+      "mention": "中国证券监督管理委员会",
+      "canonical_name": "中国证券监督管理委员会",
+      "attributes": {},
+      "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8f5cb733a605",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d7be5273babc",
+      "entity_type": "Organization",
+      "mention": "国务院有关主管部门",
+      "canonical_name": "国务院有关主管部门",
+      "attributes": {},
+      "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_586b65063e46",
+      "entity_type": "",
+      "mention": "制定本指引",
+      "canonical_name": "制定本指引",
+      "attributes": {},
+      "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_45bb1aac30cc",
+      "entity_type": "",
+      "mention": "境内资产境外发行资产支持证券代币",
+      "canonical_name": "境内资产境外发行资产支持证券代币",
+      "attributes": {},
+      "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0e31192a3a9d",
+      "entity_type": "Organization",
+      "mention": "行业监管机构",
+      "canonical_name": "行业监管机构",
+      "attributes": {},
+      "sentence_id": "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_469593fec88e#关于境内资产境外发行资产支持证券代币的监管指引_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_e772a685445d_rel_1e3f9cde1ab9",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_586b65063e46",
+      "tail_entity_id": "ent_64fc6d4cf00b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_469593fec88e",
+        "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_e772a685445d_rel_12b0fc512869",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_586b65063e46",
+      "tail_entity_id": "ent_ee44d5468c6f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_469593fec88e",
+        "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_e772a685445d_rel_c08f5f8554bc",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_45bb1aac30cc",
+      "tail_entity_id": "ent_45bb1aac30cc",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_469593fec88e",
+        "section_path": "关于境内资产境外发行资产支持证券代币的监管指引",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

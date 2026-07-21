@@ -1,0 +1,635 @@
+{
+  "doc_id": "doc_48422fddd631",
+  "title": "关于修改《中国证监会随机抽查事项清单》的起草说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0054_att2.md",
+  "processed_at": "2026-07-21T01:01:44.997718+00:00",
+  "structured_data": {
+    "title": "关于修改《中国证监会随机抽查事项清单》的起草说明"
+  },
+  "stats": {
+    "sections": 4,
+    "paragraphs": 4,
+    "sentences": 14,
+    "entities": 23,
+    "relations": 4,
+    "rejected": 0,
+    "llm_calls": 2641,
+    "llm_tokens": 4071602,
+    "elapsed_seconds": 15.8
+  },
+  "sections": [
+    {
+      "section_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明",
+      "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明",
+      "title": "关于修改《中国证监会随机抽查事项清单》的起草说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "《中国证监会随机抽查事项清单》/证监会公告〔2015〕25号/证监会公告〔2021〕1号/监管效能提升/上市公司质量",
+        "for": [
+          "政策依据",
+          "法规版本",
+          "监管目标"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明_p0",
+          "para_index": 0,
+          "content": "为进一步提升发行上市监管效能，从源头上提高上市公司质量，中国证监会对《中国证监会随机抽查事项清单》（证监会公告〔2015〕25 号公布，证监会公告〔2021〕1 号修改，以下简称《清单》）进行修改。现说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明_p0_s0",
+              "text": "为进一步提升发行上市监管效能，从源头上提高上市公司质量，中国证监会对《中国证监会随机抽查事项清单》（证监会公告〔2015〕25 号公布，证监会公告〔2021〕1 号修改，以下简称《清单》）进行修改。",
+              "location": {
+                "doc_id": "doc_48422fddd631",
+                "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明_p0_s1",
+              "text": "现说明如下：",
+              "location": {
+                "doc_id": "doc_48422fddd631",
+                "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景",
+      "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景",
+      "title": "一、修改背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "2015年《清单》发布/17个事项/抽查要素/2021年《证券法》修订/新增首发检查/5%比例/2024年国常会意见/3月15日准入意见/提高拟上市企业检查比例",
+        "for": [
+          "修改背景",
+          "政策依据",
+          "监管手段",
+          "比例调整"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0",
+          "para_index": 0,
+          "content": "2015 年 11月，为贯彻落实《国务院办公厅关于推广随机抽查规范事中事后监管的意见》，推进证券期货监管领域随机抽查工作，我会发布《清单》，包含证券公司检查、基金管理人检查等 17 个事项，针对每个事项明确了抽查依据、抽查内容、抽查方式、抽查比例等要素。2021 年 1 月，为落实修订后的《证券法》，我会对《清单》进行了修改，新增首发企业现场检查事项，明确抽查比例为 5％。\n首发企业现场检查是《证券法》赋予证监会的一项监管执法手段，是 IPO 全链条监管的重要一环。2024 年4 月 12 日，《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》正式发布，其中提出要扩大对在审企业及相关中介机构现场检查覆盖面。此前，中国证监会于 2024 年3 月 15 日发布《关于严把发行准入关 从源头上提高上市公司质量的意见（试行）》，其中明确要大幅提高对拟上市企业随机抽取检查的比例。为落实上述要求，需要对《清单》中“首发企业检查”事项的有关内容进行修改。",
+          "sentences": [
+            {
+              "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s0",
+              "text": "2015 年 11月，为贯彻落实《国务院办公厅关于推广随机抽查规范事中事后监管的意见》，推进证券期货监管领域随机抽查工作，我会发布《清单》，包含证券公司检查、基金管理人检查等 17 个事项，针对每个事项明确了抽查依据、抽查内容、抽查方式、抽查比例等要素。",
+              "location": {
+                "doc_id": "doc_48422fddd631",
+                "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s1",
+              "text": "2021 年 1 月，为落实修订后的《证券法》，我会对《清单》进行了修改，新增首发企业现场检查事项，明确抽查比例为 5％。",
+              "location": {
+                "doc_id": "doc_48422fddd631",
+                "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s2",
+              "text": "首发企业现场检查是《证券法》赋予证监会的一项监管执法手段，是 IPO 全链条监管的重要一环。",
+              "location": {
+                "doc_id": "doc_48422fddd631",
+                "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s3",
+              "text": "2024 年4 月 12 日，《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》正式发布，其中提出要扩大对在审企业及相关中介机构现场检查覆盖面。",
+              "location": {
+                "doc_id": "doc_48422fddd631",
+                "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s4",
+              "text": "此前，中国证监会于 2024 年3 月 15 日发布《关于严把发行准入关 从源头上提高上市公司质量的意见（试行）》，其中明确要大幅提高对拟上市企业随机抽取检查的比例。",
+              "location": {
+                "doc_id": "doc_48422fddd631",
+                "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s5",
+              "text": "为落实上述要求，需要对《清单》中“首发企业检查”事项的有关内容进行修改。",
+              "location": {
+                "doc_id": "doc_48422fddd631",
+                "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 二、修改内容",
+      "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明 > 二、修改内容",
+      "title": "二、修改内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "抽查比例/5%改为20%/抽查依据/《证券发行上市保荐业务管理办法》/证监会令第58号/第137号/第170号/第207号/第六十二条改为第六十一条",
+        "for": [
+          "抽查比例",
+          "法规修订",
+          "条款变更",
+          "检查规则"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 二、修改内容_p0",
+          "para_index": 0,
+          "content": "结合首发企业现场检查工作实际，一是将《清单》附件所列抽查事项第 1 项“首发企业检查”的抽查比例由“随机抽签的比例为 5％”修改为“随机抽签的比例为 20％”。二是将《清单》附件所列抽查事项第 1 项“首发企业检查”的抽查依据由“《证券发行上市保荐业务管理办法》（证监会令第 58 号公布，证监会令第 137 号、第 170 号修订）第六十二条”修改为“《证券发行上市保荐业务管理办法》（证监会令第 58 号公布，证监会令第 137号、第 170 号、第207 号修订）第六十一条”。",
+          "sentences": [
+            {
+              "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 二、修改内容_p0_s0",
+              "text": "结合首发企业现场检查工作实际，一是将《清单》附件所列抽查事项第 1 项“首发企业检查”的抽查比例由“随机抽签的比例为 5％”修改为“随机抽签的比例为 20％”。",
+              "location": {
+                "doc_id": "doc_48422fddd631",
+                "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明 > 二、修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 二、修改内容_p0_s1",
+              "text": "二是将《清单》附件所列抽查事项第 1 项“首发企业检查”的抽查依据由“《证券发行上市保荐业务管理办法》（证监会令第 58 号公布，证监会令第 137 号、第 170 号修订）第六十二条”修改为“《证券发行上市保荐业务管理办法》（证监会令第 58 号公布，证监会令第 137号、第 170 号、第207 号修订）第六十一条”。",
+              "location": {
+                "doc_id": "doc_48422fddd631",
+                "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明 > 二、修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 三、公开征求意见情况",
+      "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明 > 三、公开征求意见情况",
+      "title": "三、公开征求意见情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "公开征求意见数/28条/有效意见5条/抽查比例建议/50%/100%/20%/未采纳",
+        "for": [
+          "意见统计",
+          "监管比例",
+          "政策调整",
+          "采纳情况"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 三、公开征求意见情况_p0",
+          "para_index": 0,
+          "content": "公开征求意见期间，共收到各方意见 28条，其中有效意见5 条。意见主要集中在抽查比例上。部分意见建议提高至 50％，部分意见建议提高至 100％，部分意见建议随机抽取与问题导向的检查比例整体提高至 20％。考虑到 20％的随机抽取检查比例有助于体现严把准入关、督促中介机构提高执业质量的监管导向，且符合当前监管资源配置实际情况，有关建议未予采纳。",
+          "sentences": [
+            {
+              "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 三、公开征求意见情况_p0_s0",
+              "text": "公开征求意见期间，共收到各方意见 28条，其中有效意见5 条。",
+              "location": {
+                "doc_id": "doc_48422fddd631",
+                "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 三、公开征求意见情况_p0_s1",
+              "text": "意见主要集中在抽查比例上。",
+              "location": {
+                "doc_id": "doc_48422fddd631",
+                "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 三、公开征求意见情况_p0_s2",
+              "text": "部分意见建议提高至 50％，部分意见建议提高至 100％，部分意见建议随机抽取与问题导向的检查比例整体提高至 20％。",
+              "location": {
+                "doc_id": "doc_48422fddd631",
+                "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 三、公开征求意见情况_p0_s3",
+              "text": "考虑到 20％的随机抽取检查比例有助于体现严把准入关、督促中介机构提高执业质量的监管导向，且符合当前监管资源配置实际情况，有关建议未予采纳。",
+              "location": {
+                "doc_id": "doc_48422fddd631",
+                "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_5fe97ba6f169",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d86d52a26669",
+      "entity_type": "LegalDocument",
+      "mention": "《中国证监会随机抽查事项清单》",
+      "canonical_name": "中国证监会随机抽查事项清单",
+      "attributes": {
+        "document_number": "证监会公告〔2015〕25 号"
+      },
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9737985bd100",
+      "entity_type": "Date",
+      "mention": "2015 年 11 月",
+      "canonical_name": "2015-11",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s0",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d85270eeb113",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院办公厅关于推广随机抽查规范事中事后监管的意见》",
+      "canonical_name": "国务院办公厅关于推广随机抽查规范事中事后监管的意见",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s0",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6e9aa259e657",
+      "entity_type": "Industry",
+      "mention": "证券期货监管领域",
+      "canonical_name": "证券期货监管领域",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s0",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_01273951200c",
+      "entity_type": "FinancialMetric",
+      "mention": "抽查比例",
+      "canonical_name": "抽查比例",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s0",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_43e4065a6fa3",
+      "entity_type": "Date",
+      "mention": "2021 年 1 月",
+      "canonical_name": "2021-01",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s1",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f1c62d3425a9",
+      "entity_type": "LegalDocument",
+      "mention": "《证券法》",
+      "canonical_name": "证券法",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s1",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4834315653bd",
+      "entity_type": "Percentage",
+      "mention": "5％",
+      "canonical_name": "5%",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s1",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2b95d7c604b4",
+      "entity_type": "InsuranceCoverage",
+      "mention": "首发企业现场检查",
+      "canonical_name": "首发企业现场检查",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s2",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_21e124112a67",
+      "entity_type": "Date",
+      "mention": "2024 年 4 月 12 日",
+      "canonical_name": "2024-04-12",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s3",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5284f88b6c94",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》",
+      "canonical_name": "国务院关于加强监管防范风险推动资本市场高质量发展的若干意见",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s3",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c6fe25116cd3",
+      "entity_type": "Date",
+      "mention": "2024 年 3 月 15 日",
+      "canonical_name": "2024-03-15",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s4",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_201c09e23fed",
+      "entity_type": "LegalDocument",
+      "mention": "《关于严把发行准入关 从源头上提高上市公司质量的意见（试行）》",
+      "canonical_name": "关于严把发行准入关从源头上提高上市公司质量的意见（试行）",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s4",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ce98d91c6da8",
+      "entity_type": "Percentage",
+      "mention": "20％",
+      "canonical_name": "20%",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 二、修改内容_p0_s0",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 二、修改内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_80a03ecb9c27",
+      "entity_type": "LegalTerm",
+      "mention": "“首发企业检查”",
+      "canonical_name": "首发企业检查",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 二、修改内容_p0_s0",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 二、修改内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a774daa8c650",
+      "entity_type": "LegalDocument",
+      "mention": "《证券发行上市保荐业务管理办法》",
+      "canonical_name": "证券发行上市保荐业务管理办法",
+      "attributes": {
+        "original_order": "证监会令第 58 号",
+        "revised_orders": [
+          "证监会令第 137 号",
+          "证监会令第 170 号",
+          "证监会令第 207 号"
+        ]
+      },
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 二、修改内容_p0_s1",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 二、修改内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_33b5d79487bd",
+      "entity_type": "Clause",
+      "mention": "“《证券发行上市保荐业务管理办法》...第六十二条”",
+      "canonical_name": "证券发行上市保荐业务管理办法第六十二条",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 二、修改内容_p0_s1",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 二、修改内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9fb0e92ef9aa",
+      "entity_type": "Clause",
+      "mention": "“《证券发行上市保荐业务管理办法》...第六十一条”",
+      "canonical_name": "证券发行上市保荐业务管理办法第六十一条",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 二、修改内容_p0_s1",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 二、修改内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a115b45cc8b7",
+      "entity_type": "MonetaryAmount",
+      "mention": "28条",
+      "canonical_name": "28条",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_59d8d69b4bb7",
+      "entity_type": "MonetaryAmount",
+      "mention": "5 条",
+      "canonical_name": "5条",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6ad418780e7a",
+      "entity_type": "Percentage",
+      "mention": "50％",
+      "canonical_name": "50%",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 三、公开征求意见情况_p0_s2",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 三、公开征求意见情况_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2e26cbd68cec",
+      "entity_type": "Percentage",
+      "mention": "100％",
+      "canonical_name": "100%",
+      "attributes": {},
+      "sentence_id": "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 三、公开征求意见情况_p0_s2",
+      "sentence_ids": [
+        "doc_48422fddd631#关于修改《中国证监会随机抽查事项清单》的起草说明 > 三、公开征求意见情况_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_3d4ca302c031_rel_29481f024601",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_d86d52a26669",
+      "tail_entity_id": "ent_d85270eeb113",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_48422fddd631",
+        "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3d4ca302c031_rel_5d3b5c988a8c",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_f1c62d3425a9",
+      "tail_entity_id": "ent_2b95d7c604b4",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_48422fddd631",
+        "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明 > 一、修改背景",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3d4ca302c031_rel_f36eac152a5a",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_33b5d79487bd",
+      "tail_entity_id": "ent_a774daa8c650",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_48422fddd631",
+        "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明 > 二、修改内容",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_3d4ca302c031_rel_d3675cb6e64d",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_9fb0e92ef9aa",
+      "tail_entity_id": "ent_a774daa8c650",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_48422fddd631",
+        "section_path": "关于修改《中国证监会随机抽查事项清单》的起草说明 > 二、修改内容",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

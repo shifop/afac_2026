@@ -1,0 +1,840 @@
+{
+  "doc_id": "doc_37399cc69c83",
+  "title": "《上市公司募集资金监管规则》修订说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0031_att2.md",
+  "processed_at": "2026-07-21T00:30:51.838613+00:00",
+  "structured_data": {
+    "title": "《上市公司募集资金监管规则》"
+  },
+  "stats": {
+    "sections": 4,
+    "paragraphs": 4,
+    "sentences": 43,
+    "entities": 15,
+    "relations": 5,
+    "rejected": 0,
+    "llm_calls": 735,
+    "llm_tokens": 1320218,
+    "elapsed_seconds": 12.47
+  },
+  "sections": [
+    {
+      "section_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明",
+      "section_path": "《上市公司募集资金监管规则》修订说明",
+      "title": "《上市公司募集资金监管规则》修订说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "修订背景/监管目标/安全性/规范性/使用效率",
+        "for": [
+          "修订原因",
+          "监管目标",
+          "规则变动"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明_p0",
+          "para_index": 0,
+          "content": "为进一步推动提高上市公司质量，严格募集资金监管，中国证监会组织开展募集资金监管规则修订工作，着力加强上市公司募集资金安全性和使用规范性，提升募集资金使用效率。现将《上市公司募集资金监管规则》（以下简称《监管规则》）修订情况说明如下。",
+          "sentences": [
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明_p0_s0",
+              "text": "为进一步推动提高上市公司质量，严格募集资金监管，中国证监会组织开展募集资金监管规则修订工作，着力加强上市公司募集资金安全性和使用规范性，提升募集资金使用效率。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明_p0_s1",
+              "text": "现将《上市公司募集资金监管规则》（以下简称《监管规则》）修订情况说明如下。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景",
+      "section_path": "《上市公司募集资金监管规则》修订说明 > 一、修订背景",
+      "title": "一、修订背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "《2号指引》/2012年发布/2022年调整/募投项目变更认定/现金管理信披/上位法衔接/独董制度配套/《证券法》",
+        "for": [
+          "修订背景",
+          "法规沿革",
+          "监管重点",
+          "法律依据"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0",
+          "para_index": 0,
+          "content": "证监会现行募集资金持续监管规则主要为《上市公司监管指引第 2 号—上市公司募集资金管理和使用的监管要求》（以下简称《2 号指引》）。该规则最早于 2012 年 12 月发布，于 2022 年法规整合时进行细微调整，对上市公司募集资金存放使用、现金管理、临时补流、置换自筹资金、管理监督以及超募资金使用等方面进行规定，引导和推动上市公司规范管理和使用募集资金。\n为适应新形势下严格募集资金监管的工作需要，本次规则修订方向为：一是对实践中各方关注的焦点问题予以重点明确或规范，包括募投项目变更的认定标准、募集资金现金管理的信息披露要求等。二是建立与《证券法》《证券发行上市保荐业务管理办法》《上市公司信息披露管理办法》等上位法的衔接，进一步促进上市公司规范管理使用募集资金和中介机构勤勉尽责。三是总结提炼实践中成熟的经验做法，将交易所自律管理制度中运行较为成熟、受到市场认可的规则要求提升到证监会规范性文件层面，强化规范约束效力。四是做好与独董制度改革和《公司法》修订衔接配套，根据最新要求进行了规则适应性调整完善。",
+          "sentences": [
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s0",
+              "text": "证监会现行募集资金持续监管规则主要为《上市公司监管指引第 2 号—上市公司募集资金管理和使用的监管要求》（以下简称《2 号指引》）。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s1",
+              "text": "该规则最早于 2012 年 12 月发布，于 2022 年法规整合时进行细微调整，对上市公司募集资金存放使用、现金管理、临时补流、置换自筹资金、管理监督以及超募资金使用等方面进行规定，引导和推动上市公司规范管理和使用募集资金。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s2",
+              "text": "为适应新形势下严格募集资金监管的工作需要，本次规则修订方向为：一是对实践中各方关注的焦点问题予以重点明确或规范，包括募投项目变更的认定标准、募集资金现金管理的信息披露要求等。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s3",
+              "text": "二是建立与《证券法》《证券发行上市保荐业务管理办法》《上市公司信息披露管理办法》等上位法的衔接，进一步促进上市公司规范管理使用募集资金和中介机构勤勉尽责。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s4",
+              "text": "三是总结提炼实践中成熟的经验做法，将交易所自律管理制度中运行较为成熟、受到市场认可的规则要求提升到证监会规范性文件层面，强化规范约束效力。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s5",
+              "text": "四是做好与独董制度改革和《公司法》修订衔接配套，根据最新要求进行了规则适应性调整完善。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+      "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+      "title": "二、主要修订内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "《监管规则》修订说明/条文修改数（12改9增1并1删）/专款专用要求/超募资金用途限制/变更募投项目情形/擅自改变罚则/关联方占用禁止/延期实施程序/现金管理规",
+        "for": [
+          "修订内容",
+          "资金用途",
+          "监管要求",
+          "中介责任",
+          "制度衔接"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0",
+          "para_index": 0,
+          "content": "本次修订将《2 号指引》名称修改为《监管规则》，在规范性文件内部体系中由监管指引层级提升至基础规则层级，引导市场各方更加重视规范使用募集资金。具体规定方面，本次修订修改条文 12条，新增 9 条，归并 1 条，删除1 条，主要修订内容如下。\n一是强调募集资金使用应专款专用，专注主业，支持实体经济发展。第一，对募集资金使用提出总体要求，强调应坚持专款专用，用于主营业务。第二，明确超募资金最终用途应为在建项目及新项目、回购注销，不得用于永久补充流动资金和偿还银行借款。\n二是从严监管募集资金用途改变和使用进度缓慢。第一，明确募集资金用途改变的情形，包括取消或者终止原募投项目而实施新项目或者永久补充流动资金，变更募投项目实施主体或实施方式等，在此基础上强调擅自改变募集资金用途适用的罚则。第二，强调控股股东、实际控制人及其他关联人不得占用募集资金，上市公司发现相关情形时应主动进行信息披露，防止变相改变募集资金用途。第三，对于募投项目需要延期实施的，要严格履行审议程序和披露义务。\n三是强化募集资金安全性。第一，规范现金管理行为，除继续保留安全性高、流动性好、能够保障本金安全、不得质押等要求，还明确了产品期限，规定开展现金管理出现可能损害上市公司和投资者利益情形的，上市公司应当及时披露进展情况和应对措施。第二，对资金账户实施更严格监管，强调进行临时补充流动资金也应通过专项账户实施，开展现金管理应通过募集资金专项账户或者公开披露的产品专用结算账户实施。第三，提升保荐机构持续督导能力，强调上市公司应当积极配合保荐机构持续督导工作和会计师事务所审计工作，及时提供或向银行申请提供相关必要资料，推动专户管理、三方监管制度落到实处。\n四是提升募集资金使用效率。第一，便利上市公司置换资金，上市公司前期投入自筹资金的，应当在募集资金到账后六个月内置换。此后在支付人员薪酬、购买境外产品设备等事项中以募集资金直接支付确有困难的，可以在自筹资金支付后六个月内实施置换。第二，明确募投项目出现市场环境重大变化等情形时的重新评估论证要求，引导公司密切关注募投项目进展，积极推进募投项目建设。\n五是督促中介机构履职尽责。第一，针对募集资金投资项目发生较大变化的情况，保荐机构应发表意见，说明原因及前期保荐意见的合理性。第二，强化保荐机构持续督导责任，规定保荐机构应及时开展现场核查，发现募集资金存在异常情况的应及时、主动向中国证监会派出机构和证券交易所报告。第三，明确与相关上位法有关法律责任的衔接机制，促进中介机构勤勉尽责。\n六是做好与独董制度改革和《公司法》修订的衔接调整。由于前期独立董事制度改革中取消了独立董事对募集资金事项发表意见的要求，本次修订也删去了独立董事相关要求。同时适应《公司法》修订精神，相应将“股东大会”的表述调整为“股东会”。",
+          "sentences": [
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s0",
+              "text": "本次修订将《2 号指引》名称修改为《监管规则》，在规范性文件内部体系中由监管指引层级提升至基础规则层级，引导市场各方更加重视规范使用募集资金。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s1",
+              "text": "具体规定方面，本次修订修改条文 12条，新增 9 条，归并 1 条，删除1 条，主要修订内容如下。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s2",
+              "text": "一是强调募集资金使用应专款专用，专注主业，支持实体经济发展。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s3",
+              "text": "第一，对募集资金使用提出总体要求，强调应坚持专款专用，用于主营业务。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s4",
+              "text": "第二，明确超募资金最终用途应为在建项目及新项目、回购注销，不得用于永久补充流动资金和偿还银行借款。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s5",
+              "text": "二是从严监管募集资金用途改变和使用进度缓慢。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s6",
+              "text": "第一，明确募集资金用途改变的情形，包括取消或者终止原募投项目而实施新项目或者永久补充流动资金，变更募投项目实施主体或实施方式等，在此基础上强调擅自改变募集资金用途适用的罚则。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s7",
+              "text": "第二，强调控股股东、实际控制人及其他关联人不得占用募集资金，上市公司发现相关情形时应主动进行信息披露，防止变相改变募集资金用途。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s8",
+              "text": "第三，对于募投项目需要延期实施的，要严格履行审议程序和披露义务。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s9",
+              "text": "三是强化募集资金安全性。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s10",
+              "text": "第一，规范现金管理行为，除继续保留安全性高、流动性好、能够保障本金安全、不得质押等要求，还明确了产品期限，规定开展现金管理出现可能损害上市公司和投资者利益情形的，上市公司应当及时披露进展情况和应对措施。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s11",
+              "text": "第二，对资金账户实施更严格监管，强调进行临时补充流动资金也应通过专项账户实施，开展现金管理应通过募集资金专项账户或者公开披露的产品专用结算账户实施。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s12",
+              "text": "第三，提升保荐机构持续督导能力，强调上市公司应当积极配合保荐机构持续督导工作和会计师事务所审计工作，及时提供或向银行申请提供相关必要资料，推动专户管理、三方监管制度落到实处。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s13",
+              "text": "四是提升募集资金使用效率。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s14",
+              "text": "第一，便利上市公司置换资金，上市公司前期投入自筹资金的，应当在募集资金到账后六个月内置换。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s15",
+              "text": "此后在支付人员薪酬、购买境外产品设备等事项中以募集资金直接支付确有困难的，可以在自筹资金支付后六个月内实施置换。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s16",
+              "text": "第二，明确募投项目出现市场环境重大变化等情形时的重新评估论证要求，引导公司密切关注募投项目进展，积极推进募投项目建设。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s17",
+              "text": "五是督促中介机构履职尽责。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 17
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s18",
+              "text": "第一，针对募集资金投资项目发生较大变化的情况，保荐机构应发表意见，说明原因及前期保荐意见的合理性。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 18
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s19",
+              "text": "第二，强化保荐机构持续督导责任，规定保荐机构应及时开展现场核查，发现募集资金存在异常情况的应及时、主动向中国证监会派出机构和证券交易所报告。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 19
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s20",
+              "text": "第三，明确与相关上位法有关法律责任的衔接机制，促进中介机构勤勉尽责。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 20
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s21",
+              "text": "六是做好与独董制度改革和《公司法》修订的衔接调整。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 21
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s22",
+              "text": "由于前期独立董事制度改革中取消了独立董事对募集资金事项发表意见的要求，本次修订也删去了独立董事相关要求。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 22
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_s23",
+              "text": "同时适应《公司法》修订精神，相应将“股东大会”的表述调整为“股东会”。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 23
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况",
+      "section_path": "《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况",
+      "title": "三、公开征求意见情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "公开征求意见时间/收到意见数/适用范围界定/超募资金新旧规则适用",
+        "for": [
+          "征求意见",
+          "规则范围",
+          "超募资金",
+          "采纳情况"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况_p0",
+          "para_index": 0,
+          "content": "2025 年 1 月 17 日至 2025 年 2 月 16 日，《监管规则》向社会公开征求意见，共收到意见建议 31 条。总体来看，市场对《监管规则》表示支持，认为有助于推动提高上市公司质量。主要意见及吸收采纳情况如下：\n一是关于适用范围。公开征求意见期间，有意见建议明确本规则是仅适用于发行股票募集的资金，还是适用上市公司全部募集形式（股票、债券等）所募集的资金。经研究，《监管规则》专门作出规定，明确本规则适用于上市公司通过发行股票或者其他具有股权性质的证券（包含可转换公司债券、存托凭证等）募集资金，不包括实施股权激励计划募集的资金，也不包括债券募集的资金。该意见已采纳。\n二是关于超募资金使用。公开征求意见期间，有意见建议明确以前超募的资金是否适用新规。考虑到在《监管规则》实施前，上市公司已按照《2 号指引》使用取得的超募资金，经研究，《监管规则》实施后发行取得的超募资金，适用新规则；实施前已发行完成取得的超募资金，适用旧规则。该意见已采纳。",
+          "sentences": [
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况_p0_s0",
+              "text": "2025 年 1 月 17 日至 2025 年 2 月 16 日，《监管规则》向社会公开征求意见，共收到意见建议 31 条。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况_p0_s1",
+              "text": "总体来看，市场对《监管规则》表示支持，认为有助于推动提高上市公司质量。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况_p0_s2",
+              "text": "主要意见及吸收采纳情况如下：\n一是关于适用范围。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况_p0_s3",
+              "text": "公开征求意见期间，有意见建议明确本规则是仅适用于发行股票募集的资金，还是适用上市公司全部募集形式（股票、债券等）所募集的资金。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况_p0_s4",
+              "text": "经研究，《监管规则》专门作出规定，明确本规则适用于上市公司通过发行股票或者其他具有股权性质的证券（包含可转换公司债券、存托凭证等）募集资金，不包括实施股权激励计划募集的资金，也不包括债券募集的资金。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况_p0_s5",
+              "text": "该意见已采纳。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况_p0_s6",
+              "text": "二是关于超募资金使用。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况_p0_s7",
+              "text": "公开征求意见期间，有意见建议明确以前超募的资金是否适用新规。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况_p0_s8",
+              "text": "考虑到在《监管规则》实施前，上市公司已按照《2 号指引》使用取得的超募资金，经研究，《监管规则》实施后发行取得的超募资金，适用新规则；",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况_p0_s9",
+              "text": "实施前已发行完成取得的超募资金，适用旧规则。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况_p0_s10",
+              "text": "该意见已采纳。",
+              "location": {
+                "doc_id": "doc_37399cc69c83",
+                "section_path": "《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_b2c239348eab",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_795e3afb8d82",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司募集资金监管规则》",
+      "canonical_name": "上市公司募集资金监管规则",
+      "attributes": {
+        "short_name": "《监管规则》"
+      },
+      "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明_p0_s1",
+      "sentence_ids": [
+        "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_41b77b143495",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司监管指引第 2 号—上市公司募集资金管理和使用的监管要求》",
+      "canonical_name": "上市公司监管指引第 2 号—上市公司募集资金管理和使用的监管要求",
+      "attributes": {
+        "short_name": "《2 号指引》"
+      },
+      "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s0",
+      "sentence_ids": [
+        "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b1e8488d12f1",
+      "entity_type": "Date",
+      "mention": "2012 年 12 月",
+      "canonical_name": "2012-12",
+      "attributes": {},
+      "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bd093bcc8fb2",
+      "entity_type": "Date",
+      "mention": "2022 年",
+      "canonical_name": "2022",
+      "attributes": {},
+      "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_81b725b72e7b",
+      "entity_type": "LegalDocument",
+      "mention": "《证券法》",
+      "canonical_name": "证券法",
+      "attributes": {},
+      "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s3",
+      "sentence_ids": [
+        "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1dffb648df47",
+      "entity_type": "LegalDocument",
+      "mention": "《证券发行上市保荐业务管理办法》",
+      "canonical_name": "证券发行上市保荐业务管理办法",
+      "attributes": {},
+      "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s3",
+      "sentence_ids": [
+        "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a8af75d217f5",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司信息披露管理办法》",
+      "canonical_name": "上市公司信息披露管理办法",
+      "attributes": {},
+      "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s3",
+      "sentence_ids": [
+        "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c93f09262720",
+      "entity_type": "LegalDocument",
+      "mention": "《公司法》",
+      "canonical_name": "公司法",
+      "attributes": {},
+      "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s5",
+      "sentence_ids": [
+        "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 一、修订背景_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_be292dddd153",
+      "entity_type": "MonetaryAmount",
+      "mention": "12 条",
+      "canonical_name": "12",
+      "attributes": {
+        "unit": "条文"
+      },
+      "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e344b4add071",
+      "entity_type": "MonetaryAmount",
+      "mention": "9 条",
+      "canonical_name": "9",
+      "attributes": {
+        "unit": "条文"
+      },
+      "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_08aead08d93d",
+      "entity_type": "MonetaryAmount",
+      "mention": "1 条",
+      "canonical_name": "1",
+      "attributes": {
+        "unit": "条文"
+      },
+      "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 二、主要修订内容_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9de14a6114e9",
+      "entity_type": "Date",
+      "mention": "2025 年 1 月 17 日",
+      "canonical_name": "2025-01-17",
+      "attributes": {},
+      "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3b41ea3abb5d",
+      "entity_type": "Date",
+      "mention": "2025 年 2 月 16 日",
+      "canonical_name": "2025-02-16",
+      "attributes": {},
+      "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_97ce9a55f968",
+      "entity_type": "MonetaryAmount",
+      "mention": "31 条",
+      "canonical_name": "31",
+      "attributes": {
+        "unit": "条"
+      },
+      "sentence_id": "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_37399cc69c83#《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_986e758472b4_rel_6093c3946450",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_795e3afb8d82",
+      "tail_entity_id": "ent_81b725b72e7b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37399cc69c83",
+        "section_path": "《上市公司募集资金监管规则》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_986e758472b4_rel_cd6aa7e7f184",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_795e3afb8d82",
+      "tail_entity_id": "ent_1dffb648df47",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37399cc69c83",
+        "section_path": "《上市公司募集资金监管规则》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_986e758472b4_rel_a29505c0d1fe",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_795e3afb8d82",
+      "tail_entity_id": "ent_a8af75d217f5",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37399cc69c83",
+        "section_path": "《上市公司募集资金监管规则》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_986e758472b4_rel_88663b92f2de",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_795e3afb8d82",
+      "tail_entity_id": "ent_c93f09262720",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37399cc69c83",
+        "section_path": "《上市公司募集资金监管规则》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 5
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_986e758472b4_rel_e708941d0ae5",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_795e3afb8d82",
+      "tail_entity_id": "ent_41b77b143495",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_37399cc69c83",
+        "section_path": "《上市公司募集资金监管规则》修订说明 > 三、公开征求意见情况",
+        "paragraph_index": 0,
+        "sentence_index": 8
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

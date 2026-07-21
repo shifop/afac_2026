@@ -1,0 +1,4821 @@
+{
+  "doc_id": "doc_55a4ef82468c",
+  "title": "中 华 人 民 共 和 国 金 融 行 业 标 准",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0041_att2.md",
+  "processed_at": "2026-07-21T00:48:14.434376+00:00",
+  "structured_data": {
+    "title": "证券期货业信息系统备份能力规范"
+  },
+  "stats": {
+    "sections": 19,
+    "paragraphs": 16,
+    "sentences": 91,
+    "entities": 120,
+    "relations": 88,
+    "rejected": 0,
+    "llm_calls": 2088,
+    "llm_tokens": 3089783,
+    "elapsed_seconds": 33.02
+  },
+  "sections": [
+    {
+      "section_id": "doc_55a4ef82468c#中 华 人 民 共 和 国 金 融 行 业 标 准",
+      "section_path": "中 华 人 民 共 和 国 金 融 行 业 标 准",
+      "title": "中 华 人 民 共 和 国 金 融 行 业 标 准",
+      "level": 1,
+      "reading_guide": {
+        "has": "标准编号 JR/T 0059—2024, 替代关系 JR/T 0059—2010, 发布日期 2024-12-24, 实施日期 2024-12-24",
+        "for": [
+          "标准版本",
+          "发布时间",
+          "实施时间"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_55a4ef82468c#中 华 人 民 共 和 国 金 融 行 业 标 准_p0",
+          "para_index": 0,
+          "content": "JR/T 0059—2024\n代替 JR/T 0059—2010\n2024-12-24 发布 2024-12-24 实施",
+          "sentences": [
+            {
+              "sentence_id": "doc_55a4ef82468c#中 华 人 民 共 和 国 金 融 行 业 标 准_p0_s0",
+              "text": "JR/T 0059—2024\n代替 JR/T 0059—2010\n2024-12-24 发布 2024-12-24 实施",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "中 华 人 民 共 和 国 金 融 行 业 标 准",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry",
+      "section_path": "Specification of information system resilience capability for securities and futures industry",
+      "title": "Specification of information system resilience capability for securities and futures industry",
+      "level": 1,
+      "reading_guide": null,
+      "paragraphs": []
+    },
+    {
+      "section_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 目 次",
+      "section_path": "Specification of information system resilience capability for securities and futures industry > 目 次",
+      "title": "目 次",
+      "level": 2,
+      "reading_guide": {
+        "has": "范围/规范性引用文件/术语和定义/备份能力分类/备份能力分级/备份能力建设与管理/数据备份能力分级/实时信息系统备份能力分级/非实时信息系统备份能力分级",
+        "for": [
+          "标准范围",
+          "术语定义",
+          "能力分级",
+          "建设管理",
+          "附录要求"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 目 次_p0",
+          "para_index": 0,
+          "content": "前言.... II\n1 范围.... 1\n2 规范性引用文件.... 1\n3 术语和定义.... 1\n4 备份能力.... 1\n4.1 备份能力分类.... 1\n4.2 备份能力分级.... 2\n4.3 备份能力建设与管理.... 2\n附录A（规范性）证券期货业机构信息系统备份能力要求.... 3\nA.1 数据备份能力分级.... 3\nA.2 实时信息系统备份能力分级.... 3\nA.3 非实时信息系统备份能力分级.... 4\n附录B（资料性）证券期货业机构信息系统备份能力示例.... 6",
+          "sentences": [
+            {
+              "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 目 次_p0_s0",
+              "text": "前言.... II\n1 范围.... 1\n2 规范性引用文件.... 1\n3 术语和定义.... 1\n4 备份能力.... 1\n4.1 备份能力分类.... 1\n4.2 备份能力分级.... 2\n4.3 备份能力建设与管理.... 2\n附录A（规范性）证券期货业机构信息系统备份能力要求.... 3\nA.1 数据备份能力分级.... 3\nA.2 实时信息系统备份能力分级.... 3\nA.3 非实时信息系统备份能力分级.... 4\n附录B（资料性）证券期货业机构信息系统备份能力示例.... 6",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "Specification of information system resilience capability for securities and futures industry > 目 次",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言",
+      "section_path": "Specification of information system resilience capability for securities and futures industry > 前 言",
+      "title": "前 言",
+      "level": 2,
+      "reading_guide": {
+        "has": "标准编号/替代关系/适用范围变更/技术变化点/专利声明/归口单位/起草单位/主要起草人/版本历史",
+        "for": [
+          "标准沿革",
+          "适用范围",
+          "技术变更",
+          "责任归属",
+          "版本对比"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0",
+          "para_index": 0,
+          "content": "本文件按照GB/T 1.1—2020《标准化工作导则 第1部分：标准化文件的结构和起草规则》的规定起草。\n本文件代替JR/T 0059—2010《证券期货经营机构信息系统备份能力标准》，与JR/T 0059—2010相比，除结构调整和编辑性改动外，主要技术变化如下：\na) 将文件名称从“证券期货经营机构信息系统备份能力标准”更改为“证券期货业信息系统备份能力规范”；\nb) 将适用范围从“证券公司、基金管理公司和期货公司”等证券期货业经营机构更改为“交易所、结算公司、证券公司、基金公司和期货公司”等证券期货业机构（见第 1章，2010年版的第 1章）；\nc) 增加了数据备份能力、故障应对能力、灾难应对能力和重大灾难应对能力的分级及其要求（见4.2和附录 A）；\nd) 增加了证券期货业机构常见信息系统备份能力的示例（见附录 B）。\n请注意本文件的某些内容可能涉及专利。本文件的发布机构不承担识别专利的责任。\n本文件由全国金融标准化技术委员会证券分技术委员会（SAC/TC 180/SC4）提出。\n本文件由全国金融标准化技术委员会（SAC/TC 180）归口。\n本文件起草单位：深圳证券通信有限公司、深圳证券交易所、上海证券交易所、中国银河证券股份有限公司、中证信息技术服务有限责任公司、大连商品交易所、国泰君安证券股份有限公司、北京证券交易所、中国证券登记结算有限责任公司、郑州商品交易所、长城证券股份有限公司、华夏基金管理有限公司、招商期货有限公司。\n本文件主要起草人：陈友清、刘伟、喻华丽、黄锐、谢毅、唐沛来、陈细谦、黄韦、强庆华、何飞、王伟喜、兰朝晖、桂勇、李刚、沈立强。\n本文件及其所代替文件的历次版本发布情况为：\n—2010 年首次发布为 JR/T 0059—2010；\n本次为第一次修订。",
+          "sentences": [
+            {
+              "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s0",
+              "text": "本文件按照GB/T 1.1—2020《标准化工作导则 第1部分：标准化文件的结构和起草规则》的规定起草。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "Specification of information system resilience capability for securities and futures industry > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s1",
+              "text": "本文件代替JR/T 0059—2010《证券期货经营机构信息系统备份能力标准》，与JR/T 0059—2010相比，除结构调整和编辑性改动外，主要技术变化如下：\na) 将文件名称从“证券期货经营机构信息系统备份能力标准”更改为“证券期货业信息系统备份能力规范”；",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "Specification of information system resilience capability for securities and futures industry > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s2",
+              "text": "b) 将适用范围从“证券公司、基金管理公司和期货公司”等证券期货业经营机构更改为“交易所、结算公司、证券公司、基金公司和期货公司”等证券期货业机构（见第 1章，2010年版的第 1章）；",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "Specification of information system resilience capability for securities and futures industry > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s3",
+              "text": "c) 增加了数据备份能力、故障应对能力、灾难应对能力和重大灾难应对能力的分级及其要求（见4.2和附录 A）；",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "Specification of information system resilience capability for securities and futures industry > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s4",
+              "text": "d) 增加了证券期货业机构常见信息系统备份能力的示例（见附录 B）。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "Specification of information system resilience capability for securities and futures industry > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s5",
+              "text": "请注意本文件的某些内容可能涉及专利。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "Specification of information system resilience capability for securities and futures industry > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s6",
+              "text": "本文件的发布机构不承担识别专利的责任。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "Specification of information system resilience capability for securities and futures industry > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s7",
+              "text": "本文件由全国金融标准化技术委员会证券分技术委员会（SAC/TC 180/SC4）提出。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "Specification of information system resilience capability for securities and futures industry > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s8",
+              "text": "本文件由全国金融标准化技术委员会（SAC/TC 180）归口。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "Specification of information system resilience capability for securities and futures industry > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9",
+              "text": "本文件起草单位：深圳证券通信有限公司、深圳证券交易所、上海证券交易所、中国银河证券股份有限公司、中证信息技术服务有限责任公司、大连商品交易所、国泰君安证券股份有限公司、北京证券交易所、中国证券登记结算有限责任公司、郑州商品交易所、长城证券股份有限公司、华夏基金管理有限公司、招商期货有限公司。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "Specification of information system resilience capability for securities and futures industry > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10",
+              "text": "本文件主要起草人：陈友清、刘伟、喻华丽、黄锐、谢毅、唐沛来、陈细谦、黄韦、强庆华、何飞、王伟喜、兰朝晖、桂勇、李刚、沈立强。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "Specification of information system resilience capability for securities and futures industry > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s11",
+              "text": "本文件及其所代替文件的历次版本发布情况为：\n—2010 年首次发布为 JR/T 0059—2010；\n本次为第一次修订。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "Specification of information system resilience capability for securities and futures industry > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范",
+      "section_path": "证券期货业信息系统备份能力规范",
+      "title": "证券期货业信息系统备份能力规范",
+      "level": 1,
+      "reading_guide": null,
+      "paragraphs": []
+    },
+    {
+      "section_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 1 范围",
+      "section_path": "证券期货业信息系统备份能力规范 > 1 范围",
+      "title": "1 范围",
+      "level": 2,
+      "reading_guide": {
+        "has": "适用范围/适用机构/交易所/结算公司/证券公司/基金公司/期货公司/备份能力分类/分级/建设与管理",
+        "for": [
+          "适用范围",
+          "适用机构",
+          "规范内容"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 1 范围_p0",
+          "para_index": 0,
+          "content": "本文件规定了证券期货业信息系统备份能力的分类、分级和建设与管理。\n本文件适用于交易所、结算公司、证券公司、基金公司和期货公司等证券期货业机构的信息系统备份能力规划、设计、建设和管理。",
+          "sentences": [
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 1 范围_p0_s0",
+              "text": "本文件规定了证券期货业信息系统备份能力的分类、分级和建设与管理。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 1 范围",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 1 范围_p0_s1",
+              "text": "本文件适用于交易所、结算公司、证券公司、基金公司和期货公司等证券期货业机构的信息系统备份能力规划、设计、建设和管理。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 1 范围",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 2 规范性引用文件",
+      "section_path": "证券期货业信息系统备份能力规范 > 2 规范性引用文件",
+      "title": "2 规范性引用文件",
+      "level": 2,
+      "reading_guide": {
+        "has": "GB/T 5271.8/信息技术词汇/安全, GB/T 20988/信息安全技术/信息系统灾难恢复规范",
+        "for": [
+          "标准引用",
+          "术语定义",
+          "灾备规范"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 2 规范性引用文件_p0",
+          "para_index": 0,
+          "content": "下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款。其中，注日期的引用文件，仅该日期对应的版本适用于本文件；不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。\nGB/T 5271.8 信息技术 词汇 第8部分：安全\nGB/T 20988 信息安全技术 信息系统灾难恢复规范",
+          "sentences": [
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 2 规范性引用文件_p0_s0",
+              "text": "下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 2 规范性引用文件",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 2 规范性引用文件_p0_s1",
+              "text": "其中，注日期的引用文件，仅该日期对应的版本适用于本文件；",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 2 规范性引用文件",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 2 规范性引用文件_p0_s2",
+              "text": "不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 2 规范性引用文件",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 2 规范性引用文件_p0_s3",
+              "text": "GB/T 5271.8 信息技术 词汇 第8部分：安全\nGB/T 20988 信息安全技术 信息系统灾难恢复规范",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 2 规范性引用文件",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3 术语和定义",
+      "section_path": "证券期货业信息系统备份能力规范 > 3 术语和定义",
+      "title": "3 术语和定义",
+      "level": 2,
+      "reading_guide": {
+        "has": "非实时信息系统定义，RTO指标要求不高，RPO指标要求很高，结算类系统，业务办理类系统",
+        "for": [
+          "术语定义",
+          "系统分类",
+          "RTO指标",
+          "RPO指标"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3 术语和定义_p0",
+          "para_index": 0,
+          "content": "GB/T 5271.8、GB/T 20988界定的以及下列术语和定义适用于本文件。\n非实时信息系统 non-real-time information system\n对业务连续运行要求不高的信息系统。\n注：这类系统的RTO（3.4）指标要求不高，但RPO（3.3）指标要求很高，一般要求不能丢失数据；这类系统短暂停顿或性能指标严重下降，不会对证券期货市场造成较大的影响或者损害到投资者及市场其他参与方的合法权益，如结算类、业务办理类等信息系统。",
+          "sentences": [
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3 术语和定义_p0_s0",
+              "text": "GB/T 5271.8、GB/T 20988界定的以及下列术语和定义适用于本文件。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 3 术语和定义",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3 术语和定义_p0_s1",
+              "text": "非实时信息系统 non-real-time information system\n对业务连续运行要求不高的信息系统。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 3 术语和定义",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3 术语和定义_p0_s2",
+              "text": "注：这类系统的RTO（3.4）指标要求不高，但RPO（3.3）指标要求很高，一般要求不能丢失数据；",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 3 术语和定义",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3 术语和定义_p0_s3",
+              "text": "这类系统短暂停顿或性能指标严重下降，不会对证券期货市场造成较大的影响或者损害到投资者及市场其他参与方的合法权益，如结算类、业务办理类等信息系统。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 3 术语和定义",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3.2",
+      "section_path": "证券期货业信息系统备份能力规范 > 3.2",
+      "title": "3.2",
+      "level": 2,
+      "reading_guide": {
+        "has": "实时信息系统定义,RTO指标要求,业务连续性影响,交易类系统,行情类系统",
+        "for": [
+          "系统分类",
+          "RTO指标",
+          "业务影响",
+          "定义解释"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3.2_p0",
+          "para_index": 0,
+          "content": "实时信息系统 real-time information system\n对业务连续运行要求很高的信息系统。\n注：这类系统的RTO（3.4）指标要求很高；这类系统短暂停顿或性能指标严重下降，将对证券期货市场造成较大的影响或者损害到投资者及市场其他参与方的合法权益，如交易类、行情类等信息系统。",
+          "sentences": [
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3.2_p0_s0",
+              "text": "实时信息系统 real-time information system\n对业务连续运行要求很高的信息系统。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 3.2",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3.2_p0_s1",
+              "text": "注：这类系统的RTO（3.4）指标要求很高；",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 3.2",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3.2_p0_s2",
+              "text": "这类系统短暂停顿或性能指标严重下降，将对证券期货市场造成较大的影响或者损害到投资者及市场其他参与方的合法权益，如交易类、行情类等信息系统。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 3.2",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3.3",
+      "section_path": "证券期货业信息系统备份能力规范 > 3.3",
+      "title": "3.3",
+      "level": 2,
+      "reading_guide": {
+        "has": "恢复点目标/RPO/定义/数据恢复时间点要求",
+        "for": [
+          "RPO定义",
+          "恢复时间",
+          "备份指标"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3.3_p0",
+          "para_index": 0,
+          "content": "恢复点目标 recovery point objective；RPO\n信息系统和数据必须恢复到的时间点要求。",
+          "sentences": [
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3.3_p0_s0",
+              "text": "恢复点目标 recovery point objective；",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 3.3",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3.3_p0_s1",
+              "text": "RPO\n信息系统和数据必须恢复到的时间点要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 3.3",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3.4",
+      "section_path": "证券期货业信息系统备份能力规范 > 3.4",
+      "title": "3.4",
+      "level": 2,
+      "reading_guide": {
+        "has": "恢复时间目标/RTO/定义/信息系统停顿到必须恢复的时间要求",
+        "for": [
+          "RTO定义",
+          "恢复时间",
+          "系统指标"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3.4_p0",
+          "para_index": 0,
+          "content": "恢复时间目标 recovery time objective；RTO\n信息系统从停顿到必须恢复的时间要求。",
+          "sentences": [
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3.4_p0_s0",
+              "text": "恢复时间目标 recovery time objective；",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 3.4",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3.4_p0_s1",
+              "text": "RTO\n信息系统从停顿到必须恢复的时间要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 3.4",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4 备份能力",
+      "section_path": "证券期货业信息系统备份能力规范 > 4 备份能力",
+      "title": "4 备份能力",
+      "level": 2,
+      "reading_guide": {
+        "has": "数据备份能力/故障应对能力/灾难应对能力/重大灾难应对能力/存储介质/同城灾备中心/异地灾备中心",
+        "for": [
+          "能力定义",
+          "灾备类型",
+          "恢复场景",
+          "切换要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4 备份能力_p0",
+          "para_index": 0,
+          "content": "证券期货业机构信息系统备份能力分为数据备份能力、故障应对能力、灾难应对能力和重大灾难应对能力四种能力，具体如下：\n数据备份能力指证券期货业机构在发生极端网络安全事件情况下，确保数据完整、可用的能力，是应具备的基本能力。证券期货业机构应将开户、交易、行情、转账、登记、存管、结算、查询等相关业务数据和信息系统重要配置数据，备份到硬盘、磁带或光盘等存储介质中，并在安全的地点保存，以确保在发生硬件故障、软件故障、操作失误、勒索病毒、人为破坏、灾难灾害或突发公共安全事件等情况下的数据安全；\n故障应对能力指证券期货业机构在发生硬件故障、软件故障、操作失误、人为破坏等情况下，导致信息系统所支持的业务功能停顿或者性能指标严重下降时，确保信息系统及其数据能及时恢复和继续运作的能力；\nc) 灾难应对能力指证券期货业机构在发生火灾等情况下，导致信息系统严重损坏或主用数据中心不可用时，确保信息系统及其数据能及时恢复和继续运作的能力，此类情况下，通常需要切换到同城灾难备份中心或异地灾难备份中心才能恢复运行；\nd) 重大灾难应对能力指证券期货业机构在发生地震等情况下，导致信息系统所在城市或者地区电力、通信、交通严重瘫痪或人员伤亡时，确保信息系统及其数据能及时恢复和继续运作的能力，此类情况下，通常需要切换到异地灾难备份中心才能恢复运行。",
+          "sentences": [
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4 备份能力_p0_s0",
+              "text": "证券期货业机构信息系统备份能力分为数据备份能力、故障应对能力、灾难应对能力和重大灾难应对能力四种能力，具体如下：\n数据备份能力指证券期货业机构在发生极端网络安全事件情况下，确保数据完整、可用的能力，是应具备的基本能力。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 4 备份能力",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4 备份能力_p0_s1",
+              "text": "证券期货业机构应将开户、交易、行情、转账、登记、存管、结算、查询等相关业务数据和信息系统重要配置数据，备份到硬盘、磁带或光盘等存储介质中，并在安全的地点保存，以确保在发生硬件故障、软件故障、操作失误、勒索病毒、人为破坏、灾难灾害或突发公共安全事件等情况下的数据安全；",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 4 备份能力",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4 备份能力_p0_s2",
+              "text": "故障应对能力指证券期货业机构在发生硬件故障、软件故障、操作失误、人为破坏等情况下，导致信息系统所支持的业务功能停顿或者性能指标严重下降时，确保信息系统及其数据能及时恢复和继续运作的能力；",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 4 备份能力",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4 备份能力_p0_s3",
+              "text": "c) 灾难应对能力指证券期货业机构在发生火灾等情况下，导致信息系统严重损坏或主用数据中心不可用时，确保信息系统及其数据能及时恢复和继续运作的能力，此类情况下，通常需要切换到同城灾难备份中心或异地灾难备份中心才能恢复运行；",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 4 备份能力",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4 备份能力_p0_s4",
+              "text": "d) 重大灾难应对能力指证券期货业机构在发生地震等情况下，导致信息系统所在城市或者地区电力、通信、交通严重瘫痪或人员伤亡时，确保信息系统及其数据能及时恢复和继续运作的能力，此类情况下，通常需要切换到异地灾难备份中心才能恢复运行。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 4 备份能力",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4.2 备份能力分级",
+      "section_path": "证券期货业信息系统备份能力规范 > 4.2 备份能力分级",
+      "title": "4.2 备份能力分级",
+      "level": 2,
+      "reading_guide": {
+        "has": "备份能力分级/六个级别/第一级至第六级/实时信息系统/非实时信息系统/RTO/RPO/容量要求/故障应对/灾难应对",
+        "for": [
+          "分级标准",
+          "RTO指标",
+          "RPO指标",
+          "系统分类",
+          "灾备等级"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4.2 备份能力分级_p0",
+          "para_index": 0,
+          "content": "根据证券期货业机构的业务类型及相关方要求，数据备份能力从备份频率、保存方式和有效性验证频率等三个方面要求，从低到高划分为六个级别：第一级、第二级、第三级、第四级、第五级、第六级（见附录A表A.1）。\n根据证券期货业机构的业务类型及相关方要求，将信息系统分为实时信息系统和非实时信息系统。为适应行业技术发展水平和不同信息系统特点，故障应对能力、灾难应对能力和重大灾难应对能力，从恢复时间目标（RTO）、恢复点目标（RPO）和容量三个方面要求，从低到高划分为六个级别：第一级、第二级、第三级、第四级、第五级、第六级（见附录A表A.2和表A.3）。",
+          "sentences": [
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4.2 备份能力分级_p0_s0",
+              "text": "根据证券期货业机构的业务类型及相关方要求，数据备份能力从备份频率、保存方式和有效性验证频率等三个方面要求，从低到高划分为六个级别：第一级、第二级、第三级、第四级、第五级、第六级（见附录A表A.1）。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 4.2 备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4.2 备份能力分级_p0_s1",
+              "text": "根据证券期货业机构的业务类型及相关方要求，将信息系统分为实时信息系统和非实时信息系统。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 4.2 备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4.2 备份能力分级_p0_s2",
+              "text": "为适应行业技术发展水平和不同信息系统特点，故障应对能力、灾难应对能力和重大灾难应对能力，从恢复时间目标（RTO）、恢复点目标（RPO）和容量三个方面要求，从低到高划分为六个级别：第一级、第二级、第三级、第四级、第五级、第六级（见附录A表A.2和表A.3）。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 4.2 备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4.3 备份能力建设与管理",
+      "section_path": "证券期货业信息系统备份能力规范 > 4.3 备份能力建设与管理",
+      "title": "4.3 备份能力建设与管理",
+      "level": 2,
+      "reading_guide": {
+        "has": "备份能力需求确定/业务影响分析/风险评估/GB/T 20988标准/附录B指标体系",
+        "for": [
+          "建设方法",
+          "需求确定",
+          "评估依据",
+          "标准规范"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4.3 备份能力建设与管理_p0",
+          "para_index": 0,
+          "content": "证券期货业机构在进行信息系统规划、设计时，应根据相关方对信息系统备份能力级别的要求和期望，在业务影响分析和风险评估的基础上，确定信息系统备份能力建设的需求，具体备份能力指标体系可参考附录B。\n证券期货业机构建设管理信息系统备份能力的方法应符合GB/T 20988中的规定。",
+          "sentences": [
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4.3 备份能力建设与管理_p0_s0",
+              "text": "证券期货业机构在进行信息系统规划、设计时，应根据相关方对信息系统备份能力级别的要求和期望，在业务影响分析和风险评估的基础上，确定信息系统备份能力建设的需求，具体备份能力指标体系可参考附录B。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 4.3 备份能力建设与管理",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4.3 备份能力建设与管理_p0_s1",
+              "text": "证券期货业机构建设管理信息系统备份能力的方法应符合GB/T 20988中的规定。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业信息系统备份能力规范 > 4.3 备份能力建设与管理",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求",
+      "section_path": "证券期货业机构信息系统备份能力要求",
+      "title": "证券期货业机构信息系统备份能力要求",
+      "level": 1,
+      "reading_guide": null,
+      "paragraphs": []
+    },
+    {
+      "section_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级",
+      "section_path": "证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级",
+      "title": "A.1 数据备份能力分级",
+      "level": 2,
+      "reading_guide": {
+        "has": "数据备份能力分级/第一级至第六级/备份频率/每季度每月每周每天/验证周期/每年每半年每季度每月每周/本地机房异地机房",
+        "for": [
+          "备份级别",
+          "备份频率",
+          "验证周期",
+          "存储要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0",
+          "para_index": 0,
+          "content": "（规范性）\n表A.1规定了证券期货业机构数据备份能力的六个级别及其要求。\n表 A.1 证券期货业机构数据备份能力分级\n<table><tr><td>级别</td><td>数据备份能力</td></tr><tr><td>第一级</td><td>a) 每季度应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每年应至少对备份数据进行一次有效性验证。</td></tr><tr><td>第二级</td><td>a) 每月应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每年应至少对备份数据进行一次有效性验证。</td></tr><tr><td>第三级</td><td>a) 每周应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每半年应至少对备份数据进行一次有效性验证。</td></tr><tr><td>第四级</td><td>a) 每天应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每季度应至少对备份数据进行一次有效性验证。</td></tr><tr><td>第五级</td><td>a) 每天应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每月应至少对备份数据进行一次有效性验证。</td></tr><tr><td>第六级</td><td>a) 每天应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每周应至少对备份数据进行一次有效性验证。</td></tr></table>",
+          "sentences": [
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+              "text": "（规范性）\n表A.1规定了证券期货业机构数据备份能力的六个级别及其要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s1",
+              "text": "表 A.1 证券期货业机构数据备份能力分级\n<table><tr><td>级别</td><td>数据备份能力</td></tr><tr><td>第一级</td><td>a) 每季度应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每年应至少对备份数据进行一次有效性验证。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s2",
+              "text": "</td></tr><tr><td>第二级</td><td>a) 每月应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每年应至少对备份数据进行一次有效性验证。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s3",
+              "text": "</td></tr><tr><td>第三级</td><td>a) 每周应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每半年应至少对备份数据进行一次有效性验证。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s4",
+              "text": "</td></tr><tr><td>第四级</td><td>a) 每天应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每季度应至少对备份数据进行一次有效性验证。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s5",
+              "text": "</td></tr><tr><td>第五级</td><td>a) 每天应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每月应至少对备份数据进行一次有效性验证。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s6",
+              "text": "</td></tr><tr><td>第六级</td><td>a) 每天应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每周应至少对备份数据进行一次有效性验证。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s7",
+              "text": "</td></tr></table>",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+      "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+      "title": "A.2 实时信息系统备份能力分级",
+      "level": 2,
+      "reading_guide": {
+        "has": "实时信息系统备份能力分级/故障应对能力/灾难应对能力/重大灾难应对能力/RTO指标/RPO指标/容量要求/第一级至第六级",
+        "for": [
+          "备份分级",
+          "RTO标准",
+          "RPO标准",
+          "灾备能力",
+          "系统等级"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0",
+          "para_index": 0,
+          "content": "表A.2规定了证券期货业机构实时信息系统的故障应对能力、灾难应对能力和重大灾难应对能力的六个级别及其要求。\n表 A.2 证券期货业机构实时信息系统备份能力分级\n<table><tr><td>级别</td><td>故障应对能力</td><td>灾难应对能力</td><td>重大灾难应对能力</td></tr><tr><td>第一级</td><td>RTO≤4小时;RPO≤5分钟;容量应满足业务要求。</td><td>RTO≤24小时;RPO≤5分钟;容量应满足业务要求。</td><td>RTO≤7天;RPO≤24小时;容量应满足业务要求。</td></tr><tr><td>第二级</td><td>RTO≤2小时;RPO≤5分钟;容量应满足业务要求。</td><td>RTO≤12小时;RPO≤5分钟;容量应满足业务要求。</td><td>RTO≤3天;RPO≤24小时;容量应满足业务要求。</td></tr><tr><td>第三级</td><td>RTO≤1小时;RPO≤5分钟;容量应满足业务要求。</td><td>RTO≤2小时;RPO≤5分钟;容量应满足业务要求。</td><td>RTO≤1天;RPO≤12小时;容量应满足业务要求。</td></tr><tr><td>第四级</td><td>RTO≤30分钟;RPO≤1分钟;容量应满足业务要求。</td><td>RTO≤1小时;RPO≤1分钟;容量应满足业务要求。</td><td>RTO≤4小时;RPO≤30分钟;容量应满足业务要求。</td></tr><tr><td>第五级</td><td>RTO≤5分钟;RPO≤30秒;容量应满足业务要求。</td><td>RTO≤10分钟;RPO≤30秒;容量应满足业务要求。</td><td>RTO≤2小时;RPO≤15分钟;容量应满足业务要求。</td></tr><tr><td>第六级</td><td>RTO≤1分钟;RPO≤1秒;容量应满足业务要求。</td><td>RTO≤3分钟;RPO≤10秒;容量应满足业务要求。</td><td>RTO≤30分钟;RPO≤5分钟;容量应满足业务要求。</td></tr></table>",
+          "sentences": [
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+              "text": "表A.2规定了证券期货业机构实时信息系统的故障应对能力、灾难应对能力和重大灾难应对能力的六个级别及其要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s1",
+              "text": "表 A.2 证券期货业机构实时信息系统备份能力分级\n<table><tr><td>级别</td><td>故障应对能力</td><td>灾难应对能力</td><td>重大灾难应对能力</td></tr><tr><td>第一级</td><td>RTO≤4小时;RPO≤5分钟;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s2",
+              "text": "</td><td>RTO≤24小时;RPO≤5分钟;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s3",
+              "text": "</td><td>RTO≤7天;RPO≤24小时;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s4",
+              "text": "</td></tr><tr><td>第二级</td><td>RTO≤2小时;RPO≤5分钟;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s5",
+              "text": "</td><td>RTO≤12小时;RPO≤5分钟;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s6",
+              "text": "</td><td>RTO≤3天;RPO≤24小时;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s7",
+              "text": "</td></tr><tr><td>第三级</td><td>RTO≤1小时;RPO≤5分钟;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s8",
+              "text": "</td><td>RTO≤2小时;RPO≤5分钟;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s9",
+              "text": "</td><td>RTO≤1天;RPO≤12小时;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s10",
+              "text": "</td></tr><tr><td>第四级</td><td>RTO≤30分钟;RPO≤1分钟;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s11",
+              "text": "</td><td>RTO≤1小时;RPO≤1分钟;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s12",
+              "text": "</td><td>RTO≤4小时;RPO≤30分钟;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s13",
+              "text": "</td></tr><tr><td>第五级</td><td>RTO≤5分钟;RPO≤30秒;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s14",
+              "text": "</td><td>RTO≤10分钟;RPO≤30秒;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s15",
+              "text": "</td><td>RTO≤2小时;RPO≤15分钟;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s16",
+              "text": "</td></tr><tr><td>第六级</td><td>RTO≤1分钟;RPO≤1秒;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s17",
+              "text": "</td><td>RTO≤3分钟;RPO≤10秒;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 17
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s18",
+              "text": "</td><td>RTO≤30分钟;RPO≤5分钟;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 18
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s19",
+              "text": "</td></tr></table>",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 19
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+      "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+      "title": "A.3 非实时信息系统备份能力分级",
+      "level": 2,
+      "reading_guide": {
+        "has": "非实时信息系统备份能力分级/第一级至第六级/RTO指标/RPO指标/故障应对能力/灾难应对能力/重大灾难应对能力/容量要求",
+        "for": [
+          "备份等级",
+          "RTO要求",
+          "RPO标准",
+          "灾备能力",
+          "恢复时间"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0",
+          "para_index": 0,
+          "content": "表A.3规定了证券期货业机构非实时信息系统的故障应对能力、灾难应对能力和重大灾难应对能力的六个级别及其要求。\n表 A.3 证券期货业机构非实时信息系统备份能力分级\n<table><tr><td>级别</td><td>故障应对能力</td><td>灾难应对能力</td><td>重大灾难应对能力</td></tr><tr><td>第一级</td><td>RTO≤6小时;RPO≤5分钟;容量应满足业务要求。</td><td>RTO≤24小时;RPO≤5分钟;容量应满足业务要求。</td><td>RTO≤7天;RPO≤24小时;容量应满足业务要求。</td></tr><tr><td>第二级</td><td>RTO≤4小时;RPO≤5分钟;容量应满足业务要求。</td><td>RTO≤12小时;RPO≤5分钟;容量应满足业务要求。</td><td>RTO≤3天;RPO≤24小时;容量应满足业务要求。</td></tr><tr><td>第三级</td><td>RTO≤2小时;RPO≤1分钟;容量应满足业务要求。</td><td>RTO≤6小时;RPO≤1分钟;容量应满足业务要求。</td><td>RTO≤1天;RPO≤12小时;容量应满足业务要求。</td></tr><tr><td>第四级</td><td>RTO≤1小时;RPO=0秒;容量应满足业务要求。</td><td>RTO≤3小时;RPO≤1秒;容量应满足业务要求。</td><td>RTO≤6小时;RPO≤30分钟;容量应满足业务要求。</td></tr><tr><td>第五级</td><td>RTO≤30分钟;RPO=0秒;容量应满足业务要求。</td><td>RTO≤1小时;RPO≤1秒;容量应满足业务要求。</td><td>RTO≤4小时;RPO≤15分钟;容量应满足业务要求。</td></tr><tr><td>第六级</td><td>RTO≤5分钟;RPO=0秒;容量应满足业务要求。</td><td>RTO≤30分钟;RPO≤1秒;容量应满足业务要求。</td><td>RTO≤30分钟;RPO≤30秒;容量应满足业务要求。</td></tr></table>",
+          "sentences": [
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+              "text": "表A.3规定了证券期货业机构非实时信息系统的故障应对能力、灾难应对能力和重大灾难应对能力的六个级别及其要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s1",
+              "text": "表 A.3 证券期货业机构非实时信息系统备份能力分级\n<table><tr><td>级别</td><td>故障应对能力</td><td>灾难应对能力</td><td>重大灾难应对能力</td></tr><tr><td>第一级</td><td>RTO≤6小时;RPO≤5分钟;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s2",
+              "text": "</td><td>RTO≤24小时;RPO≤5分钟;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s3",
+              "text": "</td><td>RTO≤7天;RPO≤24小时;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s4",
+              "text": "</td></tr><tr><td>第二级</td><td>RTO≤4小时;RPO≤5分钟;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s5",
+              "text": "</td><td>RTO≤12小时;RPO≤5分钟;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s6",
+              "text": "</td><td>RTO≤3天;RPO≤24小时;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s7",
+              "text": "</td></tr><tr><td>第三级</td><td>RTO≤2小时;RPO≤1分钟;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s8",
+              "text": "</td><td>RTO≤6小时;RPO≤1分钟;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s9",
+              "text": "</td><td>RTO≤1天;RPO≤12小时;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s10",
+              "text": "</td></tr><tr><td>第四级</td><td>RTO≤1小时;RPO=0秒;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s11",
+              "text": "</td><td>RTO≤3小时;RPO≤1秒;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s12",
+              "text": "</td><td>RTO≤6小时;RPO≤30分钟;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s13",
+              "text": "</td></tr><tr><td>第五级</td><td>RTO≤30分钟;RPO=0秒;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s14",
+              "text": "</td><td>RTO≤1小时;RPO≤1秒;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s15",
+              "text": "</td><td>RTO≤4小时;RPO≤15分钟;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s16",
+              "text": "</td></tr><tr><td>第六级</td><td>RTO≤5分钟;RPO=0秒;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s17",
+              "text": "</td><td>RTO≤30分钟;RPO≤1秒;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 17
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s18",
+              "text": "</td><td>RTO≤30分钟;RPO≤30秒;容量应满足业务要求。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 18
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s19",
+              "text": "</td></tr></table>",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+                "paragraph_index": 0,
+                "sentence_index": 19
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B",
+      "section_path": "证券期货业机构信息系统备份能力要求 > 附 录 B",
+      "title": "附 录 B",
+      "level": 2,
+      "reading_guide": {
+        "has": "表B.1/信息系统类型/数据备份能力等级/故障应对能力等级/灾难应对能力等级/重大灾难应对能力等级/交易所交易系统/证券公司交易系统/基金公司交易系统/期货公司",
+        "for": [
+          "备份能力",
+          "灾备等级",
+          "系统对比",
+          "机构类型",
+          "应急能力"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0",
+          "para_index": 0,
+          "content": "（资料性）\n证券期货业机构信息系统备份能力示例\n表B.1示例说明某个时期证券期货业机构典型信息系统的备份能力。\n表 B.1 证券期货业机构信息系统备份能力示例\n<table><tr><td>信息系统类型</td><td>数据备份能力</td><td>故障应对能力</td><td>灾难应对能力</td><td>重大灾难应对能力</td></tr><tr><td>某交易所集中竞价交易系统</td><td>第六级</td><td>第六级</td><td>第六级</td><td>第二级</td></tr><tr><td>某大型证券公司A交易系统</td><td>第四级</td><td>第五级</td><td>第五级</td><td>第二级</td></tr><tr><td>某大型证券公司B交易系统</td><td>第四级</td><td>第五级</td><td>第二级</td><td>第一级</td></tr><tr><td>某小型证券公司交易系统</td><td>第四级</td><td>第五级</td><td>-</td><td>第六级</td></tr><tr><td>某大型基金公司交易系统</td><td>第四级</td><td>第五级</td><td>第二级</td><td>第一级</td></tr><tr><td>某小型基金公司交易系统</td><td>第四级</td><td>第五级</td><td>-</td><td>第六级</td></tr><tr><td>某大型期货公司交易系统</td><td>第四级</td><td>第五级</td><td>-</td><td>第四级</td></tr><tr><td>某小型期货公司交易系统</td><td>第四级</td><td>第四级</td><td>-</td><td>第四级</td></tr><tr><td>某结算公司结算系统</td><td>第六级</td><td>第四级</td><td>第四级</td><td>第二级</td></tr></table>",
+          "sentences": [
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0",
+              "text": "（资料性）\n证券期货业机构信息系统备份能力示例\n表B.1示例说明某个时期证券期货业机构典型信息系统的备份能力。",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > 附 录 B",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s1",
+              "text": "表 B.1 证券期货业机构信息系统备份能力示例\n<table><tr><td>信息系统类型</td><td>数据备份能力</td><td>故障应对能力</td><td>灾难应对能力</td><td>重大灾难应对能力</td></tr><tr><td>某交易所集中竞价交易系统</td><td>第六级</td><td>第六级</td><td>第六级</td><td>第二级</td></tr><tr><td>某大型证券公司A交易系统</td><td>第四级</td><td>第五级</td><td>第五级</td><td>第二级</td></tr><tr><td>某大型证券公司B交易系统</td><td>第四级</td><td>第五级</td><td>第二级</td><td>第一级</td></tr><tr><td>某小型证券公司交易系统</td><td>第四级</td><td>第五级</td><td>-</td><td>第六级</td></tr><tr><td>某大型基金公司交易系统</td><td>第四级</td><td>第五级</td><td>第二级</td><td>第一级</td></tr><tr><td>某小型基金公司交易系统</td><td>第四级</td><td>第五级</td><td>-</td><td>第六级</td></tr><tr><td>某大型期货公司交易系统</td><td>第四级</td><td>第五级</td><td>-</td><td>第四级</td></tr><tr><td>某小型期货公司交易系统</td><td>第四级</td><td>第四级</td><td>-</td><td>第四级</td></tr><tr><td>某结算公司结算系统</td><td>第六级</td><td>第四级</td><td>第四级</td><td>第二级</td></tr></table>",
+              "location": {
+                "doc_id": "doc_55a4ef82468c",
+                "section_path": "证券期货业机构信息系统备份能力要求 > 附 录 B",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_365a5cc7354d",
+      "entity_type": "LegalDocument",
+      "mention": "JR/T 0059—2024",
+      "canonical_name": "JR/T 0059—2024",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#中 华 人 民 共 和 国 金 融 行 业 标 准_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#中 华 人 民 共 和 国 金 融 行 业 标 准_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ecc790f67a38",
+      "entity_type": "Date",
+      "mention": "2024-12-24",
+      "canonical_name": "2024-12-24",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#中 华 人 民 共 和 国 金 融 行 业 标 准_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#中 华 人 民 共 和 国 金 融 行 业 标 准_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8fdba2340270",
+      "entity_type": "LegalDocument",
+      "mention": "JR/T 0059—2010",
+      "canonical_name": "JR/T 0059—2010",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#中 华 人 民 共 和 国 金 融 行 业 标 准_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#中 华 人 民 共 和 国 金 融 行 业 标 准_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_380265505146",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 1.1—2020",
+      "canonical_name": "GB/T 1.1—2020",
+      "attributes": {
+        "full_title": "标准化工作导则 第1部分：标准化文件的结构和起草规则"
+      },
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ef24a3a9fbb3",
+      "entity_type": "LegalDocument",
+      "mention": "《证券期货经营机构信息系统备份能力标准》",
+      "canonical_name": "证券期货经营机构信息系统备份能力标准",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s1",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1562404229e0",
+      "entity_type": "LegalDocument",
+      "mention": "“证券期货业信息系统备份能力规范”",
+      "canonical_name": "证券期货业信息系统备份能力规范",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s1",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c1c4e1feedef",
+      "entity_type": "Industry",
+      "mention": "证券期货业",
+      "canonical_name": "证券期货业",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s2",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4921a1760bea",
+      "entity_type": "Organization",
+      "mention": "全国金融标准化技术委员会证券分技术委员会",
+      "canonical_name": "全国金融标准化技术委员会证券分技术委员会",
+      "attributes": {
+        "code": "SAC/TC 180/SC4"
+      },
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s7",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s7"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_27641a9322c6",
+      "entity_type": "Organization",
+      "mention": "全国金融标准化技术委员会",
+      "canonical_name": "全国金融标准化技术委员会",
+      "attributes": {
+        "code": "SAC/TC 180"
+      },
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s8",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s8"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6575f1dfb321",
+      "entity_type": "Organization",
+      "mention": "深圳证券通信有限公司",
+      "canonical_name": "深圳证券通信有限公司",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_36e9c92e0ca2",
+      "entity_type": "Organization",
+      "mention": "深圳证券交易所",
+      "canonical_name": "深圳证券交易所",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_33e1d87fa076",
+      "entity_type": "Organization",
+      "mention": "上海证券交易所",
+      "canonical_name": "上海证券交易所",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_28cfe5edbde1",
+      "entity_type": "Organization",
+      "mention": "中国银河证券股份有限公司",
+      "canonical_name": "中国银河证券股份有限公司",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_af8dedaa11ca",
+      "entity_type": "Organization",
+      "mention": "中证信息技术服务有限责任公司",
+      "canonical_name": "中证信息技术服务有限责任公司",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_12a11cd634a1",
+      "entity_type": "Organization",
+      "mention": "大连商品交易所",
+      "canonical_name": "大连商品交易所",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_911ef23fbca5",
+      "entity_type": "Organization",
+      "mention": "国泰君安证券股份有限公司",
+      "canonical_name": "国泰君安证券股份有限公司",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a5643ee9d15c",
+      "entity_type": "Organization",
+      "mention": "北京证券交易所",
+      "canonical_name": "北京证券交易所",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_afec3c7f6681",
+      "entity_type": "Organization",
+      "mention": "中国证券登记结算有限责任公司",
+      "canonical_name": "中国证券登记结算有限责任公司",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_86eb403c3967",
+      "entity_type": "Organization",
+      "mention": "郑州商品交易所",
+      "canonical_name": "郑州商品交易所",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_67c4e37ea942",
+      "entity_type": "Organization",
+      "mention": "长城证券股份有限公司",
+      "canonical_name": "长城证券股份有限公司",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_efab10e8f31d",
+      "entity_type": "Organization",
+      "mention": "华夏基金管理有限公司",
+      "canonical_name": "华夏基金管理有限公司",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_175e3be75ea4",
+      "entity_type": "Organization",
+      "mention": "招商期货有限公司",
+      "canonical_name": "招商期货有限公司",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e14c1d649b42",
+      "entity_type": "Person",
+      "mention": "陈友清",
+      "canonical_name": "陈友清",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5634e247fd41",
+      "entity_type": "Person",
+      "mention": "刘伟",
+      "canonical_name": "刘伟",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_62755308a74c",
+      "entity_type": "Person",
+      "mention": "喻华丽",
+      "canonical_name": "喻华丽",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_acbc50d86517",
+      "entity_type": "Person",
+      "mention": "黄锐",
+      "canonical_name": "黄锐",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_35049b172377",
+      "entity_type": "Person",
+      "mention": "谢毅",
+      "canonical_name": "谢毅",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a50622dbf81e",
+      "entity_type": "Person",
+      "mention": "唐沛来",
+      "canonical_name": "唐沛来",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_433b8ee1c936",
+      "entity_type": "Person",
+      "mention": "陈细谦",
+      "canonical_name": "陈细谦",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_08db84e4ed08",
+      "entity_type": "Person",
+      "mention": "黄韦",
+      "canonical_name": "黄韦",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_35cb0ee2175d",
+      "entity_type": "Person",
+      "mention": "强庆华",
+      "canonical_name": "强庆华",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8d87846c5635",
+      "entity_type": "Person",
+      "mention": "何飞",
+      "canonical_name": "何飞",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bfbb76234451",
+      "entity_type": "Person",
+      "mention": "王伟喜",
+      "canonical_name": "王伟喜",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_18a187c77039",
+      "entity_type": "Person",
+      "mention": "兰朝晖",
+      "canonical_name": "兰朝晖",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_406830acfa56",
+      "entity_type": "Person",
+      "mention": "桂勇",
+      "canonical_name": "桂勇",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ed41bd0d5c52",
+      "entity_type": "Person",
+      "mention": "李刚",
+      "canonical_name": "李刚",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ac23432aa4c1",
+      "entity_type": "Person",
+      "mention": "沈立强",
+      "canonical_name": "沈立强",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10",
+      "sentence_ids": [
+        "doc_55a4ef82468c#Specification of information system resilience capability for securities and futures industry > 前 言_p0_s10"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_43933ba9657f",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 5271.8",
+      "canonical_name": "GB/T 5271.8",
+      "attributes": {
+        "full_title": "信息技术 词汇 第8部分：安全"
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 2 规范性引用文件_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_93f94f57528b",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 20988",
+      "canonical_name": "GB/T 20988",
+      "attributes": {
+        "full_title": "信息安全技术 信息系统灾难恢复规范"
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 2 规范性引用文件_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_87adbf12f301",
+      "entity_type": "LegalTerm",
+      "mention": "非实时信息系统",
+      "canonical_name": "非实时信息系统",
+      "attributes": {
+        "english_term": "non-real-time information system"
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3 术语和定义_p0_s1",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3 术语和定义_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1bb9491459b0",
+      "entity_type": "LegalTerm",
+      "mention": "实时信息系统",
+      "canonical_name": "实时信息系统",
+      "attributes": {
+        "english_term": "real-time information system"
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3.2_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3.2_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_579cec9d9b0e",
+      "entity_type": "LegalTerm",
+      "mention": "RPO",
+      "canonical_name": "RPO",
+      "attributes": {
+        "full_name": "恢复点目标",
+        "definition": "信息系统和数据必须恢复到的时间点要求"
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3.3_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3.3_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_77e3717ef6e0",
+      "entity_type": "LegalTerm",
+      "mention": "RTO",
+      "canonical_name": "RTO",
+      "attributes": {
+        "full_name": "恢复时间目标",
+        "definition": "信息系统从停顿到必须恢复的时间要求"
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3.4_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 3.4_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9746e62a56b9",
+      "entity_type": "LegalTerm",
+      "mention": "数据备份能力",
+      "canonical_name": "数据备份能力",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4 备份能力_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4 备份能力_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4a1b7e193dee",
+      "entity_type": "LegalTerm",
+      "mention": "故障应对能力",
+      "canonical_name": "故障应对能力",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4 备份能力_p0_s2",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4 备份能力_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_50c234239a01",
+      "entity_type": "LegalTerm",
+      "mention": "灾难应对能力",
+      "canonical_name": "灾难应对能力",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4 备份能力_p0_s3",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4 备份能力_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0ca949167718",
+      "entity_type": "LegalTerm",
+      "mention": "重大灾难应对能力",
+      "canonical_name": "重大灾难应对能力",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4 备份能力_p0_s4",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业信息系统备份能力规范 > 4 备份能力_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3b846ac48da6",
+      "entity_type": "LegalDocument",
+      "mention": "表A.2",
+      "canonical_name": "表A.2",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1a7047e588be",
+      "entity_type": "Industry",
+      "mention": "证券期货业机构",
+      "canonical_name": "证券期货业机构",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f0ffd92c78fe",
+      "entity_type": "FinancialMetric",
+      "mention": "故障应对能力",
+      "canonical_name": "故障应对能力",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ea3eaa867242",
+      "entity_type": "FinancialMetric",
+      "mention": "灾难应对能力",
+      "canonical_name": "灾难应对能力",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d8b8048a862d",
+      "entity_type": "FinancialMetric",
+      "mention": "重大灾难应对能力",
+      "canonical_name": "重大灾难应对能力",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b379b4798009",
+      "entity_type": "LegalDocument",
+      "mention": "表A.3",
+      "canonical_name": "表A.3",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e42b1c737886",
+      "entity_type": "LegalDocument",
+      "mention": "表B.1",
+      "canonical_name": "表B.1",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e37977c68b06",
+      "entity_type": "Organization",
+      "mention": "某交易所集中竞价交易系统",
+      "canonical_name": "某交易所集中竞价交易系统",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s1",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6ea6872d55fc",
+      "entity_type": "Organization",
+      "mention": "某大型证券公司A交易系统",
+      "canonical_name": "某大型证券公司A交易系统",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s1",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7c8abac4a54e",
+      "entity_type": "Organization",
+      "mention": "某大型证券公司B交易系统",
+      "canonical_name": "某大型证券公司B交易系统",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s1",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fada933446fc",
+      "entity_type": "Organization",
+      "mention": "某小型证券公司交易系统",
+      "canonical_name": "某小型证券公司交易系统",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s1",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1f4318e83fa3",
+      "entity_type": "Organization",
+      "mention": "某大型基金公司交易系统",
+      "canonical_name": "某大型基金公司交易系统",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s1",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c185f28b849e",
+      "entity_type": "Organization",
+      "mention": "某小型基金公司交易系统",
+      "canonical_name": "某小型基金公司交易系统",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s1",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f66250e61f73",
+      "entity_type": "Organization",
+      "mention": "某大型期货公司交易系统",
+      "canonical_name": "某大型期货公司交易系统",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s1",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3afd16ea9576",
+      "entity_type": "Organization",
+      "mention": "某小型期货公司交易系统",
+      "canonical_name": "某小型期货公司交易系统",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s1",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cf6a0d803154",
+      "entity_type": "Organization",
+      "mention": "某结算公司结算系统",
+      "canonical_name": "某结算公司结算系统",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s1",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a89e0b015ff1",
+      "entity_type": "",
+      "mention": "第一级",
+      "canonical_name": "第一级",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3b4f402dd3ce",
+      "entity_type": "",
+      "mention": "a) 每季度应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每年应至少对备份数据进行一次有效性验证。",
+      "canonical_name": "a) 每季度应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每年应至少对备份数据进行一次有效性验证。",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a3b4e6cb9b45",
+      "entity_type": "",
+      "mention": "第二级",
+      "canonical_name": "第二级",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_dddf5dc832aa",
+      "entity_type": "",
+      "mention": "a) 每月应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每年应至少对备份数据进行一次有效性验证。",
+      "canonical_name": "a) 每月应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每年应至少对备份数据进行一次有效性验证。",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a54baea707b3",
+      "entity_type": "",
+      "mention": "第三级",
+      "canonical_name": "第三级",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5deda6592655",
+      "entity_type": "",
+      "mention": "a) 每周应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每半年应至少对备份数据进行一次有效性验证。",
+      "canonical_name": "a) 每周应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每半年应至少对备份数据进行一次有效性验证。",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5679785b3e45",
+      "entity_type": "",
+      "mention": "第四级",
+      "canonical_name": "第四级",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_291d7e44d3ad",
+      "entity_type": "",
+      "mention": "a) 每天应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每季度应至少对备份数据进行一次有效性验证。",
+      "canonical_name": "a) 每天应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每季度应至少对备份数据进行一次有效性验证。",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8cd61c46ed19",
+      "entity_type": "",
+      "mention": "第五级",
+      "canonical_name": "第五级",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b768b3ddca02",
+      "entity_type": "",
+      "mention": "a) 每天应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每月应至少对备份数据进行一次有效性验证。",
+      "canonical_name": "a) 每天应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每月应至少对备份数据进行一次有效性验证。",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_209adba231db",
+      "entity_type": "",
+      "mention": "第六级",
+      "canonical_name": "第六级",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a71854d2e380",
+      "entity_type": "",
+      "mention": "a) 每天应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每周应至少对备份数据进行一次有效性验证。",
+      "canonical_name": "a) 每天应至少备份数据一次;b) 备份介质应在本地机房和异地机房安全可靠存放;c) 每周应至少对备份数据进行一次有效性验证。",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_03fe3fd83923",
+      "entity_type": "",
+      "mention": "级别",
+      "canonical_name": "级别",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2654e060c2f1",
+      "entity_type": "",
+      "mention": "数据备份能力",
+      "canonical_name": "数据备份能力",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.1 数据备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_022fed3f6a41",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤4小时;RPO≤5分钟;容量应满足业务要求。",
+      "canonical_name": "RTO≤4小时;RPO≤5分钟;容量应满足业务要求。",
+      "attributes": {
+        "amount": 4.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0ca96cf8cbfc",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤24小时;RPO≤5分钟;容量应满足业务要求。",
+      "canonical_name": "RTO≤24小时;RPO≤5分钟;容量应满足业务要求。",
+      "attributes": {
+        "amount": 24.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c4a1ac9a8a01",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤7天;RPO≤24小时;容量应满足业务要求。",
+      "canonical_name": "RTO≤7天;RPO≤24小时;容量应满足业务要求。",
+      "attributes": {
+        "amount": 7.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ebc7c22cb1f1",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤2小时;RPO≤5分钟;容量应满足业务要求。",
+      "canonical_name": "RTO≤2小时;RPO≤5分钟;容量应满足业务要求。",
+      "attributes": {
+        "amount": 2.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_28724fef5809",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤12小时;RPO≤5分钟;容量应满足业务要求。",
+      "canonical_name": "RTO≤12小时;RPO≤5分钟;容量应满足业务要求。",
+      "attributes": {
+        "amount": 12.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c958b533d3c4",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤3天;RPO≤24小时;容量应满足业务要求。",
+      "canonical_name": "RTO≤3天;RPO≤24小时;容量应满足业务要求。",
+      "attributes": {
+        "amount": 3.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e257efd74746",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤1小时;RPO≤5分钟;容量应满足业务要求。",
+      "canonical_name": "RTO≤1小时;RPO≤5分钟;容量应满足业务要求。",
+      "attributes": {
+        "amount": 1.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_371d6f1bc709",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤1天;RPO≤12小时;容量应满足业务要求。",
+      "canonical_name": "RTO≤1天;RPO≤12小时;容量应满足业务要求。",
+      "attributes": {
+        "amount": 1.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6e0465cb4f7e",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤30分钟;RPO≤1分钟;容量应满足业务要求。",
+      "canonical_name": "RTO≤30分钟;RPO≤1分钟;容量应满足业务要求。",
+      "attributes": {
+        "amount": 30.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2785961b8e6b",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤1小时;RPO≤1分钟;容量应满足业务要求。",
+      "canonical_name": "RTO≤1小时;RPO≤1分钟;容量应满足业务要求。",
+      "attributes": {
+        "amount": 1.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a08773a908d2",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤4小时;RPO≤30分钟;容量应满足业务要求。",
+      "canonical_name": "RTO≤4小时;RPO≤30分钟;容量应满足业务要求。",
+      "attributes": {
+        "amount": 4.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_44a9dc2405a6",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤5分钟;RPO≤30秒;容量应满足业务要求。",
+      "canonical_name": "RTO≤5分钟;RPO≤30秒;容量应满足业务要求。",
+      "attributes": {
+        "amount": 5.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f869beee1ffc",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤10分钟;RPO≤30秒;容量应满足业务要求。",
+      "canonical_name": "RTO≤10分钟;RPO≤30秒;容量应满足业务要求。",
+      "attributes": {
+        "amount": 10.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_dc97ed05221f",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤2小时;RPO≤15分钟;容量应满足业务要求。",
+      "canonical_name": "RTO≤2小时;RPO≤15分钟;容量应满足业务要求。",
+      "attributes": {
+        "amount": 2.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_76e6011c5729",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤1分钟;RPO≤1秒;容量应满足业务要求。",
+      "canonical_name": "RTO≤1分钟;RPO≤1秒;容量应满足业务要求。",
+      "attributes": {
+        "amount": 1.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9fe73bd663c8",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤3分钟;RPO≤10秒;容量应满足业务要求。",
+      "canonical_name": "RTO≤3分钟;RPO≤10秒;容量应满足业务要求。",
+      "attributes": {
+        "amount": 3.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0260e446a146",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤30分钟;RPO≤5分钟;容量应满足业务要求。",
+      "canonical_name": "RTO≤30分钟;RPO≤5分钟;容量应满足业务要求。",
+      "attributes": {
+        "amount": 30.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c22317ac487c",
+      "entity_type": "",
+      "mention": "故障应对能力",
+      "canonical_name": "故障应对能力",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_790815f8ff91",
+      "entity_type": "",
+      "mention": "灾难应对能力",
+      "canonical_name": "灾难应对能力",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_50a7b7297507",
+      "entity_type": "",
+      "mention": "重大灾难应对能力",
+      "canonical_name": "重大灾难应对能力",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7f91f8831fae",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤6小时;RPO≤5分钟;容量应满足业务要求。",
+      "canonical_name": "RTO≤6小时;RPO≤5分钟;容量应满足业务要求。",
+      "attributes": {
+        "amount": 6.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9be7f984927e",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤2小时;RPO≤1分钟;容量应满足业务要求。",
+      "canonical_name": "RTO≤2小时;RPO≤1分钟;容量应满足业务要求。",
+      "attributes": {
+        "amount": 2.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_eea3de8d17ee",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤6小时;RPO≤1分钟;容量应满足业务要求。",
+      "canonical_name": "RTO≤6小时;RPO≤1分钟;容量应满足业务要求。",
+      "attributes": {
+        "amount": 6.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ce2f6493f47e",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤1小时;RPO=0秒;容量应满足业务要求。",
+      "canonical_name": "RTO≤1小时;RPO=0秒;容量应满足业务要求。",
+      "attributes": {
+        "amount": 1.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bea9d48cc047",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤3小时;RPO≤1秒;容量应满足业务要求。",
+      "canonical_name": "RTO≤3小时;RPO≤1秒;容量应满足业务要求。",
+      "attributes": {
+        "amount": 3.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bc97c579baff",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤6小时;RPO≤30分钟;容量应满足业务要求。",
+      "canonical_name": "RTO≤6小时;RPO≤30分钟;容量应满足业务要求。",
+      "attributes": {
+        "amount": 6.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6288d0f455ac",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤30分钟;RPO=0秒;容量应满足业务要求。",
+      "canonical_name": "RTO≤30分钟;RPO=0秒;容量应满足业务要求。",
+      "attributes": {
+        "amount": 30.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9638ff31747d",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤1小时;RPO≤1秒;容量应满足业务要求。",
+      "canonical_name": "RTO≤1小时;RPO≤1秒;容量应满足业务要求。",
+      "attributes": {
+        "amount": 1.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4f8abcf9a7c0",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤4小时;RPO≤15分钟;容量应满足业务要求。",
+      "canonical_name": "RTO≤4小时;RPO≤15分钟;容量应满足业务要求。",
+      "attributes": {
+        "amount": 4.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_80b7fbc3c2d8",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤5分钟;RPO=0秒;容量应满足业务要求。",
+      "canonical_name": "RTO≤5分钟;RPO=0秒;容量应满足业务要求。",
+      "attributes": {
+        "amount": 5.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_64cd405addc7",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤30分钟;RPO≤1秒;容量应满足业务要求。",
+      "canonical_name": "RTO≤30分钟;RPO≤1秒;容量应满足业务要求。",
+      "attributes": {
+        "amount": 30.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9df9e67f624b",
+      "entity_type": "MonetaryAmount",
+      "mention": "RTO≤30分钟;RPO≤30秒;容量应满足业务要求。",
+      "canonical_name": "RTO≤30分钟;RPO≤30秒;容量应满足业务要求。",
+      "attributes": {
+        "amount": 30.0
+      },
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3175e891cb21",
+      "entity_type": "",
+      "mention": "某交易所集中竞价交易系统",
+      "canonical_name": "某交易所集中竞价交易系统",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_421776c551da",
+      "entity_type": "",
+      "mention": "某大型证券公司A交易系统",
+      "canonical_name": "某大型证券公司A交易系统",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4248961f02fe",
+      "entity_type": "",
+      "mention": "某大型证券公司B交易系统",
+      "canonical_name": "某大型证券公司B交易系统",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4b8912c58f05",
+      "entity_type": "",
+      "mention": "某小型证券公司交易系统",
+      "canonical_name": "某小型证券公司交易系统",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0d40f9adf53f",
+      "entity_type": "",
+      "mention": "-",
+      "canonical_name": "-",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c3672a8515c0",
+      "entity_type": "",
+      "mention": "某大型基金公司交易系统",
+      "canonical_name": "某大型基金公司交易系统",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d85282617bf2",
+      "entity_type": "",
+      "mention": "某小型基金公司交易系统",
+      "canonical_name": "某小型基金公司交易系统",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7e594f2d8153",
+      "entity_type": "",
+      "mention": "某大型期货公司交易系统",
+      "canonical_name": "某大型期货公司交易系统",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c16244efbcbb",
+      "entity_type": "",
+      "mention": "某小型期货公司交易系统",
+      "canonical_name": "某小型期货公司交易系统",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_742e9e63e9b9",
+      "entity_type": "",
+      "mention": "某结算公司结算系统",
+      "canonical_name": "某结算公司结算系统",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_178fcb3e8976",
+      "entity_type": "",
+      "mention": "信息系统类型",
+      "canonical_name": "信息系统类型",
+      "attributes": {},
+      "sentence_id": "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0",
+      "sentence_ids": [
+        "doc_55a4ef82468c#证券期货业机构信息系统备份能力要求 > 附 录 B_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_2cdae359c9fc_rel_991950a5842e",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_365a5cc7354d",
+      "tail_entity_id": "ent_380265505146",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_55a4ef82468c",
+        "section_path": "Specification of information system resilience capability for securities and futures industry > 前 言",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_2cdae359c9fc_rel_5716162b2eea",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_365a5cc7354d",
+      "tail_entity_id": "ent_8fdba2340270",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_55a4ef82468c",
+        "section_path": "Specification of information system resilience capability for securities and futures industry > 前 言",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_2cdae359c9fc_rel_4f7b4bb93aae",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_365a5cc7354d",
+      "tail_entity_id": "ent_43933ba9657f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_55a4ef82468c",
+        "section_path": "证券期货业信息系统备份能力规范 > 2 规范性引用文件",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_2cdae359c9fc_rel_262107f01aee",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_365a5cc7354d",
+      "tail_entity_id": "ent_93f94f57528b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_55a4ef82468c",
+        "section_path": "证券期货业信息系统备份能力规范 > 2 规范性引用文件",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_2cdae359c9fc_rel_f8e357d01e2d",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_365a5cc7354d",
+      "tail_entity_id": "ent_87adbf12f301",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_55a4ef82468c",
+        "section_path": "证券期货业信息系统备份能力规范 > 3 术语和定义",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_2cdae359c9fc_rel_e9041c0988ea",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_365a5cc7354d",
+      "tail_entity_id": "ent_1bb9491459b0",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_55a4ef82468c",
+        "section_path": "证券期货业信息系统备份能力规范 > 3.2",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_2cdae359c9fc_rel_2dfbff825ddb",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_365a5cc7354d",
+      "tail_entity_id": "ent_579cec9d9b0e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_55a4ef82468c",
+        "section_path": "证券期货业信息系统备份能力规范 > 3.3",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_2cdae359c9fc_rel_8c810dbe7c0d",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_365a5cc7354d",
+      "tail_entity_id": "ent_77e3717ef6e0",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_55a4ef82468c",
+        "section_path": "证券期货业信息系统备份能力规范 > 3.4",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_2cdae359c9fc_rel_a6a1c0b55b3a",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_365a5cc7354d",
+      "tail_entity_id": "ent_9746e62a56b9",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_55a4ef82468c",
+        "section_path": "证券期货业信息系统备份能力规范 > 4 备份能力",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_2cdae359c9fc_rel_98f79616ed44",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_365a5cc7354d",
+      "tail_entity_id": "ent_4a1b7e193dee",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_55a4ef82468c",
+        "section_path": "证券期货业信息系统备份能力规范 > 4 备份能力",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_2cdae359c9fc_rel_48352cce761c",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_365a5cc7354d",
+      "tail_entity_id": "ent_50c234239a01",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_55a4ef82468c",
+        "section_path": "证券期货业信息系统备份能力规范 > 4 备份能力",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_2cdae359c9fc_rel_d6e4a9f22384",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_365a5cc7354d",
+      "tail_entity_id": "ent_0ca949167718",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_55a4ef82468c",
+        "section_path": "证券期货业信息系统备份能力规范 > 4 备份能力",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_2cdae359c9fc_rel_bf221650e5a4",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_365a5cc7354d",
+      "tail_entity_id": "ent_93f94f57528b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_55a4ef82468c",
+        "section_path": "证券期货业信息系统备份能力规范 > 4.3 备份能力建设与管理",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_79d3f5ebb175_rel_723de9e05de4",
+      "relation_type": "analyzes_industry",
+      "head_entity_id": "ent_3b846ac48da6",
+      "tail_entity_id": "ent_1a7047e588be",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_55a4ef82468c",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_79d3f5ebb175_rel_298960746755",
+      "relation_type": "analyzes_industry",
+      "head_entity_id": "ent_b379b4798009",
+      "tail_entity_id": "ent_1a7047e588be",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_55a4ef82468c",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_79d3f5ebb175_rel_a8881e959501",
+      "relation_type": "analyzes_industry",
+      "head_entity_id": "ent_e42b1c737886",
+      "tail_entity_id": "ent_1a7047e588be",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_55a4ef82468c",
+        "section_path": "证券期货业机构信息系统备份能力要求 > 附 录 B",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_1ea7d0803f59",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a89e0b015ff1",
+      "tail_entity_id": "ent_022fed3f6a41",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          0,
+          1
+        ],
+        "label_cell": [
+          0,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_9945e30ea9ca",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_c22317ac487c",
+      "tail_entity_id": "ent_022fed3f6a41",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          0,
+          1
+        ],
+        "header_col": 1
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_2b0f0eb8aeda",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a89e0b015ff1",
+      "tail_entity_id": "ent_0ca96cf8cbfc",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          0,
+          2
+        ],
+        "label_cell": [
+          0,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_d3bdaa8b5d16",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_790815f8ff91",
+      "tail_entity_id": "ent_0ca96cf8cbfc",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          0,
+          2
+        ],
+        "header_col": 2
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_b720c32bb644",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a89e0b015ff1",
+      "tail_entity_id": "ent_c4a1ac9a8a01",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          0,
+          3
+        ],
+        "label_cell": [
+          0,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_74d4acefabb0",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_50a7b7297507",
+      "tail_entity_id": "ent_c4a1ac9a8a01",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          0,
+          3
+        ],
+        "header_col": 3
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_9f5dfbca9687",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a3b4e6cb9b45",
+      "tail_entity_id": "ent_ebc7c22cb1f1",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          1,
+          1
+        ],
+        "label_cell": [
+          1,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_d76a8364fc2d",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_c22317ac487c",
+      "tail_entity_id": "ent_ebc7c22cb1f1",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          1,
+          1
+        ],
+        "header_col": 1
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_b74a2d8bfeab",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a3b4e6cb9b45",
+      "tail_entity_id": "ent_28724fef5809",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          1,
+          2
+        ],
+        "label_cell": [
+          1,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_0fed441b3e5c",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_790815f8ff91",
+      "tail_entity_id": "ent_28724fef5809",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          1,
+          2
+        ],
+        "header_col": 2
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_d58c6b4492e4",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a3b4e6cb9b45",
+      "tail_entity_id": "ent_c958b533d3c4",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          1,
+          3
+        ],
+        "label_cell": [
+          1,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_225003d8279f",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_50a7b7297507",
+      "tail_entity_id": "ent_c958b533d3c4",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          1,
+          3
+        ],
+        "header_col": 3
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_0c11bb205f5b",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a54baea707b3",
+      "tail_entity_id": "ent_e257efd74746",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          2,
+          1
+        ],
+        "label_cell": [
+          2,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_aaa4408518d8",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_c22317ac487c",
+      "tail_entity_id": "ent_e257efd74746",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          2,
+          1
+        ],
+        "header_col": 1
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_0bb9cdaee352",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a54baea707b3",
+      "tail_entity_id": "ent_ebc7c22cb1f1",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          2,
+          2
+        ],
+        "label_cell": [
+          2,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_dbfbc087209e",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_790815f8ff91",
+      "tail_entity_id": "ent_ebc7c22cb1f1",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          2,
+          2
+        ],
+        "header_col": 2
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_0f30c613bdf7",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a54baea707b3",
+      "tail_entity_id": "ent_371d6f1bc709",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          2,
+          3
+        ],
+        "label_cell": [
+          2,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_e86db1b40e75",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_50a7b7297507",
+      "tail_entity_id": "ent_371d6f1bc709",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          2,
+          3
+        ],
+        "header_col": 3
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_aea52a91ec7b",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_5679785b3e45",
+      "tail_entity_id": "ent_6e0465cb4f7e",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          3,
+          1
+        ],
+        "label_cell": [
+          3,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_567985f185ca",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_c22317ac487c",
+      "tail_entity_id": "ent_6e0465cb4f7e",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          3,
+          1
+        ],
+        "header_col": 1
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_cc3270bda5a0",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_5679785b3e45",
+      "tail_entity_id": "ent_2785961b8e6b",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          3,
+          2
+        ],
+        "label_cell": [
+          3,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_ad28f6aa808f",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_790815f8ff91",
+      "tail_entity_id": "ent_2785961b8e6b",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          3,
+          2
+        ],
+        "header_col": 2
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_f4cea54bc7f4",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_5679785b3e45",
+      "tail_entity_id": "ent_a08773a908d2",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          3,
+          3
+        ],
+        "label_cell": [
+          3,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_d36de597684a",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_50a7b7297507",
+      "tail_entity_id": "ent_a08773a908d2",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          3,
+          3
+        ],
+        "header_col": 3
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_9c1cc3b9298a",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8cd61c46ed19",
+      "tail_entity_id": "ent_44a9dc2405a6",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          4,
+          1
+        ],
+        "label_cell": [
+          4,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_44e74e179610",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_c22317ac487c",
+      "tail_entity_id": "ent_44a9dc2405a6",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          4,
+          1
+        ],
+        "header_col": 1
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_3e6bd71aea59",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8cd61c46ed19",
+      "tail_entity_id": "ent_f869beee1ffc",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          4,
+          2
+        ],
+        "label_cell": [
+          4,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_2b36bac967a2",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_790815f8ff91",
+      "tail_entity_id": "ent_f869beee1ffc",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          4,
+          2
+        ],
+        "header_col": 2
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_36cc94ebb9a1",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8cd61c46ed19",
+      "tail_entity_id": "ent_dc97ed05221f",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          4,
+          3
+        ],
+        "label_cell": [
+          4,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_5e5bf8c9fe51",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_50a7b7297507",
+      "tail_entity_id": "ent_dc97ed05221f",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          4,
+          3
+        ],
+        "header_col": 3
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_03f2f3b9fc2e",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_209adba231db",
+      "tail_entity_id": "ent_76e6011c5729",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          5,
+          1
+        ],
+        "label_cell": [
+          5,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_886065aa3b4f",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_c22317ac487c",
+      "tail_entity_id": "ent_76e6011c5729",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          5,
+          1
+        ],
+        "header_col": 1
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_a65d0a0cee73",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_209adba231db",
+      "tail_entity_id": "ent_9fe73bd663c8",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          5,
+          2
+        ],
+        "label_cell": [
+          5,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_f531e3f96184",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_790815f8ff91",
+      "tail_entity_id": "ent_9fe73bd663c8",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          5,
+          2
+        ],
+        "header_col": 2
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_bc2c9e4759fa",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_209adba231db",
+      "tail_entity_id": "ent_0260e446a146",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          5,
+          3
+        ],
+        "label_cell": [
+          5,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_dc102c69fb43_rel_aff24c9e9983",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_50a7b7297507",
+      "tail_entity_id": "ent_0260e446a146",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_0e2787359808",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.2 实时信息系统备份能力分级",
+        "value_cell": [
+          5,
+          3
+        ],
+        "header_col": 3
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_e3d2cdb3d63e",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a89e0b015ff1",
+      "tail_entity_id": "ent_7f91f8831fae",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          0,
+          1
+        ],
+        "label_cell": [
+          0,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_034d929c8aa1",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_c22317ac487c",
+      "tail_entity_id": "ent_7f91f8831fae",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          0,
+          1
+        ],
+        "header_col": 1
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_cc23602a7594",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a89e0b015ff1",
+      "tail_entity_id": "ent_0ca96cf8cbfc",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          0,
+          2
+        ],
+        "label_cell": [
+          0,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_6de8906a18ec",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_790815f8ff91",
+      "tail_entity_id": "ent_0ca96cf8cbfc",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          0,
+          2
+        ],
+        "header_col": 2
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_ed4147441a01",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a89e0b015ff1",
+      "tail_entity_id": "ent_c4a1ac9a8a01",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          0,
+          3
+        ],
+        "label_cell": [
+          0,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_a569f4ba1039",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_50a7b7297507",
+      "tail_entity_id": "ent_c4a1ac9a8a01",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          0,
+          3
+        ],
+        "header_col": 3
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_94eb3aba2326",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a3b4e6cb9b45",
+      "tail_entity_id": "ent_022fed3f6a41",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          1,
+          1
+        ],
+        "label_cell": [
+          1,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_24a21d24069a",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_c22317ac487c",
+      "tail_entity_id": "ent_022fed3f6a41",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          1,
+          1
+        ],
+        "header_col": 1
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_5c27a02bb2e5",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a3b4e6cb9b45",
+      "tail_entity_id": "ent_28724fef5809",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          1,
+          2
+        ],
+        "label_cell": [
+          1,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_94f3873bd051",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_790815f8ff91",
+      "tail_entity_id": "ent_28724fef5809",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          1,
+          2
+        ],
+        "header_col": 2
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_dacba7605238",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a3b4e6cb9b45",
+      "tail_entity_id": "ent_c958b533d3c4",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          1,
+          3
+        ],
+        "label_cell": [
+          1,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_e2779c50c089",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_50a7b7297507",
+      "tail_entity_id": "ent_c958b533d3c4",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          1,
+          3
+        ],
+        "header_col": 3
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_7f31a04bca26",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a54baea707b3",
+      "tail_entity_id": "ent_9be7f984927e",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          2,
+          1
+        ],
+        "label_cell": [
+          2,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_21e69d2d1a19",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_c22317ac487c",
+      "tail_entity_id": "ent_9be7f984927e",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          2,
+          1
+        ],
+        "header_col": 1
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_a025e1a8c17d",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a54baea707b3",
+      "tail_entity_id": "ent_eea3de8d17ee",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          2,
+          2
+        ],
+        "label_cell": [
+          2,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_36c8d5ce64ea",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_790815f8ff91",
+      "tail_entity_id": "ent_eea3de8d17ee",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          2,
+          2
+        ],
+        "header_col": 2
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_dfd16724b7e8",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a54baea707b3",
+      "tail_entity_id": "ent_371d6f1bc709",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          2,
+          3
+        ],
+        "label_cell": [
+          2,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_f179db35e9f4",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_50a7b7297507",
+      "tail_entity_id": "ent_371d6f1bc709",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          2,
+          3
+        ],
+        "header_col": 3
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_eda8f7aeae0b",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_5679785b3e45",
+      "tail_entity_id": "ent_ce2f6493f47e",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          3,
+          1
+        ],
+        "label_cell": [
+          3,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_4dc2d7b91284",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_c22317ac487c",
+      "tail_entity_id": "ent_ce2f6493f47e",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          3,
+          1
+        ],
+        "header_col": 1
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_e9ced608be90",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_5679785b3e45",
+      "tail_entity_id": "ent_bea9d48cc047",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          3,
+          2
+        ],
+        "label_cell": [
+          3,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_1901ab574a2b",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_790815f8ff91",
+      "tail_entity_id": "ent_bea9d48cc047",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          3,
+          2
+        ],
+        "header_col": 2
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_571600a5d8f4",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_5679785b3e45",
+      "tail_entity_id": "ent_bc97c579baff",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          3,
+          3
+        ],
+        "label_cell": [
+          3,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_bd8a47294ded",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_50a7b7297507",
+      "tail_entity_id": "ent_bc97c579baff",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          3,
+          3
+        ],
+        "header_col": 3
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_bc6eaf4b673f",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8cd61c46ed19",
+      "tail_entity_id": "ent_6288d0f455ac",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          4,
+          1
+        ],
+        "label_cell": [
+          4,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_1cadf7311c3d",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_c22317ac487c",
+      "tail_entity_id": "ent_6288d0f455ac",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          4,
+          1
+        ],
+        "header_col": 1
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_aba551f27ead",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8cd61c46ed19",
+      "tail_entity_id": "ent_9638ff31747d",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          4,
+          2
+        ],
+        "label_cell": [
+          4,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_a1e78e4067ca",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_790815f8ff91",
+      "tail_entity_id": "ent_9638ff31747d",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          4,
+          2
+        ],
+        "header_col": 2
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_12f99be11971",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8cd61c46ed19",
+      "tail_entity_id": "ent_4f8abcf9a7c0",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          4,
+          3
+        ],
+        "label_cell": [
+          4,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_596327767d76",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_50a7b7297507",
+      "tail_entity_id": "ent_4f8abcf9a7c0",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          4,
+          3
+        ],
+        "header_col": 3
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_465dcb7fcf73",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_209adba231db",
+      "tail_entity_id": "ent_80b7fbc3c2d8",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          5,
+          1
+        ],
+        "label_cell": [
+          5,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_5602c0678e2f",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_c22317ac487c",
+      "tail_entity_id": "ent_80b7fbc3c2d8",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          5,
+          1
+        ],
+        "header_col": 1
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_910c0859b7b4",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_209adba231db",
+      "tail_entity_id": "ent_64cd405addc7",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          5,
+          2
+        ],
+        "label_cell": [
+          5,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_bccfdb0437b8",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_790815f8ff91",
+      "tail_entity_id": "ent_64cd405addc7",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          5,
+          2
+        ],
+        "header_col": 2
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_642c4faeaccd",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_209adba231db",
+      "tail_entity_id": "ent_9df9e67f624b",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          5,
+          3
+        ],
+        "label_cell": [
+          5,
+          0
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_6ae860938784_rel_6b8bd4f0b4cb",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_50a7b7297507",
+      "tail_entity_id": "ent_9df9e67f624b",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_4ea12c565a0e",
+        "section_path": "证券期货业机构信息系统备份能力要求 > A.3 非实时信息系统备份能力分级",
+        "value_cell": [
+          5,
+          3
+        ],
+        "header_col": 3
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

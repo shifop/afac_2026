@@ -1,0 +1,717 @@
+{
+  "doc_id": "doc_9b05ded2dd3b",
+  "title": "一、修改背景",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0012_att2.md",
+  "processed_at": "2026-07-21T00:18:50.818174+00:00",
+  "structured_data": {
+    "title": "关于修改〈《上市公司证券发行注册管理办法》第九条、第十条、第十一条、第十三条、第四十条、第五十七条、第六十条有关规定的适用意见——证券期货法律适用意见第 18 号〉的决定"
+  },
+  "stats": {
+    "sections": 3,
+    "paragraphs": 3,
+    "sentences": 18,
+    "entities": 23,
+    "relations": 9,
+    "rejected": 0,
+    "llm_calls": 412,
+    "llm_tokens": 770750,
+    "elapsed_seconds": 15.58
+  },
+  "sections": [
+    {
+      "section_id": "doc_9b05ded2dd3b#一、修改背景",
+      "section_path": "一、修改背景",
+      "title": "一、修改背景",
+      "level": 1,
+      "reading_guide": {
+        "has": "2025年1月22日/中央金融办等六部门联合印发《实施方案》/允许公募基金、商业保险资金、基本养老保险基金、企（职）业年金基金、银行理财作为战略投资者参与定增/",
+        "for": [
+          "政策背景",
+          "资金来源",
+          "定增资格",
+          "法规修订"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_9b05ded2dd3b#一、修改背景_p0",
+          "para_index": 0,
+          "content": "2025 年1 月22 日，中央金融办、中国证监会、财政部、人力资源社会保障部、中国人民银行、金融监管总局联合印发《实施方案》，提出要允许公募基金、商业保险资金、基本养老保险基金、企（职）业年金基金、银行理财等作为战略投资者参与上市公司向特定对象发行股票。为贯彻落实上述政策文件要求，积极支持中长期资金入市，建立健全培育长期投资的市场生态，促进资本市场长期稳定发展，提升资本市场内在稳定性，中国证监会决定对《法律适用意见》进行修改。",
+          "sentences": [
+            {
+              "sentence_id": "doc_9b05ded2dd3b#一、修改背景_p0_s0",
+              "text": "2025 年1 月22 日，中央金融办、中国证监会、财政部、人力资源社会保障部、中国人民银行、金融监管总局联合印发《实施方案》，提出要允许公募基金、商业保险资金、基本养老保险基金、企（职）业年金基金、银行理财等作为战略投资者参与上市公司向特定对象发行股票。",
+              "location": {
+                "doc_id": "doc_9b05ded2dd3b",
+                "section_path": "一、修改背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_9b05ded2dd3b#一、修改背景_p0_s1",
+              "text": "为贯彻落实上述政策文件要求，积极支持中长期资金入市，建立健全培育长期投资的市场生态，促进资本市场长期稳定发展，提升资本市场内在稳定性，中国证监会决定对《法律适用意见》进行修改。",
+              "location": {
+                "doc_id": "doc_9b05ded2dd3b",
+                "section_path": "一、修改背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容",
+      "section_path": "一、修改背景 > 二、主要修改内容",
+      "title": "二、主要修改内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "战略投资者类型/社保基金/年金/保险资金/公募基金/银行理财/资本投资者/产业投资者/最低持股比例/5%/参与治理/提名董事/信息披露/年报披露/监管要求/股份",
+        "for": [
+          "投资者资格",
+          "持股要求",
+          "治理权利",
+          "监管红线",
+          "披露义务"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0",
+          "para_index": 0,
+          "content": "一是扩大战略投资者类型。明确全国社保基金、基本养老保险基金、企业（职业）年金基金、商业保险资金（保险公司运用保险资金自行投资或者委托关联保险资产管理机构以及作为单一投资人通过关联保险资产管理机构发行的股权投资计划投资）、公募基金、银行理财等机构投资者可以作为战略投资者，以耐心资本作为战略性资源对上市公司战略投资。同时，在规则上将该类投资者界定为资本投资者，将其他实业投资者界定为产业投资者。\n二是明确最低持股比例要求。坚持战略投资者应当持有上市公司较大比例股份，进一步明确战略投资者本次认购比例原则上不低于本次发行完成后上市公司总股本的 5%，可以根据持股比例参与上市公司治理。\n三是明确资本投资者的基本要求。在长期、较大比例持股和提名董事参与公司治理基础上，要求资本投资者应当深入了解上市公司产业发展，能够帮助上市公司引入战略性资源，或者显著改善上市公司治理和内部控制，促进上市公司市场资源整合或者增强核心竞争力。\n四是完善信息披露要求。要求上市公司在年报中披露战略资源导入和整合的落实情况和效果。\n五是进一步强化监管要求。强调战略投资者不得通过任何方式规避最低持股比例、股份锁定期要求，避免代持股份、绕道减持等违规行为，损害制度公信力。\n六是完善相关文字表述。在总结实践经验基础上，对于上位规则已有明确要求的，简化相关表述，进一步提升规则的通俗易懂。",
+          "sentences": [
+            {
+              "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s0",
+              "text": "一是扩大战略投资者类型。",
+              "location": {
+                "doc_id": "doc_9b05ded2dd3b",
+                "section_path": "一、修改背景 > 二、主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s1",
+              "text": "明确全国社保基金、基本养老保险基金、企业（职业）年金基金、商业保险资金（保险公司运用保险资金自行投资或者委托关联保险资产管理机构以及作为单一投资人通过关联保险资产管理机构发行的股权投资计划投资）、公募基金、银行理财等机构投资者可以作为战略投资者，以耐心资本作为战略性资源对上市公司战略投资。",
+              "location": {
+                "doc_id": "doc_9b05ded2dd3b",
+                "section_path": "一、修改背景 > 二、主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s2",
+              "text": "同时，在规则上将该类投资者界定为资本投资者，将其他实业投资者界定为产业投资者。",
+              "location": {
+                "doc_id": "doc_9b05ded2dd3b",
+                "section_path": "一、修改背景 > 二、主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s3",
+              "text": "二是明确最低持股比例要求。",
+              "location": {
+                "doc_id": "doc_9b05ded2dd3b",
+                "section_path": "一、修改背景 > 二、主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s4",
+              "text": "坚持战略投资者应当持有上市公司较大比例股份，进一步明确战略投资者本次认购比例原则上不低于本次发行完成后上市公司总股本的 5%，可以根据持股比例参与上市公司治理。",
+              "location": {
+                "doc_id": "doc_9b05ded2dd3b",
+                "section_path": "一、修改背景 > 二、主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s5",
+              "text": "三是明确资本投资者的基本要求。",
+              "location": {
+                "doc_id": "doc_9b05ded2dd3b",
+                "section_path": "一、修改背景 > 二、主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s6",
+              "text": "在长期、较大比例持股和提名董事参与公司治理基础上，要求资本投资者应当深入了解上市公司产业发展，能够帮助上市公司引入战略性资源，或者显著改善上市公司治理和内部控制，促进上市公司市场资源整合或者增强核心竞争力。",
+              "location": {
+                "doc_id": "doc_9b05ded2dd3b",
+                "section_path": "一、修改背景 > 二、主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s7",
+              "text": "四是完善信息披露要求。",
+              "location": {
+                "doc_id": "doc_9b05ded2dd3b",
+                "section_path": "一、修改背景 > 二、主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s8",
+              "text": "要求上市公司在年报中披露战略资源导入和整合的落实情况和效果。",
+              "location": {
+                "doc_id": "doc_9b05ded2dd3b",
+                "section_path": "一、修改背景 > 二、主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s9",
+              "text": "五是进一步强化监管要求。",
+              "location": {
+                "doc_id": "doc_9b05ded2dd3b",
+                "section_path": "一、修改背景 > 二、主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s10",
+              "text": "强调战略投资者不得通过任何方式规避最低持股比例、股份锁定期要求，避免代持股份、绕道减持等违规行为，损害制度公信力。",
+              "location": {
+                "doc_id": "doc_9b05ded2dd3b",
+                "section_path": "一、修改背景 > 二、主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s11",
+              "text": "六是完善相关文字表述。",
+              "location": {
+                "doc_id": "doc_9b05ded2dd3b",
+                "section_path": "一、修改背景 > 二、主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s12",
+              "text": "在总结实践经验基础上，对于上位规则已有明确要求的，简化相关表述，进一步提升规则的通俗易懂。",
+              "location": {
+                "doc_id": "doc_9b05ded2dd3b",
+                "section_path": "一、修改背景 > 二、主要修改内容",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_9b05ded2dd3b#一、修改背景 > 三、公开征求意见情况",
+      "section_path": "一、修改背景 > 三、公开征求意见情况",
+      "title": "三、公开征求意见情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "公开征求意见时间/2026年1月30日至3月2日/收到意见建议29条/意见处理情况",
+        "for": [
+          "征求意见",
+          "反馈数量",
+          "修改背景"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_9b05ded2dd3b#一、修改背景 > 三、公开征求意见情况_p0",
+          "para_index": 0,
+          "content": "2026 年1 月30 日至2026 年3 月2 日，修改后的《法律适用意见》向社会公开征求意见，共收到意见建议 29 条。其中，多数意见我们在起草过程中已经充分考虑。部分意见属于对规则适用的理解问题，我们将在后续执行中做好沟通解释工作。",
+          "sentences": [
+            {
+              "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 三、公开征求意见情况_p0_s0",
+              "text": "2026 年1 月30 日至2026 年3 月2 日，修改后的《法律适用意见》向社会公开征求意见，共收到意见建议 29 条。",
+              "location": {
+                "doc_id": "doc_9b05ded2dd3b",
+                "section_path": "一、修改背景 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 三、公开征求意见情况_p0_s1",
+              "text": "其中，多数意见我们在起草过程中已经充分考虑。",
+              "location": {
+                "doc_id": "doc_9b05ded2dd3b",
+                "section_path": "一、修改背景 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 三、公开征求意见情况_p0_s2",
+              "text": "部分意见属于对规则适用的理解问题，我们将在后续执行中做好沟通解释工作。",
+              "location": {
+                "doc_id": "doc_9b05ded2dd3b",
+                "section_path": "一、修改背景 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_c59b01467a9b",
+      "entity_type": "Date",
+      "mention": "2025 年 1 月 22 日",
+      "canonical_name": "2025-01-22",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景_p0_s0",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2b10bc55b582",
+      "entity_type": "Organization",
+      "mention": "中央金融办",
+      "canonical_name": "中央金融办",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景_p0_s0",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8a158227df0a",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景_p0_s0",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d3ec847ee03d",
+      "entity_type": "Organization",
+      "mention": "财政部",
+      "canonical_name": "财政部",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景_p0_s0",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b176c9058987",
+      "entity_type": "Organization",
+      "mention": "人力资源社会保障部",
+      "canonical_name": "人力资源社会保障部",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景_p0_s0",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a9b751f10bc0",
+      "entity_type": "Organization",
+      "mention": "中国人民银行",
+      "canonical_name": "中国人民银行",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景_p0_s0",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_037269f74d75",
+      "entity_type": "Organization",
+      "mention": "金融监管总局",
+      "canonical_name": "金融监管总局",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景_p0_s0",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_46dabd59e047",
+      "entity_type": "LegalDocument",
+      "mention": "《实施方案》",
+      "canonical_name": "实施方案",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景_p0_s0",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c4a2aa7512e9",
+      "entity_type": "InsuranceProduct",
+      "mention": "商业保险资金",
+      "canonical_name": "商业保险资金",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景_p0_s0",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_dc85b2ab715e",
+      "entity_type": "InsuranceProduct",
+      "mention": "基本养老保险基金",
+      "canonical_name": "基本养老保险基金",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景_p0_s0",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b05001a4f72a",
+      "entity_type": "InsuranceProduct",
+      "mention": "企（职）业年金基金",
+      "canonical_name": "企（职）业年金基金",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景_p0_s0",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c9d25bb265c0",
+      "entity_type": "InsuranceProduct",
+      "mention": "公募基金",
+      "canonical_name": "公募基金",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景_p0_s0",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f1f8e7880767",
+      "entity_type": "InsuranceProduct",
+      "mention": "银行理财",
+      "canonical_name": "银行理财",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景_p0_s0",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6d8c0cbd2bf2",
+      "entity_type": "LegalDocument",
+      "mention": "《法律适用意见》",
+      "canonical_name": "法律适用意见",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景_p0_s1",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bbedf77c035e",
+      "entity_type": "InsuranceProduct",
+      "mention": "全国社保基金",
+      "canonical_name": "全国社保基金",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s1",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_09052e970287",
+      "entity_type": "InsuranceProduct",
+      "mention": "企业（职业）年金基金",
+      "canonical_name": "企业（职业）年金基金",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s1",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_253d1a7743c6",
+      "entity_type": "InsuranceProduct",
+      "mention": "商业保险资金（保险公司运用保险资金自行投资或者委托关联保险资产管理机构以及作为单一投资人通过关联保险资产管理机构发行的股权投资计划投资）",
+      "canonical_name": "商业保险资金_保险公司投资",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s1",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8526a1eeda7e",
+      "entity_type": "",
+      "mention": "资本投资者",
+      "canonical_name": "资本投资者",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s2",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3f5c77b0504b",
+      "entity_type": "",
+      "mention": "产业投资者",
+      "canonical_name": "产业投资者",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s2",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b70c828caf27",
+      "entity_type": "Percentage",
+      "mention": "5%",
+      "canonical_name": "5%",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s4",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景 > 二、主要修改内容_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5890c6e2dd61",
+      "entity_type": "Date",
+      "mention": "2026 年 1 月 30 日",
+      "canonical_name": "2026-01-30",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2fc6fa964444",
+      "entity_type": "Date",
+      "mention": "2026 年 3 月 2 日",
+      "canonical_name": "2026-03-02",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1867bb2e93a9",
+      "entity_type": "MonetaryAmount",
+      "mention": "29 条",
+      "canonical_name": "29 条",
+      "attributes": {},
+      "sentence_id": "doc_9b05ded2dd3b#一、修改背景 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_9b05ded2dd3b#一、修改背景 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_c5289f888cd0_rel_78407783efea",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_46dabd59e047",
+      "tail_entity_id": "ent_46dabd59e047",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_9b05ded2dd3b",
+        "section_path": "一、修改背景",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c5289f888cd0_rel_840b166ab924",
+      "relation_type": "covers_risk",
+      "head_entity_id": "ent_c4a2aa7512e9",
+      "tail_entity_id": "ent_c4a2aa7512e9",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_9b05ded2dd3b",
+        "section_path": "一、修改背景",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c5289f888cd0_rel_7ff655624926",
+      "relation_type": "covers_risk",
+      "head_entity_id": "ent_dc85b2ab715e",
+      "tail_entity_id": "ent_dc85b2ab715e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_9b05ded2dd3b",
+        "section_path": "一、修改背景",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c5289f888cd0_rel_a4f70e53dd48",
+      "relation_type": "covers_risk",
+      "head_entity_id": "ent_b05001a4f72a",
+      "tail_entity_id": "ent_b05001a4f72a",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_9b05ded2dd3b",
+        "section_path": "一、修改背景",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c5289f888cd0_rel_9e7304636ea5",
+      "relation_type": "covers_risk",
+      "head_entity_id": "ent_c9d25bb265c0",
+      "tail_entity_id": "ent_c9d25bb265c0",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_9b05ded2dd3b",
+        "section_path": "一、修改背景",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c5289f888cd0_rel_930764d6f16d",
+      "relation_type": "covers_risk",
+      "head_entity_id": "ent_f1f8e7880767",
+      "tail_entity_id": "ent_f1f8e7880767",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_9b05ded2dd3b",
+        "section_path": "一、修改背景",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c5289f888cd0_rel_63422e57593c",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_6d8c0cbd2bf2",
+      "tail_entity_id": "ent_6d8c0cbd2bf2",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_9b05ded2dd3b",
+        "section_path": "一、修改背景",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c5289f888cd0_rel_d2de3189648c",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_8526a1eeda7e",
+      "tail_entity_id": "ent_8526a1eeda7e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_9b05ded2dd3b",
+        "section_path": "一、修改背景 > 二、主要修改内容",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_c5289f888cd0_rel_d00593b2218e",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_3f5c77b0504b",
+      "tail_entity_id": "ent_3f5c77b0504b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_9b05ded2dd3b",
+        "section_path": "一、修改背景 > 二、主要修改内容",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

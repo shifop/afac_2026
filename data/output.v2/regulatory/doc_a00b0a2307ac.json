@@ -1,0 +1,951 @@
+{
+  "doc_id": "doc_a00b0a2307ac",
+  "title": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0037_att2.md",
+  "processed_at": "2026-07-21T00:46:16.521901+00:00",
+  "structured_data": {
+    "title": "公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式"
+  },
+  "stats": {
+    "sections": 8,
+    "paragraphs": 8,
+    "sentences": 28,
+    "entities": 25,
+    "relations": 8,
+    "rejected": 0,
+    "llm_calls": 2005,
+    "llm_tokens": 2965237,
+    "elapsed_seconds": 18.73
+  },
+  "sections": [
+    {
+      "section_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明",
+      "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明",
+      "title": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "修订说明/制度完善/披露内容优化/针对性增强/有效性提升",
+        "for": [
+          "修订背景",
+          "政策变化",
+          "监管要求"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明_p0",
+          "para_index": 0,
+          "content": "为完善上市公司信息披露制度，优化披露内容，增强信息披露的针对性和有效性，我会对《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》作了修订。现就主要修订内容说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明_p0_s0",
+              "text": "为完善上市公司信息披露制度，优化披露内容，增强信息披露的针对性和有效性，我会对《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》作了修订。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明_p0_s1",
+              "text": "现就主要修订内容说明如下：",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 一、修订背景",
+      "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 一、修订背景",
+      "title": "一、修订背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "2021年3月新《证券法》/2021年6月规则修订/制度衔接/定期报告细化/科学性系统性优化",
+        "for": [
+          "修订背景",
+          "法规依据",
+          "政策沿革"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 一、修订背景_p0",
+          "para_index": 0,
+          "content": "2021 年 3 月，为落实新《证券法》要求，我会对《上市公司信息披露管理办法》进行了修订。为做好定期报告层面的规则衔接，2021 年 6 月对《公开发行证券的公司信息披露内容与格式准则第 3 号—半年度报告的内容与格式》进行修订了完善，将相关制度在定期报告中予以细化规定。本次对相关规则内容进行优化完善，进一步提升规则的科学性、系统性。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 一、修订背景_p0_s0",
+              "text": "2021 年 3 月，为落实新《证券法》要求，我会对《上市公司信息披露管理办法》进行了修订。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 一、修订背景_p0_s1",
+              "text": "为做好定期报告层面的规则衔接，2021 年 6 月对《公开发行证券的公司信息披露内容与格式准则第 3 号—半年度报告的内容与格式》进行修订了完善，将相关制度在定期报告中予以细化规定。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 一、修订背景_p0_s2",
+              "text": "本次对相关规则内容进行优化完善，进一步提升规则的科学性、系统性。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 二、主要修订内容",
+      "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 二、主要修订内容",
+      "title": "二、主要修订内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "股权激励/员工持股计划/股份支付影响/扣除后净利润/新增非主营业务披露/战略考虑/经营数据/可持续性/风险提示",
+        "for": [
+          "股权激励",
+          "扣非利润",
+          "新业务",
+          "风险揭示"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 二、主要修订内容_p0",
+          "para_index": 0,
+          "content": "一是为对于存在股权激励、员工持股计划的公司，其净利润可能受到股份支付的影响，为使投资者更清楚了解公司经营情况，明确此类公司可以披露扣除股份支付影响后的净利润指标。二是完善新增业务披露要求。提高重要新增非主营业务的披露要求，要求说明战略考虑、经营数据及生产经营是否具有可持续性等，并充分提示风险。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 二、主要修订内容_p0_s0",
+              "text": "一是为对于存在股权激励、员工持股计划的公司，其净利润可能受到股份支付的影响，为使投资者更清楚了解公司经营情况，明确此类公司可以披露扣除股份支付影响后的净利润指标。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 二、主要修订内容_p0_s1",
+              "text": "二是完善新增业务披露要求。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 二、主要修订内容_p0_s2",
+              "text": "提高重要新增非主营业务的披露要求，要求说明战略考虑、经营数据及生产经营是否具有可持续性等，并充分提示风险。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）减少冗余信息",
+      "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）减少冗余信息",
+      "title": "（二）减少冗余信息",
+      "level": 2,
+      "reading_guide": {
+        "has": "管理层讨论与分析顺序调整/业务与财务信息披露顺序/行业情况披露位置/股东会会议披露删除/优先股章节整合",
+        "for": [
+          "披露规则",
+          "章节调整",
+          "内容变更",
+          "格式修订"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）减少冗余信息_p0",
+          "para_index": 0,
+          "content": "第一，根据投资者阅读习惯，调整篇章布局。目前管理层讨论与分析部分依次要求披露业务与财务信息讨论分析、行业情况、业务情况。本次将顺序调整为先披露公司业务情况、行业情况，再讨论分析业务与财务信息，以更符合投资者阅读习惯。第二，删除股东会相关披露要求。鉴于董事会、股东会会议情况公司均会在临时报告中予以披露，删除关于列示董事会、股东会会议届次、召开日期及会议决议等信息。第三，整合部分章节。当前发行优先股的公司较少，将优先股相关情况整合进入股份变动及股东情况章节，不再以单独章节披露。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）减少冗余信息_p0_s0",
+              "text": "第一，根据投资者阅读习惯，调整篇章布局。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）减少冗余信息",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）减少冗余信息_p0_s1",
+              "text": "目前管理层讨论与分析部分依次要求披露业务与财务信息讨论分析、行业情况、业务情况。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）减少冗余信息",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）减少冗余信息_p0_s2",
+              "text": "本次将顺序调整为先披露公司业务情况、行业情况，再讨论分析业务与财务信息，以更符合投资者阅读习惯。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）减少冗余信息",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）减少冗余信息_p0_s3",
+              "text": "第二，删除股东会相关披露要求。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）减少冗余信息",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）减少冗余信息_p0_s4",
+              "text": "鉴于董事会、股东会会议情况公司均会在临时报告中予以披露，删除关于列示董事会、股东会会议届次、召开日期及会议决议等信息。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）减少冗余信息",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）减少冗余信息_p0_s5",
+              "text": "第三，整合部分章节。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）减少冗余信息",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）减少冗余信息_p0_s6",
+              "text": "当前发行优先股的公司较少，将优先股相关情况整合进入股份变动及股东情况章节，不再以单独章节披露。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）减少冗余信息",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容",
+      "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容",
+      "title": "（三）其他修订内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "新《公司法》调整/监事职责转审计委员会/股东大会改股东会/离任解聘统一表述/民法典“以下”含本数",
+        "for": [
+          "法规修订",
+          "治理结构",
+          "术语定义",
+          "合规变更"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0",
+          "para_index": 0,
+          "content": "根据新《公司法》，调整涉及监事、监事会相关表述，将监事会相关职责履行主体调整为审计委员会，将股东大会调整为股东会。\n为避免歧义，将《半年报准则》第二十五条中的董事“离任”和高管“解聘”统一表述为“离任”，与准则的其他条款保持一致。\n与《民法典》保持一致，明确“以下”包含本数。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s0",
+              "text": "根据新《公司法》，调整涉及监事、监事会相关表述，将监事会相关职责履行主体调整为审计委员会，将股东大会调整为股东会。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s1",
+              "text": "为避免歧义，将《半年报准则》第二十五条中的董事“离任”和高管“解聘”统一表述为“离任”，与准则的其他条款保持一致。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s2",
+              "text": "与《民法典》保持一致，明确“以下”包含本数。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 三、公开征求意见情况",
+      "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 三、公开征求意见情况",
+      "title": "三、公开征求意见情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "征求意见时间/2024年12月27日至2025年1月26日/意见数量/18条/市场态度/支持/主要建议及采纳情况",
+        "for": [
+          "修订背景",
+          "意见统计",
+          "采纳情况"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 三、公开征求意见情况_p0",
+          "para_index": 0,
+          "content": "2024 年 12 月 27 日至 2025 年 1 月 26 日，《半年报准则》向社会公开征求意见，共收到意见建议 18 条。总体看，市场对我会修订《半年报准则》表示支持，认为有助于推动提高上市公司信息披露质量。主要建议及采纳情况如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 三、公开征求意见情况_p0_s0",
+              "text": "2024 年 12 月 27 日至 2025 年 1 月 26 日，《半年报准则》向社会公开征求意见，共收到意见建议 18 条。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 三、公开征求意见情况_p0_s1",
+              "text": "总体看，市场对我会修订《半年报准则》表示支持，认为有助于推动提高上市公司信息披露质量。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 三、公开征求意见情况_p0_s2",
+              "text": "主要建议及采纳情况如下：",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （一）关于信息披露豁免",
+      "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （一）关于信息披露豁免",
+      "title": "（一）关于信息披露豁免",
+      "level": 2,
+      "reading_guide": {
+        "has": "信息披露豁免/暂缓披露/涉密信息/国家秘密/商业秘密/保密法律法规",
+        "for": [
+          "豁免条件",
+          "保密规定",
+          "披露限制"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （一）关于信息披露豁免_p0",
+          "para_index": 0,
+          "content": "有意见提出，强化对部分重点的披露，可能泄露国家秘密、商业秘密。经研究，目前已经制定了信息披露暂缓、豁免披露相关规定，上市公司可对涉密信息依规豁免披露。同时，对《年报准则》第五条表述进行优化，修改为“公司按照本准则规定披露的信息涉及国家秘密、商业秘密的，依法依规豁免披露。公司在编制和披露年度报告时应当严格遵守国家有关保密的法律法规,不得泄露国家保密信息”。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （一）关于信息披露豁免_p0_s0",
+              "text": "有意见提出，强化对部分重点的披露，可能泄露国家秘密、商业秘密。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （一）关于信息披露豁免",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （一）关于信息披露豁免_p0_s1",
+              "text": "经研究，目前已经制定了信息披露暂缓、豁免披露相关规定，上市公司可对涉密信息依规豁免披露。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （一）关于信息披露豁免",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （一）关于信息披露豁免_p0_s2",
+              "text": "同时，对《年报准则》第五条表述进行优化，修改为“公司按照本准则规定披露的信息涉及国家秘密、商业秘密的，依法依规豁免披露。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （一）关于信息披露豁免",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （一）关于信息披露豁免_p0_s3",
+              "text": "公司在编制和披露年度报告时应当严格遵守国家有关保密的法律法规,不得泄露国家保密信息”。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （一）关于信息披露豁免",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）关于环境信息披露",
+      "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）关于环境信息披露",
+      "title": "（二）关于环境信息披露",
+      "level": 2,
+      "reading_guide": {
+        "has": "环境信息依法披露管理办法/重点排污单位/上市公司及主要子公司纳入名单数量/企业名称/查询索引/可持续发展报告指引",
+        "for": [
+          "环境披露",
+          "合规要求",
+          "披露范围",
+          "数据指标"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）关于环境信息披露_p0",
+          "para_index": 0,
+          "content": "有意见提出，按照 2022 年施行的《企业环境信息依法披露管理办法》，生态环境部门确定环境信息依法披露企业名单，属于重点排污单位的企业应当列入该名单，并在生态环境部门设立的披露系统中披露环境信息报告。此外，沪深北证券交易所已制定可持续发展报告指引，符合条件的上市公司还会在可持续发展报告中披露环境信息。经研究，为做好衔接，对半年报中环境信息披露进行优化，要求披露上市公司及其主要子公司纳入环境信息依法披露企业名单中的企业数量、企业名称，并提供环境信息依法披露报告的查询索引。",
+          "sentences": [
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）关于环境信息披露_p0_s0",
+              "text": "有意见提出，按照 2022 年施行的《企业环境信息依法披露管理办法》，生态环境部门确定环境信息依法披露企业名单，属于重点排污单位的企业应当列入该名单，并在生态环境部门设立的披露系统中披露环境信息报告。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）关于环境信息披露",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）关于环境信息披露_p0_s1",
+              "text": "此外，沪深北证券交易所已制定可持续发展报告指引，符合条件的上市公司还会在可持续发展报告中披露环境信息。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）关于环境信息披露",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）关于环境信息披露_p0_s2",
+              "text": "经研究，为做好衔接，对半年报中环境信息披露进行优化，要求披露上市公司及其主要子公司纳入环境信息依法披露企业名单中的企业数量、企业名称，并提供环境信息依法披露报告的查询索引。",
+              "location": {
+                "doc_id": "doc_a00b0a2307ac",
+                "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）关于环境信息披露",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_b7ad065f1b40",
+      "entity_type": "LegalDocument",
+      "mention": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》",
+      "canonical_name": "公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b5d8cd174171",
+      "entity_type": "Date",
+      "mention": "2021 年 3 月",
+      "canonical_name": "2021-03",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 一、修订背景_p0_s0",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 一、修订背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_494d492744bb",
+      "entity_type": "LegalDocument",
+      "mention": "新《证券法》",
+      "canonical_name": "证券法",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 一、修订背景_p0_s0",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 一、修订背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_37d76bb935e9",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司信息披露管理办法》",
+      "canonical_name": "上市公司信息披露管理办法",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 一、修订背景_p0_s0",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 一、修订背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f4be33021387",
+      "entity_type": "Date",
+      "mention": "2021 年 6 月",
+      "canonical_name": "2021-06",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 一、修订背景_p0_s1",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 一、修订背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5f26ca4f1b43",
+      "entity_type": "FinancialMetric",
+      "mention": "净利润",
+      "canonical_name": "净利润",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 二、主要修订内容_p0_s0",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 二、主要修订内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6a493e6faf9c",
+      "entity_type": "LegalTerm",
+      "mention": "股份支付",
+      "canonical_name": "股份支付",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 二、主要修订内容_p0_s0",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 二、主要修订内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9b2a99114892",
+      "entity_type": "LegalTerm",
+      "mention": "扣除股份支付影响后的净利润指标",
+      "canonical_name": "扣除股份支付影响后的净利润",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 二、主要修订内容_p0_s0",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 二、主要修订内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6582635bc59c",
+      "entity_type": "LegalDocument",
+      "mention": "新《公司法》",
+      "canonical_name": "公司法",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s0",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_92702520ecd7",
+      "entity_type": "LegalTerm",
+      "mention": "监事",
+      "canonical_name": "监事",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s0",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2fdf00517a08",
+      "entity_type": "LegalTerm",
+      "mention": "监事会",
+      "canonical_name": "监事会",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s0",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5a982146ebe1",
+      "entity_type": "LegalTerm",
+      "mention": "审计委员会",
+      "canonical_name": "审计委员会",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s0",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_45d97b863625",
+      "entity_type": "LegalTerm",
+      "mention": "股东大会",
+      "canonical_name": "股东大会",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s0",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6f0d42208eb2",
+      "entity_type": "LegalTerm",
+      "mention": "股东会",
+      "canonical_name": "股东会",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s0",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_05bb28407b69",
+      "entity_type": "LegalDocument",
+      "mention": "《半年报准则》",
+      "canonical_name": "半年报准则",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s1",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c18b0f11f60f",
+      "entity_type": "LegalTerm",
+      "mention": "离任",
+      "canonical_name": "离任",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s1",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_daa06b41eeec",
+      "entity_type": "LegalTerm",
+      "mention": "解聘",
+      "canonical_name": "解聘",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s1",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_082d3c16cf17",
+      "entity_type": "LegalDocument",
+      "mention": "《民法典》",
+      "canonical_name": "民法典",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s2",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_51956babb139",
+      "entity_type": "Date",
+      "mention": "2024 年 12 月 27 日",
+      "canonical_name": "2024-12-27",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ab5628299343",
+      "entity_type": "Date",
+      "mention": "2025 年 1 月 26 日",
+      "canonical_name": "2025-01-26",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b1100e999ed9",
+      "entity_type": "MonetaryAmount",
+      "mention": "18 条",
+      "canonical_name": "18",
+      "attributes": {
+        "unit": "条"
+      },
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 三、公开征求意见情况_p0_s0",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 三、公开征求意见情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_22a72c8073f3",
+      "entity_type": "LegalDocument",
+      "mention": "《年报准则》",
+      "canonical_name": "年报准则",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （一）关于信息披露豁免_p0_s2",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （一）关于信息披露豁免_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_95ae9fffd582",
+      "entity_type": "LegalDocument",
+      "mention": "《企业环境信息依法披露管理办法》",
+      "canonical_name": "企业环境信息依法披露管理办法",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）关于环境信息披露_p0_s0",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）关于环境信息披露_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0020ffa1cca9",
+      "entity_type": "Date",
+      "mention": "2022 年",
+      "canonical_name": "2022",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）关于环境信息披露_p0_s0",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）关于环境信息披露_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0b100436fb74",
+      "entity_type": "Organization",
+      "mention": "生态环境部门",
+      "canonical_name": "生态环境部门",
+      "attributes": {},
+      "sentence_id": "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）关于环境信息披露_p0_s0",
+      "sentence_ids": [
+        "doc_a00b0a2307ac#《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）关于环境信息披露_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_a46aa4cf7392_rel_df23ea4ba5f3",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_37d76bb935e9",
+      "tail_entity_id": "ent_494d492744bb",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a00b0a2307ac",
+        "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_a46aa4cf7392_rel_22d54af67577",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_6582635bc59c",
+      "tail_entity_id": "ent_92702520ecd7",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a00b0a2307ac",
+        "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_a46aa4cf7392_rel_26ca83897d36",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_6582635bc59c",
+      "tail_entity_id": "ent_2fdf00517a08",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a00b0a2307ac",
+        "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_a46aa4cf7392_rel_4b2e713734e1",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_6582635bc59c",
+      "tail_entity_id": "ent_5a982146ebe1",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a00b0a2307ac",
+        "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_a46aa4cf7392_rel_84d6e695a6c1",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_6582635bc59c",
+      "tail_entity_id": "ent_45d97b863625",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a00b0a2307ac",
+        "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_a46aa4cf7392_rel_c34b3d3f5fc0",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_6582635bc59c",
+      "tail_entity_id": "ent_6f0d42208eb2",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a00b0a2307ac",
+        "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_a46aa4cf7392_rel_2890119ea859",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_05bb28407b69",
+      "tail_entity_id": "ent_082d3c16cf17",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a00b0a2307ac",
+        "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （三）其他修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_a46aa4cf7392_rel_657b02244e86",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_22a72c8073f3",
+      "tail_entity_id": "ent_95ae9fffd582",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_a00b0a2307ac",
+        "section_path": "《公开发行证券的公司信息披露内容与格式准则第 3 号——半年度报告的内容与格式》修订说明 > （二）关于环境信息披露",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

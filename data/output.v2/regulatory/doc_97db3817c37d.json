@@ -1,0 +1,491 @@
+{
+  "doc_id": "doc_97db3817c37d",
+  "title": "关于《监管规则适用指引— 评估类第2号》的说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0060_att2.md",
+  "processed_at": "2026-07-21T01:05:27.747605+00:00",
+  "structured_data": {
+    "title": "监管规则适用指引——评估类第 2 号"
+  },
+  "stats": {
+    "sections": 3,
+    "paragraphs": 3,
+    "sentences": 10,
+    "entities": 13,
+    "relations": 8,
+    "rejected": 0,
+    "llm_calls": 2780,
+    "llm_tokens": 4258055,
+    "elapsed_seconds": 11.92
+  },
+  "sections": [
+    {
+      "section_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明",
+      "section_path": "关于《监管规则适用指引— 评估类第2号》的说明",
+      "title": "关于《监管规则适用指引— 评估类第2号》的说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "监管规则适用指引—评估类第2号/收益法未来收益预测规范",
+        "for": [
+          "法规依据",
+          "评估指引",
+          "收益预测"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明_p0",
+          "para_index": 0,
+          "content": "为强化资本市场评估业务监管，进一步规范收益法中未来收益的预测，提升资本市场信息披露质量，我会研究制定了《监管规则适用指引——评估类第 2 号》（以下简称《评估类第2 号》）。",
+          "sentences": [
+            {
+              "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明_p0_s0",
+              "text": "为强化资本市场评估业务监管，进一步规范收益法中未来收益的预测，提升资本市场信息披露质量，我会研究制定了《监管规则适用指引——评估类第 2 号》（以下简称《评估类第2 号》）。",
+              "location": {
+                "doc_id": "doc_97db3817c37d",
+                "section_path": "关于《监管规则适用指引— 评估类第2号》的说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景",
+      "section_path": "关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景",
+      "title": "一、起草背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "收益法评估问题/折现率规范/未来收益预测/评估假设/收益期/收入成本费用/资本性支出/营运资金/监管新规背景",
+        "for": [
+          "评估背景",
+          "收益法规范",
+          "预测要素",
+          "监管依据"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0",
+          "para_index": 0,
+          "content": "资产评估机构作为资本市场重要的中介机构，在并购重组交易定价、上市公司财务信息质量等方面发挥专业把关作用。评估实务中，收益法应用广泛，由于依赖对未来收益和风险的预测，易存在评估依据不充分、核查验证不到位等问题，导致评估结论对上市公司资产交易定价的公允性、会计信息确认的准确性造成负面影响。\n收益法评估主要涉及折现率和未来收益预测两方面。前期我会已发布《监管规则适用指引——评估类第1 号》对折现率予以规范。为进一步提升收益法评估执业质量，我会结合典型案例和监管新形势，研究制定《评估类第 2 号》，对未来收益预测涉及的评估假设和收益期、收入、成本费用、资本性支出、营运资金等进行规范。",
+          "sentences": [
+            {
+              "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s0",
+              "text": "资产评估机构作为资本市场重要的中介机构，在并购重组交易定价、上市公司财务信息质量等方面发挥专业把关作用。",
+              "location": {
+                "doc_id": "doc_97db3817c37d",
+                "section_path": "关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s1",
+              "text": "评估实务中，收益法应用广泛，由于依赖对未来收益和风险的预测，易存在评估依据不充分、核查验证不到位等问题，导致评估结论对上市公司资产交易定价的公允性、会计信息确认的准确性造成负面影响。",
+              "location": {
+                "doc_id": "doc_97db3817c37d",
+                "section_path": "关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s2",
+              "text": "收益法评估主要涉及折现率和未来收益预测两方面。",
+              "location": {
+                "doc_id": "doc_97db3817c37d",
+                "section_path": "关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s3",
+              "text": "前期我会已发布《监管规则适用指引——评估类第1 号》对折现率予以规范。",
+              "location": {
+                "doc_id": "doc_97db3817c37d",
+                "section_path": "关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s4",
+              "text": "为进一步提升收益法评估执业质量，我会结合典型案例和监管新形势，研究制定《评估类第 2 号》，对未来收益预测涉及的评估假设和收益期、收入、成本费用、资本性支出、营运资金等进行规范。",
+              "location": {
+                "doc_id": "doc_97db3817c37d",
+                "section_path": "关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 二、功能定位与主要内容",
+      "section_path": "关于《监管规则适用指引— 评估类第2号》的说明 > 二、功能定位与主要内容",
+      "title": "二、功能定位与主要内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "评估类第2号/功能定位/主要内容/5个部分/评估假设/收益期/收入预测/成本费用预测/三部分内容/监管要求",
+        "for": [
+          "指引性质",
+          "核心内容",
+          "监管要求",
+          "执行效果"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 二、功能定位与主要内容_p0",
+          "para_index": 0,
+          "content": "《评估类第 2 号》并非对评估准则的解释，而是针对证券业务收益法评估中未来收益的预测提供指导性意见，旨在促进评估准则在资本市场的一致有效执行。《评估类第 2 号》包括 5 个部分，涉及评估假设和收益期、收入预测、成本费用预测等事项；每项具体指引包括三部分内容：评估准则相关规定、存在的执业问题以及具体监管要求。\n下一步，我会将密切关注《评估类第 2 号》的执行情况和效果，并根据资本市场评估监管最新实践，指导从事证券服务业务的资产评估机构勤勉尽责执业，提高资本市场信息披露质量。",
+          "sentences": [
+            {
+              "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 二、功能定位与主要内容_p0_s0",
+              "text": "《评估类第 2 号》并非对评估准则的解释，而是针对证券业务收益法评估中未来收益的预测提供指导性意见，旨在促进评估准则在资本市场的一致有效执行。",
+              "location": {
+                "doc_id": "doc_97db3817c37d",
+                "section_path": "关于《监管规则适用指引— 评估类第2号》的说明 > 二、功能定位与主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 二、功能定位与主要内容_p0_s1",
+              "text": "《评估类第 2 号》包括 5 个部分，涉及评估假设和收益期、收入预测、成本费用预测等事项；",
+              "location": {
+                "doc_id": "doc_97db3817c37d",
+                "section_path": "关于《监管规则适用指引— 评估类第2号》的说明 > 二、功能定位与主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 二、功能定位与主要内容_p0_s2",
+              "text": "每项具体指引包括三部分内容：评估准则相关规定、存在的执业问题以及具体监管要求。",
+              "location": {
+                "doc_id": "doc_97db3817c37d",
+                "section_path": "关于《监管规则适用指引— 评估类第2号》的说明 > 二、功能定位与主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 二、功能定位与主要内容_p0_s3",
+              "text": "下一步，我会将密切关注《评估类第 2 号》的执行情况和效果，并根据资本市场评估监管最新实践，指导从事证券服务业务的资产评估机构勤勉尽责执业，提高资本市场信息披露质量。",
+              "location": {
+                "doc_id": "doc_97db3817c37d",
+                "section_path": "关于《监管规则适用指引— 评估类第2号》的说明 > 二、功能定位与主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_6d2ef6867e0d",
+      "entity_type": "LegalDocument",
+      "mention": "《监管规则适用指引——评估类第 2 号》",
+      "canonical_name": "监管规则适用指引——评估类第 2 号",
+      "attributes": {},
+      "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d641ae247f8e",
+      "entity_type": "LegalDocument",
+      "mention": "《评估类第 2 号》",
+      "canonical_name": "评估类第 2 号",
+      "attributes": {},
+      "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3702865d3ab6",
+      "entity_type": "Industry",
+      "mention": "资本市场",
+      "canonical_name": "资本市场",
+      "attributes": {},
+      "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明_p0_s0",
+      "sentence_ids": [
+        "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4c2eb1c8601e",
+      "entity_type": "LegalTerm",
+      "mention": "折现率",
+      "canonical_name": "折现率",
+      "attributes": {},
+      "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s2",
+      "sentence_ids": [
+        "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e22f29e7b2dc",
+      "entity_type": "LegalTerm",
+      "mention": "未来收益预测",
+      "canonical_name": "未来收益预测",
+      "attributes": {},
+      "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s2",
+      "sentence_ids": [
+        "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f76385146493",
+      "entity_type": "LegalDocument",
+      "mention": "《监管规则适用指引——评估类第 1 号》",
+      "canonical_name": "监管规则适用指引——评估类第 1 号",
+      "attributes": {},
+      "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s3",
+      "sentence_ids": [
+        "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_01f720475625",
+      "entity_type": "LegalTerm",
+      "mention": "评估假设",
+      "canonical_name": "评估假设",
+      "attributes": {},
+      "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s4",
+      "sentence_ids": [
+        "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_19cf20f6d52b",
+      "entity_type": "LegalTerm",
+      "mention": "收益期",
+      "canonical_name": "收益期",
+      "attributes": {},
+      "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s4",
+      "sentence_ids": [
+        "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_56a7a28d25fe",
+      "entity_type": "LegalTerm",
+      "mention": "收入",
+      "canonical_name": "收入",
+      "attributes": {},
+      "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s4",
+      "sentence_ids": [
+        "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7e402fb51c70",
+      "entity_type": "LegalTerm",
+      "mention": "成本费用",
+      "canonical_name": "成本费用",
+      "attributes": {},
+      "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s4",
+      "sentence_ids": [
+        "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6d68cf68ad57",
+      "entity_type": "LegalTerm",
+      "mention": "资本性支出",
+      "canonical_name": "资本性支出",
+      "attributes": {},
+      "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s4",
+      "sentence_ids": [
+        "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_811e9eafb5ff",
+      "entity_type": "LegalTerm",
+      "mention": "营运资金",
+      "canonical_name": "营运资金",
+      "attributes": {},
+      "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s4",
+      "sentence_ids": [
+        "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3102e8bd1453",
+      "entity_type": "Industry",
+      "mention": "证券业务",
+      "canonical_name": "证券业务",
+      "attributes": {},
+      "sentence_id": "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 二、功能定位与主要内容_p0_s0",
+      "sentence_ids": [
+        "doc_97db3817c37d#关于《监管规则适用指引— 评估类第2号》的说明 > 二、功能定位与主要内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_cdb686894e64_rel_d0f271431e29",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_d641ae247f8e",
+      "tail_entity_id": "ent_6d2ef6867e0d",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_97db3817c37d",
+        "section_path": "关于《监管规则适用指引— 评估类第2号》的说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_cdb686894e64_rel_fd42b58421ff",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_f76385146493",
+      "tail_entity_id": "ent_4c2eb1c8601e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_97db3817c37d",
+        "section_path": "关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_cdb686894e64_rel_94b9b6a39632",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_d641ae247f8e",
+      "tail_entity_id": "ent_01f720475625",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_97db3817c37d",
+        "section_path": "关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_cdb686894e64_rel_4a240208c0c7",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_d641ae247f8e",
+      "tail_entity_id": "ent_19cf20f6d52b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_97db3817c37d",
+        "section_path": "关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_cdb686894e64_rel_cb7f19ec0c28",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_d641ae247f8e",
+      "tail_entity_id": "ent_56a7a28d25fe",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_97db3817c37d",
+        "section_path": "关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_cdb686894e64_rel_82e1565b9728",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_d641ae247f8e",
+      "tail_entity_id": "ent_7e402fb51c70",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_97db3817c37d",
+        "section_path": "关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_cdb686894e64_rel_22e282c6158d",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_d641ae247f8e",
+      "tail_entity_id": "ent_6d68cf68ad57",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_97db3817c37d",
+        "section_path": "关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_cdb686894e64_rel_4441fd81a982",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_d641ae247f8e",
+      "tail_entity_id": "ent_811e9eafb5ff",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_97db3817c37d",
+        "section_path": "关于《监管规则适用指引— 评估类第2号》的说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

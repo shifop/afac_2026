@@ -1,0 +1,881 @@
+{
+  "doc_id": "doc_d1d4c6643066",
+  "title": "《证券结算风险基金管理办法》修订说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0021_att2.md",
+  "processed_at": "2026-07-21T00:26:15.079940+00:00",
+  "structured_data": {
+    "title": "证券结算风险基金管理办法"
+  },
+  "stats": {
+    "sections": 4,
+    "paragraphs": 4,
+    "sentences": 26,
+    "entities": 23,
+    "relations": 12,
+    "rejected": 0,
+    "llm_calls": 581,
+    "llm_tokens": 1042586,
+    "elapsed_seconds": 17.36
+  },
+  "sections": [
+    {
+      "section_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明",
+      "section_path": "《证券结算风险基金管理办法》修订说明",
+      "title": "《证券结算风险基金管理办法》修订说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "修订背景/法律依据/主管部门/管理目标",
+        "for": [
+          "修订依据",
+          "制定目的",
+          "主管部门"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明_p0",
+          "para_index": 0,
+          "content": "为落实《中华人民共和国证券法》有关规定，持续增强证券登记结算系统风险防范能力，加强对证券结算风险基金（以下简称风险基金）的全流程管理，中国证监会会同财政部修订《证券结算风险基金管理办法》（以下简称《管理办法》）。现将主要修订情况说明如下。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明_p0_s0",
+              "text": "为落实《中华人民共和国证券法》有关规定，持续增强证券登记结算系统风险防范能力，加强对证券结算风险基金（以下简称风险基金）的全流程管理，中国证监会会同财政部修订《证券结算风险基金管理办法》（以下简称《管理办法》）。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明_p0_s1",
+              "text": "现将主要修订情况说明如下。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 一、修订背景",
+      "section_path": "《证券结算风险基金管理办法》修订说明 > 一、修订背景",
+      "title": "一、修订背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "《管理办法》制定时间/2000年,修订时间/2006年,规范对象/风险基金管理和使用,目标/保障证券登记结算系统安全运行,防范化解证券市场风险",
+        "for": [
+          "修订背景",
+          "制度沿革",
+          "管理目标"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 一、修订背景_p0",
+          "para_index": 0,
+          "content": "《管理办法》于 2000 年制定，并于 2006 年修订，是规范风险基金管理和使用，保障证券登记结算系统安全运行，防范和化解证券市场风险的规范性文件。为进一步完善风险基金管理制度，适应证券市场发展和结算风险防控需要，有必要对《管理办法》进行修订。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 一、修订背景_p0_s0",
+              "text": "《管理办法》于 2000 年制定，并于 2006 年修订，是规范风险基金管理和使用，保障证券登记结算系统安全运行，防范和化解证券市场风险的规范性文件。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 一、修订背景_p0_s1",
+              "text": "为进一步完善风险基金管理制度，适应证券市场发展和结算风险防控需要，有必要对《管理办法》进行修订。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 一、修订背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+      "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+      "title": "二、主要修订内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "计收范围/交纳比例调整/权益类十万分之三至百万分之九/固收现券十万分之一至百万分之三/提取比例20%至9%/规模上限三十亿改为净资产不少于三十亿/动态评估/投资",
+        "for": [
+          "费率调整",
+          "基金规模",
+          "资金运用",
+          "使用流程",
+          "风控条款"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0",
+          "para_index": 0,
+          "content": "本次修订主要内容如下：\n（一）调整计收范围和交纳比例。一是调整风险基金计收范围的表述，由列举式修改为概念式，明确为证券登记结算机构采用多边净额担保结算方式的证券交易品种（业务），提升规则包容性。二是根据品种（业务）风险程度，对风险基金的交纳比例实行差异化调整。权益类品种由成交金额的十万分之三下调至百万分之九，固定收益类品种现券交易由十万分之一下调至百万分之三，质押式回购业务交纳比例不变。三是将证券登记结算机构提取风险基金的比例由按照业务收入、收益的百分之二十调整为百分之九。\n（二）完善风险基金规模相关规定。一是将原设定的三十亿元规模上限调整为“本基金净资产总额不少于三十亿元”。二是增加动态评估规模条款，要求证券登记结算机构定期动态评估论证风险基金所需规模，并向中国证监会和财政部报告。\n（三）优化风险基金投资、存放及使用。一是将风险基金投资范围在原仅限于银行存款的基础上，新增购买关键期限国债、中国证监会和财政部批准的其他资金运用形式，并要求风险基金在银行的存款余额不得低于上月末净资产总额的 70%。二是简化使用程序，落实国务院关于取消行政许可审批事项的安排，将动用风险基金由事前报批改为事后报告。\n（四）增加风险防范、内部管理规定和追偿追责安排。一是明确结算参与人和证券登记结算机构内控要求。要求结算参与人制定完善的风险防范制度、内部控制制度等，有效防范风险；要求证券登记结算机构制定内部管理制度，明确风险基金的计收、管理、使用等事项，并向中国证监会和财政部报送年度情况报告。二是补充细化因垫付、弥补违约交收损失以及技术故障、操作失误情形下动用风险基金涉及的\n追偿追责等安排。\n需要说明的是，目前风险基金净资产总额已超过三十亿元，对于已交纳风险基金满一年的结算参与人，不会因本次修订触发新增交纳。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s0",
+              "text": "本次修订主要内容如下：\n（一）调整计收范围和交纳比例。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s1",
+              "text": "一是调整风险基金计收范围的表述，由列举式修改为概念式，明确为证券登记结算机构采用多边净额担保结算方式的证券交易品种（业务），提升规则包容性。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s2",
+              "text": "二是根据品种（业务）风险程度，对风险基金的交纳比例实行差异化调整。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s3",
+              "text": "权益类品种由成交金额的十万分之三下调至百万分之九，固定收益类品种现券交易由十万分之一下调至百万分之三，质押式回购业务交纳比例不变。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s4",
+              "text": "三是将证券登记结算机构提取风险基金的比例由按照业务收入、收益的百分之二十调整为百分之九。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s5",
+              "text": "（二）完善风险基金规模相关规定。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s6",
+              "text": "一是将原设定的三十亿元规模上限调整为“本基金净资产总额不少于三十亿元”。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s7",
+              "text": "二是增加动态评估规模条款，要求证券登记结算机构定期动态评估论证风险基金所需规模，并向中国证监会和财政部报告。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s8",
+              "text": "（三）优化风险基金投资、存放及使用。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s9",
+              "text": "一是将风险基金投资范围在原仅限于银行存款的基础上，新增购买关键期限国债、中国证监会和财政部批准的其他资金运用形式，并要求风险基金在银行的存款余额不得低于上月末净资产总额的 70%。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s10",
+              "text": "二是简化使用程序，落实国务院关于取消行政许可审批事项的安排，将动用风险基金由事前报批改为事后报告。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s11",
+              "text": "（四）增加风险防范、内部管理规定和追偿追责安排。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s12",
+              "text": "一是明确结算参与人和证券登记结算机构内控要求。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s13",
+              "text": "要求结算参与人制定完善的风险防范制度、内部控制制度等，有效防范风险；",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s14",
+              "text": "要求证券登记结算机构制定内部管理制度，明确风险基金的计收、管理、使用等事项，并向中国证监会和财政部报送年度情况报告。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s15",
+              "text": "二是补充细化因垫付、弥补违约交收损失以及技术故障、操作失误情形下动用风险基金涉及的\n追偿追责等安排。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s16",
+              "text": "需要说明的是，目前风险基金净资产总额已超过三十亿元，对于已交纳风险基金满一年的结算参与人，不会因本次修订触发新增交纳。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 三、公开征求意见及采纳情况",
+      "section_path": "《证券结算风险基金管理办法》修订说明 > 三、公开征求意见及采纳情况",
+      "title": "三、公开征求意见及采纳情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "公开征求意见时间/2025年5月9日至6月7日/收到意见数量/4条/意见类型/文字修改/操作细节/采纳情况/专项培训",
+        "for": [
+          "修订过程",
+          "意见采纳",
+          "反馈统计"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 三、公开征求意见及采纳情况_p0",
+          "para_index": 0,
+          "content": "2025 年 5 月 9 日至 6 月 7 日，《管理办法》向社会公开征求意见。总的看，各方对《管理办法》的修订思路、主要修订内容表示认可，认为有利于强化风险基金日常管理，降低市场成本。征求意见期间，共收到 4 条意见建议，主要是文字修改意见或后续操作细节。其中，对于文字修改意见，已吸收采纳；对于后续操作问题，已与相关单位进行充分沟通说明，后续还将开展专项培训。",
+          "sentences": [
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 三、公开征求意见及采纳情况_p0_s0",
+              "text": "2025 年 5 月 9 日至 6 月 7 日，《管理办法》向社会公开征求意见。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 三、公开征求意见及采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 三、公开征求意见及采纳情况_p0_s1",
+              "text": "总的看，各方对《管理办法》的修订思路、主要修订内容表示认可，认为有利于强化风险基金日常管理，降低市场成本。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 三、公开征求意见及采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 三、公开征求意见及采纳情况_p0_s2",
+              "text": "征求意见期间，共收到 4 条意见建议，主要是文字修改意见或后续操作细节。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 三、公开征求意见及采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 三、公开征求意见及采纳情况_p0_s3",
+              "text": "其中，对于文字修改意见，已吸收采纳；",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 三、公开征求意见及采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 三、公开征求意见及采纳情况_p0_s4",
+              "text": "对于后续操作问题，已与相关单位进行充分沟通说明，后续还将开展专项培训。",
+              "location": {
+                "doc_id": "doc_d1d4c6643066",
+                "section_path": "《证券结算风险基金管理办法》修订说明 > 三、公开征求意见及采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_b7c0acc8684c",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国证券法》",
+      "canonical_name": "中华人民共和国证券法",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3d543cee3e94",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_44929628ca0b",
+      "entity_type": "Organization",
+      "mention": "财政部",
+      "canonical_name": "财政部",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c2af04407c1f",
+      "entity_type": "LegalDocument",
+      "mention": "《证券结算风险基金管理办法》",
+      "canonical_name": "证券结算风险基金管理办法",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明_p0_s0",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_39f39fb64464",
+      "entity_type": "Date",
+      "mention": "2000 年",
+      "canonical_name": "2000 年",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 一、修订背景_p0_s0",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 一、修订背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_eed7404d78cf",
+      "entity_type": "Date",
+      "mention": "2006 年",
+      "canonical_name": "2006 年",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 一、修订背景_p0_s0",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 一、修订背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_42b0cc06d6df",
+      "entity_type": "Industry",
+      "mention": "证券市场",
+      "canonical_name": "证券市场",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 一、修订背景_p0_s0",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 一、修订背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0cafe356d432",
+      "entity_type": "FinancialMetric",
+      "mention": "成交金额",
+      "canonical_name": "成交金额",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s3",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_589d5850383c",
+      "entity_type": "Percentage",
+      "mention": "十万分之三",
+      "canonical_name": "十万分之三",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s3",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7c8f8705a2a0",
+      "entity_type": "Percentage",
+      "mention": "百万分之九",
+      "canonical_name": "百万分之九",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s3",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_71ed87e316cd",
+      "entity_type": "Percentage",
+      "mention": "十万分之一",
+      "canonical_name": "十万分之一",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s3",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7419eb4588f7",
+      "entity_type": "Percentage",
+      "mention": "百万分之三",
+      "canonical_name": "百万分之三",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s3",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4dec0deafa39",
+      "entity_type": "",
+      "mention": "中国证券登记结算机构",
+      "canonical_name": "中国证券登记结算机构",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s3",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6245c5bf11bb",
+      "entity_type": "Percentage",
+      "mention": "百分之二十",
+      "canonical_name": "百分之二十",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s4",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_060d0acb5bb7",
+      "entity_type": "Percentage",
+      "mention": "百分之九",
+      "canonical_name": "百分之九",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s4",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b883f822feca",
+      "entity_type": "",
+      "mention": "业务收入、收益",
+      "canonical_name": "业务收入、收益",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s4",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9040c5a70707",
+      "entity_type": "MonetaryAmount",
+      "mention": "三十亿元",
+      "canonical_name": "三十亿元",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s6",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_009b74933297",
+      "entity_type": "",
+      "mention": "净资产总额",
+      "canonical_name": "净资产总额",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s6",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_39e2693059ce",
+      "entity_type": "Percentage",
+      "mention": "70%",
+      "canonical_name": "70%",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s9",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_89fa192791dc",
+      "entity_type": "",
+      "mention": "银行存款余额",
+      "canonical_name": "银行存款余额",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s9",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s9"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_eebbe9952b9c",
+      "entity_type": "Report",
+      "mention": "年度情况报告",
+      "canonical_name": "年度情况报告",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s14",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 二、主要修订内容_p0_s14"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_152a74024958",
+      "entity_type": "Date",
+      "mention": "2025 年 5 月 9 日",
+      "canonical_name": "2025 年 5 月 9 日",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 三、公开征求意见及采纳情况_p0_s0",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 三、公开征求意见及采纳情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_62b2fd91db19",
+      "entity_type": "Date",
+      "mention": "6 月 7 日",
+      "canonical_name": "6 月 7 日",
+      "attributes": {},
+      "sentence_id": "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 三、公开征求意见及采纳情况_p0_s0",
+      "sentence_ids": [
+        "doc_d1d4c6643066#《证券结算风险基金管理办法》修订说明 > 三、公开征求意见及采纳情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_659761bd0e2f_rel_c114ea6a5089",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_c2af04407c1f",
+      "tail_entity_id": "ent_b7c0acc8684c",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d1d4c6643066",
+        "section_path": "《证券结算风险基金管理办法》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_659761bd0e2f_rel_13be047925c7",
+      "relation_type": "has_director",
+      "head_entity_id": "ent_3d543cee3e94",
+      "tail_entity_id": "ent_44929628ca0b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d1d4c6643066",
+        "section_path": "《证券结算风险基金管理办法》修订说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_659761bd0e2f_rel_b173a0c31b07",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_c2af04407c1f",
+      "tail_entity_id": "ent_42b0cc06d6df",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d1d4c6643066",
+        "section_path": "《证券结算风险基金管理办法》修订说明 > 一、修订背景",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_659761bd0e2f_rel_cde189633d5f",
+      "relation_type": "reports_financial",
+      "head_entity_id": "ent_4dec0deafa39",
+      "tail_entity_id": "ent_0cafe356d432",
+      "properties": {
+        "value_entity_name": "十万分之三"
+      },
+      "evidence": {
+        "doc_id": "doc_d1d4c6643066",
+        "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_659761bd0e2f_rel_43358e448c30",
+      "relation_type": "reports_financial",
+      "head_entity_id": "ent_4dec0deafa39",
+      "tail_entity_id": "ent_0cafe356d432",
+      "properties": {
+        "value_entity_name": "百万分之九"
+      },
+      "evidence": {
+        "doc_id": "doc_d1d4c6643066",
+        "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_659761bd0e2f_rel_428979e4d81f",
+      "relation_type": "reports_financial",
+      "head_entity_id": "ent_4dec0deafa39",
+      "tail_entity_id": "ent_0cafe356d432",
+      "properties": {
+        "value_entity_name": "十万分之一"
+      },
+      "evidence": {
+        "doc_id": "doc_d1d4c6643066",
+        "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_659761bd0e2f_rel_d822a40ea8f5",
+      "relation_type": "reports_financial",
+      "head_entity_id": "ent_4dec0deafa39",
+      "tail_entity_id": "ent_0cafe356d432",
+      "properties": {
+        "value_entity_name": "百万分之三"
+      },
+      "evidence": {
+        "doc_id": "doc_d1d4c6643066",
+        "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_659761bd0e2f_rel_7ef29160f4f9",
+      "relation_type": "reports_financial",
+      "head_entity_id": "ent_4dec0deafa39",
+      "tail_entity_id": "ent_b883f822feca",
+      "properties": {
+        "value_entity_name": "百分之二十"
+      },
+      "evidence": {
+        "doc_id": "doc_d1d4c6643066",
+        "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_659761bd0e2f_rel_2513ab43d7f8",
+      "relation_type": "reports_financial",
+      "head_entity_id": "ent_4dec0deafa39",
+      "tail_entity_id": "ent_b883f822feca",
+      "properties": {
+        "value_entity_name": "百分之九"
+      },
+      "evidence": {
+        "doc_id": "doc_d1d4c6643066",
+        "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 4
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_659761bd0e2f_rel_66b7cd735e0b",
+      "relation_type": "reports_financial",
+      "head_entity_id": "ent_4dec0deafa39",
+      "tail_entity_id": "ent_009b74933297",
+      "properties": {
+        "value_entity_name": "三十亿元"
+      },
+      "evidence": {
+        "doc_id": "doc_d1d4c6643066",
+        "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 6
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_659761bd0e2f_rel_efa44118569a",
+      "relation_type": "reports_financial",
+      "head_entity_id": "ent_4dec0deafa39",
+      "tail_entity_id": "ent_89fa192791dc",
+      "properties": {
+        "value_entity_name": "70%"
+      },
+      "evidence": {
+        "doc_id": "doc_d1d4c6643066",
+        "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 9
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_659761bd0e2f_rel_ea6e6cb88606",
+      "relation_type": "reports_financial",
+      "head_entity_id": "ent_4dec0deafa39",
+      "tail_entity_id": "ent_eebbe9952b9c",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_d1d4c6643066",
+        "section_path": "《证券结算风险基金管理办法》修订说明 > 二、主要修订内容",
+        "paragraph_index": 0,
+        "sentence_index": 14
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

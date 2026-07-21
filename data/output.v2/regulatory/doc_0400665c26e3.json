@@ -1,0 +1,367 @@
+{
+  "doc_id": "doc_0400665c26e3",
+  "title": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0048_att2.md",
+  "processed_at": "2026-07-21T00:58:23.268936+00:00",
+  "structured_data": {
+    "title": "证监会系统离职人员入股拟上市企业监管规定（试行）"
+  },
+  "stats": {
+    "sections": 3,
+    "paragraphs": 3,
+    "sentences": 11,
+    "entities": 7,
+    "relations": 4,
+    "rejected": 0,
+    "llm_calls": 2566,
+    "llm_tokens": 3954459,
+    "elapsed_seconds": 8.54
+  },
+  "sections": [
+    {
+      "section_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明",
+      "section_path": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明",
+      "title": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "证监会系统离职人员/拟上市企业入股管理/监管规定制定背景/《2号指引》基础",
+        "for": [
+          "政策背景",
+          "监管依据",
+          "离职人员",
+          "入股限制"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明_p0",
+          "para_index": 0,
+          "content": "为进一步加强证监会系统离职人员（以下简称离职人员）入股拟上市企业的管理，维护资本市场的公开、公平、公正，中国证监会在《监管规则适用指引——发行类第 2号》（以下简称《2 号指引》）基础上，制定《证监会系统离职人员入股拟上市企业监管规定（试行）》（以下简称《离职人员监管规定》）。现说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明_p0_s0",
+              "text": "为进一步加强证监会系统离职人员（以下简称离职人员）入股拟上市企业的管理，维护资本市场的公开、公平、公正，中国证监会在《监管规则适用指引——发行类第 2号》（以下简称《2 号指引》）基础上，制定《证监会系统离职人员入股拟上市企业监管规定（试行）》（以下简称《离职人员监管规定》）。",
+              "location": {
+                "doc_id": "doc_0400665c26e3",
+                "section_path": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明_p0_s1",
+              "text": "现说明如下：",
+              "location": {
+                "doc_id": "doc_0400665c26e3",
+                "section_path": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 一、制定背景",
+      "section_path": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 一、制定背景",
+      "title": "一、制定背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "2号指引/离职人员入股审核复核程序/职务身份价值削减/政商旋转门整治/公权力与影响力防范/不当利益获取/监管强化/离职人员监管规定",
+        "for": [
+          "制定背景",
+          "监管目的",
+          "政策依据",
+          "整治重点"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 一、制定背景_p0",
+          "para_index": 0,
+          "content": "现行《2 号指引》发布实施以来，我会对离职人员入股拟上市企业严格依法推进审核复核程序，大幅削减离职人员“职务身份价值”。为从严从紧整治政商“旋转门”，严防离职人员利用在职时公权力、离职后影响力获取不当、不法利益，我会进一步强化离职人员入股行为的监管，并在《2 号指引》基础上，制定《离职人员监管规定》。",
+          "sentences": [
+            {
+              "sentence_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 一、制定背景_p0_s0",
+              "text": "现行《2 号指引》发布实施以来，我会对离职人员入股拟上市企业严格依法推进审核复核程序，大幅削减离职人员“职务身份价值”。",
+              "location": {
+                "doc_id": "doc_0400665c26e3",
+                "section_path": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 一、制定背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 一、制定背景_p0_s1",
+              "text": "为从严从紧整治政商“旋转门”，严防离职人员利用在职时公权力、离职后影响力获取不当、不法利益，我会进一步强化离职人员入股行为的监管，并在《2 号指引》基础上，制定《离职人员监管规定》。",
+              "location": {
+                "doc_id": "doc_0400665c26e3",
+                "section_path": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 一、制定背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容",
+      "section_path": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容",
+      "title": "二、《离职人员监管规定》主要内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "入股禁止期/十年/五年/四年/会管干部/副处级/父母配偶子女/中介机构核查",
+        "for": [
+          "禁止期限",
+          "监管范围",
+          "核查要求"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容_p0",
+          "para_index": 0,
+          "content": "《离职人员监管规定》包含了《2 号指引》主要内容，并新增三方面要求：\n一是拉长离职人员入股禁止期，在第九条规定，离职人员离职前五年内曾任职发行监管岗位的，或者离职前属于会管干部的，入股禁止期为离职后十年内；离职人员不属于前项所列情形的，副处级（中层）及以上的入股禁止期为离职后五年内，副处级（中层）以下的为离职后四年内。\n二是扩大对离职人员从严监管的范围。将从严审核的范围从离职人员本人扩大至其父母、配偶、子女及其配偶。\n三是细化中介机构核查要求。根据审核实践及复核关注问题，在第四条规定，中介机构应对离职人员入股拟上市企业相关事项开展全面核查，做到程序完备、依据充分、结论明确。\n特此说明。",
+          "sentences": [
+            {
+              "sentence_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容_p0_s0",
+              "text": "《离职人员监管规定》包含了《2 号指引》主要内容，并新增三方面要求：\n一是拉长离职人员入股禁止期，在第九条规定，离职人员离职前五年内曾任职发行监管岗位的，或者离职前属于会管干部的，入股禁止期为离职后十年内；",
+              "location": {
+                "doc_id": "doc_0400665c26e3",
+                "section_path": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容_p0_s1",
+              "text": "离职人员不属于前项所列情形的，副处级（中层）及以上的入股禁止期为离职后五年内，副处级（中层）以下的为离职后四年内。",
+              "location": {
+                "doc_id": "doc_0400665c26e3",
+                "section_path": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容_p0_s2",
+              "text": "二是扩大对离职人员从严监管的范围。",
+              "location": {
+                "doc_id": "doc_0400665c26e3",
+                "section_path": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容_p0_s3",
+              "text": "将从严审核的范围从离职人员本人扩大至其父母、配偶、子女及其配偶。",
+              "location": {
+                "doc_id": "doc_0400665c26e3",
+                "section_path": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容_p0_s4",
+              "text": "三是细化中介机构核查要求。",
+              "location": {
+                "doc_id": "doc_0400665c26e3",
+                "section_path": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容_p0_s5",
+              "text": "根据审核实践及复核关注问题，在第四条规定，中介机构应对离职人员入股拟上市企业相关事项开展全面核查，做到程序完备、依据充分、结论明确。",
+              "location": {
+                "doc_id": "doc_0400665c26e3",
+                "section_path": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容_p0_s6",
+              "text": "特此说明。",
+              "location": {
+                "doc_id": "doc_0400665c26e3",
+                "section_path": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_da95032cddfa",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cca1b693225f",
+      "entity_type": "LegalDocument",
+      "mention": "《监管规则适用指引——发行类第 2 号》",
+      "canonical_name": "监管规则适用指引——发行类第 2 号",
+      "attributes": {
+        "short_name": "2 号指引"
+      },
+      "sentence_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1556f09d14ec",
+      "entity_type": "LegalDocument",
+      "mention": "《证监会系统离职人员入股拟上市企业监管规定（试行）》",
+      "canonical_name": "证监会系统离职人员入股拟上市企业监管规定（试行）",
+      "attributes": {
+        "short_name": "离职人员监管规定"
+      },
+      "sentence_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明_p0_s0",
+      "sentence_ids": [
+        "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_50ab52e1cbaf",
+      "entity_type": "LegalDocument",
+      "mention": "《2 号指引》",
+      "canonical_name": "2 号指引",
+      "attributes": {},
+      "sentence_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 一、制定背景_p0_s0",
+      "sentence_ids": [
+        "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 一、制定背景_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a002482fa2b2",
+      "entity_type": "LegalDocument",
+      "mention": "《离职人员监管规定》",
+      "canonical_name": "离职人员监管规定",
+      "attributes": {},
+      "sentence_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 一、制定背景_p0_s1",
+      "sentence_ids": [
+        "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 一、制定背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_35d050bd7e85",
+      "entity_type": "Clause",
+      "mention": "第九条",
+      "canonical_name": "第九条",
+      "attributes": {},
+      "sentence_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容_p0_s0",
+      "sentence_ids": [
+        "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1901d60a1007",
+      "entity_type": "Clause",
+      "mention": "第四条",
+      "canonical_name": "第四条",
+      "attributes": {},
+      "sentence_id": "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容_p0_s5",
+      "sentence_ids": [
+        "doc_0400665c26e3#关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_f4aae57952e3_rel_170f219890c5",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_1556f09d14ec",
+      "tail_entity_id": "ent_cca1b693225f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0400665c26e3",
+        "section_path": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f4aae57952e3_rel_60e251d37627",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_1556f09d14ec",
+      "tail_entity_id": "ent_50ab52e1cbaf",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0400665c26e3",
+        "section_path": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 一、制定背景",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f4aae57952e3_rel_a88445ce5e89",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_35d050bd7e85",
+      "tail_entity_id": "ent_a002482fa2b2",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0400665c26e3",
+        "section_path": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f4aae57952e3_rel_6c1ae2353484",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1901d60a1007",
+      "tail_entity_id": "ent_a002482fa2b2",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_0400665c26e3",
+        "section_path": "关于《证监会系统离职人员入股拟上市企业监管规定（试行）》的起草说明 > 二、《离职人员监管规定》主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 5
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

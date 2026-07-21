@@ -1,0 +1,465 @@
+{
+  "doc_id": "doc_34c7c0683f71",
+  "title": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0019_att2.md",
+  "processed_at": "2026-07-21T00:25:30.899473+00:00",
+  "structured_data": {
+    "title": "《中国证监会关于推出商业不动产投资信托基金试点的公告》"
+  },
+  "stats": {
+    "sections": 4,
+    "paragraphs": 3,
+    "sentences": 16,
+    "entities": 11,
+    "relations": 3,
+    "rejected": 0,
+    "llm_calls": 556,
+    "llm_tokens": 1009966,
+    "elapsed_seconds": 8.19
+  },
+  "sections": [
+    {
+      "section_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明",
+      "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明",
+      "title": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明",
+      "level": 1,
+      "reading_guide": null,
+      "paragraphs": []
+    },
+    {
+      "section_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景",
+      "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景",
+      "title": "一、起草背景",
+      "level": 2,
+      "reading_guide": {
+        "has": "REITs市场现状/已上市数量78只/融资金额2099亿元/总市值2199亿元/中证REITs全收益指数涨幅19%/商业不动产类型/底层资产范围",
+        "for": [
+          "市场数据",
+          "政策背景",
+          "资产类型",
+          "融资规模"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0",
+          "para_index": 0,
+          "content": "经过五年探索实践，不动产投资信托基金（REITs）市场稳步发展，功能持续发挥，在盘活存量资产、提高直接融资比重、满足居民财富管理需求等方面取得一定成效。截至2025 年 12 月 27 日，已上市 78 只 REITs，融资金额 2099 亿元，总市值 2199 亿元。市场运行平稳有序，2024 年以来，中证 REITs 全收益指数上涨 19%，REITs 已逐步成为重要的大类资产配置品种。\n从全球成熟市场发展经验来看，商业综合体、商业零售、商业办公楼、酒店等商业不动产是 REITs 重要的底层资产。我国商业不动产存量规模庞大，具有通过REITs 进行盘活并拓宽权益融资渠道的内在需求。借鉴国际经验并结合我国实际，坚持市场化法治化方向，证监会研究起草了《中国证监会关于推出商业不动产投资信托基金试点的公告》（以下简称《公告》），适时推出商业不动产 REITs，可以更好发挥REITs 功能作用，支持构建房地产发展新模式，进一步提升多层次资本市场服务实体经济的质效。",
+          "sentences": [
+            {
+              "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s0",
+              "text": "经过五年探索实践，不动产投资信托基金（REITs）市场稳步发展，功能持续发挥，在盘活存量资产、提高直接融资比重、满足居民财富管理需求等方面取得一定成效。",
+              "location": {
+                "doc_id": "doc_34c7c0683f71",
+                "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s1",
+              "text": "截至2025 年 12 月 27 日，已上市 78 只 REITs，融资金额 2099 亿元，总市值 2199 亿元。",
+              "location": {
+                "doc_id": "doc_34c7c0683f71",
+                "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s2",
+              "text": "市场运行平稳有序，2024 年以来，中证 REITs 全收益指数上涨 19%，REITs 已逐步成为重要的大类资产配置品种。",
+              "location": {
+                "doc_id": "doc_34c7c0683f71",
+                "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s3",
+              "text": "从全球成熟市场发展经验来看，商业综合体、商业零售、商业办公楼、酒店等商业不动产是 REITs 重要的底层资产。",
+              "location": {
+                "doc_id": "doc_34c7c0683f71",
+                "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s4",
+              "text": "我国商业不动产存量规模庞大，具有通过REITs 进行盘活并拓宽权益融资渠道的内在需求。",
+              "location": {
+                "doc_id": "doc_34c7c0683f71",
+                "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s5",
+              "text": "借鉴国际经验并结合我国实际，坚持市场化法治化方向，证监会研究起草了《中国证监会关于推出商业不动产投资信托基金试点的公告》（以下简称《公告》），适时推出商业不动产 REITs，可以更好发挥REITs 功能作用，支持构建房地产发展新模式，进一步提升多层次资本市场服务实体经济的质效。",
+              "location": {
+                "doc_id": "doc_34c7c0683f71",
+                "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 二、《公告》主要内容",
+      "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 二、《公告》主要内容",
+      "title": "二、《公告》主要内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "产品定义/基金注册要求/运营管理要求/管理人及托管人职责/尽职调查/申请材料/监管责任/风险监测处置/参照指引",
+        "for": [
+          "产品定义",
+          "运营要求",
+          "监管职责",
+          "合规依据"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 二、《公告》主要内容_p0",
+          "para_index": 0,
+          "content": "《公告》共八条，主要包括以下内容：一是产品定义，商业不动产REITs是指通过持有商业不动产以获取稳定现金流并向基金份额持有人分配收益的封闭式公开募集证券投资基金。二是基金注册及运营管理要求，明确基金管理人及基金托管人、尽职调查、申请材料、商业不动产等方面要求，以及基金管理人的主动运营管理责任。三是发挥基金管理人和专业机构作用，压严压实责任，要求严格遵守执业规范和监管要求。四是强化监管责任，明确各监管机构依法依规履行商业不动产REITs 监管和风险监测处置等职责。此外，商业不动产REITs 其他有关事宜，参照《公开募集基础设施证券投资基金指引（试行）》有关规定执行。",
+          "sentences": [
+            {
+              "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 二、《公告》主要内容_p0_s0",
+              "text": "《公告》共八条，主要包括以下内容：一是产品定义，商业不动产REITs是指通过持有商业不动产以获取稳定现金流并向基金份额持有人分配收益的封闭式公开募集证券投资基金。",
+              "location": {
+                "doc_id": "doc_34c7c0683f71",
+                "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 二、《公告》主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 二、《公告》主要内容_p0_s1",
+              "text": "二是基金注册及运营管理要求，明确基金管理人及基金托管人、尽职调查、申请材料、商业不动产等方面要求，以及基金管理人的主动运营管理责任。",
+              "location": {
+                "doc_id": "doc_34c7c0683f71",
+                "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 二、《公告》主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 二、《公告》主要内容_p0_s2",
+              "text": "三是发挥基金管理人和专业机构作用，压严压实责任，要求严格遵守执业规范和监管要求。",
+              "location": {
+                "doc_id": "doc_34c7c0683f71",
+                "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 二、《公告》主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 二、《公告》主要内容_p0_s3",
+              "text": "四是强化监管责任，明确各监管机构依法依规履行商业不动产REITs 监管和风险监测处置等职责。",
+              "location": {
+                "doc_id": "doc_34c7c0683f71",
+                "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 二、《公告》主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 二、《公告》主要内容_p0_s4",
+              "text": "此外，商业不动产REITs 其他有关事宜，参照《公开募集基础设施证券投资基金指引（试行）》有关规定执行。",
+              "location": {
+                "doc_id": "doc_34c7c0683f71",
+                "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 二、《公告》主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 三、公开征求意见情况",
+      "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 三、公开征求意见情况",
+      "title": "三、公开征求意见情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "公开征求意见情况/收到意见建议27条/意见采纳情况/未采纳原因/后续实施计划",
+        "for": [
+          "意见征集",
+          "采纳情况",
+          "政策反馈",
+          "实施计划"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 三、公开征求意见情况_p0",
+          "para_index": 0,
+          "content": "公开征求意见期间，证监会共收到相关意见建议27条。市场各方对《公告》的基本思路和主要内容总体认可，认为《公告》清晰明确了商业不动产REITs业务开展的总体框架，为市场提供了稳定的制度预期，有助于推动REITs 市场健康规范发展。证监会对收到的意见建议逐条进行了认真研究，并通过下位规则等采纳了绝大多数意见。个别意见与推动商业不动产REITs 市场化法治化的目标导向不尽一致，未予采纳。后续，证监会将进一步加强政策解读，做好《公告》实施相关工作。",
+          "sentences": [
+            {
+              "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 三、公开征求意见情况_p0_s0",
+              "text": "公开征求意见期间，证监会共收到相关意见建议27条。",
+              "location": {
+                "doc_id": "doc_34c7c0683f71",
+                "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 三、公开征求意见情况_p0_s1",
+              "text": "市场各方对《公告》的基本思路和主要内容总体认可，认为《公告》清晰明确了商业不动产REITs业务开展的总体框架，为市场提供了稳定的制度预期，有助于推动REITs 市场健康规范发展。",
+              "location": {
+                "doc_id": "doc_34c7c0683f71",
+                "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 三、公开征求意见情况_p0_s2",
+              "text": "证监会对收到的意见建议逐条进行了认真研究，并通过下位规则等采纳了绝大多数意见。",
+              "location": {
+                "doc_id": "doc_34c7c0683f71",
+                "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 三、公开征求意见情况_p0_s3",
+              "text": "个别意见与推动商业不动产REITs 市场化法治化的目标导向不尽一致，未予采纳。",
+              "location": {
+                "doc_id": "doc_34c7c0683f71",
+                "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 三、公开征求意见情况_p0_s4",
+              "text": "后续，证监会将进一步加强政策解读，做好《公告》实施相关工作。",
+              "location": {
+                "doc_id": "doc_34c7c0683f71",
+                "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 三、公开征求意见情况",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_b1bdc69552f7",
+      "entity_type": "Date",
+      "mention": "2025 年 12 月 27 日",
+      "canonical_name": "2025-12-27",
+      "attributes": {},
+      "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s1",
+      "sentence_ids": [
+        "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0e89be3c0c2f",
+      "entity_type": "MonetaryAmount",
+      "mention": "2099 亿元",
+      "canonical_name": "2099 亿元",
+      "attributes": {
+        "currency": "CNY"
+      },
+      "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s1",
+      "sentence_ids": [
+        "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8fa2ff45b80f",
+      "entity_type": "MonetaryAmount",
+      "mention": "2199 亿元",
+      "canonical_name": "2199 亿元",
+      "attributes": {
+        "currency": "CNY"
+      },
+      "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s1",
+      "sentence_ids": [
+        "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2f26a7a2ab96",
+      "entity_type": "FinancialMetric",
+      "mention": "中证 REITs 全收益指数",
+      "canonical_name": "中证 REITs 全收益指数",
+      "attributes": {},
+      "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s2",
+      "sentence_ids": [
+        "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7319433a11dc",
+      "entity_type": "Percentage",
+      "mention": "19%",
+      "canonical_name": "19%",
+      "attributes": {},
+      "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s2",
+      "sentence_ids": [
+        "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d7d46ffcd6e2",
+      "entity_type": "Industry",
+      "mention": "商业不动产",
+      "canonical_name": "商业不动产",
+      "attributes": {},
+      "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s3",
+      "sentence_ids": [
+        "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e415e0dcfbec",
+      "entity_type": "Organization",
+      "mention": "证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s5",
+      "sentence_ids": [
+        "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9420b4c907a8",
+      "entity_type": "LegalDocument",
+      "mention": "《公告》",
+      "canonical_name": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+      "attributes": {},
+      "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s5",
+      "sentence_ids": [
+        "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景_p0_s5"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b2b9529450ef",
+      "entity_type": "InsuranceProduct",
+      "mention": "商业不动产 REITs",
+      "canonical_name": "商业不动产 REITs",
+      "attributes": {},
+      "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 二、《公告》主要内容_p0_s0",
+      "sentence_ids": [
+        "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 二、《公告》主要内容_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b0c05ce507dc",
+      "entity_type": "LegalDocument",
+      "mention": "《公开募集基础设施证券投资基金指引（试行）》",
+      "canonical_name": "公开募集基础设施证券投资基金指引（试行）",
+      "attributes": {},
+      "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 二、《公告》主要内容_p0_s4",
+      "sentence_ids": [
+        "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 二、《公告》主要内容_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bd732d319b13",
+      "entity_type": "Report",
+      "mention": "《公告》",
+      "canonical_name": "中国证监会关于推出商业不动产投资信托基金试点的公告",
+      "attributes": {},
+      "sentence_id": "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 三、公开征求意见情况_p0_s1",
+      "sentence_ids": [
+        "doc_34c7c0683f71#《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 三、公开征求意见情况_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_20bfb2e92534_rel_1e2ab2df4d02",
+      "relation_type": "reports_financial",
+      "head_entity_id": "ent_e415e0dcfbec",
+      "tail_entity_id": "ent_2f26a7a2ab96",
+      "properties": {
+        "value_entity_name": "19%"
+      },
+      "evidence": {
+        "doc_id": "doc_34c7c0683f71",
+        "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 一、起草背景",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_20bfb2e92534_rel_b989b413aeed",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_b2b9529450ef",
+      "tail_entity_id": "ent_9420b4c907a8",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_34c7c0683f71",
+        "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 二、《公告》主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_20bfb2e92534_rel_436f83c5ea68",
+      "relation_type": "analyzes_industry",
+      "head_entity_id": "ent_bd732d319b13",
+      "tail_entity_id": "ent_d7d46ffcd6e2",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_34c7c0683f71",
+        "section_path": "《中国证监会关于推出商业不动产投资信托基金试点的公告》起草说明 > 三、公开征求意见情况",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

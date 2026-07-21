@@ -1,0 +1,1022 @@
+{
+  "doc_id": "doc_f7ef7b6b3d88",
+  "title": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0039_att1.md",
+  "processed_at": "2026-07-21T00:47:12.971453+00:00",
+  "structured_data": {
+    "title": "上市公司监管指引第 11 号——上市公司破产重整相关事项"
+  },
+  "stats": {
+    "sections": 1,
+    "paragraphs": 1,
+    "sentences": 42,
+    "entities": 25,
+    "relations": 13,
+    "rejected": 0,
+    "llm_calls": 2049,
+    "llm_tokens": 3042272,
+    "elapsed_seconds": 18.63
+  },
+  "sections": [
+    {
+      "section_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项",
+      "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+      "title": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+      "level": 1,
+      "reading_guide": {
+        "has": "破产重整监管依据/自查披露事项/信息披露义务/保密与内幕交易防控/资本公积金转增股本限制（≤15%）/重整投资人条件与定价（≥50%参考价）/股份锁定期（12-",
+        "for": [
+          "重整规则",
+          "信息披露",
+          "投资人条款",
+          "股份锁定",
+          "收益确认"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0",
+          "para_index": 0,
+          "content": "第一条 为加强上市公司破产重整监管，有效化解上市公司风险，推动提升上市公司质量，促进证券市场资源的优化配置，根据《中华人民共和国证券法》（以下简称《证券法》）、《中华人民共和国企业破产法》《关于切实审理好上市公司破产重整案件工作座谈会纪要》（以下简称《座谈会纪要》），制定本指引。\n第二条 中国证券监督管理委员会（以下简称中国证监会）依法建立健全与人民法院关于上市公司破产重整的协作机制，对上市公司破产重整中涉及证券市场相关事项进行监督管理。\n证券交易所依法制定上市公司破产重整信息披露规则，对上市公司破产重整中的信息披露行为进行自律管理。\n第三条 上市公司住所地省级人民政府按照《座谈会纪要》向中国证监会通报情况的，可以包括公司陷入困境的原因，目前的资产负债情况、偿债能力分析、是否存在退市风险，重整必要性、重整实现目标等内容。\n第四条 上市公司申请或者被申请破产重整的，应当对是否存在下列情况进行自查并对外披露：\n（一）涉及国家安全、公共安全、生态安全、生产安全和公众健康安全等领域的重大违法行为，可能被证券交易所强制退市；\n（二）涉及欺诈发行、重大信息披露违法或者其他严重损害证券市场秩序的重大违法行为，可能被证券交易所强制退市；\n（三）涉及信息披露或者规范运作等方面的重大缺陷，可能被证券交易所强制退市；\n（四）控股股东、实际控制人及其他关联方违规占用上市公司资金、利用上市公司为其提供担保；\n（五）其他违反证券监管法律法规，导致上市公司丧失重整价值。\n第五条 上市公司及其控股股东、实际控制人、董事、高级管理人员、破产管理人及其成员、债权人、重整投资人等破产重整相关方应当按照法律、行政法规、中国证监会规定和证券交易所业务规则，及时、公平地披露或者提供涉及上市公司破产重整的信息，保证所披露或者提供信息真实、准确、完整，不得有虚假记载、误导性陈述或者重大遗漏。\n第六条 上市公司及其控股股东、实际控制人、董事、高级管理人员、破产管理人及其成员、债权人、重整投资人、为破产重整事项提供有关服务的中介机构及有关各方，对所知悉的破产重整事项在依法依规披露前负有保密义务。\n上市公司及相关各方应当严格遵守中国证监会以及证券交易所关于内幕信息知情人登记及内幕交易防控的要求。\n任何单位和个人不得利用破产重整相关信息从事内幕交易、操纵证券市场等违法活动。\n第七条 重整计划草案中出资人权益调整方案涉及资本公积金转增股本的，应当充分说明实施资本公积金转增股本的原因、必要性及合理性，根据转增股票用途及目的审慎确定资本公积金转增股本数量，资本公积金转增比例不得超过每十股转增十五股。可供转增的资本公积金应当以最近一期经审计的年度报告、半年度报告或者季度报告为准。\n第八条 重整计划草案涉及引入重整投资人的，应当明确重整投资人相关信息及其参与重整的条件、获得的股份数量和价格，合理确定重整投资人投入资金的用途。重整投资人相关信息，包括姓名或者名称、实际控制人情况、与上市公司及其董事、高级管理人员、控股股东、实际控制人等是否存在关联关系或者一致行动关系等。\n重整投资人获得股份的价格，不得低于市场参考价的百分之五十。市场参考价为重整投资协议签订日前二十、六十或者一百二十个交易日的公司股票交易均价之一。\n破产重整中涉及重整投资人、债权人、股东等持有上市公司股份权益变动的，相关方应当按照《证券法》《上市公司收购管理办法》等规定履行相关义务。重整投资人应当披露是否存在代他人持有上市公司股份的情形，不得违反法律、行政法规的规定代持上市公司股票。\n重整投资人取得上市公司股份涉及国家产业政策、行业准入等事项的，应当说明是否需要取得相关部门批准及其批准情况。重整完成后，上市公司的控股股东、实际控制人、第一大股东不得属于契约型基金、信托计划或者资产管理计划。\n第九条 重整计划草案应当对相关方持股期限作出约束，以确保重整后公司股权、经营相对稳定。\n重整投资人自根据重整计划取得股份之日起十二个月内，不得转让或者委托他人管理其直接和间接持有的上市公司股份。重整投资人成为上市公司的控股股东、实际控制人的，上述期限为三十六个月，其一致行动人应当一同遵守前述锁定要求。\n重整后上市公司控制权未发生变更的，控股股东、实际控制人自重整计划裁定批准之日起三十六个月内不得转让或者委托他人管理其直接和间接持有的上市公司原有股份。控股股东、实际控制人根据重整计划新取得的股份，自取得之日起三十六个月内，不得转让或者委托他人管理。控股股东、实际控制人的一致行动人应当一同遵守前述锁定要求。\n按照重整计划对股权调整完毕后，上市公司披露无控股股东、实际控制人的，其第一大股东应当比照控股股东、实际控制人遵守上述股份锁定期的相关规定，但是第一大股东持股比例不足百分之五的除外。\n第十条 上市公司不得在重整计划实施的重大不确定性消除前，提前确认债务重组收益。在判断重整计划执行过程及结果是否存在重大不确定性时，上市公司应当综合考虑以下事实和情况：\n（一）全体重整投资人是否按照重整计划约定将认购股份的全部款项支付至上市公司或者上市公司管理人账户；\n（二）债权人是否已按重整计划获得偿付或者偿付给债权人的偿债资源是否已划转到管理人账户；\n（三）根据重整计划新取得的股份是否已在证券登记结算机构办理登记过户并披露；\n（四）其他与判断重整计划执行过程及结果是否存在重大不确定性相关的事实和情况。\n负责审计的会计师事务所应当勤勉尽责、规范执业，高度关注债务重组收益确认时点的合理性，履行充分、必要的程序，获取充分、适当的证据，审慎发表专业意见。\n第十一条 上市公司前期重大资产重组中涉及的业绩补偿承诺，不得通过重整计划予以变更。\n上市公司或者破产管理人应当通过提起诉讼、申请保全等方式，及时向业绩补偿承诺方主张权利，督促其严格履行作出的承诺。\n第十二条 上市公司重整计划涉及盈利预测的，应当客观、审慎，充分说明盈利预测的依据、理由、合理性及其可实现性，是否与业绩补偿承诺相关联，并应当聘请财务顾问出具专项核查意见。盈利预测应当以上市公司重整后保留的业务开展情况为基础，不得以资产重组等不确定事项作为预测依据。\n第十三条 上市公司及其董事、高级管理人员，破产管理人及其成员，重整投资人，债权人及有关各方违反本指引规定的，中国证监会根据违规行为性质、情节轻重依法给予行政处罚或者采取行政监管措施。\n第十四条 本指引自公布之日起施行。",
+          "sentences": [
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s0",
+              "text": "第一条 为加强上市公司破产重整监管，有效化解上市公司风险，推动提升上市公司质量，促进证券市场资源的优化配置，根据《中华人民共和国证券法》（以下简称《证券法》）、《中华人民共和国企业破产法》《关于切实审理好上市公司破产重整案件工作座谈会纪要》（以下简称《座谈会纪要》），制定本指引。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s1",
+              "text": "第二条 中国证券监督管理委员会（以下简称中国证监会）依法建立健全与人民法院关于上市公司破产重整的协作机制，对上市公司破产重整中涉及证券市场相关事项进行监督管理。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s2",
+              "text": "证券交易所依法制定上市公司破产重整信息披露规则，对上市公司破产重整中的信息披露行为进行自律管理。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s3",
+              "text": "第三条 上市公司住所地省级人民政府按照《座谈会纪要》向中国证监会通报情况的，可以包括公司陷入困境的原因，目前的资产负债情况、偿债能力分析、是否存在退市风险，重整必要性、重整实现目标等内容。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s4",
+              "text": "第四条 上市公司申请或者被申请破产重整的，应当对是否存在下列情况进行自查并对外披露：\n（一）涉及国家安全、公共安全、生态安全、生产安全和公众健康安全等领域的重大违法行为，可能被证券交易所强制退市；",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s5",
+              "text": "（二）涉及欺诈发行、重大信息披露违法或者其他严重损害证券市场秩序的重大违法行为，可能被证券交易所强制退市；",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s6",
+              "text": "（三）涉及信息披露或者规范运作等方面的重大缺陷，可能被证券交易所强制退市；",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s7",
+              "text": "（四）控股股东、实际控制人及其他关联方违规占用上市公司资金、利用上市公司为其提供担保；",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s8",
+              "text": "（五）其他违反证券监管法律法规，导致上市公司丧失重整价值。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s9",
+              "text": "第五条 上市公司及其控股股东、实际控制人、董事、高级管理人员、破产管理人及其成员、债权人、重整投资人等破产重整相关方应当按照法律、行政法规、中国证监会规定和证券交易所业务规则，及时、公平地披露或者提供涉及上市公司破产重整的信息，保证所披露或者提供信息真实、准确、完整，不得有虚假记载、误导性陈述或者重大遗漏。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s10",
+              "text": "第六条 上市公司及其控股股东、实际控制人、董事、高级管理人员、破产管理人及其成员、债权人、重整投资人、为破产重整事项提供有关服务的中介机构及有关各方，对所知悉的破产重整事项在依法依规披露前负有保密义务。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s11",
+              "text": "上市公司及相关各方应当严格遵守中国证监会以及证券交易所关于内幕信息知情人登记及内幕交易防控的要求。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s12",
+              "text": "任何单位和个人不得利用破产重整相关信息从事内幕交易、操纵证券市场等违法活动。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s13",
+              "text": "第七条 重整计划草案中出资人权益调整方案涉及资本公积金转增股本的，应当充分说明实施资本公积金转增股本的原因、必要性及合理性，根据转增股票用途及目的审慎确定资本公积金转增股本数量，资本公积金转增比例不得超过每十股转增十五股。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s14",
+              "text": "可供转增的资本公积金应当以最近一期经审计的年度报告、半年度报告或者季度报告为准。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s15",
+              "text": "第八条 重整计划草案涉及引入重整投资人的，应当明确重整投资人相关信息及其参与重整的条件、获得的股份数量和价格，合理确定重整投资人投入资金的用途。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s16",
+              "text": "重整投资人相关信息，包括姓名或者名称、实际控制人情况、与上市公司及其董事、高级管理人员、控股股东、实际控制人等是否存在关联关系或者一致行动关系等。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s17",
+              "text": "重整投资人获得股份的价格，不得低于市场参考价的百分之五十。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 17
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s18",
+              "text": "市场参考价为重整投资协议签订日前二十、六十或者一百二十个交易日的公司股票交易均价之一。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 18
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s19",
+              "text": "破产重整中涉及重整投资人、债权人、股东等持有上市公司股份权益变动的，相关方应当按照《证券法》《上市公司收购管理办法》等规定履行相关义务。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 19
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s20",
+              "text": "重整投资人应当披露是否存在代他人持有上市公司股份的情形，不得违反法律、行政法规的规定代持上市公司股票。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 20
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s21",
+              "text": "重整投资人取得上市公司股份涉及国家产业政策、行业准入等事项的，应当说明是否需要取得相关部门批准及其批准情况。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 21
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s22",
+              "text": "重整完成后，上市公司的控股股东、实际控制人、第一大股东不得属于契约型基金、信托计划或者资产管理计划。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 22
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s23",
+              "text": "第九条 重整计划草案应当对相关方持股期限作出约束，以确保重整后公司股权、经营相对稳定。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 23
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s24",
+              "text": "重整投资人自根据重整计划取得股份之日起十二个月内，不得转让或者委托他人管理其直接和间接持有的上市公司股份。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 24
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s25",
+              "text": "重整投资人成为上市公司的控股股东、实际控制人的，上述期限为三十六个月，其一致行动人应当一同遵守前述锁定要求。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 25
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s26",
+              "text": "重整后上市公司控制权未发生变更的，控股股东、实际控制人自重整计划裁定批准之日起三十六个月内不得转让或者委托他人管理其直接和间接持有的上市公司原有股份。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 26
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s27",
+              "text": "控股股东、实际控制人根据重整计划新取得的股份，自取得之日起三十六个月内，不得转让或者委托他人管理。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 27
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s28",
+              "text": "控股股东、实际控制人的一致行动人应当一同遵守前述锁定要求。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 28
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s29",
+              "text": "按照重整计划对股权调整完毕后，上市公司披露无控股股东、实际控制人的，其第一大股东应当比照控股股东、实际控制人遵守上述股份锁定期的相关规定，但是第一大股东持股比例不足百分之五的除外。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 29
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s30",
+              "text": "第十条 上市公司不得在重整计划实施的重大不确定性消除前，提前确认债务重组收益。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 30
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s31",
+              "text": "在判断重整计划执行过程及结果是否存在重大不确定性时，上市公司应当综合考虑以下事实和情况：\n（一）全体重整投资人是否按照重整计划约定将认购股份的全部款项支付至上市公司或者上市公司管理人账户；",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 31
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s32",
+              "text": "（二）债权人是否已按重整计划获得偿付或者偿付给债权人的偿债资源是否已划转到管理人账户；",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 32
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s33",
+              "text": "（三）根据重整计划新取得的股份是否已在证券登记结算机构办理登记过户并披露；",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 33
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s34",
+              "text": "（四）其他与判断重整计划执行过程及结果是否存在重大不确定性相关的事实和情况。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 34
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s35",
+              "text": "负责审计的会计师事务所应当勤勉尽责、规范执业，高度关注债务重组收益确认时点的合理性，履行充分、必要的程序，获取充分、适当的证据，审慎发表专业意见。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 35
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s36",
+              "text": "第十一条 上市公司前期重大资产重组中涉及的业绩补偿承诺，不得通过重整计划予以变更。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 36
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s37",
+              "text": "上市公司或者破产管理人应当通过提起诉讼、申请保全等方式，及时向业绩补偿承诺方主张权利，督促其严格履行作出的承诺。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 37
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s38",
+              "text": "第十二条 上市公司重整计划涉及盈利预测的，应当客观、审慎，充分说明盈利预测的依据、理由、合理性及其可实现性，是否与业绩补偿承诺相关联，并应当聘请财务顾问出具专项核查意见。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 38
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s39",
+              "text": "盈利预测应当以上市公司重整后保留的业务开展情况为基础，不得以资产重组等不确定事项作为预测依据。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 39
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s40",
+              "text": "第十三条 上市公司及其董事、高级管理人员，破产管理人及其成员，重整投资人，债权人及有关各方违反本指引规定的，中国证监会根据违规行为性质、情节轻重依法给予行政处罚或者采取行政监管措施。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 40
+              }
+            },
+            {
+              "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_s41",
+              "text": "第十四条 本指引自公布之日起施行。",
+              "location": {
+                "doc_id": "doc_f7ef7b6b3d88",
+                "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+                "paragraph_index": 0,
+                "sentence_index": 41
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_57e99df6ddf3",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国证券法》",
+      "canonical_name": "中华人民共和国证券法",
+      "attributes": {},
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3afc3eafbd40",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国企业破产法》",
+      "canonical_name": "中华人民共和国企业破产法",
+      "attributes": {},
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b914c5927310",
+      "entity_type": "LegalDocument",
+      "mention": "《关于切实审理好上市公司破产重整案件工作座谈会纪要》",
+      "canonical_name": "关于切实审理好上市公司破产重整案件工作座谈会纪要",
+      "attributes": {},
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_77abee5fc682",
+      "entity_type": "Organization",
+      "mention": "中国证券监督管理委员会",
+      "canonical_name": "中国证券监督管理委员会",
+      "attributes": {},
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_957d958837ca",
+      "entity_type": "Organization",
+      "mention": "证券交易所",
+      "canonical_name": "证券交易所",
+      "attributes": {},
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2d43c675f63b",
+      "entity_type": "Clause",
+      "mention": "第一条",
+      "canonical_name": "第一条_监管目的与依据",
+      "attributes": {
+        "content_summary": "加强监管，化解风险，根据证券法等制定本指引"
+      },
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ffe46a3f4634",
+      "entity_type": "Clause",
+      "mention": "第二条",
+      "canonical_name": "第二条_监管机制",
+      "attributes": {
+        "content_summary": "证监会建立协作机制，交易所制定披露规则"
+      },
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5f827d7ffde2",
+      "entity_type": "Clause",
+      "mention": "第四条",
+      "canonical_name": "第四条_自查情形",
+      "attributes": {
+        "content_summary": "涉及重大违法、欺诈发行等需自查并披露"
+      },
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b6254840fa9a",
+      "entity_type": "LegalTerm",
+      "mention": "内幕交易",
+      "canonical_name": "内幕交易",
+      "attributes": {},
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1dde7d8231f9",
+      "entity_type": "LegalTerm",
+      "mention": "操纵证券市场",
+      "canonical_name": "操纵证券市场",
+      "attributes": {},
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_52c501449118",
+      "entity_type": "Clause",
+      "mention": "第七条",
+      "canonical_name": "第七条_资本公积金转增股本",
+      "attributes": {
+        "content_summary": "转增比例限制及依据"
+      },
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_605f6cbc0107",
+      "entity_type": "Clause",
+      "mention": "第八条",
+      "canonical_name": "第八条_重整投资人信息",
+      "attributes": {
+        "content_summary": "投资人信息披露及价格限制"
+      },
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_909d445a9fa1",
+      "entity_type": "Clause",
+      "mention": "第九条",
+      "canonical_name": "第九条_持股期限约束",
+      "attributes": {
+        "content_summary": "股份锁定期的具体规定"
+      },
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_37a594a61418",
+      "entity_type": "LegalTerm",
+      "mention": "代持",
+      "canonical_name": "代持",
+      "attributes": {},
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b81846f8e118",
+      "entity_type": "LegalTerm",
+      "mention": "一致行动关系",
+      "canonical_name": "一致行动关系",
+      "attributes": {},
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e75531397a81",
+      "entity_type": "LegalTerm",
+      "mention": "股份锁定期",
+      "canonical_name": "股份锁定期",
+      "attributes": {},
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e5a9fa7fb347",
+      "entity_type": "Percentage",
+      "mention": "百分之五十",
+      "canonical_name": "百分之五十",
+      "attributes": {
+        "value": 50.0,
+        "unit": "%"
+      },
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b440cb5a7d9c",
+      "entity_type": "Percentage",
+      "mention": "百分之五",
+      "canonical_name": "百分之五",
+      "attributes": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_64881c0190da",
+      "entity_type": "Clause",
+      "mention": "第十条",
+      "canonical_name": "第十条_债务重组收益确认",
+      "attributes": {
+        "content_summary": "不得提前确认收益及判断标准"
+      },
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cc26f7d0f9a6",
+      "entity_type": "Clause",
+      "mention": "第十一条",
+      "canonical_name": "第十一条_业绩补偿承诺",
+      "attributes": {
+        "content_summary": "不得通过重整变更业绩补偿承诺"
+      },
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_54792e1a6398",
+      "entity_type": "Clause",
+      "mention": "第十二条",
+      "canonical_name": "第十二条_盈利预测",
+      "attributes": {
+        "content_summary": "盈利预测的客观性及核查要求"
+      },
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e26a207e05d5",
+      "entity_type": "LegalTerm",
+      "mention": "债务重组收益",
+      "canonical_name": "债务重组收益",
+      "attributes": {},
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4eb3c6321cca",
+      "entity_type": "LegalTerm",
+      "mention": "业绩补偿承诺",
+      "canonical_name": "业绩补偿承诺",
+      "attributes": {},
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c28292681476",
+      "entity_type": "LegalTerm",
+      "mention": "盈利预测",
+      "canonical_name": "盈利预测",
+      "attributes": {},
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fc5285fda5ec",
+      "entity_type": "Date",
+      "mention": "公布之日",
+      "canonical_name": "公布之日",
+      "attributes": {},
+      "sentence_id": "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub2_s0",
+      "sentence_ids": [
+        "doc_f7ef7b6b3d88#上市公司监管指引第 11号——上市公司破产重整相关事项_p0_sub2_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_892907e9ff78_rel_8149e32f59ce",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_2d43c675f63b",
+      "tail_entity_id": "ent_57e99df6ddf3",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_f7ef7b6b3d88",
+        "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_892907e9ff78_rel_69753f578227",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_2d43c675f63b",
+      "tail_entity_id": "ent_3afc3eafbd40",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_f7ef7b6b3d88",
+        "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_892907e9ff78_rel_3e06c4236de9",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_2d43c675f63b",
+      "tail_entity_id": "ent_b914c5927310",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_f7ef7b6b3d88",
+        "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_892907e9ff78_rel_42f504603bf2",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_2d43c675f63b",
+      "tail_entity_id": "ent_77abee5fc682",
+      "properties": {
+        "definition_context": "简称中国证监会"
+      },
+      "evidence": {
+        "doc_id": "doc_f7ef7b6b3d88",
+        "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_892907e9ff78_rel_13f1ab6fc586",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_2d43c675f63b",
+      "tail_entity_id": "ent_b914c5927310",
+      "properties": {
+        "definition_context": "简称《座谈会纪要》"
+      },
+      "evidence": {
+        "doc_id": "doc_f7ef7b6b3d88",
+        "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_892907e9ff78_rel_93ebe6de6d85",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_5f827d7ffde2",
+      "tail_entity_id": "ent_b6254840fa9a",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_f7ef7b6b3d88",
+        "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_892907e9ff78_rel_15a67fd89081",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_5f827d7ffde2",
+      "tail_entity_id": "ent_1dde7d8231f9",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_f7ef7b6b3d88",
+        "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_892907e9ff78_rel_f3d387ddef87",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_605f6cbc0107",
+      "tail_entity_id": "ent_37a594a61418",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_f7ef7b6b3d88",
+        "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_892907e9ff78_rel_0a5f5420d485",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_605f6cbc0107",
+      "tail_entity_id": "ent_b81846f8e118",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_f7ef7b6b3d88",
+        "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_892907e9ff78_rel_68adb9d667b3",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_909d445a9fa1",
+      "tail_entity_id": "ent_e75531397a81",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_f7ef7b6b3d88",
+        "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_892907e9ff78_rel_7eaec075aea7",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_64881c0190da",
+      "tail_entity_id": "ent_e26a207e05d5",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_f7ef7b6b3d88",
+        "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_892907e9ff78_rel_5c024f850975",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_cc26f7d0f9a6",
+      "tail_entity_id": "ent_4eb3c6321cca",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_f7ef7b6b3d88",
+        "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_892907e9ff78_rel_22aefd60b315",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_54792e1a6398",
+      "tail_entity_id": "ent_c28292681476",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_f7ef7b6b3d88",
+        "section_path": "上市公司监管指引第 11号——上市公司破产重整相关事项",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

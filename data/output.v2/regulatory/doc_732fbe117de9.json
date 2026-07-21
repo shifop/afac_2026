@@ -1,0 +1,4273 @@
+{
+  "doc_id": "doc_732fbe117de9",
+  "title": "Coding rules for information disclosure documents of securities issuers",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0047_att1.md",
+  "processed_at": "2026-07-21T00:57:38.393614+00:00",
+  "structured_data": {
+    "title": "Coding rules for information disclosure documents of securities issuers"
+  },
+  "stats": {
+    "sections": 17,
+    "paragraphs": 14,
+    "sentences": 44,
+    "entities": 167,
+    "relations": 59,
+    "rejected": 0,
+    "llm_calls": 2558,
+    "llm_tokens": 3945528,
+    "elapsed_seconds": 38.32
+  },
+  "sections": [
+    {
+      "section_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers",
+      "section_path": "Coding rules for information disclosure documents of securities issuers",
+      "title": "Coding rules for information disclosure documents of securities issuers",
+      "level": 1,
+      "reading_guide": null,
+      "paragraphs": []
+    },
+    {
+      "section_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 目 次",
+      "section_path": "Coding rules for information disclosure documents of securities issuers > 目 次",
+      "title": "目 次",
+      "level": 2,
+      "reading_guide": {
+        "has": "发布实施日期/前言/引言/范围/规范性引用文件/术语和定义/编码规则/基本原则/编码方法/编码单元/注册服务/附录A基础元数据",
+        "for": [
+          "标准结构",
+          "术语定义",
+          "编码规则",
+          "适用范围"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 目 次_p0",
+          "para_index": 0,
+          "content": "JR/T 0313—2024\n2024-09-11 发布\n2024-09-11 实施\n前言.... II\n引言.... III\n1 范围.... 1\n2 规范性引用文件.... 1\n3 术语和定义.... 1\n4 编码规则.... 2\n4.1 基本原则.... 2\n4.2 编码方法.... 2\n4.3 编码单元.... 2\n5 注册服务.... 3\n附录A（规范性）信息披露文件基础元数据.... 4",
+          "sentences": [
+            {
+              "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 目 次_p0_s0",
+              "text": "JR/T 0313—2024\n2024-09-11 发布\n2024-09-11 实施\n前言.... II\n引言.... III\n1 范围.... 1\n2 规范性引用文件.... 1\n3 术语和定义.... 1\n4 编码规则.... 2\n4.1 基本原则.... 2\n4.2 编码方法.... 2\n4.3 编码单元.... 2\n5 注册服务.... 3\n附录A（规范性）信息披露文件基础元数据.... 4",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "Coding rules for information disclosure documents of securities issuers > 目 次",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言",
+      "section_path": "Coding rules for information disclosure documents of securities issuers > 前 言",
+      "title": "前 言",
+      "level": 2,
+      "reading_guide": {
+        "has": "起草标准GB/T 1.1—2020/提出单位SAC/TC 180/SC4/归口单位SAC/TC 180/起草单位列表/主要起草人名单",
+        "for": [
+          "标准依据",
+          "制定机构",
+          "起草人员"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0",
+          "para_index": 0,
+          "content": "本文件按照GB/T 1.1—2020《标准化工作导则 第1部分：标准化文件的结构和起草规则》的规定起草。\n本文件由全国金融标准化技术委员会证券分技术委员会（SAC/TC 180/SC4）提出。\n本文件由全国金融标准化技术委员会（SAC/TC 180）归口。\n本文件起草单位：上证所信息网络有限公司、中国上市公司协会、上海证券交易所、深圳证券交易所、中证信息技术服务有限责任公司、北京证券交易所有限责任公司、全国中小企业股份转让系统有限责任公司、北京股权交易中心有限公司、上海股权托管交易中心股份有限公司、深圳前海股权交易中心有限公司、深圳证券信息有限公司。\n本文件主要起草人：赵洋明、刘洁、赵伟、华菁、冯艳、张莉、王泊、赖华贵、路一、王瑞喆、兰集、朱培、周耀亮、胡爽峰、陈晓玲。",
+          "sentences": [
+            {
+              "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s0",
+              "text": "本文件按照GB/T 1.1—2020《标准化工作导则 第1部分：标准化文件的结构和起草规则》的规定起草。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "Coding rules for information disclosure documents of securities issuers > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s1",
+              "text": "本文件由全国金融标准化技术委员会证券分技术委员会（SAC/TC 180/SC4）提出。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "Coding rules for information disclosure documents of securities issuers > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s2",
+              "text": "本文件由全国金融标准化技术委员会（SAC/TC 180）归口。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "Coding rules for information disclosure documents of securities issuers > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3",
+              "text": "本文件起草单位：上证所信息网络有限公司、中国上市公司协会、上海证券交易所、深圳证券交易所、中证信息技术服务有限责任公司、北京证券交易所有限责任公司、全国中小企业股份转让系统有限责任公司、北京股权交易中心有限公司、上海股权托管交易中心股份有限公司、深圳前海股权交易中心有限公司、深圳证券信息有限公司。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "Coding rules for information disclosure documents of securities issuers > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4",
+              "text": "本文件主要起草人：赵洋明、刘洁、赵伟、华菁、冯艳、张莉、王泊、赖华贵、路一、王瑞喆、兰集、朱培、周耀亮、胡爽峰、陈晓玲。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "Coding rules for information disclosure documents of securities issuers > 前 言",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言",
+      "section_path": "Coding rules for information disclosure documents of securities issuers > 引 言",
+      "title": "引 言",
+      "level": 2,
+      "reading_guide": {
+        "has": "证券法第七十九条/第八十条/第八十一条/第八十六条/XBRL/信息披露文件编码规则/唯一标识/不可更改/水印附加",
+        "for": [
+          "法规依据",
+          "编码规则",
+          "文件标识",
+          "发布要求"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0",
+          "para_index": 0,
+          "content": "近年来信息披露电子化成效明显，基于XBRL的电子描述语言为我国证券市场信息披露提供更高效和更丰富的手段。但相关信息披露规范主要应用于文件内容，目前证券市场上对于发布后的信息披露文件本身缺乏编码规则。\n《中华人民共和国证券法》（2019年修订）第七十九条、第八十条、第八十一条关于信息披露义务人的相关规定,上市公司、公司债券上市交易的公司、股票在国务院批准的其他全国性证券交易场所交易的公司，都应当按照国务院证券监督管理机构和证券交易场所规定的内容和格式编制定期报告，并在发生规定的重大事件时报送临时报告；第八十六条规定“依法披露的信息，应当在证券交易场所的网站和符合国务院证券监督管理机构规定条件的媒体发布”。证券发行人信息披露文件一直是证券市场最为关注的信息之一，数量庞大、类别繁多。\n信息披露文件一经证券交易所网站发布，即通过多种渠道进行传播。投资者阅读公告时，往往缺少信息对公告源进行回溯，因此需要对信息披露文件加以标识。\n本文件发布后，证券发行人提交的信息披露文件，可由各交易所根据规则自行编码管理，为每份信息披露文件提供唯一标识，通过该标识可以精准定位到此信息披露文件。信息披露文件标识一旦发布不可更改，后续可以采用多种形式利用编码，如将该编码以水印形式附加在信息披露文件上，便于传播和利用。",
+          "sentences": [
+            {
+              "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s0",
+              "text": "近年来信息披露电子化成效明显，基于XBRL的电子描述语言为我国证券市场信息披露提供更高效和更丰富的手段。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "Coding rules for information disclosure documents of securities issuers > 引 言",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s1",
+              "text": "但相关信息披露规范主要应用于文件内容，目前证券市场上对于发布后的信息披露文件本身缺乏编码规则。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "Coding rules for information disclosure documents of securities issuers > 引 言",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s2",
+              "text": "《中华人民共和国证券法》（2019年修订）第七十九条、第八十条、第八十一条关于信息披露义务人的相关规定,上市公司、公司债券上市交易的公司、股票在国务院批准的其他全国性证券交易场所交易的公司，都应当按照国务院证券监督管理机构和证券交易场所规定的内容和格式编制定期报告，并在发生规定的重大事件时报送临时报告；",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "Coding rules for information disclosure documents of securities issuers > 引 言",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s3",
+              "text": "第八十六条规定“依法披露的信息，应当在证券交易场所的网站和符合国务院证券监督管理机构规定条件的媒体发布”。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "Coding rules for information disclosure documents of securities issuers > 引 言",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s4",
+              "text": "证券发行人信息披露文件一直是证券市场最为关注的信息之一，数量庞大、类别繁多。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "Coding rules for information disclosure documents of securities issuers > 引 言",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s5",
+              "text": "信息披露文件一经证券交易所网站发布，即通过多种渠道进行传播。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "Coding rules for information disclosure documents of securities issuers > 引 言",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s6",
+              "text": "投资者阅读公告时，往往缺少信息对公告源进行回溯，因此需要对信息披露文件加以标识。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "Coding rules for information disclosure documents of securities issuers > 引 言",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s7",
+              "text": "本文件发布后，证券发行人提交的信息披露文件，可由各交易所根据规则自行编码管理，为每份信息披露文件提供唯一标识，通过该标识可以精准定位到此信息披露文件。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "Coding rules for information disclosure documents of securities issuers > 引 言",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s8",
+              "text": "信息披露文件标识一旦发布不可更改，后续可以采用多种形式利用编码，如将该编码以水印形式附加在信息披露文件上，便于传播和利用。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "Coding rules for information disclosure documents of securities issuers > 引 言",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则",
+      "section_path": "证券发行人信息披露文件编码规则",
+      "title": "证券发行人信息披露文件编码规则",
+      "level": 1,
+      "reading_guide": null,
+      "paragraphs": []
+    },
+    {
+      "section_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 1 范围",
+      "section_path": "证券发行人信息披露文件编码规则 > 1 范围",
+      "title": "1 范围",
+      "level": 2,
+      "reading_guide": {
+        "has": "编码基本原则/编码方法/编码单元长度/注册管理机构服务要求/适用范围",
+        "for": [
+          "编码规则",
+          "适用范围",
+          "管理要求"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 1 范围_p0",
+          "para_index": 0,
+          "content": "本文件确立了证券发行人信息披露文件编码的基本原则，规定了编码的方法、各编码单元的长度与要求，以及注册管理机构的服务要求。\n本文件适用于上市公司、公司债券上市交易的公司、股票在国务院批准的其他全国性证券交易场所交易的公司的信息披露文件编码与注册服务。",
+          "sentences": [
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 1 范围_p0_s0",
+              "text": "本文件确立了证券发行人信息披露文件编码的基本原则，规定了编码的方法、各编码单元的长度与要求，以及注册管理机构的服务要求。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 1 范围",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 1 范围_p0_s1",
+              "text": "本文件适用于上市公司、公司债券上市交易的公司、股票在国务院批准的其他全国性证券交易场所交易的公司的信息披露文件编码与注册服务。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 1 范围",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件",
+      "section_path": "证券发行人信息披露文件编码规则 > 2 规范性引用文件",
+      "title": "2 规范性引用文件",
+      "level": 2,
+      "reading_guide": {
+        "has": "GB 32100/GB/T 7408—2005/GB/T 21076/GB/T 23696/GB/T 42495.1—2023/IETF RFC 3651/W3",
+        "for": [
+          "引用标准",
+          "编码规范",
+          "数据格式",
+          "术语定义"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0",
+          "para_index": 0,
+          "content": "下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款。其中，注日期的引用文件，仅该日期对应的版本适用于本文件；不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。\nGB 32100 法人和其他组织统一社会信用代码编码规则\nGB/T 7408—2005 数据元和交换格式 信息交换 日期和时间表示法（ISO 8601:2000，IDT）\nGB/T 21076 证券及相关金融工具 国际证券识别编码体系\nGB/T 23696 证券及相关金融工具 交易所和市场识别码\nGB/T 42495.1—2023 金融服务 全球法人识别编码 第1部分：编码说明（ISO 17442—1:2020，IDT）\nIETF RFC 3651 标码系统命名和服务定义（Handle System Namespace and Service Definition）\nW3C/MIT RFC 8820 统一资源标识符设计与归属（URI Design and Ownership）\nBCP 47 语言识别标签（Tags for Identifying Languages）",
+          "sentences": [
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s0",
+              "text": "下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 2 规范性引用文件",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s1",
+              "text": "其中，注日期的引用文件，仅该日期对应的版本适用于本文件；",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 2 规范性引用文件",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s2",
+              "text": "不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 2 规范性引用文件",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s3",
+              "text": "GB 32100 法人和其他组织统一社会信用代码编码规则\nGB/T 7408—2005 数据元和交换格式 信息交换 日期和时间表示法（ISO 8601:2000，IDT）\nGB/T 21076 证券及相关金融工具 国际证券识别编码体系\nGB/T 23696 证券及相关金融工具 交易所和市场识别码\nGB/T 42495.1—2023 金融服务 全球法人识别编码 第1部分：编码说明（ISO 17442—1:2020，IDT）\nIETF RFC 3651 标码系统命名和服务定义（Handle System Namespace and Service Definition）\nW3C/MIT RFC 8820 统一资源标识符设计与归属（URI Design and Ownership）\nBCP 47 语言识别标签（Tags for Identifying Languages）",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 2 规范性引用文件",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3 术语和定义",
+      "section_path": "证券发行人信息披露文件编码规则 > 3 术语和定义",
+      "title": "3 术语和定义",
+      "level": 2,
+      "reading_guide": {
+        "has": "证券发行人/securities issuer/定义/发行主体/股票/债券",
+        "for": [
+          "术语定义",
+          "概念解释",
+          "主体识别"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3 术语和定义_p0",
+          "para_index": 0,
+          "content": "下列术语和定义适用于本文件。\n证券发行人 securities issuer\n为筹措资金而发行股票、债券等证券的发行主体。",
+          "sentences": [
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3 术语和定义_p0_s0",
+              "text": "下列术语和定义适用于本文件。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 3 术语和定义",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3 术语和定义_p0_s1",
+              "text": "证券发行人 securities issuer\n为筹措资金而发行股票、债券等证券的发行主体。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 3 术语和定义",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.2",
+      "section_path": "证券发行人信息披露文件编码规则 > 3.2",
+      "title": "3.2",
+      "level": 2,
+      "reading_guide": {
+        "has": "披露场所/信息披露文件/证券发行人/上市或挂牌场所/法规要求",
+        "for": [
+          "定义解释",
+          "术语说明",
+          "概念辨析"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.2_p0",
+          "para_index": 0,
+          "content": "披露场所 disclosure place\n信息披露的场所。\n注：一般为公司上市或挂牌的场所。\n信息披露文件 information disclosure document\n证券发行人（3.1）按法规要求在披露场所（3.2）发布的正式文件。",
+          "sentences": [
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.2_p0_s0",
+              "text": "披露场所 disclosure place\n信息披露的场所。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 3.2",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.2_p0_s1",
+              "text": "注：一般为公司上市或挂牌的场所。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 3.2",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.2_p0_s2",
+              "text": "信息披露文件 information disclosure document\n证券发行人（3.1）按法规要求在披露场所（3.2）发布的正式文件。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 3.2",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.4",
+      "section_path": "证券发行人信息披露文件编码规则 > 3.4",
+      "title": "3.4",
+      "level": 2,
+      "reading_guide": {
+        "has": "信息披露文件编码/唯一标识",
+        "for": [
+          "文件编码",
+          "文档标识"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.4_p0",
+          "para_index": 0,
+          "content": "信息披露文件编码 code for information disclosure document\n信息披露文件（3.3）的唯一标识。",
+          "sentences": [
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.4_p0_s0",
+              "text": "信息披露文件编码 code for information disclosure document\n信息披露文件（3.3）的唯一标识。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 3.4",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.5",
+      "section_path": "证券发行人信息披露文件编码规则 > 3.5",
+      "title": "3.5",
+      "level": 2,
+      "reading_guide": {
+        "has": "元数据/metadata/信息披露文件/证券代码/证券简称",
+        "for": [
+          "文件编码",
+          "基础信息",
+          "元数据定义"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.5_p0",
+          "para_index": 0,
+          "content": "元数据 metadata\n描述信息披露文件（3.3）的数据。\n示例：信息披露文件的证券代码、证券简称等。",
+          "sentences": [
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.5_p0_s0",
+              "text": "元数据 metadata\n描述信息披露文件（3.3）的数据。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 3.5",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.5_p0_s1",
+              "text": "示例：信息披露文件的证券代码、证券简称等。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 3.5",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4 编码规则",
+      "section_path": "证券发行人信息披露文件编码规则 > 4 编码规则",
+      "title": "4 编码规则",
+      "level": 2,
+      "reading_guide": {
+        "has": "编码规则/UTF-8字符/长度限制/256字节/IETF RFC 3651/W3C/MIT RFC 8820",
+        "for": [
+          "编码标准",
+          "格式要求",
+          "技术约束"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4 编码规则_p0",
+          "para_index": 0,
+          "content": "证券发行人信息披露文件编码应广泛适用于各种应用，应满足IETF RFC 3651及W3C/MIT RFC 8820语法要求，即：\na） 标识为任意UTF-8字符组成的字符串；\nb） 长度不超过256个字节。",
+          "sentences": [
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4 编码规则_p0_s0",
+              "text": "证券发行人信息披露文件编码应广泛适用于各种应用，应满足IETF RFC 3651及W3C/MIT RFC 8820语法要求，即：\na） 标识为任意UTF-8字符组成的字符串；",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 4 编码规则",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4 编码规则_p0_s1",
+              "text": "b） 长度不超过256个字节。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 4 编码规则",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.2 编码方法",
+      "section_path": "证券发行人信息披露文件编码规则 > 4.2 编码方法",
+      "title": "4.2 编码方法",
+      "level": 2,
+      "reading_guide": {
+        "has": "信息披露文件分类/正文编码结构/附件编码结构/编码单元规则/半角圆点分隔符/字符集限制",
+        "for": [
+          "编码规则",
+          "文件结构",
+          "编码格式",
+          "附件定义"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.2 编码方法_p0",
+          "para_index": 0,
+          "content": "证券发行人信息披露文件分为正文和附件。\n选取与信息披露文件相关、一般不变的编码单元进行编码。\n正文编码包括发布者、披露场所、产品、发布日期、发布序列号5个部分，各部分之间由半角圆点（.）分割，可包含大写或小写的英文字母（A-Z,a-z）和阿拉伯数字（0-9）。信息披露文件正文编码结构图见图1。\n[图片：]\n图 1 信息披露文件正文编码结构图\n附件编码包括所属正文编码和附件序列号2个部分，由半角圆点（.）分割。信息披露文件附件编码结构图见图2。\n[图片：]\n图 2 信息披露文件附件编码结构图",
+          "sentences": [
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.2 编码方法_p0_s0",
+              "text": "证券发行人信息披露文件分为正文和附件。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 4.2 编码方法",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.2 编码方法_p0_s1",
+              "text": "选取与信息披露文件相关、一般不变的编码单元进行编码。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 4.2 编码方法",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.2 编码方法_p0_s2",
+              "text": "正文编码包括发布者、披露场所、产品、发布日期、发布序列号5个部分，各部分之间由半角圆点（.）分割，可包含大写或小写的英文字母（A-Z,a-z）和阿拉伯数字（0-9）。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 4.2 编码方法",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.2 编码方法_p0_s3",
+              "text": "信息披露文件正文编码结构图见图1。\n[图片：]\n图 1 信息披露文件正文编码结构图\n附件编码包括所属正文编码和附件序列号2个部分，由半角圆点（.）分割。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 4.2 编码方法",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.2 编码方法_p0_s4",
+              "text": "信息披露文件附件编码结构图见图2。\n[图片：]\n图 2 信息披露文件附件编码结构图",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 4.2 编码方法",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元",
+      "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+      "title": "4.3 编码单元",
+      "level": 2,
+      "reading_guide": {
+        "has": "编码单元名称/含义/长度/要求，发布者（统一社会信用代码/LEI），披露场所，产品代码，发布日期（YYYYMMDD），发布序列号，附件序列号",
+        "for": [
+          "编码规则",
+          "字段定义",
+          "格式要求",
+          "标识符规范"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0",
+          "para_index": 0,
+          "content": "编码单元的名称、含义、长度及要求见表1。\n表 1 编码单元说明\n<table><tr><td>编码单元名称</td><td>含义</td><td>长度</td><td>要求</td></tr><tr><td>发布者</td><td>信息披露文件的发布者,一般为证券发行人,也可为证券交易所或中介机构</td><td>小于20位</td><td>(1) 发布者为境内机构的,应使用统一社会信用代码,编码应符合GB 32100的要求(2) 发布者为境外机构的,宜使用全球法人识别编码(LEI),编码应符合GB/T 42495.1—2023的要求,如境外机构没有申请全球法人识别编码(LEI),可使用披露场所认可的其他唯一识别码</td></tr><tr><td>披露场所</td><td>证券发行人进行信息披露的首要场所,一般为公司上市或挂牌场所</td><td>2-8位英文字母</td><td>编码为披露场所指定的字母组合;如同一份文件需要在多个披露场所披露,应使用首要披露场所编码</td></tr><tr><td>产品</td><td>同一披露场所内产品的唯一码</td><td>小于32位的数字或字母组合</td><td>证券发行人所在披露场所统一分配的产品代码,一般为证券代码;如一个信息披露文件对应了多个产品,使用6位字母“NOTICE”替代</td></tr><tr><td>发布日期</td><td>信息披露文件发布日期</td><td>8位数字</td><td>YYYYMMDD</td></tr><tr><td>发布序列号</td><td>信息披露文件发布的当日序列号</td><td>3位数字</td><td>按照该证券产品当日发布的披露文件顺序取值,第一个取值为“001”,之后依次递增</td></tr><tr><td>附件序列号</td><td>每个信息披露文件的附件序列号</td><td>3位数字</td><td>按照每个文件的附件发布顺序取值,第一个附件取值为“001”,之后依次递增</td></tr></table>",
+          "sentences": [
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+              "text": "编码单元的名称、含义、长度及要求见表1。\n表 1 编码单元说明\n<table><tr><td>编码单元名称</td><td>含义</td><td>长度</td><td>要求</td></tr><tr><td>发布者</td><td>信息披露文件的发布者,一般为证券发行人,也可为证券交易所或中介机构</td><td>小于20位</td><td>(1) 发布者为境内机构的,应使用统一社会信用代码,编码应符合GB 32100的要求(2) 发布者为境外机构的,宜使用全球法人识别编码(LEI),编码应符合GB/T 42495.1—2023的要求,如境外机构没有申请全球法人识别编码(LEI),可使用披露场所认可的其他唯一识别码</td></tr><tr><td>披露场所</td><td>证券发行人进行信息披露的首要场所,一般为公司上市或挂牌场所</td><td>2-8位英文字母</td><td>编码为披露场所指定的字母组合;如同一份文件需要在多个披露场所披露,应使用首要披露场所编码</td></tr><tr><td>产品</td><td>同一披露场所内产品的唯一码</td><td>小于32位的数字或字母组合</td><td>证券发行人所在披露场所统一分配的产品代码,一般为证券代码;如一个信息披露文件对应了多个产品,使用6位字母“NOTICE”替代</td></tr><tr><td>发布日期</td><td>信息披露文件发布日期</td><td>8位数字</td><td>YYYYMMDD</td></tr><tr><td>发布序列号</td><td>信息披露文件发布的当日序列号</td><td>3位数字</td><td>按照该证券产品当日发布的披露文件顺序取值,第一个取值为“001”,之后依次递增</td></tr><tr><td>附件序列号</td><td>每个信息披露文件的附件序列号</td><td>3位数字</td><td>按照每个文件的附件发布顺序取值,第一个附件取值为“001”,之后依次递增</td></tr></table>",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 5 注册服务",
+      "section_path": "证券发行人信息披露文件编码规则 > 5 注册服务",
+      "title": "5 注册服务",
+      "level": 2,
+      "reading_guide": {
+        "has": "披露场所/注册管理机构/唯一编码分配/元数据更新/相互查询功能",
+        "for": [
+          "编码规则",
+          "注册服务",
+          "元数据管理",
+          "查询功能"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 5 注册服务_p0",
+          "para_index": 0,
+          "content": "各披露场所是信息披露文件的注册管理机构，应提供如下服务：\na) 按本文件为在本披露场所进行信息披露的文件分配唯一编码，一旦分配不应变更；\nb) 持续更新信息披露文件的基础元数据（应符合附录A要求）；\nc） 提供唯一编码和基础元数据的相互查询功能。",
+          "sentences": [
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 5 注册服务_p0_s0",
+              "text": "各披露场所是信息披露文件的注册管理机构，应提供如下服务：\na) 按本文件为在本披露场所进行信息披露的文件分配唯一编码，一旦分配不应变更；",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 5 注册服务",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 5 注册服务_p0_s1",
+              "text": "b) 持续更新信息披露文件的基础元数据（应符合附录A要求）；",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 5 注册服务",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 5 注册服务_p0_s2",
+              "text": "c） 提供唯一编码和基础元数据的相互查询功能。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "证券发行人信息披露文件编码规则 > 5 注册服务",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_732fbe117de9#附 录 A",
+      "section_path": "附 录 A",
+      "title": "附 录 A",
+      "level": 1,
+      "reading_guide": null,
+      "paragraphs": []
+    },
+    {
+      "section_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据",
+      "section_path": "附 录 A > 信息披露文件基础元数据",
+      "title": "信息披露文件基础元数据",
+      "level": 2,
+      "reading_guide": {
+        "has": "元数据组/发布者标识/统一社会信用代码/全球法人识别编码/披露场所/MIC码/产品代码/证券简称/文件标题/披露类型/发布日期/链接/版本/附件序列号/资源关系",
+        "for": [
+          "元数据规范",
+          "字段定义",
+          "必填项检查",
+          "编码标准"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0",
+          "para_index": 0,
+          "content": "（规范性）\n信息披露文件基础元数据信息见表A.1。\n披露场所在提供服务时，可在此基础元数据上扩展。\n披露场所及产品元数据组和资源元数据组可重复。\n枚举型的取值范围可扩展。\n表 A.1 信息披露文件基础元数据\n<table><tr><td>元数据组</td><td>元数据</td><td>元数据名称</td><td>是否必选</td><td>要求</td></tr><tr><td rowspan=\"4\">发布者</td><td>AUTHOR_COD</td><td>信息披露文件发布者标识</td><td rowspan=\"3\">至少选一</td><td>证券发行人或其他信息披露义务人的统一社会信用代码,应符合GB 32100的要求</td></tr><tr><td>AUTHOR_LEI</td><td>全球法人识别编码</td><td>全球法人识别编码(LEI),应符合GB/T 42495.1-2023的要求</td></tr><tr><td>AUTHOR_OTHERCODE</td><td>其他编码</td><td>披露场所认可的发行人编码,可使用披露场所作为前缀以避免重码</td></tr><tr><td>AUTHOR_NAME</td><td>发布者名称</td><td>可选</td><td>信息披露文件发布者名称</td></tr><tr><td rowspan=\"8\">披露场所及产品</td><td>EXCHANGE_NAME</td><td>披露场所</td><td>必选</td><td>由披露场所指定的字母组合</td></tr><tr><td>EXCHANGE_MIC</td><td>MIC码</td><td>可选</td><td>表明交易场所,编码应符合GB/T 23696的要求</td></tr><tr><td>PRODUCT_CODE</td><td>产品代码</td><td>必选</td><td>由证券发行人在披露场所申请或由披露场所分配的产品码,一般使用证券代码;如一个信息披露文件对应了多个场所的多个证券或产品,则均应列出</td></tr><tr><td>PRODUCT_NAME_SHORT</td><td>产品简称</td><td>可选</td><td>由证券发行人在披露场所申请或由披露场所分配的产品简称,一般为证券简称</td></tr><tr><td>PRODUCT_NAME_EXTENDED</td><td>证券扩位简称</td><td>可选</td><td>由证券发行人在披露场所申请或由披露场所分配的证券扩位简称</td></tr><tr><td>PRODUCT_NAME_FULL</td><td>产品全称</td><td>可选</td><td>由证券发行人在披露场所申请或由披露场所分配的产品全称</td></tr><tr><td>PRODUCT_NAME_EN</td><td>英文简称</td><td>可选</td><td>由证券发行人在披露场所申请或由披露场所分配的产品英文简称</td></tr><tr><td>PRODUCT_ISIN</td><td>国际证券识别编码</td><td>可选</td><td>编码应符合GB/T 21076的要求</td></tr><tr><td>元数据组</td><td>元数据</td><td>元数据名称</td><td>是否必须</td><td>要求</td></tr><tr><td rowspan=\"11\">信息披露文件信息</td><td>DOC_TITLE</td><td>信息披露文件标题</td><td>必选</td><td>信息披露文件标题</td></tr><tr><td>DOC_TYPE</td><td>披露类型</td><td>可选</td><td>披露场所自定义的披露类型,如注册审核公告、发行公告、定期公告、临时公告等</td></tr><tr><td>DOC_LAN</td><td>语言</td><td>可选</td><td>信息披露文件使用的语言,应符合BCP 47的要求</td></tr><tr><td>DOC_PUBDATE</td><td>发布日期</td><td>必选</td><td>信息披露文件发布日期,格式为YYYYMMDD</td></tr><tr><td>DOC_PUBTIME</td><td>发布时间</td><td>可选</td><td>信息披露文件发布时间,应符合GB/T 7408-2005中5.4.1的要求</td></tr><tr><td>DOC_DISDATE</td><td>披露日期</td><td>可选</td><td>信息披露文件披露日期,格式为YYYYMMDD,可与信息披露文件发布日期不同</td></tr><tr><td>DOC_URL</td><td>信息披露文件链接</td><td>必选</td><td>信息披露文件存放链接,可按需更新</td></tr><tr><td>DOC_VAL</td><td>是否有效</td><td>必选</td><td>信息披露文件是否有效</td></tr><tr><td>DOC_VER</td><td>版本</td><td>可选</td><td>信息披露文件版本,从1起计数</td></tr><tr><td>DOC_NO</td><td>文件发布序列号</td><td>必选</td><td>3位数字,按照该证券产品当日发布的信息披露文件顺序取值,第一个取值为“001”,之后依次递增</td></tr><tr><td>DOC_ATT_NO</td><td>附件序列号</td><td>可选</td><td>3位数字,按照每个文件的附件发布顺序取值,第一个附件取值为“001”,之后依次递增</td></tr><tr><td rowspan=\"2\">资源</td><td>RES_CDD</td><td>资源标识</td><td>可选</td><td>与信息披露文件有关联的其他信息披露文件标识,编码应遵照本文件要求</td></tr><tr><td>RES_TYPE</td><td>资源类型</td><td>可选</td><td>本信息披露文件与资源的关系,如:引用、更新、等同、翻译,其中引用代表新发布的信息披露文件引用了以前发布的一个或多个信息披露文件;更新代表新发布的信息披露文件取代了以前发布的信息披露文件;等同代表新发布的信息披露文件等同于另一份信息披露文件,如在不同披露场所发布同样的信息披露文件;翻译代表新发布的信息披露文件是以前发布的信息披露文件的翻译版本</td></tr></table>",
+          "sentences": [
+            {
+              "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+              "text": "（规范性）\n信息披露文件基础元数据信息见表A.1。\n披露场所在提供服务时，可在此基础元数据上扩展。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "附 录 A > 信息披露文件基础元数据",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s1",
+              "text": "披露场所及产品元数据组和资源元数据组可重复。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "附 录 A > 信息披露文件基础元数据",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s2",
+              "text": "枚举型的取值范围可扩展。",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "附 录 A > 信息披露文件基础元数据",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s3",
+              "text": "表 A.1 信息披露文件基础元数据\n<table><tr><td>元数据组</td><td>元数据</td><td>元数据名称</td><td>是否必选</td><td>要求</td></tr><tr><td rowspan=\"4\">发布者</td><td>AUTHOR_COD</td><td>信息披露文件发布者标识</td><td rowspan=\"3\">至少选一</td><td>证券发行人或其他信息披露义务人的统一社会信用代码,应符合GB 32100的要求</td></tr><tr><td>AUTHOR_LEI</td><td>全球法人识别编码</td><td>全球法人识别编码(LEI),应符合GB/T 42495.1-2023的要求</td></tr><tr><td>AUTHOR_OTHERCODE</td><td>其他编码</td><td>披露场所认可的发行人编码,可使用披露场所作为前缀以避免重码</td></tr><tr><td>AUTHOR_NAME</td><td>发布者名称</td><td>可选</td><td>信息披露文件发布者名称</td></tr><tr><td rowspan=\"8\">披露场所及产品</td><td>EXCHANGE_NAME</td><td>披露场所</td><td>必选</td><td>由披露场所指定的字母组合</td></tr><tr><td>EXCHANGE_MIC</td><td>MIC码</td><td>可选</td><td>表明交易场所,编码应符合GB/T 23696的要求</td></tr><tr><td>PRODUCT_CODE</td><td>产品代码</td><td>必选</td><td>由证券发行人在披露场所申请或由披露场所分配的产品码,一般使用证券代码;如一个信息披露文件对应了多个场所的多个证券或产品,则均应列出</td></tr><tr><td>PRODUCT_NAME_SHORT</td><td>产品简称</td><td>可选</td><td>由证券发行人在披露场所申请或由披露场所分配的产品简称,一般为证券简称</td></tr><tr><td>PRODUCT_NAME_EXTENDED</td><td>证券扩位简称</td><td>可选</td><td>由证券发行人在披露场所申请或由披露场所分配的证券扩位简称</td></tr><tr><td>PRODUCT_NAME_FULL</td><td>产品全称</td><td>可选</td><td>由证券发行人在披露场所申请或由披露场所分配的产品全称</td></tr><tr><td>PRODUCT_NAME_EN</td><td>英文简称</td><td>可选</td><td>由证券发行人在披露场所申请或由披露场所分配的产品英文简称</td></tr><tr><td>PRODUCT_ISIN</td><td>国际证券识别编码</td><td>可选</td><td>编码应符合GB/T 21076的要求</td></tr><tr><td>元数据组</td><td>元数据</td><td>元数据名称</td><td>是否必须</td><td>要求</td></tr><tr><td rowspan=\"11\">信息披露文件信息</td><td>DOC_TITLE</td><td>信息披露文件标题</td><td>必选</td><td>信息披露文件标题</td></tr><tr><td>DOC_TYPE</td><td>披露类型</td><td>可选</td><td>披露场所自定义的披露类型,如注册审核公告、发行公告、定期公告、临时公告等</td></tr><tr><td>DOC_LAN</td><td>语言</td><td>可选</td><td>信息披露文件使用的语言,应符合BCP 47的要求</td></tr><tr><td>DOC_PUBDATE</td><td>发布日期</td><td>必选</td><td>信息披露文件发布日期,格式为YYYYMMDD</td></tr><tr><td>DOC_PUBTIME</td><td>发布时间</td><td>可选</td><td>信息披露文件发布时间,应符合GB/T 7408-2005中5.4.1的要求</td></tr><tr><td>DOC_DISDATE</td><td>披露日期</td><td>可选</td><td>信息披露文件披露日期,格式为YYYYMMDD,可与信息披露文件发布日期不同</td></tr><tr><td>DOC_URL</td><td>信息披露文件链接</td><td>必选</td><td>信息披露文件存放链接,可按需更新</td></tr><tr><td>DOC_VAL</td><td>是否有效</td><td>必选</td><td>信息披露文件是否有效</td></tr><tr><td>DOC_VER</td><td>版本</td><td>可选</td><td>信息披露文件版本,从1起计数</td></tr><tr><td>DOC_NO</td><td>文件发布序列号</td><td>必选</td><td>3位数字,按照该证券产品当日发布的信息披露文件顺序取值,第一个取值为“001”,之后依次递增</td></tr><tr><td>DOC_ATT_NO</td><td>附件序列号</td><td>可选</td><td>3位数字,按照每个文件的附件发布顺序取值,第一个附件取值为“001”,之后依次递增</td></tr><tr><td rowspan=\"2\">资源</td><td>RES_CDD</td><td>资源标识</td><td>可选</td><td>与信息披露文件有关联的其他信息披露文件标识,编码应遵照本文件要求</td></tr><tr><td>RES_TYPE</td><td>资源类型</td><td>可选</td><td>本信息披露文件与资源的关系,如:引用、更新、等同、翻译,其中引用代表新发布的信息披露文件引用了以前发布的一个或多个信息披露文件;更新代表新发布的信息披露文件取代了以前发布的信息披露文件;等同代表新发布的信息披露文件等同于另一份信息披露文件,如在不同披露场所发布同样的信息披露文件;翻译代表新发布的信息披露文件是以前发布的信息披露文件的翻译版本</td></tr></table>",
+              "location": {
+                "doc_id": "doc_732fbe117de9",
+                "section_path": "附 录 A > 信息披露文件基础元数据",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_b305a9cf2b99",
+      "entity_type": "LegalDocument",
+      "mention": "JR/T 0313—2024",
+      "canonical_name": "JR/T 0313—2024",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 目 次_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 目 次_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b0aba919eff6",
+      "entity_type": "Date",
+      "mention": "2024-09-11",
+      "canonical_name": "2024-09-11",
+      "attributes": {
+        "type": "implementation_date"
+      },
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 目 次_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 目 次_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4a9aada052d4",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 1.1—2020",
+      "canonical_name": "GB/T 1.1—2020",
+      "attributes": {
+        "full_title": "标准化工作导则 第1部分：标准化文件的结构和起草规则"
+      },
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d0277e263c6b",
+      "entity_type": "Organization",
+      "mention": "全国金融标准化技术委员会证券分技术委员会（SAC/TC 180/SC4）",
+      "canonical_name": "全国金融标准化技术委员会证券分技术委员会",
+      "attributes": {
+        "code": "SAC/TC 180/SC4"
+      },
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s1",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ade29209f9f6",
+      "entity_type": "Organization",
+      "mention": "全国金融标准化技术委员会（SAC/TC 180）",
+      "canonical_name": "全国金融标准化技术委员会",
+      "attributes": {
+        "code": "SAC/TC 180"
+      },
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s2",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_40efbea49ac3",
+      "entity_type": "Organization",
+      "mention": "上证所信息网络有限公司",
+      "canonical_name": "上证所信息网络有限公司",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a2a695891cab",
+      "entity_type": "Organization",
+      "mention": "中国上市公司协会",
+      "canonical_name": "中国上市公司协会",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b426b7b2943c",
+      "entity_type": "Organization",
+      "mention": "上海证券交易所",
+      "canonical_name": "上海证券交易所",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_febf5e04152e",
+      "entity_type": "Organization",
+      "mention": "深圳证券交易所",
+      "canonical_name": "深圳证券交易所",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1c65b59a7c21",
+      "entity_type": "Organization",
+      "mention": "中证信息技术服务有限责任公司",
+      "canonical_name": "中证信息技术服务有限责任公司",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a688b3d40cd1",
+      "entity_type": "Organization",
+      "mention": "北京证券交易所有限责任公司",
+      "canonical_name": "北京证券交易所有限责任公司",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_bd490465f01c",
+      "entity_type": "Organization",
+      "mention": "全国中小企业股份转让系统有限责任公司",
+      "canonical_name": "全国中小企业股份转让系统有限责任公司",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6ce16c838503",
+      "entity_type": "Organization",
+      "mention": "北京股权交易中心有限公司",
+      "canonical_name": "北京股权交易中心有限公司",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1ed19900479a",
+      "entity_type": "Organization",
+      "mention": "上海股权托管交易中心股份有限公司",
+      "canonical_name": "上海股权托管交易中心股份有限公司",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a0991a5ba964",
+      "entity_type": "Organization",
+      "mention": "深圳前海股权交易中心有限公司",
+      "canonical_name": "深圳前海股权交易中心有限公司",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6ab724c1e85c",
+      "entity_type": "Organization",
+      "mention": "深圳证券信息有限公司",
+      "canonical_name": "深圳证券信息有限公司",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ae74cde533ce",
+      "entity_type": "Person",
+      "mention": "赵洋明",
+      "canonical_name": "赵洋明",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e1bef8d93309",
+      "entity_type": "Person",
+      "mention": "刘洁",
+      "canonical_name": "刘洁",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ee0df18658ef",
+      "entity_type": "Person",
+      "mention": "赵伟",
+      "canonical_name": "赵伟",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b7d9602edae4",
+      "entity_type": "Person",
+      "mention": "华菁",
+      "canonical_name": "华菁",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ebe9d2542b4d",
+      "entity_type": "Person",
+      "mention": "冯艳",
+      "canonical_name": "冯艳",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ee92af11afef",
+      "entity_type": "Person",
+      "mention": "张莉",
+      "canonical_name": "张莉",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7de3b7610b45",
+      "entity_type": "Person",
+      "mention": "王泊",
+      "canonical_name": "王泊",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_431071122286",
+      "entity_type": "Person",
+      "mention": "赖华贵",
+      "canonical_name": "赖华贵",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_52503d46f481",
+      "entity_type": "Person",
+      "mention": "路一",
+      "canonical_name": "路一",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fe4888a099f0",
+      "entity_type": "Person",
+      "mention": "王瑞喆",
+      "canonical_name": "王瑞喆",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2f20acf96211",
+      "entity_type": "Person",
+      "mention": "兰集",
+      "canonical_name": "兰集",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b1c39ae3b668",
+      "entity_type": "Person",
+      "mention": "朱培",
+      "canonical_name": "朱培",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_677c649e0ff4",
+      "entity_type": "Person",
+      "mention": "周耀亮",
+      "canonical_name": "周耀亮",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1cbb011e2dd5",
+      "entity_type": "Person",
+      "mention": "胡爽峰",
+      "canonical_name": "胡爽峰",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c538ddfdf8a4",
+      "entity_type": "Person",
+      "mention": "陈晓玲",
+      "canonical_name": "陈晓玲",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 前 言_p0_s4"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a5a5ab6d00e0",
+      "entity_type": "Industry",
+      "mention": "证券市场",
+      "canonical_name": "证券市场",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_69fedce84724",
+      "entity_type": "LegalDocument",
+      "mention": "《中华人民共和国证券法》",
+      "canonical_name": "中华人民共和国证券法",
+      "attributes": {
+        "version": "2019年修订"
+      },
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s2",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4f96f563483c",
+      "entity_type": "Clause",
+      "mention": "第七十九条",
+      "canonical_name": "第七十九条",
+      "attributes": {
+        "content_summary": "关于信息披露义务人的相关规定"
+      },
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s2",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_add4898cd8b9",
+      "entity_type": "Clause",
+      "mention": "第八十条",
+      "canonical_name": "第八十条",
+      "attributes": {
+        "content_summary": "关于信息披露义务人的相关规定"
+      },
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s2",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f8349bbd0f52",
+      "entity_type": "Clause",
+      "mention": "第八十一条",
+      "canonical_name": "第八十一条",
+      "attributes": {
+        "content_summary": "关于信息披露义务人的相关规定"
+      },
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s2",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8fed678062ef",
+      "entity_type": "Clause",
+      "mention": "第八十六条",
+      "canonical_name": "第八十六条",
+      "attributes": {
+        "content_summary": "依法披露的信息应当在证券交易场所的网站和符合国务院证券监督管理机构规定条件的媒体发布"
+      },
+      "sentence_id": "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#Coding rules for information disclosure documents of securities issuers > 引 言_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f07613667ac9",
+      "entity_type": "LegalDocument",
+      "mention": "GB 32100",
+      "canonical_name": "GB 32100",
+      "attributes": {
+        "full_title": "法人和其他组织统一社会信用代码编码规则"
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s3",
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_be99d9776559",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 7408—2005",
+      "canonical_name": "GB/T 7408—2005",
+      "attributes": {
+        "full_title": "数据元和交换格式 信息交换 日期和时间表示法（ISO 8601:2000，IDT）"
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7b0cda0c9d5b",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 21076",
+      "canonical_name": "GB/T 21076",
+      "attributes": {
+        "full_title": "证券及相关金融工具 国际证券识别编码体系"
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s3",
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_91d43dec5842",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 23696",
+      "canonical_name": "GB/T 23696",
+      "attributes": {
+        "full_title": "证券及相关金融工具 交易所和市场识别码"
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s3",
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b2fa4eafd3dd",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 42495.1—2023",
+      "canonical_name": "GB/T 42495.1—2023",
+      "attributes": {
+        "full_title": "金融服务 全球法人识别编码 第1部分：编码说明（ISO 17442—1:2020，IDT）"
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_888c7190ec40",
+      "entity_type": "LegalDocument",
+      "mention": "IETF RFC 3651",
+      "canonical_name": "IETF RFC 3651",
+      "attributes": {
+        "full_title": "标码系统命名和服务定义（Handle System Namespace and Service Definition）"
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ab4371f93d95",
+      "entity_type": "LegalDocument",
+      "mention": "W3C/MIT RFC 8820",
+      "canonical_name": "W3C/MIT RFC 8820",
+      "attributes": {
+        "full_title": "统一资源标识符设计与归属（URI Design and Ownership）"
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fbe249de36a2",
+      "entity_type": "LegalDocument",
+      "mention": "BCP 47",
+      "canonical_name": "BCP 47",
+      "attributes": {
+        "full_title": "语言识别标签（Tags for Identifying Languages）"
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s3",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 2 规范性引用文件_p0_s3",
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_94284bc53ec6",
+      "entity_type": "LegalTerm",
+      "mention": "证券发行人",
+      "canonical_name": "证券发行人",
+      "attributes": {
+        "definition": "为筹措资金而发行股票、债券等证券的发行主体。"
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3 术语和定义_p0_s1",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3 术语和定义_p0_s1"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5df19f817dff",
+      "entity_type": "LegalTerm",
+      "mention": "披露场所",
+      "canonical_name": "披露场所",
+      "attributes": {
+        "definition": "证券发行人进行信息披露的首要场所,一般为公司上市或挂牌场所"
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.2_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.2_p0_s0",
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6cead1d973a6",
+      "entity_type": "LegalTerm",
+      "mention": "信息披露文件",
+      "canonical_name": "信息披露文件",
+      "attributes": {
+        "definition": "证券发行人按法规要求在披露场所发布的正式文件。"
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.2_p0_s2",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.2_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_93c5499c474e",
+      "entity_type": "LegalTerm",
+      "mention": "信息披露文件编码",
+      "canonical_name": "信息披露文件编码",
+      "attributes": {
+        "definition": "信息披露文件的唯一标识。"
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.4_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.4_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_47f62b7d5e56",
+      "entity_type": "LegalTerm",
+      "mention": "元数据",
+      "canonical_name": "元数据",
+      "attributes": {
+        "definition": "描述信息披露文件的数据。"
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.5_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 3.5_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_86f25e8f5410",
+      "entity_type": "LegalTerm",
+      "mention": "发布者",
+      "canonical_name": "发布者",
+      "attributes": {
+        "definition": "信息披露文件的发布者,一般为证券发行人,也可为证券交易所或中介机构"
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7443bdc1c5b6",
+      "entity_type": "LegalTerm",
+      "mention": "产品",
+      "canonical_name": "产品",
+      "attributes": {
+        "definition": "同一披露场所内产品的唯一码"
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ce81746159f0",
+      "entity_type": "LegalTerm",
+      "mention": "发布日期",
+      "canonical_name": "发布日期",
+      "attributes": {
+        "definition": "信息披露文件发布日期"
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f7bda1c7db9d",
+      "entity_type": "LegalTerm",
+      "mention": "发布序列号",
+      "canonical_name": "发布序列号",
+      "attributes": {
+        "definition": "信息披露文件发布的当日序列号"
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1c7343655ddf",
+      "entity_type": "LegalTerm",
+      "mention": "附件序列号",
+      "canonical_name": "附件序列号",
+      "attributes": {
+        "definition": "每个信息披露文件的附件序列号"
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4cf59438def3",
+      "entity_type": "LegalDocument",
+      "mention": "信息披露文件基础元数据信息见表A.1",
+      "canonical_name": "信息披露文件基础元数据规范",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_95090b8e47a7",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 42495.1-2023",
+      "canonical_name": "GB/T 42495.1-2023",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_87284baad7c7",
+      "entity_type": "",
+      "mention": "AUTHOR_COD",
+      "canonical_name": "AUTHOR_COD",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub0_s0",
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_60215e5edb74",
+      "entity_type": "",
+      "mention": "AUTHOR_LEI",
+      "canonical_name": "AUTHOR_LEI",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub0_s0",
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0e9290c9aa89",
+      "entity_type": "",
+      "mention": "EXCHANGE_MIC",
+      "canonical_name": "EXCHANGE_MIC",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub0_s0",
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_970847fd815c",
+      "entity_type": "LegalDocument",
+      "mention": "GB/T 7408-2005",
+      "canonical_name": "GB/T 7408-2005",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub1_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_cef7abf5ee8f",
+      "entity_type": "",
+      "mention": "PRODUCT_ISIN",
+      "canonical_name": "PRODUCT_ISIN",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub1_s0",
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fb2e910ff725",
+      "entity_type": "",
+      "mention": "DOC_LAN",
+      "canonical_name": "DOC_LAN",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub1_s0",
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c085c1a7d0db",
+      "entity_type": "",
+      "mention": "DOC_PUBTIME",
+      "canonical_name": "DOC_PUBTIME",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub1_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_sub1_s0",
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ceca177896d3",
+      "entity_type": "",
+      "mention": "发布者",
+      "canonical_name": "发布者",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_50ffbe049e18",
+      "entity_type": "",
+      "mention": "信息披露文件的发布者,一般为证券发行人,也可为证券交易所或中介机构",
+      "canonical_name": "信息披露文件的发布者,一般为证券发行人,也可为证券交易所或中介机构",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3ca647f107be",
+      "entity_type": "MonetaryAmount",
+      "mention": "小于20位",
+      "canonical_name": "小于20位",
+      "attributes": {
+        "amount": 20.0
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_635c531c6be4",
+      "entity_type": "MonetaryAmount",
+      "mention": "(1) 发布者为境内机构的,应使用统一社会信用代码,编码应符合GB 32100的要求(2) 发布者为境外机构的,宜使用全球法人识别编码(LEI),编码应符合GB/T 42495.1—2023的要求,如境外机构没有申请全球法人识别编码(LEI),可使用披露场所认可的其他唯一识别码",
+      "canonical_name": "(1) 发布者为境内机构的,应使用统一社会信用代码,编码应符合GB 32100的要求(2) 发布者为境外机构的,宜使用全球法人识别编码(LEI),编码应符合GB/T 42495.1—2023的要求,如境外机构没有申请全球法人识别编码(LEI),可使用披露场所认可的其他唯一识别码",
+      "attributes": {
+        "amount": 1.0
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e2eae31369b6",
+      "entity_type": "",
+      "mention": "披露场所",
+      "canonical_name": "披露场所",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_dfc18c89e919",
+      "entity_type": "",
+      "mention": "证券发行人进行信息披露的首要场所,一般为公司上市或挂牌场所",
+      "canonical_name": "证券发行人进行信息披露的首要场所,一般为公司上市或挂牌场所",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_259eabdfd08d",
+      "entity_type": "MonetaryAmount",
+      "mention": "2-8位英文字母",
+      "canonical_name": "2-8位英文字母",
+      "attributes": {
+        "amount": 2.0
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_191191166289",
+      "entity_type": "",
+      "mention": "编码为披露场所指定的字母组合;如同一份文件需要在多个披露场所披露,应使用首要披露场所编码",
+      "canonical_name": "编码为披露场所指定的字母组合;如同一份文件需要在多个披露场所披露,应使用首要披露场所编码",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2f1ceda8eb33",
+      "entity_type": "",
+      "mention": "产品",
+      "canonical_name": "产品",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_06daa9fd6f6d",
+      "entity_type": "",
+      "mention": "同一披露场所内产品的唯一码",
+      "canonical_name": "同一披露场所内产品的唯一码",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_04a44cc24a4c",
+      "entity_type": "MonetaryAmount",
+      "mention": "小于32位的数字或字母组合",
+      "canonical_name": "小于32位的数字或字母组合",
+      "attributes": {
+        "amount": 32.0
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1f329c9e36bd",
+      "entity_type": "MonetaryAmount",
+      "mention": "证券发行人所在披露场所统一分配的产品代码,一般为证券代码;如一个信息披露文件对应了多个产品,使用6位字母“NOTICE”替代",
+      "canonical_name": "证券发行人所在披露场所统一分配的产品代码,一般为证券代码;如一个信息披露文件对应了多个产品,使用6位字母“NOTICE”替代",
+      "attributes": {
+        "amount": 6.0
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c4378a5ea445",
+      "entity_type": "",
+      "mention": "发布日期",
+      "canonical_name": "发布日期",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a820cddb01f8",
+      "entity_type": "",
+      "mention": "信息披露文件发布日期",
+      "canonical_name": "信息披露文件发布日期",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3d47ed681ec7",
+      "entity_type": "MonetaryAmount",
+      "mention": "8位数字",
+      "canonical_name": "8位数字",
+      "attributes": {
+        "amount": 8.0
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8e13a6a8ea18",
+      "entity_type": "",
+      "mention": "YYYYMMDD",
+      "canonical_name": "YYYYMMDD",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a3303ff2d292",
+      "entity_type": "",
+      "mention": "发布序列号",
+      "canonical_name": "发布序列号",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d0dca197a657",
+      "entity_type": "",
+      "mention": "信息披露文件发布的当日序列号",
+      "canonical_name": "信息披露文件发布的当日序列号",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6028a94c80d6",
+      "entity_type": "MonetaryAmount",
+      "mention": "3位数字",
+      "canonical_name": "3位数字",
+      "attributes": {
+        "amount": 3.0
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0fc6b0e8b6f8",
+      "entity_type": "MonetaryAmount",
+      "mention": "按照该证券产品当日发布的披露文件顺序取值,第一个取值为“001”,之后依次递增",
+      "canonical_name": "按照该证券产品当日发布的披露文件顺序取值,第一个取值为“001”,之后依次递增",
+      "attributes": {
+        "amount": 1.0
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8b3ad45e1527",
+      "entity_type": "",
+      "mention": "附件序列号",
+      "canonical_name": "附件序列号",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9db62a84579a",
+      "entity_type": "",
+      "mention": "每个信息披露文件的附件序列号",
+      "canonical_name": "每个信息披露文件的附件序列号",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_43d7cb5d2e8c",
+      "entity_type": "MonetaryAmount",
+      "mention": "按照每个文件的附件发布顺序取值,第一个附件取值为“001”,之后依次递增",
+      "canonical_name": "按照每个文件的附件发布顺序取值,第一个附件取值为“001”,之后依次递增",
+      "attributes": {
+        "amount": 1.0
+      },
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b415f6238ed5",
+      "entity_type": "",
+      "mention": "编码单元名称",
+      "canonical_name": "编码单元名称",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4b04fbea4882",
+      "entity_type": "",
+      "mention": "含义",
+      "canonical_name": "含义",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_eee1a55fd461",
+      "entity_type": "",
+      "mention": "长度",
+      "canonical_name": "长度",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_84f13cdad965",
+      "entity_type": "",
+      "mention": "要求",
+      "canonical_name": "要求",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#证券发行人信息披露文件编码规则 > 4.3 编码单元_p0_s0",
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f4ded8b13d02",
+      "entity_type": "",
+      "mention": "信息披露文件发布者标识",
+      "canonical_name": "信息披露文件发布者标识",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_869d9c1b962e",
+      "entity_type": "",
+      "mention": "至少选一",
+      "canonical_name": "至少选一",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f95ab6a9061c",
+      "entity_type": "MonetaryAmount",
+      "mention": "证券发行人或其他信息披露义务人的统一社会信用代码,应符合GB 32100的要求",
+      "canonical_name": "证券发行人或其他信息披露义务人的统一社会信用代码,应符合GB 32100的要求",
+      "attributes": {
+        "amount": 32100.0
+      },
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f90471744ada",
+      "entity_type": "",
+      "mention": "全球法人识别编码",
+      "canonical_name": "全球法人识别编码",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_40823a37dd93",
+      "entity_type": "MonetaryAmount",
+      "mention": "全球法人识别编码(LEI),应符合GB/T 42495.1-2023的要求",
+      "canonical_name": "全球法人识别编码(LEI),应符合GB/T 42495.1-2023的要求",
+      "attributes": {
+        "amount": 42495.1
+      },
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e731aef85a19",
+      "entity_type": "",
+      "mention": "AUTHOR_OTHERCODE",
+      "canonical_name": "AUTHOR_OTHERCODE",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fd8602d9082a",
+      "entity_type": "",
+      "mention": "其他编码",
+      "canonical_name": "其他编码",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_a31626b4d68f",
+      "entity_type": "",
+      "mention": "披露场所认可的发行人编码,可使用披露场所作为前缀以避免重码",
+      "canonical_name": "披露场所认可的发行人编码,可使用披露场所作为前缀以避免重码",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_ddceef6d22c8",
+      "entity_type": "",
+      "mention": "AUTHOR_NAME",
+      "canonical_name": "AUTHOR_NAME",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6669df944858",
+      "entity_type": "",
+      "mention": "发布者名称",
+      "canonical_name": "发布者名称",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_58e50445945a",
+      "entity_type": "",
+      "mention": "可选",
+      "canonical_name": "可选",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_841fa273a17e",
+      "entity_type": "",
+      "mention": "信息披露文件发布者名称",
+      "canonical_name": "信息披露文件发布者名称",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e7fbb6ca61d0",
+      "entity_type": "",
+      "mention": "披露场所及产品",
+      "canonical_name": "披露场所及产品",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_adb19b4c2ddd",
+      "entity_type": "",
+      "mention": "EXCHANGE_NAME",
+      "canonical_name": "EXCHANGE_NAME",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_13d24c5e6111",
+      "entity_type": "",
+      "mention": "必选",
+      "canonical_name": "必选",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_84309a8160ca",
+      "entity_type": "",
+      "mention": "由披露场所指定的字母组合",
+      "canonical_name": "由披露场所指定的字母组合",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_6d47ec61d88c",
+      "entity_type": "",
+      "mention": "MIC码",
+      "canonical_name": "MIC码",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_17e4bd819df7",
+      "entity_type": "MonetaryAmount",
+      "mention": "表明交易场所,编码应符合GB/T 23696的要求",
+      "canonical_name": "表明交易场所,编码应符合GB/T 23696的要求",
+      "attributes": {
+        "amount": 23696.0
+      },
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_74628bae73bc",
+      "entity_type": "",
+      "mention": "PRODUCT_CODE",
+      "canonical_name": "PRODUCT_CODE",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f2a5e2ebb843",
+      "entity_type": "",
+      "mention": "产品代码",
+      "canonical_name": "产品代码",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0bdcd422df4d",
+      "entity_type": "",
+      "mention": "由证券发行人在披露场所申请或由披露场所分配的产品码,一般使用证券代码;如一个信息披露文件对应了多个场所的多个证券或产品,则均应列出",
+      "canonical_name": "由证券发行人在披露场所申请或由披露场所分配的产品码,一般使用证券代码;如一个信息披露文件对应了多个场所的多个证券或产品,则均应列出",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c5571f9abf6d",
+      "entity_type": "",
+      "mention": "PRODUCT_NAME_SHORT",
+      "canonical_name": "PRODUCT_NAME_SHORT",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_eb73e6358103",
+      "entity_type": "",
+      "mention": "产品简称",
+      "canonical_name": "产品简称",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c3f0497e801b",
+      "entity_type": "",
+      "mention": "由证券发行人在披露场所申请或由披露场所分配的产品简称,一般为证券简称",
+      "canonical_name": "由证券发行人在披露场所申请或由披露场所分配的产品简称,一般为证券简称",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b9230b3fd1d6",
+      "entity_type": "",
+      "mention": "PRODUCT_NAME_EXTENDED",
+      "canonical_name": "PRODUCT_NAME_EXTENDED",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9c6e2c3ac56c",
+      "entity_type": "",
+      "mention": "证券扩位简称",
+      "canonical_name": "证券扩位简称",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d907ea90187e",
+      "entity_type": "",
+      "mention": "由证券发行人在披露场所申请或由披露场所分配的证券扩位简称",
+      "canonical_name": "由证券发行人在披露场所申请或由披露场所分配的证券扩位简称",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_36fbbce48a77",
+      "entity_type": "",
+      "mention": "PRODUCT_NAME_FULL",
+      "canonical_name": "PRODUCT_NAME_FULL",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e32293536c54",
+      "entity_type": "",
+      "mention": "产品全称",
+      "canonical_name": "产品全称",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8aa4e4413b50",
+      "entity_type": "",
+      "mention": "由证券发行人在披露场所申请或由披露场所分配的产品全称",
+      "canonical_name": "由证券发行人在披露场所申请或由披露场所分配的产品全称",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_750ba8fa2c14",
+      "entity_type": "",
+      "mention": "PRODUCT_NAME_EN",
+      "canonical_name": "PRODUCT_NAME_EN",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_91fd39b8ca10",
+      "entity_type": "",
+      "mention": "英文简称",
+      "canonical_name": "英文简称",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e74d0cde4353",
+      "entity_type": "",
+      "mention": "由证券发行人在披露场所申请或由披露场所分配的产品英文简称",
+      "canonical_name": "由证券发行人在披露场所申请或由披露场所分配的产品英文简称",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_067eee53cc39",
+      "entity_type": "",
+      "mention": "国际证券识别编码",
+      "canonical_name": "国际证券识别编码",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_be4be4c60126",
+      "entity_type": "MonetaryAmount",
+      "mention": "编码应符合GB/T 21076的要求",
+      "canonical_name": "编码应符合GB/T 21076的要求",
+      "attributes": {
+        "amount": 21076.0
+      },
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_74fe0ca874e7",
+      "entity_type": "",
+      "mention": "元数据组",
+      "canonical_name": "元数据组",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7f6873b778a1",
+      "entity_type": "",
+      "mention": "元数据",
+      "canonical_name": "元数据",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_789555c80324",
+      "entity_type": "",
+      "mention": "元数据名称",
+      "canonical_name": "元数据名称",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d883b5b8ac01",
+      "entity_type": "",
+      "mention": "是否必须",
+      "canonical_name": "是否必须",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_239e80a8fab8",
+      "entity_type": "",
+      "mention": "信息披露文件信息",
+      "canonical_name": "信息披露文件信息",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_813d1e65be94",
+      "entity_type": "",
+      "mention": "DOC_TITLE",
+      "canonical_name": "DOC_TITLE",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f276da77f86f",
+      "entity_type": "",
+      "mention": "信息披露文件标题",
+      "canonical_name": "信息披露文件标题",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2d33c9fde714",
+      "entity_type": "",
+      "mention": "DOC_TYPE",
+      "canonical_name": "DOC_TYPE",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_4404620d222a",
+      "entity_type": "",
+      "mention": "披露类型",
+      "canonical_name": "披露类型",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_20b8d6a02725",
+      "entity_type": "",
+      "mention": "披露场所自定义的披露类型,如注册审核公告、发行公告、定期公告、临时公告等",
+      "canonical_name": "披露场所自定义的披露类型,如注册审核公告、发行公告、定期公告、临时公告等",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_0bb05d9b4e04",
+      "entity_type": "",
+      "mention": "语言",
+      "canonical_name": "语言",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f07ba5b7ef7f",
+      "entity_type": "MonetaryAmount",
+      "mention": "信息披露文件使用的语言,应符合BCP 47的要求",
+      "canonical_name": "信息披露文件使用的语言,应符合BCP 47的要求",
+      "attributes": {
+        "amount": 47.0
+      },
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_b1e25d946939",
+      "entity_type": "",
+      "mention": "DOC_PUBDATE",
+      "canonical_name": "DOC_PUBDATE",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7dd7d493bb5e",
+      "entity_type": "",
+      "mention": "信息披露文件发布日期,格式为YYYYMMDD",
+      "canonical_name": "信息披露文件发布日期,格式为YYYYMMDD",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7d18d79cb442",
+      "entity_type": "",
+      "mention": "发布时间",
+      "canonical_name": "发布时间",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_23c570e20c9e",
+      "entity_type": "MonetaryAmount",
+      "mention": "信息披露文件发布时间,应符合GB/T 7408-2005中5.4.1的要求",
+      "canonical_name": "信息披露文件发布时间,应符合GB/T 7408-2005中5.4.1的要求",
+      "attributes": {
+        "amount": 7408.0
+      },
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_acd884fa1478",
+      "entity_type": "",
+      "mention": "DOC_DISDATE",
+      "canonical_name": "DOC_DISDATE",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_db62aebd34da",
+      "entity_type": "",
+      "mention": "披露日期",
+      "canonical_name": "披露日期",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_61eaefb55f55",
+      "entity_type": "",
+      "mention": "信息披露文件披露日期,格式为YYYYMMDD,可与信息披露文件发布日期不同",
+      "canonical_name": "信息披露文件披露日期,格式为YYYYMMDD,可与信息披露文件发布日期不同",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5e216363ab51",
+      "entity_type": "",
+      "mention": "DOC_URL",
+      "canonical_name": "DOC_URL",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_aa4c32756c02",
+      "entity_type": "",
+      "mention": "信息披露文件链接",
+      "canonical_name": "信息披露文件链接",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_18d594b3e3a5",
+      "entity_type": "",
+      "mention": "信息披露文件存放链接,可按需更新",
+      "canonical_name": "信息披露文件存放链接,可按需更新",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2c1ad6b66438",
+      "entity_type": "",
+      "mention": "DOC_VAL",
+      "canonical_name": "DOC_VAL",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_7ae7bba4ba80",
+      "entity_type": "",
+      "mention": "是否有效",
+      "canonical_name": "是否有效",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fed93b1cd87e",
+      "entity_type": "",
+      "mention": "信息披露文件是否有效",
+      "canonical_name": "信息披露文件是否有效",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c0d22389ab4c",
+      "entity_type": "",
+      "mention": "DOC_VER",
+      "canonical_name": "DOC_VER",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_824b0a59d7a7",
+      "entity_type": "",
+      "mention": "版本",
+      "canonical_name": "版本",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_50f4812b312b",
+      "entity_type": "MonetaryAmount",
+      "mention": "信息披露文件版本,从1起计数",
+      "canonical_name": "信息披露文件版本,从1起计数",
+      "attributes": {
+        "amount": 1.0
+      },
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_e5cb7b5ae624",
+      "entity_type": "",
+      "mention": "DOC_NO",
+      "canonical_name": "DOC_NO",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_c83111a21c1e",
+      "entity_type": "",
+      "mention": "文件发布序列号",
+      "canonical_name": "文件发布序列号",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1974183349d1",
+      "entity_type": "MonetaryAmount",
+      "mention": "3位数字,按照该证券产品当日发布的信息披露文件顺序取值,第一个取值为“001”,之后依次递增",
+      "canonical_name": "3位数字,按照该证券产品当日发布的信息披露文件顺序取值,第一个取值为“001”,之后依次递增",
+      "attributes": {
+        "amount": 3.0
+      },
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d3474580848a",
+      "entity_type": "",
+      "mention": "DOC_ATT_NO",
+      "canonical_name": "DOC_ATT_NO",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5fd01cd4b217",
+      "entity_type": "MonetaryAmount",
+      "mention": "3位数字,按照每个文件的附件发布顺序取值,第一个附件取值为“001”,之后依次递增",
+      "canonical_name": "3位数字,按照每个文件的附件发布顺序取值,第一个附件取值为“001”,之后依次递增",
+      "attributes": {
+        "amount": 3.0
+      },
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_151b80a5e688",
+      "entity_type": "",
+      "mention": "资源",
+      "canonical_name": "资源",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9675c6ea98ff",
+      "entity_type": "",
+      "mention": "RES_CDD",
+      "canonical_name": "RES_CDD",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_30fc4910b25f",
+      "entity_type": "",
+      "mention": "资源标识",
+      "canonical_name": "资源标识",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_67ec2da596bb",
+      "entity_type": "",
+      "mention": "与信息披露文件有关联的其他信息披露文件标识,编码应遵照本文件要求",
+      "canonical_name": "与信息披露文件有关联的其他信息披露文件标识,编码应遵照本文件要求",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_359963f1c22f",
+      "entity_type": "",
+      "mention": "RES_TYPE",
+      "canonical_name": "RES_TYPE",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_34dcfdac5fe8",
+      "entity_type": "",
+      "mention": "资源类型",
+      "canonical_name": "资源类型",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9d2834ee4e68",
+      "entity_type": "",
+      "mention": "本信息披露文件与资源的关系,如:引用、更新、等同、翻译,其中引用代表新发布的信息披露文件引用了以前发布的一个或多个信息披露文件;更新代表新发布的信息披露文件取代了以前发布的信息披露文件;等同代表新发布的信息披露文件等同于另一份信息披露文件,如在不同披露场所发布同样的信息披露文件;翻译代表新发布的信息披露文件是以前发布的信息披露文件的翻译版本",
+      "canonical_name": "本信息披露文件与资源的关系,如:引用、更新、等同、翻译,其中引用代表新发布的信息披露文件引用了以前发布的一个或多个信息披露文件;更新代表新发布的信息披露文件取代了以前发布的信息披露文件;等同代表新发布的信息披露文件等同于另一份信息披露文件,如在不同披露场所发布同样的信息披露文件;翻译代表新发布的信息披露文件是以前发布的信息披露文件的翻译版本",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_2a2c994d913a",
+      "entity_type": "",
+      "mention": "是否必选",
+      "canonical_name": "是否必选",
+      "attributes": {},
+      "sentence_id": "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0",
+      "sentence_ids": [
+        "doc_732fbe117de9#附 录 A > 信息披露文件基础元数据_p0_s0"
+      ],
+      "source": "table_rule",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_f866ea0dadea_rel_d72acc167a1a",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_4f96f563483c",
+      "tail_entity_id": "ent_69fedce84724",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "Coding rules for information disclosure documents of securities issuers > 引 言",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f866ea0dadea_rel_8f9eb5094d22",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_add4898cd8b9",
+      "tail_entity_id": "ent_69fedce84724",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "Coding rules for information disclosure documents of securities issuers > 引 言",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f866ea0dadea_rel_82e2f8ebb59c",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_f8349bbd0f52",
+      "tail_entity_id": "ent_69fedce84724",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "Coding rules for information disclosure documents of securities issuers > 引 言",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f866ea0dadea_rel_ec530b22d2d7",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_8fed678062ef",
+      "tail_entity_id": "ent_69fedce84724",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "Coding rules for information disclosure documents of securities issuers > 引 言",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f866ea0dadea_rel_b51cec5cf9f9",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_94284bc53ec6",
+      "tail_entity_id": "ent_94284bc53ec6",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "证券发行人信息披露文件编码规则 > 3 术语和定义",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f866ea0dadea_rel_d9dd69b8ca60",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_5df19f817dff",
+      "tail_entity_id": "ent_5df19f817dff",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "证券发行人信息披露文件编码规则 > 3.2",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f866ea0dadea_rel_7acc36e738de",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_6cead1d973a6",
+      "tail_entity_id": "ent_6cead1d973a6",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "证券发行人信息披露文件编码规则 > 3.2",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f866ea0dadea_rel_ff2de977af22",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_93c5499c474e",
+      "tail_entity_id": "ent_93c5499c474e",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "证券发行人信息披露文件编码规则 > 3.4",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f866ea0dadea_rel_3d4ded17d54d",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_47f62b7d5e56",
+      "tail_entity_id": "ent_47f62b7d5e56",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "证券发行人信息披露文件编码规则 > 3.5",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f866ea0dadea_rel_4ec022e2e07c",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_86f25e8f5410",
+      "tail_entity_id": "ent_86f25e8f5410",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f866ea0dadea_rel_89d79ed203ce",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_5df19f817dff",
+      "tail_entity_id": "ent_5df19f817dff",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f866ea0dadea_rel_755fadffa1a7",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_7443bdc1c5b6",
+      "tail_entity_id": "ent_7443bdc1c5b6",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f866ea0dadea_rel_62d063026c09",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_ce81746159f0",
+      "tail_entity_id": "ent_ce81746159f0",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f866ea0dadea_rel_2ad30d6c2097",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_f7bda1c7db9d",
+      "tail_entity_id": "ent_f7bda1c7db9d",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_f866ea0dadea_rel_6f8c7c0d7926",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_1c7343655ddf",
+      "tail_entity_id": "ent_1c7343655ddf",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_a5f3d7e78e2e_rel_001f871d0f15",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_87284baad7c7",
+      "tail_entity_id": "ent_f07613667ac9",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_a5f3d7e78e2e_rel_a9e601d6c2a4",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_60215e5edb74",
+      "tail_entity_id": "ent_95090b8e47a7",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_a5f3d7e78e2e_rel_969dc1d4f56e",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_0e9290c9aa89",
+      "tail_entity_id": "ent_91d43dec5842",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_a5f3d7e78e2e_rel_726a3071b19d",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_cef7abf5ee8f",
+      "tail_entity_id": "ent_7b0cda0c9d5b",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_a5f3d7e78e2e_rel_3e9cd38e82a1",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_fb2e910ff725",
+      "tail_entity_id": "ent_fbe249de36a2",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_a5f3d7e78e2e_rel_4925b826056f",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_c085c1a7d0db",
+      "tail_entity_id": "ent_970847fd815c",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_732fbe117de9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "paragraph_index": 0,
+        "sentence_index": 1
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_452c61bf6bfa",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_50ffbe049e18",
+      "tail_entity_id": "ent_3ca647f107be",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          0,
+          2
+        ],
+        "label_cell": [
+          0,
+          1
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_1180a7d35243",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_eee1a55fd461",
+      "tail_entity_id": "ent_3ca647f107be",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          0,
+          2
+        ],
+        "header_col": 2
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_1ab06e58386c",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_50ffbe049e18",
+      "tail_entity_id": "ent_635c531c6be4",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          0,
+          3
+        ],
+        "label_cell": [
+          0,
+          1
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_c32bc61ecc8e",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_84f13cdad965",
+      "tail_entity_id": "ent_635c531c6be4",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          0,
+          3
+        ],
+        "header_col": 3
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_911860e4c4e1",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_dfc18c89e919",
+      "tail_entity_id": "ent_259eabdfd08d",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          1,
+          2
+        ],
+        "label_cell": [
+          1,
+          1
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_fe3c2fbd5487",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_eee1a55fd461",
+      "tail_entity_id": "ent_259eabdfd08d",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          1,
+          2
+        ],
+        "header_col": 2
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_d3a30be78d99",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_06daa9fd6f6d",
+      "tail_entity_id": "ent_04a44cc24a4c",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          2,
+          2
+        ],
+        "label_cell": [
+          2,
+          1
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_4d46459106ff",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_eee1a55fd461",
+      "tail_entity_id": "ent_04a44cc24a4c",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          2,
+          2
+        ],
+        "header_col": 2
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_b9e7d8c422c9",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_06daa9fd6f6d",
+      "tail_entity_id": "ent_1f329c9e36bd",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          2,
+          3
+        ],
+        "label_cell": [
+          2,
+          1
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_e82cbf162563",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_191191166289",
+      "tail_entity_id": "ent_1f329c9e36bd",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          2,
+          3
+        ],
+        "label_cell": [
+          1,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_c1be61a0ba1d",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_a820cddb01f8",
+      "tail_entity_id": "ent_3d47ed681ec7",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          3,
+          2
+        ],
+        "label_cell": [
+          3,
+          1
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_597f6e962952",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_eee1a55fd461",
+      "tail_entity_id": "ent_3d47ed681ec7",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          3,
+          2
+        ],
+        "header_col": 2
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_5464e88fe562",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_d0dca197a657",
+      "tail_entity_id": "ent_6028a94c80d6",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          4,
+          2
+        ],
+        "label_cell": [
+          4,
+          1
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_46bfb19c4321",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_eee1a55fd461",
+      "tail_entity_id": "ent_6028a94c80d6",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          4,
+          2
+        ],
+        "header_col": 2
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_0f776e466eec",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_d0dca197a657",
+      "tail_entity_id": "ent_0fc6b0e8b6f8",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          4,
+          3
+        ],
+        "label_cell": [
+          4,
+          1
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_cd89946c5647",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8e13a6a8ea18",
+      "tail_entity_id": "ent_0fc6b0e8b6f8",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          4,
+          3
+        ],
+        "label_cell": [
+          3,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_cf7e2887a4e9",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_9db62a84579a",
+      "tail_entity_id": "ent_6028a94c80d6",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          5,
+          2
+        ],
+        "label_cell": [
+          5,
+          1
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_9d9e155fd256",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_eee1a55fd461",
+      "tail_entity_id": "ent_6028a94c80d6",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          5,
+          2
+        ],
+        "header_col": 2
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_dbc23c174546",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_9db62a84579a",
+      "tail_entity_id": "ent_43d7cb5d2e8c",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          5,
+          3
+        ],
+        "label_cell": [
+          5,
+          1
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_375c802a42d4_rel_387d9c0be11b",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_8e13a6a8ea18",
+      "tail_entity_id": "ent_43d7cb5d2e8c",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_d05686748d7a",
+        "section_path": "证券发行人信息披露文件编码规则 > 4.3 编码单元",
+        "value_cell": [
+          5,
+          3
+        ],
+        "label_cell": [
+          3,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_ca83043ed68f_rel_ad2b812bee6a",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_869d9c1b962e",
+      "tail_entity_id": "ent_f95ab6a9061c",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_70e3ae7cb4c9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "value_cell": [
+          0,
+          4
+        ],
+        "label_cell": [
+          0,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_ca83043ed68f_rel_a9813bc35847",
+      "relation_type": "has_value",
+      "head_entity_id": "tbl_ca83043ed68f_ent_5d766e9b612a",
+      "tail_entity_id": "ent_f95ab6a9061c",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_70e3ae7cb4c9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "value_cell": [
+          0,
+          4
+        ],
+        "header_col": 4
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_ca83043ed68f_rel_8c32a32da4ae",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_869d9c1b962e",
+      "tail_entity_id": "ent_40823a37dd93",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_70e3ae7cb4c9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "value_cell": [
+          1,
+          4
+        ],
+        "label_cell": [
+          1,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_ca83043ed68f_rel_da3a942ae3b0",
+      "relation_type": "has_value",
+      "head_entity_id": "tbl_ca83043ed68f_ent_5d766e9b612a",
+      "tail_entity_id": "ent_40823a37dd93",
+      "properties": {
+        "dimension": "column_header"
+      },
+      "evidence": {
+        "table_id": "tbl_70e3ae7cb4c9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "value_cell": [
+          1,
+          4
+        ],
+        "header_col": 4
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_ca83043ed68f_rel_392962edde05",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_58e50445945a",
+      "tail_entity_id": "ent_17e4bd819df7",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_70e3ae7cb4c9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "value_cell": [
+          5,
+          4
+        ],
+        "label_cell": [
+          5,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_ca83043ed68f_rel_7d010dc25bba",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_84309a8160ca",
+      "tail_entity_id": "ent_17e4bd819df7",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_70e3ae7cb4c9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "value_cell": [
+          5,
+          4
+        ],
+        "label_cell": [
+          4,
+          4
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_ca83043ed68f_rel_79332eddd4ed",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_58e50445945a",
+      "tail_entity_id": "ent_be4be4c60126",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_70e3ae7cb4c9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "value_cell": [
+          11,
+          4
+        ],
+        "label_cell": [
+          11,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_ca83043ed68f_rel_feba48ecbc33",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_e74d0cde4353",
+      "tail_entity_id": "ent_be4be4c60126",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_70e3ae7cb4c9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "value_cell": [
+          11,
+          4
+        ],
+        "label_cell": [
+          10,
+          4
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_ca83043ed68f_rel_465a8997f85a",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_58e50445945a",
+      "tail_entity_id": "ent_f07ba5b7ef7f",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_70e3ae7cb4c9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "value_cell": [
+          15,
+          4
+        ],
+        "label_cell": [
+          15,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_ca83043ed68f_rel_84108d48bfc1",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_20b8d6a02725",
+      "tail_entity_id": "ent_f07ba5b7ef7f",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_70e3ae7cb4c9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "value_cell": [
+          15,
+          4
+        ],
+        "label_cell": [
+          14,
+          4
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_ca83043ed68f_rel_eba7f1e62972",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_58e50445945a",
+      "tail_entity_id": "ent_23c570e20c9e",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_70e3ae7cb4c9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "value_cell": [
+          17,
+          4
+        ],
+        "label_cell": [
+          17,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_ca83043ed68f_rel_faa0a9c76b51",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_7dd7d493bb5e",
+      "tail_entity_id": "ent_23c570e20c9e",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_70e3ae7cb4c9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "value_cell": [
+          17,
+          4
+        ],
+        "label_cell": [
+          16,
+          4
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_ca83043ed68f_rel_9e992c016b0a",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_58e50445945a",
+      "tail_entity_id": "ent_50f4812b312b",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_70e3ae7cb4c9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "value_cell": [
+          21,
+          4
+        ],
+        "label_cell": [
+          21,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_ca83043ed68f_rel_0d78cda13f97",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_fed93b1cd87e",
+      "tail_entity_id": "ent_50f4812b312b",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_70e3ae7cb4c9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "value_cell": [
+          21,
+          4
+        ],
+        "label_cell": [
+          20,
+          4
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_ca83043ed68f_rel_6d13ae7fd42d",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_13d24c5e6111",
+      "tail_entity_id": "ent_1974183349d1",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_70e3ae7cb4c9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "value_cell": [
+          22,
+          4
+        ],
+        "label_cell": [
+          22,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_ca83043ed68f_rel_0e138de004a2",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_fed93b1cd87e",
+      "tail_entity_id": "ent_1974183349d1",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_70e3ae7cb4c9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "value_cell": [
+          22,
+          4
+        ],
+        "label_cell": [
+          20,
+          4
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_ca83043ed68f_rel_fe3abfd0e741",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_58e50445945a",
+      "tail_entity_id": "ent_5fd01cd4b217",
+      "properties": {
+        "dimension": "row_label"
+      },
+      "evidence": {
+        "table_id": "tbl_70e3ae7cb4c9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "value_cell": [
+          23,
+          4
+        ],
+        "label_cell": [
+          23,
+          3
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "tbl_ca83043ed68f_rel_dcc5353ae971",
+      "relation_type": "has_value",
+      "head_entity_id": "ent_fed93b1cd87e",
+      "tail_entity_id": "ent_5fd01cd4b217",
+      "properties": {
+        "dimension": "column_label"
+      },
+      "evidence": {
+        "table_id": "tbl_70e3ae7cb4c9",
+        "section_path": "附 录 A > 信息披露文件基础元数据",
+        "value_cell": [
+          23,
+          4
+        ],
+        "label_cell": [
+          20,
+          4
+        ]
+      },
+      "source": "table_rule",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}

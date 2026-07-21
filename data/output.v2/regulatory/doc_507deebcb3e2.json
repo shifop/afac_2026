@@ -1,0 +1,1026 @@
+{
+  "doc_id": "doc_507deebcb3e2",
+  "title": "《上市公司信息披露暂缓与豁免管理规定》立法说明",
+  "doc_type": "金融法规",
+  "file_path": "data/raw/regulatory/csrc_0033_att2.md",
+  "processed_at": "2026-07-21T00:35:46.569132+00:00",
+  "structured_data": {
+    "title": "上市公司信息披露暂缓与豁免管理规定"
+  },
+  "stats": {
+    "sections": 4,
+    "paragraphs": 4,
+    "sentences": 41,
+    "entities": 20,
+    "relations": 15,
+    "rejected": 0,
+    "llm_calls": 1335,
+    "llm_tokens": 1821498,
+    "elapsed_seconds": 14.62
+  },
+  "sections": [
+    {
+      "section_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明",
+      "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明",
+      "title": "《上市公司信息披露暂缓与豁免管理规定》立法说明",
+      "level": 1,
+      "reading_guide": {
+        "has": "《上市公司信息披露暂缓与豁免管理规定》/监管目的/立法背景",
+        "for": [
+          "法规依据",
+          "立法背景",
+          "监管目的"
+        ],
+        "skip": true
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明_p0",
+          "para_index": 0,
+          "content": "为进一步加强对信息披露暂缓与豁免行为的监管，督促上市公司和其他信息披露义务人依法履行信息披露义务，保护投资者的合法权益，中国证监会研究制定了《上市公司信息披露暂缓与豁免管理规定》（以下简称《披露豁免规定》）。现将有关情况说明如下：",
+          "sentences": [
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明_p0_s0",
+              "text": "为进一步加强对信息披露暂缓与豁免行为的监管，督促上市公司和其他信息披露义务人依法履行信息披露义务，保护投资者的合法权益，中国证监会研究制定了《上市公司信息披露暂缓与豁免管理规定》（以下简称《披露豁免规定》）。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明_p0_s1",
+              "text": "现将有关情况说明如下：",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况",
+      "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况",
+      "title": "一、背景情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "《证券法》公开原则/《保守国家秘密法》保密要求/商业秘密保护/披露暂缓豁免制度背景/制度散见问题/滥用豁免风险/泄密风险/统一专门规定必要性",
+        "for": [
+          "立法背景",
+          "制度现状",
+          "存在问题",
+          "制定目的"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0",
+          "para_index": 0,
+          "content": "《证券法》以公开为原则，设专章规定信息披露。上市公司和其他信息披露义务人应当及时依法履行信息披露义务。同时，《保守国家秘密法》《民法典》《反不正当竞争法》也规定了国家秘密、商业秘密的保密要求。考虑到上市公司活动复杂，部分应当披露的信息可能属于国家秘密或商业秘密，公开后可能损害国家安全和利益，或者损害公司、他人利益，中国证监会部分监管规则和交易所《股票上市规则》等规定了披露暂缓、豁免制度，在公开原则和保密要求之间加以均衡。\n从实践看，豁免披露制度发挥了重要作用，但相关制度安排散见在不同规则中，部分信息披露义务人或者投资者不熟悉、不了解相关制度安排，不理解豁免披露的基本原则和精神。也有个别信息披露义务人以涉密为名开展业务宣传，引发泄密风险。还有个别信息披露义务人涉嫌滥用豁免制度，规避披露义务。为落实新修订的《保守国家秘密法》以及《国务院办公厅转发中国证监会等部门<关于进一步做好资本市场财务造假综合惩防工作的意见>的通知》等文件精神，进一步规范信息披露暂缓、豁免行为，有必要制定统一的专门规定。",
+          "sentences": [
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s0",
+              "text": "《证券法》以公开为原则，设专章规定信息披露。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s1",
+              "text": "上市公司和其他信息披露义务人应当及时依法履行信息披露义务。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s2",
+              "text": "同时，《保守国家秘密法》《民法典》《反不正当竞争法》也规定了国家秘密、商业秘密的保密要求。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s3",
+              "text": "考虑到上市公司活动复杂，部分应当披露的信息可能属于国家秘密或商业秘密，公开后可能损害国家安全和利益，或者损害公司、他人利益，中国证监会部分监管规则和交易所《股票上市规则》等规定了披露暂缓、豁免制度，在公开原则和保密要求之间加以均衡。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s4",
+              "text": "从实践看，豁免披露制度发挥了重要作用，但相关制度安排散见在不同规则中，部分信息披露义务人或者投资者不熟悉、不了解相关制度安排，不理解豁免披露的基本原则和精神。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s5",
+              "text": "也有个别信息披露义务人以涉密为名开展业务宣传，引发泄密风险。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s6",
+              "text": "还有个别信息披露义务人涉嫌滥用豁免制度，规避披露义务。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s7",
+              "text": "为落实新修订的《保守国家秘密法》以及《国务院办公厅转发中国证监会等部门<关于进一步做好资本市场财务造假综合惩防工作的意见>的通知》等文件精神，进一步规范信息披露暂缓、豁免行为，有必要制定统一的专门规定。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+      "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+      "title": "二、主要内容",
+      "level": 2,
+      "reading_guide": {
+        "has": "豁免范围/国家秘密/商业秘密/暂缓披露/豁免披露/代称汇总隐去关键信息/内部审核程序/登记管理/报送证监局交易所/违规处罚",
+        "for": [
+          "豁免条件",
+          "披露方式",
+          "公司责任",
+          "监管处罚"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0",
+          "para_index": 0,
+          "content": "一是明确豁免范围。首先要求上市公司审慎确定暂缓与豁免披露事项。将可以豁免的事项分为两类，一类是国家秘密或者其他公开后可能违反国家保密规定、管理要求的信息，统称国家秘密；另一类是商业秘密或者保密商务信息，统称商业秘密。对于商业秘密，列举了允许豁免的情形。\n二是规定豁免方式。包括三种：一是豁免按时披露临时报告，也就是暂缓；二是豁免披露临时报告；三是采用代称、汇总概括或者隐去关键信息等方式豁免披露定期报告、临时报告中的有关内容。\n三是压实公司责任。要求上市公司制定披露豁免制度，明确内部审核程序；要求不得以任何方式泄密，不得以涉密为名进行宣传；要求对豁免披露事项进行登记管理，登记材料定期向证监局和证券交易所报送。\n四是强化外部监管。对未按照规定建立豁免披露制度的，依规处理；对不符合条件豁免披露的，追究信息披露违法违规责任；对利用豁免披露从事内幕交易、操纵市场等违法行为的，依法处罚。",
+          "sentences": [
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s0",
+              "text": "一是明确豁免范围。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s1",
+              "text": "首先要求上市公司审慎确定暂缓与豁免披露事项。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s2",
+              "text": "将可以豁免的事项分为两类，一类是国家秘密或者其他公开后可能违反国家保密规定、管理要求的信息，统称国家秘密；",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s3",
+              "text": "另一类是商业秘密或者保密商务信息，统称商业秘密。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s4",
+              "text": "对于商业秘密，列举了允许豁免的情形。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s5",
+              "text": "二是规定豁免方式。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s6",
+              "text": "包括三种：一是豁免按时披露临时报告，也就是暂缓；",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s7",
+              "text": "二是豁免披露临时报告；",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s8",
+              "text": "三是采用代称、汇总概括或者隐去关键信息等方式豁免披露定期报告、临时报告中的有关内容。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s9",
+              "text": "三是压实公司责任。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s10",
+              "text": "要求上市公司制定披露豁免制度，明确内部审核程序；",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s11",
+              "text": "要求不得以任何方式泄密，不得以涉密为名进行宣传；",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s12",
+              "text": "要求对豁免披露事项进行登记管理，登记材料定期向证监局和证券交易所报送。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s13",
+              "text": "四是强化外部监管。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s14",
+              "text": "对未按照规定建立豁免披露制度的，依规处理；",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 14
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s15",
+              "text": "对不符合条件豁免披露的，追究信息披露违法违规责任；",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 15
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s16",
+              "text": "对利用豁免披露从事内幕交易、操纵市场等违法行为的，依法处罚。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+                "paragraph_index": 0,
+                "sentence_index": 16
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况",
+      "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况",
+      "title": "三、公开征求意见采纳情况",
+      "level": 2,
+      "reading_guide": {
+        "has": "公开征求意见时间/收到意见数/商业秘密豁免修改/第七条/其他义务人纳入/第十三条/第十四条/信息披露事务管理制度衔接/第三十一条",
+        "for": [
+          "立法采纳",
+          "条款修改",
+          "制度设计",
+          "意见处理"
+        ],
+        "skip": false
+      },
+      "paragraphs": [
+        {
+          "paragraph_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0",
+          "para_index": 0,
+          "content": "《披露豁免规定》于 2024 年 12月 27 日至 2025 年1 月26 日向社会公开征求意见。总体看，市场认为《披露豁免规定》整合了现有规定，便于上市公司更好理解具体情形和要求，满足上市公司豁免披露诉求。公开征求意见期间，共收到意见建议 24 条。主要意见及采纳情况如下：\n一是关于商业秘密允许豁免披露的情形。有意见提出，建议豁免披露情形增加对上市公司自身经营信息的保护。经研究，采纳相关意见，修改第七条有关规定。有意见提出，建议将上市公司业务信息、投资信息等纳入适用范围。经研究，该类信息可归为经营信息，适用相关条款。\n二是关于其他信息披露义务人登记报送要求。有意见提出，建议明确其他信息披露义务人涉及暂缓、豁免事项的登记主体与责任义务。经研究，采纳相关意见，修改第十三条、第十四条有关规定，将其他信息披露义务人纳入。\n三是关于豁免披露制度。有意见提出，多数公司披露暂缓、豁免频次不高，相比单独制定制度，在现有信息披露事务管理制度中加入相关条款更具可行性。经研究，采纳相关意见，《上市公司信息披露管理办法》第三十一条明确豁免披露制度是信息披露事务管理制度的内容之一，规则已做衔接，上市公司可单独制定豁免披露制度，也可以在信息披露事务管理制度中制定相关条款。",
+          "sentences": [
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s0",
+              "text": "《披露豁免规定》于 2024 年 12月 27 日至 2025 年1 月26 日向社会公开征求意见。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 0
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s1",
+              "text": "总体看，市场认为《披露豁免规定》整合了现有规定，便于上市公司更好理解具体情形和要求，满足上市公司豁免披露诉求。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 1
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s2",
+              "text": "公开征求意见期间，共收到意见建议 24 条。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 2
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s3",
+              "text": "主要意见及采纳情况如下：\n一是关于商业秘密允许豁免披露的情形。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 3
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s4",
+              "text": "有意见提出，建议豁免披露情形增加对上市公司自身经营信息的保护。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 4
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s5",
+              "text": "经研究，采纳相关意见，修改第七条有关规定。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 5
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s6",
+              "text": "有意见提出，建议将上市公司业务信息、投资信息等纳入适用范围。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 6
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s7",
+              "text": "经研究，该类信息可归为经营信息，适用相关条款。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 7
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s8",
+              "text": "二是关于其他信息披露义务人登记报送要求。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 8
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s9",
+              "text": "有意见提出，建议明确其他信息披露义务人涉及暂缓、豁免事项的登记主体与责任义务。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 9
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s10",
+              "text": "经研究，采纳相关意见，修改第十三条、第十四条有关规定，将其他信息披露义务人纳入。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 10
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s11",
+              "text": "三是关于豁免披露制度。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 11
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s12",
+              "text": "有意见提出，多数公司披露暂缓、豁免频次不高，相比单独制定制度，在现有信息披露事务管理制度中加入相关条款更具可行性。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 12
+              }
+            },
+            {
+              "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s13",
+              "text": "经研究，采纳相关意见，《上市公司信息披露管理办法》第三十一条明确豁免披露制度是信息披露事务管理制度的内容之一，规则已做衔接，上市公司可单独制定豁免披露制度，也可以在信息披露事务管理制度中制定相关条款。",
+              "location": {
+                "doc_id": "doc_507deebcb3e2",
+                "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况",
+                "paragraph_index": 0,
+                "sentence_index": 13
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ent_195abbcc0b96",
+      "entity_type": "Organization",
+      "mention": "中国证监会",
+      "canonical_name": "中国证监会",
+      "attributes": {},
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明_p0_s0",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_252987197d21",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司信息披露暂缓与豁免管理规定》",
+      "canonical_name": "上市公司信息披露暂缓与豁免管理规定",
+      "attributes": {
+        "short_name": "《披露豁免规定》"
+      },
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明_p0_s0",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_542a691cf91a",
+      "entity_type": "LegalDocument",
+      "mention": "《证券法》",
+      "canonical_name": "证券法",
+      "attributes": {},
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s0",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_9abea0a7341f",
+      "entity_type": "LegalDocument",
+      "mention": "《保守国家秘密法》",
+      "canonical_name": "保守国家秘密法",
+      "attributes": {},
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s2",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_75e04b1311a9",
+      "entity_type": "LegalDocument",
+      "mention": "《民法典》",
+      "canonical_name": "民法典",
+      "attributes": {},
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s2",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_392391a70fab",
+      "entity_type": "LegalDocument",
+      "mention": "《反不正当竞争法》",
+      "canonical_name": "反不正当竞争法",
+      "attributes": {},
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s2",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f75fa2b5bff6",
+      "entity_type": "LegalDocument",
+      "mention": "《股票上市规则》",
+      "canonical_name": "股票上市规则",
+      "attributes": {},
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s3",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f0584c1b34be",
+      "entity_type": "LegalDocument",
+      "mention": "《国务院办公厅转发中国证监会等部门<关于进一步做好资本市场财务造假综合惩防工作的意见>的通知》",
+      "canonical_name": "国务院办公厅转发中国证监会等部门关于进一步做好资本市场财务造假综合惩防工作的意见的通知",
+      "attributes": {},
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s7",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况_p0_s7"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_d14d87589864",
+      "entity_type": "",
+      "mention": "国家秘密",
+      "canonical_name": "国家秘密",
+      "attributes": {},
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s2",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_705af211cff3",
+      "entity_type": "",
+      "mention": "商业秘密",
+      "canonical_name": "商业秘密",
+      "attributes": {},
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s3",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s3"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_eb30d2ee33e3",
+      "entity_type": "",
+      "mention": "暂缓",
+      "canonical_name": "暂缓",
+      "attributes": {},
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s6",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s6"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_13a20059b55f",
+      "entity_type": "",
+      "mention": "豁免披露临时报告",
+      "canonical_name": "豁免披露临时报告",
+      "attributes": {},
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s7",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s7"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_de56b264951f",
+      "entity_type": "",
+      "mention": "代称",
+      "canonical_name": "代称",
+      "attributes": {},
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s8",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s8"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_fd1409da2153",
+      "entity_type": "",
+      "mention": "汇总概括",
+      "canonical_name": "汇总概括",
+      "attributes": {},
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s8",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s8"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_5de20cd593e2",
+      "entity_type": "",
+      "mention": "隐去关键信息",
+      "canonical_name": "隐去关键信息",
+      "attributes": {},
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s8",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容_p0_s8"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_3adce6f259b1",
+      "entity_type": "Date",
+      "mention": "2024 年 12 月 27 日",
+      "canonical_name": "2024-12-27",
+      "attributes": {},
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s0",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_8b69e9dc5172",
+      "entity_type": "Date",
+      "mention": "2025 年 1 月 26 日",
+      "canonical_name": "2025-01-26",
+      "attributes": {},
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s0",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s0"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_1a87dab3257b",
+      "entity_type": "MonetaryAmount",
+      "mention": "24 条",
+      "canonical_name": "24",
+      "attributes": {
+        "unit": "条"
+      },
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s2",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s2"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_f99c4de5afd2",
+      "entity_type": "LegalDocument",
+      "mention": "《上市公司信息披露管理办法》",
+      "canonical_name": "上市公司信息披露管理办法",
+      "attributes": {},
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s13",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s13"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ent_eda16f1e27ed",
+      "entity_type": "",
+      "mention": "豁免披露制度",
+      "canonical_name": "豁免披露制度",
+      "attributes": {},
+      "sentence_id": "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s13",
+      "sentence_ids": [
+        "doc_507deebcb3e2#《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况_p0_s13"
+      ],
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "b_97b16f1cb6fd_rel_93d852540d27",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_252987197d21",
+      "tail_entity_id": "ent_542a691cf91a",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_507deebcb3e2",
+        "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况",
+        "paragraph_index": 0,
+        "sentence_index": 0
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_97b16f1cb6fd_rel_dd445f806208",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_252987197d21",
+      "tail_entity_id": "ent_9abea0a7341f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_507deebcb3e2",
+        "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_97b16f1cb6fd_rel_294b49b298f1",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_252987197d21",
+      "tail_entity_id": "ent_75e04b1311a9",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_507deebcb3e2",
+        "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_97b16f1cb6fd_rel_41234a061f89",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_252987197d21",
+      "tail_entity_id": "ent_392391a70fab",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_507deebcb3e2",
+        "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_97b16f1cb6fd_rel_204a39afa0a5",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_252987197d21",
+      "tail_entity_id": "ent_f75fa2b5bff6",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_507deebcb3e2",
+        "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_97b16f1cb6fd_rel_eb67374c52e2",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_252987197d21",
+      "tail_entity_id": "ent_9abea0a7341f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_507deebcb3e2",
+        "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况",
+        "paragraph_index": 0,
+        "sentence_index": 7
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_97b16f1cb6fd_rel_a1c92f8a83e7",
+      "relation_type": "references_law",
+      "head_entity_id": "ent_252987197d21",
+      "tail_entity_id": "ent_f0584c1b34be",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_507deebcb3e2",
+        "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 一、背景情况",
+        "paragraph_index": 0,
+        "sentence_index": 7
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_97b16f1cb6fd_rel_20df227240ae",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_252987197d21",
+      "tail_entity_id": "ent_d14d87589864",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_507deebcb3e2",
+        "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 2
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_97b16f1cb6fd_rel_72b3eeb069a5",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_252987197d21",
+      "tail_entity_id": "ent_705af211cff3",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_507deebcb3e2",
+        "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 3
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_97b16f1cb6fd_rel_8983cd6daccf",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_252987197d21",
+      "tail_entity_id": "ent_eb30d2ee33e3",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_507deebcb3e2",
+        "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 6
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_97b16f1cb6fd_rel_8f002703b058",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_252987197d21",
+      "tail_entity_id": "ent_13a20059b55f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_507deebcb3e2",
+        "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 7
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_97b16f1cb6fd_rel_5a615f379e09",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_252987197d21",
+      "tail_entity_id": "ent_de56b264951f",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_507deebcb3e2",
+        "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 8
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_97b16f1cb6fd_rel_70998f22deb0",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_252987197d21",
+      "tail_entity_id": "ent_fd1409da2153",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_507deebcb3e2",
+        "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 8
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_97b16f1cb6fd_rel_780b8392c6b9",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_252987197d21",
+      "tail_entity_id": "ent_5de20cd593e2",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_507deebcb3e2",
+        "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 二、主要内容",
+        "paragraph_index": 0,
+        "sentence_index": 8
+      },
+      "source": "auto",
+      "confidence": 1.0
+    },
+    {
+      "relation_id": "b_97b16f1cb6fd_rel_d1aa5b9470f9",
+      "relation_type": "defines_term",
+      "head_entity_id": "ent_f99c4de5afd2",
+      "tail_entity_id": "ent_eda16f1e27ed",
+      "properties": {},
+      "evidence": {
+        "doc_id": "doc_507deebcb3e2",
+        "section_path": "《上市公司信息披露暂缓与豁免管理规定》立法说明 > 三、公开征求意见采纳情况",
+        "paragraph_index": 0,
+        "sentence_index": 13
+      },
+      "source": "auto",
+      "confidence": 1.0
+    }
+  ],
+  "rejected": []
+}
